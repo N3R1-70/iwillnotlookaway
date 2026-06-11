@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<!-- Google Analytics 4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RTTRBJLDQQ"></script>
+<!-- Google Analytics 4 + Consent Mode v2 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HY29CH99B7"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'analytics_storage': 'denied',
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied'
+});
 gtag('js', new Date());
-gtag('config', 'G-RTTRBJLDQQ');
+gtag('config', 'G-HY29CH99B7');
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,6 +120,13 @@ h1 em{font-style:italic;color:var(--glow);font-weight:400}
 .news-body{font-size:1rem;line-height:1.85;color:var(--dust);margin-bottom:10px}
 .news-source{font-size:.78rem;color:var(--ash);margin-top:14px}
 .news-source a{color:var(--ash);text-decoration:underline}
+#consent-banner{position:fixed;bottom:0;left:0;right:0;z-index:300;background:rgba(8,8,8,.98);backdrop-filter:blur(8px);border-top:1px solid var(--blood);padding:18px 24px;display:none;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
+#consent-text{font-size:.85rem;color:var(--dust);max-width:560px;margin:0;line-height:1.6}
+.consent-btn{font-family:'Source Serif 4',serif;font-size:.72rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;padding:10px 26px;transition:all .3s}
+#consent-accept{color:var(--bone);background:var(--blood);border:1px solid var(--ember)}
+#consent-accept:hover{background:var(--ember)}
+#consent-decline{color:var(--ash);background:none;border:1px solid var(--line)}
+#consent-decline:hover{color:var(--ghost);border-color:var(--ash)}
 footer{background:var(--void);color:var(--line);padding:40px 48px;text-align:center;font-size:.75rem;letter-spacing:.08em;border-top:1px solid var(--line)}
 [dir="rtl"] .news-timeline{padding-left:0;padding-right:32px}
 [dir="rtl"] .news-timeline::before{left:auto;right:0}
@@ -1575,6 +1588,12 @@ footer{background:var(--void);color:var(--line);padding:40px 48px;text-align:cen
 </div>
 </div>
 
+<div id="consent-banner">
+  <p id="consent-text">Questo sito usa Google Analytics per contare le visite in forma anonima. Nessun dato viene venduto o condiviso.</p>
+  <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
+  <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
+</div>
+
 <footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p></footer>
 
 <script>
@@ -1662,6 +1681,7 @@ function setLang(l) {
       history.replaceState(null, "", "/" + l + "/" + window.location.hash);
     }
   } catch(e) {}
+  if (typeof CONSENT_T !== "undefined") updateConsentTexts();
 }
 
 function showPage(p) {
@@ -1691,6 +1711,40 @@ function toggleManifesto() {
   if (param && T[param]) setLang(param);
   var hash = window.location.hash.replace("#","");
   if (hash && document.getElementById("page-"+hash)) showPage(hash);
+})();
+
+var CONSENT_T = {
+it:{txt:"Questo sito usa Google Analytics per contare le visite in forma anonima. Nessun dato viene venduto o condiviso.",ok:"Accetto",no:"Rifiuto"},
+en:{txt:"This site uses Google Analytics to count visits anonymously. No data is sold or shared.",ok:"Accept",no:"Decline"},
+fr:{txt:"Ce site utilise Google Analytics pour compter les visites de façon anonyme. Aucune donnée n'est vendue ni partagée.",ok:"J'accepte",no:"Je refuse"},
+de:{txt:"Diese Website nutzt Google Analytics zur anonymen Besucherzählung. Keine Daten werden verkauft oder geteilt.",ok:"Akzeptieren",no:"Ablehnen"},
+zh:{txt:"本网站使用Google Analytics匿名统计访问量。不出售或共享任何数据。",ok:"接受",no:"拒绝"},
+ar:{txt:"يستخدم هذا الموقع Google Analytics لإحصاء الزيارات بشكل مجهول. لا تُباع أي بيانات أو تُشارك.",ok:"أوافق",no:"أرفض"},
+es:{txt:"Este sitio usa Google Analytics para contar visitas de forma anónima. Ningún dato se vende ni se comparte.",ok:"Acepto",no:"Rechazo"},
+pt:{txt:"Este site usa o Google Analytics para contar visitas de forma anónima. Nenhum dado é vendido ou partilhado.",ok:"Aceito",no:"Recuso"},
+tr:{txt:"Bu site ziyaretleri anonim olarak saymak için Google Analytics kullanır. Hiçbir veri satılmaz veya paylaşılmaz.",ok:"Kabul",no:"Reddet"},
+he:{txt:"אתר זה משתמש ב-Google Analytics לספירת ביקורים באופן אנונימי. שום נתון אינו נמכר או משותף.",ok:"מסכים",no:"דוחה"}
+};
+function updateConsentTexts(){
+  var c = CONSENT_T[currentLang] || CONSENT_T.it;
+  setText("consent-text", c.txt);
+  setText("consent-accept", c.ok);
+  setText("consent-decline", c.no);
+}
+function consentChoice(ok){
+  try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
+  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); }
+  document.getElementById("consent-banner").style.display = "none";
+}
+(function(){
+  var v = null;
+  try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
+  if(v === "granted"){
+    gtag('consent','update',{'analytics_storage':'granted'});
+  } else if(v !== "denied"){
+    document.getElementById("consent-banner").style.display = "flex";
+    updateConsentTexts();
+  }
 })();
 </script>
 </body>

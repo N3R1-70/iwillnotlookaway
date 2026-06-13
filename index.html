@@ -157,6 +157,12 @@ a.lang-btn{text-decoration:none;display:inline-block}
 .mrow .mtit{color:var(--ghost);font-size:1.1rem;font-family:'EB Garamond',serif}
 .mrow .marr{float:right;color:var(--ash)}
 @media(max-width:760px){.home-news{grid-template-columns:1fr}.hero-mark{width:120px}.hero-hook{font-size:1.15rem}}
+.btn-share{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--dust);background:none;border:1px solid var(--line);padding:10px 22px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;transition:color .3s,border-color .3s;vertical-align:middle}
+.btn-share:hover{color:var(--ghost);border-color:var(--ember)}
+.btn-share svg{width:14px;height:14px;fill:currentColor}
+.news-toggle + .btn-share{margin-left:12px}
+.share-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--ember);color:var(--bone);padding:12px 24px;font-size:.85rem;letter-spacing:.05em;opacity:0;pointer-events:none;transition:opacity .3s;z-index:99999}
+.share-toast.show{opacity:1}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/", "inLanguage": "it", "description": "Cinque manifesti fondati sul diritto internazionale: Israele, Russia, Sudan, Stati Uniti, Flotilla. Analisi giuridiche, petizioni e non riconoscimento.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script><link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="theme-color" content="#0a0a0c"/></head>
 <body>
@@ -249,7 +255,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct">Per il Non Riconoscimento dello Stato di Israele</div>
 <div class="manifesto-card-sub" id="t-mcs">Fondamento giuridico, etico e politico di una rottura necessaria · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr" onclick="toggleManifesto()">Leggi il testo integrale</button>
+<button class="btn-read" id="t-mcr" onclick="toggleManifesto()">Leggi il testo integrale</button><button class="btn-share" type="button" data-share-key="m1"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <a class="btn-pdf" href="/manifesto_it.pdf" id="pdf-card" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp">Scarica PDF</span></a>
 </div>
 </div>
@@ -351,7 +357,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct2">Per il Non Riconoscimento della Condotta della Federazione Russa</div>
 <div class="manifesto-card-sub" id="t-mcs2">Fondamento giuridico, etico e politico di una coerenza necessaria · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr2" onclick="toggleM('ru')">Leggi il testo integrale</button>
+<button class="btn-read" id="t-mcr2" onclick="toggleM('ru')">Leggi il testo integrale</button><button class="btn-share" type="button" data-share-key="m-ru"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <a class="btn-pdf" href="/manifesto_ru_it.pdf" id="pdf-card2" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp2">Scarica PDF</span></a>
 </div>
 </div>
@@ -431,7 +437,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct3">Per il Sudan — Il Genocidio da cui il Mondo Distoglie lo Sguardo</div>
 <div class="manifesto-card-sub" id="t-mcs3">Fondamento giuridico, etico e politico di un'attenzione dovuta · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr3" onclick="toggleM('sd')">Leggi il testo integrale</button>
+<button class="btn-read" id="t-mcr3" onclick="toggleM('sd')">Leggi il testo integrale</button><button class="btn-share" type="button" data-share-key="m-sd"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <a class="btn-pdf" href="/manifesto_sd_it.pdf" id="pdf-card3" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp3">Scarica PDF</span></a>
 </div>
 </div>
@@ -517,7 +523,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct4">Per il Non Riconoscimento della Condotta degli Stati Uniti d'America</div>
 <div class="manifesto-card-sub" id="t-mcs4">Fondamento giuridico, etico e politico di un principio che non ammette eccezioni · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr4" onclick="toggleM('us')">Leggi il testo integrale</button>
+<button class="btn-read" id="t-mcr4" onclick="toggleM('us')">Leggi il testo integrale</button><button class="btn-share" type="button" data-share-key="m-us"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <a class="btn-pdf" href="/manifesto_us_it.pdf" id="pdf-card4" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp4">Scarica PDF</span></a>
 </div>
 </div>
@@ -594,7 +600,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct5">Per la Libertà dei Mari — Il Sequestro della Flotilla</div>
 <div class="manifesto-card-sub" id="t-mcs5">Fondamento giuridico, etico e politico del diritto di non restare a guardare · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr5" onclick="toggleM('fl')">Leggi il testo integrale</button>
+<button class="btn-read" id="t-mcr5" onclick="toggleM('fl')">Leggi il testo integrale</button><button class="btn-share" type="button" data-share-key="m-fl"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <a class="btn-pdf" href="/manifesto_fl_it.pdf" id="pdf-card5" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp5">Scarica PDF</span></a>
 </div>
 </div>
@@ -676,7 +682,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct6">Per il Diritto d'Asilo — Contro l'Esternalizzazione della Frontiera Europea</div>
 <div class="manifesto-card-sub" id="t-mcs6">Fondamento giuridico, etico e politico di una coerenza che l'Europa deve a se stessa · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr6" onclick="toggleM('im')">Leggi il testo integrale</button>
+<button class="btn-read" id="t-mcr6" onclick="toggleM('im')">Leggi il testo integrale</button><button class="btn-share" type="button" data-share-key="m-im"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 </div>
 </div>
 <div id="manifesto-text-im">
@@ -728,7 +734,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">12 giugno 2026 — Unione Europea</p>
 <h3 class="news-title">Il nuovo Patto UE sull'asilo entra in vigore</h3>
 <div class="news-quote">«Etichettare un Paese come "sicuro" non lo rende sicuro.» — Amnesty International</div>
-<button class="btn-read news-toggle" data-news="nd-pact" onclick="toggleNews('nd-pact')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-pact" onclick="toggleNews('nd-pact')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-pact"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-pact">
 <p class="news-label">Il fatto</p><p class="news-body">Il 12 giugno 2026 è entrato in vigore il Regolamento europeo sulle procedure d'asilo, parte del Patto UE su migrazione e asilo. Introduce procedure accelerate alle frontiere, «return hub» offshore per i respinti e una lista europea di «Paesi terzi sicuri» verso cui trasferire i richiedenti.</p>
 <p class="news-label">Commento giuridico</p><p class="news-body">Il trasferimento verso «Paesi terzi sicuri» senza esame individuale e ricorso sospensivo effettivo confligge con il principio di non-refoulement (art. 33 Convenzione di Ginevra) e con il divieto di espulsioni collettive (Protocollo 4 CEDU). La designazione di un Paese come «sicuro» resta sindacabile dal giudice, come ha stabilito la CGUE il 1° agosto 2025.</p>
@@ -741,7 +747,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">11 giugno 2026 — Lussemburgo</p>
 <h3 class="news-title">Albania, il parere della CGUE: «legittimi, ma i diritti vanno garantiti»</h3>
 <div class="news-quote">«Gli Stati restano liberi di collocare i centri in Albania» — ma resta non comprovato il rispetto degli standard minimi di trattamento. (Parere AG Laila Medina)</div>
-<button class="btn-read news-toggle" data-news="nd-alb" onclick="toggleNews('nd-alb')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-alb" onclick="toggleNews('nd-alb')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-alb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-alb">
 <p class="news-label">Il fatto</p><p class="news-body">L'11 giugno 2026 l'Avvocata Generale della Corte di giustizia UE, Laila Medina, ha depositato il proprio parere sul caso di due migranti detenuti nei centri italiani in Albania, rinviato dalla Corte d'appello di Roma. Conferma che collocare i centri in Albania è legittimo, ma che non è dimostrato il rispetto degli standard minimi di trattamento previsti dal diritto UE. È il secondo parere dopo quello, più favorevole, di aprile 2026.</p>
 <p class="news-label">Commento giuridico</p><p class="news-body">Il parere dell'Avvocato Generale non vincola i giudici: la sentenza definitiva è attesa nei prossimi mesi e potrebbe ribaltarlo. Resta in vigore la sentenza CGUE del 1° agosto 2025 (cause C-758/24 e C-759/24), che ha limitato la designazione dei «Paesi sicuri». Lo status dello schema albanese è quindi conteso, non acquisito.</p>
@@ -754,7 +760,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">Giugno 2026 — Omer Bartov, «Israel: What Went Wrong?»</p>
 <h3 class="news-title">Gaza e la parola «genocidio»: cosa hanno stabilito gli enti terzi, e perché pesa la voce di uno storico del genocidio</h3>
 <div class="news-quote">«La mia conclusione ineludibile è che Israele sta commettendo un genocidio contro il popolo palestinese.» — Omer Bartov, storico dell'Olocausto e del genocidio (Brown University), New York Times, 15 luglio 2025</div>
-<button class="btn-read news-toggle" data-news="nd-brt" onclick="toggleNews('nd-brt')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-brt" onclick="toggleNews('nd-brt')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-brt"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-brt">
 <p class="news-label">Il fatto</p><p class="news-body">Omer Bartov — professore di Studi sull'Olocausto e sul genocidio alla Brown University, israelo-americano, veterano dell'esercito israeliano — ha modificato pubblicamente la propria posizione su Gaza. Nel novembre 2023 riteneva «molto probabili» crimini di guerra e contro l'umanità, ma «senza prova di genocidio»; nel luglio 2025 è giunto alla conclusione opposta. Nel libro «Israel: What Went Wrong?» (2026) sostiene che la campagna militare mira a rendere Gaza inabitabile per la sua popolazione. Non è una voce isolata: nel settembre 2025 la Commissione d'inchiesta indipendente dell'ONU ha concluso, in un rapporto formale, che Israele sta commettendo genocidio a Gaza (oltre 60.000 vittime palestinesi documentate). Israele respinge tali qualificazioni.</p>
 <p class="news-label">Commento giuridico</p><p class="news-body">Il dibattito pubblico confonde determinazioni di peso giuridico diverso; isolarle è ciò che rende l'analisi inattaccabile. La Corte internazionale di giustizia, nel gennaio 2024 (Sudafrica c. Israele), ha ordinato misure provvisorie ritenendo «plausibile» il rischio per i diritti tutelati dalla Convenzione sul genocidio: non è una sentenza di merito, il giudizio è in corso. La Corte penale internazionale, nel novembre 2024, ha emesso mandati d'arresto per Netanyahu e Gallant per crimini di guerra e contro l'umanità — non per genocidio. La Commissione d'inchiesta dell'ONU (settembre 2025) ha invece formulato una determinazione formale di genocidio, così come, in propri rapporti, Amnesty International e Human Rights Watch.</p>
@@ -767,7 +773,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">Maggio–giugno 2026 — Taipei · Washington · Pechino</p>
 <h3 class="news-title">Taiwan, il prossimo test: la deterrenza vacilla e il precedente incoraggia Pechino</h3>
 <div class="news-quote">«L'ultima cosa di cui abbiamo bisogno è una guerra a 9.500 miglia di distanza.» — Donald Trump, di ritorno dal vertice con Xi Jinping, maggio 2026</div>
-<button class="btn-read news-toggle" data-news="nd-twn" onclick="toggleNews('nd-twn')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-twn" onclick="toggleNews('nd-twn')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-twn"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-twn">
 <p class="news-label">Il fatto</p><p class="news-body">Dopo il vertice di Pechino del maggio 2026, gli Stati Uniti hanno sospeso un pacchetto di armi da 14 miliardi di dollari destinato a Taiwan (missili e sistemi di difesa aerea), che Trump ha definito una «merce di scambio»; al ritorno ha dichiarato di non volere «una guerra a 9.500 miglia», dopo che Xi aveva avvertito che gestire male la questione di Taiwan potrebbe portare al «conflitto». Intanto la leader del Kuomintang Cheng Li-wun — prima leader del KMT a visitare Pechino in un decennio, dopo l'incontro con Xi ad aprile e un saggio su Foreign Affairs di marzo («Taiwan non deve scegliere») — è in tour negli USA per promuovere la «riconciliazione» USA-Cina. (Cheng è di linea pro-unificazione e ha definito l'invasione russa dell'Ucraina una guerra difensiva provocata dalla NATO: non è una storia di vittime semplici.)</p>
 <p class="news-label">Commento giuridico</p><p class="news-body">La regola che protegge Taiwan è la stessa che proteggeva il Venezuela: il divieto dell'uso della forza (art. 2(4) della Carta ONU), norma imperativa (jus cogens). Quando quella regola viene sospesa per una potenza — gli USA che catturano un capo di Stato a Caracas — si indebolisce per tutte, e Pechino prende nota. Una «riunificazione» imposta con la forza sarebbe aggressione secondo lo stesso identico standard: il precedente la rende più pensabile, e la deterrenza occidentale che vacilla la rende più praticabile.</p>
@@ -780,7 +786,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">6 giugno 2026 — Tribeca Film Festival, New York</p>
 <h3 class="news-title">«Pensavo violentassero solo i palestinesi» — battute sullo stupro sul red carpet di Tribeca</h3>
 <div class="news-quote">«Sono stato violentato solo da due cani israeliani» — Elon Gold, attore. «Pensavo violentassero solo i palestinesi» — Lizzy Savetsky, influencer. Sul red carpet del Tribeca Film Festival, 6 giugno 2026.</div>
-<button class="btn-read news-toggle" data-news="nd-trib" onclick="toggleNews('nd-trib')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-trib" onclick="toggleNews('nd-trib')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-trib"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-trib">
 <p class="news-label">Il fatto</p>
 <p class="news-body">Durante la première del film <em>The Wedding Entertainer</em>, girato in Israele, l'attore Elon Gold e l'influencer pro-Israele Lizzy Savetsky hanno riso pubblicamente riferendosi alle testimonianze documentate di stupro e sevizie sessuali con cani militari addestrati sui detenuti palestinesi nel carcere di Sde Teiman. Le testimonianze — raccolte da Middle East Eye, B'Tselem, dal relatore ONU Francesca Albanese, e riprese dal New York Times con un articolo di Nicholas Kristof — includono resoconti diretti di detenuti: uomini e donne incatenati a letti metallici, stuprati da soldati e da cani addestrati. Il Tribeca Film Festival ha condannato senza riserve le dichiarazioni: «La violenza sessuale e la sofferenza umana non dovrebbero mai essere derise o minimizzate».</p>
@@ -795,7 +801,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">Ricerca accademica</p>
 <h3 class="news-title">La scuola israeliana: la fabbrica del nemico</h3>
 <div class="news-quote">«Voi ci avete insegnato che sono un problema da risolvere. Quindi lo stiamo risolvendo.» — studente israeliano a Nurit Peled-Elhanan</div>
-<button class="btn-read news-toggle" data-news="nd-edu" onclick="toggleNews('nd-edu')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-edu" onclick="toggleNews('nd-edu')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-edu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-edu">
 <p class="news-label">Il fatto</p>
 <p class="news-body">Nurit Peled-Elhanan, professoressa emerita di Educazione linguistica all'Università Ebraica di Gerusalemme e autrice di <em>Palestine in Israeli School Books</em> (I.B. Tauris, 2012), ha documentato sistematicamente come il sistema scolastico statale israeliano — laico e religioso — presenti i palestinesi come un problema da eliminare. Dalla scuola primaria alle superiori, i massacri storici contro i palestinesi vengono spiegati come "eventi con esiti positivi per gli ebrei". L'insegnamento dell'Olocausto, secondo la ricercatrice, non è strutturato per generare empatia universale ma per traumatizzare gli studenti e alimentare la paura dell'altro — fino a far occupare ai palestinesi il posto simbolico dei persecutori europei. «Ben-Gurion disse che avrebbe accettato il risarcimento dalla Germania per difenderci dagli arabi nazisti. Così i palestinesi sono diventati i nostri potenziali sterminatori».</p>
@@ -810,7 +816,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">Giugno 2026</p>
 <h3 class="news-title">Ben Gvir propone di rapire donne e bambini libanesi</h3>
 <div class="news-quote">«Rapire donne e bambini e portarli nelle prigioni dei terroristi» — Itamar Ben Gvir, Ministro della Sicurezza Nazionale di Israele</div>
-<button class="btn-read news-toggle" data-news="nd-leb" onclick="toggleNews('nd-leb')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-leb" onclick="toggleNews('nd-leb')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-leb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-leb">
 <p class="news-label">Commento giuridico</p>
 <p class="news-body">La dichiarazione di Ben Gvir configura un'aperta istigazione alla commissione di crimini di guerra. Il rapimento di civili è espressamente vietato dall'articolo 3 comune alle Convenzioni di Ginevra e costituisce un crimine di guerra ai sensi dell'articolo 8 dello Statuto di Roma. Un ministro in carica che invoca pubblicamente tali pratiche esercita una funzione di incitamento che può determinare responsabilità penale individuale.</p>
@@ -823,7 +829,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">Giugno 2026</p>
 <h3 class="news-title">Ben Gvir indagato dalla Procura di Roma — Flotilla</h3>
 <div class="news-quote">La Procura di Roma ha iscritto Ben Gvir nel registro degli indagati per la vicenda della Global Sumud Flotilla. Ben Gvir ha risposto attaccando l'Italia: «Il Paese delle ciabatte».</div>
-<button class="btn-read news-toggle" data-news="nd-flot" onclick="toggleNews('nd-flot')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-flot" onclick="toggleNews('nd-flot')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-flot"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-flot">
 <p class="news-label">Commento giuridico</p>
 <p class="news-body">L'iscrizione nel registro degli indagati da parte di un tribunale europeo segna un precedente significativo: per la prima volta la giustizia ordinaria di uno Stato membro dell'UE esercita giurisdizione su un ministro israeliano in carica. La risposta di Ben Gvir — un attacco allo Stato italiano — è essa stessa rivelatrice di una cultura dell'impunità strutturale.</p>
@@ -836,7 +842,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="news-date">Giugno 2026</p>
 <h3 class="news-title">Italia chiede sanzioni UE contro Ben Gvir</h3>
 <div class="news-quote">«Ho chiesto all'Alto Rappresentante Kallas di portare al Consiglio Affari Esteri una proposta di sanzioni nei confronti del ministro Ben Gvir» — Antonio Tajani, Ministro degli Esteri italiano</div>
-<button class="btn-read news-toggle" data-news="nd-eu" onclick="toggleNews('nd-eu')">Leggi l'analisi</button>
+<button class="btn-read news-toggle" data-news="nd-eu" onclick="toggleNews('nd-eu')">Leggi l'analisi</button><button class="btn-share" type="button" data-share-key="nd-eu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Condividi</span></button>
 <div class="news-detail" id="nd-eu">
 <p class="news-label">Commento giuridico</p>
 <p class="news-body">La richiesta italiana di sanzioni individuali contro un ministro israeliano rappresenta l'applicazione concreta del meccanismo previsto dagli artt. 40-41 ARSIWA: uno Stato che rifiuta di riconoscere come lecita la condotta di un altro e adotta misure concrete in risposta. È esattamente il modello che il manifesto invoca.</p>
@@ -1066,5 +1072,6 @@ else if(open.indexOf('m-')===0){var k=open.slice(2);box=document.getElementById(
 if(box){if(!box.classList.contains('open'))fn();scroll(box.previousElementSibling||box);}}
 }catch(e){}}
 setTimeout(go,80);})();</script>
+<script>/*share*/(function(){function curLang(){var m=location.pathname.match(/^\/(en|fr|de|es|pt|tr|zh|ar|he)(\/|$)/);return m?m[1]:"it";}var DONE="Link copiato";function toast(t){var d=document.createElement("div");d.className="share-toast";d.textContent=t;document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add("show");});setTimeout(function(){d.classList.remove("show");setTimeout(function(){d.remove();},400);},1800);}function shareItem(key,title){var url=location.origin+"/s/"+curLang()+"/"+key+".html";if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){toast(DONE);},function(){window.prompt(DONE,url);});}else{window.prompt(DONE,url);}}document.addEventListener("click",function(e){var b=e.target.closest("[data-share-key]");if(!b)return;e.preventDefault();e.stopPropagation();var key=b.getAttribute("data-share-key");var card=b.closest(".manifesto-card")||b.closest(".news-card");var te=card?card.querySelector(".manifesto-card-title,.news-title"):null;var title=te?te.textContent.trim():"I Will Not Look Away";shareItem(key,title);});})();</script>
 </body>
 </html>

@@ -26,7 +26,7 @@ gtag('config', 'G-RTTRBJLDQQ');
 <meta content="I Will Not Look Away" property="og:site_name"/>
 <meta content="I Will Not Look Away — Manifiestos de derecho internacional" property="og:title"/>
 <meta content="Cinco manifiestos fundados en el derecho internacional: Israel, Rusia, Sudán, Estados Unidos, la Flotilla. Análisis jurídicos y peticiones." property="og:description"/>
-<meta content="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1200&amp;q=80" property="og:image"/>
+<meta content="https://iwillnotlookaway.org/og-cover.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="I Will Not Look Away — SEE. FEEL. ACT." property="og:image:alt"/><meta content="https://iwillnotlookaway.org/og-cover.jpg" name="twitter:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&amp;family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;display=swap" rel="stylesheet"/>
 <style>
@@ -92,8 +92,8 @@ h1 em{font-style:italic;color:var(--glow);font-weight:400}
 .btn-pdf{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--ash);text-decoration:none;border:1px solid var(--line);padding:10px 24px;display:inline-flex;align-items:center;gap:8px;transition:color .3s,border-color .3s}
 .btn-pdf:hover{color:var(--ghost);border-color:var(--ash)}
 .btn-pdf svg{width:14px;height:14px;fill:currentColor}
-#manifesto-text,#manifesto-text-ru,#manifesto-text-sd,#manifesto-text-us,#manifesto-text-fl{display:none;margin-top:48px;border-top:1px solid var(--line);padding-top:48px}
-#manifesto-text.open,#manifesto-text-ru.open,#manifesto-text-sd.open,#manifesto-text-us.open,#manifesto-text-fl.open{display:block}
+#manifesto-text,#manifesto-text-ru,#manifesto-text-sd,#manifesto-text-us,#manifesto-text-fl,#manifesto-text-im,#manifesto-text-fame{display:none;margin-top:48px;border-top:1px solid var(--line);padding-top:48px}
+#manifesto-text.open,#manifesto-text-ru.open,#manifesto-text-sd.open,#manifesto-text-us.open,#manifesto-text-fl.open,#manifesto-text-im.open,#manifesto-text-fame.open{display:block}
 .manifesto-block h4{font-family:'EB Garamond',serif;font-size:clamp(1.3rem,2.2vw,1.8rem);font-weight:700;color:var(--ghost);margin:44px 0 14px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--line);padding-bottom:8px}
 .manifesto-block h3.mt{font-size:clamp(1.6rem,2.8vw,2.2rem);border-left:4px solid var(--blood);border-bottom:none;padding:0 0 0 20px;margin-bottom:28px;text-transform:none;color:var(--bone)}
 .manifesto-block h5{font-family:'EB Garamond',serif;font-size:1.05rem;font-weight:700;color:var(--pale);margin:26px 0 8px}
@@ -121,6 +121,12 @@ h1 em{font-style:italic;color:var(--glow);font-weight:400}
 .news-body{font-size:1rem;line-height:1.85;color:var(--dust);margin-bottom:10px}
 .news-source{font-size:.78rem;color:var(--ash);margin-top:14px}
 .news-source a{color:var(--ash);text-decoration:underline}
+.news-card{border:1px solid var(--line);padding:30px 36px;margin-bottom:24px;transition:border-color .3s}
+.news-card:hover{border-color:var(--ash)}
+.news-card .news-date{margin-bottom:10px}
+.news-toggle{margin-top:20px}
+.news-detail{display:none;margin-top:8px;border-top:1px solid var(--line);padding-top:24px}
+.news-detail.open{display:block}
 #consent-banner{position:fixed;bottom:0;left:0;right:0;z-index:300;background:rgba(8,8,8,.98);backdrop-filter:blur(8px);border-top:1px solid var(--blood);padding:18px 24px;display:none;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
 #consent-text{font-size:.85rem;color:var(--dust);max-width:560px;margin:0;line-height:1.6}
 .consent-btn{font-family:'Source Serif 4',serif;font-size:.72rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;padding:10px 26px;transition:all .3s}
@@ -137,12 +143,32 @@ footer{background:var(--void);color:var(--line);padding:40px 48px;text-align:cen
 .page-desc{font-size:1.05rem;font-style:italic;color:var(--dust);line-height:1.75;max-width:620px;margin-bottom:64px}
 .section-inner{padding:40px 24px 80px}.image-strip{grid-template-columns:1fr;height:auto}.strip-img{height:180px}h1{font-size:clamp(2.4rem,10vw,3.5rem)}.btn-secondary{display:none}.lang-btn{padding:7px 8px;font-size:.62rem}.nav-link{padding:8px 12px;font-size:.62rem}.news-timeline{padding-left:20px}.news-item::before{left:-24px}.page{padding-top:150px}}
 a.lang-btn{text-decoration:none;display:inline-block}
+.hero-mark{width:150px;height:auto;display:block;margin:0 auto 26px;filter:drop-shadow(0 4px 30px rgba(0,0,0,.6))}
+.hero-hook{max-width:600px;margin:26px auto 30px;font-family:'EB Garamond',serif;font-size:1.35rem;line-height:1.55;color:var(--ghost)}
+.hero-hook strong{color:var(--bone);font-weight:700}
+.breadth{margin-top:38px;font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ash)}
+.home-news{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+.hcard{border:1px solid var(--line);background:var(--surface);padding:24px;cursor:pointer;transition:border-color .3s}
+.hcard:hover{border-color:var(--ember)}
+.hcard .hdate{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--glow);margin-bottom:12px;font-family:'Source Serif 4',serif}
+.hcard .htitle{font-family:'EB Garamond',serif;font-size:1.2rem;font-weight:700;line-height:1.25;color:var(--bone)}
+.mrow{display:block;text-decoration:none;border-bottom:1px solid var(--line);padding:18px 4px;cursor:pointer}
+.mrow .mnum{color:var(--ember);font-size:.8rem;font-family:'Source Serif 4',serif;margin-right:20px;font-weight:700}
+.mrow .mtit{color:var(--ghost);font-size:1.1rem;font-family:'EB Garamond',serif}
+.mrow .marr{float:right;color:var(--ash)}
+@media(max-width:760px){.home-news{grid-template-columns:1fr}.hero-mark{width:120px}.hero-hook{font-size:1.15rem}}
+.btn-share{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--dust);background:none;border:1px solid var(--line);padding:10px 22px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;transition:color .3s,border-color .3s;vertical-align:middle}
+.btn-share:hover{color:var(--ghost);border-color:var(--ember)}
+.btn-share svg{width:14px;height:14px;fill:currentColor}
+.news-toggle + .btn-share{margin-left:12px}
+.share-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--ember);color:var(--bone);padding:12px 24px;font-size:.85rem;letter-spacing:.05em;opacity:0;pointer-events:none;transition:opacity .3s;z-index:99999}
+.share-toast.show{opacity:1}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/es/", "inLanguage": "es", "description": "Cinco manifiestos fundados en el derecho internacional: Israel, Rusia, Sudán, Estados Unidos, la Flotilla. Análisis jurídicos y peticiones.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script></head>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/es/", "inLanguage": "es", "description": "Cinco manifiestos fundados en el derecho internacional: Israel, Rusia, Sudán, Estados Unidos, la Flotilla. Análisis jurídicos y peticiones.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script><link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="theme-color" content="#0a0a0c"/></head>
 <body>
 <nav id="main-nav">
 <div id="nav-logo-wrap" onclick="showPage('home')">
-<img alt="I Will Not Look Away" id="nav-logo" src="logo.png"/>
+<img alt="I Will Not Look Away" id="nav-logo" src="/logo.png"/>
 </div>
 <div id="nav-links">
 <button class="nav-link" id="t-nav-scopo" onclick="showPage('home')">Propósito</button>
@@ -167,38 +193,44 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="page active" id="page-home">
 <section id="hero">
 <div id="hero-bg"></div>
-<div class="hero-content">
-<p class="hero-eyebrow" id="t-hl">I Will Not Look Away · 2026</p>
+<div class="hero-content" style="text-align:center">
+<img class="hero-mark" src="/mark.png" alt="I Will Not Look Away"/>
+<p class="hero-eyebrow" id="t-hl" style="justify-content:center">I Will Not Look Away · 2026</p>
 <h1 id="t-ht">SEE. FEEL. <em>ACT.</em></h1>
-<p class="hero-sub" id="t-hs">La ley se aplica a todos, o no se aplica a nadie.</p>
-<div class="hero-actions">
-<button class="btn-primary" id="t-cs" onclick="showPage('manifesti')">Los manifiestos</button>
-<button class="btn-secondary" id="t-cr" onclick="showPage('petizioni')">Las peticiones</button>
+<p class="hero-sub" id="t-hs" style="margin-left:auto;margin-right:auto">La ley se aplica a todos, o no se aplica a nadie.</p>
+<p class="hero-hook">Mirar hacia otro lado es el gesto más común ante la injusticia. <strong>Aquí, al menos, se convierte en una elección consciente.</strong></p>
+<div class="hero-actions" style="justify-content:center">
+<button class="btn-primary" onclick="showPage('petizioni')">Firmar</button>
+<button class="btn-secondary" onclick="showPage('manifesti')">Explorar los manifiestos</button>
 </div>
+<p class="breadth">Gaza · Ucrania · Sudán · Venezuela · Flotilla · Taiwán · Líbano</p>
 </div>
 </section>
-<div class="section-inner" style="padding-top:90px;padding-bottom:60px">
+<div class="section-inner" style="padding-top:80px;padding-bottom:40px">
+<p class="section-header">Últimas noticias</p>
+<div id="home-news" class="home-news"></div>
+</div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:40px">
+<p class="section-header">Los manifiestos</p>
+<div id="home-manifesti"></div>
+</div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:70px">
 <p class="section-header" id="t-sl">Propósito</p>
-
-
-
-
-
-
 <div class="scope-block active" id="sc-es">
 <p>Esta plataforma nació de una convicción simple e incómoda: que el derecho internacional no puede tener excepciones geopolíticas. Que <strong>el silencio, en un momento dado, se convierte en complicidad.</strong></p>
 <p>No represento una organización. No soy un movimiento político. Soy un ciudadano que ve, siente y elige actuar — con las únicas armas que el derecho pone en manos de quienes no tienen poder: <em>palabras precisas, hechos documentados, normas escritas.</em></p>
 <p>Esta plataforma alberga manifiestos fundados en el derecho internacional, noticias sobre declaraciones y hechos relevantes con su encuadre jurídico, y peticiones abiertas a la firma de quien comparta el principio de que <strong>ningún Estado está por encima del derecho.</strong></p>
 </div>
-
-
-
 </div>
-<div class="image-strip">
-<div class="strip-img"><img alt="" loading="lazy" src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&amp;q=70"/><div class="caption" id="t-c1">Gaza · 2023–2024</div></div>
-<div class="strip-img"><img alt="" loading="lazy" src="https://images.unsplash.com/photo-1568454537842-d933259bb258?w=600&amp;q=70"/><div class="caption" id="t-c2">Consejo de Seguridad · Veto</div></div>
-<div class="strip-img"><img alt="" loading="lazy" src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&amp;q=70"/><div class="caption" id="t-c3">Derecho Internacional · En silencio</div></div>
-</div>
+<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
+<p class="section-header">Mantente informado</p>
+<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Una síntesis esencial, solo cuando un hecho lo merece. Sin spam, sin algoritmo: tu correo sigue siendo tuyo.</p>
+<form data-ok="Se ha abierto tu aplicación de correo: envía el mensaje para confirmar la suscripción." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+<input type="email" required placeholder="tu@email.es" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
+<button type="submit" class="btn-primary">Suscribirse</button>
+</form>
+<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">Al suscribirte aceptas recibir actualizaciones de I Will Not Look Away. Cancela cuando quieras.</p>
+</section>
 </div>
 <div class="page" id="page-chisono">
 <div class="section-inner">
@@ -232,420 +264,64 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct">Por el No Reconocimiento del Estado de Israel</div>
 <div class="manifesto-card-sub" id="t-mcs">Fundamento jurídico, ético y político de una ruptura necesaria · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr" onclick="toggleManifesto()">Leer el texto íntegro</button>
+<a class="btn-read" href="/s/es/m1.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m1"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
 <a class="btn-pdf" href="/manifesto_es.pdf" id="pdf-card" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp">Descargar PDF</span></a>
 </div>
 </div>
-<div id="manifesto-text">
 
-
-
-
-
-
-<div class="manifesto-block active" id="b-es">
-<h3 class="mt">A quién se dirige este manifiesto</h3>
-<p>Este manifiesto está escrito para dos categorías de personas que el discurso público dominante tiende a contraponer artificialmente, pero que en realidad comparten la misma apuesta moral: que el derecho valga para todos, sin excepciones geopolíticas.</p>
-<p>Se dirige, en primer lugar, a todos aquellos —de cualquier nacionalidad, cultura o pertenencia religiosa— que no están moralmente dispuestos a aceptar los abusos cometidos por el Estado de Israel contra la población civil de Gaza y el Líbano. A quienes han visto las imágenes del fósforo blanco cayendo sobre las casas y han decidido que el silencio ya no es una posición sostenible.</p>
-<p>Se dirige, en segundo lugar y con igual fuerza, a todo ciudadano israelí y a todo judío de la diáspora que es hoy discriminado, ostracizado o culpabilizado por las acciones de un gobierno que no eligió, que cuestiona o contra el que ha luchado abiertamente. No son responsables de las decisiones militares y políticas de su Estado.</p>
-<p><em>Estos dos grupos no están en contradicción. Son las dos caras de una sola pregunta: ¿es posible que el derecho internacional sea respetado y que ningún ser humano pague por culpas que no ha cometido? La respuesta de este manifiesto es sí —y la condición para hacerlo realidad es llamar a las cosas por su nombre.</em></p>
-<h4>I. Preámbulo</h4>
-<p>Este manifiesto nace de un acto de conciencia racional, no de impulso emocional. Quienes suscriben este documento han observado, con creciente consternación intelectual, la evolución de una conducta estatal que ya no puede ser explicada dentro de las categorías ordinarias del uso de la fuerza en el conflicto armado. El punto de no retorno fue el uso sistemático y documentado del fósforo blanco sobre zonas civiles densamente pobladas —un arma cuya naturaleza indiscriminada e incendiaria está inequívocamente prohibida por el derecho internacional humanitario consuetudinario y convencional.</p>
-<p>Esta declaración no es un acto de antisemitismo, ni una negación del derecho del pueblo judío a la existencia y a la seguridad. Es un acto de fidelidad al derecho internacional —el mismo orden jurídico que el mundo construyó sobre las ruinas de la Segunda Guerra Mundial con la promesa de «nunca más».</p>
-<h4>II. El hecho desencadenante: el uso del fósforo blanco</h4>
-<h5>2.1 Naturaleza del arma</h5>
-<p>El fósforo blanco (WP) es una sustancia química que se inflama espontáneamente al contacto con el oxígeno, ardiendo a temperaturas superiores a los 800°C. Una vez encendido, sigue ardiendo hasta que se agota el oxígeno disponible o se consume completamente. Al entrar en contacto con tejidos humanos, penetra en profundidad y sigue ardiendo internamente, causando lesiones extremadamente graves, a menudo mortales y en todo caso permanentes.</p>
-<h5>2.2 Documentación de los usos</h5>
-<p>Human Rights Watch documentó, con pruebas fotográficas, vídeos y testimonios directos, el uso de municiones de fósforo blanco por las Fuerzas de Defensa de Israel (FDI) en zonas densamente pobladas de la franja de Gaza y el sur del Líbano desde octubre de 2023.</p>
-<blockquote>«Israeli forces have used white phosphorus in military operations in Lebanon and Gaza, putting civilians at risk of serious and long-term injuries.» — Human Rights Watch, 12 de octubre de 2023</blockquote>
-<h5>2.3 Calificación jurídica</h5>
-<p>El uso del fósforo blanco en entornos urbanos civiles constituye una violación del Protocolo III a la Convención sobre Ciertas Armas Convencionales (CCW, Ginebra 1980). Su uso deliberado como agente incendiario contra la población civil constituye un crimen de guerra conforme al artículo 8 del Estatuto de Roma.</p>
-<h4>III. Marco normativo internacional violado</h4>
-<h5>3.1 Derecho Internacional Humanitario Consuetudinario</h5>
-<ul>
-<li>Principio de distinción (CICR Regla 1): las partes en conflicto deben distinguir en todo momento entre civiles y combatientes.</li>
-<li>Principio de proporcionalidad (CICR Regla 14): está prohibido lanzar un ataque que pueda causar pérdidas civiles excesivas respecto a la ventaja militar directa y concreta esperada.</li>
-<li>Principio de precaución (CICR Regla 15): deben adoptarse todas las precauciones factibles para evitar o minimizar las bajas civiles.</li>
-<li>Prohibición de armas indiscriminadas (CICR Regla 71): están prohibidas las armas que por su naturaleza son incapaces de distinguir entre civiles y combatientes.</li>
-</ul>
-<h5>3.2 Convención sobre el Genocidio (1948)</h5>
-<p>La Corte Internacional de Justicia reconoció el 26 de enero de 2024 la plausibilidad de las acusaciones de genocidio presentadas por Sudáfrica contra Israel y ordenó medidas provisionales.</p>
-<blockquote>«The Court considers that at least some of the rights claimed by South Africa and for which it is seeking protection are plausible.» — CIJ, Auto del 26 de enero de 2024, § 54</blockquote>
-<h5>3.3 Estatuto de Roma y Corte Penal Internacional</h5>
-<p>La CPI emitió el 21 de noviembre de 2024 órdenes de detención contra el Primer Ministro Netanyahu y el Ministro de Defensa Gallant por crímenes de guerra y crímenes de lesa humanidad. Es la primera vez en la historia del Tribunal que se emiten órdenes de detención contra la cúpula de un gobierno occidental o de uno de sus aliados estratégicos.</p>
-<h5>3.4 Resoluciones de la ONU</h5>
-<p>La Asamblea General de las Naciones Unidas adoptó el 18 de octubre de 2023 la Resolución ES-10/21 con 120 votos a favor. El Consejo de Seguridad fue sistemáticamente paralizado por el veto de Estados Unidos.</p>
-<h4>IV. Fundamento jurídico: claridad sobre las categorías</h4>
-<h5>4.1 Qué significa «no reconocimiento» en este manifiesto</h5>
-<p>El «no reconocimiento» aquí invocado tiene un objeto preciso: el rechazo a reconocer como lícita la conducta del Estado de Israel en sus operaciones militares en Gaza y el Líbano. Esto es exactamente lo que los Artículos sobre Responsabilidad del Estado (ARSIWA, CDI/ONU 2001) exigen a otros Estados:</p>
-<ul>
-<li>Artículo 40: violaciones graves de obligaciones derivadas de normas imperativas del derecho internacional general (jus cogens).</li>
-<li>Artículo 41: obligación de otros Estados de no reconocer como lícita la situación creada por la violación grave, y de no prestar ayuda ni asistencia a su mantenimiento.</li>
-</ul>
-<p>El título de este manifiesto —«no reconocimiento del Estado de Israel»— debe leerse en esta clave: no como una negación ontológica de la existencia estatal, sino como un rechazo político y moral a conferir legitimidad a una conducta que viola sistemáticamente el derecho imperativo.</p>
-<h5>4.2 El precedente sudafricano</h5>
-<p>La comunidad internacional nunca «no reconoció» el Estado de Sudáfrica como entidad jurídica. Lo que hizo —y ese es el precedente relevante— fue declarar ilegítima la conducta del régimen, suspender a Sudáfrica de los organismos especializados, imponer un embargo obligatorio de armas (Resolución 418, 1977) y aislar progresivamente al gobierno. Ese es exactamente el modelo que propone aplicar este manifiesto.</p>
-<h5>4.3 La cuestión de la selectividad</h5>
-<p>Los firmantes reconocen explícitamente que otros Estados —EE. UU., Rusia, Francia, Turquía— merecerían medidas análogas. Esta asimetría no es prueba de antisemitismo, pero sí es prueba de la selectividad con que se aplica el derecho internacional. La respuesta correcta no es la parálisis: es afirmar que el mismo estándar debe valer para todos.</p>
-<h4>V. Medidas concretas</h4>
-<h5>5.1 Naciones Unidas</h5>
-<p>Aplicación del artículo 5 de la Carta de la ONU —suspensión de derechos y privilegios— a través de la Asamblea General actuando conforme a la resolución «Uniting for Peace» (Resolución 377, 1950).</p>
-<h5>5.2 Organismos especializados e internacionales</h5>
-<p>Suspensión de la adhesión israelí a la UNESCO, la OMS, la FAO, el Consejo de Derechos Humanos de la ONU, la OCDE y el Consejo de Europa, hasta el cese de operaciones en violación del derecho internacional humanitario.</p>
-<h5>5.3 Sanciones económicas y embargo de armas</h5>
-<p>Adopción de un embargo obligatorio sobre el suministro de armas, municiones y tecnologías militares de doble uso al Estado de Israel, análogo al adoptado contra Sudáfrica en 1977. Sanciones económicas específicas con mecanismos internacionales de verificación.</p>
-<h4>VI. Distinción necesaria: Estado, gobierno, pueblo</h4>
-<p>Este manifiesto no va dirigido contra el pueblo israelí, contra los ciudadanos judíos de Israel o de la diáspora, ni contra la cultura, la historia o la tradición judía. Va dirigido contra las decisiones de gobierno y las conductas militares de un Estado que, a través de sus órganos, ha violado reiteradamente el derecho internacional.</p>
-<p>Reconocemos y apoyamos las voces de esos ciudadanos israelíes —esa minoría disidente que sale a la calle, documenta y denuncia las violaciones de su gobierno—. El no reconocimiento del Estado no es su silenciamiento: es, paradójicamente, uno de los actos más fuertes de apoyo a su causa.</p>
-<h4>VII. Declaración final</h4>
-<p>Nosotros, los abajo firmantes, en virtud de nuestra adhesión a los principios del derecho internacional, la Carta de las Naciones Unidas, la Convención sobre el Genocidio de 1948 y el Estatuto de Roma, declaramos:</p>
-<ol>
-<li>No reconocemos la legitimidad de la conducta actual del Estado de Israel como conforme a las normas del derecho internacional humanitario y a los principios fundamentales del orden internacional.</li>
-<li>Exigimos la suspensión inmediata de las operaciones militares en violación del derecho internacional, la plena cooperación con la CPI y la plena aplicación de las medidas provisionales ordenadas por la CIJ.</li>
-<li>Llamamos a los Estados y a las organizaciones internacionales a adoptar las medidas de suspensión, exclusión y sanción descritas en este manifiesto.</li>
-<li>Afirmamos que el respeto al derecho internacional es innegociable, no admite excepciones geopolíticas, y que cualquier distinción entre Estados que lo violan según su posicionamiento estratégico constituye en sí misma una violación del principio de igualdad soberana de los Estados.</li>
-</ol>
-<p class="cl"><em>El fósforo blanco que arde sobre Gaza y el Líbano también quema la legitimidad de un sistema internacional que mira hacia otro lado. Nosotros no miramos hacia otro lado.</em></p>
-<h4>Referencias jurídicas</h4>
-<ul class="refs">
-<li>Protocolo III CCW — Ginebra 1980 | Convención sobre el Genocidio — 1948</li>
-<li>Estatuto de Roma art. 8 — 1998 | ARSIWA arts. 40-41 — CDI/ONU 2001</li>
-<li>CIJ — Sudáfrica c. Israel — 26 enero 2024 | CPI — Netanyahu &amp; Gallant — 21 noviembre 2024</li>
-<li>HRW — Fósforo Blanco — 12 octubre 2023 | AGNU ES-10/21 — 27 octubre 2023</li>
-<li>CICR — DIH Consuetudinario (Henckaerts &amp; Doswald-Beck, 2005)</li>
-<li>CS ONU Resolución 418 (1977) | AGNU 377(V) — Uniting for Peace — 1950</li>
-</ul>
-</div>
-
-
-
-<a class="pdf-download" href="/manifesto_es.pdf" id="pdf-bottom" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-pl">Descargar el Manifiesto en PDF</span></a>
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct2">Por el No Reconocimiento de la Conducta de la Federación Rusa</div>
 <div class="manifesto-card-sub" id="t-mcs2">Fundamento jurídico, ético y político de una coherencia necesaria · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr2" onclick="toggleM('ru')">Leer el texto íntegro</button>
+<a class="btn-read" href="/s/es/m-ru.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m-ru"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
 <a class="btn-pdf" href="/manifesto_ru_es.pdf" id="pdf-card2" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp2">Descargar PDF</span></a>
 </div>
 </div>
-<div id="manifesto-text-ru">
 
-
-
-
-<div class="manifesto-block active" id="ru-es">
-<h3 class="mt">Manifiesto por el No Reconocimiento de la Conducta de la Federación Rusa</h3>
-<p><em>Fundamento jurídico, ético y político de una coherencia necesaria</em></p>
-<h4>A quién se dirige</h4>
-<p>A los gobiernos de los Estados miembros de la Unión Europea y a todos los Estados parte de los Convenios de Ginebra. A las instituciones internacionales. A todo ciudadano que crea que el derecho se aplica a todos o no se aplica a nadie. Y a quien, leyendo el primer manifiesto de esta plataforma, se preguntó si su autor aplicaba la misma medida a todos los violadores del derecho internacional. Este documento es la respuesta.</p>
-<h4>I. Premisa</h4>
-<p>El 24 de febrero de 2022 la Federación Rusa invadió Ucrania. No una «operación militar especial»: una agresión armada contra un Estado soberano, en violación del artículo 2(4) de la Carta de las Naciones Unidas — la norma fundacional del orden internacional construido sobre las ruinas de la Segunda Guerra Mundial.</p>
-<p>Desde entonces: ciudades arrasadas, infraestructuras civiles golpeadas sistemáticamente, ejecuciones sumarias documentadas en Bucha e Irpin, deportaciones masivas. El 16 de marzo de 2022, la Corte Internacional de Justicia ordenó a Rusia suspender inmediatamente las operaciones militares. Rusia ignoró la orden. La Corte Penal Internacional emitió órdenes de arresto contra el presidente Putin. Rusia respondió imputando a los jueces de la Corte.</p>
-<p>Este manifiesto no nace de la pertenencia a un bando. Nace del mismo principio que funda el primer manifiesto de esta plataforma: ningún Estado está por encima del derecho internacional. Ninguno.</p>
-<h4>II. Los niños deportados</h4>
-<p>Entre todos los crímenes documentados, uno define la naturaleza de esta guerra más que ningún otro.</p>
-<p>Ucrania ha documentado en detalle — con lugar de origen y ubicación actual — más de 19.500 menores deportados a Rusia o a los territorios ocupados. Las estimaciones del Humanitarian Research Lab de la Universidad de Yale superan los 35.000. Los investigadores han identificado 210 estructuras de detención y reeducación, distribuidas en 5.600 kilómetros del Mar Negro al Pacífico: campamentos de verano, escuelas de cadetes, orfanatos, una base militar, un monasterio.</p>
-<p>Estos niños reciben nuevos nombres, documentos falsos, ciudadanía rusa. Son entregados en adopciones forzadas. Son castigados si hablan ucraniano. Son enrolados en programas paramilitares donde aprenden a manejar armas y a jurar fidelidad al Estado que los arrancó de sus familias. Algunos son entrenados para combatir — potencialmente contra su propio país.</p>
-<p>Solo unos 1.300 han vuelto a casa.</p>
-<p>El traslado forzoso de niños de un grupo a otro es uno de los actos constitutivos del genocidio según el artículo II, letra (e), de la Convención para la Prevención y la Sanción del Delito de Genocidio de 1948. No por analogía. No por interpretación extensiva. Por el texto literal de la norma.</p>
-<h4>III. Marco normativo violado</h4>
-<ul>
-<li>Artículo 2(4) de la Carta de la ONU — prohibición del uso de la fuerza contra la integridad territorial de otro Estado</li>
-<li>Artículo II(e) de la Convención sobre el Genocidio — traslado forzoso de menores</li>
-<li>Artículo 49 del IV Convenio de Ginebra — prohibición de la deportación de civiles de territorio ocupado</li>
-<li>Artículo 8 del Estatuto de Roma — crímenes de guerra, incluida la deportación ilegítima</li>
-<li>Orden de la Corte Internacional de Justicia del 16 de marzo de 2022 (Ucrania c. Federación Rusa), aún incumplida</li>
-</ul>
-<p>El 17 de marzo de 2023, la Corte Penal Internacional emitió órdenes de arresto contra <strong>Vladímir Putin</strong>, presidente de la Federación Rusa, y <strong>Maria Lvova-Belova</strong>, comisionada presidencial para los derechos de la infancia, por la deportación y el traslado ilegítimo de niños ucranianos. Es la primera vez en la historia que un jefe de Estado de un miembro permanente del Consejo de Seguridad es objeto de una orden de arresto internacional.</p>
-<h4>IV. Fundamento jurídico del no reconocimiento</h4>
-<p>Los Artículos sobre la Responsabilidad del Estado (ARSIWA, CDI/ONU 2001), artículos 40 y 41, establecen que ante violaciones graves de normas imperativas del derecho internacional, los demás Estados tienen la obligación de: no reconocer como lícita la situación creada por la violación; no prestar ayuda o asistencia al mantenimiento de esa situación; cooperar para poner fin a la violación por medios lícitos.</p>
-<p>La prohibición de la agresión y la prohibición del genocidio son normas imperativas (<em>jus cogens</em>). La obligación de no reconocimiento no es una facultad política: es una obligación jurídica.</p>
-<h4>V. La prueba de la coherencia — dos pesos, dos medidas</h4>
-<p>Aquí este manifiesto diverge de cualquier otro documento similar. Porque la Unión Europea, frente a Rusia, ya <em>ha hecho</em> lo que el derecho exige.</p>
-<p>Adoptó paquetes de sanciones sin precedentes. Congeló las reservas del banco central ruso. Apoyó públicamente las órdenes de la Corte Penal Internacional. Acogió a millones de refugiados. Declaró, con actos concretos, que la conducta de un Estado agresor no será reconocida como legítima.</p>
-<p>Y luego, frente a violaciones de las mismas normas imperativas cometidas por el Estado de Israel, eligió el silencio, los distingos, la cooperación ininterrumpida.</p>
-<p>Este doble rasero no es un detalle diplomático. Es una herida autoinfligida a la civilización jurídica occidental.</p>
-<p>Israel es definido como «la única democracia occidental de Oriente Medio». Bien: quien reivindica la pertenencia a Occidente reivindica también sus fundamentos — la primacía del derecho sobre la fuerza, la responsabilidad del poder, la igualdad ante la ley. Estos principios no nacieron ayer: fueron afinados en siglos de filosofía, de revoluciones, de constituciones, de tribunales. Son lo más valioso que Occidente tiene para ofrecer al mundo.</p>
-<p>Eximir de la ley precisamente al Estado que se proclama parte de esta tradición significa invertir su sentido. Una democracia occidental no se juzga con un estándar más bajo: se juzga con el estándar más alto, porque es el que ella misma proclama. La pertenencia a Occidente no es una inmunidad — es una asunción de responsabilidad.</p>
-<p>Cuando Europa sanciona a Rusia por la deportación de niños y calla sobre quien usa fósforo blanco sobre áreas civiles, no protege a Israel: se desacredita a sí misma. Declara al mundo entero que el derecho internacional es un instrumento contra los enemigos, no un principio. Y en ese momento todo autócrata de la tierra obtiene el argumento que buscaba: <em>vuestras reglas son hipocresía</em>.</p>
-<p>El derecho internacional aplicado selectivamente no es derecho: es poder disfrazado de principio. Y cada aplicación selectiva debilita todas las aplicaciones — incluidas las justas, incluidas las contra Rusia. Quien calla sobre un crimen por razones de alianza hace menos creíble la condena de todos los demás.</p>
-<h4>VI. Medidas concretas</h4>
-<ol>
-<li>El mantenimiento del no reconocimiento de toda anexión territorial rusa en Ucrania, incluida Crimea</li>
-<li>La plena cooperación con la CPI para la ejecución de las órdenes contra Putin y Lvova-Belova</li>
-<li>Sanciones selectivas contra todas las entidades implicadas en la deportación de menores — incluidas las sociedades documentadas en el informe de Yale de marzo de 2026</li>
-<li>El apoyo activo a los programas de identificación y repatriación de los niños deportados</li>
-<li>La aplicación de estos mismos estándares a todo Estado cuya conducta viole las mismas normas imperativas — sin excepciones geopolíticas</li>
-</ol>
-<h4>VII. Distinción fundamental</h4>
-<p>Este manifiesto no es contra Rusia como nación, ni contra el pueblo ruso. Miles de ciudadanos rusos han protestado contra esta guerra pagando con la cárcel, el exilio, la vida. Periodistas rusos han documentado los crímenes de su propio gobierno. Madres rusas han buscado a sus hijos enviados a morir en una guerra que no eligieron.</p>
-<p>La distinción entre Estado, gobierno y pueblo no es una concesión retórica: es el fundamento de todo razonamiento jurídico y moral serio. Vale para Rusia exactamente como vale para Israel. Es la misma distinción, porque es el mismo principio.</p>
-<h4>Declaración final</h4>
-<p class="cl">No reconozco como legítima la conducta de la Federación Rusa en Ucrania. No reconozco la deportación de 19.500 niños como «evacuación humanitaria». No reconozco la anexión de territorios como «referéndums». No reconozco la agresión como «operación especial». Y pido que el derecho que Europa supo aplicar a Rusia se aplique a todos — empezando por quien se proclama parte de Occidente y de sus valores. Porque el derecho se aplica a todos, o no se aplica a nadie.</p>
-<h4>Referencias normativas</h4>
-<ul class="refs">
-<li>Carta de las Naciones Unidas, art. 2(4)</li>
-<li>Convención para la Prevención y la Sanción del Delito de Genocidio (1948), art. II(e)</li>
-<li>IV Convenio de Ginebra (1949), art. 49</li>
-<li>Estatuto de Roma de la Corte Penal Internacional, art. 8</li>
-<li>CIJ, Orden del 16 de marzo de 2022, Ucrania c. Federación Rusa</li>
-<li>CPI, Órdenes de arresto del 17 de marzo de 2023 (Putin, Lvova-Belova)</li>
-<li>ARSIWA (CDI/ONU 2001), arts. 40-41</li>
-<li>Yale HRL, Willing Accomplices (marzo 2026); informe sobre las 210 estructuras (septiembre 2025)</li>
-</ul>
-</div>
-
-
-
-
-
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct3">Por Sudán — El Genocidio del que el Mundo Aparta la Mirada</div>
 <div class="manifesto-card-sub" id="t-mcs3">Fundamento jurídico, ético y político de una atención debida · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr3" onclick="toggleM('sd')">Leer el texto íntegro</button>
+<a class="btn-read" href="/s/es/m-sd.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m-sd"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
 <a class="btn-pdf" href="/manifesto_sd_es.pdf" id="pdf-card3" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp3">Descargar PDF</span></a>
 </div>
 </div>
-<div id="manifesto-text-sd">
 
-
-
-
-<div class="manifesto-block active" id="sd-es">
-<h3 class="mt">Manifiesto por Sudán — El Genocidio del que el Mundo Aparta la Mirada</h3>
-<p><em>Fundamento jurídico, ético y político de una atención debida</em></p>
-<h4>A quién se dirige</h4>
-<p>A los gobiernos de los Estados parte de la Convención sobre el Genocidio. A la Unión Europea y sus Estados miembros. A los Estados que mantienen relaciones comerciales y militares con quienes arman a los responsables. A los medios occidentales, cuyo silencio tiene un peso. Y a todo ciudadano que se pregunte por qué algunas víctimas llenan las primeras páginas y otras ni siquiera existen.</p>
-<p><strong>Este manifiesto es el tercero de una serie.</strong> El primero concierne la conducta del Estado de Israel en Gaza y Líbano; el segundo, la de la Federación Rusa en Ucrania. Los tres aplican el mismo esquema jurídico idéntico — las obligaciones de no reconocimiento previstas en los artículos 40-41 ARSIWA — a violadores distintos, de bandos distintos, con aliados distintos. Quien lee este documento por primera vez está invitado a leer también los otros dos, disponibles en <a href="#manifesti">iwillnotlookaway.org</a>: el principio que los funda es uno solo, y se mide precisamente en su aplicación sin excepciones.</p>
-<h4>I. Premisa</h4>
-<p>Desde abril de 2023 Sudán está devastado por una guerra entre las Fuerzas Armadas Sudanesas (SAF) y las Fuerzas de Apoyo Rápido (RSF), herederas de los Janjaweed que hace veinte años ensangrentaron Darfur. El balance: más de 150.000 muertos estimados, 12 millones de desplazados — la mayor crisis de desplazamiento del mundo — y la hambruna más grave del siglo XXI.</p>
-<p>En enero de 2025 el Departamento de Estado estadounidense determinó formalmente que las RSF han cometido <strong>genocidio</strong> contra las poblaciones no árabes de Darfur. En febrero de 2026 la Misión Internacional de Investigación de las Naciones Unidas llegó a la misma conclusión sobre los hechos de El Fasher.</p>
-<p>Dos determinaciones formales de genocidio. Y el mundo mira hacia otro lado.</p>
-<p>Esta plataforma lleva el nombre de un compromiso: <em>I will not look away</em>. No apartar la mirada. Ningún caso en el mundo hace este compromiso más necesario que Sudán — el genocidio sin cámaras, sin manifestaciones, sin indignación. El genocidio que no divide a la opinión pública por la razón más atroz: la opinión pública no sabe que existe.</p>
-<h4>II. El Fasher</h4>
-<p>El 26 de octubre de 2025, tras dieciocho meses de asedio en los que la población fue deliberadamente reducida al hambre, las RSF tomaron El Fasher, capital de Darfur del Norte, donde antes de la guerra vivían un millón y medio de personas.</p>
-<p>La Oficina de Derechos Humanos de la ONU, sobre la base de más de 140 testimonios, documentó más de 6.000 asesinatos en los tres primeros días: al menos 4.400 dentro de la ciudad, más de 1.600 en las rutas de huida, donde los civiles que escapaban eran sistemáticamente interceptados y ejecutados. El balance real es ciertamente superior; algunas estimaciones hablan de decenas de miles.</p>
-<p>Los supervivientes refieren las palabras de los combatientes RSF: <em>«¿Hay algún Zaghawa entre vosotros? Si encontramos un Zaghawa, os matamos a todos.»</em> Y: <em>«Queremos eliminar todo lo negro de Darfur.»</em></p>
-<p>La Misión de la ONU concluyó: asedio prolongado, hambre infligida deliberadamente, negación de la ayuda humanitaria, y luego asesinatos masivos, violaciones sistemáticas, torturas, desapariciones forzadas — «una operación planificada y organizada que presenta las características distintivas del genocidio», conducida «con la intención de destruir, total o parcialmente, las comunidades Zaghawa y Fur».</p>
-<p>El Fasher no es un episodio. Es la réplica de El Geneina y Ardamata (2023, contra los Masalit), del campo de refugiados de Zamzam (abril 2025, dos mil muertos, cuatrocientos mil huyendo). Es un método.</p>
-<h4>III. Marco normativo violado</h4>
-<ul>
-<li>Convención para la Prevención y la Sanción del Delito de Genocidio (1948): arts. I (obligación de <em>prevenir</em>, no solo castigar), II (actos constitutivos), III (punibilidad de complicidad e instigación)</li>
-<li>IV Convenio de Ginebra y artículo 3 común: protección de los civiles, prohibición del hambre como arma</li>
-<li>Estatuto de Roma, arts. 6 (genocidio), 7 (crímenes contra la humanidad), 8 (crímenes de guerra)</li>
-<li>Resolución 1593 (2005) del Consejo de Seguridad de la ONU: remisión de Darfur a la Corte Penal Internacional — jurisdicción aún abierta sobre los crímenes actuales</li>
-</ul>
-<p>La CPI ya ha demostrado que puede actuar: en octubre de 2025 condenó a veinte años a un líder Janjaweed por los crímenes de 2003-2004. Veinte años después de los hechos. Las víctimas de hoy no pueden esperar a 2045.</p>
-<h4>IV. Quién arma, quién paga, quién gana</h4>
-<p>Las RSF no son un Estado. Pero ningún grupo armado comete un genocidio solo. Detrás de cada masacre de El Fasher hay una cadena documentada de proveedores, financiadores y beneficiarios.</p>
-<p><strong>Los Emiratos Árabes Unidos</strong> son el principal apoyo documentado de las RSF. Amnistía Internacional (mayo 2025) identificó en manos de las RSF bombas guiadas chinas GB50A — fabricadas en 2024, nunca antes documentadas en ningún conflicto del mundo — y obuses AH-4 de 155 mm: según el SIPRI, los Emiratos son <em>el único país del mundo</em> que ha importado ese sistema de armas de China. Los drones Wing Loong II y FeiHong-95 que los lanzan son usados en Sudán exclusivamente por las RSF. El Panel de Expertos de la ONU sobre Sudán detectó el mismo patrón. Los Emiratos niegan — pero las bombas de 2024 explotadas en Darfur en 2025 no se explican solas.</p>
-<p>El móvil no es ideológico: es económico y geopolítico. El oro sudanés — cuyas principales minas están controladas por las RSF del general Hemedti — fluye en gran parte hacia Dubái, como documentan Global Witness y The Sentry. A esto se suman los intereses emiratíes en los puertos del Mar Rojo y las tierras agrícolas sudanesas.</p>
-<p><strong>China</strong> fabrica las armas a través de Norinco, conglomerado estatal de defensa, y las vende a los Emiratos sin que se aplique ningún mecanismo de control de reexportación — en violación del espíritu del Tratado sobre el Comercio de Armas que los propios Emiratos firmaron.</p>
-<p><strong>Rusia</strong> jugó en ambas mesas: el grupo Wagner, a través de las sociedades Meroe Gold y M-Invest sancionadas por EE.UU. y la UE, intercambió durante años armas y entrenamiento por concesiones auríferas en las zonas controladas por las RSF, antes del reposicionamiento de Moscú hacia el ejército regular a cambio de la perspectiva de una base naval en Port Sudan.</p>
-<p><strong>¿Y Europa?</strong> Europa no vendió armas a las RSF. Hizo algo más sutil: a través del Proceso de Jartum y los fondos para el control migratorio, trató durante años como interlocutor fronterizo a un aparato del que las RSF se proclamaban brazo operativo — externalizando la contención de los migrantes a quien hoy está formalmente acusado de genocidio. Y hoy, ante las pruebas recogidas por la ONU y Amnistía, no ha impuesto una sola sanción significativa a los Emiratos: demasiado importantes como socios comerciales, energéticos y financieros.</p>
-<p>El derecho es claro. El artículo 16 ARSIWA establece que el Estado que presta ayuda o asistencia en la comisión de un hecho internacionalmente ilícito responde por ello. El artículo I de la Convención sobre el Genocidio impone a cada firmante la obligación de <em>prevenir</em> — una obligación que la Corte Internacional de Justicia (<em>Bosnia c. Serbia</em>, 2007) declaró operativa desde el momento en que el Estado tiene conocimiento del riesgo serio. Todos lo saben. Desde hace años. El conocimiento consta en las actas de la ONU. Lo que falta no es la prueba: es la voluntad.</p>
-<h4>V. La jerarquía de las víctimas</h4>
-<p>Para Ucrania, Occidente movilizó sanciones, armas, acogida, atención mediática permanente. Para Gaza, al menos, el mundo se dividió, discutió, llenó las plazas. Para Sudán: nada. Ni sanciones significativas contra quienes arman a las RSF. Ni cumbres extraordinarias. Ni primeras páginas. Ciento cincuenta mil muertos y doce millones de desplazados valen menos espacio mediático que una semana de cualquier otra crisis.</p>
-<p>Las víctimas sudanesas no tienen la culpa de estar en el lado equivocado. Tienen la culpa peor: no estar en ningún lado que interese a alguien. Ninguna palanca geopolítica, ningún lobby, ningún reflector. Son la prueba definitiva de que la atención del mundo no sigue la gravedad de los crímenes sino la conveniencia de quien mira.</p>
-<p>Una civilización jurídica se mide exactamente aquí: en cómo trata a las víctimas que no le sirven a nadie.</p>
-<p>Hay más. El mismo Occidente que calla sobre los Emiratos y olvida Sudán sigue presentándose al mundo como maestro de civilización. Pretende exportar la democracia a pueblos que construían imperios, escribían poesía y codificaban el derecho cuando Europa aún no existía — a la Persia de los cilindros de Ciro, que hace dos mil quinientos años proclamaban la libertad de culto de los pueblos sometidos. ¿Con qué autoridad? La autoridad moral no se hereda de los libros de historia: se gana con la coherencia, y se pierde con la hipocresía.</p>
-<p>Un Occidente que sanciona selectivamente, que arma a quien le conviene, que gradúa su indignación según el precio del petróleo y los contratos comerciales, no está exportando la democracia: está exportando la prueba de que sus valores son negociables. Y todos los pueblos del mundo lo ven. Lo ven los sudaneses abandonados, lo ven los palestinos bajo las bombas, lo ven los iraníes que luchan por sus derechos — y no necesitan lecciones de quien traiciona en su casa los principios que predica.</p>
-<p>Quien escribe ha viajado por trabajo a muchos países, y ha aprendido algo que ningún tratado enseña: hoy un ciudadano occidental, ante un interlocutor de cualquier otra civilización, ya no parte de una posición de superioridad moral. Parte de una posición de deuda. Debe primero responder — al menos dentro de sí — del doble rasero de sus instituciones, del silencio de sus gobiernos, de la selectividad de su indignación. Este manifiesto es también un intento de honrar esa deuda: demostrar que al menos los ciudadanos, si no los gobiernos, todavía saben aplicar un principio sin mirar la conveniencia.</p>
-<h4>VI. Medidas concretas</h4>
-<ol>
-<li>Sanciones selectivas contra la cadena de mando de las RSF y contra toda entidad — estatal o privada — implicada en su abastecimiento, según las conclusiones del Panel de Expertos de la ONU</li>
-<li>Sanciones selectivas contra los Emiratos Árabes Unidos — entidades estatales y privadas — hasta que los traslados de armas a las RSF documentados por la ONU y Amnistía cesen de forma verificable; y la extensión del embargo de armas del actual perímetro de Darfur a todo Sudán</li>
-<li>Controles vinculantes de reexportación para toda venta de armas a Estados que violen los embargos de la ONU — empezando por los suministros chinos (Norinco) y occidentales a los Emiratos</li>
-<li>El pleno apoyo — financiero y político — a la Corte Penal Internacional para los procedimientos sobre el Darfur actual; corredores humanitarios garantizados y financiación de la respuesta a la hambruna</li>
-<li>La activación formal de la obligación de prevención ex art. I de la Convención sobre el Genocidio, con un mecanismo de seguimiento del Consejo de Derechos Humanos dotado de mandato reforzado</li>
-</ol>
-<h4>VII. Distinción fundamental</h4>
-<p>Este manifiesto no es contra el pueblo sudanés, ni contra las comunidades árabes de Darfur — también víctimas, en muchos casos, de una guerra que las sobrepasa. Tampoco es una absolución de las Fuerzas Armadas Sudanesas, cuyos crímenes también están documentados y merecen justicia.</p>
-<p>Es contra un método genocida, contra quien lo arma, y contra la indiferencia que lo hace posible.</p>
-<h4>Declaración final</h4>
-<p class="cl">No aparto la mirada de El Fasher. No acepto que exista una jerarquía de las víctimas. No reconozco como normal el silencio del mundo ante dos determinaciones formales de genocidio. Y no acepto que Occidente predique a otros la democracia que traiciona en su casa. Sudán es el banco de pruebas de la sinceridad de cualquiera — yo incluido — que invoque el derecho internacional para las crisis que son noticia. Si el principio vale, vale también cuando nadie mira. Sobre todo cuando nadie mira. Porque el derecho se aplica a todos, o no se aplica a nadie.</p>
-<h4>Referencias normativas</h4>
-<ul class="refs">
-<li>Convención para la Prevención y la Sanción del Delito de Genocidio (1948), arts. I, II, III</li>
-<li>IV Convenio de Ginebra (1949); artículo 3 común</li>
-<li>Estatuto de Roma, arts. 6, 7, 8</li>
-<li>Resolución CS ONU 1593 (2005) — remisión de Darfur a la CPI</li>
-<li>CIJ, Bosnia c. Serbia (2007) — obligación de prevención</li>
-<li>ARSIWA (CDI/ONU 2001), arts. 16, 40-41</li>
-<li>Determinación de genocidio, Departamento de Estado de EE.UU., enero 2025</li>
-<li>Misión Internacional de Investigación de la ONU sobre Sudán, conclusiones del 19 de febrero de 2026; ACNUDH, informe sobre El Fasher, febrero 2026</li>
-<li>Amnistía Internacional, mayo 2025; SIPRI, registro de transferencias AH-4</li>
-<li>Global Witness; The Sentry — informes sobre el oro sudanés; sanciones EE.UU./UE a Meroe Gold y M-Invest</li>
-</ul>
-</div>
-
-
-
-
-
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct4">Por el No Reconocimiento de la Conducta de los Estados Unidos de América</div>
 <div class="manifesto-card-sub" id="t-mcs4">Fundamento jurídico, ético y político de un principio que no admite excepciones · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr4" onclick="toggleM('us')">Leer el texto íntegro</button>
+<a class="btn-read" href="/s/es/m-us.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m-us"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
 <a class="btn-pdf" href="/manifesto_us_es.pdf" id="pdf-card4" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp4">Descargar PDF</span></a>
 </div>
 </div>
-<div id="manifesto-text-us">
 
-
-
-
-<div class="manifesto-block active" id="us-es">
-<h3 class="mt">Manifiesto por el No Reconocimiento de la Conducta de los Estados Unidos de América</h3>
-<p><em>Fundamento jurídico, ético y político de un principio que no admite excepciones — ni siquiera en la cúspide</em></p>
-<h4>A quién se dirige</h4>
-<p>A los gobiernos de los Estados miembros de la Unión Europea y a todos los Estados parte de la Carta de las Naciones Unidas. A las instituciones internacionales. A todo ciudadano que crea que el derecho se aplica a todos o no se aplica a nadie. Y a quien piense que defender la legalidad internacional cuando la víctima de la violación es un autócrata significa defender al autócrata. No lo es. Es el único momento en que la defensa de la legalidad demuestra ser sincera.</p>
-<p><strong>Este manifiesto es el cuarto de una serie.</strong> El primero concierne la conducta del Estado de Israel; el segundo, la de la Federación Rusa; el tercero, el genocidio en Sudán y quienes lo arman. Todos aplican el mismo esquema jurídico — las obligaciones de no reconocimiento previstas en los artículos 40-41 ARSIWA — a violadores distintos, de bandos distintos. Este cuarto documento cierra el círculo de la única manera coherente posible: aplicando el principio a la cúspide misma del sistema. Los demás manifiestos están disponibles en <a href="#manifesti">iwillnotlookaway.org</a>.</p>
-<h4>I. Premisa</h4>
-<p>En la noche del 3 de enero de 2026 los Estados Unidos de América atacaron Venezuela. Bombardeos aéreos sobre Caracas y tres estados del país, defensas aéreas desmanteladas, comunicaciones cortadas, víctimas civiles y militares. A las 2:01 las fuerzas especiales llegaron a la residencia del presidente Nicolás Maduro y lo sacaron de su dormitorio, junto a su esposa, mientras dormían. Trasladados a un buque militar, luego a una cárcel de Nueva York, para ser juzgados por un tribunal federal estadounidense por cargos de narcotráfico.</p>
-<p>Ni una orden internacional. Ni autorización del Consejo de Seguridad. Ni un ataque armado venezolano al que responder. Ni siquiera la autorización del Congreso estadounidense. Una operación denominada, con involuntaria precisión, «Absolute Resolve»: determinación absoluta — es decir, por definición, desligada de todo vínculo.</p>
-<p>El presidente estadounidense declaró después que los Estados Unidos «gobernarían el país hasta la transición». La administración de facto de un Estado soberano, anunciada en rueda de prensa desde un resort privado.</p>
-<p>Este manifiesto no nace de simpatía por el régimen venezolano — que no merece ninguna. Nace del principio que funda los otros tres documentos de esta plataforma: ningún Estado está por encima del derecho internacional. Y si el principio no vale para el más poderoso, nunca fue un principio: era solo la regla que el más poderoso imponía a los demás.</p>
-<h4>II. El precedente que demuele el castillo</h4>
-<p>Entre todas las violaciones de aquella noche, una tiene consecuencias estructurales que superan el caso venezolano.</p>
-<p>El derecho internacional reconoce a los jefes de Estado en ejercicio la inmunidad personal absoluta frente a la jurisdicción de los demás Estados. No es un privilegio de los poderosos: es la clave de bóveda que impide a cada Estado «arrestar» a los líderes ajenos sobre la base de sus propias leyes internas y sus propios cargos. La Corte Internacional de Justicia lo estableció sin ambigüedad en el caso de la Orden de arresto (Congo c. Bélgica, 2002): un jefe de Estado en ejercicio solo puede ser juzgado por una corte internacional — como la CPI para Putin o Netanyahu — nunca por la justicia interna de otro país.</p>
-<p>Los Estados Unidos hicieron exactamente eso: aplicaron su propio código penal a un jefe de Estado extranjero, lo sacaron por la fuerza de su territorio bombardeando su capital, y lo juzgarán ante uno de sus tribunales de distrito.</p>
-<p>Las consecuencias no conciernen a Maduro. Conciernen a todos. Si el precedente se mantiene, cada potencia puede hacer lo mismo: China puede «arrestar» a un presidente que sus leyes califican de terrorista; Rusia puede «arrestar» a un líder que su código califica de extremista. El cargo es irrelevante — cada ordenamiento interno puede producir uno. Lo que fue derribado el 3 de enero no es un régimen: es la barrera que separaba el derecho internacional de la ley del más fuerte.</p>
-<p>A esto se suma el contexto: desde septiembre de 2025, más de treinta ataques militares contra embarcaciones en el Caribe y el Pacífico, más de ciento diez personas muertas sin juicio, sin cargos formales, sin que un solo tribunal haya verificado jamás su culpabilidad. Ejecuciones extrajudiciales en aguas internacionales, normalizadas como «lucha contra el narcotráfico».</p>
-<h4>III. Marco normativo violado</h4>
-<ul>
-<li>Artículo 2(4) de la Carta de la ONU — prohibición del uso de la fuerza contra la integridad territorial y la independencia política de otro Estado. El artículo 51 (legítima defensa) es inaplicable: Venezuela no había atacado ni amenazado a los Estados Unidos</li>
-<li>Inmunidad personal de los jefes de Estado en ejercicio — derecho internacional consuetudinario; CIJ, Orden de arresto del 11 de abril de 2000 (Congo c. Bélgica, 2002)</li>
-<li>Principio de no injerencia — CIJ, Nicaragua c. Estados Unidos (1986): la sentencia que condenó a los Estados Unidos precisamente por el uso ilegal de la fuerza contra un Estado latinoamericano, y que Washington ignoró entonces como ahora</li>
-<li>Prohibición de las ejecuciones extrajudiciales — Pacto Internacional de Derechos Civiles y Políticos, art. 6; derecho a la vida y a un juicio</li>
-<li>Prohibición de administrar territorio ajeno sin título — el anuncio de «gobernar el país hasta la transición» configura una ocupación de facto carente de toda base jurídica</li>
-</ul>
-<h4>IV. Fundamento jurídico del no reconocimiento</h4>
-<p>Los Artículos sobre la Responsabilidad del Estado (ARSIWA, CDI/ONU 2001), artículos 40 y 41, imponen a todos los Estados, ante violaciones graves de normas imperativas: no reconocer como lícita la situación creada por la violación; no prestar ayuda o asistencia a su mantenimiento; cooperar para ponerle fin por medios lícitos.</p>
-<p>La prohibición de la agresión es una norma imperativa (<em>jus cogens</em>). Lo era cuando la violó Rusia. Lo es cuando la violan los Estados Unidos. La obligación de no reconocimiento no distingue entre agresores simpáticos y antipáticos, entre aliados y adversarios: esta indistinción es exactamente lo que la hace derecho.</p>
-<p>De ello se deriva una consecuencia precisa: ningún Estado puede reconocer como legítimo un gobierno venezolano instalado bajo administración militar extranjera, ni la jurisdicción de un tribunal interno estadounidense sobre un jefe de Estado capturado mediante un acto de agresión.</p>
-<h4>V. La prueba de la coherencia — el silencio más ruidoso</h4>
-<p>Cuando Rusia invadió Ucrania, la Unión Europea reaccionó en horas: condena unánime, sanciones, congelación de reservas, cumbres extraordinarias.</p>
-<p>Cuando los Estados Unidos bombardearon Caracas y secuestraron a un jefe de Estado, la Unión Europea reaccionó así: la Alta representante comentó que Maduro «carece de legitimidad». La presidenta de la Comisión habló de «transición pacífica» sin nombrar la operación — como si Maduro hubiera sido llevado por el viento. Un ministro de exteriores europeo ironizó: «no podía pasarle a mejor persona». Ninguna condena. Ninguna sanción. Ninguna cumbre extraordinaria. Un solo jefe de gobierno europeo invocó con nitidez el derecho internacional — y la condena formal de la agresión llegó de Lula, Petro, Boric, de México: del Sur del mundo, no de la Europa que se proclama madre del derecho.</p>
-<p>Que Maduro fuera un autócrata es cierto, y es irrelevante. El derecho internacional no protege a los líderes porque sean buenos: los protege porque la alternativa es que cada potencia se convierta en juez, policía y verdugo de las demás. La Europa que calla sobre Caracas después de haber sancionado a Moscú certifica ante el mundo entero que su brújula no es el derecho: es la identidad del agresor.</p>
-<p>Y aquí el daño toca fondo. Porque los Estados Unidos no son un Estado cualquiera: son el arquitecto del orden de 1945, la potencia que escribió la Carta de San Francisco, instituyó los tribunales de Núremberg, predicó durante ochenta años el «orden basado en reglas» en cada rincón del planeta. Cuando el garante del sistema lo viola impunemente — y sus aliados aplauden o callan — no cae un gobierno en Caracas: cae el argumento mismo con que Occidente justificó su liderazgo moral. Toda futura condena occidental de la agresión ajena nacerá muerta, con Caracas como respuesta lista. La presunta supremacía ideológica de Occidente ya no se sostiene: no porque sus principios fueran erróneos, sino porque ha demostrado no creer en ellos.</p>
-<h4>VI. Medidas concretas</h4>
-<ol>
-<li>La condena formal de la agresión del 3 de enero de 2026 como violación del artículo 2(4) de la Carta de la ONU, en las mismas formas usadas para la agresión rusa contra Ucrania</li>
-<li>El no reconocimiento de cualquier gobierno venezolano instalado bajo administración o tutela militar extranjera, hasta que el pueblo venezolano pueda expresarse en elecciones libres y sin ocupantes</li>
-<li>El no reconocimiento de la jurisdicción de tribunales internos estadounidenses sobre un jefe de Estado capturado mediante un acto de agresión, y la petición de su traslado a una jurisdicción internacional por los crímenes de los que deba responder — que existen, y merecen un juicio legítimo</li>
-<li>Una investigación internacional independiente sobre las ejecuciones extrajudiciales en el mar y sobre las víctimas civiles de los bombardeos</li>
-<li>La aplicación de estos mismos estándares a todo Estado, cualquiera sea su peso geopolítico — porque un derecho que se detiene ante el más fuerte nunca existió</li>
-</ol>
-<h4>VII. Distinción fundamental</h4>
-<p>Este manifiesto no es una defensa de Nicolás Maduro. Su régimen reprimió el disenso, vació las instituciones, robó una elección: la victoria de la oposición en 2024 está documentada, y la represión que siguió es una vergüenza de la que el chavismo responde ante la historia y — ojalá — ante una corte legítima. Tampoco es un manifiesto contra el pueblo estadounidense, cuya propia prensa calificó la operación de ilegal, y cuyo Congreso ni siquiera fue consultado.</p>
-<p>Es contra un método. Defender la inmunidad de un jefe de Estado indefendible es la prueba suprema de la sinceridad de quien cree en el derecho: cualquiera puede defender la legalidad cuando protege a los inocentes. El principio se demuestra cuando protege también a quienes despreciamos — porque es en ese momento cuando deja de ser conveniencia y se convierte en civilización.</p>
-<h4>Declaración final</h4>
-<p class="cl">No reconozco como legítima la agresión del 3 de enero de 2026 contra Venezuela. No reconozco el secuestro de un jefe de Estado en ejercicio como «operación policial». No reconozco la administración extranjera de un Estado soberano como «transición». No reconozco al más poderoso el derecho de hacer lo que condena en los demás. Y constato: quien construyó el castillo de la justicia internacional lo está demoliendo desde dentro, mientras Europa mira hacia otro lado. Este manifiesto existe para que alguien deje constancia de que no todos miraron hacia otro lado. Porque el derecho se aplica a todos, o no se aplica a nadie.</p>
-<h4>Referencias normativas</h4>
-<ul class="refs">
-<li>Carta de las Naciones Unidas, arts. 2(4), 51</li>
-<li>CIJ, Orden de arresto del 11 de abril de 2000 (RD Congo c. Bélgica), 2002 — inmunidad de los jefes de Estado en ejercicio</li>
-<li>CIJ, Actividades militares y paramilitares en y contra Nicaragua (Nicaragua c. Estados Unidos), 1986</li>
-<li>Pacto Internacional de Derechos Civiles y Políticos (1966), art. 6</li>
-<li>ARSIWA (CDI/ONU 2001), arts. 40-41</li>
-<li>Declaración del Secretario General de la ONU, 3 de enero de 2026 («precedente peligroso»)</li>
-<li>Declaración conjunta de los gobiernos de Brasil, Colombia, Chile, México, Uruguay y España, enero de 2026</li>
-</ul>
-</div>
-
-
-
-
-
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct5">Por la Libertad de los Mares — El Secuestro de la Flotilla</div>
 <div class="manifesto-card-sub" id="t-mcs5">Fundamento jurídico, ético y político del derecho a no apartar la mirada · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr5" onclick="toggleM('fl')">Leer el texto íntegro</button>
+<a class="btn-read" href="/s/es/m-fl.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m-fl"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
 <a class="btn-pdf" href="/manifesto_fl_es.pdf" id="pdf-card5" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp5">Descargar PDF</span></a>
 </div>
 </div>
-<div id="manifesto-text-fl">
 
+<div class="manifesto-card">
+<div class="manifesto-card-title" id="t-mct6">Por el Derecho de Asilo — Contra la Externalización de la Frontera Europea</div>
+<div class="manifesto-card-sub" id="t-mcs6">Fundamento jurídico, ético y político de una coherencia que Europa se debe a sí misma · 2026</div>
+<div class="manifesto-card-actions">
+<a class="btn-read" href="/s/es/m-im.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m-im"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+</div>
+</div>
 
-
-
-<div class="manifesto-block active" id="fl-es">
-<h3 class="mt">Manifiesto por la Libertad de los Mares — El Secuestro de la Flotilla</h3>
-<p><em>Fundamento jurídico, ético y político del derecho a no apartar la mirada</em></p>
-<h4>A quién se dirige</h4>
-<p>A los gobiernos de los Estados de pabellón de los buques incautados y a todos los Estados parte de la Convención sobre el Derecho del Mar. A las instituciones europeas, que encontraron la voz solo cuando las víctimas tenían pasaportes europeos. A quienes creen que la solidaridad civil es un derecho y no un delito. Y a quienes piensan que se puede discutir la oportunidad política de una misión: es legítimo — pero la oportunidad política no es una categoría jurídica, y el mar libre protege también a quien hace política.</p>
-<p><strong>Este manifiesto es el quinto de una serie.</strong> Los primeros cuatro conciernen la conducta del Estado de Israel en Gaza y Líbano, de la Federación Rusa en Ucrania, de los responsables y cómplices del genocidio en Sudán, y de los Estados Unidos de América en Venezuela. Todos aplican el mismo esquema jurídico a violadores distintos. Este documento lo aplica a un episodio que los resume todos: qué ocurre cuando un Estado trata el derecho internacional como un obstáculo, y a los ciudadanos que lo invocan como enemigos. Los demás manifiestos están en <a href="#manifesti">iwillnotlookaway.org</a>.</p>
-<h4>I. Premisa</h4>
-<p>Entre el 1 y el 3 de octubre de 2025, la marina israelí interceptó en aguas internacionales todas las embarcaciones de la Global Sumud Flotilla — más de cuarenta barcos civiles, partidos de puertos europeos y norteafricanos con participantes de 44 países y un cargamento de ayuda humanitaria para Gaza. Entre el 28 y el 30 de abril y el 18 y 19 de mayo de 2026, la operación se repitió a mayor escala: 54 embarcaciones, unas 430 personas, abordadas siempre en aguas internacionales — la primera oleada frente a Chipre, el último barco a 118 millas náuticas de la costa.</p>
-<p>Ninguna de estas personas había cometido un delito. Ni según el derecho internacional, que en alta mar reconoce la jurisdicción exclusiva del Estado de pabellón. Ni según los ordenamientos nacionales de los países de procedencia. Ni siquiera según el derecho israelí — que no se aplica en aguas internacionales. Transportaban ayuda declarada, en rutas declaradas, con identidades declaradas.</p>
-<p>Fueron abordados por militares, llevados por la fuerza a un puerto israelí, y allí acusados de haber entrado ilegalmente en Israel.</p>
-<h4>II. La paradoja de Ashdod</h4>
-<p>Vale la pena fijar este punto, porque en él se concentra todo: personas que no querían entrar en Israel, que navegaban hacia otro lugar, fueron conducidas a Israel contra su voluntad por soldados israelíes — y acusadas por la entrada. El secuestrador que denuncia al secuestrado por allanamiento. No es una hipérbole retórica: es la calificación jurídica formal usada para detenerlos.</p>
-<p>Sigue la detención: la cárcel de máxima seguridad de Ketziot, en el desierto del Néguev, construida para detenidos por terrorismo. Ochenta y siete personas en huelga de hambre. Testimonios convergentes — ahora en los autos de la fiscalía de Roma — de puñetazos, patadas, abusos físicos y psicológicos, privación de sueño, agua y medicamentos.</p>
-<p>Y luego la escena que dio la vuelta al mundo: el ministro de Seguridad Nacional Itamar Ben Gvir acudiendo al puerto de Ashdod, haciendo arrodillar a los activistas esposados con las manos a la espalda, y publicando el vídeo en sus propios canales sociales, burlándose de ellos. No el exceso de un soldado: un ministro en ejercicio que convierte la detención en espectáculo de humillación. El Presidente de la República italiana lo calificó de acto de «nivel ínfimo», infligido a «personas detenidas ilegalmente en aguas internacionales». El 8 de junio de 2026 la fiscalía de Roma inscribió a Ben Gvir en el registro de investigados por tortura y secuestro: es el segundo procedimiento de una jurisdicción ordinaria europea en su contra.</p>
-<p>Un detalle mide la gravedad de la escena de Ashdod: hasta el primer ministro Netanyahu y el ministro de exteriores Sa'ar se distanciaron del vídeo de su colega. Cuando la humillación de los prisioneros incomoda incluso al gobierno que la hizo posible, ya no se trata de opiniones: se trata de un hecho que nadie, en ninguna latitud, puede defender.</p>
-<p>El precedente histórico pesa sobre todo: en 2010 el abordaje del Mavi Marmara costó la vida a diez civiles. La comisión de investigación del Consejo de Derechos Humanos de la ONU concluyó que el bloqueo era ilegal y el uso de la fuerza injustificado. Quince años después, el método no ha cambiado: se ha vuelto rutina.</p>
-<h4>III. Marco normativo violado</h4>
-<ul>
-<li>Convención de la ONU sobre el Derecho del Mar (CONVEMAR, 1982): art. 87 (libertad de la alta mar), art. 92 (jurisdicción exclusiva del Estado de pabellón), art. 110 (el derecho de visita sobre un buque extranjero solo se admite por piratería, trata de esclavos, transmisiones no autorizadas, buque sin nacionalidad — ninguna hipótesis aplicable)</li>
-<li>El derecho del bloqueo naval (Manual de San Remo, §§ 93-104): un bloqueo es ilegítimo si tiene como fin o efecto hacer pasar hambre a la población civil o impedirle la ayuda humanitaria. La CIJ, con las medidas provisionales de 2024, ordenó a Israel garantizar la entrada de la ayuda en Gaza: un bloqueo que intercepta ayuda humanitaria destinada a una población al borde de la hambruna no puede fundar ningún derecho de abordaje</li>
-<li>Pacto Internacional de Derechos Civiles y Políticos: art. 7 (prohibición de tratos degradantes), art. 9 (prohibición de detención arbitraria), art. 10 (dignidad de los detenidos)</li>
-<li>Convención contra la Tortura (1984): arts. 1, 16; arts. 5-7 (jurisdicción universal — el fundamento de la investigación italiana)</li>
-<li>Informe de la misión de investigación de la ONU sobre el incidente del Mavi Marmara (2010): ilegalidad del bloqueo y del abordaje en aguas internacionales</li>
-</ul>
-<h4>IV. Fundamento jurídico — la libertad de los mares como primera piedra</h4>
-<p>El derecho internacional moderno tiene una fecha y un lugar de nacimiento: 1609, cuando Hugo Grocio publicó el <em>Mare Liberum</em>. El principio de que el mar no pertenece a ningún Estado y de que ninguna potencia puede cerrarlo a los demás no es una norma entre tantas: es la primera norma, aquella de la que germinó todo el edificio del derecho de gentes. Durante cuatro siglos, toda potencia naval — incluidas las más agresivas — tuvo interés en preservarla.</p>
-<p>Incautar buques civiles en aguas internacionales, fuera de los supuestos taxativos que el derecho admite, tiene un nombre jurídico preciso cuando lo hace un particular: piratería. Cuando lo hace un Estado, las convenciones usan fórmulas más cautas — pero la sustancia que este manifiesto registra es idéntica: el ejercicio de la fuerza en el mar libre contra quien no ha cometido delito alguno.</p>
-<p>Y vale para cualquiera. Si Israel puede abordar a 118 millas de la costa un buque con bandera británica, todo Estado puede hacerlo. China en el estrecho de Taiwán, Rusia en el Báltico, Irán en Ormuz tienen ahora un precedente occidental tolerado que invocar. Los Estados europeos cuyas banderas ondeaban en esos barcos tenían no solo el derecho sino el deber de protestar formalmente: la jurisdicción de pabellón no es un tecnicismo — es la protección que cada Estado debe a sus buques y a quienes van a bordo.</p>
-<h4>V. El experimento de laboratorio — declaraciones y hechos</h4>
-<p>Este asunto ha producido, involuntariamente, algo precioso: la prueba experimental de lo que sostienen los demás manifiestos de esta plataforma. Y la produjo a escala mundial.</p>
-<p>La condena llegó de todos los continentes. El Presidente de la República italiana habló de «trato incivil infligido a personas detenidas ilegalmente en aguas internacionales» y de un gesto de «nivel ínfimo por parte de un ministro». El presidente sudafricano Ramaphosa calificó la interceptación de «contraria al derecho internacional» y en violación del mandato de la Corte Internacional de Justicia sobre la ayuda. El presidente colombiano Petro habló de «nuevo crimen internacional». El presidente boliviano Arce de «flagrante violación del derecho internacional». El ministerio de exteriores turco de «acto de terrorismo». La relatora especial de la ONU Francesca Albanese planteó la pregunta que este manifiesto hace suya: ¿cómo es posible que a un Estado se le permita incautar buques en aguas internacionales frente a las costas de Europa?</p>
-<p>Pero las palabras son la mitad que menos cuenta. He aquí los hechos, a la fecha en que se escribe.</p>
-<p>Quién actuó: <strong>Colombia</strong> expulsó a toda la delegación diplomática israelí y denunció el tratado de libre comercio. <strong>Turquía</strong> abrió una investigación penal en Estambul. <strong>España</strong> presentó una denuncia ante la Corte Penal Internacional. <strong>Italia</strong> inscribió a Ben Gvir en el registro de investigados por tortura y secuestro. <strong>Reino Unido, Canadá, Australia, Nueva Zelanda y Noruega</strong> ya lo habían sancionado individualmente en junio de 2025 — la prueba de que sancionarlo no es una utopía diplomática: es una decisión ya tomada por cinco democracias occidentales.</p>
-<p>¿Y la <strong>Unión Europea</strong>? Aprobó sanciones contra un grupo de colonos violentos. Para el ministro que puso de rodillas a ciudadanos europeos ante una cámara: ninguna sanción. La propuesta italiana, apoyada por Francia, España y Países Bajos, está bloqueada por el veto de Bulgaria y la República Checa — porque las medidas restrictivas requieren la unanimidad de los Veintisiete, y la unanimidad es el lugar donde las decisiones europeas van a morir. La decisión se ha aplazado al Consejo de Asuntos Exteriores del 15 de junio de 2026.</p>
-<p>El cuadro que emerge es despiadado y debe decirse sin rodeos: los hechos llegaron de Bogotá, Estambul, Madrid, Roma — y del bloque anglosajón. La Unión como tal, dos años después de Gaza y dos interceptaciones masivas después, aún no ha producido un solo acto vinculante contra un hombre al que cinco de sus aliados ya han sancionado. Mismo Estado, mismo ministro, mismas normas violadas: la diferencia la marcan el pasaporte de las víctimas y el coraje de los gobiernos. Este manifiesto registra ambas variables.</p>
-<h4>VI. Medidas concretas</h4>
-<ol>
-<li>La adopción, en el Consejo de Asuntos Exteriores del 15 de junio de 2026, de las sanciones individuales contra el ministro Ben Gvir ya propuestas por Italia y apoyadas por varios Estados miembros — y, si el veto de algunos países la impidiera, la adopción de sanciones nacionales coordinadas por los Estados miembros dispuestos, según el modelo ya aplicado por Reino Unido, Canadá, Australia, Nueva Zelanda y Noruega en 2025</li>
-<li>El pleno apoyo político a los procedimientos de las jurisdicciones nacionales — empezando por la investigación de la fiscalía de Roma — fundados en la jurisdicción universal por tortura</li>
-<li>Una protesta formal conjunta de los Estados de pabellón por la violación de los arts. 87, 92 y 110 CONVEMAR, con petición de reparación y restitución de las embarcaciones</li>
-<li>La institución de un corredor marítimo humanitario hacia Gaza bajo égida de la ONU o europea, con escolta civil o naval de los Estados miembros, que haga estructural lo que los ciudadanos intentaron con veleros</li>
-<li>El reconocimiento formal de que la solidaridad civil internacional es un ejercicio de libertades protegidas — de navegación, de asociación, de socorro — y no un delito que reprimir</li>
-</ol>
-<h4>VII. Distinción fundamental</h4>
-<p>Este manifiesto no pide santificar a la Flotilla. Sus misiones son también actos políticos, además de humanitarios; su eficacia es discutible y discutida; las opiniones de sus participantes son de lo más variadas. Todo ello es legítimo material de debate — y es jurídicamente irrelevante. El mar libre no protege solo a los neutrales, y los derechos no valen solo para quien no molesta. Se puede pensar que esos barcos no habrían resuelto nada, y a la vez reconocer que abordarlos era ilegal y humillar a sus tripulaciones era indigno: las dos cosas conviven sin esfuerzo, en cualquier mente aún no doblegada al partidismo.</p>
-<p>Y como siempre: este manifiesto no concierne al pueblo israelí, sino a la conducta de su gobierno — la misma distinción, porque es el mismo principio.</p>
-<h4>Declaración final</h4>
-<p class="cl">No reconozco como legítima la incautación de buques civiles en aguas internacionales. No reconozco la acusación de «entrada ilegal» dirigida a quien fue llevado dentro de una frontera por la fuerza. No reconozco la humillación de prisioneros indefensos como acto de gobierno. Y no acepto que la solidaridad civil sea tratada como un crimen por quien trata los crímenes como política. El mar libre fue la primera conquista del derecho internacional. Defenderlo no es nostalgia: es defender los cimientos mientras alguien desmonta el techo. Porque el derecho se aplica a todos, o no se aplica a nadie.</p>
-<h4>Referencias normativas</h4>
-<ul class="refs">
-<li>CONVEMAR (1982), arts. 87, 92, 110</li>
-<li>Hugo Grocio, Mare Liberum (1609)</li>
-<li>Manual de San Remo sobre el derecho internacional aplicable a los conflictos armados en el mar (1994), §§ 93-104</li>
-<li>CIJ, medidas provisionales 2024 (Sudáfrica c. Israel) — obligación de garantizar la ayuda humanitaria</li>
-<li>Pacto Internacional de Derechos Civiles y Políticos (1966), arts. 7, 9, 10</li>
-<li>Convención contra la Tortura (1984), arts. 1, 5-7, 16</li>
-<li>Informe de la misión de investigación del Consejo de Derechos Humanos de la ONU sobre el incidente de la flotilla del 31 de mayo de 2010 (Mavi Marmara)</li>
-<li>Sanciones individuales contra I. Ben Gvir y B. Smotrich: Reino Unido, Canadá, Australia, Nueva Zelanda, Noruega (junio 2025)</li>
-<li>Denuncia del Reino de España ante la CPI; investigación de la fiscalía de Estambul (octubre 2025)</li>
-<li>Expulsión de la delegación diplomática israelí y denuncia del TLC, Colombia (octubre 2025)</li>
-<li>Fiscalía de Roma, inscripción de I. Ben Gvir en el registro de investigados por tortura y secuestro (junio 2026); Consejo de Asuntos Exteriores de la UE, expediente de sanciones, 15 de junio de 2026</li>
-</ul>
+<div class="manifesto-card">
+<div class="manifesto-card-title" id="t-mct7">El hambre es una elección política</div>
+<div class="manifesto-card-sub" id="t-mcs7">266 millones de personas no tienen suficiente comida. El mundo lo sabe. El mundo calla. · 2026</div>
+<div class="manifesto-card-actions">
+<a class="btn-read" href="/s/es/m-fame.html">Leer el texto íntegro</a><button class="btn-share" type="button" data-share-key="m-fame"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+</div>
 </div>
 
 
-
-
-
-</div>
 </div>
 </div>
 <div class="page" id="page-notizie">
@@ -660,35 +336,103 @@ a.lang-btn{text-decoration:none;display:inline-block}
 
 
 
-<div class="news-block active" id="nb-es"><div class="news-timeline">
-<div class="news-item" id="n5-es">
+<div class="news-block active" id="nb-es"><!-- News card template: copy a block, change nd-XX id, fill date/title/quote + labels/bodies + source -->
+<div class="news-card">
+<p class="news-date">18 de junio de 2026 — Estados Unidos · Irán · ONU</p>
+<h3 class="news-title">Un acuerdo nacido frágil: la paz EE. UU.-Irán entre coacción y terceros no vinculados</h3>
+<div class="news-quote">«Si alguien se acerca al uranio, lo haremos volar por los aires.» — Donald Trump</div>
+<a class="btn-read" href="/s/es/nd-deal.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-deal"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">15 de junio de 2026 — Consejo de Asuntos Exteriores de la UE · Bruselas</p>
+<h3 class="news-title">Sanciones a Ben Gvir: la UE bloqueada por la unanimidad, mientras los Estados actúan solos</h3>
+<div class="news-quote">«No tenemos la unanimidad necesaria para esta decisión.» — Kaja Kallas, Alta Representante de la UE</div>
+<a class="btn-read" href="/s/es/nd-fac.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-fac"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">13 de junio de 2026 — Oriente Medio · ONU</p>
+<h3 class="news-title">Irán: hacia el fin de la guerra de 2026, y el nudo sin resolver del uso de la fuerza</h3>
+<div class="news-quote">Según el Secretario General de la ONU, los ataques de EE. UU. e Israel violaron la Carta; también condenó como ilícitas las represalias iraníes contra los Estados del Golfo.</div>
+<a class="btn-read" href="/s/es/nd-iran.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-iran"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">12 de junio de 2026 — Unión Europea</p>
+<h3 class="news-title">El nuevo Pacto de Asilo de la UE entra en vigor</h3>
+<div class="news-quote">«Etiquetar un país como ”seguro” no lo hace seguro.» — Amnistía Internacional</div>
+<a class="btn-read" href="/s/es/nd-pact.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-pact"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">11 de junio de 2026 — Luxemburgo</p>
+<h3 class="news-title">Albania, el dictamen del TJUE: «legítimos, pero los derechos deben garantizarse»</h3>
+<div class="news-quote">«Los Estados siguen siendo libres de ubicar los centros en Albania» — pero el respeto de los estándares mínimos de trato sigue sin probarse. (Dictamen de la AG Laila Medina)</div>
+<a class="btn-read" href="/s/es/nd-alb.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-alb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">Junio de 2026 — Omer Bartov, «Israel: What Went Wrong?»</p>
+<h3 class="news-title">Gaza y la palabra «genocidio»: qué han determinado realmente los organismos terceros, y por qué pesa la voz de un estudioso del genocidio</h3>
+<div class="news-quote">«Mi conclusión ineludible es que Israel está cometiendo un genocidio contra el pueblo palestino.» — Omer Bartov, estudioso del Holocausto y del genocidio (Brown University), New York Times, 15 de julio de 2025</div>
+<a class="btn-read" href="/s/es/nd-brt.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-brt"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">Mayo–junio de 2026 — Taipéi · Washington · Pekín</p>
+<h3 class="news-title">Taiwán, la próxima prueba: la disuasión flaquea y el precedente envalentona a Pekín</h3>
+<div class="news-quote">«Lo último que necesitamos es una guerra a 9.500 millas de distancia.» — Donald Trump, de regreso de la cumbre con Xi Jinping, mayo de 2026</div>
+<a class="btn-read" href="/s/es/nd-twn.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-twn"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+
+<div class="news-card">
 <p class="news-date">6 de junio de 2026 — Festival de Cine de Tribeca, Nueva York</p>
 <h3 class="news-title">«Creía que solo violaban a palestinos» — chistes sobre violación en la alfombra roja de Tribeca</h3>
 <div class="news-quote">«Solo me violaron dos perros israelíes» — Elon Gold, actor. «Creía que solo violaban a palestinos» — Lizzy Savetsky, influencer. Alfombra roja del Festival de Cine de Tribeca, 6 de junio de 2026.</div>
-<p class="news-label">Los hechos</p>
-<p class="news-body">En el estreno de <em>The Wedding Entertainer</em>, filmada en Israel, el actor Elon Gold y la influencer pro-Israel Lizzy Savetsky se rieron públicamente haciendo referencia a testimonios documentados de violación y abuso sexual con perros militares entrenados contra detenidos palestinos en la prisión de Sde Teiman. El Festival de Tribeca condenó sin reservas los comentarios: «La violencia sexual y el sufrimiento humano no deberían nunca ridiculizarse ni minimizarse».</p>
-<p class="news-label">Comentario jurídico</p>
-<p class="news-body">Las prácticas descritas constituyen violaciones graves de la Convención de la ONU contra la Tortura (CAT, 1984), el artículo 3 común a los Convenios de Ginebra y crímenes de guerra según el artículo 8 del Estatuto de Roma. La burla pública de tales actos forma parte de una cultura de impunidad que el derecho internacional tiene el deber de nombrar.</p>
-<p class="news-label">Implicaciones</p>
-<p class="news-body">Reírse de la violación de prisioneros de guerra no es libertad de expresión: es la manifestación pública de una deshumanización tan profunda que el sufrimiento del otro se convierte en material cómico. Es la misma deshumanización documentada en las escuelas israelíes, ejercida por Ben Gvir, aplicada en las cárceles. No son episodios separados — son peldaños de la misma escalera.</p>
-<p class="news-source">Fuentes: <a href="https://www.middleeasteye.net/news/pro-israel-influencer-and-actor-share-raped-israeli-dogs-joke" rel="noopener noreferrer" target="_blank">Middle East Eye</a> · <a href="https://variety.com/2026/film/news/tribeca-festival-condemns-palestinian-dog-rape-joke-wedding-entertainer-red-carpet-elon-gold-1236768780/" rel="noopener noreferrer" target="_blank">Variety</a> · B'Tselem «Living Hell», enero de 2026 · Francesca Albanese, Relatora Especial ONU</p>
+<a class="btn-read" href="/s/es/nd-trib.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-trib"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
 </div>
-<div class="news-item" id="n4-es">
-<p class="news-date">2025 — Investigación académica</p>
+<div class="news-card">
+<p class="news-date">Investigación académica</p>
 <h3 class="news-title">La escuela israelí: una fábrica del enemigo</h3>
 <div class="news-quote">«Nos enseñaron que son un problema a resolver. Así que lo estamos resolviendo.» — estudiante israelí a Nurit Peled-Elhanan</div>
-<p class="news-label">Los hechos</p>
-<p class="news-body">Nurit Peled-Elhanan, profesora emérita de Educación Lingüística en la Universidad Hebrea de Jerusalén y autora de <em>Palestine in Israeli School Books</em> (I.B. Tauris, 2012), ha documentado sistemáticamente cómo el sistema escolar estatal israelí presenta a los palestinos como un problema a eliminar. Las masacres históricas de palestinos se enmarcan como «eventos con resultados positivos para los judíos». La enseñanza del Holocausto, según la investigadora, no está diseñada para generar empatía universal, sino para traumatizar a los estudiantes y alimentar el miedo al otro.</p>
-<p class="news-label">Comentario jurídico</p>
-<p class="news-body">La Convención para la Prevención y Sanción del Delito de Genocidio (1948), art. III, incluye entre los actos punibles «la instigación directa y pública a cometer genocidio». Cuando dicha instigación está estructurada en un currículo escolar nacional, la responsabilidad es estatal según los arts. 40-41 ARSIWA.</p>
-<p class="news-label">Implicaciones</p>
-<p class="news-body">Las declaraciones de Ben Gvir, las órdenes de arresto de la CPI, el uso del fósforo blanco — nada de esto surge de la nada. Surge de décadas de formación de una generación que nunca aprendió a reconocer a los palestinos como seres humanos. Este es el contexto que la comunidad internacional tiene el deber de considerar.</p>
-<p class="news-source">Fuente: Nurit Peled-Elhanan, <em>Palestine in Israeli School Books</em>, I.B. Tauris 2012 · +972 Magazine</p>
+<a class="btn-read" href="/s/es/nd-edu.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-edu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
 </div>
-<div class="news-item"><p class="news-date">Junio 2025</p><h3 class="news-title">Ben Gvir propone secuestrar mujeres y niños libaneses</h3><div class="news-quote">«Secuestrar mujeres y niños y llevarlos a las cárceles de los terroristas» — Itamar Ben Gvir, ministro israelí de Seguridad Nacional</div><p class="news-label">Comentario jurídico</p><p class="news-body">La declaración de Ben Gvir constituye una incitación abierta a la comisión de crímenes de guerra. El secuestro de civiles está expresamente prohibido por el artículo 3 común a los Convenios de Ginebra y constituye un crimen de guerra según el artículo 8 del Estatuto de Roma.</p><p class="news-label">Implicaciones</p><p class="news-body">Las declaraciones de un miembro del gobierno atestiguan que la violación del derecho internacional no es un error táctico sino una política deliberada, lo que refuerza la aplicabilidad de los arts. 40-41 ARSIWA.</p><p class="news-source">Fuente: <a href="https://ilmanifesto.it/tajani-condanna-le-ciabatte-ben-gvir-pensa-a-rapire-civili" rel="noopener noreferrer" target="_blank">Il Manifesto</a></p></div>
-<div class="news-item"><p class="news-date">Junio 2025</p><h3 class="news-title">Ben Gvir investigado por la Fiscalía de Roma — Flotilla</h3><div class="news-quote">La Fiscalía de Roma registró a Ben Gvir como sospechoso en el caso de la Global Sumud Flotilla. Ben Gvir respondió atacando a Italia: «El país de las chanclas».</div><p class="news-label">Comentario jurídico</p><p class="news-body">El registro como sospechoso por un tribunal europeo establece un precedente significativo: es la primera vez que la justicia ordinaria de un Estado miembro de la UE ejerce jurisdicción sobre un ministro israelí en ejercicio.</p><p class="news-label">Implicaciones</p><p class="news-body">El ministro Tajani calificó las palabras de Ben Gvir de «inaceptables e indignas» y solicitó formalmente a Kallas que llevara una propuesta de sanciones al Consejo de Asuntos Exteriores, con el apoyo de Francia y los Países Bajos.</p><p class="news-source">Fuente: <a href="https://www.tgcom24.mediaset.it/politica/antonio-tajani-parole-ben-gvir-italia_113019465-202602k.shtml" rel="noopener noreferrer" target="_blank">TGCom24</a></p></div>
-<div class="news-item"><p class="news-date">Junio 2025</p><h3 class="news-title">Italia solicita sanciones europeas contra Ben Gvir</h3><div class="news-quote">«He pedido a la Alta Representante Kallas que lleve al Consejo de Asuntos Exteriores una propuesta de sanciones contra el ministro Ben Gvir» — Antonio Tajani</div><p class="news-label">Comentario jurídico</p><p class="news-body">La solicitud italiana de sanciones individuales contra un ministro israelí representa la aplicación concreta del mecanismo previsto en los arts. 40-41 ARSIWA — exactamente el modelo invocado por este manifiesto.</p><p class="news-label">Implicaciones</p><p class="news-body">El apoyo de Francia y los Países Bajos hace la perspectiva concreta y demuestra que la presión cívica produce efectos reales.</p><p class="news-source">Fuente: <a href="https://www.tgcom24.mediaset.it/politica/antonio-tajani-parole-ben-gvir-italia_113019465-202602k.shtml" rel="noopener noreferrer" target="_blank">TGCom24</a></p></div>
-</div></div>
+<div class="news-card">
+<p class="news-date">Junio 2026</p>
+<h3 class="news-title">Ben Gvir propone secuestrar mujeres y niños libaneses</h3>
+<div class="news-quote">«Secuestrar mujeres y niños y llevarlos a las cárceles de los terroristas» — Itamar Ben Gvir, ministro israelí de Seguridad Nacional</div>
+<a class="btn-read" href="/s/es/nd-leb.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-leb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+<div class="news-card">
+<p class="news-date">Junio 2026</p>
+<h3 class="news-title">Ben Gvir investigado por la Fiscalía de Roma — Flotilla</h3>
+<div class="news-quote">La Fiscalía de Roma registró a Ben Gvir como sospechoso en el caso de la Global Sumud Flotilla. Ben Gvir respondió atacando a Italia: «El país de las chanclas».</div>
+<a class="btn-read" href="/s/es/nd-flot.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-flot"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div>
+<div class="news-card">
+<p class="news-date">Junio 2026</p>
+<h3 class="news-title">Italia solicita sanciones europeas contra Ben Gvir</h3>
+<div class="news-quote">«He pedido a la Alta Representante Kallas que lleve al Consejo de Asuntos Exteriores una propuesta de sanciones contra el ministro Ben Gvir» — Antonio Tajani</div>
+<a class="btn-read" href="/s/es/nd-eu.html">Leer el análisis</a><button class="btn-share" type="button" data-share-key="nd-eu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Compartir</span></button>
+
+</div><div class="news-card">
+<p class="news-date">3 de enero de 2026 — Caracas</p>
+<p class="news-body">Estados Unidos captura militarmente al presidente Nicolás Maduro y anuncia que «gobernará» Venezuela. La captura de un jefe de Estado en ejercicio, sin autorización del Consejo de Seguridad ni legítima defensa, viola el artículo 2(4) de la Carta de la ONU y la inmunidad de los jefes de Estado. Es la prueba más pura del principio de esta plataforma: la ley vale para todos o para nadie.</p>
+<button class="btn-read news-toggle" onclick="showPage('manifesti')">Leer el manifiesto completo sobre Estados Unidos →</button>
+</div>
+</div>
 
 
 
@@ -726,7 +470,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
 </div>
-<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p></footer>
+<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p><p style="margin-top:10px"><a href="mailto:iwillnotlookaway@gmail.com" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">Facebook</a></p></footer>
 <script>
 var T = {"es": {"nav_scopo": "Propósito", "nav_chisono": "Quién soy", "nav_manifesti": "Manifiestos", "nav_notizie": "Noticias", "nav_petizioni": "Peticiones", "hl": "I Will Not Look Away · 2026", "ht": "SEE. FEEL. <em>ACT.</em>", "hs": "La ley se aplica a todos, o no se aplica a nadie.", "cs": "Los manifiestos", "cr": "Las peticiones", "c1": "Gaza · 2023–2024", "c2": "Consejo de Seguridad · Veto", "c3": "Derecho Internacional · En silencio", "sl": "Propósito", "al": "Quién soy", "ml": "Manifiestos", "nh": "Noticias", "ph": "Peticiones", "mct": "Por el No Reconocimiento del Estado de Israel", "mcs": "Fundamento jurídico, ético y político de una ruptura necesaria · 2026", "mcr": "Leer el texto íntegro", "mcc": "Cerrar", "mcp": "Descargar PDF", "pl": "Descargar el Manifiesto en PDF", "pdf": "manifesto_es.pdf", "pdf2": "manifesto_ru_es.pdf", "pdf3": "manifesto_sd_es.pdf", "pdf4": "manifesto_us_es.pdf", "pdf5": "manifesto_fl_es.pdf", "mct4": "Por el No Reconocimiento de la Conducta de los Estados Unidos de América", "mcs4": "Fundamento jurídico, ético y político de un principio que no admite excepciones · 2026", "mct5": "Por la Libertad de los Mares — El Secuestro de la Flotilla", "mcs5": "Fundamento jurídico, ético y político del derecho a no apartar la mirada · 2026", "mct2": "Por el No Reconocimiento de la Conducta de la Federación Rusa", "mcs2": "Fundamento jurídico, ético y político de una coherencia necesaria · 2026", "mct3": "Por Sudán — El Genocidio del que el Mundo Aparta la Mirada", "mcs3": "Fundamento jurídico, ético y político de una atención debida · 2026", "soon": "Petición en preparación", "ad": "Una sola persona. Ninguna organización, ningún movimiento — un ciudadano que eligió no callar.", "md": "Documentos fundados en el derecho internacional: hechos documentados, normas violadas, medidas concretas.", "nd": "Los hechos que me impactaron y que no podía ignorar. Cada noticia se verifica y se acompaña de un análisis jurídico antes de su publicación.", "pd": "Cada manifiesto tiene su petición dedicada. Firmar significa dar peso colectivo a un principio.", "ft": "I Will Not Look Away · iwillnotlookaway.org · 2026", "title": "I Will Not Look Away — Manifiesto"}};
 
@@ -807,7 +551,7 @@ function setLang(l) {
   ["scope-block","about-block","manifesto-block","news-block","pet-block"].forEach(function(cls){
     document.querySelectorAll("."+cls).forEach(function(b){ b.classList.remove("active"); });
   });
-  var ids = ["sc-"+l, "ab-"+l, "b-"+l, "nb-"+l, "pet-"+l, "ru-"+l, "sd-"+l, "us-"+l, "fl-"+l];
+  var ids = ["sc-"+l, "ab-"+l, "b-"+l, "nb-"+l, "pet-"+l, "ru-"+l, "sd-"+l, "us-"+l, "fl-"+l, "im-"+l];
   ids.forEach(function(id){
     var el = document.getElementById(id);
     if (el) el.classList.add("active");
@@ -821,6 +565,7 @@ function setLang(l) {
   if (typeof CONSENT_T !== "undefined") updateConsentTexts();
 }
 
+var PAGEHASH={"home": "inicio", "chisono": "quienes", "manifesti": "manifiestos", "notizie": "noticias", "petizioni": "peticiones"};var PAGEHASH_R={};for(var _k in PAGEHASH){PAGEHASH_R[PAGEHASH[_k]]=_k;}
 function showPage(p) {
   document.querySelectorAll(".page").forEach(function(pg){ pg.classList.remove("active"); });
   var target = document.getElementById("page-"+p);
@@ -829,7 +574,7 @@ function showPage(p) {
   var nav = document.getElementById("t-nav-"+p);
   if (nav) nav.classList.add("active");
   window.scrollTo(0, 0);
-  if (history.replaceState) history.replaceState(null, "", "#"+p);
+  if (history.replaceState) history.replaceState(null, "", "#"+(PAGEHASH[p]||p));
 }
 
 function toggleManifesto() {
@@ -841,20 +586,18 @@ function toggleManifesto() {
 function toggleM(which) {
   var el = document.getElementById("manifesto-text-" + which);
   el.classList.toggle("open");
-  var btn = which === "ru" ? "t-mcr2" : which === "sd" ? "t-mcr3" : which === "us" ? "t-mcr4" : "t-mcr5";
+  var btn = which === "ru" ? "t-mcr2" : which === "sd" ? "t-mcr3" : which === "us" ? "t-mcr4" : which === "im" ? "t-mcr6" : which === "fame" ? "t-mcr7" : "t-mcr5";
   setText(btn, el.classList.contains("open") ? T[currentLang].mcc : T[currentLang].mcr);
 }
 
-// Init: legge ?lang= e #pagina dall'URL
+// --- News: schede apribili ---
+var NEWS_OPEN="Leer el análisis",NEWS_CLOSE="Cerrar";
+function toggleNews(id){var el=document.getElementById(id);if(!el)return;var o=el.classList.toggle("open");var b=document.querySelector('[data-news="'+id+'"]');if(b)b.textContent=o?NEWS_CLOSE:NEWS_OPEN;}
+
+// Init: legge solo #pagina (lingua fissa per file)
 (function(){
-  var param = new URLSearchParams(window.location.search).get("lang");
-  if (!param) {
-    var m = window.location.pathname.match(/^\/(it|en|fr|de|zh|ar|es|pt|tr|he)\//);
-    if (m) param = m[1];
-  }
-  if (param && T[param]) setLang(param);
   var hash = window.location.hash.replace("#","");
-  if (hash && document.getElementById("page-"+hash)) showPage(hash);
+  var _p=(PAGEHASH_R[hash]||hash); if (hash && document.getElementById("page-"+_p)) showPage(_p);
 })();
 
 var CONSENT_T = {"es": {"txt": "Este sitio usa Google Analytics para contar visitas de forma anónima. Ningún dato se vende ni se comparte.", "ok": "Acepto", "no": "Rechazo"}};
@@ -880,5 +623,27 @@ function consentChoice(ok){
   }
 })();
 </script>
+<script>(function(){try{
+var ns=document.querySelectorAll('#page-notizie .news-card'),host=document.getElementById('home-news'),n=0;
+for(var i=0;i<ns.length&&n<3;i++){var t=ns[i].querySelector('.news-title');if(!t)continue;var d=ns[i].querySelector('.news-date');
+var c=document.createElement('div');c.className='hcard';c.onclick=function(){showPage('notizie');};
+c.innerHTML='<div class="hdate">'+(d?d.innerHTML:'')+'</div><div class="htitle">'+t.innerHTML+'</div>';host.appendChild(c);n++;}
+var ms=document.querySelectorAll('#page-manifesti .manifesto-card-title'),mh=document.getElementById('home-manifesti');
+for(var j=0;j<ms.length;j++){var r=document.createElement('a');r.className='mrow';r.onclick=function(){showPage('manifesti');};
+r.innerHTML='<span class="mnum">'+('0'+(j+1)).slice(-2)+'</span><span class="mtit">'+ms[j].innerHTML+'</span><span class="marr">&rarr;</span>';mh.appendChild(r);}
+}catch(e){}})();</script>
+<script>/*deeplink*/(function(){var sp=new URLSearchParams(location.search),open=sp.get('open');if(!open)return;
+function scroll(el){if(!el)return;setTimeout(function(){var y=el.getBoundingClientRect().top+window.pageYOffset-90;window.scrollTo({top:y,behavior:'smooth'});},180);}
+function go(){try{
+if(open.indexOf('nd-')===0){if(typeof showPage==='function')showPage('notizie');var d=document.getElementById(open);if(d){if(!d.classList.contains('open')&&typeof toggleNews==='function')toggleNews(open);scroll(d.closest('.news-card')||d);}}
+else{if(typeof showPage==='function')showPage('manifesti');var box,fn;
+if(open==='m1'){box=document.getElementById('manifesto-text');fn=function(){if(typeof toggleManifesto==='function')toggleManifesto();};}
+else if(open.indexOf('m-')===0){var k=open.slice(2);box=document.getElementById('manifesto-text-'+k);fn=function(){if(typeof toggleM==='function')toggleM(k);};}
+if(box){if(!box.classList.contains('open'))fn();scroll(box.previousElementSibling||box);}}
+}catch(e){}}
+setTimeout(go,80);})();</script>
+<script>/*share*/(function(){function curLang(){var m=location.pathname.match(/^\/(en|fr|de|es|pt|tr|zh|ar|he)(\/|$)/);return m?m[1]:"it";}var DONE="Enlace copiado";function toast(t){var d=document.createElement("div");d.className="share-toast";d.textContent=t;document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add("show");});setTimeout(function(){d.classList.remove("show");setTimeout(function(){d.remove();},400);},1800);}function shareItem(key,title){var url=location.origin+"/s/"+curLang()+"/"+key+".html";if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){toast(DONE);},function(){window.prompt(DONE,url);});}else{window.prompt(DONE,url);}}document.addEventListener("click",function(e){var b=e.target.closest("[data-share-key]");if(!b)return;e.preventDefault();e.stopPropagation();var key=b.getAttribute("data-share-key");var card=b.closest(".manifesto-card")||b.closest(".news-card");var te=card?card.querySelector(".manifesto-card-title,.news-title"):null;var title=te?te.textContent.trim():"I Will Not Look Away";shareItem(key,title);});})();</script>
+<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
+<script>(function(){try{var p=new URLSearchParams(location.search).get("page");if(p&&["home","chisono","manifesti","notizie","petizioni"].indexOf(p)>-1&&typeof showPage==="function")showPage(p);}catch(e){}})();</script>
 </body>
 </html>

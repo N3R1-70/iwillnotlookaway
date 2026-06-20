@@ -26,7 +26,7 @@ gtag('config', 'G-RTTRBJLDQQ');
 <meta content="I Will Not Look Away" property="og:site_name"/>
 <meta content="I Will Not Look Away — Uluslararası Hukuk Manifestoları" property="og:title"/>
 <meta content="Uluslararası hukuka dayanan beş manifesto: İsrail, Rusya, Sudan, ABD, Filo. Hukuki analizler, dilekçeler, tanımama ilkesi." property="og:description"/>
-<meta content="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1200&amp;q=80" property="og:image"/>
+<meta content="https://iwillnotlookaway.org/og-cover.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="I Will Not Look Away — SEE. FEEL. ACT." property="og:image:alt"/><meta content="https://iwillnotlookaway.org/og-cover.jpg" name="twitter:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&amp;family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;display=swap" rel="stylesheet"/>
 <style>
@@ -92,8 +92,8 @@ h1 em{font-style:italic;color:var(--glow);font-weight:400}
 .btn-pdf{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--ash);text-decoration:none;border:1px solid var(--line);padding:10px 24px;display:inline-flex;align-items:center;gap:8px;transition:color .3s,border-color .3s}
 .btn-pdf:hover{color:var(--ghost);border-color:var(--ash)}
 .btn-pdf svg{width:14px;height:14px;fill:currentColor}
-#manifesto-text,#manifesto-text-ru,#manifesto-text-sd,#manifesto-text-us,#manifesto-text-fl{display:none;margin-top:48px;border-top:1px solid var(--line);padding-top:48px}
-#manifesto-text.open,#manifesto-text-ru.open,#manifesto-text-sd.open,#manifesto-text-us.open,#manifesto-text-fl.open{display:block}
+#manifesto-text,#manifesto-text-ru,#manifesto-text-sd,#manifesto-text-us,#manifesto-text-fl,#manifesto-text-im,#manifesto-text-fame{display:none;margin-top:48px;border-top:1px solid var(--line);padding-top:48px}
+#manifesto-text.open,#manifesto-text-ru.open,#manifesto-text-sd.open,#manifesto-text-us.open,#manifesto-text-fl.open,#manifesto-text-im.open,#manifesto-text-fame.open{display:block}
 .manifesto-block h4{font-family:'EB Garamond',serif;font-size:clamp(1.3rem,2.2vw,1.8rem);font-weight:700;color:var(--ghost);margin:44px 0 14px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--line);padding-bottom:8px}
 .manifesto-block h3.mt{font-size:clamp(1.6rem,2.8vw,2.2rem);border-left:4px solid var(--blood);border-bottom:none;padding:0 0 0 20px;margin-bottom:28px;text-transform:none;color:var(--bone)}
 .manifesto-block h5{font-family:'EB Garamond',serif;font-size:1.05rem;font-weight:700;color:var(--pale);margin:26px 0 8px}
@@ -121,6 +121,12 @@ h1 em{font-style:italic;color:var(--glow);font-weight:400}
 .news-body{font-size:1rem;line-height:1.85;color:var(--dust);margin-bottom:10px}
 .news-source{font-size:.78rem;color:var(--ash);margin-top:14px}
 .news-source a{color:var(--ash);text-decoration:underline}
+.news-card{border:1px solid var(--line);padding:30px 36px;margin-bottom:24px;transition:border-color .3s}
+.news-card:hover{border-color:var(--ash)}
+.news-card .news-date{margin-bottom:10px}
+.news-toggle{margin-top:20px}
+.news-detail{display:none;margin-top:8px;border-top:1px solid var(--line);padding-top:24px}
+.news-detail.open{display:block}
 #consent-banner{position:fixed;bottom:0;left:0;right:0;z-index:300;background:rgba(8,8,8,.98);backdrop-filter:blur(8px);border-top:1px solid var(--blood);padding:18px 24px;display:none;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
 #consent-text{font-size:.85rem;color:var(--dust);max-width:560px;margin:0;line-height:1.6}
 .consent-btn{font-family:'Source Serif 4',serif;font-size:.72rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;padding:10px 26px;transition:all .3s}
@@ -137,12 +143,32 @@ footer{background:var(--void);color:var(--line);padding:40px 48px;text-align:cen
 .page-desc{font-size:1.05rem;font-style:italic;color:var(--dust);line-height:1.75;max-width:620px;margin-bottom:64px}
 .section-inner{padding:40px 24px 80px}.image-strip{grid-template-columns:1fr;height:auto}.strip-img{height:180px}h1{font-size:clamp(2.4rem,10vw,3.5rem)}.btn-secondary{display:none}.lang-btn{padding:7px 8px;font-size:.62rem}.nav-link{padding:8px 12px;font-size:.62rem}.news-timeline{padding-left:20px}.news-item::before{left:-24px}.page{padding-top:150px}}
 a.lang-btn{text-decoration:none;display:inline-block}
+.hero-mark{width:150px;height:auto;display:block;margin:0 auto 26px;filter:drop-shadow(0 4px 30px rgba(0,0,0,.6))}
+.hero-hook{max-width:600px;margin:26px auto 30px;font-family:'EB Garamond',serif;font-size:1.35rem;line-height:1.55;color:var(--ghost)}
+.hero-hook strong{color:var(--bone);font-weight:700}
+.breadth{margin-top:38px;font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ash)}
+.home-news{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+.hcard{border:1px solid var(--line);background:var(--surface);padding:24px;cursor:pointer;transition:border-color .3s}
+.hcard:hover{border-color:var(--ember)}
+.hcard .hdate{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--glow);margin-bottom:12px;font-family:'Source Serif 4',serif}
+.hcard .htitle{font-family:'EB Garamond',serif;font-size:1.2rem;font-weight:700;line-height:1.25;color:var(--bone)}
+.mrow{display:block;text-decoration:none;border-bottom:1px solid var(--line);padding:18px 4px;cursor:pointer}
+.mrow .mnum{color:var(--ember);font-size:.8rem;font-family:'Source Serif 4',serif;margin-right:20px;font-weight:700}
+.mrow .mtit{color:var(--ghost);font-size:1.1rem;font-family:'EB Garamond',serif}
+.mrow .marr{float:right;color:var(--ash)}
+@media(max-width:760px){.home-news{grid-template-columns:1fr}.hero-mark{width:120px}.hero-hook{font-size:1.15rem}}
+.btn-share{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--dust);background:none;border:1px solid var(--line);padding:10px 22px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;transition:color .3s,border-color .3s;vertical-align:middle}
+.btn-share:hover{color:var(--ghost);border-color:var(--ember)}
+.btn-share svg{width:14px;height:14px;fill:currentColor}
+.news-toggle + .btn-share{margin-left:12px}
+.share-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--ember);color:var(--bone);padding:12px 24px;font-size:.85rem;letter-spacing:.05em;opacity:0;pointer-events:none;transition:opacity .3s;z-index:99999}
+.share-toast.show{opacity:1}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/tr/", "inLanguage": "tr", "description": "Uluslararası hukuka dayanan beş manifesto: İsrail, Rusya, Sudan, ABD, Filo. Hukuki analizler, dilekçeler, tanımama ilkesi.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script></head>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/tr/", "inLanguage": "tr", "description": "Uluslararası hukuka dayanan beş manifesto: İsrail, Rusya, Sudan, ABD, Filo. Hukuki analizler, dilekçeler, tanımama ilkesi.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script><link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="theme-color" content="#0a0a0c"/></head>
 <body>
 <nav id="main-nav">
 <div id="nav-logo-wrap" onclick="showPage('home')">
-<img alt="I Will Not Look Away" id="nav-logo" src="logo.png"/>
+<img alt="I Will Not Look Away" id="nav-logo" src="/logo.png"/>
 </div>
 <div id="nav-links">
 <button class="nav-link" id="t-nav-scopo" onclick="showPage('home')">Amaç</button>
@@ -167,38 +193,44 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="page active" id="page-home">
 <section id="hero">
 <div id="hero-bg"></div>
-<div class="hero-content">
-<p class="hero-eyebrow" id="t-hl">I Will Not Look Away · 2026</p>
+<div class="hero-content" style="text-align:center">
+<img class="hero-mark" src="/mark.png" alt="I Will Not Look Away"/>
+<p class="hero-eyebrow" id="t-hl" style="justify-content:center">I Will Not Look Away · 2026</p>
 <h1 id="t-ht">SEE. FEEL. <em>ACT.</em></h1>
-<p class="hero-sub" id="t-hs">Hukuk herkese uygulanır, ya da hiç kimseye uygulanmaz.</p>
-<div class="hero-actions">
-<button class="btn-primary" id="t-cs" onclick="showPage('manifesti')">Manifestolar</button>
-<button class="btn-secondary" id="t-cr" onclick="showPage('petizioni')">Dilekçeler</button>
+<p class="hero-sub" id="t-hs" style="margin-left:auto;margin-right:auto">Hukuk herkese uygulanır, ya da hiç kimseye uygulanmaz.</p>
+<p class="hero-hook">Başını çevirmek, adaletsizlik karşısında en yaygın jesttir. <strong>Burada, hiç değilse, bilinçli bir tercihe dönüşür.</strong></p>
+<div class="hero-actions" style="justify-content:center">
+<button class="btn-primary" onclick="showPage('petizioni')">İmzala</button>
+<button class="btn-secondary" onclick="showPage('manifesti')">Manifestoları keşfet</button>
 </div>
+<p class="breadth">Gazze · Ukrayna · Sudan · Venezuela · Filo · Tayvan · Lübnan</p>
 </div>
 </section>
-<div class="section-inner" style="padding-top:90px;padding-bottom:60px">
+<div class="section-inner" style="padding-top:80px;padding-bottom:40px">
+<p class="section-header">Son haberler</p>
+<div id="home-news" class="home-news"></div>
+</div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:40px">
+<p class="section-header">Manifestolar</p>
+<div id="home-manifesti"></div>
+</div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:70px">
 <p class="section-header" id="t-sl">Amaç</p>
-
-
-
-
-
-
-
-
 <div class="scope-block active" id="sc-tr">
 <p>Bu platform, basit ve rahatsız edici bir inançtan doğdu: uluslararası hukukun jeopolitik istisnaları olamaz. Belirli bir noktada <strong>sessizlik suç ortaklığına dönüşür.</strong></p>
 <p>Bir örgütü temsil etmiyorum. Siyasi bir hareket değilim. Gören, hisseden ve harekete geçmeyi seçen bir vatandaşım — hukukun güçsüzlerin ellerine verdiği tek silahlarla: <em>kesin kelimeler, belgelenmiş gerçekler, yazılı normlar.</em></p>
 <p>Bu platform, uluslararası hukuka dayanan bildirgeler, hukuki çerçevesiyle birlikte ilgili açıklama ve olaylara dair haberler ve <strong>hiçbir devletin hukukun üzerinde olmadığı</strong> ilkesini paylaşan herkesin imzasına açık dilekçeler barındırmaktadır.</p>
 </div>
-
 </div>
-<div class="image-strip">
-<div class="strip-img"><img alt="" loading="lazy" src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&amp;q=70"/><div class="caption" id="t-c1">Gazze · 2023–2024</div></div>
-<div class="strip-img"><img alt="" loading="lazy" src="https://images.unsplash.com/photo-1568454537842-d933259bb258?w=600&amp;q=70"/><div class="caption" id="t-c2">Güvenlik Konseyi · Veto</div></div>
-<div class="strip-img"><img alt="" loading="lazy" src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&amp;q=70"/><div class="caption" id="t-c3">Uluslararası Hukuk · Sessizlik içinde</div></div>
-</div>
+<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
+<p class="section-header">Bilgi sahibi olun</p>
+<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Yalnızca bir olgu hak ettiğinde, özlü bir özet. Spam yok, algoritma yok: e-postanız sizin kalır.</p>
+<form data-ok="E-posta uygulamanız açıldı — aboneliği onaylamak için mesajı gönderin." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+<input type="email" required placeholder="eposta@adresiniz.com" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
+<button type="submit" class="btn-primary">Abone ol</button>
+</form>
+<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">Abone olarak I Will Not Look Away güncellemelerini almayı kabul edersiniz. İstediğiniz zaman iptal edebilirsiniz.</p>
+</section>
 </div>
 <div class="page" id="page-chisono">
 <div class="section-inner">
@@ -232,420 +264,64 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="manifesto-card-title" id="t-mct">İsrail Devleti'nin Tanınmaması İçin</div>
 <div class="manifesto-card-sub" id="t-mcs">Zorunlu bir kopuşun hukuki, etik ve siyasi temeli · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr" onclick="toggleManifesto()">Tam metni okuyun</button>
+<a class="btn-read" href="/s/tr/m1.html">Tam metni okuyun</a><button class="btn-share" type="button" data-share-key="m1"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 <a class="btn-pdf" href="/manifesto_tr.pdf" id="pdf-card" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp">PDF indir</span></a>
 </div>
 </div>
-<div id="manifesto-text">
 
-
-
-
-
-
-
-
-<div class="manifesto-block active" id="b-tr">
-<h3 class="mt">Bu manifesto kime sesleniyor</h3>
-<p>Bu manifesto, egemen kamusal söylemin yapay biçimde karşı karşıya getirdiği iki insan grubuna seslenmektedir; oysa bu iki grup aynı ahlaki iddiayı paylaşır: hukukun herkes için, jeopolitik istisnasız geçerli olduğunu.</p>
-<p>Her şeyden önce, İsrail Devleti'nin Gazze ve Lübnan'daki sivil halka yönelik belgelenmiş saldırılarını ahlaki açıdan kabullenmek istemeyen herkese seslenmektedir. Evlerin üzerine düşen beyaz fosfor görüntülerini görüp sessizliğin artık sürdürülebilir bir tutum olmadığına karar verenlere.</p>
-<p>İkinci olarak ve eşit bir güçle, seçmediği, karşı çıktığı ya da açıkça mücadele ettiği bir hükümetin eylemleri nedeniyle ayrımcılığa uğrayan her İsrail vatandaşına ve her diaspora Yahudisine seslenmektedir. Onlar devletlerinin askeri ve siyasi kararlarından sorumlu değildir.</p>
-<p><em>Bu iki grup çelişki içinde değildir. Tek bir sorunun iki yüzüdür: Uluslararası hukukun saygı görmesi ve hiçbir insanın işlemediği suçlar için bedel ödememesi mümkün müdür? Bu manifestonun yanıtı evettir — bunu gerçeğe dönüştürmenin koşulu ise şeyleri adıyla çağırmaktır.</em></p>
-<h4>I. Önsöz</h4>
-<p>Bu manifesto, duygusal bir dürtüden değil, akılcı bir vicdan eyleminden doğmaktadır. Bu belgeyi imzalayanlar, giderek artan bir entelektüel kaygıyla, silahlı çatışmada güç kullanımının olağan kategorileriyle artık açıklanamayan bir devlet davranışı örüntüsünün evrimini gözlemlemiştir. Geri dönüşü olmayan nokta, yoğun nüfuslu sivil alanlara beyaz fosforun sistematik ve belgelenmiş biçimde kullanılmasıydı — örf ve andlaşma uluslararası insancıl hukuku tarafından tartışmasız biçimde yasaklanmış bir silah.</p>
-<p>Bu bildiri bir antisemitizm eylemi değildir; Yahudi halkının varlık ve güvenlik hakkının reddi de değildir. İkinci Dünya Savaşı'nın enkazı üzerine "bir daha asla" vaadiyle inşa edilen uluslararası hukuka sadakatin bir eylemidir.</p>
-<h4>II. Tetikleyen olay: beyaz fosforun kullanımı</h4>
-<h5>2.1 Silahın niteliği</h5>
-<p>Beyaz fosfor (WP), oksijenle temas ettiğinde kendiliğinden tutuşan ve 800°C'nin üzerinde yanan bir kimyasal maddedir. Bir kez ateşlendi mi, mevcut oksijen tükenene ya da tamamen yanıp bitene kadar yanmaya devam eder. İnsan dokusuna temas ettiğinde derine işler ve içten yanmayı sürdürür; son derece ağır, çoğunlukla ölümcül ve her halükârda kalıcı yaralanmalara yol açar.</p>
-<h5>2.2 Kullanımların belgelenmesi</h5>
-<p>İnsan Hakları İzleme Örgütü, fotoğraf kanıtları, videolar ve doğrudan tanıklıklarla İsrail Savunma Kuvvetleri'nin (İSK) Ekim 2023'ten itibaren Gazze Şeridi ve Güney Lübnan'ın yoğun nüfuslu bölgelerinde beyaz fosfor mühimmatı kullandığını belgeledi.</p>
-<blockquote>"Israeli forces have used white phosphorus in military operations in Lebanon and Gaza, putting civilians at risk of serious and long-term injuries." — İnsan Hakları İzleme Örgütü, 12 Ekim 2023</blockquote>
-<h5>2.3 Hukuki nitelendirme</h5>
-<p>Sivil kentsel alanlarda beyaz fosfor kullanımı, kundaklayıcı silahları düzenleyen Belirli Konvansiyonel Silahlara İlişkin Sözleşme'nin (CCW, Cenevre 1980) III. Protokolü'nün ihlaline yol açmaktadır. Sivil halka karşı kasıtlı biçimde kundaklayıcı madde olarak kullanılması, Roma Statüsü'nün 8. maddesi kapsamında savaş suçu oluşturmaktadır.</p>
-<h4>III. İhlal edilen uluslararası normatif çerçeve</h4>
-<h5>3.1 Örf ve Adet Uluslararası İnsancıl Hukuku</h5>
-<ul>
-<li>Ayrım ilkesi (UKKK Kural 1): Çatışma tarafları siviller ile savaşanlar arasında her zaman ayrım yapmak zorundadır.</li>
-<li>Orantılılık ilkesi (Kural 14): Beklenen askeri avantaja kıyasla aşırı sivil kayba yol açabilecek saldırılar yasaktır.</li>
-<li>İhtiyat ilkesi (Kural 15): Sivil kayıpları önlemek ya da asgariye indirmek için uygulanabilir tüm önlemler alınmalıdır.</li>
-<li>Ayrım gözetmeyen silahların yasağı (Kural 71): Siviller ile savaşanları ayırt etme kapasitesinden yoksun silahlar yasaktır.</li>
-</ul>
-<h5>3.2 Soykırım Sözleşmesi (1948)</h5>
-<p>Uluslararası Adalet Divanı, 26 Ocak 2024 tarihinde Güney Afrika'nın İsrail'e karşı açtığı soykırım davasındaki iddiaları makul bularak ihtiyati tedbir kararı verdi.</p>
-<blockquote>"The Court considers that at least some of the rights claimed by South Africa and for which it is seeking protection are plausible." — UAD, 26 Ocak 2024 tarihli Karar, § 54</blockquote>
-<h5>3.3 Roma Statüsü ve Uluslararası Ceza Mahkemesi</h5>
-<p>UCM, 21 Kasım 2024 tarihinde Başbakan Netanyahu ve Savunma Bakanı Gallant hakkında savaş suçları ve insanlığa karşı suçlar nedeniyle tutuklama müzekkereleri çıkardı. Bu, Mahkeme tarihinde bir Batılı hükümet veya stratejik müttefikinin liderlerine karşı tutuklama müzekkeresi çıkarılan ilk davadır.</p>
-<h5>3.4 BM Kararları</h5>
-<p>BM Genel Kurulu, 18 Ekim 2023'te 120 oyla ES-10/21 sayılı kararı kabul etti. Güvenlik Konseyi, ABD'nin veto hakkını kullanması nedeniyle sistematik biçimde felç edildi.</p>
-<h4>IV. Hukuki dayanak: kategoriler üzerine açıklık</h4>
-<h5>4.1 Bu manifestoda "tanımama"nın anlamı</h5>
-<p>Burada kullanılan "tanımama" ifadesi kesin ve hukuki açıdan dayanaklı bir konuyu ifade eder: İsrail Devleti'nin Gazze ve Lübnan'daki askeri operasyonlarındaki davranışını meşru, uluslararası hukukla uyumlu olarak tanımayı reddetmek. Devletlerin Uluslararası Hukuka Aykırı Fiillerine İlişkin Maddeler (ARSIWA, UHK/BM 2001) tam da bunu diğer devletlerden ister:</p>
-<ul>
-<li>Madde 40: Genel uluslararası hukukun emredici normlarından (jus cogens) doğan yükümlülüklerin ağır ihlalleri.</li>
-<li>Madde 41: Diğer devletlerin ağır ihlal sonucu oluşan durumu meşru olarak tanımama ve sürdürülmesine yardım ya da destek vermeme yükümlülüğü.</li>
-</ul>
-<p>Bu manifestonun başlığı — "İsrail Devleti'nin tanınmaması" — bu perspektiften okunmalıdır: devletliğin ontolojik reddi olarak değil, emredici hukuku sistematik biçimde ihlal eden bir davranışa meşruiyet atfetmeyi siyasi ve ahlaki olarak reddeden bir tutum olarak.</p>
-<h5>4.2 Güney Afrika emsali</h5>
-<p>Uluslararası toplum, Güney Afrika Devleti'ni hiçbir zaman hukuki bir varlık olarak "tanımadı" demedi. Yaptığı şey —ve bu ilgili emsaldir— rejimin davranışını meşruiyetsiz ilan etmek, Güney Afrika'yı uzman kuruluşlardan uzaklaştırmak, zorunlu bir silah ambargosu uygulamak (418 sayılı Karar, 1977) ve hükümeti 1990'da apartheid çöküşüne kadar aşamalı olarak tecrit etmekti. Bu manifesto tam da bu modelin uygulanmasını önermektedir.</p>
-<h5>4.3 Seçicilik meselesi</h5>
-<p>İmzacılar açıkça kabul eder ki ABD, Rusya, Fransa ve Türkiye gibi devletler de benzer tedbirleri hak etmektedir. Bu asimetri antisemitizmin değil, uluslararası hukukun seçici biçimde uygulandığının kanıtıdır. Doğru yanıt felç ya da sessizlik değil: aynı standardın herkes için geçerli olması gerektiğinin beyanıdır.</p>
-<h4>V. Somut tedbirler</h4>
-<h5>5.1 Birleşmiş Milletler</h5>
-<p>BM Şartı'nın 5. maddesi — hak ve ayrıcalıkların askıya alınması — "Barış İçin Birlik" kararı (377 sayılı Karar, 1950) çerçevesinde Genel Kurul aracılığıyla uygulanmalıdır.</p>
-<h5>5.2 Uzman kuruluşlar ve uluslararası organlar</h5>
-<p>İsrail'in UNESCO, DSÖ, FAO, BM İnsan Hakları Konseyi, OECD ve Avrupa Konseyi üyeliğinin askıya alınması talep edilmektedir.</p>
-<h5>5.3 Ekonomik yaptırımlar ve silah ambargosu</h5>
-<p>1977'de Güney Afrika'ya uygulananla benzer, zorunlu nitelikte bir silah, cephane ve çift kullanımlı askeri teknoloji ambargosu ile hedeflenmiş ekonomik yaptırımlar talep edilmektedir.</p>
-<h4>VI. Zorunlu bir ayrım: Devlet, hükümet, halk</h4>
-<p>Bu manifesto İsrail halkına, İsrail'deki ya da diasporadaki Yahudi vatandaşlara ya da Yahudi kültürüne, tarihine veya geleneğine karşı değildir. Organları aracılığıyla uluslararası hukuku defalarca ihlal eden bir devletin hükümet kararlarına ve askeri davranışlarına karşıdır.</p>
-<p>Kendi hükümetlerinin ihlallerini belgeleyen ve kınayan, sokaklara çıkan muhalif İsrailli vatandaşların seslerini tanıyor ve destekliyoruz. Devleti tanımamak onları susturmak değildir: paradoks olarak, bu davalarına verilen en güçlü destek eylemlerinden biridir.</p>
-<h4>VII. Son bildiri</h4>
-<p>Biz, aşağıda imzası bulunanlar, uluslararası hukukun ilkeleri, BM Şartı, 1948 tarihli Soykırım Sözleşmesi ve Roma Statüsü'ne olan bağlılığımız çerçevesinde şunu beyan ediyoruz:</p>
-<ol>
-<li>İsrail Devleti'nin mevcut davranışını uluslararası insancıl hukuk kurallarına ve uluslararası düzenin temel ilkelerine uygun olarak meşru saymıyoruz.</li>
-<li>Uluslararası hukuku ihlal eden askeri operasyonların derhal durdurulmasını, UCM ile tam iş birliğini ve UAD'ın emrettiği ihtiyati tedbirlerin tam olarak uygulanmasını talep ediyoruz.</li>
-<li>Devletleri ve uluslararası örgütleri bu manifestoda açıklanan askıya alma, dışlama ve yaptırım tedbirlerini benimsemeye çağırıyoruz.</li>
-<li>Uluslararası hukukun saygı görmesinin müzakere konusu olmadığını, jeopolitik istisnalara yer bırakmadığını ve onu ihlal eden devletler arasında stratejik konumlarına göre yapılan her türlü ayrımın devletlerin egemen eşitliği ilkesinin ihlali olduğunu beyan ediyoruz.</li>
-</ol>
-<p class="cl"><em>Gazze ve Lübnan'ın üzerinde yanan beyaz fosfor, gözlerini kapatan bir uluslararası sistemin meşruiyetini de yakıyor. Biz gözlerimizi kapamıyoruz.</em></p>
-<h4>Hukuki kaynaklar</h4>
-<ul class="refs">
-<li>CCW III. Protokol — Cenevre 1980 | Soykırım Sözleşmesi — 1948</li>
-<li>Roma Statüsü md. 8 — 1998 | ARSIWA md. 40-41 — UHK/BM 2001</li>
-<li>UAD — Güney Afrika - İsrail — 26 Ocak 2024 | UCM — Netanyahu &amp; Gallant — 21 Kasım 2024</li>
-<li>İHİÖ — Beyaz Fosfor — 12 Ekim 2023 | BMGA ES-10/21 — 27 Ekim 2023</li>
-<li>UKKK — Örf ve Adet UİH Çalışması (Henckaerts &amp; Doswald-Beck, 2005)</li>
-<li>BMGK Kararı 418 (1977) | BMGA 377(V) — Barış İçin Birlik — 1950</li>
-</ul>
-</div>
-
-<a class="pdf-download" href="/manifesto_tr.pdf" id="pdf-bottom" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-pl">Manifestoyu PDF olarak indir</span></a>
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct2">Rusya Federasyonu'nun Davranışının Tanınmaması İçin</div>
 <div class="manifesto-card-sub" id="t-mcs2">Gerekli bir tutarlılığın hukuki, etik ve siyasi temeli · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr2" onclick="toggleM('ru')">Tam metni okuyun</button>
+<a class="btn-read" href="/s/tr/m-ru.html">Tam metni okuyun</a><button class="btn-share" type="button" data-share-key="m-ru"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 <a class="btn-pdf" href="/manifesto_ru_tr.pdf" id="pdf-card2" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp2">PDF indir</span></a>
 </div>
 </div>
-<div id="manifesto-text-ru">
 
-
-
-
-
-
-<div class="manifesto-block active" id="ru-tr">
-<h3 class="mt">Rusya Federasyonu'nun Davranışının Tanınmaması İçin Manifesto</h3>
-<p><em>Gerekli bir tutarlılığın hukuki, etik ve siyasi temeli</em></p>
-<h4>Kime hitap ediyor</h4>
-<p>Avrupa Birliği üye devletlerinin hükümetlerine ve Cenevre Sözleşmeleri'ne taraf tüm devletlere. Uluslararası kurumlara. Hukukun herkese uygulandığına ya da hiç kimseye uygulanmadığına inanan her vatandaşa. Ve bu platformun ilk manifestosunu okurken, yazarının uluslararası hukuku ihlal eden herkese aynı ölçüyü uygulayıp uygulamadığını merak edenlere. Bu belge o sorunun cevabıdır.</p>
-<h4>I. Giriş</h4>
-<p>24 Şubat 2022'de Rusya Federasyonu Ukrayna'yı işgal etti. Bir «özel askeri operasyon» değil: Birleşmiş Milletler Şartı'nın 2(4) maddesini — İkinci Dünya Savaşı'nın yıkıntıları üzerine inşa edilen uluslararası düzenin kurucu normunu — ihlal eden, egemen bir devlete karşı silahlı bir saldırı.</p>
-<p>O günden bu yana: yerle bir edilen şehirler, sistematik olarak vurulan sivil altyapı, Buça ve İrpin'de belgelenen yargısız infazlar, kitlesel sürgünler. 16 Mart 2022'de Uluslararası Adalet Divanı, Rusya'ya askeri operasyonları derhal durdurmasını emretti. Rusya emri görmezden geldi. Uluslararası Ceza Mahkemesi Başkan Putin hakkında tutuklama emri çıkardı. Rusya, Mahkeme'nin yargıçlarını suçlayarak yanıt verdi.</p>
-<p>Bu manifesto bir tarafa ait olmaktan doğmuyor. Bu platformun ilk manifestosunu temellendiren aynı ilkeden doğuyor: hiçbir devlet uluslararası hukukun üzerinde değildir. Hiçbiri.</p>
-<h4>II. Sürgün edilen çocuklar</h4>
-<p>Belgelenen tüm suçlar arasında biri, bu savaşın doğasını diğerlerinden daha fazla tanımlıyor.</p>
-<p>Ukrayna, Rusya'ya veya işgal altındaki topraklara sürülen 19.500'den fazla küçüğü ayrıntılı olarak — menşe yeri ve mevcut konumuyla — belgeledi. Yale Üniversitesi Humanitarian Research Lab'in tahminleri 35.000'i aşıyor. Araştırmacılar, Karadeniz'den Pasifik'e 5.600 kilometreye yayılmış 210 gözaltı ve yeniden eğitim tesisi tespit etti: yaz kampları, harbiye okulları, yetimhaneler, bir askeri üs, bir manastır.</p>
-<p>Bu çocuklara yeni isimler, sahte belgeler, Rus vatandaşlığı veriliyor. Zorla evlat edindiriliyorlar. Ukraynaca konuştuklarında cezalandırılıyorlar. Silah kullanmayı öğrendikleri ve onları ailelerinden koparan devlete bağlılık yemini ettikleri paramiliter programlara kaydediliyorlar. Bazıları savaşmak üzere — potansiyel olarak kendi ülkelerine karşı — eğitiliyor.</p>
-<p>Yalnızca yaklaşık 1.300'ü evine döndü.</p>
-<p>Çocukların bir gruptan diğerine zorla nakli, 1948 Soykırım Suçunun Önlenmesi ve Cezalandırılması Sözleşmesi'nin II. maddesinin (e) bendi uyarınca soykırımın kurucu eylemlerinden biridir. Benzetme yoluyla değil. Geniş yorumla değil. Normun lafzı gereği.</p>
-<h4>III. İhlal edilen hukuki çerçeve</h4>
-<ul>
-<li>BM Şartı'nın 2(4) maddesi — başka bir devletin toprak bütünlüğüne karşı güç kullanımı yasağı</li>
-<li>Soykırım Sözleşmesi'nin II(e) maddesi — küçüklerin zorla nakli</li>
-<li>IV. Cenevre Sözleşmesi'nin 49. maddesi — işgal altındaki topraklardan sivillerin sürülmesi yasağı</li>
-<li>Roma Statüsü'nün 8. maddesi — hukuka aykırı sürgün dahil savaş suçları</li>
-<li>Uluslararası Adalet Divanı'nın 16 Mart 2022 tarihli kararı (Ukrayna - Rusya Federasyonu), halen yerine getirilmedi</li>
-</ul>
-<p>17 Mart 2023'te Uluslararası Ceza Mahkemesi, Ukraynalı çocukların sürülmesi ve hukuka aykırı nakli nedeniyle Rusya Federasyonu Başkanı <strong>Vladimir Putin</strong> ve Çocuk Hakları Cumhurbaşkanlığı Komiseri <strong>Maria Lvova-Belova</strong> hakkında tutuklama emri çıkardı. Tarihte ilk kez Güvenlik Konseyi'nin daimi üyesi bir devletin başkanı uluslararası tutuklama emrine konu oldu.</p>
-<h4>IV. Tanımamanın hukuki temeli</h4>
-<p>Devletlerin Sorumluluğuna İlişkin Maddeler (ARSIWA, UHK/BM 2001), 40 ve 41. maddeler, uluslararası hukukun emredici normlarının ağır ihlalleri karşısında diğer devletlerin şu yükümlülüklere sahip olduğunu belirler: ihlalin yarattığı durumu hukuka uygun olarak tanımamak; bu durumun sürdürülmesine yardım veya destek sağlamamak; ihlali hukuka uygun yollarla sona erdirmek için işbirliği yapmak.</p>
-<p>Saldırı yasağı ve soykırım yasağı emredici normlardır (<em>jus cogens</em>). Tanımama yükümlülüğü siyasi bir tercih değildir: hukuki bir yükümlülüktür.</p>
-<h4>V. Tutarlılık sınavı — çifte standart</h4>
-<p>İşte burada bu manifesto benzer her belgeden ayrılıyor. Çünkü Avrupa Birliği, Rusya karşısında, hukukun gerektirdiğini <em>zaten yaptı</em>.</p>
-<p>Eşi görülmemiş yaptırım paketleri kabul etti. Rus merkez bankasının rezervlerini dondurdu. Uluslararası Ceza Mahkemesi'nin tutuklama emirlerini açıkça destekledi. Milyonlarca mülteciyi kabul etti. Somut eylemlerle, saldırgan bir devletin davranışının hukuka uygun olarak tanınmayacağını ilan etti.</p>
-<p>Ve sonra, aynı emredici normların İsrail Devleti tarafından ihlali karşısında, sessizliği, ayrımları, kesintisiz işbirliğini seçti.</p>
-<p>Bu çifte standart diplomatik bir ayrıntı değildir. Batı hukuk medeniyetine kendi eliyle açtığı bir yaradır.</p>
-<p>İsrail «Orta Doğu'nun tek Batılı demokrasisi» olarak tanımlanıyor. Pekâlâ: Batı'ya ait olduğunu iddia eden, onun temellerini de iddia eder — hukukun güç üzerindeki üstünlüğü, iktidarın hesap verebilirliği, yasa önünde eşitlik. Bu ilkeler dün doğmadı: yüzyıllar süren felsefe, devrimler, anayasalar ve mahkemelerle inceltildi. Batı'nın dünyaya sunabileceği en değerli şeydir.</p>
-<p>Tam da bu geleneğin parçası olduğunu ilan eden devleti yasadan muaf tutmak, onun anlamını tersine çevirmektir. Batılı bir demokrasi daha düşük bir standartla yargılanmaz: en yüksek standartla yargılanır, çünkü kendisinin ilan ettiği standart odur. Batı'ya ait olmak bir dokunulmazlık değildir — bir sorumluluk üstlenmesidir.</p>
-<p>Avrupa, çocukların sürülmesi nedeniyle Rusya'ya yaptırım uygulayıp sivil bölgeler üzerinde beyaz fosfor kullananlara sessiz kaldığında, İsrail'i korumuyor: kendini itibarsızlaştırıyor. Tüm dünyaya uluslararası hukukun bir ilke değil, düşmanlara karşı bir araç olduğunu ilan ediyor. Ve o anda dünyadaki her otokrat aradığı argümanı elde ediyor: <em>kurallarınız ikiyüzlülük</em>.</p>
-<p>Seçici uygulanan uluslararası hukuk, hukuk değildir: ilke kılığına girmiş güçtür. Ve her seçici uygulama tüm uygulamaları zayıflatır — adil olanlar dahil, Rusya'ya karşı olanlar dahil. İttifak nedeniyle bir suça sessiz kalan, diğer tüm suçların kınanmasını daha az inandırıcı kılar.</p>
-<h4>VI. Somut tedbirler</h4>
-<ol>
-<li>Kırım dahil, Ukrayna'daki her Rus toprak ilhakının tanınmamasının sürdürülmesi</li>
-<li>Putin ve Lvova-Belova hakkındaki tutuklama emirlerinin infazı için UCM ile tam işbirliği</li>
-<li>Küçüklerin sürülmesine karışan tüm kuruluşlara — Mart 2026 Yale raporunda belgelenen şirketler dahil — hedefli yaptırımlar</li>
-<li>Sürülen çocukların kimliklerinin belirlenmesi ve ülkelerine geri gönderilmesi programlarına aktif destek</li>
-<li>Aynı emredici normları ihlal eden her devlete aynı standartların uygulanması — jeopolitik istisnalar olmaksızın</li>
-</ol>
-<h4>VII. Temel ayrım</h4>
-<p>Bu manifesto bir ulus olarak Rusya'ya ya da Rus halkına karşı değildir. Binlerce Rus vatandaşı bu savaşa karşı hapishane, sürgün ve yaşamlarıyla bedel ödeyerek protesto etti. Rus gazeteciler kendi hükümetlerinin suçlarını belgeledi. Rus anneler, seçmedikleri bir savaşta ölmeye gönderilen oğullarını aradı.</p>
-<p>Devlet, hükümet ve halk arasındaki ayrım retorik bir taviz değildir: her ciddi hukuki ve ahlaki akıl yürütmenin temelidir. Rusya için tam olarak İsrail için geçerli olduğu gibi geçerlidir. Aynı ayrımdır, çünkü aynı ilkedir.</p>
-<h4>Nihai beyan</h4>
-<p class="cl">Rusya Federasyonu'nun Ukrayna'daki davranışını hukuka uygun olarak tanımıyorum. 19.500 çocuğun sürülmesini «insani tahliye» olarak tanımıyorum. Toprakların ilhakını «referandum» olarak tanımıyorum. Saldırıyı «özel operasyon» olarak tanımıyorum. Ve Avrupa'nın Rusya'ya uygulayabildiği hukukun herkese uygulanmasını talep ediyorum — kendini Batı'nın ve değerlerinin parçası ilan edenlerden başlayarak. Çünkü hukuk herkese uygulanır, ya da hiç kimseye uygulanmaz.</p>
-<h4>Hukuki referanslar</h4>
-<ul class="refs">
-<li>Birleşmiş Milletler Şartı, md. 2(4)</li>
-<li>Soykırım Suçunun Önlenmesi ve Cezalandırılması Sözleşmesi (1948), md. II(e)</li>
-<li>IV. Cenevre Sözleşmesi (1949), md. 49</li>
-<li>Uluslararası Ceza Mahkemesi Roma Statüsü, md. 8</li>
-<li>UAD, 16 Mart 2022 tarihli karar, Ukrayna - Rusya Federasyonu</li>
-<li>UCM, 17 Mart 2023 tarihli tutuklama emirleri (Putin, Lvova-Belova)</li>
-<li>ARSIWA (UHK/BM 2001), md. 40-41</li>
-<li>Yale HRL, Willing Accomplices (Mart 2026); 210 tesis hakkında rapor (Eylül 2025)</li>
-</ul>
-</div>
-
-
-
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct3">Sudan İçin — Dünyanın Gözlerini Kaçırdığı Soykırım</div>
 <div class="manifesto-card-sub" id="t-mcs3">Borçlu olunan bir dikkatin hukuki, etik ve siyasi temeli · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr3" onclick="toggleM('sd')">Tam metni okuyun</button>
+<a class="btn-read" href="/s/tr/m-sd.html">Tam metni okuyun</a><button class="btn-share" type="button" data-share-key="m-sd"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 <a class="btn-pdf" href="/manifesto_sd_tr.pdf" id="pdf-card3" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp3">PDF indir</span></a>
 </div>
 </div>
-<div id="manifesto-text-sd">
 
-
-
-
-
-
-<div class="manifesto-block active" id="sd-tr">
-<h3 class="mt">Sudan İçin Manifesto — Dünyanın Gözlerini Kaçırdığı Soykırım</h3>
-<p><em>Borçlu olunan bir dikkatin hukuki, etik ve siyasi temeli</em></p>
-<h4>Kime hitap ediyor</h4>
-<p>Soykırım Sözleşmesi'ne taraf devletlerin hükümetlerine. Avrupa Birliği'ne ve üye devletlerine. Failleri silahlandıranlarla ticari ve askeri ilişkiler sürdüren devletlere. Sessizliği ağırlık taşıyan Batı medyasına. Ve bazı kurbanların manşetleri doldurduğunu, diğerlerinin ise var bile olmadığını merak eden her vatandaşa.</p>
-<p><strong>Bu manifesto bir serinin üçüncüsüdür.</strong> İlki İsrail Devleti'nin Gazze ve Lübnan'daki davranışına; ikincisi Rusya Federasyonu'nun Ukrayna'daki davranışına ilişkindir. Üçü de aynı özdeş hukuki şemayı — ARSIWA 40-41. maddelerinde öngörülen tanımama yükümlülüklerini — farklı ihlalcilere, farklı saflardan, farklı müttefiklerle uygular. Bu belgeyi ilk kez okuyanlar, <a href="#manifesti">iwillnotlookaway.org</a> adresinde bulunan diğer ikisini de okumaya davetlidir: onları temellendiren ilke tektir ve tam da istisnasız uygulanmasıyla ölçülür.</p>
-<h4>I. Giriş</h4>
-<p>Nisan 2023'ten bu yana Sudan, Sudan Silahlı Kuvvetleri (SAF) ile yirmi yıl önce Darfur'u kana bulayan Cancavid'in mirasçısı Hızlı Destek Kuvvetleri (RSF) arasındaki bir savaşla harap oluyor. Bilanço: tahmini 150.000'den fazla ölü, 12 milyon yerinden edilmiş insan — dünyanın en büyük yerinden edilme krizi — ve 21. yüzyılın en ağır kıtlığı.</p>
-<p>Ocak 2025'te ABD Dışişleri Bakanlığı, RSF'nin Darfur'un Arap olmayan nüfuslarına karşı <strong>soykırım</strong> işlediğini resmen tespit etti. Şubat 2026'da Birleşmiş Milletler Uluslararası Araştırma Misyonu, El Faşir olayları için aynı sonuca vardı.</p>
-<p>İki resmi soykırım tespiti. Ve dünya başka yöne bakıyor.</p>
-<p>Bu platform bir taahhüdün adını taşıyor: <em>I will not look away</em>. Gözlerini kaçırmamak. Dünyada hiçbir vaka bu taahhüdü Sudan'dan daha gerekli kılmıyor — kamerasız, gösterisiz, öfkesiz soykırım. Kamuoyunu bölmeyen soykırım, en korkunç nedenden ötürü: kamuoyu onun var olduğunu bilmiyor.</p>
-<h4>II. El Faşir</h4>
-<p>26 Ekim 2025'te, nüfusun kasıtlı olarak aç bırakıldığı on sekiz aylık kuşatmanın ardından RSF, savaştan önce bir buçuk milyon insanın yaşadığı Kuzey Darfur'un başkenti El Faşir'i ele geçirdi.</p>
-<p>BM İnsan Hakları Ofisi, 140'tan fazla tanıklığa dayanarak ilk üç günde 6.000'den fazla öldürmeyi belgeledi: en az 4.400'ü şehirde, 1.600'den fazlası kaçış yollarında — kaçan siviller sistematik olarak durdurulup infaz edildi. Gerçek bilanço kesinlikle daha yüksek; bazı tahminler on binlerden söz ediyor.</p>
-<p>Hayatta kalanlar RSF savaşçılarının sözlerini aktarıyor: <em>«Aranızda Zaghawa var mı? Bir Zaghawa bulursak hepinizi öldürürüz.»</em> Ve: <em>«Darfur'dan siyah olan her şeyi yok etmek istiyoruz.»</em></p>
-<p>BM Misyonu şu sonuca vardı: uzun süreli kuşatma, kasıtlı olarak dayatılan açlık, insani yardımın reddi, ardından toplu öldürmeler, sistematik tecavüzler, işkenceler, zorla kaybetmeler — «soykırımın ayırt edici özelliklerini taşıyan planlı ve organize bir operasyon», «Zaghawa ve Fur topluluklarını tamamen veya kısmen yok etme kastıyla» yürütülmüş.</p>
-<p>El Faşir bir olay değil. El Geneina ve Ardamata'nın (2023, Masalit'e karşı), Zamzam mülteci kampının (Nisan 2025, iki bin ölü, dört yüz bin kaçan) tekrarıdır. Bir yöntemdir.</p>
-<h4>III. İhlal edilen hukuki çerçeve</h4>
-<ul>
-<li>Soykırım Suçunun Önlenmesi ve Cezalandırılması Sözleşmesi (1948): md. I (yalnızca cezalandırma değil <em>önleme</em> yükümlülüğü), II (kurucu eylemler), III (suç ortaklığı ve tahrikin cezalandırılabilirliği)</li>
-<li>IV. Cenevre Sözleşmesi ve ortak 3. madde: sivillerin korunması, açlığın silah olarak kullanılması yasağı</li>
-<li>Roma Statüsü, md. 6 (soykırım), 7 (insanlığa karşı suçlar), 8 (savaş suçları)</li>
-<li>BM Güvenlik Konseyi'nin 1593 (2005) sayılı kararı: Darfur'un Uluslararası Ceza Mahkemesi'ne havalesi — güncel suçlar üzerinde yargı yetkisi halen açık</li>
-</ul>
-<p>UCM harekete geçebileceğini zaten gösterdi: Ekim 2025'te bir Cancavid liderini 2003-2004 suçları için yirmi yıla mahkûm etti. Olaylardan yirmi yıl sonra. Bugünün kurbanları 2045'i bekleyemez.</p>
-<h4>IV. Kim silahlandırıyor, kim ödüyor, kim kazanıyor</h4>
-<p>RSF bir devlet değil. Ama hiçbir silahlı grup tek başına soykırım işlemez. Her El Faşir katliamının arkasında belgelenmiş bir tedarikçi, finansör ve yararlanıcı zinciri vardır.</p>
-<p><strong>Birleşik Arap Emirlikleri</strong>, RSF'nin belgelenmiş başlıca destekçisidir. Uluslararası Af Örgütü (Mayıs 2025), RSF'nin elinde Çin yapımı GB50A güdümlü bombalar — 2024'te üretilmiş, dünyada hiçbir çatışmada daha önce belgelenmemiş — ve 155 mm AH-4 obüsler tespit etti: SIPRI'ye göre Emirlikler, bu silah sistemini Çin'den ithal eden <em>dünyadaki tek ülke</em>. Onları fırlatan Wing Loong II ve FeiHong-95 dronları Sudan'da yalnızca RSF tarafından kullanılıyor. BM Sudan Uzmanlar Paneli aynı kalıbı tespit etti. Emirlikler inkâr ediyor — ama 2024 yapımı bombaların 2025'te Darfur'da patlaması kendiliğinden açıklanmıyor.</p>
-<p>Saik ideolojik değil: ekonomik ve jeopolitik. Ana madenleri General Hemedti'nin RSF'si tarafından kontrol edilen Sudan altını, Global Witness ve The Sentry'nin belgelediği gibi büyük ölçüde Dubai'ye akıyor. Buna Emirliklerin Kızıldeniz limanları ve Sudan tarım arazileri üzerindeki çıkarları ekleniyor.</p>
-<p><strong>Çin</strong>, silahları devlet savunma şirketi Norinco aracılığıyla üretiyor ve hiçbir yeniden ihracat kontrol mekanizması uygulanmadan Emirliklere satıyor — Emirliklerin bizzat imzaladığı Silah Ticareti Antlaşması'nın ruhunu ihlal ederek.</p>
-<p><strong>Rusya</strong> iki masada da oynadı: Wagner grubu, ABD ve AB tarafından yaptırıma tabi tutulan Meroe Gold ve M-Invest şirketleri aracılığıyla, yıllarca RSF kontrolündeki bölgelerde altın imtiyazları karşılığında silah ve eğitim takas etti; ardından Moskova, Port Sudan'da bir deniz üssü beklentisi karşılığında düzenli orduya yöneldi.</p>
-<p><strong>Ya Avrupa?</strong> Avrupa RSF'ye silah satmadı. Daha incelikli bir şey yaptı: Hartum Süreci ve göç kontrolü fonları aracılığıyla, RSF'nin kendini operasyonel kolu ilan ettiği bir aygıtı yıllarca sınır muhatabı olarak ele aldı — göçmenlerin kontrol altında tutulmasını bugün resmen soykırımla suçlananlara devretti. Ve bugün, BM ve Af Örgütü'nün topladığı kanıtlar karşısında, Emirliklere tek bir önemli yaptırım uygulamadı: ticari, enerji ve finans ortağı olarak fazla önemliler.</p>
-<p>Hukuk açıktır. ARSIWA'nın 16. maddesi, uluslararası hukuka aykırı bir fiilin işlenmesine yardım veya destek sağlayan devletin bundan sorumlu olduğunu belirler. Soykırım Sözleşmesi'nin I. maddesi her imzacıya <em>önleme</em> yükümlülüğü yükler — Uluslararası Adalet Divanı'nın (<em>Bosna - Sırbistan</em>, 2007) devletin ciddi riski öğrendiği andan itibaren işlediğini ilan ettiği bir yükümlülük. Herkes biliyor. Yıllardır. Bilgi BM kayıtlarında. Eksik olan kanıt değil: iradedir.</p>
-<h4>V. Kurbanların hiyerarşisi</h4>
-<p>Ukrayna için Batı yaptırımları, silahları, kabulü, sürekli medya ilgisini seferber etti. Gazze için en azından dünya bölündü, tartıştı, meydanları doldurdu. Sudan için: hiçbir şey. RSF'yi silahlandıranlara karşı önemli yaptırımlar yok. Olağanüstü zirveler yok. Manşetler yok. Yüz elli bin ölü ve on iki milyon yerinden edilmiş insan, başka herhangi bir krizin bir haftasından daha az medya alanına değer görülüyor.</p>
-<p>Sudanlı kurbanların suçu yanlış tarafta olmak değil. Daha kötü bir suçları var: kimseyi ilgilendiren hiçbir tarafta olmamak. Jeopolitik kaldıraç yok, lobi yok, projektör yok. Dünyanın ilgisinin suçların ağırlığını değil, bakanın çıkarını izlediğinin kesin kanıtıdırlar.</p>
-<p>Bir hukuk medeniyeti tam burada ölçülür: kimseye yaramayan kurbanlara nasıl davrandığıyla.</p>
-<p>Dahası var. Emirlikler konusunda susan ve Sudan'ı unutan aynı Batı, kendini dünyaya medeniyet öğretmeni olarak sunmaya devam ediyor. Avrupa henüz var olmadığında imparatorluklar kuran, şiir yazan ve hukuku kodifiye eden halklara demokrasi ihraç etme iddiasında — iki bin beş yüz yıl önce boyun eğdirilen halkların ibadet özgürlüğünü ilan eden Kiros silindirlerinin İran'ına. Hangi otoriteyle? Ahlaki otorite tarih kitaplarından miras alınmaz: tutarlılıkla kazanılır, ikiyüzlülükle kaybedilir.</p>
-<p>Seçici yaptırım uygulayan, işine geleni silahlandıran, öfkesini petrol fiyatına ve ticari sözleşmelere göre ayarlayan bir Batı, demokrasi ihraç etmiyor: değerlerinin pazarlık konusu olduğunun kanıtını ihraç ediyor. Ve dünyanın her halkı bunu görüyor. Terk edilmiş Sudanlılar görüyor, bombalar altındaki Filistinliler görüyor, hakları için mücadele eden İranlılar görüyor — ve evinde vaaz ettiği ilkelere ihanet edenlerden derse ihtiyaçları yok.</p>
-<p>Bu satırların yazarı iş için birçok ülkeye seyahat etti ve hiçbir antlaşmanın öğretmediği bir şey öğrendi: bugün Batılı bir vatandaş, başka herhangi bir medeniyetten bir muhatabın karşısında artık ahlaki üstünlük konumundan başlamıyor. Borç konumundan başlıyor. Önce — en azından kendi içinde — kurumlarının çifte standardının, hükümetlerinin sessizliğinin, öfkesinin seçiciliğinin hesabını vermeli. Bu manifesto aynı zamanda o borcu onurlandırma girişimidir: hükümetler değilse bile en azından vatandaşların, çıkara bakmadan bir ilkeyi hâlâ uygulayabildiğini göstermek.</p>
-<h4>VI. Somut tedbirler</h4>
-<ol>
-<li>BM Uzmanlar Paneli'nin bulgularına göre, RSF komuta zincirine ve tedariklerine karışan her kuruluşa — devlet veya özel — hedefli yaptırımlar</li>
-<li>BM ve Af Örgütü tarafından belgelenen RSF'ye silah transferleri doğrulanabilir şekilde sona erene kadar Birleşik Arap Emirlikleri'ne — devlet ve özel kuruluşlara — hedefli yaptırımlar; ve silah ambargosunun mevcut Darfur sınırından tüm Sudan'a genişletilmesi</li>
-<li>BM ambargolarını ihlal eden devletlere yapılan her silah satışında bağlayıcı yeniden ihracat kontrolleri — Emirliklere yönelik Çin (Norinco) ve Batı tedarikleriyle başlayarak</li>
-<li>Bugünkü Darfur'a ilişkin davalar için Uluslararası Ceza Mahkemesi'ne tam destek — mali ve siyasi; garanti edilmiş insani koridorlar ve kıtlık müdahalesinin finansmanı</li>
-<li>Soykırım Sözleşmesi'nin I. maddesi uyarınca önleme yükümlülüğünün resmen etkinleştirilmesi, güçlendirilmiş yetkiye sahip bir İnsan Hakları Konseyi izleme mekanizmasıyla</li>
-</ol>
-<h4>VII. Temel ayrım</h4>
-<p>Bu manifesto Sudan halkına karşı değildir, Darfur'un Arap topluluklarına karşı da değildir — onlar da birçok durumda kendilerini aşan bir savaşın kurbanlarıdır. Suçları da belgelenmiş olan ve adaleti hak eden Sudan Silahlı Kuvvetleri'nin aklanması da değildir.</p>
-<p>Soykırımcı bir yönteme, onu silahlandıranlara ve onu mümkün kılan kayıtsızlığa karşıdır.</p>
-<h4>Nihai beyan</h4>
-<p class="cl">El Faşir'den gözlerimi kaçırmıyorum. Kurbanların bir hiyerarşisinin var olmasını kabul etmiyorum. İki resmi soykırım tespiti karşısında dünyanın sessizliğini normal olarak tanımıyorum. Ve Batı'nın evinde ihanet ettiği demokrasiyi başkalarına vaaz etmesini kabul etmiyorum. Sudan, haber olan krizler için uluslararası hukuku çağıran herkesin — ben dahil — samimiyetinin sınav taşıdır. İlke geçerliyse, kimse bakmadığında da geçerlidir. Özellikle kimse bakmadığında. Çünkü hukuk herkese uygulanır, ya da hiç kimseye uygulanmaz.</p>
-<h4>Hukuki referanslar</h4>
-<ul class="refs">
-<li>Soykırım Suçunun Önlenmesi ve Cezalandırılması Sözleşmesi (1948), md. I, II, III</li>
-<li>IV. Cenevre Sözleşmesi (1949); ortak 3. madde</li>
-<li>Roma Statüsü, md. 6, 7, 8</li>
-<li>BM GK 1593 (2005) sayılı karar — Darfur'un UCM'ye havalesi</li>
-<li>UAD, Bosna - Sırbistan (2007) — önleme yükümlülüğü</li>
-<li>ARSIWA (UHK/BM 2001), md. 16, 40-41</li>
-<li>Soykırım tespiti, ABD Dışişleri Bakanlığı, Ocak 2025</li>
-<li>BM Sudan Uluslararası Araştırma Misyonu, 19 Şubat 2026 bulguları; OHCHR, El Faşir raporu, Şubat 2026</li>
-<li>Uluslararası Af Örgütü, Mayıs 2025; SIPRI, AH-4 transfer kaydı</li>
-<li>Global Witness; The Sentry — Sudan altını raporları; Meroe Gold ve M-Invest'e ABD/AB yaptırımları</li>
-</ul>
-</div>
-
-
-
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct4">Amerika Birleşik Devletleri'nin Davranışının Tanınmaması İçin</div>
 <div class="manifesto-card-sub" id="t-mcs4">İstisna kabul etmeyen bir ilkenin hukuki, etik ve siyasi temeli · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr4" onclick="toggleM('us')">Tam metni okuyun</button>
+<a class="btn-read" href="/s/tr/m-us.html">Tam metni okuyun</a><button class="btn-share" type="button" data-share-key="m-us"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 <a class="btn-pdf" href="/manifesto_us_tr.pdf" id="pdf-card4" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp4">PDF indir</span></a>
 </div>
 </div>
-<div id="manifesto-text-us">
 
-
-
-
-
-
-<div class="manifesto-block active" id="us-tr">
-<h3 class="mt">Amerika Birleşik Devletleri'nin Davranışının Tanınmaması İçin Manifesto</h3>
-<p><em>İstisna kabul etmeyen bir ilkenin hukuki, etik ve siyasi temeli — zirvede bile</em></p>
-<h4>Kime hitap ediyor</h4>
-<p>Avrupa Birliği üye devletlerinin hükümetlerine ve Birleşmiş Milletler Şartı'na taraf tüm devletlere. Uluslararası kurumlara. Hukukun herkes için geçerli olduğuna ya da hiç kimse için geçerli olmadığına inanan her vatandaşa. Ve ihlalin mağduru bir otokrat olduğunda uluslararası hukuku savunmanın otokratı savunmak anlamına geldiğini düşünenlere. Öyle değildir. Bu, hukukun savunulmasının samimiyetini kanıtladığı tek andır.</p>
-<p><strong>Bu manifesto bir serinin dördüncüsüdür.</strong> Birincisi İsrail Devleti'nin davranışına; ikincisi Rusya Federasyonu'nunkine; üçüncüsü Sudan'daki soykırıma ve onu silahlandıranlara ilişkindir. Hepsi aynı hukuki şemayı — ARSIWA 40-41. maddelerinde öngörülen tanımama yükümlülüklerini — farklı kamplardan farklı ihlalcilere uygular. Bu dördüncü belge, çemberi mümkün olan tek tutarlı şekilde kapatır: ilkeyi sistemin zirvesinin kendisine uygulayarak. Diğer manifestolara <a href="#manifesti">iwillnotlookaway.org</a> adresinden ulaşılabilir.</p>
-<h4>I. Giriş</h4>
-<p>3 Ocak 2026 gecesi Amerika Birleşik Devletleri Venezuela'ya saldırdı. Karakas ve ülkenin üç eyaletine hava saldırıları, sökülen hava savunmaları, kesilen iletişim, sivil ve askeri kayıplar. Saat 2:01'de özel kuvvetler Devlet Başkanı Nicolás Maduro'nun konutuna ulaştı ve onu eşiyle birlikte, uyurlarken yatak odasından aldı. Bir askeri gemiye, ardından New York'ta bir hapishaneye nakledildiler; bir Amerikan federal mahkemesinde uyuşturucu kaçakçılığı suçlamalarıyla yargılanacaklar.</p>
-<p>Uluslararası bir tutuklama emri yok. Güvenlik Konseyi yetkilendirmesi yok. Yanıt verilecek bir Venezuela silahlı saldırısı yok. Amerikan Kongresi'nin onayı bile yok. İstemsiz bir kesinlikle «Absolute Resolve» — mutlak kararlılık — olarak adlandırılan bir operasyon: yani tanımı gereği her türlü bağdan kurtulmuş.</p>
-<p>Amerikan başkanı daha sonra Birleşik Devletler'in «geçiş sürecine kadar ülkeyi yöneteceğini» açıkladı. Egemen bir devletin fiili yönetimi, özel bir tatil köyünden basın toplantısıyla duyuruldu.</p>
-<p>Bu manifesto Venezuela rejimine duyulan sempatiden doğmuyor — ki hiçbirini hak etmiyor. Bu platformun diğer üç belgesini temellendiren ilkeden doğuyor: hiçbir devlet uluslararası hukukun üstünde değildir. Ve ilke en güçlü için geçerli değilse, hiçbir zaman bir ilke olmamıştır: yalnızca en güçlünün diğerlerine dayattığı kuraldı.</p>
-<h4>II. Kaleyi yıkan emsal</h4>
-<p>O gecenin tüm ihlalleri arasında, biri Venezuela vakasını aşan yapısal sonuçlara sahiptir.</p>
-<p>Uluslararası hukuk, görevdeki devlet başkanlarına diğer devletlerin yargı yetkisi karşısında mutlak kişisel dokunulmazlık tanır. Bu güçlülerin bir ayrıcalığı değildir: her devletin kendi iç yasaları ve kendi suçlamaları temelinde başkalarının liderlerini «tutuklamasını» engelleyen kilit taşıdır. Uluslararası Adalet Divanı bunu Tutuklama Emri davasında (Kongo - Belçika, 2002) hiçbir belirsizliğe yer bırakmadan tespit etmiştir: görevdeki bir devlet başkanı yalnızca uluslararası bir mahkeme tarafından yargılanabilir — Putin veya Netanyahu için UCM gibi — asla başka bir ülkenin iç yargısı tarafından değil.</p>
-<p>Birleşik Devletler tam olarak bunu yaptı: kendi ceza kanunlarını yabancı bir devlet başkanına uyguladılar, başkentini bombalayarak onu topraklarından zorla aldılar ve kendi bölge mahkemelerinden birinde yargılayacaklar.</p>
-<p>Sonuçlar Maduro'yu ilgilendirmiyor. Herkesi ilgilendiriyor. Emsal ayakta kalırsa, her güç aynısını yapabilir: Çin, yasalarının terörist olarak nitelendirdiği bir başkanı «tutuklayabilir»; Rusya, kanunlarının aşırılıkçı olarak nitelendirdiği bir lideri «tutuklayabilir». Suçlama önemsizdir — her iç hukuk düzeni bir tane üretebilir. 3 Ocak'ta yıkılan bir rejim değildir: uluslararası hukuku güçlünün yasasından ayıran bariyerdir.</p>
-<p>Buna bağlam da ekleniyor: Eylül 2025'ten bu yana, Karayipler ve Pasifik'te teknelere karşı otuzdan fazla askeri saldırı, yüz on'dan fazla insan yargılanmadan, resmi suçlama olmadan, tek bir mahkeme suçluluklarını hiç doğrulamadan öldürüldü. Uluslararası sularda yargısız infazlar, «uyuşturucu kaçakçılığıyla mücadele» olarak normalleştirildi.</p>
-<h4>III. İhlal edilen normatif çerçeve</h4>
-<ul>
-<li>BM Şartı'nın 2(4). maddesi — başka bir devletin toprak bütünlüğüne ve siyasi bağımsızlığına karşı güç kullanma yasağı. 51. madde (meşru müdafaa) uygulanamaz: Venezuela, Birleşik Devletler'e ne saldırmış ne de tehdit etmişti</li>
-<li>Görevdeki devlet başkanlarının kişisel dokunulmazlığı — uluslararası teamül hukuku; UAD, 11 Nisan 2000 Tutuklama Emri (Kongo - Belçika, 2002)</li>
-<li>Müdahale etmeme ilkesi — UAD, Nikaragua - Birleşik Devletler (1986): Birleşik Devletler'i tam da bir Latin Amerika devletine karşı yasadışı güç kullanımı nedeniyle mahkûm eden ve Washington'ın o zaman da bugün olduğu gibi görmezden geldiği karar</li>
-<li>Yargısız infaz yasağı — Medeni ve Siyasi Haklara İlişkin Uluslararası Sözleşme, md. 6; yaşam ve yargılanma hakkı</li>
-<li>Başkasının topraklarını yetkisiz yönetme yasağı — «geçiş sürecine kadar ülkeyi yönetme» duyurusu, hiçbir hukuki temeli olmayan fiili bir işgal teşkil eder</li>
-</ul>
-<h4>IV. Tanımamanın hukuki temeli</h4>
-<p>Devlet Sorumluluğuna İlişkin Maddeler (ARSIWA, UHK/BM 2001), 40 ve 41. maddeler, emredici normların ağır ihlalleri karşısında tüm devletlere şunları yükler: ihlalin yarattığı durumu hukuka uygun olarak tanımamak; bu durumun sürdürülmesine yardım veya destek vermemek; hukuka uygun araçlarla buna son vermek için işbirliği yapmak.</p>
-<p>Saldırı yasağı emredici bir normdur (<em>jus cogens</em>). Rusya onu ihlal ettiğinde öyleydi. Birleşik Devletler onu ihlal ettiğinde de öyledir. Tanımama yükümlülüğü sempatik ve antipatik saldırganlar, müttefikler ve hasımlar arasında ayrım yapmaz: bu ayrımsızlık, onu hukuk yapan şeyin ta kendisidir.</p>
-<p>Bundan kesin bir sonuç çıkar: hiçbir devlet, yabancı askeri yönetim altında kurulan bir Venezuela hükümetini meşru olarak tanıyamaz; ne de bir saldırı eylemiyle yakalanan bir devlet başkanı üzerinde Amerikan iç mahkemesinin yargı yetkisini.</p>
-<h4>V. Tutarlılık sınavı — en gürültülü sessizlik</h4>
-<p>Rusya Ukrayna'yı işgal ettiğinde, Avrupa Birliği saatler içinde tepki verdi: oybirliğiyle kınama, yaptırımlar, dondurulan rezervler, olağanüstü zirveler.</p>
-<p>Birleşik Devletler Karakas'ı bombalayıp bir devlet başkanını kaçırdığında, Avrupa Birliği şöyle tepki verdi: Yüksek Temsilci, Maduro'nun «meşruiyetten yoksun» olduğunu söyledi. Komisyon Başkanı operasyonu adlandırmadan «barışçıl geçişten» söz etti — sanki Maduro rüzgârla götürülmüş gibi. Bir Avrupa dışişleri bakanı alay etti: «daha iyi birinin başına gelemezdi». Kınama yok. Yaptırım yok. Olağanüstü zirve yok. Tek bir Avrupa hükümet başkanı uluslararası hukuku açıklıkla andı — ve saldırının resmi kınaması Lula'dan, Petro'dan, Boric'ten, Meksika'dan geldi: dünyanın Güneyinden, kendini hukukun anası ilan eden Avrupa'dan değil.</p>
-<p>Maduro'nun bir otokrat olduğu doğrudur ve önemsizdir. Uluslararası hukuk liderleri iyi oldukları için korumaz: onları korur, çünkü alternatifi her gücün diğerlerinin yargıcı, polisi ve celladı olmasıdır. Moskova'yı yaptırıma uğrattıktan sonra Karakas konusunda susan Avrupa, tüm dünyanın önünde pusulasının hukuk olmadığını belgeler: saldırganın kimliğidir.</p>
-<p>Ve burada hasar dibe vurur. Çünkü Birleşik Devletler herhangi bir devlet değildir: 1945 düzeninin mimarıdır, San Francisco Şartı'nı yazan, Nürnberg mahkemelerini kuran, seksen yıl boyunca gezegenin her köşesine «kurallara dayalı düzeni» vaaz eden güçtür. Sistemin garantörü onu cezasız ihlal ettiğinde — ve müttefikleri alkışladığında ya da sustuğunda — Karakas'ta bir hükümet düşmez: Batı'nın ahlaki liderliğini meşrulaştırdığı argümanın kendisi düşer. Başkalarının saldırısına yönelik her gelecekteki Batı kınaması, Karakas hazır yanıt olarak, ölü doğacaktır. Batı'nın sözde ideolojik üstünlüğü artık ayakta durmuyor: ilkeleri yanlış olduğu için değil, onlara inanmadığını kanıtladığı için.</p>
-<h4>VI. Somut önlemler</h4>
-<ol>
-<li>3 Ocak 2026 saldırısının, Rusya'nın Ukrayna'ya saldırısı için kullanılan aynı biçimlerde, BM Şartı'nın 2(4). maddesinin ihlali olarak resmen kınanması</li>
-<li>Venezuela halkı işgalciler olmadan özgür seçimlerde kendini ifade edene kadar, yabancı askeri yönetim veya vesayet altında kurulan herhangi bir Venezuela hükümetinin tanınmaması</li>
-<li>Bir saldırı eylemiyle yakalanan bir devlet başkanı üzerinde ABD iç mahkemelerinin yargı yetkisinin tanınmaması ve hesap vermesi gereken suçlar için — ki bunlar mevcuttur ve meşru bir yargılamayı hak eder — uluslararası bir yargı merciine nakledilmesi talebi</li>
-<li>Denizdeki yargısız infazlar ve saldırıların sivil kurbanları hakkında bağımsız bir uluslararası soruşturma</li>
-<li>Bu aynı standartların, jeopolitik ağırlığı ne olursa olsun her devlete uygulanması — çünkü en güçlünün önünde duran bir hukuk hiçbir zaman var olmamıştır</li>
-</ol>
-<h4>VII. Temel ayrım</h4>
-<p>Bu manifesto Nicolás Maduro'nun savunması değildir. Rejimi muhalefeti bastırdı, kurumları boşalttı, bir seçimi çaldı: muhalefetin 2024'teki zaferi belgelenmiştir ve ardından gelen baskı, Chavismo'nun tarih önünde ve — umulur ki — meşru bir mahkeme önünde hesap vereceği bir utançtır. Operasyonu kendi basını yasadışı olarak nitelendiren ve Kongresi'ne danışılmayan Amerikan halkına karşı bir manifesto da değildir.</p>
-<p>Bir yönteme karşıdır. Savunulamaz bir devlet başkanının dokunulmazlığını savunmak, hukuka inananların samimiyetinin en üstün sınavıdır: masum olanları koruduğunda hukuku herkes savunabilir. İlke, hor gördüklerimizi de koruduğunda kanıtlanır — çünkü o anda çıkar olmaktan çıkıp medeniyet haline gelir.</p>
-<h4>Nihai bildiri</h4>
-<p class="cl">3 Ocak 2026'da Venezuela'ya yapılan saldırıyı meşru olarak tanımıyorum. Görevdeki bir devlet başkanının kaçırılmasını «polis operasyonu» olarak tanımıyorum. Egemen bir devletin yabancı yönetimini «geçiş» olarak tanımıyorum. En güçlüye, başkalarında kınadığı şeyi yapma hakkını tanımıyorum. Ve tespit ediyorum: uluslararası adalet kalesini inşa edenler onu içeriden yıkıyor, Avrupa başka tarafa bakarken. Bu manifesto, herkesin başka tarafa bakmadığını birinin tutanağa geçirmesi için var. Çünkü hukuk herkes için geçerlidir, ya da hiç kimse için.</p>
-<h4>Normatif referanslar</h4>
-<ul class="refs">
-<li>Birleşmiş Milletler Şartı, md. 2(4), 51</li>
-<li>UAD, 11 Nisan 2000 Tutuklama Emri (DK Kongo - Belçika), 2002 — görevdeki devlet başkanlarının dokunulmazlığı</li>
-<li>UAD, Nikaragua'da ve Nikaragua'ya Karşı Askeri ve Paramiliter Faaliyetler (Nikaragua - Birleşik Devletler), 1986</li>
-<li>Medeni ve Siyasi Haklara İlişkin Uluslararası Sözleşme (1966), md. 6</li>
-<li>ARSIWA (UHK/BM 2001), md. 40-41</li>
-<li>BM Genel Sekreteri'nin açıklaması, 3 Ocak 2026 («tehlikeli emsal»)</li>
-<li>Brezilya, Kolombiya, Şili, Meksika, Uruguay ve İspanya hükümetlerinin ortak bildirisi, Ocak 2026</li>
-</ul>
-</div>
-
-
-
-</div>
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct5">Denizlerin Özgürlüğü İçin — Filonun Alıkonulması</div>
 <div class="manifesto-card-sub" id="t-mcs5">Başka tarafa bakmama hakkının hukuki, etik ve siyasi temeli · 2026</div>
 <div class="manifesto-card-actions">
-<button class="btn-read" id="t-mcr5" onclick="toggleM('fl')">Tam metni okuyun</button>
+<a class="btn-read" href="/s/tr/m-fl.html">Tam metni okuyun</a><button class="btn-share" type="button" data-share-key="m-fl"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 <a class="btn-pdf" href="/manifesto_fl_tr.pdf" id="pdf-card5" target="_blank"><svg viewbox="0 0 24 24"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 4v-2h14v2H5z"></path></svg><span id="t-mcp5">PDF indir</span></a>
 </div>
 </div>
-<div id="manifesto-text-fl">
 
+<div class="manifesto-card">
+<div class="manifesto-card-title" id="t-mct6">Sığınma Hakkı İçin — Avrupa Sınırının Dışsallaştırılmasına Karşı</div>
+<div class="manifesto-card-sub" id="t-mcs6">Avrupa'nın kendine borçlu olduğu bir tutarlılığın hukuki, etik ve siyasi temeli · 2026</div>
+<div class="manifesto-card-actions">
+<a class="btn-read" href="/s/tr/m-im.html">Tam metni oku</a><button class="btn-share" type="button" data-share-key="m-im"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div>
+</div>
 
-
-
-
-
-<div class="manifesto-block active" id="fl-tr">
-<h3 class="mt">Denizlerin Özgürlüğü İçin Manifesto — Filonun Alıkonulması</h3>
-<p><em>Başka tarafa bakmama hakkının hukuki, etik ve siyasi temeli</em></p>
-<h4>Kime hitap ediyor</h4>
-<p>El konulan gemilerin bayrak devletlerinin hükümetlerine ve Deniz Hukuku Sözleşmesi'ne taraf tüm devletlere. Mağdurlar Avrupa pasaportu taşıdığında ancak sesini bulan Avrupa kurumlarına. Sivil dayanışmanın bir hak olduğuna ve suç olmadığına inananlara. Ve bir misyonun siyasi yerindeliğinin tartışılabileceğini düşünenlere: bu meşrudur — ancak siyasi yerindelik hukuki bir kategori değildir ve özgür deniz, siyaset yapanları da korur.</p>
-<p><strong>Bu manifesto bir serinin beşincisidir.</strong> İlk dördü İsrail Devleti'nin Gazze ve Lübnan'daki, Rusya Federasyonu'nun Ukrayna'daki, Sudan'daki soykırımın sorumluları ve suç ortaklarının ve Amerika Birleşik Devletleri'nin Venezuela'daki davranışına ilişkindir. Hepsi aynı hukuki şemayı farklı ihlalcilere uygular. Bu belge onu, hepsini özetleyen bir olaya uygular: bir devlet uluslararası hukuku bir engel, ona başvuran vatandaşları düşman olarak gördüğünde ne olur. Diğer manifestolar <a href="#manifesti">iwillnotlookaway.org</a> adresindedir.</p>
-<h4>I. Giriş</h4>
-<p>1-3 Ekim 2025 arasında İsrail donanması, Global Sumud Filosu'nun tüm teknelerini uluslararası sularda durdurdu — Avrupa ve Kuzey Afrika limanlarından 44 ülkeden katılımcılarla ve Gazze için insani yardım yüküyle yola çıkan kırktan fazla sivil tekne. 28-30 Nisan ve 18-19 Mayıs 2026 arasında operasyon daha büyük ölçekte tekrarlandı: 54 tekne, yaklaşık 430 kişi, yine uluslararası sularda bordalandı — ilk dalga Kıbrıs açıklarında, son gemi kıyıdan 118 deniz mili uzakta.</p>
-<p>Bu insanların hiçbiri suç işlememişti. Açık denizde bayrak devletinin münhasır yargı yetkisini tanıyan uluslararası hukuka göre değil. Geldikleri ülkelerin ulusal hukuk düzenlerine göre değil. Uluslararası sularda geçerli olmayan İsrail hukukuna göre bile değil. Beyan edilmiş yardımı, beyan edilmiş rotalarda, beyan edilmiş kimliklerle taşıyorlardı.</p>
-<p>Askerler tarafından bordalandılar, zorla bir İsrail limanına götürüldüler ve orada İsrail'e yasadışı giriş yapmakla suçlandılar.</p>
-<h4>II. Aşdod paradoksu</h4>
-<p>Bu noktayı sabitlemeye değer, çünkü her şey onda yoğunlaşır: İsrail'e girmek istemeyen, başka yöne seyreden insanlar, İsrail askerleri tarafından iradeleri dışında İsrail'e götürüldüler — ve bu giriş nedeniyle suçlandılar. Kaçıranın, kaçırılanı konut dokunulmazlığını ihlalden şikâyet etmesi. Bu retorik bir abartı değildir: onları alıkoymak için kullanılan resmi hukuki nitelendirmedir.</p>
-<p>Ardından tutukluluk gelir: Negev çölündeki, terör tutukluları için inşa edilmiş azami güvenlikli Ketziot hapishanesi. Açlık grevindeki seksen yedi kişi. Roma savcılığının dosyasında artık yer alan, yumruklar, tekmeler, fiziksel ve psikolojik istismar, uyku, su ve ilaç yoksunluğuna ilişkin örtüşen tanıklıklar.</p>
-<p>Ve sonra dünyayı dolaşan sahne: Ulusal Güvenlik Bakanı Itamar Ben Gvir'in Aşdod limanına gidip, elleri arkadan kelepçeli aktivistleri diz çöktürmesi ve videoyu kendi sosyal kanallarında onlarla alay ederek yayınlaması. Bir askerin aşırılığı değil: tutukluluğu bir aşağılama gösterisine dönüştüren görevdeki bir bakan. İtalya Cumhurbaşkanı bunu, «uluslararası sularda yasadışı şekilde durdurulan insanlara» uygulanan «en aşağılık düzeyde» bir eylem olarak nitelendirdi. 8 Haziran 2026'da Roma savcılığı Ben Gvir'i işkence ve adam kaçırma suçlamasıyla şüpheli kaydına aldı: bu, olağan bir Avrupa yargısının ona karşı ikinci işlemidir.</p>
-<p>Bir ayrıntı Aşdod sahnesinin vahametini ölçer: Başbakan Netanyahu ve dışişleri bakanı Sa'ar bile meslektaşlarının videosundan uzak durdular. Tutsakların aşağılanması, onu mümkün kılan hükümeti bile utandırdığında, artık görüş meselesi değildir: hiç kimsenin, hiçbir enlemde savunamayacağı bir olgudur.</p>
-<p>Tarihsel emsal her şeyin üzerine çöker: 2010'da Mavi Marmara'nın bordalanması on sivilin hayatına mal oldu. BM İnsan Hakları Konseyi soruşturma komisyonu, ablukanın yasadışı ve güç kullanımının haksız olduğu sonucuna vardı. On beş yıl sonra yöntem değişmedi: rutin haline geldi.</p>
-<h4>III. İhlal edilen normatif çerçeve</h4>
-<ul>
-<li>BM Deniz Hukuku Sözleşmesi (UNCLOS, 1982): md. 87 (açık denizlerin özgürlüğü), md. 92 (bayrak devletinin münhasır yargı yetkisi), md. 110 (yabancı gemiyi ziyaret hakkı yalnızca korsanlık, köle ticareti, izinsiz yayın, tabiiyetsiz gemi durumlarında kabul edilir — hiçbiri uygulanabilir değil)</li>
-<li>Deniz ablukası hukuku (San Remo El Kitabı, §§ 93-104): amacı veya etkisi sivil nüfusu aç bırakmak ya da insani yardımı engellemek olan bir abluka hukuka aykırıdır. UAD, 2024 geçici tedbirleriyle İsrail'e Gazze'ye yardımın girişini güvence altına almasını emretti: kıtlığın eşiğindeki bir nüfusa yönelik insani yardımı durduran bir abluka, hiçbir bordalanma hakkı doğuramaz</li>
-<li>Medeni ve Siyasi Haklara İlişkin Uluslararası Sözleşme: md. 7 (aşağılayıcı muamele yasağı), md. 9 (keyfi tutuklama yasağı), md. 10 (tutukluların onuru)</li>
-<li>İşkenceye Karşı Sözleşme (1984): md. 1, 16; md. 5-7 (evrensel yargı yetkisi — İtalyan soruşturmasının temeli)</li>
-<li>BM'nin Mavi Marmara olayına ilişkin soruşturma misyonu raporu (2010): ablukanın ve uluslararası sularda bordalanmanın hukuka aykırılığı</li>
-</ul>
-<h4>IV. Hukuki temel — ilk taş olarak denizlerin özgürlüğü</h4>
-<p>Modern uluslararası hukukun bir doğum tarihi ve yeri vardır: 1609, Hugo Grotius'un <em>Mare Liberum</em>'u yayımladığı yıl. Denizin hiçbir devlete ait olmadığı ve hiçbir gücün onu başkalarına kapatamayacağı ilkesi, birçok norm arasından biri değildir: ilk normdur, milletler hukukunun tüm yapısının filizlendiği normdur. Dört yüzyıl boyunca her deniz gücü — en saldırganları dahil — onu korumakta çıkar sahibi olmuştur.</p>
-<p>Hukukun kabul ettiği sınırlı durumlar dışında, uluslararası sularda sivil gemilere el koymanın, bunu bir özel kişi yaptığında kesin bir hukuki adı vardır: korsanlık. Bunu bir devlet yaptığında, sözleşmeler daha temkinli formüller kullanır — ancak bu manifestonun kaydettiği öz aynıdır: hiçbir suç işlememiş olanlara karşı özgür denizde güç kullanımı.</p>
-<p>Ve herkes için geçerlidir. İsrail kıyıdan 118 mil uzakta İngiliz bayraklı bir gemiyi bordalayabiliyorsa, her devlet bunu yapabilir. Tayvan Boğazı'nda Çin, Baltık'ta Rusya, Hürmüz'de İran artık başvurabilecekleri hoş görülmüş bir Batılı emsale sahip. Bayrakları o teknelerde dalgalanan Avrupa devletlerinin resmen protesto etme yalnızca hakkı değil, görevi vardı: bayrak yargı yetkisi bir teknik ayrıntı değildir — her devletin gemilerine ve gemideki insanlara borçlu olduğu korumadır.</p>
-<h4>V. Laboratuvar deneyi — açıklamalar ve eylemler</h4>
-<p>Bu olay, istemeden, değerli bir şey üretti: bu platformun diğer manifestolarının savunduğunun deneysel kanıtını. Ve bunu dünya ölçeğinde üretti.</p>
-<p>Kınama her kıtadan geldi. İtalya Cumhurbaşkanı, «uluslararası sularda yasadışı şekilde durdurulan insanlara uygulanan medeniyetsiz muameleden» ve «bir bakan eliyle en aşağılık düzeyde» bir jestten söz etti. Güney Afrika Devlet Başkanı Ramaphosa durdurma eylemini «uluslararası hukuka aykırı» ve Uluslararası Adalet Divanı'nın yardıma ilişkin emrinin ihlali olarak nitelendirdi. Kolombiya Devlet Başkanı Petro «yeni bir uluslararası suçtan» söz etti. Bolivya Devlet Başkanı Arce «uluslararası hukukun ağır ihlalinden». Türk dışişleri bakanlığı «terör eyleminden». BM Özel Raportörü Francesca Albanese, bu manifestonun benimseyeceği soruyu sordu: bir devletin Avrupa açıklarında uluslararası sularda gemilere el koymasına nasıl izin verilebilir?</p>
-<p>Ama sözler daha az önemli olan yarıdır. İşte eylemler, bu satırların yazıldığı tarihte.</p>
-<p>Kim harekete geçti: <strong>Kolombiya</strong> tüm İsrail diplomatik heyetini sınır dışı etti ve serbest ticaret anlaşmasını feshetti. <strong>Türkiye</strong> İstanbul'da ceza soruşturması başlattı. <strong>İspanya</strong> Uluslararası Ceza Mahkemesi'ne başvuruda bulundu. <strong>İtalya</strong> Ben Gvir'i işkence ve adam kaçırma suçlamasıyla şüpheli kaydına aldı. <strong>Birleşik Krallık, Kanada, Avustralya, Yeni Zelanda ve Norveç</strong> onu zaten Haziran 2025'te bireysel olarak yaptırıma tabi tutmuştu — onu yaptırıma tabi tutmanın diplomatik bir ütopya olmadığının kanıtı: beş Batı demokrasisinin zaten aldığı bir karar.</p>
-<p>Ya <strong>Avrupa Birliği</strong>? Bir grup şiddet yanlısı yerleşimciye karşı yaptırımları onayladı. Avrupa vatandaşlarını kamera önünde diz çöktüren bakan için: hiçbir yaptırım yok. Fransa, İspanya ve Hollanda'nın desteklediği İtalyan önerisi, Bulgaristan ve Çekya'nın vetosuyla engellenmiş durumda — çünkü kısıtlayıcı önlemler Yirmi Yedi'nin oybirliğini gerektirir ve oybirliği, Avrupa kararlarının ölmeye gittiği yerdir. Karar, 15 Haziran 2026 Dışişleri Konseyi'ne ertelendi.</p>
-<p>Ortaya çıkan tablo acımasızdır ve dolambaçsız söylenmelidir: eylemler Bogotá'dan, İstanbul'dan, Madrid'den, Roma'dan — ve Anglosakson bloğundan geldi. Birlik olarak Birlik, Gazze'den iki yıl ve iki kitlesel durdurma operasyonu sonra, beş müttefikinin zaten yaptırıma tabi tuttuğu bir adama karşı henüz tek bir bağlayıcı işlem üretmedi. Aynı devlet, aynı bakan, ihlal edilen aynı normlar: farkı, mağdurların pasaportu ve hükümetlerin cesareti yaratıyor. Bu manifesto her iki değişkeni de kaydeder.</p>
-<h4>VI. Somut önlemler</h4>
-<ol>
-<li>İtalya'nın önerdiği ve birçok üye devletin desteklediği Bakan Ben Gvir'e yönelik bireysel yaptırımların 15 Haziran 2026 Dışişleri Konseyi'nde kabul edilmesi — ve tek tek ülkelerin vetosu bunu engellerse, Birleşik Krallık, Kanada, Avustralya, Yeni Zelanda ve Norveç'in 2025'te uyguladığı model üzerine, istekli üye devletlerin koordineli ulusal yaptırımlar kabul etmesi</li>
-<li>İşkence için evrensel yargı yetkisine dayanan ulusal yargı işlemlerine — Roma savcılığının soruşturmasından başlayarak — tam siyasi destek</li>
-<li>UNCLOS md. 87, 92 ve 110'un ihlali nedeniyle bayrak devletlerinin ortak resmi protestosu, tazminat ve teknelerin iadesi talebiyle</li>
-<li>Vatandaşların yelkenlilerle denediğini yapısal hale getirecek, BM veya Avrupa himayesinde, üye devletlerin sivil veya deniz eskortuyla Gazze'ye insani deniz koridoru kurulması</li>
-<li>Uluslararası sivil dayanışmanın korunan özgürlüklerin — seyrüsefer, örgütlenme, yardım — kullanımı olduğunun ve bastırılacak bir suç olmadığının resmen tanınması</li>
-</ol>
-<h4>VII. Temel ayrım</h4>
-<p>Bu manifesto Filo'nun kutsanmasını istemiyor. Misyonları insani olduğu kadar siyasi eylemlerdir de; etkinlikleri tartışılabilir ve tartışılmaktadır; katılımcılarının görüşleri son derece çeşitlidir. Tüm bunlar meşru tartışma malzemesidir — ve hukuken önemsizdir. Özgür deniz yalnızca tarafsızları korumaz ve haklar yalnızca rahatsız etmeyenler için geçerli değildir. O teknelerin hiçbir şeyi çözmeyeceği düşünülebilir ve aynı zamanda onları bordalamanın yasadışı, mürettebatlarını aşağılamanın onursuz olduğu kabul edilebilir: bu iki şey, henüz taraftarlığa boyun eğmemiş her zihinde zorlanmadan bir arada durur.</p>
-<p>Ve her zaman olduğu gibi: bu manifesto İsrail halkını değil, hükümetinin davranışını konu alır — aynı ayrım, çünkü aynı ilkedir.</p>
-<h4>Nihai bildiri</h4>
-<p class="cl">Uluslararası sularda sivil gemilere el konulmasını meşru olarak tanımıyorum. Zorla bir sınırın içine götürülenlere yöneltilen «yasadışı giriş» suçlamasını tanımıyorum. Savunmasız tutsakların aşağılanmasını bir hükümet eylemi olarak tanımıyorum. Ve suçları siyaset olarak görenler tarafından sivil dayanışmanın suç olarak görülmesini kabul etmiyorum. Özgür deniz, uluslararası hukukun ilk kazanımıydı. Onu savunmak nostalji değildir: birileri çatıyı sökerken temelleri savunmaktır. Çünkü hukuk herkes için geçerlidir, ya da hiç kimse için.</p>
-<h4>Normatif referanslar</h4>
-<ul class="refs">
-<li>UNCLOS (1982), md. 87, 92, 110</li>
-<li>Hugo Grotius, Mare Liberum (1609)</li>
-<li>Denizde Silahlı Çatışmalara Uygulanabilir Uluslararası Hukuka İlişkin San Remo El Kitabı (1994), §§ 93-104</li>
-<li>UAD, 2024 geçici tedbirleri (Güney Afrika - İsrail) — insani yardımı güvence altına alma yükümlülüğü</li>
-<li>Medeni ve Siyasi Haklara İlişkin Uluslararası Sözleşme (1966), md. 7, 9, 10</li>
-<li>İşkenceye Karşı Sözleşme (1984), md. 1, 5-7, 16</li>
-<li>BM İnsan Hakları Konseyi'nin 31 Mayıs 2010 filo olayına ilişkin soruşturma misyonu raporu (Mavi Marmara)</li>
-<li>I. Ben Gvir ve B. Smotrich'e bireysel yaptırımlar: Birleşik Krallık, Kanada, Avustralya, Yeni Zelanda, Norveç (Haziran 2025)</li>
-<li>İspanya Krallığı'nın UCM'ye başvurusu; İstanbul savcılığının soruşturması (Ekim 2025)</li>
-<li>İsrail diplomatik heyetinin sınır dışı edilmesi ve STA'nın feshi, Kolombiya (Ekim 2025)</li>
-<li>Roma savcılığı, I. Ben Gvir'in işkence ve adam kaçırma suçlamasıyla şüpheli kaydına alınması (Haziran 2026); AB Dışişleri Konseyi, yaptırım dosyası, 15 Haziran 2026</li>
-</ul>
+<div class="manifesto-card">
+<div class="manifesto-card-title" id="t-mct7">Açlık siyasi bir tercihtir</div>
+<div class="manifesto-card-sub" id="t-mcs7">266 milyon insanın yeterli yiyeceği yok. Dünya biliyor. Dünya susuyor. · 2026</div>
+<div class="manifesto-card-actions">
+<a class="btn-read" href="/s/tr/m-fame.html">Tam metni oku</a><button class="btn-share" type="button" data-share-key="m-fame"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div>
 </div>
 
 
-
-</div>
 </div>
 </div>
 <div class="page" id="page-notizie">
@@ -662,35 +338,103 @@ a.lang-btn{text-decoration:none;display:inline-block}
 
 
 
-<div class="news-block active" id="nb-tr"><div class="news-timeline">
-<div class="news-item" id="n5-tr">
+<div class="news-block active" id="nb-tr"><!-- News card template: copy a block, change nd-XX id, fill date/title/quote + labels/bodies + source -->
+<div class="news-card">
+<p class="news-date">18 Haziran 2026 — ABD · İran · BM</p>
+<h3 class="news-title">Doğuştan kırılgan bir anlaşma: ABD-İran barışı, zorlama ile bağlı olmayan üçüncü taraflar arasında</h3>
+<div class="news-quote">«Uranyuma yaklaşan olursa, havaya uçururuz.» — Donald Trump</div>
+<a class="btn-read" href="/s/tr/nd-deal.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-deal"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">15 Haziran 2026 — AB Dışişleri Konseyi · Brüksel</p>
+<h3 class="news-title">Ben Gvir'e yaptırımlar: AB oybirliği yüzünden tıkandı, tek tek devletler ise harekete geçiyor</h3>
+<div class="news-quote">«Bu karar için gereken oybirliğine sahip değiliz.» — Kaja Kallas, AB Yüksek Temsilcisi</div>
+<a class="btn-read" href="/s/tr/nd-fac.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-fac"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">13 Haziran 2026 — Orta Doğu · BM</p>
+<h3 class="news-title">İran: 2026 savaşı sona ererken, ve kuvvet kullanımının çözülmemiş düğümü</h3>
+<div class="news-quote">BM Genel Sekreteri'ne göre ABD-İsrail saldırıları BM Şartı'nı ihlal etti; İran'ın Körfez ülkelerine misillemeleri de hukuka aykırı sayıldı.</div>
+<a class="btn-read" href="/s/tr/nd-iran.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-iran"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">12 Haziran 2026 — Avrupa Birliği</p>
+<h3 class="news-title">Yeni AB İltica Paktı yürürlüğe giriyor</h3>
+<div class="news-quote">«Bir ülkeyi ‹güvenli› diye etiketlemek onu güvenli kılmaz.» — Uluslararası Af Örgütü</div>
+<a class="btn-read" href="/s/tr/nd-pact.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-pact"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">11 Haziran 2026 — Lüksemburg</p>
+<h3 class="news-title">Arnavutluk, ABAD görüşü: «meşru, ama haklar güvence altına alınmalı»</h3>
+<div class="news-quote">«Devletler merkezleri Arnavutluk'a yerleştirmekte serbesttir» — ancak asgari muamele standartlarına uyum kanıtlanmamıştır. (Hukuk Sözcüsü Laila Medina'nın görüşü)</div>
+<a class="btn-read" href="/s/tr/nd-alb.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-alb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">Haziran 2026 — Omer Bartov, «Israel: What Went Wrong?»</p>
+<h3 class="news-title">Gazze ve «soykırım» kelimesi: üçüncü taraf kurumların gerçekte ne saptadığı ve bir soykırım uzmanının sesi neden ağır basar</h3>
+<div class="news-quote">«Kaçınılmaz vardığım sonuç, İsrail'in Filistin halkına karşı bir soykırım işlediğidir.» — Omer Bartov, Holokost ve soykırım uzmanı (Brown University), New York Times, 15 Temmuz 2025</div>
+<a class="btn-read" href="/s/tr/nd-brt.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-brt"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
+<p class="news-date">Mayıs–Haziran 2026 — Taipei · Washington · Pekin</p>
+<h3 class="news-title">Tayvan, sıradaki sınav: caydırıcılık sarsılıyor ve emsal Pekin'i cesaretlendiriyor</h3>
+<div class="news-quote">«Şu an ihtiyacımız olan son şey, 9.500 mil uzaklıkta bir savaş.» — Donald Trump, Xi Jinping ile zirveden dönerken, Mayıs 2026</div>
+<a class="btn-read" href="/s/tr/nd-twn.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-twn"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+
+<div class="news-card">
 <p class="news-date">6 Haziran 2026 — Tribeca Film Festivali, New York</p>
 <h3 class="news-title">«Sanıyordum ki sadece Filistinlilere tecavüz ediyorlar» — Tribeca kırmızı halısında tecavüz şakaları</h3>
 <div class="news-quote">«Bana sadece iki İsrail köpeği tecavüz etti» — oyuncu Elon Gold. «Sanıyordum ki sadece Filistinlilere tecavüz ediyorlar» — influencer Lizzy Savetsky. Tribeca Film Festivali kırmızı halısı, 6 Haziran 2026.</div>
-<p class="news-label">Olgular</p>
-<p class="news-body">İsrail'de çekilen <em>The Wedding Entertainer</em>'ın galasında, oyuncu Elon Gold ve İsrail yanlısı influencer Lizzy Savetsky, Sde Teiman cezaevindeki Filistinli tutukluların eğitimli askeri köpekler tarafından tecavüze uğradığına ve cinsel istismara maruz bırakıldığına dair belgelenmiş tanıklıklara açıkça gülerek atıfta bulundu. Tribeca Film Festivali açıklamaları kesinlikle kınadı: «Cinsel şiddet ve insan acısı asla alay konusu yapılmamalı ya da küçümsenmemelidir».</p>
-<p class="news-label">Hukuki yorum</p>
-<p class="news-body">Tanıklıklarda anlatılan uygulamalar — tecavüz, işkence, tutukluların insanlık dışı ve aşağılayıcı muameleye maruz bırakılması — BM İşkenceye Karşı Sözleşme'nin (CAT, 1984), Cenevre Sözleşmeleri'nin ortak 3. maddesinin ve Roma Statüsü'nün 8. maddesi kapsamında savaş suçlarının ağır ihlallerini oluşturmaktadır. Bu tür eylemlerin kamuoyundan saygı gören kişilerce alenen alay konusu yapılması, uluslararası hukukun adını koyması gereken cezasızlık kültürünün bir parçasıdır.</p>
-<p class="news-label">Sonuçlar</p>
-<p class="news-body">Savaş esirlerine tecavüz edilmesiyle alay etmek ifade özgürlüğü değildir: bu, diğerinin acısını komedi malzemesine dönüştürecek kadar derin bir insanlıktan çıkarmanın kamusal tezahürüdür. Bu, Peled-Elhanan'ın İsrail okullarında belgelediği, Ben Gvir'in hükümetten uyguladığı, askerlerin cezaevlerinde hayata geçirdiği insanlıktan çıkarmanın ta kendisidir. Bunlar ayrı olaylar değil — aynı merdivenin basamaklarıdır.</p>
-<p class="news-source">Kaynaklar: <a href="https://www.middleeasteye.net/news/pro-israel-influencer-and-actor-share-raped-israeli-dogs-joke" rel="noopener noreferrer" target="_blank">Middle East Eye</a> · <a href="https://variety.com/2026/film/news/tribeca-festival-condemns-palestinian-dog-rape-joke-wedding-entertainer-red-carpet-elon-gold-1236768780/" rel="noopener noreferrer" target="_blank">Variety</a> · B'Tselem «Living Hell», Ocak 2026 · Francesca Albanese, BM Özel Raportörü</p>
+<a class="btn-read" href="/s/tr/nd-trib.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-trib"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
 </div>
-<div class="news-item" id="n4-tr">
-<p class="news-date">2025 — Akademik araştırma</p>
+<div class="news-card">
+<p class="news-date">Akademik araştırma</p>
 <h3 class="news-title">İsrail okulu: bir düşman fabrikası</h3>
 <div class="news-quote">«Bize onların çözülmesi gereken bir sorun olduğunu öğrettiniz. Bu yüzden çözüyoruz.» — Nurit Peled-Elhanan'a İsrailli öğrenci</div>
-<p class="news-label">Olgular</p>
-<p class="news-body">Kudüs İbrani Üniversitesi'nde Dil Eğitimi Profesörü Emeritus ve <em>Palestine in Israeli School Books</em> (I.B. Tauris, 2012) kitabının yazarı Nurit Peled-Elhanan, İsrail devlet okul sisteminin Filistinlileri nasıl ortadan kaldırılması gereken bir sorun olarak sunduğunu sistematik biçimde belgelemiştir. Filistinlilere yönelik tarihi katliamlar «Yahudiler için olumlu sonuçlar doğuran olaylar» olarak çerçevelenmektedir. Araştırmacıya göre Holokost öğretimi evrensel empati yaratmak için değil, öğrencileri travmatize etmek ve ötekinden duyulan korku beslemek için tasarlanmıştır.</p>
-<p class="news-label">Hukuki yorum</p>
-<p class="news-body">Soykırım Suçunun Önlenmesi ve Cezalandırılması Sözleşmesi (1948), Madde III, cezalandırılabilir eylemler arasında «soykırım suçunu işlemeye doğrudan ve alenen tahrik»i saymaktadır. Bu tahrik devlet müfredatına yerleştirildiğinde, ARSIWA Madde 40-41 uyarınca devlet sorumluluğu doğar.</p>
-<p class="news-label">Sonuçlar</p>
-<p class="news-body">Ben Gvir'in açıklamaları, UCM tutuklamaları, beyaz fosfor kullanımı — bunların hiçbiri yoktan çıkmaz. Filistinlileri hiçbir zaman insan olarak tanımayı öğrenmemiş bir neslin on yıllarca yetiştirilmesinden çıkarlar. Uluslararası toplumun İsrail Devleti'nin sorumluluğunu değerlendirirken göz önüne almak zorunda olduğu bağlam budur.</p>
-<p class="news-source">Kaynak: Nurit Peled-Elhanan, <em>Palestine in Israeli School Books</em>, I.B. Tauris 2012 · +972 Magazine</p>
+<a class="btn-read" href="/s/tr/nd-edu.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-edu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
 </div>
-<div class="news-item"><p class="news-date">Haziran 2025</p><h3 class="news-title">Ben Gvir Lübnanlı kadın ve çocukların kaçırılmasını önerdi</h3><div class="news-quote">«Kadınları ve çocukları kaçırıp teröristlerin hapishanelerine götürün» — Itamar Ben Gvir, İsrail Ulusal Güvenlik Bakanı</div><p class="news-label">Hukuki yorum</p><p class="news-body">Ben Gvir'in açıklaması, savaş suçlarının işlenmesine açık teşvik niteliğindedir. Sivillerin kaçırılması Cenevre Sözleşmeleri'nin ortak 3. maddesiyle açıkça yasaklanmıştır ve Roma Statüsü'nün 8. maddesi kapsamında savaş suçu oluşturmaktadır.</p><p class="news-label">Sonuçlar</p><p class="news-body">Bir hükümet üyesinin açıklamaları, uluslararası hukuk ihlalinin taktiksel bir hata değil, kasıtlı bir politika olduğunu kanıtlamakta; bu durum ARSIWA mad. 40-41'in uygulanabilirliğini güçlendirmektedir.</p><p class="news-source">Kaynak: <a href="https://ilmanifesto.it/tajani-condanna-le-ciabatte-ben-gvir-pensa-a-rapire-civili" rel="noopener noreferrer" target="_blank">Il Manifesto</a></p></div>
-<div class="news-item"><p class="news-date">Haziran 2025</p><h3 class="news-title">Ben Gvir Roma Savcılığı tarafından soruşturuluyor — Filo davası</h3><div class="news-quote">Roma Savcılığı, Global Sumud Filosu davasında Ben Gvir'i şüpheli olarak kaydetti. Ben Gvir İtalya'ya saldırarak yanıt verdi: «Terlik ülkesi».</div><p class="news-label">Hukuki yorum</p><p class="news-body">Bir Avrupa mahkemesi tarafından şüpheli olarak kaydedilmesi önemli bir emsal oluşturmaktadır: AB üyesi bir devletin olağan yargısının görev başındaki bir İsrail bakanı üzerinde yargı yetkisi kullandığı ilk davadır.</p><p class="news-label">Sonuçlar</p><p class="news-body">Bakan Tajani, Ben Gvir'in sözlerini «kabul edilemez ve bir bakana yakışmaz» olarak nitelendirdi ve Kallas'tan Dışişleri Konseyi'ne Ben Gvir aleyhine yaptırım önerisi sunmasını istedi; Fransa ve Hollanda destek verdi.</p><p class="news-source">Kaynak: <a href="https://www.tgcom24.mediaset.it/politica/antonio-tajani-parole-ben-gvir-italia_113019465-202602k.shtml" rel="noopener noreferrer" target="_blank">TGCom24</a></p></div>
-<div class="news-item"><p class="news-date">Haziran 2025</p><h3 class="news-title">İtalya Ben Gvir'e AB yaptırımı talep etti</h3><div class="news-quote">«Yüksek Temsilci Kallas'tan Bakan Ben Gvir aleyhine yaptırım önerisini Dışişleri Konseyi'ne götürmesini istedim» — Antonio Tajani</div><p class="news-label">Hukuki yorum</p><p class="news-body">İtalya'nın bir İsrail bakanına bireysel yaptırım talebi, ARSIWA mad. 40-41'de öngörülen mekanizmanın somut uygulamasını temsil etmektedir — bu manifestonun tam olarak talep ettiği model.</p><p class="news-label">Sonuçlar</p><p class="news-body">Fransa ve Hollanda'nın desteği bu olasılığı somutlaştırmakta ve sivil baskının gerçek etkiler doğurduğunu kanıtlamaktadır.</p><p class="news-source">Kaynak: <a href="https://www.tgcom24.mediaset.it/politica/antonio-tajani-parole-ben-gvir-italia_113019465-202602k.shtml" rel="noopener noreferrer" target="_blank">TGCom24</a></p></div>
-</div></div>
+<div class="news-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Ben Gvir Lübnanlı kadın ve çocukların kaçırılmasını önerdi</h3>
+<div class="news-quote">«Kadınları ve çocukları kaçırıp teröristlerin hapishanelerine götürün» — Itamar Ben Gvir, İsrail Ulusal Güvenlik Bakanı</div>
+<a class="btn-read" href="/s/tr/nd-leb.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-leb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+<div class="news-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Ben Gvir Roma Savcılığı tarafından soruşturuluyor — Filo davası</h3>
+<div class="news-quote">Roma Savcılığı, Global Sumud Filosu davasında Ben Gvir'i şüpheli olarak kaydetti. Ben Gvir İtalya'ya saldırarak yanıt verdi: «Terlik ülkesi».</div>
+<a class="btn-read" href="/s/tr/nd-flot.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-flot"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div>
+<div class="news-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">İtalya Ben Gvir'e AB yaptırımı talep etti</h3>
+<div class="news-quote">«Yüksek Temsilci Kallas'tan Bakan Ben Gvir aleyhine yaptırım önerisini Dışişleri Konseyi'ne götürmesini istedim» — Antonio Tajani</div>
+<a class="btn-read" href="/s/tr/nd-eu.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-eu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card">
+<p class="news-date">3 Ocak 2026 — Karakas</p>
+<p class="news-body">ABD, Devlet Başkanı Nicolás Maduro'yu askerî bir operasyonla ele geçiriyor ve Venezuela'yı «yöneteceğini» duyuruyor. Görevdeki bir devlet başkanının, Güvenlik Konseyi yetkisi ya da meşru müdafaa olmaksızın ele geçirilmesi, BM Şartı'nın 2(4). maddesini ve devlet başkanlarının dokunulmazlığını ihlal eder. Bu platformun ilkesinin en saf sınavıdır: hukuk ya herkes için geçerlidir ya da hiç kimse için.</p>
+<button class="btn-read news-toggle" onclick="showPage('manifesti')">ABD hakkındaki tam manifestoyu oku →</button>
+</div>
+</div>
 
 </div>
 </div>
@@ -726,7 +470,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
 </div>
-<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p></footer>
+<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p><p style="margin-top:10px"><a href="mailto:iwillnotlookaway@gmail.com" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">Facebook</a></p></footer>
 <script>
 var T = {"tr": {"nav_scopo": "Amaç", "nav_chisono": "Hakkımda", "nav_manifesti": "Manifestolar", "nav_notizie": "Haberler", "nav_petizioni": "Dilekçeler", "hl": "I Will Not Look Away · 2026", "ht": "SEE. FEEL. <em>ACT.</em>", "hs": "Hukuk herkese uygulanır, ya da hiç kimseye uygulanmaz.", "cs": "Manifestolar", "cr": "Dilekçeler", "c1": "Gazze · 2023–2024", "c2": "Güvenlik Konseyi · Veto", "c3": "Uluslararası Hukuk · Sessizlik içinde", "sl": "Amaç", "al": "Hakkımda", "ml": "Manifestolar", "nh": "Haberler", "ph": "Dilekçeler", "mct": "İsrail Devleti'nin Tanınmaması İçin", "mcs": "Zorunlu bir kopuşun hukuki, etik ve siyasi temeli · 2026", "mcr": "Tam metni okuyun", "mcc": "Kapat", "mcp": "PDF indir", "pl": "Manifestoyu PDF olarak indir", "pdf": "manifesto_tr.pdf", "pdf2": "manifesto_ru_tr.pdf", "pdf3": "manifesto_sd_tr.pdf", "pdf4": "manifesto_us_tr.pdf", "pdf5": "manifesto_fl_tr.pdf", "mct4": "Amerika Birleşik Devletleri'nin Davranışının Tanınmaması İçin", "mcs4": "İstisna kabul etmeyen bir ilkenin hukuki, etik ve siyasi temeli · 2026", "mct5": "Denizlerin Özgürlüğü İçin — Filonun Alıkonulması", "mcs5": "Başka tarafa bakmama hakkının hukuki, etik ve siyasi temeli · 2026", "mct2": "Rusya Federasyonu'nun Davranışının Tanınmaması İçin", "mcs2": "Gerekli bir tutarlılığın hukuki, etik ve siyasi temeli · 2026", "mct3": "Sudan İçin — Dünyanın Gözlerini Kaçırdığı Soykırım", "mcs3": "Borçlu olunan bir dikkatin hukuki, etik ve siyasi temeli · 2026", "soon": "Dilekçe hazırlanıyor", "ad": "Tek bir kişi. Örgüt yok, hareket yok — susmamayı seçen bir vatandaş.", "md": "Uluslararası hukuka dayanan belgeler: belgelenmiş gerçekler, ihlal edilen normlar, somut tedbirler.", "nd": "Beni etkileyen ve görmezden gelemeyeceğim gerçekler. Her haber yayınlanmadan önce doğrulanır ve hukuki bir analizle birlikte sunulur.", "pd": "Her manifestonun kendi dilekçesi vardır. İmzalamak, bir ilkeye kolektif ağırlık vermektir.", "ft": "I Will Not Look Away · iwillnotlookaway.org · 2026", "title": "I Will Not Look Away — Manifesto"}};
 
@@ -807,7 +551,7 @@ function setLang(l) {
   ["scope-block","about-block","manifesto-block","news-block","pet-block"].forEach(function(cls){
     document.querySelectorAll("."+cls).forEach(function(b){ b.classList.remove("active"); });
   });
-  var ids = ["sc-"+l, "ab-"+l, "b-"+l, "nb-"+l, "pet-"+l, "ru-"+l, "sd-"+l, "us-"+l, "fl-"+l];
+  var ids = ["sc-"+l, "ab-"+l, "b-"+l, "nb-"+l, "pet-"+l, "ru-"+l, "sd-"+l, "us-"+l, "fl-"+l, "im-"+l];
   ids.forEach(function(id){
     var el = document.getElementById(id);
     if (el) el.classList.add("active");
@@ -821,6 +565,7 @@ function setLang(l) {
   if (typeof CONSENT_T !== "undefined") updateConsentTexts();
 }
 
+var PAGEHASH={"home": "anasayfa", "chisono": "hakkinda", "manifesti": "manifestolar", "notizie": "haberler", "petizioni": "dilekceler"};var PAGEHASH_R={};for(var _k in PAGEHASH){PAGEHASH_R[PAGEHASH[_k]]=_k;}
 function showPage(p) {
   document.querySelectorAll(".page").forEach(function(pg){ pg.classList.remove("active"); });
   var target = document.getElementById("page-"+p);
@@ -829,7 +574,7 @@ function showPage(p) {
   var nav = document.getElementById("t-nav-"+p);
   if (nav) nav.classList.add("active");
   window.scrollTo(0, 0);
-  if (history.replaceState) history.replaceState(null, "", "#"+p);
+  if (history.replaceState) history.replaceState(null, "", "#"+(PAGEHASH[p]||p));
 }
 
 function toggleManifesto() {
@@ -841,20 +586,18 @@ function toggleManifesto() {
 function toggleM(which) {
   var el = document.getElementById("manifesto-text-" + which);
   el.classList.toggle("open");
-  var btn = which === "ru" ? "t-mcr2" : which === "sd" ? "t-mcr3" : which === "us" ? "t-mcr4" : "t-mcr5";
+  var btn = which === "ru" ? "t-mcr2" : which === "sd" ? "t-mcr3" : which === "us" ? "t-mcr4" : which === "im" ? "t-mcr6" : which === "fame" ? "t-mcr7" : "t-mcr5";
   setText(btn, el.classList.contains("open") ? T[currentLang].mcc : T[currentLang].mcr);
 }
 
-// Init: legge ?lang= e #pagina dall'URL
+// --- News: schede apribili ---
+var NEWS_OPEN="Analizi oku",NEWS_CLOSE="Kapat";
+function toggleNews(id){var el=document.getElementById(id);if(!el)return;var o=el.classList.toggle("open");var b=document.querySelector('[data-news="'+id+'"]');if(b)b.textContent=o?NEWS_CLOSE:NEWS_OPEN;}
+
+// Init: legge solo #pagina (lingua fissa per file)
 (function(){
-  var param = new URLSearchParams(window.location.search).get("lang");
-  if (!param) {
-    var m = window.location.pathname.match(/^\/(it|en|fr|de|zh|ar|es|pt|tr|he)\//);
-    if (m) param = m[1];
-  }
-  if (param && T[param]) setLang(param);
   var hash = window.location.hash.replace("#","");
-  if (hash && document.getElementById("page-"+hash)) showPage(hash);
+  var _p=(PAGEHASH_R[hash]||hash); if (hash && document.getElementById("page-"+_p)) showPage(_p);
 })();
 
 var CONSENT_T = {"tr": {"txt": "Bu site ziyaretleri anonim olarak saymak için Google Analytics kullanır. Hiçbir veri satılmaz veya paylaşılmaz.", "ok": "Kabul", "no": "Reddet"}};
@@ -880,5 +623,27 @@ function consentChoice(ok){
   }
 })();
 </script>
+<script>(function(){try{
+var ns=document.querySelectorAll('#page-notizie .news-card'),host=document.getElementById('home-news'),n=0;
+for(var i=0;i<ns.length&&n<3;i++){var t=ns[i].querySelector('.news-title');if(!t)continue;var d=ns[i].querySelector('.news-date');
+var c=document.createElement('div');c.className='hcard';c.onclick=function(){showPage('notizie');};
+c.innerHTML='<div class="hdate">'+(d?d.innerHTML:'')+'</div><div class="htitle">'+t.innerHTML+'</div>';host.appendChild(c);n++;}
+var ms=document.querySelectorAll('#page-manifesti .manifesto-card-title'),mh=document.getElementById('home-manifesti');
+for(var j=0;j<ms.length;j++){var r=document.createElement('a');r.className='mrow';r.onclick=function(){showPage('manifesti');};
+r.innerHTML='<span class="mnum">'+('0'+(j+1)).slice(-2)+'</span><span class="mtit">'+ms[j].innerHTML+'</span><span class="marr">&rarr;</span>';mh.appendChild(r);}
+}catch(e){}})();</script>
+<script>/*deeplink*/(function(){var sp=new URLSearchParams(location.search),open=sp.get('open');if(!open)return;
+function scroll(el){if(!el)return;setTimeout(function(){var y=el.getBoundingClientRect().top+window.pageYOffset-90;window.scrollTo({top:y,behavior:'smooth'});},180);}
+function go(){try{
+if(open.indexOf('nd-')===0){if(typeof showPage==='function')showPage('notizie');var d=document.getElementById(open);if(d){if(!d.classList.contains('open')&&typeof toggleNews==='function')toggleNews(open);scroll(d.closest('.news-card')||d);}}
+else{if(typeof showPage==='function')showPage('manifesti');var box,fn;
+if(open==='m1'){box=document.getElementById('manifesto-text');fn=function(){if(typeof toggleManifesto==='function')toggleManifesto();};}
+else if(open.indexOf('m-')===0){var k=open.slice(2);box=document.getElementById('manifesto-text-'+k);fn=function(){if(typeof toggleM==='function')toggleM(k);};}
+if(box){if(!box.classList.contains('open'))fn();scroll(box.previousElementSibling||box);}}
+}catch(e){}}
+setTimeout(go,80);})();</script>
+<script>/*share*/(function(){function curLang(){var m=location.pathname.match(/^\/(en|fr|de|es|pt|tr|zh|ar|he)(\/|$)/);return m?m[1]:"it";}var DONE="Bağlantı kopyalandı";function toast(t){var d=document.createElement("div");d.className="share-toast";d.textContent=t;document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add("show");});setTimeout(function(){d.classList.remove("show");setTimeout(function(){d.remove();},400);},1800);}function shareItem(key,title){var url=location.origin+"/s/"+curLang()+"/"+key+".html";if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){toast(DONE);},function(){window.prompt(DONE,url);});}else{window.prompt(DONE,url);}}document.addEventListener("click",function(e){var b=e.target.closest("[data-share-key]");if(!b)return;e.preventDefault();e.stopPropagation();var key=b.getAttribute("data-share-key");var card=b.closest(".manifesto-card")||b.closest(".news-card");var te=card?card.querySelector(".manifesto-card-title,.news-title"):null;var title=te?te.textContent.trim():"I Will Not Look Away";shareItem(key,title);});})();</script>
+<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
+<script>(function(){try{var p=new URLSearchParams(location.search).get("page");if(p&&["home","chisono","manifesti","notizie","petizioni"].indexOf(p)>-1&&typeof showPage==="function")showPage(p);}catch(e){}})();</script>
 </body>
 </html>

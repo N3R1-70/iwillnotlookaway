@@ -163,6 +163,8 @@ a.lang-btn{text-decoration:none;display:inline-block}
 .news-toggle + .btn-share{margin-left:12px}
 .share-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--ember);color:var(--bone);padding:12px 24px;font-size:.85rem;letter-spacing:.05em;opacity:0;pointer-events:none;transition:opacity .3s;z-index:99999}
 .share-toast.show{opacity:1}
+
+.counters-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px;text-align:center}.counter{flex:1;min-width:140px}.counter-num{font-family:'EB Garamond',serif;font-weight:700;font-size:76px;line-height:1;color:var(--bone);letter-spacing:-.01em}.counter-lab{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--dust);margin-top:14px}@media(max-width:600px){.counter-num{font-size:52px}.counter{min-width:118px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/es/", "inLanguage": "es", "description": "Cinco manifiestos fundados en el derecho internacional: Israel, Rusia, Sudán, Estados Unidos, la Flotilla. Análisis jurídicos y peticiones.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script><link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="theme-color" content="#0a0a0c"/></head>
 <body>
@@ -206,6 +208,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="breadth">Gaza · Ucrania · Sudán · Venezuela · Flotilla · Taiwán · Líbano</p>
 </div>
 </section>
+<div class="section-inner" style="padding-top:50px;padding-bottom:10px"><p class="section-header">Documentado hasta ahora</p><div class="counters-row"><div class="counter"><div class="counter-num" id="cnt-lingue">10</div><div class="counter-lab">Idiomas</div></div><div class="counter"><div class="counter-num" id="cnt-manifesti">7</div><div class="counter-lab">Manifiestos</div></div><div class="counter"><div class="counter-num" id="cnt-notizie">12</div><div class="counter-lab">Noticias</div></div><div class="counter"><div class="counter-num" id="cnt-fonti">37</div><div class="counter-lab">Fuentes verificadas</div></div></div></div>
 <div class="section-inner" style="padding-top:80px;padding-bottom:40px">
 <p class="section-header">Últimas noticias</p>
 <div id="home-news" class="home-news"></div>
@@ -430,7 +433,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div><div class="news-card">
 <p class="news-date">3 de enero de 2026 — Caracas</p>
 <p class="news-body">Estados Unidos captura militarmente al presidente Nicolás Maduro y anuncia que «gobernará» Venezuela. La captura de un jefe de Estado en ejercicio, sin autorización del Consejo de Seguridad ni legítima defensa, viola el artículo 2(4) de la Carta de la ONU y la inmunidad de los jefes de Estado. Es la prueba más pura del principio de esta plataforma: la ley vale para todos o para nadie.</p>
-<button class="btn-read news-toggle" onclick="showPage('manifesti')">Leer el manifiesto completo sobre Estados Unidos →</button>
+<a class="btn-read" href="/s/es/m-us.html">Leer el manifiesto completo sobre Estados Unidos →</a>
 </div>
 </div>
 
@@ -645,5 +648,6 @@ setTimeout(go,80);})();</script>
 <script>/*share*/(function(){function curLang(){var m=location.pathname.match(/^\/(en|fr|de|es|pt|tr|zh|ar|he)(\/|$)/);return m?m[1]:"it";}var DONE="Enlace copiado";function toast(t){var d=document.createElement("div");d.className="share-toast";d.textContent=t;document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add("show");});setTimeout(function(){d.classList.remove("show");setTimeout(function(){d.remove();},400);},1800);}function shareItem(key,title){var url=location.origin+"/s/"+curLang()+"/"+key+".html";if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){toast(DONE);},function(){window.prompt(DONE,url);});}else{window.prompt(DONE,url);}}document.addEventListener("click",function(e){var b=e.target.closest("[data-share-key]");if(!b)return;e.preventDefault();e.stopPropagation();var key=b.getAttribute("data-share-key");var card=b.closest(".manifesto-card")||b.closest(".news-card");var te=card?card.querySelector(".manifesto-card-title,.news-title"):null;var title=te?te.textContent.trim():"I Will Not Look Away";shareItem(key,title);});})();</script>
 <script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
 <script>(function(){try{var p=new URLSearchParams(location.search).get("page");if(p&&["home","chisono","manifesti","notizie","petizioni"].indexOf(p)>-1&&typeof showPage==="function")showPage(p);}catch(e){}})();</script>
+<script>(function(){try{var q=function(s){return document.querySelectorAll(s).length};var set=function(id,v){var e=document.getElementById(id);if(e&&v)e.textContent=v};set('cnt-manifesti',q('#page-manifesti .manifesto-card'));set('cnt-notizie',q('#page-notizie .news-card'));}catch(e){}})();</script>
 </body>
 </html>

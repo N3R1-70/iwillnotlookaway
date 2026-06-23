@@ -175,10 +175,10 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 <div id="nav-links">
 <button class="nav-link" id="t-nav-scopo" onclick="showPage('home')">Propósito</button>
-<button class="nav-link" id="t-nav-chisono" onclick="showPage('chisono')">Quem sou</button>
+<a class="nav-link" id="t-nav-chisono" href="/s/pt/sobre-mim.html">Quem sou</a>
 <button class="nav-link" id="t-nav-manifesti" onclick="showPage('manifesti')">Manifestos</button>
 <button class="nav-link" id="t-nav-notizie" onclick="showPage('notizie')">Notícias</button>
-<button class="nav-link" id="t-nav-petizioni" onclick="showPage('petizioni')">Petições</button><a class="nav-link" href="/s/pt/temas.html">Temas</a>
+<a class="nav-link" id="t-nav-petizioni" href="/s/pt/peticoes.html">Petições</a><a class="nav-link" href="/s/pt/temas.html">Temas</a>
 <a class="nav-link" href="/s/pt/referencias-normativas.html">Referências normativas</a>
 </div>
 <div id="lang-bar">
@@ -204,7 +204,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="hero-sub" id="t-hs" style="margin-left:auto;margin-right:auto">A lei aplica-se a todos, ou a ninguém.</p>
 <p class="hero-hook">Desviar o olhar é o gesto mais comum perante a injustiça. <strong>Aqui, ao menos, torna-se uma escolha consciente.</strong></p>
 <div class="hero-actions" style="justify-content:center">
-<button class="btn-primary" onclick="showPage('petizioni')">Assinar</button>
+<button class="btn-primary" onclick="location.href='/s/pt/peticoes.html'">Assinar</button>
 <button class="btn-secondary" onclick="showPage('manifesti')">Explorar os manifestos</button>
 </div>
 <p class="breadth">Gaza · Ucrânia · Sudão · Venezuela · Flotilha · Taiwan · Líbano</p>
@@ -237,29 +237,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">Ao subscrever aceita receber atualizações de I Will Not Look Away. Cancele quando quiser.</p>
 </section>
 </div>
-<div class="page" id="page-chisono">
-<div class="section-inner">
-<p class="section-header">I Will Not Look Away · 2026</p>
-<h2 class="page-title" id="t-al">Quem sou</h2>
-<p class="page-desc" id="t-ad">Uma única pessoa. Nenhuma organização, nenhum movimento — um cidadão que escolheu não se calar.</p>
 
-
-
-
-
-
-
-<div class="about-block active" id="ab-pt">
-<p>Este manifesto é escrito por uma única pessoa.</p>
-<p>Não represento nenhuma organização, partido ou movimento. Sou um cidadão europeu que viajou muito por trabalho e conheceu pessoas de todas as origens — social, religiosa, política, geográfica. Tenho amigos judeus, muçulmanos, católicos, ateus. Esta diversidade não é um pano de fundo decorativo da minha vida: é a forma como aprendi a pensar.</p>
-<p>Sobre este conflito ouvi toda a gente, a começar por quem me é mais próximo. Os meus amigos judeus colocaram-me à prova de forma difícil. Quis compreender o ponto de vista deles, procurei-o com seriedade, considerei-o. Mas no final encontrei-me perante algo que não consigo chamar argumento: apenas justificações para atos que o direito internacional define como ilícitos. E percebi que continuar em silêncio — para não magoar uma amizade ou para não parecer o que não sou — teria sido desonesto. Para com eles, antes de qualquer outro.</p>
-<p>Acredito nas normas do direito internacional não como conveniência retórica, mas como fundamento real da coexistência civil. Acredito na moral ocidental no sentido mais antigo e desconfortável do termo: a das pessoas, não a da política e da economia. Neste tema tocou-se o fundo moral. O ponto em que o silêncio deixa de ser prudência e se torna cumplicidade.</p>
-<p class="about-close">Se partilha esta convicção, este manifesto também é seu.</p>
-</div>
-
-
-</div>
-</div>
 <div class="page" id="page-manifesti">
 <div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
@@ -451,38 +429,13 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 </div>
 
-<div class="page" id="page-petizioni">
-<div class="section-inner">
-<p class="section-header">I Will Not Look Away · 2026</p>
-<h2 class="page-title" id="t-ph">Petições</h2>
-<p class="page-desc" id="t-pd">Cada manifesto tem a sua petição dedicada. Assinar significa dar peso colectivo a um princípio.</p>
 
-
-
-
-
-
-
-<div class="pet-block active" id="pet-pt">
-<div class="manifesto-card">
-<div class="manifesto-card-title">Pelo Não Reconhecimento do Estado de Israel</div>
-<div class="manifesto-card-sub">Petição activa no Change.org · em italiano e inglês</div>
-<div class="manifesto-card-actions">
-<a class="btn-read" href="https://www.change.org/p/we-do-not-recognize-the-legitimacy-of-israel-s-conduct-sign-the-manifesto" rel="noopener noreferrer" target="_blank">Sign in English</a>
-<a class="btn-read" href="https://www.change.org/p/non-riconosciamo-la-legittimit%C3%A0-della-condotta-dello-stato-di-israele-firma-il-manifesto" rel="noopener noreferrer" target="_blank">Firma in italiano</a>
-</div>
-</div>
-</div>
-
-
-</div>
-</div>
 <div id="consent-banner">
 <p id="consent-text">Questo sito usa Google Analytics per contare le visite in forma anonima. Nessun dato viene venduto o condiviso.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
 </div>
-<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p><p id="t-ftref" style="margin-top:10px;font-size:13px"><a href="/s/pt/temas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Temas</a> · <a href="/s/pt/fontes.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Fontes e método</a> · <a href="/s/pt/referencias-juridicas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Referências jurídicas</a> · <a href="/s/pt/linguas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Línguas</a></p><p style="margin-top:10px"><a href="mailto:iwillnotlookaway@gmail.com" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">Facebook</a></p></footer>
+<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p><p id="t-ftref" style="margin-top:10px;font-size:13px"><a href="/s/pt/temas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Temas</a> · <a href="/s/pt/fontes.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Fontes e método</a> · <a href="/s/pt/referencias-normativas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Referências jurídicas</a> · <a href="/s/pt/linguas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Línguas</a></p><p style="margin-top:10px"><a href="mailto:iwillnotlookaway@gmail.com" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">Facebook</a></p></footer>
 <script>
 var T = {"pt": {"nav_scopo": "Propósito", "nav_chisono": "Quem sou", "nav_manifesti": "Manifestos", "nav_notizie": "Notícias", "nav_petizioni": "Petições", "hl": "I Will Not Look Away · 2026", "ht": "SEE. FEEL. <em>ACT.</em>", "hs": "A lei aplica-se a todos, ou a ninguém.", "cs": "Os manifestos", "cr": "As petições", "c1": "Gaza · 2023–2024", "c2": "Conselho de Segurança · Veto", "c3": "Direito Internacional · Em silêncio", "sl": "Propósito", "al": "Quem sou", "ml": "Manifestos", "nh": "Notícias", "ph": "Petições", "mct": "Pelo Não Reconhecimento do Estado de Israel", "mcs": "Fundamento jurídico, ético e político de uma ruptura necessária · 2026", "mcr": "Ler o texto integral", "mcc": "Fechar", "mcp": "Descarregar PDF", "pl": "Baixar o Manifesto em PDF", "pdf": "manifesto_pt.pdf", "pdf2": "manifesto_ru_pt.pdf", "pdf3": "manifesto_sd_pt.pdf", "pdf4": "manifesto_us_pt.pdf", "pdf5": "manifesto_fl_pt.pdf", "mct4": "Pelo Não Reconhecimento da Conduta dos Estados Unidos da América", "mcs4": "Fundamento jurídico, ético e político de um princípio que não admite exceções · 2026", "mct5": "Pela Liberdade dos Mares — O Sequestro da Flotilha", "mcs5": "Fundamento jurídico, ético e político do direito de não desviar o olhar · 2026", "mct2": "Pelo Não Reconhecimento da Conduta da Federação Russa", "mcs2": "Fundamento jurídico, ético e político de uma coerência necessária · 2026", "mct3": "Pelo Sudão — O Genocídio do qual o Mundo Desvia o Olhar", "mcs3": "Fundamento jurídico, ético e político de uma atenção devida · 2026", "soon": "Petição em preparação", "ad": "Uma única pessoa. Nenhuma organização, nenhum movimento — um cidadão que escolheu não se calar.", "md": "Documentos fundados no direito internacional: factos documentados, normas violadas, medidas concretas.", "nd": "Os factos que me marcaram e que não podia ignorar. Cada notícia é verificada e acompanhada de uma análise jurídica antes da publicação.", "pd": "Cada manifesto tem a sua petição dedicada. Assinar significa dar peso colectivo a um princípio.", "ft": "I Will Not Look Away · iwillnotlookaway.org · 2026", "title": "I Will Not Look Away — Manifesto"}};
 

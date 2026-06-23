@@ -175,10 +175,10 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 <div id="nav-links">
 <button class="nav-link" id="t-nav-scopo" onclick="showPage('home')">מטרה</button>
-<button class="nav-link" id="t-nav-chisono" onclick="showPage('chisono')">אודות</button>
+<a class="nav-link" id="t-nav-chisono" href="/s/he/about.html">אודות</a>
 <button class="nav-link" id="t-nav-manifesti" onclick="showPage('manifesti')">מניפסטים</button>
 <button class="nav-link" id="t-nav-notizie" onclick="showPage('notizie')">חדשות</button>
-<button class="nav-link" id="t-nav-petizioni" onclick="showPage('petizioni')">עצומות</button><a class="nav-link" href="/s/he/topics.html">נושאים</a>
+<a class="nav-link" id="t-nav-petizioni" href="/s/he/petitions.html">עצומות</a><a class="nav-link" href="/s/he/topics.html">נושאים</a>
 <a class="nav-link" href="/s/he/legal-references.html">מקורות משפטיים</a>
 </div>
 <div id="lang-bar">
@@ -204,7 +204,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="hero-sub" id="t-hs" style="margin-left:auto;margin-right:auto">החוק חל על כולם, או שאינו חל על אף אחד.</p>
 <p class="hero-hook">הסטת המבט היא המחווה הנפוצה ביותר מול אי־צדק. <strong>כאן, לפחות, היא הופכת לבחירה מודעת.</strong></p>
 <div class="hero-actions" style="justify-content:center">
-<button class="btn-primary" onclick="showPage('petizioni')">חתום</button>
+<button class="btn-primary" onclick="location.href='/s/he/petitions.html'">חתום</button>
 <button class="btn-secondary" onclick="showPage('manifesti')">עיון במניפסטים</button>
 </div>
 <p class="breadth">עזה · אוקראינה · סודאן · ונצואלה · המשט · טייוואן · לבנון</p>
@@ -235,29 +235,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">בהרשמה אתם מסכימים לקבל עדכונים מ-I Will Not Look Away. ניתן לבטל בכל עת.</p>
 </section>
 </div>
-<div class="page" id="page-chisono">
-<div class="section-inner">
-<p class="section-header">I Will Not Look Away · 2026</p>
-<h2 class="page-title" id="t-al">אודות</h2>
-<p class="page-desc" id="t-ad">אדם אחד בלבד. בלי ארגון, בלי תנועה — אזרח שבחר לא לשתוק.</p>
 
-
-
-
-
-
-
-
-
-<div class="about-block active" dir="rtl" id="ab-he">
-<p>מניפסט זה נכתב על ידי אדם אחד בלבד.</p>
-<p>אני לא מייצג שום ארגון, מפלגה או תנועה. אני אזרח אירופי שנסע רבות בעבודתו ופגש אנשים מכל רקע — חברתי, דתי, פוליטי, גיאוגרפי. יש לי חברים יהודים, מוסלמים, קתולים וחילונים. הגיוון הזה אינו רקע דקורטיבי בחיי: זהו האופן שבו למדתי לחשוב.</p>
-<p>בנוגע לסכסוך זה הקשבתי לכולם, החל מהקרובים ביותר אליי. חבריי היהודים העמידו אותי במבחן קשה. רציתי להבין את נקודת מבטם, חיפשתי אותה ברצינות, שקלתי אותה. אך בסופו של דבר מצאתי בפניי משהו שאיני יכול לקרוא לו טיעון: רק הצדקות למעשים שהמשפט הבין-לאומי מגדיר כבלתי חוקיים. והבנתי שהמשך השתיקה — כדי לא לפגוע בידידות או כדי לא להיראות מה שאיני — היה חוסר יושר. כלפיהם, לפני כל דבר אחר.</p>
-<p>אני מאמין בנורמות המשפט הבין-לאומי לא כנוחות רטורית, אלא כבסיס אמיתי לדו-קיום אזרחי. אני מאמין במוסר המערבי במובנו העתיק והמרתיע ביותר: מוסר האנשים, לא של הפוליטיקה והכלכלה. בנושא זה הגענו לתחתית המוסרית. לנקודה שבה השתיקה חדלה להיות זהירות והופכת לשותפות לפשע.</p>
-<p class="about-close">אם אתה שותף לאמונה זו, המניפסט הזה שייך גם לך.</p>
-</div>
-</div>
-</div>
 <div class="page" id="page-manifesti">
 <div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
@@ -449,48 +427,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 </div>
 
-<div class="page" id="page-petizioni">
-<div class="section-inner">
-<p class="section-header">I Will Not Look Away · 2026</p>
-<h2 class="page-title" id="t-ph">עצומות</h2>
-<p class="page-desc" id="t-pd">לכל מניפסט יש עצומה ייעודית. לחתום פירושו לתת משקל קולקטיבי לעיקרון.</p>
 
-
-
-
-
-
-
-
-
-<div class="pet-block active" dir="rtl" id="pet-he">
-<div class="manifesto-card">
-<div class="manifesto-card-title">לאי-הכרה במדינת ישראל</div>
-<div class="manifesto-card-sub">עצומה פעילה ב-Change.org · באיטלקית ובאנגלית</div>
-<div class="manifesto-card-actions">
-<a class="btn-read" href="https://www.change.org/p/we-do-not-recognize-the-legitimacy-of-israel-s-conduct-sign-the-manifesto" rel="noopener noreferrer" target="_blank">Sign in English</a>
-<a class="btn-read" href="https://www.change.org/p/non-riconosciamo-la-legittimit%C3%A0-della-condotta-dello-stato-di-israele-firma-il-manifesto" rel="noopener noreferrer" target="_blank">Firma in italiano</a>
-</div>
-<div class="manifesto-card">
-<div class="manifesto-card-title" id="t-pt2">לאי-הכרה בהתנהלות הפדרציה הרוסית</div>
-<div class="manifesto-card-sub" id="t-soon2">העצומה בהכנה</div>
-</div>
-<div class="manifesto-card">
-<div class="manifesto-card-title" id="t-pt3">למען סודאן — רצח העם שהעולם מסיט ממנו את מבטו</div>
-<div class="manifesto-card-sub" id="t-soon3">העצומה בהכנה</div>
-</div>
-<div class="manifesto-card">
-<div class="manifesto-card-title" id="t-pt4">מניפסט לאי-הכרה בהתנהלות ארצות הברית של אמריקה</div>
-<div class="manifesto-card-sub" id="t-soon4">העצומה בהכנה</div>
-</div>
-<div class="manifesto-card">
-<div class="manifesto-card-title" id="t-pt5">מניפסט לחופש הימים — תפיסת המשט</div>
-<div class="manifesto-card-sub" id="t-soon5">העצומה בהכנה</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div id="consent-banner">
 <p id="consent-text">Questo sito usa Google Analytics per contare le visite in forma anonima. Nessun dato viene venduto o condiviso.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>

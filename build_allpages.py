@@ -198,6 +198,14 @@ if 'nd-mona' in itemtags: itemtags['nd-mona']=['Libano','ONU','Diritto internazi
 if 'nd-coi' in itemtags: itemtags['nd-coi']=['Israele','Gaza','ONU','Diritto internazionale','Genocidio']
 if 'nd-rdc' in itemtags: itemtags['nd-rdc']=['RD Congo','Ruanda','ONU','Diritto internazionale']
 if 'nd-mya' in itemtags: itemtags['nd-mya']=['Myanmar','Rohingya','Genocidio','ONU','Diritto internazionale']
+if 'm1' in itemtags: itemtags['m1']=['Israele','ONU','Diritto internazionale']
+if 'm-ru' in itemtags: itemtags['m-ru']=['Russia–Ucraina','ONU','Corte penale internazionale','Diritto internazionale']
+if 'm-sd' in itemtags: itemtags['m-sd']=['Sudan','Genocidio','ONU','Diritto internazionale']
+if 'm-us' in itemtags: itemtags['m-us']=['Stati Uniti','Venezuela','Sanzioni','Diritto internazionale']
+if 'm-fl' in itemtags: itemtags['m-fl']=['Flotilla','Gaza','Israele','Diritto internazionale']
+if 'm-im' in itemtags: itemtags['m-im']=['Asilo e migrazione','Unione Europea','Diritto internazionale']
+if 'm-fame' in itemtags: itemtags['m-fame']=['Fame e carestia','Gaza','ONU','Diritto internazionale']
+if 'nd-sd' in itemtags: itemtags['nd-sd']=['Sudan','Genocidio','Fame e carestia','ONU','Diritto internazionale']
 tagkeys={tg:[k for k in list(NEWS)+list(SHARES) if tg in itemtags[k]] for tg in VOC}
 TAGS_ORDER=sorted(VOC, key=lambda t:(-len(tagkeys[t]), t))
 TOTAL=len(NEWS)+len(SHARES)
@@ -297,9 +305,13 @@ def hreflangs(urlfn):
     s=''.join('<link rel="alternate" hreflang="%s" href="%s"/>\n'%(x,urlfn(x)) for x in LANGS)
     return s+'<link rel="alternate" hreflang="x-default" href="%s"/>'%urlfn('it')
 
+GA_BLOCK = '<!-- Google Analytics 4 + Consent Mode v2 -->\n<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RTTRBJLDQQ"></script>\n<script>\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag(\'consent\', \'default\', {\n  \'analytics_storage\': \'denied\',\n  \'ad_storage\': \'denied\',\n  \'ad_user_data\': \'denied\',\n  \'ad_personalization\': \'denied\'\n});\ngtag(\'js\', new Date());\ngtag(\'config\', \'G-RTTRBJLDQQ\');\n</script>\n'
+def ga_head(l):
+    return '' if l in ('zh','ru') else GA_BLOCK
+
 def shead(l,title,desc,url,alts=''):
     da=' dir="rtl"' if l in RTL else ''
-    return ('<!doctype html>\n<html lang="%s"%s>\n<head>\n<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width,initial-scale=1"/>\n<link rel="preload" as="image" href="/logo.png"/>\n'%(l,da)
+    return ('<!doctype html>\n<html lang="%s"%s>\n<head>\n<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width,initial-scale=1"/>\n<link rel="preload" as="image" href="/logo.png"/>\n'%(l,da)+ga_head(l)
       +'<title>%s — I Will Not Look Away</title>\n<meta name="description" content="%s"/>\n<link rel="canonical" href="%s"/>\n'%(html.escape(title),html.escape(desc),url)+alts
       +'<meta property="og:type" content="website"/>\n<meta property="og:site_name" content="I Will Not Look Away"/>\n<meta property="og:locale" content="%s"/>\n'%LOCALE[l]
       +'<meta property="og:title" content="%s — I Will Not Look Away"/>\n<meta property="og:description" content="%s"/>\n<meta property="og:url" content="%s"/>\n'%(html.escape(title),html.escape(desc),url)
@@ -427,7 +439,7 @@ def page(l,key,kind,data):
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="preload" as="image" href="/logo.png"/>
-<title>{title_h} — I Will Not Look Away</title>
+{ga_head(l)}<title>{title_h} — I Will Not Look Away</title>
 <meta name="description" content="{desc}"/>
 <link rel="canonical" href="{url}"/>
 {alts}

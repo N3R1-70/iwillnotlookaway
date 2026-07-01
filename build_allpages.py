@@ -115,6 +115,7 @@ footer a{color:var(--dust);text-decoration:none;letter-spacing:.05em}
 
 # ============ TAG SYSTEM ============
 VOC={
+'Haiti':['haiti','haïti','port-au-prince'],'Infanzia':['infanzia'],'Crisi dimenticate':['crisi dimenticate'],
 'Myanmar':['myanmar','birmania','rakhine','min aung hlaing','naypyidaw'],'Rohingya':['rohingya','rohinya','rohinyá'],
 'RD Congo':['rd congo','rdc','kivu','goma','m23'],'Ruanda':['ruanda','kigali','kagame'],
 'Gaza':['gaza'],'Israele':['israele','israelian','netanyahu'],'Sudan':['sudan'],
@@ -136,6 +137,9 @@ def _slug(t):
     return _re2.sub(r'[^a-z0-9]+','-',s).strip('-')
 SLUG={t:_slug(t) for t in VOC}
 TAGNAME={
+'Haiti':{'it':'Haiti','en':'Haiti','fr':'Haïti','de':'Haiti','es':'Haití','pt':'Haiti','tr':'Haiti','zh':'海地','ar':'هايتي','he':'האיטי'},
+'Infanzia':{'it':'Infanzia','en':'Children','fr':'Enfance','de':'Kinder','es':'Infancia','pt':'Infância','tr':'Çocuklar','zh':'儿童','ar':'الطفولة','he':'ילדים'},
+'Crisi dimenticate':{'it':'Crisi dimenticate','en':'Forgotten crises','fr':'Crises oubliées','de':'Vergessene Krisen','es':'Crisis olvidadas','pt':'Crises esquecidas','tr':'Unutulan krizler','zh':'被遗忘的危机','ar':'أزمات منسية','he':'משברים נשכחים'},
 'Myanmar':{'it':'Myanmar','en':'Myanmar','fr':'Myanmar','de':'Myanmar','es':'Myanmar','pt':'Myanmar','tr':'Myanmar','zh':'缅甸','ar':'ميانمار','he':'מיאנמר'},
 'Rohingya':{'it':'Rohingya','en':'Rohingya','fr':'Rohingya','de':'Rohingya','es':'Rohinyá','pt':'Rohingya','tr':'Rohingya','zh':'罗兴亚人','ar':'الروهينغا','he':'רוהינגה'},
 'RD Congo':{'it':'RD Congo','en':'DR Congo','fr':'RD Congo','de':'DR Kongo','es':'RD Congo','pt':'RD Congo','tr':'DR Kongo','zh':'刚果(金)','ar':'الكونغو الديمقراطية','he':'קונגו הדמוקרטית'},
@@ -196,8 +200,8 @@ for _k in list(NEWS)+list(SHARES):
     t=_txt(_k); itemtags[_k]=[tg for tg,kw in VOC.items() if any(w in t for w in kw)]
 if 'nd-mona' in itemtags: itemtags['nd-mona']=['Libano','ONU','Diritto internazionale']
 if 'nd-coi' in itemtags: itemtags['nd-coi']=['Israele','Gaza','ONU','Diritto internazionale','Genocidio']
-if 'nd-rdc' in itemtags: itemtags['nd-rdc']=['RD Congo','Ruanda','ONU','Diritto internazionale']
-if 'nd-mya' in itemtags: itemtags['nd-mya']=['Myanmar','Rohingya','Genocidio','ONU','Diritto internazionale']
+if 'nd-rdc' in itemtags: itemtags['nd-rdc']=['RD Congo','Ruanda','ONU','Diritto internazionale','Crisi dimenticate']
+if 'nd-mya' in itemtags: itemtags['nd-mya']=['Myanmar','Rohingya','Genocidio','ONU','Diritto internazionale','Crisi dimenticate']
 if 'm1' in itemtags: itemtags['m1']=['Israele','ONU','Diritto internazionale']
 if 'm-ru' in itemtags: itemtags['m-ru']=['Russia–Ucraina','ONU','Corte penale internazionale','Diritto internazionale']
 if 'm-sd' in itemtags: itemtags['m-sd']=['Sudan','Genocidio','ONU','Diritto internazionale']
@@ -205,7 +209,8 @@ if 'm-us' in itemtags: itemtags['m-us']=['Stati Uniti','Venezuela','Sanzioni','D
 if 'm-fl' in itemtags: itemtags['m-fl']=['Flotilla','Gaza','Israele','Diritto internazionale']
 if 'm-im' in itemtags: itemtags['m-im']=['Asilo e migrazione','Unione Europea','Diritto internazionale']
 if 'm-fame' in itemtags: itemtags['m-fame']=['Fame e carestia','Gaza','ONU','Diritto internazionale']
-if 'nd-sd' in itemtags: itemtags['nd-sd']=['Sudan','Genocidio','Fame e carestia','ONU','Diritto internazionale']
+if 'nd-sd' in itemtags: itemtags['nd-sd']=['Sudan','Genocidio','Fame e carestia','ONU','Diritto internazionale','Crisi dimenticate']
+if 'nd-ht' in itemtags: itemtags['nd-ht']=['Haiti','Infanzia','ONU','Diritto internazionale','Crisi dimenticate']
 tagkeys={tg:[k for k in list(NEWS)+list(SHARES) if tg in itemtags[k]] for tg in VOC}
 TAGS_ORDER=sorted(VOC, key=lambda t:(-len(tagkeys[t]), t))
 TOTAL=len(NEWS)+len(SHARES)
@@ -515,7 +520,7 @@ T_FB['ru']='\u041a\u0430\u0436\u0434\u044b\u0439 \u0444\u0430\u043a\u0442, \u043
 T_FSUB['ru']='\u0418\u0437\u0434\u0430\u043d\u0438\u044f \u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438'
 T_LT['ru']='\u042f\u0437\u044b\u043a\u0438'
 T_LB['ru']='\u042d\u0442\u043e\u0442 \u0441\u0430\u0439\u0442 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u043d\u0430 11 \u044f\u0437\u044b\u043a\u0430\u0445. \u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0432\u043e\u0439:'
-for _k,_v in {'Myanmar':'Мьянма','Rohingya':'рохинджа','RD Congo':'ДР Конго','Ruanda':'Руанда','Gaza':'\u0413\u0430\u0437\u0430','Israele':'\u0418\u0437\u0440\u0430\u0438\u043b\u044c','Sudan':'\u0421\u0443\u0434\u0430\u043d','Iran':'\u0418\u0440\u0430\u043d','Russia\u2013Ucraina':'\u0420\u043e\u0441\u0441\u0438\u044f\u2013\u0423\u043a\u0440\u0430\u0438\u043d\u0430','Taiwan':'\u0422\u0430\u0439\u0432\u0430\u043d\u044c','Libano':'\u041b\u0438\u0432\u0430\u043d','Venezuela':'\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430','Flotilla':'\u0424\u043b\u043e\u0442\u0438\u043b\u0438\u044f','Ben Gvir':'\u0411\u0435\u043d-\u0413\u0432\u0438\u0440','Fame e carestia':'\u0413\u043e\u043b\u043e\u0434','Asilo e migrazione':'\u0423\u0431\u0435\u0436\u0438\u0449\u0435 \u0438 \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u044f','ONU':'\u041e\u041e\u041d','Corte penale internazionale':'\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u044b\u0439 \u0441\u0443\u0434','Sanzioni':'\u0421\u0430\u043d\u043a\u0446\u0438\u0438','Genocidio':'\u0413\u0435\u043d\u043e\u0446\u0438\u0434','Stati Uniti':'\u0421\u0428\u0410','Unione Europea':'\u0415\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0439 \u0441\u043e\u044e\u0437','Diritto internazionale':'\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0435 \u043f\u0440\u0430\u0432\u043e'}.items():
+for _k,_v in {'Haiti':'Гаити','Infanzia':'Дети','Crisi dimenticate':'Забытые кризисы','Myanmar':'Мьянма','Rohingya':'рохинджа','RD Congo':'ДР Конго','Ruanda':'Руанда','Gaza':'\u0413\u0430\u0437\u0430','Israele':'\u0418\u0437\u0440\u0430\u0438\u043b\u044c','Sudan':'\u0421\u0443\u0434\u0430\u043d','Iran':'\u0418\u0440\u0430\u043d','Russia\u2013Ucraina':'\u0420\u043e\u0441\u0441\u0438\u044f\u2013\u0423\u043a\u0440\u0430\u0438\u043d\u0430','Taiwan':'\u0422\u0430\u0439\u0432\u0430\u043d\u044c','Libano':'\u041b\u0438\u0432\u0430\u043d','Venezuela':'\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430','Flotilla':'\u0424\u043b\u043e\u0442\u0438\u043b\u0438\u044f','Ben Gvir':'\u0411\u0435\u043d-\u0413\u0432\u0438\u0440','Fame e carestia':'\u0413\u043e\u043b\u043e\u0434','Asilo e migrazione':'\u0423\u0431\u0435\u0436\u0438\u0449\u0435 \u0438 \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u044f','ONU':'\u041e\u041e\u041d','Corte penale internazionale':'\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0443\u0433\u043e\u043b\u043e\u0432\u043d\u044b\u0439 \u0441\u0443\u0434','Sanzioni':'\u0421\u0430\u043d\u043a\u0446\u0438\u0438','Genocidio':'\u0413\u0435\u043d\u043e\u0446\u0438\u0434','Stati Uniti':'\u0421\u0428\u0410','Unione Europea':'\u0415\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0439 \u0441\u043e\u044e\u0437','Diritto internazionale':'\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0435 \u043f\u0440\u0430\u0432\u043e'}.items():
     if _k in TAGNAME: TAGNAME[_k]['ru']=_v
 
 

@@ -100,3 +100,25 @@ if 'crc' not in ORDER: ORDER.append('crc')
 # genocide — varianti di forma/casatura usate nei corpi (nd-coi, nd-mya)
 for _l,_extra in {'it':['Convenzione sul Genocidio'],'zh':['灭绝种族公约'],'ar':['اتفاقية منع الإبادة الجماعية'],'he':['אמנת מניעת רצח העם']}.items():
     LINKPATS['genocide'].setdefault(_l,[]).extend(_extra)
+
+# OPAC — Protocollo opzionale (coinvolgimento minori nei conflitti armati). Va PRIMA di crc nell'ORDER
+# perché la frase lunga contiene il nome della CRC.
+LINKPATS['opac']={
+ 'it':["Protocollo opzionale alla Convenzione sui diritti dell'infanzia"],
+ 'en':['Optional Protocol to the Convention on the Rights of the Child'],
+ 'fr':["Protocole facultatif à la Convention relative aux droits de l'enfant"],
+ 'de':['Fakultativprotokoll zum Übereinkommen über die Rechte des Kindes'],
+ 'es':['Protocolo facultativo de la Convención sobre los Derechos del Niño'],
+ 'pt':['Protocolo facultativo à Convenção sobre os Direitos da Criança'],
+ 'tr':["Çocuk Haklarına Dair Sözleşme'ye Ek İhtiyari Protokol"],
+ 'zh':['关于儿童卷入武装冲突问题的任择议定书'],
+ 'ar':['البروتوكول الاختياري لاتفاقية حقوق الطفل'],
+ 'he':['הפרוטוקול האופציונלי לאמנה בדבר זכויות הילד'],
+ 'ru':['Факультативный протокол к Конвенции о правах ребёнка'],
+}
+if 'opac' not in ORDER:
+    ORDER.insert(ORDER.index('crc') if 'crc' in ORDER else len(ORDER), 'opac')
+
+# russo: forme declinate usate nei corpi (nd-ht)
+LINKPATS['opac']['ru'].append('Факультативным протоколом к Конвенции о правах ребёнка')
+LINKPATS['crc']['ru'].append('Конвенцию о правах ребёнка')

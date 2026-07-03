@@ -122,3 +122,23 @@ if 'opac' not in ORDER:
 # russo: forme declinate usate nei corpi (nd-ht)
 LINKPATS['opac']['ru'].append('Факультативным протоколом к Конвенции о правах ребёнка')
 LINKPATS['crc']['ru'].append('Конвенцию о правах ребёнка')
+
+# CEDAW — Convenzione eliminazione discriminazione contro le donne (1979)
+LINKPATS['cedaw']={
+ 'it':["Convenzione sull'eliminazione di ogni forma di discriminazione contro le donne"],
+ 'en':['Convention on the Elimination of All Forms of Discrimination against Women'],
+ 'fr':["Convention sur l'élimination de toutes les formes de discrimination à l'égard des femmes"],
+ 'de':['Übereinkommen zur Beseitigung jeder Form von Diskriminierung der Frau'],
+ 'es':['Convención sobre la eliminación de todas las formas de discriminación contra la mujer'],
+ 'pt':['Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres'],
+ 'tr':['Kadınlara Karşı Her Türlü Ayrımcılığın Önlenmesi Sözleşmesi'],
+ 'zh':['消除对妇女一切形式歧视公约'],
+ 'ar':['اتفاقية القضاء على جميع أشكال التمييز ضد المرأة'],
+ 'he':['האמנה לביטול כל צורות האפליה נגד נשים'],
+ 'ru':['Конвенцию о ликвидации всех форм дискриминации в отношении женщин','Конвенция о ликвидации всех форм дискриминации в отношении женщин'],
+}
+if 'cedaw' not in ORDER: ORDER.append('cedaw')
+
+# forme declinate (genitivo) usate in af.py per lo Statuto di Roma
+LINKPATS['rome']['de'].append('Römischen Statuts')
+LINKPATS['rome']['ru'].append('Римского статута')

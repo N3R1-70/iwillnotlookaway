@@ -69,6 +69,16 @@ NORME=[
    'tr':'Çocukların Silahlı Çatışmalara Dâhil Olmasına İlişkin İhtiyari Protokol',
    'zh':'关于儿童卷入武装冲突问题的任择议定书','ar':'البروتوكول الاختياري بشأن اشتراك الأطفال في النزاعات المسلحة',
    'he':'הפרוטוקול האופציונלי בדבר מעורבות ילדים בסכסוכים מזוינים'}),
+ ('cedaw','1979','https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women','OHCHR',{
+   'it':"Convenzione sull'eliminazione di ogni forma di discriminazione contro le donne",
+   'en':'Convention on the Elimination of All Forms of Discrimination against Women',
+   'fr':"Convention sur l'élimination de toutes les formes de discrimination à l'égard des femmes",
+   'de':'Übereinkommen zur Beseitigung jeder Form von Diskriminierung der Frau',
+   'es':'Convención sobre la eliminación de todas las formas de discriminación contra la mujer',
+   'pt':'Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres',
+   'tr':'Kadınlara Karşı Her Türlü Ayrımcılığın Önlenmesi Sözleşmesi',
+   'zh':'消除对妇女一切形式歧视公约','ar':'اتفاقية القضاء على جميع أشكال التمييز ضد المرأة',
+   'he':'האמנה לביטול כל צורות האפליה נגד נשים'}),
  ('rome','1998','https://www.ohchr.org/en/instruments-mechanisms/instruments/rome-statute-international-criminal-court','OHCHR',{
    'it':'Statuto di Roma della Corte penale internazionale',
    'en':'Rome Statute of the International Criminal Court',
@@ -115,5 +125,6 @@ _RU_NAMES={
  'refugees':'Конвенция о статусе беженцев (1951) и Протокол (1967)',
  'crc':'Конвенция о правах ребёнка',
  'opac':'Факультативный протокол, касающийся участия детей в вооружённых конфликтах',
+ 'cedaw':'Конвенция о ликвидации всех форм дискриминации в отношении женщин',
  'rome':'Римский статут Международного уголовного суда'}
 for _e in NORME: _e[4]['ru']=_RU_NAMES[_e[0]]

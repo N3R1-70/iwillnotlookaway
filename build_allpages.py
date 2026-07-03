@@ -215,6 +215,7 @@ if 'm-fame' in itemtags: itemtags['m-fame']=['Fame e carestia','Gaza','ONU','Dir
 if 'nd-sd' in itemtags: itemtags['nd-sd']=['Sudan','Genocidio','Fame e carestia','ONU','Diritto internazionale','Crisi dimenticate']
 if 'nd-ht' in itemtags: itemtags['nd-ht']=['Haiti','Infanzia','ONU','Diritto internazionale','Crisi dimenticate']
 if 'nd-af' in itemtags: itemtags['nd-af']=['Afghanistan','Donne','Corte penale internazionale','Diritto internazionale','Crisi dimenticate']
+if 'nd-ns' in itemtags: itemtags['nd-ns']=['Russia–Ucraina','Diritto internazionale']
 tagkeys={tg:[k for k in list(NEWS)+list(SHARES) if tg in itemtags[k]] for tg in VOC}
 TAGS_ORDER=sorted(VOC, key=lambda t:(-len(tagkeys[t]), t))
 TOTAL=len(NEWS)+len(SHARES)

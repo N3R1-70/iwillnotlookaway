@@ -142,3 +142,6 @@ if 'cedaw' not in ORDER: ORDER.append('cedaw')
 # forme declinate (genitivo) usate in af.py per lo Statuto di Roma
 LINKPATS['rome']['de'].append('Römischen Statuts')
 LINKPATS['rome']['ru'].append('Римского статута')
+
+# forma dativa russa usata in ns.py
+LINKPATS['rome']['ru'].append('Римскому статуту')

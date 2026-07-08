@@ -112,6 +112,5 @@ a{color:var(--glow)}#main-nav{position:sticky;top:0;z-index:100;background:rgba(
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a></p>
 </footer>
 <script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
-<script>function toggleTags(b){var p=b.closest(".tagpanel");var bd=p.querySelector(".tagpanel-body");if(p.classList.toggle("open"))bd.removeAttribute("hidden");else bd.setAttribute("hidden","");}</script>
-</body>
+<script>function toggleTags(b){var p=b.closest(".tagpanel");var bd=p.querySelector(".tagpanel-body");if(p.classList.toggle("open"))bd.removeAttribute("hidden");else bd.setAttribute("hidden","");}</script></body>
 </html>

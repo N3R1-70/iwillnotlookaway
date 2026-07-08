@@ -204,6 +204,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="section-header">Манифесты</p>
 <div id="home-manifesti"></div>
 </div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:40px"><p class="section-header">Мнения</p><div id="home-opinioni"></div></div>
 <div class="section-inner" style="padding-top:10px;padding-bottom:70px">
 <p class="section-header" id="t-sl">Цель</p>
 <div class="scope-block active" id="sc-en">
@@ -227,13 +228,15 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
 <h2 class="page-title" id="t-ml">Манифесты</h2>
-<p class="page-desc" id="t-md">Documents grounded in international law: documented facts, violated norms, concrete measures.</p><div class="manifesto-card">
+<p class="page-desc" id="t-md">Documents grounded in international law: documented facts, violated norms, concrete measures.</p>
+<div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct7">Голод есть политический выбор</div>
 <div class="manifesto-card-sub" id="t-mcs7">266 миллионов человек не имеют достаточно еды. Мир знает. Мир молчит.</div>
 <div class="manifesto-card-actions">
 <a class="btn-read" href="/s/ru/m-fame.html">Читать полный текст</a><button class="btn-share" type="button" data-share-key="m-fame"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Share</span></button>
 </div>
 </div>
+
 
 <div class="manifesto-card">
 <div class="manifesto-card-title" id="t-mct6">За право убежища — против экстернализации европейской границы</div>
@@ -288,6 +291,8 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 </div>
 
+</div>
+</div>
 <div class="page" id="page-notizie">
 <div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
@@ -669,6 +674,9 @@ c.innerHTML='<div class="hdate">'+(d?d.innerHTML:'')+'</div><div class="htitle">
 var ms=document.querySelectorAll('#page-manifesti .manifesto-card-title'),mh=document.getElementById('home-manifesti');
 for(var j=0;j<ms.length;j++){var r=document.createElement('a');r.className='mrow';r.onclick=function(){showPage('manifesti');};
 r.innerHTML='<span class="mnum">'+('0'+(j+1)).slice(-2)+'</span><span class="mtit">'+ms[j].innerHTML+'</span><span class="marr">&rarr;</span>';mh.appendChild(r);}
+var os=document.querySelectorAll('#page-opinioni .manifesto-card-title'),oh=document.getElementById('home-opinioni');
+for(var k=0;k<os.length;k++){var r2=document.createElement('a');r2.className='mrow';r2.onclick=function(){showPage('opinioni');};
+r2.innerHTML='<span class="mnum">'+('0'+(k+1)).slice(-2)+'</span><span class="mtit">'+os[k].innerHTML+'</span><span class="marr">&rarr;</span>';oh.appendChild(r2);}
 }catch(e){}})();</script>
 <script>/*deeplink*/(function(){var sp=new URLSearchParams(location.search),open=sp.get('open');if(!open)return;
 function scroll(el){if(!el)return;setTimeout(function(){var y=el.getBoundingClientRect().top+window.pageYOffset-90;window.scrollTo({top:y,behavior:'smooth'});},180);}

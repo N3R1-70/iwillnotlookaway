@@ -15,6 +15,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -91,7 +98,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 
 </head>
 <body>
-<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/tr/">Amaç</a><a class="nav-link" href="/s/tr/manifestolar.html">Manifestolar</a><a class="nav-link" href="/s/tr/gorusler.html">Görüşler</a><a class="nav-link" href="/s/tr/dilekceler.html">Dilekçeler</a><a class="nav-link" href="/s/tr/konular.html">Konular</a><a class="nav-link" href="/s/tr/hukuki-kaynaklar.html">Hukuki kaynaklar</a><a class="nav-link" href="/s/tr/hakkimda.html">Hakkımda</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/nd-yemen.html">IT</a><a class="lang-btn" href="/s/en/nd-yemen.html">EN</a><a class="lang-btn" href="/s/fr/nd-yemen.html">FR</a><a class="lang-btn" href="/s/de/nd-yemen.html">DE</a><a class="lang-btn" href="/s/es/nd-yemen.html">ES</a><a class="lang-btn" href="/s/pt/nd-yemen.html">PT</a><a class="lang-btn active" href="/s/tr/nd-yemen.html">TR</a><a class="lang-btn" href="/s/zh/nd-yemen.html">中文</a><a class="lang-btn" href="/s/ar/nd-yemen.html">AR</a><a class="lang-btn" href="/s/he/nd-yemen.html">עב</a><a class="lang-btn" href="/s/ru/nd-yemen.html">RU</a></div></nav>
+<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/tr/">Amaç</a><a class="nav-link" href="/s/tr/manifestolar.html">Manifestolar</a><a class="nav-link active" href="/s/tr/haberler.html">Haberler</a><a class="nav-link" href="/s/tr/gorusler.html">Görüşler</a><a class="nav-link" href="/s/tr/dilekceler.html">Dilekçeler</a><a class="nav-link" href="/s/tr/konular.html">Konular</a><a class="nav-link" href="/s/tr/hukuki-kaynaklar.html">Hukuki kaynaklar</a><a class="nav-link" href="/s/tr/hakkimda.html">Hakkımda</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/nd-yemen.html">IT</a><a class="lang-btn" href="/s/en/nd-yemen.html">EN</a><a class="lang-btn" href="/s/fr/nd-yemen.html">FR</a><a class="lang-btn" href="/s/de/nd-yemen.html">DE</a><a class="lang-btn" href="/s/es/nd-yemen.html">ES</a><a class="lang-btn" href="/s/pt/nd-yemen.html">PT</a><a class="lang-btn active" href="/s/tr/nd-yemen.html">TR</a><a class="lang-btn" href="/s/zh/nd-yemen.html">中文</a><a class="lang-btn" href="/s/ar/nd-yemen.html">AR</a><a class="lang-btn" href="/s/he/nd-yemen.html">עב</a><a class="lang-btn" href="/s/ru/nd-yemen.html">RU</a></div></nav>
 <article class="wrap">
 <p class="cat">HABER</p>
 <h1>Yemen: Hodeidah yeniden kan kaybederken, 73 BM personeli hâlâ Husiler tarafından keyfi olarak alıkonuluyor</h1>
@@ -131,9 +138,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
   }
 })();

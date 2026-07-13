@@ -15,6 +15,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -84,7 +91,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 
 </head>
 <body>
-<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/en/">Purpose</a><a class="nav-link" href="/s/en/manifestos.html">Manifestos</a><a class="nav-link active" href="/s/en/opinions.html">Opinions</a><a class="nav-link" href="/s/en/petitions.html">Petitions</a><a class="nav-link" href="/s/en/topics.html">Topics</a><a class="nav-link" href="/s/en/legal-references.html">Legal references</a><a class="nav-link" href="/s/en/about.html">About</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/opinioni.html">IT</a><a class="lang-btn active" href="/s/en/opinions.html">EN</a><a class="lang-btn" href="/s/fr/opinions.html">FR</a><a class="lang-btn" href="/s/de/meinungen.html">DE</a><a class="lang-btn" href="/s/es/opiniones.html">ES</a><a class="lang-btn" href="/s/pt/opinioes.html">PT</a><a class="lang-btn" href="/s/tr/gorusler.html">TR</a><a class="lang-btn" href="/s/zh/opinions.html">中文</a><a class="lang-btn" href="/s/ar/opinions.html">AR</a><a class="lang-btn" href="/s/he/opinions.html">עב</a><a class="lang-btn" href="/s/ru/opinions.html">RU</a></div></nav>
+<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/en/">Purpose</a><a class="nav-link" href="/s/en/manifestos.html">Manifestos</a><a class="nav-link" href="/s/en/news.html">News</a><a class="nav-link active" href="/s/en/opinions.html">Opinions</a><a class="nav-link" href="/s/en/petitions.html">Petitions</a><a class="nav-link" href="/s/en/topics.html">Topics</a><a class="nav-link" href="/s/en/legal-references.html">Legal references</a><a class="nav-link" href="/s/en/about.html">About</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/opinioni.html">IT</a><a class="lang-btn active" href="/s/en/opinions.html">EN</a><a class="lang-btn" href="/s/fr/opinions.html">FR</a><a class="lang-btn" href="/s/de/meinungen.html">DE</a><a class="lang-btn" href="/s/es/opiniones.html">ES</a><a class="lang-btn" href="/s/pt/opinioes.html">PT</a><a class="lang-btn" href="/s/tr/gorusler.html">TR</a><a class="lang-btn" href="/s/zh/opinions.html">中文</a><a class="lang-btn" href="/s/ar/opinions.html">AR</a><a class="lang-btn" href="/s/he/opinions.html">עב</a><a class="lang-btn" href="/s/ru/opinions.html">RU</a></div></nav>
 <article class="wrap"><div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
 <h2 class="page-title">Opinions</h2>
@@ -141,9 +148,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
   }
 })();

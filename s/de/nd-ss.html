@@ -15,6 +15,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -89,7 +96,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 
 </head>
 <body>
-<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/de/">Zweck</a><a class="nav-link" href="/s/de/manifeste.html">Manifeste</a><a class="nav-link" href="/s/de/meinungen.html">Meinungen</a><a class="nav-link" href="/s/de/petitionen.html">Petitionen</a><a class="nav-link" href="/s/de/themen.html">Themen</a><a class="nav-link" href="/s/de/rechtsgrundlagen.html">Rechtsgrundlagen</a><a class="nav-link" href="/s/de/ueber-mich.html">Über</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/nd-ss.html">IT</a><a class="lang-btn" href="/s/en/nd-ss.html">EN</a><a class="lang-btn" href="/s/fr/nd-ss.html">FR</a><a class="lang-btn active" href="/s/de/nd-ss.html">DE</a><a class="lang-btn" href="/s/es/nd-ss.html">ES</a><a class="lang-btn" href="/s/pt/nd-ss.html">PT</a><a class="lang-btn" href="/s/tr/nd-ss.html">TR</a><a class="lang-btn" href="/s/zh/nd-ss.html">中文</a><a class="lang-btn" href="/s/ar/nd-ss.html">AR</a><a class="lang-btn" href="/s/he/nd-ss.html">עב</a><a class="lang-btn" href="/s/ru/nd-ss.html">RU</a></div></nav>
+<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/de/">Zweck</a><a class="nav-link" href="/s/de/manifeste.html">Manifeste</a><a class="nav-link active" href="/s/de/nachrichten.html">Nachrichten</a><a class="nav-link" href="/s/de/meinungen.html">Meinungen</a><a class="nav-link" href="/s/de/petitionen.html">Petitionen</a><a class="nav-link" href="/s/de/themen.html">Themen</a><a class="nav-link" href="/s/de/rechtsgrundlagen.html">Rechtsgrundlagen</a><a class="nav-link" href="/s/de/ueber-mich.html">Über</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/nd-ss.html">IT</a><a class="lang-btn" href="/s/en/nd-ss.html">EN</a><a class="lang-btn" href="/s/fr/nd-ss.html">FR</a><a class="lang-btn active" href="/s/de/nd-ss.html">DE</a><a class="lang-btn" href="/s/es/nd-ss.html">ES</a><a class="lang-btn" href="/s/pt/nd-ss.html">PT</a><a class="lang-btn" href="/s/tr/nd-ss.html">TR</a><a class="lang-btn" href="/s/zh/nd-ss.html">中文</a><a class="lang-btn" href="/s/ar/nd-ss.html">AR</a><a class="lang-btn" href="/s/he/nd-ss.html">עב</a><a class="lang-btn" href="/s/ru/nd-ss.html">RU</a></div></nav>
 <article class="wrap">
 <p class="cat">NACHRICHT</p>
 <h1>Der Südsudan am Rand einer Hungersnot, während das 2018 versprochene Tribunal toter Buchstabe bleibt</h1>
@@ -130,9 +137,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
   }
 })();

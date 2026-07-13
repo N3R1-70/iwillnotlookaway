@@ -13,6 +13,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -178,7 +185,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div id="nav-logo-wrap" onclick="showPage('home')">
 <img alt="I Will Not Look Away" id="nav-logo" src="/logo.png"/>
 </div>
-<div id="nav-links"><a class="nav-link active" href="/ar/">الهدف</a><a class="nav-link" href="/s/ar/manifestos.html">البيانات</a><a class="nav-link" href="/s/ar/opinions.html">آراء</a><a class="nav-link" href="/s/ar/petitions.html">عرائض</a><a class="nav-link" href="/s/ar/topics.html">المواضيع</a><a class="nav-link" href="/s/ar/legal-references.html">المراجع القانونية</a><a class="nav-link" href="/s/ar/about.html">من نحن</a></div>
+<div id="nav-links"><a class="nav-link active" href="/ar/">الهدف</a><a class="nav-link" href="/s/ar/manifestos.html">البيانات</a><a class="nav-link" href="/s/ar/news.html">أخبار</a><a class="nav-link" href="/s/ar/opinions.html">آراء</a><a class="nav-link" href="/s/ar/petitions.html">عرائض</a><a class="nav-link" href="/s/ar/topics.html">المواضيع</a><a class="nav-link" href="/s/ar/legal-references.html">المراجع القانونية</a><a class="nav-link" href="/s/ar/about.html">من نحن</a></div>
 <div id="lang-bar">
 <a class="lang-btn" data-lang="it" href="/">IT</a>
 <a class="lang-btn" data-lang="en" href="/en/">EN</a>
@@ -509,6 +516,13 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <h2 class="page-title">آراء</h2>
 <p class="page-desc">حيث يصمت القانون، لا ينبغي أن يصمت الحكم</p>
 <div class="opinion-card">
+<div class="opinion-card-title">التسلح من أجل ماذا. رأي لم يُغلق بعد</div>
+<div class="opinion-card-sub">مسار عبر فنزويلا وإيران وغرينلاند يطبّق على سلوك الولايات المتحدة نفس المادة 2(4) المطبّقة على روسيا — مع حدس معلن حول الدين وشكوك صريحة تجاه التهديد الروسي.</div>
+<div class="opinion-card-actions">
+<a class="btn-read" href="/s/ar/op-tavolo.html">قراءة</a>
+</div>
+</div>
+<div class="opinion-card">
 <div class="opinion-card-title">الغابة تتقدم. لكن يمكننا إيقافها بأعيننا نحن.</div>
 <div class="opinion-card-sub">نداء من أجل تناظر النظرة: قائمتا ضحايا، عربية ويهودية، خانهما القانون الدولي بالطريقة نفسها.</div>
 <div class="opinion-card-actions">
@@ -681,9 +695,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
     updateConsentTexts();
   }

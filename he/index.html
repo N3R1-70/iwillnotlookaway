@@ -13,6 +13,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -178,7 +185,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div id="nav-logo-wrap" onclick="showPage('home')">
 <img alt="I Will Not Look Away" id="nav-logo" src="/logo.png"/>
 </div>
-<div id="nav-links"><a class="nav-link active" href="/he/">מטרה</a><a class="nav-link" href="/s/he/manifestos.html">מניפסטים</a><a class="nav-link" href="/s/he/opinions.html">דעות</a><a class="nav-link" href="/s/he/petitions.html">עצומות</a><a class="nav-link" href="/s/he/topics.html">נושאים</a><a class="nav-link" href="/s/he/legal-references.html">מקורות משפטיים</a><a class="nav-link" href="/s/he/about.html">אודות</a></div>
+<div id="nav-links"><a class="nav-link active" href="/he/">מטרה</a><a class="nav-link" href="/s/he/manifestos.html">מניפסטים</a><a class="nav-link" href="/s/he/news.html">חדשות</a><a class="nav-link" href="/s/he/opinions.html">דעות</a><a class="nav-link" href="/s/he/petitions.html">עצומות</a><a class="nav-link" href="/s/he/topics.html">נושאים</a><a class="nav-link" href="/s/he/legal-references.html">מקורות משפטיים</a><a class="nav-link" href="/s/he/about.html">אודות</a></div>
 <div id="lang-bar">
 <a class="lang-btn" data-lang="it" href="/">IT</a>
 <a class="lang-btn" data-lang="en" href="/en/">EN</a>
@@ -509,6 +516,13 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <h2 class="page-title">דעות</h2>
 <p class="page-desc">במקום שבו החוק שותק, השיפוט לא ישתוק</p>
 <div class="opinion-card">
+<div class="opinion-card-title">להתחמש בשביל מה. דעה שעדיין לא ננעלה</div>
+<div class="opinion-card-sub">מסלול דרך ונצואלה, איראן וגרינלנד מיישם על התנהלות ארה״ב את אותו סעיף 2(4) המיושם על רוסיה — עם השערה מוצהרת על החוב וספקנות מפורשת כלפי האיום הרוסי.</div>
+<div class="opinion-card-actions">
+<a class="btn-read" href="/s/he/op-tavolo.html">קרא</a>
+</div>
+</div>
+<div class="opinion-card">
 <div class="opinion-card-title">הג'ונגל מתקדם. אבל אנחנו יכולים לעצור אותו במבטנו שלנו.</div>
 <div class="opinion-card-sub">קריאה לסימטריה של המבט: שתי רשימות של קורבנות, ערבית ויהודית, שנבגדו באותה מידה על ידי המשפט הבינלאומי.</div>
 <div class="opinion-card-actions">
@@ -681,9 +695,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
     updateConsentTexts();
   }

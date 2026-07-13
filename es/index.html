@@ -13,6 +13,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -178,7 +185,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div id="nav-logo-wrap" onclick="showPage('home')">
 <img alt="I Will Not Look Away" id="nav-logo" src="/logo.png"/>
 </div>
-<div id="nav-links"><a class="nav-link active" href="/es/">Propósito</a><a class="nav-link" href="/s/es/manifiestos.html">Manifiestos</a><a class="nav-link" href="/s/es/opiniones.html">Opiniones</a><a class="nav-link" href="/s/es/peticiones.html">Peticiones</a><a class="nav-link" href="/s/es/temas.html">Temas</a><a class="nav-link" href="/s/es/referencias-normativas.html">Referencias normativas</a><a class="nav-link" href="/s/es/sobre-mi.html">Quién soy</a></div>
+<div id="nav-links"><a class="nav-link active" href="/es/">Propósito</a><a class="nav-link" href="/s/es/manifiestos.html">Manifiestos</a><a class="nav-link" href="/s/es/noticias.html">Noticias</a><a class="nav-link" href="/s/es/opiniones.html">Opiniones</a><a class="nav-link" href="/s/es/peticiones.html">Peticiones</a><a class="nav-link" href="/s/es/temas.html">Temas</a><a class="nav-link" href="/s/es/referencias-normativas.html">Referencias normativas</a><a class="nav-link" href="/s/es/sobre-mi.html">Quién soy</a></div>
 <div id="lang-bar">
 <a class="lang-btn" data-lang="it" href="/">IT</a>
 <a class="lang-btn" data-lang="en" href="/en/">EN</a>
@@ -511,6 +518,13 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <h2 class="page-title">Opiniones</h2>
 <p class="page-desc">Donde el derecho calla, el juicio no debe</p>
 <div class="opinion-card">
+<div class="opinion-card-title">Rearmarse para qué. Una opinión que todavía no se ha cerrado</div>
+<div class="opinion-card-sub">Un recorrido por Venezuela, Irán y Groenlandia aplica a la conducta estadounidense el mismo art. 2(4) usado para Rusia — con una intuición declarada sobre la deuda y un escepticismo explícito ante la amenaza rusa.</div>
+<div class="opinion-card-actions">
+<a class="btn-read" href="/s/es/op-tavolo.html">Leer</a>
+</div>
+</div>
+<div class="opinion-card">
 <div class="opinion-card-title">La jungla avanza. Pero podemos detenerla con nuestros propios ojos.</div>
 <div class="opinion-card-sub">Un llamamiento a la simetría de la mirada: dos listas de víctimas, árabe y judía, traicionadas por igual por el derecho internacional.</div>
 <div class="opinion-card-actions">
@@ -683,9 +697,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
     updateConsentTexts();
   }

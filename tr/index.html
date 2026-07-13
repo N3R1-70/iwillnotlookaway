@@ -13,6 +13,13 @@ gtag('consent', 'default', {
   'ad_user_data': 'denied',
   'ad_personalization': 'denied'
 });
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      gtag('consent','update',{'analytics_storage':'granted'});
+    }
+  }catch(e){}
+})();
 gtag('js', new Date());
 gtag('config', 'G-RTTRBJLDQQ');
 </script>
@@ -178,7 +185,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <div id="nav-logo-wrap" onclick="showPage('home')">
 <img alt="I Will Not Look Away" id="nav-logo" src="/logo.png"/>
 </div>
-<div id="nav-links"><a class="nav-link active" href="/tr/">Amaç</a><a class="nav-link" href="/s/tr/manifestolar.html">Manifestolar</a><a class="nav-link" href="/s/tr/gorusler.html">Görüşler</a><a class="nav-link" href="/s/tr/dilekceler.html">Dilekçeler</a><a class="nav-link" href="/s/tr/konular.html">Konular</a><a class="nav-link" href="/s/tr/hukuki-kaynaklar.html">Hukuki kaynaklar</a><a class="nav-link" href="/s/tr/hakkimda.html">Hakkımda</a></div>
+<div id="nav-links"><a class="nav-link active" href="/tr/">Amaç</a><a class="nav-link" href="/s/tr/manifestolar.html">Manifestolar</a><a class="nav-link" href="/s/tr/haberler.html">Haberler</a><a class="nav-link" href="/s/tr/gorusler.html">Görüşler</a><a class="nav-link" href="/s/tr/dilekceler.html">Dilekçeler</a><a class="nav-link" href="/s/tr/konular.html">Konular</a><a class="nav-link" href="/s/tr/hukuki-kaynaklar.html">Hukuki kaynaklar</a><a class="nav-link" href="/s/tr/hakkimda.html">Hakkımda</a></div>
 <div id="lang-bar">
 <a class="lang-btn" data-lang="it" href="/">IT</a>
 <a class="lang-btn" data-lang="en" href="/en/">EN</a>
@@ -511,6 +518,13 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <h2 class="page-title">Görüşler</h2>
 <p class="page-desc">Hukukun sustuğu yerde, yargı susmamalı</p>
 <div class="opinion-card">
+<div class="opinion-card-title">Ne için yeniden silahlanmak. Henüz kapanmamış bir görüş</div>
+<div class="opinion-card-sub">Venezuela, İran ve Grönland üzerinden izlenen bir yol, Rusya için kullanılan aynı 2(4). maddeyi ABD'nin tutumuna uyguluyor — borç üzerine açıkça belirtilen bir sezgi ve Rus tehdidine dair açık bir şüphecilikle.</div>
+<div class="opinion-card-actions">
+<a class="btn-read" href="/s/tr/op-tavolo.html">Oku</a>
+</div>
+</div>
+<div class="opinion-card">
 <div class="opinion-card-title">Vahşi orman ilerliyor. Ama onu kendi gözlerimizle durdurabiliriz.</div>
 <div class="opinion-card-sub">Bakışın simetrisine bir çağrı: uluslararası hukukun aynı şekilde ihanet ettiği Arap ve Yahudi kurban listeleri.</div>
 <div class="opinion-card-actions">
@@ -683,9 +697,7 @@ function consentChoice(ok){
 (function(){
   var v = null;
   try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v === "granted"){
-    gtag('consent','update',{'analytics_storage':'granted'});
-  } else if(v !== "denied"){
+  if(v !== "granted" && v !== "denied"){
     document.getElementById("consent-banner").style.display = "flex";
     updateConsentTexts();
   }

@@ -94,7 +94,7 @@ h1 em{font-style:italic;color:var(--glow);font-weight:400}
 .manifesto-card:hover{border-color:var(--ash)}
 .manifesto-card-title{font-family:'EB Garamond',serif;font-size:1.5rem;font-weight:700;color:var(--bone);margin-bottom:10px}
 .manifesto-card-sub{font-size:.9rem;font-style:italic;color:var(--ash);margin-bottom:20px}
-.manifesto-card-actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}.opinion-card{border:1px solid var(--glow);padding:36px;margin-bottom:24px;transition:border-color .3s}.opinion-card-title{font-family:'EB Garamond',serif;font-size:1.5rem;font-weight:700;font-style:italic;color:var(--bone);margin-bottom:10px}.opinion-card-sub{font-size:.9rem;color:var(--dust);margin-bottom:20px;border-left:2px solid var(--ember);padding-left:14px}.opinion-card-actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.manifesto-card-actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}.opinion-card{border:1px solid var(--glow);padding:36px;margin-bottom:24px;transition:border-color .3s}.attualita-card{border-color:var(--ember)}.opinion-card-title{font-family:'EB Garamond',serif;font-size:1.5rem;font-weight:700;font-style:italic;color:var(--bone);margin-bottom:10px}.opinion-card-sub{font-size:.9rem;color:var(--dust);margin-bottom:20px;border-left:2px solid var(--ember);padding-left:14px}.opinion-card-actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
 .btn-read{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--glow);text-decoration:none;border:1px solid var(--blood);padding:10px 24px;transition:background .3s,color .3s;cursor:pointer;background:none;display:inline-block}
 .btn-read:hover{background:var(--blood);color:var(--bone)}
 .btn-pdf{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--ash);text-decoration:none;border:1px solid var(--line);padding:10px 24px;display:inline-flex;align-items:center;gap:8px;transition:color .3s,border-color .3s}
@@ -156,7 +156,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 .hero-hook strong{color:var(--bone);font-weight:700}
 .breadth{margin-top:38px;font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ash)}
 .home-news{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
-.hcard{border:1px solid var(--line);background:var(--surface);padding:24px;cursor:pointer;transition:border-color .3s}
+.hcard{border:1px solid var(--line);background:var(--surface);padding:24px;cursor:pointer;transition:border-color .3s}.home-news-attualita .hcard{border-color:var(--ember)}.home-news-attualita .hdate{color:var(--ember)}
 .hcard:hover{border-color:var(--ember)}
 .hcard .hdate{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--glow);margin-bottom:12px;font-family:'Source Serif 4',serif}
 .hcard .htitle{font-family:'EB Garamond',serif;font-size:1.2rem;font-weight:700;line-height:1.25;color:var(--bone)}
@@ -176,7 +176,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 .share-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--ember);color:var(--bone);padding:12px 24px;font-size:.85rem;letter-spacing:.05em;opacity:0;pointer-events:none;transition:opacity .3s;z-index:99999}
 .share-toast.show{opacity:1}
 
-.counters-row{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;text-align:center}.counter{border:1px solid var(--glow);padding:20px 12px;border-radius:2px}.counter-num{font-family:'EB Garamond',serif;font-weight:700;font-size:76px;line-height:1;color:var(--bone);letter-spacing:-.01em}.counter-lab{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--dust);margin-top:14px}.counter-link{text-decoration:none;color:inherit;display:block;cursor:pointer}.counter-link:hover .counter-num{color:var(--glow)}.counter-link:hover .counter-lab{color:var(--pale)}@media(max-width:600px){.counter-num{font-size:52px}.counters-row{grid-template-columns:repeat(2,1fr)}}
+.counters-row{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center}.counter{border:1px solid var(--glow);padding:20px 12px;border-radius:2px}.counter-num{font-family:'EB Garamond',serif;font-weight:700;font-size:76px;line-height:1;color:var(--bone);letter-spacing:-.01em}.counter-lab{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--dust);margin-top:14px}.counter-link{text-decoration:none;color:inherit;display:block;cursor:pointer}.counter-link:hover .counter-num{color:var(--glow)}.counter-link:hover .counter-lab{color:var(--pale)}@media(max-width:600px){.counter-num{font-size:52px}.counters-row{grid-template-columns:repeat(2,1fr)}}
 .tagpanel{margin:8px 0 0}.tagpanel-toggle{background:none;border:1px solid var(--line);color:var(--pale);font-family:'Source Serif 4',serif;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;padding:9px 16px;cursor:pointer}.tagpanel-toggle:hover{border-color:var(--ember);color:var(--bone)}.tp-arrow{display:inline-block;margin-left:8px}.tagpanel.open .tp-arrow{transform:rotate(180deg)}.tagpanel-body{display:flex;flex-wrap:wrap;margin-top:14px}.tagpanel-body .chip .n{color:var(--dust);font-size:.82em;margin-left:6px}
 .chip{display:inline-block;text-decoration:none;border:1px solid var(--line);color:var(--dust);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;margin:0 8px 8px 0}.tagpanel-body .chip:hover{border-color:var(--ember);color:var(--bone)}.tagpanel-body .chip-all{border-color:var(--ember);color:var(--glow);flex-basis:100%;justify-content:center;margin-top:14px;text-align:center}[dir=rtl] .tp-arrow{margin-left:0;margin-right:8px}a.nav-link{text-decoration:none}</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org/tr/", "inLanguage": "tr", "description": "Uluslararası hukuka dayanan beş manifesto: İsrail, Rusya, Sudan, ABD, Filo. Hukuki analizler, dilekçeler, tanımama ilkesi.", "author": {"@type": "Person", "name": "Neri Polvani"}, "about": ["international law", "ARSIWA", "non-recognition", "war crimes", "petitions"]}</script><link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="theme-color" content="#0a0a0c"/></head>
@@ -216,16 +216,20 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p class="breadth">Gazze · Ukrayna · Sudan · Venezuela · Filo · Tayvan · Lübnan</p>
 </div>
 </section>
-<div class="section-inner" style="padding-top:50px;padding-bottom:10px"><p class="section-header">Şimdiye kadar belgelenenler</p><div class="counters-row"><div class="counter"><a class="counter-link" href="/s/tr/haberler.html"><div class="counter-num" id="cnt-notizie">34</div><div class="counter-lab">Haber</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/manifestolar.html"><div class="counter-num" id="cnt-manifesti">7</div><div class="counter-lab">Manifesto</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/gorusler.html"><div class="counter-num" id="cnt-opinioni">7</div><div class="counter-lab">Görüşler</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/konular.html"><div class="counter-num" id="cnt-argomenti">49</div><div class="counter-lab">Konular</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/kaynaklar.html"><div class="counter-num" id="cnt-fonti">90</div><div class="counter-lab">Doğrulanmış kaynaklar</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/diller.html"><div class="counter-num" id="cnt-lingue">11</div><div class="counter-lab">Dil</div></a></div></div></div><div class="section-inner" style="padding-top:0;padding-bottom:26px"><div class="tagpanel"><button class="tagpanel-toggle" onclick="toggleTags(this)">Konular <span class="tp-arrow">▾</span></button><div class="tagpanel-body" hidden><a class="chip" href="/s/tr/tag/uluslararasi-hukuk.html">Uluslararası hukuk<span class="n">32</span></a><a class="chip" href="/s/tr/tag/bm.html">BM<span class="n">18</span></a><a class="chip" href="/s/tr/tag/israil.html">İsrail<span class="n">14</span></a><a class="chip" href="/s/tr/tag/ben-gvir.html">Ben Gvir<span class="n">6</span></a><a class="chip" href="/s/tr/tag/soykirim.html">Soykırım<span class="n">7</span></a><a class="chip" href="/s/tr/tag/avrupa-birligi.html">Avrupa Birliği<span class="n">7</span></a><a class="chip" href="/s/tr/tag/uluslararasi-ceza-mahkemesi.html">Uluslararası Ceza Mahkemesi<span class="n">6</span></a><a class="chip" href="/s/tr/tag/unutulan-krizler.html">Unutulan krizler<span class="n">8</span></a><a class="chip" href="/s/tr/tag/yaptirimlar.html">Yaptırımlar<span class="n">6</span></a><a class="chip" href="/s/tr/tag/abd.html">ABD<span class="n">12</span></a><a class="chip" href="/s/tr/tag/gazze.html">Gazze<span class="n">5</span></a><a class="chip" href="/s/tr/tag/rusya-ukrayna.html">Rusya–Ukrayna<span class="n">6</span></a><a class="chip" href="/s/tr/tag/filo.html">Filo<span class="n">3</span></a><a class="chip" href="/s/tr/tag/lubnan.html">Lübnan<span class="n">4</span></a><a class="chip" href="/s/tr/tag/iltica-ve-goc.html">İltica ve göç<span class="n">3</span></a><a class="chip" href="/s/tr/tag/aclik-ve-kitlik.html">Açlık ve kıtlık<span class="n">4</span></a><a class="chip" href="/s/tr/tag/sudan.html">Sudan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/venezuela.html">Venezuela<span class="n">3</span></a><a class="chip" href="/s/tr/tag/cocuklar.html">Çocuklar<span class="n">3</span></a><a class="chip" href="/s/tr/tag/iran.html">İran<span class="n">5</span></a><a class="chip" href="/s/tr/tag/afganistan.html">Afganistan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/dr-kongo.html">DR Kongo<span class="n">2</span></a><a class="chip" href="/s/tr/tag/haiti.html">Haiti<span class="n">1</span></a><a class="chip" href="/s/tr/tag/kadinlar.html">Kadınlar<span class="n">2</span></a><a class="chip" href="/s/tr/tag/myanmar.html">Myanmar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rohingya.html">Rohingya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/ruanda.html">Ruanda<span class="n">2</span></a><a class="chip" href="/s/tr/tag/tayvan.html">Tayvan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/spor.html">Spor<span class="n">1</span></a><a class="chip" href="/s/tr/tag/uluslararasi-yonetisim.html">Uluslararası yönetişim<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yeniden-silahlanma.html">Yeniden silahlanma<span class="n">2</span></a><a class="chip" href="/s/tr/tag/otomotiv-sanayi.html">Otomotiv sanayi<span class="n">1</span></a><a class="chip" href="/s/tr/tag/guney-sudan.html">Güney Sudan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/sahel.html">Sahel<span class="n">1</span></a><a class="chip" href="/s/tr/tag/trump.html">Trump<span class="n">3</span></a><a class="chip" href="/s/tr/tag/kamerun.html">Kamerun<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yemen.html">Yemen<span class="n">1</span></a><a class="chip" href="/s/tr/tag/mali.html">Mali<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rusya.html">Rusya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hamas.html">Hamas<span class="n">2</span></a><a class="chip" href="/s/tr/tag/katar.html">Katar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/suriye.html">Suriye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cia.html">CIA<span class="n">2</span></a><a class="chip" href="/s/tr/tag/iskence.html">İşkence<span class="n">1</span></a><a class="chip" href="/s/tr/tag/libya.html">Libya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/turkiye.html">Türkiye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cin.html">Çin<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hizbullah.html">Hizbullah<span class="n">1</span></a><a class="chip" href="/s/tr/tag/husiler.html">Husiler<span class="n">1</span></a><a class="chip chip-all" href="/s/tr/konular.html">Konular →</a></div></div></div>
+<div class="section-inner" style="padding-top:50px;padding-bottom:10px"><p class="section-header">Şimdiye kadar belgelenenler</p><div class="counters-row"><div class="counter"><a class="counter-link" href="/s/tr/guncel.html"><div class="counter-num" id="cnt-attualita">15</div><div class="counter-lab">Güncel</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/haberler.html"><div class="counter-num" id="cnt-analisi">19</div><div class="counter-lab">Analiz</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/gorusler.html"><div class="counter-num" id="cnt-opinioni">7</div><div class="counter-lab">Görüşler</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/manifestolar.html"><div class="counter-num" id="cnt-manifesti">7</div><div class="counter-lab">Manifesto</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/konular.html"><div class="counter-num" id="cnt-argomenti">49</div><div class="counter-lab">Konular</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/kaynaklar.html"><div class="counter-num" id="cnt-fonti">90</div><div class="counter-lab">Doğrulanmış kaynaklar</div></a></div><div class="counter"><a class="counter-link" href="/s/tr/diller.html"><div class="counter-num" id="cnt-lingue">11</div><div class="counter-lab">Dil</div></a></div></div></div><div class="section-inner" style="padding-top:0;padding-bottom:26px"><div class="tagpanel"><button class="tagpanel-toggle" onclick="toggleTags(this)">Konular <span class="tp-arrow">▾</span></button><div class="tagpanel-body" hidden><a class="chip" href="/s/tr/tag/uluslararasi-hukuk.html">Uluslararası hukuk<span class="n">32</span></a><a class="chip" href="/s/tr/tag/bm.html">BM<span class="n">18</span></a><a class="chip" href="/s/tr/tag/israil.html">İsrail<span class="n">14</span></a><a class="chip" href="/s/tr/tag/ben-gvir.html">Ben Gvir<span class="n">6</span></a><a class="chip" href="/s/tr/tag/soykirim.html">Soykırım<span class="n">7</span></a><a class="chip" href="/s/tr/tag/avrupa-birligi.html">Avrupa Birliği<span class="n">7</span></a><a class="chip" href="/s/tr/tag/uluslararasi-ceza-mahkemesi.html">Uluslararası Ceza Mahkemesi<span class="n">6</span></a><a class="chip" href="/s/tr/tag/unutulan-krizler.html">Unutulan krizler<span class="n">8</span></a><a class="chip" href="/s/tr/tag/yaptirimlar.html">Yaptırımlar<span class="n">6</span></a><a class="chip" href="/s/tr/tag/abd.html">ABD<span class="n">12</span></a><a class="chip" href="/s/tr/tag/gazze.html">Gazze<span class="n">5</span></a><a class="chip" href="/s/tr/tag/rusya-ukrayna.html">Rusya–Ukrayna<span class="n">6</span></a><a class="chip" href="/s/tr/tag/filo.html">Filo<span class="n">3</span></a><a class="chip" href="/s/tr/tag/lubnan.html">Lübnan<span class="n">4</span></a><a class="chip" href="/s/tr/tag/iltica-ve-goc.html">İltica ve göç<span class="n">3</span></a><a class="chip" href="/s/tr/tag/aclik-ve-kitlik.html">Açlık ve kıtlık<span class="n">4</span></a><a class="chip" href="/s/tr/tag/sudan.html">Sudan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/venezuela.html">Venezuela<span class="n">3</span></a><a class="chip" href="/s/tr/tag/cocuklar.html">Çocuklar<span class="n">3</span></a><a class="chip" href="/s/tr/tag/iran.html">İran<span class="n">5</span></a><a class="chip" href="/s/tr/tag/afganistan.html">Afganistan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/dr-kongo.html">DR Kongo<span class="n">2</span></a><a class="chip" href="/s/tr/tag/haiti.html">Haiti<span class="n">1</span></a><a class="chip" href="/s/tr/tag/kadinlar.html">Kadınlar<span class="n">2</span></a><a class="chip" href="/s/tr/tag/myanmar.html">Myanmar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rohingya.html">Rohingya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/ruanda.html">Ruanda<span class="n">2</span></a><a class="chip" href="/s/tr/tag/tayvan.html">Tayvan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/spor.html">Spor<span class="n">1</span></a><a class="chip" href="/s/tr/tag/uluslararasi-yonetisim.html">Uluslararası yönetişim<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yeniden-silahlanma.html">Yeniden silahlanma<span class="n">2</span></a><a class="chip" href="/s/tr/tag/otomotiv-sanayi.html">Otomotiv sanayi<span class="n">1</span></a><a class="chip" href="/s/tr/tag/guney-sudan.html">Güney Sudan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/sahel.html">Sahel<span class="n">1</span></a><a class="chip" href="/s/tr/tag/trump.html">Trump<span class="n">3</span></a><a class="chip" href="/s/tr/tag/kamerun.html">Kamerun<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yemen.html">Yemen<span class="n">1</span></a><a class="chip" href="/s/tr/tag/mali.html">Mali<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rusya.html">Rusya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hamas.html">Hamas<span class="n">2</span></a><a class="chip" href="/s/tr/tag/katar.html">Katar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/suriye.html">Suriye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cia.html">CIA<span class="n">2</span></a><a class="chip" href="/s/tr/tag/iskence.html">İşkence<span class="n">1</span></a><a class="chip" href="/s/tr/tag/libya.html">Libya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/turkiye.html">Türkiye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cin.html">Çin<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hizbullah.html">Hizbullah<span class="n">1</span></a><a class="chip" href="/s/tr/tag/husiler.html">Husiler<span class="n">1</span></a><a class="chip chip-all" href="/s/tr/konular.html">Konular →</a></div></div></div>
 <div class="section-inner" style="padding-top:80px;padding-bottom:40px">
 <p class="section-header">Son haberler</p>
-<div id="home-news" class="home-news"></div>
+<div id="home-attualita" class="home-news home-news-attualita"></div>
 </div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:40px">
+<p class="section-header">Analiz</p>
+<div id="home-analisi" class="home-news"></div>
+</div>
+<div class="section-inner" style="padding-top:10px;padding-bottom:40px"><p class="section-header">Görüşler</p><div id="home-opinioni"></div></div>
 <div class="section-inner" style="padding-top:10px;padding-bottom:40px">
 <p class="section-header">Manifestolar</p>
 <div id="home-manifesti"></div>
 </div>
-<div class="section-inner" style="padding-top:10px;padding-bottom:40px"><p class="section-header">Görüşler</p><div id="home-opinioni"></div></div>
 <div class="section-inner" style="padding-top:10px;padding-bottom:70px">
 <p class="section-header" id="t-sl">Amaç</p>
 <div class="scope-block active" id="sc-tr">
@@ -314,10 +318,10 @@ a.lang-btn{text-decoration:none;display:inline-block}
 
 </div>
 </div>
-<div class="page" id="page-notizie">
+<div class="page" id="page-analisi">
 <div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
-<h2 class="page-title" id="t-nh">Haberler</h2>
+<h2 class="page-title" id="t-nh">Analiz</h2>
 <p class="page-desc" id="t-nd">Beni etkileyen ve görmezden gelemeyeceğim gerçekler. Her haber yayınlanmadan önce doğrulanır ve hukuki bir analizle birlikte sunulur.</p><div class="tagpanel"><button class="tagpanel-toggle" onclick="toggleTags(this)">Konular <span class="tp-arrow">▾</span></button><div class="tagpanel-body" hidden><a class="chip" href="/s/tr/tag/uluslararasi-hukuk.html">Uluslararası hukuk<span class="n">32</span></a><a class="chip" href="/s/tr/tag/bm.html">BM<span class="n">18</span></a><a class="chip" href="/s/tr/tag/israil.html">İsrail<span class="n">14</span></a><a class="chip" href="/s/tr/tag/ben-gvir.html">Ben Gvir<span class="n">6</span></a><a class="chip" href="/s/tr/tag/soykirim.html">Soykırım<span class="n">7</span></a><a class="chip" href="/s/tr/tag/avrupa-birligi.html">Avrupa Birliği<span class="n">7</span></a><a class="chip" href="/s/tr/tag/uluslararasi-ceza-mahkemesi.html">Uluslararası Ceza Mahkemesi<span class="n">6</span></a><a class="chip" href="/s/tr/tag/unutulan-krizler.html">Unutulan krizler<span class="n">8</span></a><a class="chip" href="/s/tr/tag/yaptirimlar.html">Yaptırımlar<span class="n">6</span></a><a class="chip" href="/s/tr/tag/abd.html">ABD<span class="n">12</span></a><a class="chip" href="/s/tr/tag/gazze.html">Gazze<span class="n">5</span></a><a class="chip" href="/s/tr/tag/rusya-ukrayna.html">Rusya–Ukrayna<span class="n">6</span></a><a class="chip" href="/s/tr/tag/filo.html">Filo<span class="n">3</span></a><a class="chip" href="/s/tr/tag/lubnan.html">Lübnan<span class="n">4</span></a><a class="chip" href="/s/tr/tag/iltica-ve-goc.html">İltica ve göç<span class="n">3</span></a><a class="chip" href="/s/tr/tag/aclik-ve-kitlik.html">Açlık ve kıtlık<span class="n">4</span></a><a class="chip" href="/s/tr/tag/sudan.html">Sudan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/venezuela.html">Venezuela<span class="n">3</span></a><a class="chip" href="/s/tr/tag/cocuklar.html">Çocuklar<span class="n">3</span></a><a class="chip" href="/s/tr/tag/iran.html">İran<span class="n">5</span></a><a class="chip" href="/s/tr/tag/afganistan.html">Afganistan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/dr-kongo.html">DR Kongo<span class="n">2</span></a><a class="chip" href="/s/tr/tag/haiti.html">Haiti<span class="n">1</span></a><a class="chip" href="/s/tr/tag/kadinlar.html">Kadınlar<span class="n">2</span></a><a class="chip" href="/s/tr/tag/myanmar.html">Myanmar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rohingya.html">Rohingya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/ruanda.html">Ruanda<span class="n">2</span></a><a class="chip" href="/s/tr/tag/tayvan.html">Tayvan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/spor.html">Spor<span class="n">1</span></a><a class="chip" href="/s/tr/tag/uluslararasi-yonetisim.html">Uluslararası yönetişim<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yeniden-silahlanma.html">Yeniden silahlanma<span class="n">2</span></a><a class="chip" href="/s/tr/tag/otomotiv-sanayi.html">Otomotiv sanayi<span class="n">1</span></a><a class="chip" href="/s/tr/tag/guney-sudan.html">Güney Sudan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/sahel.html">Sahel<span class="n">1</span></a><a class="chip" href="/s/tr/tag/trump.html">Trump<span class="n">3</span></a><a class="chip" href="/s/tr/tag/kamerun.html">Kamerun<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yemen.html">Yemen<span class="n">1</span></a><a class="chip" href="/s/tr/tag/mali.html">Mali<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rusya.html">Rusya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hamas.html">Hamas<span class="n">2</span></a><a class="chip" href="/s/tr/tag/katar.html">Katar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/suriye.html">Suriye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cia.html">CIA<span class="n">2</span></a><a class="chip" href="/s/tr/tag/iskence.html">İşkence<span class="n">1</span></a><a class="chip" href="/s/tr/tag/libya.html">Libya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/turkiye.html">Türkiye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cin.html">Çin<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hizbullah.html">Hizbullah<span class="n">1</span></a><a class="chip" href="/s/tr/tag/husiler.html">Husiler<span class="n">1</span></a><a class="chip chip-all" href="/s/tr/konular.html">Konular →</a></div></div>
 
 
@@ -328,190 +332,162 @@ a.lang-btn{text-decoration:none;display:inline-block}
 
 
 
-<div class="news-block active" id="nb-tr"><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Yaptırımlara rağmen bir milyar dolar: İran, Hizbullah'ı, Hamas'ı ve Husileri finanse etmeye nasıl devam ediyor</h3><div class="news-quote">"İran bize para ve silah veriyor" — Hamas yetkilisi Ali Baraka, kamuya açık bir röportajda.</div><a class="btn-read" href="/s/tr/nd-direnis-ekseni.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-direnis-ekseni"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Nisan 2026</p><h3 class="news-title">Haftar için Türk ve Çin insansız hava araçları: Libya, artık cephenin iki tarafında da BM silah ambargosu ihlallerinin sahnesi olmaya devam ediyor</h3><div class="news-quote">Yörüngedeki bir uydu, iki hükümetin sorulduğunda yorum yapmamayı tercih ettiği şeyi fotoğrafladı.</div><a class="btn-read" href="/s/tr/nd-libya-dronlar.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-libya-dronlar"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Avrupa Mahkemesi'nin dört kararı Polonya, Romanya, Litvanya ve Makedonya'yı mahkûm etti</h3><div class="news-quote">"...kasıtlı olarak, ciddi acı veya ıstırap vermekti." — AİHM, El-Masri v. Makedonya, 2012</div><a class="btn-read" href="/s/tr/nd-black-sites.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-black-sites"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">ABD, Suriye isyanını beş yıl boyunca silahlandırdı, ardından programı Putin'e bir hediye olarak kapattı</h3><div class="news-quote">"Bu çok önemli bir karar. Putin Suriye'de kazandı." — ABD yetkilisi, Washington Post, 2017</div><a class="btn-read" href="/s/tr/nd-timber-sycamore.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-timber-sycamore"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">İsrail yıllarca Katar'ın Hamas'a finansmanına izin verdi ve bunu teşvik etti — 7 Ekim'den bir ay önce daha fazlasını istedi</h3><div class="news-quote">"Filistin devletine karşı olan herkes" fon aktarımından "yana olmalı." — Benjamin Netanyahu, 2019</div><a class="btn-read" href="/s/tr/nd-qatar-hamas.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-qatar-hamas"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">İran: Hükümet protestolarda "binlerce" ölümü kabul ediyor, ardından hayatta kalanları idam ediyor</h3><div class="news-quote">"Halkın önünde utanç duyuyoruz ve bu olaylarda zarar gören herkese yardım etmekle yükümlüyüz." — Mesud Pezeşkiyan, İran Cumhurbaşkanı</div><a class="btn-read" href="/s/tr/nd-iran-repressione.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-iran-repressione"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Yemen: Hodeidah yeniden kan kaybederken, 73 BM personeli hâlâ Husiler tarafından keyfi olarak alıkonuluyor</h3><div class="news-quote">&laquo;Bu eylemler uluslararası hukuku ihlal ediyor, ailelere derin acı veriyor.&raquo; &mdash; António Guterres, BM Genel Sekreteri</div><a class="btn-read" href="/s/tr/nd-yemen.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-yemen"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">DR Kongo: Washington barış anlaşması doğuda sivil ölümlerini durduramadı</h3><div class="news-quote">"Doha'da imzalanan ateşkese rağmen sivillere yönelik saldırılar karşısında dehşete düştüm." — Volker Türk, BM İnsan Hakları Yüksek Komiseri</div><a class="btn-read" href="/s/tr/nd-kivu.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-kivu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Kamerun: seçim baskısı Paris'te bir mahkemeye taşınırken, Anglofon kriz on yaşına giriyor</h3><div class="news-quote">“Kamerun adaletinin başarısız olacağı yerde, uluslararası adalet mağdurları dinleyecek.” — Issa Tchiroma Bakary, sürgündeki muhalefet lideri</div><a class="btn-read" href="/s/tr/nd-cmr.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-cmr"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div>
-<div class="news-card">
-<p class="news-date">Temmuz 2026</p>
-<h3 class="news-title">Trump Grönland'ı geri istiyor. Ve NATO kendisini tehdit ediyor.</h3>
-<div class="news-quote">«Grönland elbette satılık değil.» — Mette Frederiksen, Danimarka Başbakanı, Ankara NATO zirvesi, Temmuz 2026</div>
-<a class="btn-read" href="/s/tr/nd-groenlandia.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-groenlandia"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-</div>
-<div class="news-card">
-<p class="news-date">Temmuz 2026</p>
-<h3 class="news-title">Trump İran'ın su ve elektrik tesislerini tehdit ediyor. İlk kez olmayacak — ve bir savaş suçu olacak.</h3>
-<div class="news-quote">«Tuzdan arındırma tesisleri var — gerekirse onları yok edeceğiz.» — Donald Trump, 8 Temmuz 2026</div>
-<a class="btn-read" href="/s/tr/nd-hormuz.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-hormuz"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-</div>
-
-<div class="news-card">
+<div class="news-block active" id="nb-tr"><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Yaptırımlara rağmen bir milyar dolar: İran, Hizbullah'ı, Hamas'ı ve Husileri finanse etmeye nasıl devam ediyor</h3><div class="news-quote">"İran bize para ve silah veriyor" — Hamas yetkilisi Ali Baraka, kamuya açık bir röportajda.</div><a class="btn-read" href="/s/tr/nd-direnis-ekseni.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-direnis-ekseni"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Nisan 2026</p><h3 class="news-title">Haftar için Türk ve Çin insansız hava araçları: Libya, artık cephenin iki tarafında da BM silah ambargosu ihlallerinin sahnesi olmaya devam ediyor</h3><div class="news-quote">Yörüngedeki bir uydu, iki hükümetin sorulduğunda yorum yapmamayı tercih ettiği şeyi fotoğrafladı.</div><a class="btn-read" href="/s/tr/nd-libya-dronlar.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-libya-dronlar"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Avrupa Mahkemesi'nin dört kararı Polonya, Romanya, Litvanya ve Makedonya'yı mahkûm etti</h3><div class="news-quote">"...kasıtlı olarak, ciddi acı veya ıstırap vermekti." — AİHM, El-Masri v. Makedonya, 2012</div><a class="btn-read" href="/s/tr/nd-black-sites.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-black-sites"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">ABD, Suriye isyanını beş yıl boyunca silahlandırdı, ardından programı Putin'e bir hediye olarak kapattı</h3><div class="news-quote">"Bu çok önemli bir karar. Putin Suriye'de kazandı." — ABD yetkilisi, Washington Post, 2017</div><a class="btn-read" href="/s/tr/nd-timber-sycamore.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-timber-sycamore"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">İsrail yıllarca Katar'ın Hamas'a finansmanına izin verdi ve bunu teşvik etti — 7 Ekim'den bir ay önce daha fazlasını istedi</h3><div class="news-quote">"Filistin devletine karşı olan herkes" fon aktarımından "yana olmalı." — Benjamin Netanyahu, 2019</div><a class="btn-read" href="/s/tr/nd-qatar-hamas.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-qatar-hamas"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">15 Temmuz 2026</p><h3 class="news-title">Mali: Ordu ve Rus Africa Corps paralı askerleri dört sivili öldürdükten sonra bir cesedi gamalı haç şeklinde diziyor</h3><div class="news-quote">"Düzenli bir ordu tarafından bir Nazi sembolü oluşturmak için parçalanmış bir insan bulduğunuzda, bu gerçekten şok edici." — RFI'nin aktardığı yerel tanık</div><a class="btn-read" href="/s/tr/nd-mali.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-mali"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">İran: Hükümet protestolarda "binlerce" ölümü kabul ediyor, ardından hayatta kalanları idam ediyor</h3><div class="news-quote">"Halkın önünde utanç duyuyoruz ve bu olaylarda zarar gören herkese yardım etmekle yükümlüyüz." — Mesud Pezeşkiyan, İran Cumhurbaşkanı</div><a class="btn-read" href="/s/tr/nd-iran-repressione.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-iran-repressione"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">DR Kongo: Washington barış anlaşması doğuda sivil ölümlerini durduramadı</h3><div class="news-quote">"Doha'da imzalanan ateşkese rağmen sivillere yönelik saldırılar karşısında dehşete düştüm." — Volker Türk, BM İnsan Hakları Yüksek Komiseri</div><a class="btn-read" href="/s/tr/nd-kivu.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-kivu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Kamerun: seçim baskısı Paris'te bir mahkemeye taşınırken, Anglofon kriz on yaşına giriyor</h3><div class="news-quote">“Kamerun adaletinin başarısız olacağı yerde, uluslararası adalet mağdurları dinleyecek.” — Issa Tchiroma Bakary, sürgündeki muhalefet lideri</div><a class="btn-read" href="/s/tr/nd-cmr.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-cmr"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card">
 <p class="news-date">Temmuz 2026</p>
 <h3 class="news-title">Burkina Faso, dünyada terörden en çok etkilenen ülke olmaya devam ederken Uluslararası Ceza Mahkemesi'nden ayrılıyor</h3>
 <div class="news-quote">«Burkina Faso, dünyada terörden en çok etkilenen ülke olmaya devam ediyor.» — Küresel Terörizm Endeksi 2026</div>
 <a class="btn-read" href="/s/tr/nd-bf.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-bf"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-</div>
-<div class="news-card">
-<p class="news-date">Temmuz 2026</p>
-<h3 class="news-title">2018'de vadedilen mahkeme ölü bir madde olarak kalırken Güney Sudan kıtlığın eşiğinde</h3>
-<div class="news-quote">«Bir sonraki brifingimin kıtlık hakkında olmasından korkuyorum.» — Tom Fletcher, BM insani işler şefi, Nisan 2026</div>
-<a class="btn-read" href="/s/tr/nd-ss.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-ss"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-</div>
-<!-- News card template: copy a block, change nd-XX id, fill date/title/quote + labels/bodies + source -->
-<div class="news-card">
-<p class="news-date">Temmuz 2026</p>
-<h3 class="news-title">Nord Stream: Almanya, eski bir Ukraynalı subayı sabotaj nedeniyle savaş suçuyla suçluyor</h3>
-<div class="news-quote">«Suçlamadan korkmuyoruz: olguların, hem de aleni biçimde saptanmasını istiyoruz.» — Nicola Canestrini, savunma avukatı</div>
-<a class="btn-read" href="/s/tr/nd-ns.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-ns"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
+</div><div class="news-card">
 <p class="news-date">Haziran 2026</p>
 <h3 class="news-title">Afganistan: Uluslararası Ceza Mahkemesi, Taliban liderliğini cinsiyet temelli zulümle suçluyor</h3>
 <div class="news-quote">«Bu bir cinsiyet apartheid'ine denk düşüyor.» — Richard Bennett, BM Afganistan Özel Raportörü</div>
 <a class="btn-read" href="/s/tr/nd-af.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-af"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Haiti: yarısı çocuklardan oluşan çetelere karşı BM'nin yetkilendirdiği bir «bastırma gücü»</h3>
-<div class="news-quote">«Yalnızca güvenliğin uygulanması yönetişim sorunlarını çözmeye yetmeyecek.» — António Guterres, BM Genel Sekreteri</div>
-<a class="btn-read" href="/s/tr/nd-ht.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-ht"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Sudan: BM, El-Obeid'e yönelik bir saldırının yeni uluslararası suçları riske attığı konusunda uyardı</h3>
-<div class="news-quote">«Bu senaryoyu daha önce gördük.» — Volker Türk, BM İnsan Hakları Yüksek Komiseri</div>
-<a class="btn-read" href="/s/tr/nd-sd.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-sd"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Uluslararası Adalet Divanı Rohingya soykırımı üzerine müzakere ediyor</h3>
-<div class="news-quote">«Bu, gerçek insanlarla, gerçek hikâyelerle, gerçek bir insan topluluğuyla ilgilidir.» — Dawda Jallow, Gambiya Adalet Bakanı, UAD'de</div>
-<a class="btn-read" href="/s/tr/nd-mya.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-mya"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">DR Kongo, Ruanda'yı Uluslararası Adalet Divanı'na taşıyor</h3>
-<div class="news-quote">«Dünyanın en uzun süren, en karmaşık ve en ağır insani krizlerinden biri.» — BM, DR Kongo'nun doğusundaki savaş üzerine</div>
-<a class="btn-read" href="/s/tr/nd-rdc.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-rdc"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Bir BM soruşturma komisyonu Filistinli çocukların kasten hedef alındığını tespit etti</h3>
-<div class="news-quote">“Filistinli çocuklar bir gecede iyileşmeyecek.” — Srinivasan Muralidhar, Komisyon Başkanı</div>
-<a class="btn-read" href="/s/tr/nd-coi.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-coi"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Lübnan: Mona Khalil, Mansouri’deki evinde, bir tahliye emri altında öldürüldü</h3>
-<div class="news-quote">“Her günü dolu dolu yaşıyorum ve yarını dert etmiyorum.” — Mona Khalil</div>
-<a class="btn-read" href="/s/tr/nd-mona.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-mona"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
-<p class="news-date">18 Haziran 2026 — ABD · İran · BM</p>
-<h3 class="news-title">Doğuştan kırılgan bir anlaşma: ABD-İran barışı, zorlama ile bağlı olmayan üçüncü taraflar arasında</h3>
-<div class="news-quote">«Uranyuma yaklaşan olursa, havaya uçururuz.» — Donald Trump</div>
-<a class="btn-read" href="/s/tr/nd-deal.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-deal"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-
-<div class="news-card">
-<p class="news-date">15 Haziran 2026 — AB Dışişleri Konseyi · Brüksel</p>
-<h3 class="news-title">Ben Gvir'e yaptırımlar: AB oybirliği yüzünden tıkandı, tek tek devletler ise harekete geçiyor</h3>
-<div class="news-quote">«Bu karar için gereken oybirliğine sahip değiliz.» — Kaja Kallas, AB Yüksek Temsilcisi</div>
-<a class="btn-read" href="/s/tr/nd-fac.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-fac"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-
-<div class="news-card">
-<p class="news-date">13 Haziran 2026 — Orta Doğu · BM</p>
-<h3 class="news-title">İran: 2026 savaşı sona ererken, ve kuvvet kullanımının çözülmemiş düğümü</h3>
-<div class="news-quote">BM Genel Sekreteri'ne göre ABD-İsrail saldırıları BM Şartı'nı ihlal etti; İran'ın Körfez ülkelerine misillemeleri de hukuka aykırı sayıldı.</div>
-<a class="btn-read" href="/s/tr/nd-iran.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-iran"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-
-<div class="news-card">
-<p class="news-date">12 Haziran 2026 — Avrupa Birliği</p>
-<h3 class="news-title">Yeni AB İltica Paktı yürürlüğe giriyor</h3>
-<div class="news-quote">«Bir ülkeyi ‹güvenli› diye etiketlemek onu güvenli kılmaz.» — Uluslararası Af Örgütü</div>
-<a class="btn-read" href="/s/tr/nd-pact.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-pact"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-
-<div class="news-card">
-<p class="news-date">11 Haziran 2026 — Lüksemburg</p>
-<h3 class="news-title">Arnavutluk, ABAD görüşü: «meşru, ama haklar güvence altına alınmalı»</h3>
-<div class="news-quote">«Devletler merkezleri Arnavutluk'a yerleştirmekte serbesttir» — ancak asgari muamele standartlarına uyum kanıtlanmamıştır. (Hukuk Sözcüsü Laila Medina'nın görüşü)</div>
-<a class="btn-read" href="/s/tr/nd-alb.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-alb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-
-<div class="news-card">
+</div><div class="news-card">
 <p class="news-date">Haziran 2026 — Omer Bartov, «Israel: What Went Wrong?»</p>
 <h3 class="news-title">Gazze ve «soykırım» kelimesi: üçüncü taraf kurumların gerçekte ne saptadığı ve bir soykırım uzmanının sesi neden ağır basar</h3>
 <div class="news-quote">«Kaçınılmaz vardığım sonuç, İsrail'in Filistin halkına karşı bir soykırım işlediğidir.» — Omer Bartov, Holokost ve soykırım uzmanı (Brown University), New York Times, 15 Temmuz 2025</div>
 <a class="btn-read" href="/s/tr/nd-brt.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-brt"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
+</div><div class="news-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Haiti: yarısı çocuklardan oluşan çetelere karşı BM'nin yetkilendirdiği bir «bastırma gücü»</h3>
+<div class="news-quote">«Yalnızca güvenliğin uygulanması yönetişim sorunlarını çözmeye yetmeyecek.» — António Guterres, BM Genel Sekreteri</div>
+<a class="btn-read" href="/s/tr/nd-ht.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-ht"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-<div class="news-card">
-<p class="news-date">Mayıs–Haziran 2026 — Taipei · Washington · Pekin</p>
-<h3 class="news-title">Tayvan, sıradaki sınav: caydırıcılık sarsılıyor ve emsal Pekin'i cesaretlendiriyor</h3>
-<div class="news-quote">«Şu an ihtiyacımız olan son şey, 9.500 mil uzaklıkta bir savaş.» — Donald Trump, Xi Jinping ile zirveden dönerken, Mayıs 2026</div>
-<a class="btn-read" href="/s/tr/nd-twn.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-twn"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div><div class="news-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Uluslararası Adalet Divanı Rohingya soykırımı üzerine müzakere ediyor</h3>
+<div class="news-quote">«Bu, gerçek insanlarla, gerçek hikâyelerle, gerçek bir insan topluluğuyla ilgilidir.» — Dawda Jallow, Gambiya Adalet Bakanı, UAD'de</div>
+<a class="btn-read" href="/s/tr/nd-mya.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-mya"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
+</div><div class="news-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">DR Kongo, Ruanda'yı Uluslararası Adalet Divanı'na taşıyor</h3>
+<div class="news-quote">«Dünyanın en uzun süren, en karmaşık ve en ağır insani krizlerinden biri.» — BM, DR Kongo'nun doğusundaki savaş üzerine</div>
+<a class="btn-read" href="/s/tr/nd-rdc.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-rdc"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-<div class="news-card">
-<p class="news-date">6 Haziran 2026 — Tribeca Film Festivali, New York</p>
-<h3 class="news-title">«Sanıyordum ki sadece Filistinlilere tecavüz ediyorlar» — Tribeca kırmızı halısında tecavüz şakaları</h3>
-<div class="news-quote">«Bana sadece iki İsrail köpeği tecavüz etti» — oyuncu Elon Gold. «Sanıyordum ki sadece Filistinlilere tecavüz ediyorlar» — influencer Lizzy Savetsky. Tribeca Film Festivali kırmızı halısı, 6 Haziran 2026.</div>
-<a class="btn-read" href="/s/tr/nd-trib.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-trib"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
-
-</div>
-<div class="news-card">
+</div><div class="news-card">
 <p class="news-date">Akademik araştırma</p>
 <h3 class="news-title">İsrail okulu: bir düşman fabrikası</h3>
 <div class="news-quote">«Bize onların çözülmesi gereken bir sorun olduğunu öğrettiniz. Bu yüzden çözüyoruz.» — Nurit Peled-Elhanan'a İsrailli öğrenci</div>
 <a class="btn-read" href="/s/tr/nd-edu.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-edu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Ben Gvir Lübnanlı kadın ve çocukların kaçırılmasını önerdi</h3>
-<div class="news-quote">«Kadınları ve çocukları kaçırıp teröristlerin hapishanelerine götürün» — Itamar Ben Gvir, İsrail Ulusal Güvenlik Bakanı</div>
-<a class="btn-read" href="/s/tr/nd-leb.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-leb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div><div class="news-card">
+<p class="news-date">13 Haziran 2026 — Orta Doğu · BM</p>
+<h3 class="news-title">İran: 2026 savaşı sona ererken, ve kuvvet kullanımının çözülmemiş düğümü</h3>
+<div class="news-quote">BM Genel Sekreteri'ne göre ABD-İsrail saldırıları BM Şartı'nı ihlal etti; İran'ın Körfez ülkelerine misillemeleri de hukuka aykırı sayıldı.</div>
+<a class="btn-read" href="/s/tr/nd-iran.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-iran"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
-<div class="news-card">
-<p class="news-date">Haziran 2026</p>
-<h3 class="news-title">Ben Gvir Roma Savcılığı tarafından soruşturuluyor — Filo davası</h3>
-<div class="news-quote">Roma Savcılığı, Global Sumud Filosu davasında Ben Gvir'i şüpheli olarak kaydetti. Ben Gvir İtalya'ya saldırarak yanıt verdi: «Terlik ülkesi».</div>
-<a class="btn-read" href="/s/tr/nd-flot.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-flot"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div><div class="news-card">
+<p class="news-date">Mayıs–Haziran 2026 — Taipei · Washington · Pekin</p>
+<h3 class="news-title">Tayvan, sıradaki sınav: caydırıcılık sarsılıyor ve emsal Pekin'i cesaretlendiriyor</h3>
+<div class="news-quote">«Şu an ihtiyacımız olan son şey, 9.500 mil uzaklıkta bir savaş.» — Donald Trump, Xi Jinping ile zirveden dönerken, Mayıs 2026</div>
+<a class="btn-read" href="/s/tr/nd-twn.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-twn"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
-<div class="news-card">
+</div><div class="news-card">
+<p class="news-date">Temmuz 2026</p>
+<h3 class="news-title">2018'de vadedilen mahkeme ölü bir madde olarak kalırken Güney Sudan kıtlığın eşiğinde</h3>
+<div class="news-quote">«Bir sonraki brifingimin kıtlık hakkında olmasından korkuyorum.» — Tom Fletcher, BM insani işler şefi, Nisan 2026</div>
+<a class="btn-read" href="/s/tr/nd-ss.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-ss"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div></div></div></div>
+<div class="page" id="page-attualita">
+<div class="section-inner">
+<p class="section-header">I Will Not Look Away · 2026</p>
+<h2 class="page-title" id="t-nh">Güncel</h2>
+<p class="page-desc" id="t-nd">Beni etkileyen ve görmezden gelemeyeceğim gerçekler. Her haber yayınlanmadan önce doğrulanır ve hukuki bir analizle birlikte sunulur.</p><div class="tagpanel"><button class="tagpanel-toggle" onclick="toggleTags(this)">Konular <span class="tp-arrow">▾</span></button><div class="tagpanel-body" hidden><a class="chip" href="/s/tr/tag/uluslararasi-hukuk.html">Uluslararası hukuk<span class="n">32</span></a><a class="chip" href="/s/tr/tag/bm.html">BM<span class="n">18</span></a><a class="chip" href="/s/tr/tag/israil.html">İsrail<span class="n">14</span></a><a class="chip" href="/s/tr/tag/ben-gvir.html">Ben Gvir<span class="n">6</span></a><a class="chip" href="/s/tr/tag/soykirim.html">Soykırım<span class="n">7</span></a><a class="chip" href="/s/tr/tag/avrupa-birligi.html">Avrupa Birliği<span class="n">7</span></a><a class="chip" href="/s/tr/tag/uluslararasi-ceza-mahkemesi.html">Uluslararası Ceza Mahkemesi<span class="n">6</span></a><a class="chip" href="/s/tr/tag/unutulan-krizler.html">Unutulan krizler<span class="n">8</span></a><a class="chip" href="/s/tr/tag/yaptirimlar.html">Yaptırımlar<span class="n">6</span></a><a class="chip" href="/s/tr/tag/abd.html">ABD<span class="n">12</span></a><a class="chip" href="/s/tr/tag/gazze.html">Gazze<span class="n">5</span></a><a class="chip" href="/s/tr/tag/rusya-ukrayna.html">Rusya–Ukrayna<span class="n">6</span></a><a class="chip" href="/s/tr/tag/filo.html">Filo<span class="n">3</span></a><a class="chip" href="/s/tr/tag/lubnan.html">Lübnan<span class="n">4</span></a><a class="chip" href="/s/tr/tag/iltica-ve-goc.html">İltica ve göç<span class="n">3</span></a><a class="chip" href="/s/tr/tag/aclik-ve-kitlik.html">Açlık ve kıtlık<span class="n">4</span></a><a class="chip" href="/s/tr/tag/sudan.html">Sudan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/venezuela.html">Venezuela<span class="n">3</span></a><a class="chip" href="/s/tr/tag/cocuklar.html">Çocuklar<span class="n">3</span></a><a class="chip" href="/s/tr/tag/iran.html">İran<span class="n">5</span></a><a class="chip" href="/s/tr/tag/afganistan.html">Afganistan<span class="n">2</span></a><a class="chip" href="/s/tr/tag/dr-kongo.html">DR Kongo<span class="n">2</span></a><a class="chip" href="/s/tr/tag/haiti.html">Haiti<span class="n">1</span></a><a class="chip" href="/s/tr/tag/kadinlar.html">Kadınlar<span class="n">2</span></a><a class="chip" href="/s/tr/tag/myanmar.html">Myanmar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rohingya.html">Rohingya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/ruanda.html">Ruanda<span class="n">2</span></a><a class="chip" href="/s/tr/tag/tayvan.html">Tayvan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/spor.html">Spor<span class="n">1</span></a><a class="chip" href="/s/tr/tag/uluslararasi-yonetisim.html">Uluslararası yönetişim<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yeniden-silahlanma.html">Yeniden silahlanma<span class="n">2</span></a><a class="chip" href="/s/tr/tag/otomotiv-sanayi.html">Otomotiv sanayi<span class="n">1</span></a><a class="chip" href="/s/tr/tag/guney-sudan.html">Güney Sudan<span class="n">1</span></a><a class="chip" href="/s/tr/tag/sahel.html">Sahel<span class="n">1</span></a><a class="chip" href="/s/tr/tag/trump.html">Trump<span class="n">3</span></a><a class="chip" href="/s/tr/tag/kamerun.html">Kamerun<span class="n">1</span></a><a class="chip" href="/s/tr/tag/yemen.html">Yemen<span class="n">1</span></a><a class="chip" href="/s/tr/tag/mali.html">Mali<span class="n">1</span></a><a class="chip" href="/s/tr/tag/rusya.html">Rusya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hamas.html">Hamas<span class="n">2</span></a><a class="chip" href="/s/tr/tag/katar.html">Katar<span class="n">1</span></a><a class="chip" href="/s/tr/tag/suriye.html">Suriye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cia.html">CIA<span class="n">2</span></a><a class="chip" href="/s/tr/tag/iskence.html">İşkence<span class="n">1</span></a><a class="chip" href="/s/tr/tag/libya.html">Libya<span class="n">1</span></a><a class="chip" href="/s/tr/tag/turkiye.html">Türkiye<span class="n">1</span></a><a class="chip" href="/s/tr/tag/cin.html">Çin<span class="n">1</span></a><a class="chip" href="/s/tr/tag/hizbullah.html">Hizbullah<span class="n">1</span></a><a class="chip" href="/s/tr/tag/husiler.html">Husiler<span class="n">1</span></a><a class="chip chip-all" href="/s/tr/konular.html">Konular →</a></div></div>
+
+
+<!-- FR, DE, ZH, AR, ES, PT, TR, HE - stessa struttura, testi tradotti -->
+
+
+
+
+
+
+<div class="news-block active" id="nb-att-tr"><div class="news-card attualita-card"><p class="news-date">Temmuz 2026</p><h3 class="news-title">Yemen: Hodeidah yeniden kan kaybederken, 73 BM personeli hâlâ Husiler tarafından keyfi olarak alıkonuluyor</h3><div class="news-quote">&laquo;Bu eylemler uluslararası hukuku ihlal ediyor, ailelere derin acı veriyor.&raquo; &mdash; António Guterres, BM Genel Sekreteri</div><a class="btn-read" href="/s/tr/nd-yemen.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-yemen"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button></div><div class="news-card attualita-card">
+<p class="news-date">Temmuz 2026</p>
+<h3 class="news-title">Trump Grönland'ı geri istiyor. Ve NATO kendisini tehdit ediyor.</h3>
+<div class="news-quote">«Grönland elbette satılık değil.» — Mette Frederiksen, Danimarka Başbakanı, Ankara NATO zirvesi, Temmuz 2026</div>
+<a class="btn-read" href="/s/tr/nd-groenlandia.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-groenlandia"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div><div class="news-card attualita-card">
+<p class="news-date">Temmuz 2026</p>
+<h3 class="news-title">Trump İran'ın su ve elektrik tesislerini tehdit ediyor. İlk kez olmayacak — ve bir savaş suçu olacak.</h3>
+<div class="news-quote">«Tuzdan arındırma tesisleri var — gerekirse onları yok edeceğiz.» — Donald Trump, 8 Temmuz 2026</div>
+<a class="btn-read" href="/s/tr/nd-hormuz.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-hormuz"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+</div><div class="news-card attualita-card">
+<p class="news-date">Temmuz 2026</p>
+<h3 class="news-title">Nord Stream: Almanya, eski bir Ukraynalı subayı sabotaj nedeniyle savaş suçuyla suçluyor</h3>
+<div class="news-quote">«Suçlamadan korkmuyoruz: olguların, hem de aleni biçimde saptanmasını istiyoruz.» — Nicola Canestrini, savunma avukatı</div>
+<a class="btn-read" href="/s/tr/nd-ns.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-ns"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Sudan: BM, El-Obeid'e yönelik bir saldırının yeni uluslararası suçları riske attığı konusunda uyardı</h3>
+<div class="news-quote">«Bu senaryoyu daha önce gördük.» — Volker Türk, BM İnsan Hakları Yüksek Komiseri</div>
+<a class="btn-read" href="/s/tr/nd-sd.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-sd"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Bir BM soruşturma komisyonu Filistinli çocukların kasten hedef alındığını tespit etti</h3>
+<div class="news-quote">“Filistinli çocuklar bir gecede iyileşmeyecek.” — Srinivasan Muralidhar, Komisyon Başkanı</div>
+<a class="btn-read" href="/s/tr/nd-coi.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-coi"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Lübnan: Mona Khalil, Mansouri’deki evinde, bir tahliye emri altında öldürüldü</h3>
+<div class="news-quote">“Her günü dolu dolu yaşıyorum ve yarını dert etmiyorum.” — Mona Khalil</div>
+<a class="btn-read" href="/s/tr/nd-mona.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-mona"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
+<p class="news-date">18 Haziran 2026 — ABD · İran · BM</p>
+<h3 class="news-title">Doğuştan kırılgan bir anlaşma: ABD-İran barışı, zorlama ile bağlı olmayan üçüncü taraflar arasında</h3>
+<div class="news-quote">«Uranyuma yaklaşan olursa, havaya uçururuz.» — Donald Trump</div>
+<a class="btn-read" href="/s/tr/nd-deal.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-deal"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
+<p class="news-date">15 Haziran 2026 — AB Dışişleri Konseyi · Brüksel</p>
+<h3 class="news-title">Ben Gvir'e yaptırımlar: AB oybirliği yüzünden tıkandı, tek tek devletler ise harekete geçiyor</h3>
+<div class="news-quote">«Bu karar için gereken oybirliğine sahip değiliz.» — Kaja Kallas, AB Yüksek Temsilcisi</div>
+<a class="btn-read" href="/s/tr/nd-fac.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-fac"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
 <p class="news-date">Haziran 2026</p>
 <h3 class="news-title">İtalya Ben Gvir'e AB yaptırımı talep etti</h3>
 <div class="news-quote">«Yüksek Temsilci Kallas'tan Bakan Ben Gvir aleyhine yaptırım önerisini Dışişleri Konseyi'ne götürmesini istedim» — Antonio Tajani</div>
 <a class="btn-read" href="/s/tr/nd-eu.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-eu"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div><div class="news-card">
-<p class="news-date">3 Ocak 2026 — Karakas</p>
-<p class="news-body">ABD, Devlet Başkanı Nicolás Maduro'yu askerî bir operasyonla ele geçiriyor ve Venezuela'yı «yöneteceğini» duyuruyor. Görevdeki bir devlet başkanının, Güvenlik Konseyi yetkisi ya da meşru müdafaa olmaksızın ele geçirilmesi, BM Şartı'nın 2(4). maddesini ve devlet başkanlarının dokunulmazlığını ihlal eder. Bu platformun ilkesinin en saf sınavıdır: hukuk ya herkes için geçerlidir ya da hiç kimse için.</p>
-<a class="btn-read" href="/s/tr/m-us.html">ABD hakkındaki tam manifestoyu oku →</a>
-</div>
-</div>
+</div><div class="news-card attualita-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Ben Gvir Roma Savcılığı tarafından soruşturuluyor — Filo davası</h3>
+<div class="news-quote">Roma Savcılığı, Global Sumud Filosu davasında Ben Gvir'i şüpheli olarak kaydetti. Ben Gvir İtalya'ya saldırarak yanıt verdi: «Terlik ülkesi».</div>
+<a class="btn-read" href="/s/tr/nd-flot.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-flot"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
-</div>
-</div>
+</div><div class="news-card attualita-card">
+<p class="news-date">Haziran 2026</p>
+<h3 class="news-title">Ben Gvir Lübnanlı kadın ve çocukların kaçırılmasını önerdi</h3>
+<div class="news-quote">«Kadınları ve çocukları kaçırıp teröristlerin hapishanelerine götürün» — Itamar Ben Gvir, İsrail Ulusal Güvenlik Bakanı</div>
+<a class="btn-read" href="/s/tr/nd-leb.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-leb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
+</div><div class="news-card attualita-card">
+<p class="news-date">12 Haziran 2026 — Avrupa Birliği</p>
+<h3 class="news-title">Yeni AB İltica Paktı yürürlüğe giriyor</h3>
+<div class="news-quote">«Bir ülkeyi ‹güvenli› diye etiketlemek onu güvenli kılmaz.» — Uluslararası Af Örgütü</div>
+<a class="btn-read" href="/s/tr/nd-pact.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-pact"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
 
+</div><div class="news-card attualita-card">
+<p class="news-date">11 Haziran 2026 — Lüksemburg</p>
+<h3 class="news-title">Arnavutluk, ABAD görüşü: «meşru, ama haklar güvence altına alınmalı»</h3>
+<div class="news-quote">«Devletler merkezleri Arnavutluk'a yerleştirmekte serbesttir» — ancak asgari muamele standartlarına uyum kanıtlanmamıştır. (Hukuk Sözcüsü Laila Medina'nın görüşü)</div>
+<a class="btn-read" href="/s/tr/nd-alb.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-alb"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div><div class="news-card attualita-card">
+<p class="news-date">6 Haziran 2026 — Tribeca Film Festivali, New York</p>
+<h3 class="news-title">«Sanıyordum ki sadece Filistinlilere tecavüz ediyorlar» — Tribeca kırmızı halısında tecavüz şakaları</h3>
+<div class="news-quote">«Bana sadece iki İsrail köpeği tecavüz etti» — oyuncu Elon Gold. «Sanıyordum ki sadece Filistinlilere tecavüz ediyorlar» — influencer Lizzy Savetsky. Tribeca Film Festivali kırmızı halısı, 6 Haziran 2026.</div>
+<a class="btn-read" href="/s/tr/nd-trib.html">Analizi oku</a><button class="btn-share" type="button" data-share-key="nd-trib"><svg viewBox="0 0 24 24"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"></path></svg><span>Paylaş</span></button>
+
+</div></div></div></div>
 <div class="page" id="page-opinioni">
 <div class="section-inner">
 <p class="section-header">I Will Not Look Away · 2026</p>
@@ -725,10 +701,14 @@ function consentChoice(ok){
 })();
 </script>
 <script>(function(){try{
-var ns=document.querySelectorAll('#page-notizie .news-card'),host=document.getElementById('home-news'),n=0;
+var ns=document.querySelectorAll('#page-attualita .news-card'),host=document.getElementById('home-attualita'),n=0;
 for(var i=0;i<ns.length&&n<3;i++){var t=ns[i].querySelector('.news-title');if(!t)continue;var d=ns[i].querySelector('.news-date');
-var c=document.createElement('div');c.className='hcard';c.onclick=function(){location.href='/s/tr/haberler.html';};
+var c=document.createElement('div');c.className='hcard';c.onclick=function(){location.href='/s/tr/guncel.html';};
 c.innerHTML='<div class="hdate">'+(d?d.innerHTML:'')+'</div><div class="htitle">'+t.innerHTML+'</div>';host.appendChild(c);n++;}
+var nsA=document.querySelectorAll('#page-analisi .news-card'),hostA=document.getElementById('home-analisi'),nA=0;
+for(var iA=0;iA<nsA.length&&nA<3;iA++){var tA=nsA[iA].querySelector('.news-title');if(!tA)continue;var dA=nsA[iA].querySelector('.news-date');
+var cA=document.createElement('div');cA.className='hcard';cA.onclick=function(){location.href='/s/tr/haberler.html';};
+cA.innerHTML='<div class="hdate">'+(dA?dA.innerHTML:'')+'</div><div class="htitle">'+tA.innerHTML+'</div>';hostA.appendChild(cA);nA++;}
 var ms=document.querySelectorAll('#page-manifesti .manifesto-card-title'),mh=document.getElementById('home-manifesti');
 for(var j=0;j<ms.length;j++){var r=document.createElement('a');r.className='mrow';r.onclick=function(){location.href='/s/tr/manifestolar.html';};
 r.innerHTML='<span class="mnum">'+('0'+(j+1)).slice(-2)+'</span><span class="mtit">'+ms[j].innerHTML+'</span><span class="marr">&rarr;</span>';mh.appendChild(r);}
@@ -739,7 +719,7 @@ r2.innerHTML='<span class="onum">'+('0'+(k+1)).slice(-2)+'</span><span class="ot
 <script>/*deeplink*/(function(){var sp=new URLSearchParams(location.search),open=sp.get('open');if(!open)return;
 function scroll(el){if(!el)return;setTimeout(function(){var y=el.getBoundingClientRect().top+window.pageYOffset-90;window.scrollTo({top:y,behavior:'smooth'});},180);}
 function go(){try{
-if(open.indexOf('nd-')===0){if(typeof showPage==='function')showPage('notizie');var d=document.getElementById(open);if(d){if(!d.classList.contains('open')&&typeof toggleNews==='function')toggleNews(open);scroll(d.closest('.news-card')||d);}}
+if(open.indexOf('nd-')===0){var ATT=['nd-yemen','nd-groenlandia','nd-hormuz','nd-ns','nd-sd','nd-coi','nd-mona','nd-deal','nd-fac','nd-eu','nd-flot','nd-leb','nd-pact','nd-alb','nd-trib'];if(typeof showPage==='function')showPage(ATT.indexOf(open)!==-1?'attualita':'analisi');var d=document.getElementById(open);if(d){if(!d.classList.contains('open')&&typeof toggleNews==='function')toggleNews(open);scroll(d.closest('.news-card')||d);}}
 else{if(typeof showPage==='function')showPage('manifesti');var box,fn;
 if(open==='m1'){box=document.getElementById('manifesto-text');fn=function(){if(typeof toggleManifesto==='function')toggleManifesto();};}
 else if(open.indexOf('m-')===0){var k=open.slice(2);box=document.getElementById('manifesto-text-'+k);fn=function(){if(typeof toggleM==='function')toggleM(k);};}

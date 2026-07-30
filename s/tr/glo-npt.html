@@ -111,7 +111,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <div class="chips"><a class="chip" href="/s/tr/tag/uluslararasi-hukuk.html">Uluslararası hukuk</a><a class="chip" href="/s/tr/tag/bm.html">BM</a></div>
 <p class="back"><a href="/tr/">← Tüm haberler ve manifestolar</a></p>
 </article>
-<script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Bağlantı kopyalandı");});}else{window.prompt("Bağlantı kopyalandı",u);}}
+<script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Bağlantı kopyalandı");});}else{window.prompt("Bağlantı kopyalandı",u);}}</script>
 <section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
 <p class="section-header">Bilgi sahibi olun</p>
 <p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Yalnızca bir olgu hak ettiğinde, özlü bir özet. Spam yok, algoritma yok: e-postanız sizin kalır.</p>
@@ -146,5 +146,6 @@ function consentChoice(ok){
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </footer>
 <script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}
+</script>
 </body>
 </html>

@@ -95,7 +95,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <div class="chips"><a class="chip" href="/s/ru/tag/colombia.html">Колумбия</a><a class="chip" href="/s/ru/tag/international-law.html">Международное право</a><a class="chip" href="/s/ru/tag/children.html">Детство</a><a class="chip" href="/s/ru/tag/forgotten-crises.html">Забытые кризисы</a></div>
 <p class="back"><a href="/ru/">← Все новости и манифесты</a></p>
 </article>
-<script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Ссылка скопирована");});}else{window.prompt("Ссылка скопирована",u);}}
+<script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Ссылка скопирована");});}else{window.prompt("Ссылка скопирована",u);}}</script>
 <section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
 <p class="section-header">Будьте в курсе</p>
 <p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Краткая сводка — только когда факт того заслуживает. Никакого спама, никаких алгоритмов: ваш адрес остаётся вашим.</p>
@@ -112,5 +112,6 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </footer>
 <script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}
+</script>
 </body>
 </html>

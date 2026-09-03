@@ -25,6 +25,28 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-HY29CH99B7');
 </script>
+<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '924457534068346');
+fbq('consent', 'revoke');
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      fbq('consent', 'grant');
+      fbq('track', 'PageView');
+    }
+  }catch(e){}
+})();
+</script>
+<!-- End Meta Pixel Code -->
 <title>אמנת המקלט החדשה של האיחוד נכנסת לתוקף — I Will Not Look Away</title>
 <meta name="description" content="ב־12 ביוני 2026 נכנסה לתוקף תקנת הליכי המקלט האירופית, חלק מאמנת האיחוד להגירה ולמקלט. היא מנהיגה הליכים מזורזים בגבול, «מוקדי החזרה» מעבר לים לנדחים, ורשי"/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/he/nd-pact.html"/>
@@ -128,14 +150,14 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">בהרשמה אתם מסכימים לקבל עדכונים מ-I Will Not Look Away. ניתן לבטל בכל עת.</p>
 </section>
 <div id="consent-banner">
-<p id="consent-text">אתר זה משתמש ב-Google Analytics לספירת ביקורים באופן אנונימי. שום נתון אינו נמכר או משותף.</p>
+<p id="consent-text">אתר זה משתמש ב-Google Analytics וב-Meta Pixel כדי למדוד ביקורים, כולל כאלה המגיעים מקמפיינים ברשתות חברתיות. הנתונים אינם נמכרים; הם משותפים רק עם Google ו-Meta למטרות אלה.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">מסכים</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">דוחה</button>
 </div>
 <script>
 function consentChoice(ok){
   try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); }
+  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
   document.getElementById("consent-banner").style.display = "none";
 }
 (function(){

@@ -25,6 +25,28 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-HY29CH99B7');
 </script>
+<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '924457534068346');
+fbq('consent', 'revoke');
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      fbq('consent', 'grant');
+      fbq('track', 'PageView');
+    }
+  }catch(e){}
+})();
+</script>
+<!-- End Meta Pixel Code -->
 <title>السودان: الأمم المتحدة تحذّر من أن هجوماً على الأُبيّض يهدّد بجرائم دولية جديدة — I Will Not Look Away</title>
 <meta name="description" content="في 18 يونيو 2026 حذّر المفوّض السامي للأمم المتحدة لحقوق الإنسان، فولكر تورك، من أن هجوماً وشيكاً لقوات الدعم السريع (RSF) على الأُبيّض، عاصمة شمال كردفان،"/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/ar/nd-sd.html"/>
@@ -132,14 +154,14 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">بالاشتراك توافق على تلقّي تحديثات من I Will Not Look Away. يمكنك إلغاء الاشتراك في أي وقت.</p>
 </section>
 <div id="consent-banner">
-<p id="consent-text">يستخدم هذا الموقع Google Analytics لإحصاء الزيارات بشكل مجهول. لا تُباع أي بيانات أو تُشارك.</p>
+<p id="consent-text">يستخدم هذا الموقع Google Analytics وMeta Pixel لقياس الزيارات، بما فيها الزيارات القادمة من حملات وسائل التواصل الاجتماعي. لا تُباع البيانات؛ وتُشارَك فقط مع Google وMeta لهذه الأغراض.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">أوافق</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">أرفض</button>
 </div>
 <script>
 function consentChoice(ok){
   try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); }
+  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
   document.getElementById("consent-banner").style.display = "none";
 }
 (function(){

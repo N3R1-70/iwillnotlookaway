@@ -25,6 +25,28 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-HY29CH99B7');
 </script>
+<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '924457534068346');
+fbq('consent', 'revoke');
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      fbq('consent', 'grant');
+      fbq('track', 'PageView');
+    }
+  }catch(e){}
+})();
+</script>
+<!-- End Meta Pixel Code -->
 <title>Le Statut de Rome : les quatre crimes qu'il définit, et les deux énigmes qu'il laisse ouvertes — I Will Not Look Away</title>
 <meta name="description" content="Génocide, crimes contre l'humanité, crimes de guerre, agression : ce que définit le Statut de Rome, et les deux points — immunité et retrait — qu'il laisse irrésolus."/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/fr/glo-statut-rome.html"/>
@@ -125,14 +147,14 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 </article>
 <script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Link copied");});}else{window.prompt("Link copied",u);}}</script>
 <div id="consent-banner">
-<p id="consent-text">Ce site utilise Google Analytics pour compter les visites de façon anonyme. Aucune donnée n'est vendue ni partagée.</p>
+<p id="consent-text">Ce site utilise Google Analytics et Meta Pixel pour mesurer les visites, y compris depuis les campagnes sur les réseaux sociaux. Les données ne sont pas vendues ; elles sont partagées uniquement avec Google et Meta à ces fins.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">J'accepte</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Je refuse</button>
 </div>
 <script>
 function consentChoice(ok){
   try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); }
+  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
   document.getElementById("consent-banner").style.display = "none";
 }
 (function(){

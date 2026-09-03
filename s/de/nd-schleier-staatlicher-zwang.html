@@ -25,6 +25,28 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-HY29CH99B7');
 </script>
+<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '924457534068346');
+fbq('consent', 'revoke');
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      fbq('consent', 'grant');
+      fbq('track', 'PageView');
+    }
+  }catch(e){}
+})();
+</script>
+<!-- End Meta Pixel Code -->
 <title>Der Gesichtsschleier und der Staat: Zwang, Verbot, Nicht-Eingreifen — I Will Not Look Away</title>
 <meta name="description" content="2026 wird dasselbe Kleidungsstück — der Gesichtsschleier — in Afghanistan gesetzlich vorgeschrieben und andernorts gesetzlich verboten: vier staatliche Modelle im Vergleich, mit Symmetrietest."/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/de/nd-schleier-staatlicher-zwang.html"/><link rel="alternate" hreflang="it" href="https://iwillnotlookaway.org/s/it/nd-velo-coercizione-statale.html"/><link rel="alternate" hreflang="en" href="https://iwillnotlookaway.org/s/en/nd-veil-state-coercion.html"/><link rel="alternate" hreflang="fr" href="https://iwillnotlookaway.org/s/fr/nd-voile-coercition-etat.html"/><link rel="alternate" hreflang="de" href="https://iwillnotlookaway.org/s/de/nd-schleier-staatlicher-zwang.html"/><link rel="alternate" hreflang="es" href="https://iwillnotlookaway.org/s/es/nd-velo-coercion-estatal.html"/><link rel="alternate" hreflang="pt" href="https://iwillnotlookaway.org/s/pt/nd-veu-coercao-estatal.html"/><link rel="alternate" hreflang="tr" href="https://iwillnotlookaway.org/s/tr/nd-pece-devlet-baskisi.html"/><link rel="alternate" hreflang="zh" href="https://iwillnotlookaway.org/s/zh/nd-veil-state-coercion.html"/><link rel="alternate" hreflang="ar" href="https://iwillnotlookaway.org/s/ar/nd-veil-state-coercion.html"/><link rel="alternate" hreflang="he" href="https://iwillnotlookaway.org/s/he/nd-veil-state-coercion.html"/><link rel="alternate" hreflang="ru" href="https://iwillnotlookaway.org/s/ru/nd-veil-state-coercion.html"/><link rel="alternate" hreflang="x-default" href="https://iwillnotlookaway.org/s/it/nd-velo-coercizione-statale.html"/><meta property="og:type" content="article"/>
@@ -103,14 +125,14 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">Mit dem Abonnement erklären Sie sich einverstanden, Updates von I Will Not Look Away zu erhalten. Jederzeit kündbar.</p>
 </section>
 <div id="consent-banner">
-<p id="consent-text">Diese Website nutzt Google Analytics zur anonymen Besucherzählung. Keine Daten werden verkauft oder geteilt.</p>
+<p id="consent-text">Diese Website nutzt Google Analytics und Meta Pixel, um Besuche zu messen, auch aus Social-Media-Kampagnen. Daten werden nicht verkauft; sie werden nur zu diesen Zwecken mit Google und Meta geteilt.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Akzeptieren</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Ablehnen</button>
 </div>
 <script>
 function consentChoice(ok){
   try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); }
+  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
   document.getElementById("consent-banner").style.display = "none";
 }
 (function(){

@@ -25,6 +25,28 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-HY29CH99B7');
 </script>
+<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '924457534068346');
+fbq('consent', 'revoke');
+(function(){
+  try{
+    if(localStorage.getItem("iwnla_consent") === "granted"){
+      fbq('consent', 'grant');
+      fbq('track', 'PageView');
+    }
+  }catch(e){}
+})();
+</script>
+<!-- End Meta Pixel Code -->
 <title>The IAEA: what it is, what it does beyond inspections, and who decides when it finds a violation — I Will Not Look Away</title>
 <meta name="description" content="The International Atomic Energy Agency (IAEA): history, structure, its dual mandate of promotion and control, and what does — and doesn't — happen when it declares a violation."/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/en/glo-iaea.html"/>
@@ -122,14 +144,14 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">By subscribing you agree to receive updates from I Will Not Look Away. Unsubscribe anytime.</p>
 </section>
 <div id="consent-banner">
-<p id="consent-text">This site uses Google Analytics to count visits anonymously. No data is sold or shared.</p>
+<p id="consent-text">This site uses Google Analytics and Meta Pixel to measure visits, including from social media campaigns. Data is not sold; it is shared only with Google and Meta for these purposes.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accept</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Decline</button>
 </div>
 <script>
 function consentChoice(ok){
   try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); }
+  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
   document.getElementById("consent-banner").style.display = "none";
 }
 (function(){

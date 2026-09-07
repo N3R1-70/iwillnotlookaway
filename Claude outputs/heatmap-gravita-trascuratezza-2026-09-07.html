@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heatmap gravità × trascuratezza — 7 settembre 2026</title>
+<style>
+  :root{
+    --void:#080808; --deep:#0e0e0e; --surface:#141414; --line:#2a2a2a;
+    --ash:#5a5a5a; --dust:#8a8a8a; --pale:#b8b4ac; --ghost:#d8d4cc; --bone:#ece8e0;
+    --blood:#6b1414; --ember:#8b2020; --glow:#a83030;
+  }
+  *{box-sizing:border-box;}
+  body{
+    background:var(--void); color:var(--bone);
+    font-family:Georgia,'Times New Roman',serif;
+    margin:0; padding:48px 24px 80px; line-height:1.55;
+  }
+  .wrap{max-width:980px; margin:0 auto;}
+  header{border-bottom:1px solid var(--line); padding-bottom:24px; margin-bottom:36px;}
+  .kicker{color:var(--glow); text-transform:uppercase; letter-spacing:0.14em; font-size:12px; margin-bottom:10px;}
+  h1{font-size:28px; margin:0 0 10px; font-weight:400; color:var(--ghost);}
+  .meta{color:var(--dust); font-size:14px;}
+  h2{font-size:19px; color:var(--ghost); font-weight:400; margin:44px 0 6px; border-left:3px solid var(--ember); padding-left:12px;}
+  .subnote{color:var(--dust); font-size:13.5px; margin:0 0 20px; padding-left:15px;}
+  p{color:var(--pale); font-size:15px;}
+
+  /* Fase 0 — coverage bars */
+  .coverage{display:flex; flex-direction:column; gap:7px; margin:18px 0 8px;}
+  .cov-row{display:grid; grid-template-columns:170px 1fr 60px; align-items:center; gap:10px; font-size:13.5px;}
+  .cov-label{color:var(--ghost);}
+  .cov-track{background:var(--surface); border:1px solid var(--line); height:14px; position:relative; overflow:hidden;}
+  .cov-fill{height:100%; background:linear-gradient(90deg, var(--ember), var(--glow));}
+  .cov-count{color:var(--dust); text-align:right;}
+  .cov-callout{margin-top:16px; padding:14px 16px; background:var(--surface); border:1px solid var(--line); color:var(--pale); font-size:13.5px;}
+  .cov-callout b{color:var(--ghost);}
+
+  /* Matrix */
+  .matrix-section{margin-top:10px;}
+  .matrix-wrap{overflow-x:auto;}
+  .matrix{display:grid; grid-template-columns:110px repeat(3,1fr); gap:6px; min-width:640px; margin-top:18px;}
+  .axis-label-y{writing-mode:vertical-rl; transform:rotate(180deg); text-align:center; color:var(--dust); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; grid-row:1 / span 3; display:flex; align-items:center; justify-content:center;}
+  .col-head, .row-head{color:var(--dust); font-size:11.5px; text-transform:uppercase; letter-spacing:0.07em; display:flex; align-items:center; justify-content:center; padding:6px 0;}
+  .row-head{justify-content:flex-end; padding-right:10px; text-align:right;}
+  .cell{background:var(--surface); border:1px solid var(--line); min-height:96px; padding:10px; display:flex; flex-wrap:wrap; align-content:flex-start; gap:6px; position:relative;}
+  .cell.priority{border-color:var(--ember); background:#1a0d0d; box-shadow:inset 0 0 0 1px rgba(139,32,32,0.35);}
+  .cell.priority::before{content:"quadrante prioritario"; position:absolute; top:4px; right:6px; font-size:9px; letter-spacing:0.06em; text-transform:uppercase; color:var(--glow); opacity:0.85;}
+  .chip{background:var(--void); border:1px solid var(--ash); color:var(--ghost); font-size:12.5px; padding:4px 9px; border-radius:2px; white-space:nowrap;}
+  .chip.extension{border-style:dashed; color:var(--pale); font-style:italic;}
+
+  /* Motivation table */
+  table.motiv{width:100%; border-collapse:collapse; margin-top:26px; font-size:13.5px;}
+  table.motiv th{text-align:left; color:var(--dust); text-transform:uppercase; font-size:10.5px; letter-spacing:0.06em; border-bottom:1px solid var(--line); padding:8px 10px;}
+  table.motiv td{border-bottom:1px solid var(--line); padding:12px 10px; color:var(--pale); vertical-align:top;}
+  table.motiv td.name{color:var(--ghost); font-weight:normal; white-space:nowrap;}
+  table.motiv td.axes{color:var(--dust); font-size:12.5px; white-space:nowrap;}
+  table.motiv a{color:var(--glow); text-decoration:none; border-bottom:1px dotted var(--ember);}
+  table.motiv a:hover{color:var(--ghost);}
+  .tag-ext{display:inline-block; font-size:10px; color:var(--dust); border:1px dashed var(--ash); padding:1px 6px; margin-left:6px; text-transform:uppercase;}
+
+  .declared{margin-top:40px; padding:18px 20px; background:var(--surface); border:1px solid var(--line);}
+  .declared h3{margin:0 0 8px; font-size:14px; color:var(--ghost); font-weight:400;}
+  .declared p{font-size:13.5px; margin:0 0 8px;}
+  .declared p:last-child{margin-bottom:0;}
+
+  footer{margin-top:50px; padding-top:18px; border-top:1px solid var(--line); color:var(--ash); font-size:11.5px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="kicker">Interno · non destinato alla pubblicazione</div>
+    <h1>Heatmap gravità × trascuratezza</h1>
+    <div class="meta">Ciclo del 7 settembre 2026 — iwillnotlookaway.org · secondo HEATMAP_PROTOCOLLO.md v1.0 + SDR-70_SELEZIONE.md v1.0</div>
+  </header>
+
+  <h2>Fase 0 aggiornata — copertura reale del sito</h2>
+  <p class="subnote">Conteggio dai file reali <code>nd-*.html</code> + <code>m*.html</code> in <code>s/it/</code> (59 pezzi totali), non dalla baseline testuale del 28 giugno.</p>
+
+  <div class="coverage" id="coverage"></div>
+
+  <div class="cov-callout">
+    <b>Il confronto con la baseline del 28/06</b>: tutti i teatri allora segnati "assenti" — RD Congo/M23, Myanmar, Yemen, Haiti, Sahel (Mali, Burkina Faso), Afghanistan, Etiopia — risultano ora coperti. Il metodo ha fatto il suo lavoro sul ciclo precedente. Israele resta il tema singolo più coperto in valore assoluto (14 pezzi), ma la sua quota sul totale è scesa da oltre il 50% (11 su ~21, giugno) a circa il 24% (14 su 59): il sito è cresciuto molto di più altrove.
+  </div>
+
+  <h2>Mappa gravità × trascuratezza — solo candidati non coperti</h2>
+  <p class="subnote">Costruita su una nuova Fase 2 (ricerca web, settembre 2026) perché l'universo di candidati del ciclo precedente è stato esaurito dalle pubblicazioni. Nessun punteggio aggregato: due assi qualitativi separati, motivazione e fonte per cella nella tabella sotto.</p>
+
+  <div class="matrix-section">
+    <div class="matrix-wrap">
+      <div class="matrix">
+        <div></div>
+        <div class="col-head">Trascuratezza bassa</div>
+        <div class="col-head">Trascuratezza media</div>
+        <div class="col-head">Trascuratezza alta</div>
+
+        <div class="row-head">Gravità estrema</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell priority">
+          <span class="chip">Somalia</span>
+          <span class="chip">Nigeria</span>
+          <span class="chip">Niger</span>
+        </div>
+
+        <div class="row-head">Gravità seria</div>
+        <div class="cell"></div>
+        <div class="cell">
+          <span class="chip extension">Rohingya · campi Bangladesh</span>
+        </div>
+        <div class="cell priority">
+          <span class="chip">Mozambico · Cabo Delgado</span>
+          <span class="chip">Rep. Centrafricana</span>
+          <span class="chip extension">Ciad · ospitalità rifugiati</span>
+        </div>
+
+        <div class="row-head">Gravità limitata</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </div>
+  </div>
+  <p class="subnote" style="margin-top:14px;">Chip tratteggiato = estensione tematica/geografica di un teatro già coperto (Myanmar, Sudan), non un soggetto pienamente indipendente — vedi tabella.</p>
+
+  <table class="motiv">
+    <thead>
+      <tr><th>Candidato</th><th>Assi (motivati)</th><th>Fatti datati e fonte</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name">Somalia</td>
+        <td class="axes">Vulnerabilità: estrema<br>Velocità: in accelerazione<br>Irreversibilità: demografica<br>Trascuratezza: alta</td>
+        <td>6,5 milioni di persone in condizioni di fame elevata; rischio carestia (IPC Fase 5) in più aree del sud legato alle inondazioni — <a href="https://www.wfp.org/news/somalias-humanitarian-crisis-worsening-65-million-people-facing-high-levels-hunger-federal" target="_blank">WFP</a>, <a href="https://fews.net/east-africa/somalia/food-security-outlook/june-2026" target="_blank">FEWS NET</a>, giugno 2026. International Crisis Group titola esplicitamente il rischio carestia legato ai tagli agli aiuti — <a href="https://www.crisisgroup.org/anb/africa/somalia/somalia-barrels-toward-possible-famine-amid-aid-cuts" target="_blank">ICG</a>.</td>
+      </tr>
+      <tr>
+        <td class="name">Nigeria</td>
+        <td class="axes">Vulnerabilità: seria/estrema<br>Velocità: in accelerazione<br>Irreversibilità: strutturale<br>Trascuratezza: alta</td>
+        <td>L'ONU segnala la violenza in escalation come motore di "una delle più grandi crisi umanitarie d'Africa"; l'analisi nota che la violenza va oltre la lettura religiosa con cui viene spesso raccontata all'estero, il che ne appiattisce la percezione — <a href="https://www.developmentaid.org/news-stream/post/204137/nigeria-violence-humanitarian-crisis-un-warning-displacement-food-insecurity-2026" target="_blank">DevelopmentAid</a>, <a href="https://www.globalsecurity.org/military/library/news/2026/01/mil-260129-unnews03.htm" target="_blank">UN News</a>, gennaio 2026. Piano di risposta OCHA 2026 — <a href="https://www.unocha.org/publications/report/nigeria/nigeria-2026-humanitarian-needs-and-response-plan-january-2026" target="_blank">OCHA</a>.</td>
+      </tr>
+      <tr>
+        <td class="name">Mozambico — Cabo Delgado</td>
+        <td class="axes">Vulnerabilità: seria<br>Velocità: in accelerazione<br>Irreversibilità: politica/strutturale<br>Trascuratezza: alta</td>
+        <td>Violenza in aumento e crisi di sfollamento in peggioramento — <a href="https://www.aljazeera.com/news/2026/8/26/why-northern-mozambiques-surging-violence-is-worsening-displacement-crisis" target="_blank">Al Jazeera</a>, 26 agosto 2026. Un'analisi la definisce letteralmente "una guerra senza titoli, un punto cieco della sicurezza globale" — <a href="https://smallwarsjournal.com/2026/01/26/a-war-without-headlines-mozambiques-insurgency-and-the-global-security-blind-spot/" target="_blank">Small Wars Journal</a>, gennaio 2026. Strategia militare giudicata fallimentare — <a href="https://issafrica.org/iss-today/cabo-delgado-insurgency-persists-amid-failed-military-strategy" target="_blank">ISS Africa</a>.</td>
+      </tr>
+      <tr>
+        <td class="name">Niger</td>
+        <td class="axes">Vulnerabilità: estrema<br>Velocità: in accelerazione<br>Irreversibilità: strutturale<br>Trascuratezza: alta</td>
+        <td>3° Paese al mondo per impatto del terrorismo nel Global Terrorism Index 2026 (era 8°–10° prima del golpe); morti +62,8% dal colpo di stato (da 2.983 a 4.855); sfollamenti +83,3%, oltre un milione di spostamenti totali registrati — <a href="https://humanglemedia.com/in-niger-republic-the-juntas-peace-is-not-everyones-peace/" target="_blank">HumAngle</a>, 2026. La stessa analisi denuncia esplicitamente che le storie di milioni di africani colpiti dal conflitto "sono assenti dai media mainstream". Contesto regionale: 24 milioni di persone nel Sahel (Mali, Burkina Faso, Niger, Ciad, Camerun nord, Nigeria nordest) necessitano di aiuto, con solo il 29% dei fondi richiesti assicurato nel 2025 — livello più basso in un decennio secondo l'ONU — <a href="https://realnewsmagazine.net/24m-people-need-humanitarian-aid-across-sahel-un/" target="_blank">briefing ONU/OCHA</a>.</td>
+      </tr>
+      <tr>
+        <td class="name">Repubblica Centrafricana</td>
+        <td class="axes">Vulnerabilità: seria<br>Velocità: acuta (episodica)<br>Irreversibilità: reversibile/politica<br>Trascuratezza: alta</td>
+        <td>Scontri tra le forze armate (FACA) e il gruppo armato Azandé Ani Kpi Gbé a Zémio, sud-est del Paese: sfollamenti civili, circa 2.000 persone senza mezzi né famiglie ospitanti rifugiate in ospedale e chiesa, carenza imminente di acqua, medicinali e cibo, strade bloccate con aiuti solo via aerea — <a href="https://www.icrc.org/en/news-release/central-african-republic-humanitarian-situation-remains-alarming-south-east-country" target="_blank">ICRC</a>, 14 gennaio 2026. Gestita quasi solo da ICRC/Croce Rossa locale, nessuna copertura nella stampa generalista consultata in questo ciclo.</td>
+      </tr>
+      <tr>
+        <td class="name">Rohingya — campi in Bangladesh <span class="tag-ext">estensione di Myanmar</span></td>
+        <td class="axes">Vulnerabilità: seria/estrema<br>Velocità: in accelerazione<br>Irreversibilità: strutturale<br>Trascuratezza: media</td>
+        <td>Il 35% dei rifugiati rohingya a Cox's Bazar affronta fame di livello "crisi" o "emergenza" — <a href="https://www.savethechildren.org/us/about-us/media-and-news/2026-press-releases/bangladesh-rohingya-refugees-face-crisis-hunger" target="_blank">Save the Children</a>, 2026. Tagli ai finanziamenti nel decimo anno di crisi — <a href="https://www.oxfam.org/en/press-releases/rohingya-crisis-enters-tenth-year-funding-cuts-put-lifesaving-services-risk-oxfam" target="_blank">Oxfam</a>. Il sito copre già la sentenza CIG sul genocidio (nd-mya.html): questo è un angolo umanitario distinto, non duplicato, sui campi profughi.</td>
+      </tr>
+      <tr>
+        <td class="name">Ciad — accoglienza rifugiati sudanesi <span class="tag-ext">estensione di Sudan</span></td>
+        <td class="axes">Vulnerabilità: seria<br>Velocità: in accelerazione<br>Irreversibilità: reversibile (dipende da finanziamenti)<br>Trascuratezza: alta</td>
+        <td>Carenza di fondi mette a rischio i servizi salvavita per i rifugiati sudanesi; collasso dell'assistenza materna nell'est del Paese — <a href="https://www.unhcr.org/africa/news/press-releases/funding-shortfalls-put-lifelines-risk-sudanese-refugees-chad" target="_blank">UNHCR</a>, <a href="https://www.globalsecurity.org/military/library/news/2026/05/mil-260512-unnews02.htm" target="_blank">UN news</a>, maggio 2026. Copertura quasi solo in comunicati istituzionali (UNHCR/WFP), non in testate generaliste.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="declared">
+    <h3>Lacune dichiarate</h3>
+    <p>Aggiornamento delle 11:25 UTC: Centrafrica e Niger, lasciati come lacuna nella prima versione di questo ciclo per un limite tecnico di sessione, sono stati verificati e aggiunti alla mappa sopra (righe Niger e Rep. Centrafricana). Il resto del Sahel oltre Mali/Burkina Faso/Niger (in particolare il versante Chad-Camerun nord della crisi regionale OCHA) resta lacuna aperta, non candidato escluso.</p>
+    <p><b>Fase 4b (contrappeso):</b> in questo ciclo non è stato proposto alcun nuovo candidato sul tema Israele — il sovra-rappresentato dichiarato in Fase 0. Il contrappeso non si applica quindi a questo ciclo: lo dichiaro invece di sorvolare.</p>
+    <p><b>Registro delle smentite (Fase 5):</b> nessuna voce aggiunta in questo ciclo — non è stato proposto né respinto nulla in contrasto con le preferenze dell'editore. Un registro vuoto ripetuto nel tempo è il segnale che il metodo va tenuto sotto controllo, non un traguardo.</p>
+  </div>
+
+  <footer>
+    Heatmap generata secondo HEATMAP_PROTOCOLLO.md v1.0 (13 luglio 2026) e SDR-70_SELEZIONE.md v1.0 (28 giugno 2026). Fonti Fase 2: ricerca web del 7 settembre 2026, aggiornata alle 11:25 UTC (IRC Emergency Watchlist 2026, NRC — crisi di sfollamento più trascurate 2026, WFP, FEWS NET, OCHA, UNHCR, ICG, ICRC, HumAngle, Global Terrorism Index 2026). File non pubblicato su iwillnotlookaway.org.
+  </footer>
+
+</div>
+
+<script>
+  const coverage = [
+    ["Israele / Gaza / Libano", 14],
+    ["Iran (incl. guerra USA-Iran 2026)", 9],
+    ["USA (interno/globale)", 4],
+    ["UE / migrazione", 3],
+    ["Siria", 3],
+    ["RD Congo / M23", 3],
+    ["Diritto internaz. generale (CPI)", 2],
+    ["Tematico trasversale (privacy, diritto comparato)", 3],
+    ["Russia–Ucraina", 2],
+    ["Taiwan–Cina", 2],
+    ["Sudan", 2],
+    ["Sahel (Mali, Burkina Faso)", 2],
+    ["Sud Sudan", 1],
+    ["Etiopia", 1],
+    ["Camerun", 1],
+    ["Libia", 1],
+    ["Myanmar", 1],
+    ["Yemen", 1],
+    ["Afghanistan", 1],
+    ["Haiti", 1],
+    ["Colombia", 1],
+    ["Fame / globale", 1],
+  ];
+  const max = Math.max(...coverage.map(c => c[1]));
+  const el = document.getElementById('coverage');
+  coverage.forEach(([label, n]) => {
+    const row = document.createElement('div');
+    row.className = 'cov-row';
+    row.innerHTML = `<div class="cov-label">${label}</div>
+      <div class="cov-track"><div class="cov-fill" style="width:${(n/max*100).toFixed(0)}%"></div></div>
+      <div class="cov-count">${n}</div>`;
+    el.appendChild(row);
+  });
+</script>
+</body>
+</html>

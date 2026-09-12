@@ -6,9 +6,18 @@
 <description>חמישה מניפסטים המבוססים על המשפט הבינלאומי: ישראל, רוסיה, סודאן, ארצות הברית, המשט. ניתוחים משפטיים ועצומות.</description>
 <language>he</language>
 <atom:link href="https://iwillnotlookaway.org/s/he/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 10 Sep 2026 15:50:28 GMT</lastBuildDate>
+<lastBuildDate>Sat, 12 Sep 2026 21:31:26 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>יש חדשות, אין פסק דין</title>
+<link>https://iwillnotlookaway.org/s/he/op-news-yes-judgment-no.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-news-yes-judgment-no.html</guid>
+<pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+<category>דעה</category>
+<description>ניתוח בלתי-תלוי מודד את הפער בין העובדות המדווחות על עזה לבין פסק הדין שמעולם לא גובש. אחר כך השמות: קושנר, אדלסון, פון דר ליין, גרמניה — המנגנון ההופך לבר-מיקוח מה שהמשפט הבינלאומי אמור היה להפוך לבלתי-אפשרי.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-news-yes-judgment-no.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>תימן: המלחמה מתלקחת שוב ומזינה את גיוס הילדים, בעוד האו״ם מזהיר מפני סכנת רעב</title>
 <link>https://iwillnotlookaway.org/s/he/nd-yemen-renewed-war.html</link>

@@ -6,7 +6,7 @@
 <description>Five manifestos grounded in international law: Israel, Russia, Sudan, the United States, the Flotilla. Legal analysis, petitions, non-recognition.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:45 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:38 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>АНАЛИЗ</category>
 <description>Декларация БРИКС защищает международное право, но из всех затронутых конфликтов называет только Израиль. Украина и США не упомянуты ни разу.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ru/nd-brics-2026.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Эфиопия: мир, подписанный в Южной Африке, который никто не защитил</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ethiopia-tigray-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ethiopia-tigray-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>АКТУАЛЬНОЕ</category>
+<description>С 23 сентября 2026 года на севере Эфиопии вновь идут бои: мирное соглашение, подписанное в Претории в 2022 году, рухнуло. ООН фиксирует нарушения с обеих сторон.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ethiopia-tigray-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Призыв, оставшийся без ответа: Трамп, МУС и вес того, что не признают</title>

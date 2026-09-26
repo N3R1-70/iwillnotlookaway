@@ -6,7 +6,7 @@
 <description>Five manifestos grounded in international law: Israel, Russia, Sudan, the United States, the Flotilla. Legal analysis, petitions, non-recognition.</description>
 <language>en-US</language>
 <atom:link href="https://iwillnotlookaway.org/s/en/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:30 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:23 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>ANALYSIS</category>
 <description>The BRICS declaration defends international law, but among the conflicts it covers it names only Israel. Ukraine and the United States never appear.</description>
 <enclosure url="https://iwillnotlookaway.org/s/en/nd-brics-2026.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Ethiopia: the peace signed in South Africa that no one defended</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ethiopia-tigray-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ethiopia-tigray-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>CURRENT AFFAIRS</category>
+<description>Since 23 September 2026 fighting has resumed in northern Ethiopia: the peace agreement signed in Pretoria in 2022 has collapsed. The UN documents violations on both sides.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ethiopia-tigray-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>The Appeal That Fell Flat: Trump, the ICC, and the Weight of What Goes Unrecognized</title>

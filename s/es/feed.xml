@@ -6,7 +6,7 @@
 <description>Cinco manifiestos fundados en el derecho internacional: Israel, Rusia, Sudán, Estados Unidos, la Flotilla. Análisis jurídicos y peticiones.</description>
 <language>es-ES</language>
 <atom:link href="https://iwillnotlookaway.org/s/es/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:34 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:27 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -26,6 +26,15 @@
 <category>ANÁLISIS</category>
 <description>Trump pide a todos los Estados miembros que abandonen la CPI y prepara sanciones contra la propia Corte. Solo un país le sigue. Dos días después, Netanyahu habla ante la ONU bajo orden de arresto.</description>
 <enclosure url="https://iwillnotlookaway.org/s/es/nd-cpi-onu-retirada.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Etiopía: la paz firmada en Sudáfrica que nadie defendió</title>
+<link>https://iwillnotlookaway.org/s/es/nd-etiopia-tigray-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-etiopia-tigray-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>ACTUALIDAD</category>
+<description>Desde el 23 de septiembre de 2026 se combate de nuevo en el norte de Etiopía: el acuerdo de paz firmado en Pretoria en 2022 se ha derrumbado. La ONU documenta violaciones en ambos bandos.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-etiopia-tigray-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Noticia sí, juicio no</title>

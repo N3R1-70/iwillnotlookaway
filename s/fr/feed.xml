@@ -6,7 +6,7 @@
 <description>Cinq manifestes fondés sur le droit international : Israël, Russie, Soudan, États-Unis, Flottille. Analyses juridiques, pétitions, non-reconnaissance.</description>
 <language>fr-FR</language>
 <atom:link href="https://iwillnotlookaway.org/s/fr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:31 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:25 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -26,6 +26,15 @@
 <category>ANALYSE</category>
 <description>Trump demande à tous les États membres de quitter la CPI et prépare des sanctions contre la Cour elle-même. Un seul pays le suit. Deux jours plus tard, Netanyahou s'exprime à l'ONU sous mandat d'arrêt.</description>
 <enclosure url="https://iwillnotlookaway.org/s/fr/nd-cpi-onu-retrait.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Éthiopie : la paix signée en Afrique du Sud que personne n'a défendue</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-ethiopie-tigre-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-ethiopie-tigre-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>ACTUALITÉ</category>
+<description>Depuis le 23 septembre 2026, les combats ont repris dans le nord de l'Éthiopie : l'accord de paix signé à Pretoria en 2022 s'est effondré. L'ONU documente des violations des deux côtés.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-ethiopie-tigre-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>L'info, oui. Le jugement, non.</title>

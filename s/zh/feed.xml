@@ -6,7 +6,7 @@
 <description>基于国际法的五份宣言：以色列、俄罗斯、苏丹、美国、船队。法律分析、请愿与不承认原则。</description>
 <language>zh-CN</language>
 <atom:link href="https://iwillnotlookaway.org/s/zh/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:38 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:31 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>分析</category>
 <description>金砖国家宣言捍卫国际法，但在其论及的冲突中只点名了以色列。乌克兰和美国从未出现。</description>
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-brics-2026.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>埃塞俄比亚：在南非签署、却无人捍卫的和平</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ethiopia-tigray-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ethiopia-tigray-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>时事</category>
+<description>自2026年9月23日起，埃塞俄比亚北部再度爆发战斗：2022年在比勒陀利亚签署的和平协议已经瓦解。联合国记录了冲突双方的违法行为。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ethiopia-tigray-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>落空的呼吁：特朗普、国际刑事法院，与不被承认之物的分量</title>

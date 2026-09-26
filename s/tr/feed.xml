@@ -6,7 +6,7 @@
 <description>Uluslararası hukuka dayanan beş manifesto: İsrail, Rusya, Sudan, ABD, Filo. Hukuki analizler, dilekçeler, tanımama ilkesi.</description>
 <language>tr-TR</language>
 <atom:link href="https://iwillnotlookaway.org/s/tr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:36 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:29 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>ANALİZ</category>
 <description>BRICS bildirgesi uluslararası hukuku savunuyor, ancak ele aldığı çatışmalar arasında yalnızca İsrail'i anıyor. Ukrayna ve ABD hiç geçmiyor.</description>
 <enclosure url="https://iwillnotlookaway.org/s/tr/nd-brics-2026.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Etiyopya: Güney Afrika'da imzalanan ve kimsenin savunmadığı barış</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-etiyopya-tigray-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-etiyopya-tigray-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>GÜNCEL</category>
+<description>23 Eylül 2026'dan bu yana Etiyopya'nın kuzeyinde yeniden çatışmalar yaşanıyor: 2022'de Pretoria'da imzalanan barış anlaşması çöktü. BM, iki tarafın da ihlallerini belgeliyor.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-etiyopya-tigray-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Karşılıksız kalan çağrı: Trump, UCM ve tanınmayanın ağırlığı</title>

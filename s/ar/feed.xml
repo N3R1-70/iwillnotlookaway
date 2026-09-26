@@ -6,7 +6,7 @@
 <description>خمسة بيانات مؤسسة على القانون الدولي: إسرائيل، روسيا، السودان، الولايات المتحدة، الأسطول. تحليلات قانونية وعرائض.</description>
 <language>ar</language>
 <atom:link href="https://iwillnotlookaway.org/s/ar/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 19:39:39 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 20:19:33 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>تحليل</category>
 <description>يدافع إعلان بريكس عن القانون الدولي، لكنه يسمّي من بين النزاعات التي يتناولها إسرائيل وحدها. أما أوكرانيا والولايات المتحدة فلا تردان أبدًا.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ar/nd-brics-2026.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>إثيوبيا: السلام الذي وُقّع في جنوب أفريقيا ولم يدافع عنه أحد</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ethiopia-tigray-pretoria.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ethiopia-tigray-pretoria.html</guid>
+<pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+<category>أحداث جارية</category>
+<description>منذ 23 سبتمبر 2026 عاد القتال إلى شمال إثيوبيا: انهار اتفاق السلام الموقّع في بريتوريا عام 2022. وتوثّق الأمم المتحدة انتهاكات من الطرفين.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ethiopia-tigray-pretoria.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>النداء الذي سقط في الفراغ: ترامب، المحكمة الجنائية الدولية، وثقل ما لا يُعترف به</title>

@@ -6,7 +6,7 @@
 <description>Cinco manifestos fundados no direito internacional: Israel, Rússia, Sudão, Estados Unidos, Flotilha. Análises jurídicas e petições.</description>
 <language>pt-PT</language>
 <atom:link href="https://iwillnotlookaway.org/s/pt/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:39:20 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 20:42:44 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>ANÁLISE</category>
 <description>Um jornal espanhol anuncia um ataque russo com drones contra Itália, França ou Espanha. Roma e Paris desmentem. Um editorial italiano faz disso a prova de uma conspiração aliada. A mesma medida, aplicada a ambos.</description>
 <enclosure url="https://iwillnotlookaway.org/s/pt/nd-anatomia-alarme-drones.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Kallas e a Stark Logistics: a bússola moral dos outros</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-kallas-stark.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-kallas-stark.html</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>ATUALIDADE</category>
+<description>Em 2022 a primeira-ministra estónia Kaja Kallas pedia às empresas que escolhessem um lado. Até ao verão de 2023 a empresa participada pelo marido ainda transportava mercadorias para a Rússia.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-kallas-stark.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Os BRICS em Nova Deli: o direito internacional no texto, e quem não é nomeado</title>

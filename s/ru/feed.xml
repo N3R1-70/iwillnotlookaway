@@ -6,7 +6,7 @@
 <description>Five manifestos grounded in international law: Israel, Russia, Sudan, the United States, the Flotilla. Legal analysis, petitions, non-recognition.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:39:24 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 20:42:48 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>АНАЛИЗ</category>
 <description>Испанская газета сообщает о готовящейся российской атаке дронов на Италию, Францию или Испанию. Рим и Париж опровергают. Итальянская передовица превращает это в доказательство заговора союзников. Одна мерка — для обоих.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ru/nd-anatomy-of-a-drone-alarm.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Каллас и Stark Logistics: моральный компас для других</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-kallas-stark.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-kallas-stark.html</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>АКТУАЛЬНОЕ</category>
+<description>В 2022 году премьер-министр Эстонии Кая Каллас призывала бизнес выбрать сторону. До лета 2023 года компания, совладельцем которой был её муж, продолжала возить грузы в Россию.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-kallas-stark.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>БРИКС в Нью-Дели: международное право в тексте и те, кого не называют</title>

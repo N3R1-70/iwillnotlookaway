@@ -6,7 +6,7 @@
 <description>خمسة بيانات مؤسسة على القانون الدولي: إسرائيل، روسيا، السودان، الولايات المتحدة، الأسطول. تحليلات قانونية وعرائض.</description>
 <language>ar</language>
 <atom:link href="https://iwillnotlookaway.org/s/ar/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:39:22 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 20:42:46 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>تحليل</category>
 <description>صحيفة إسبانية تعلن عن هجوم روسي بالمسيّرات على إيطاليا أو فرنسا أو إسبانيا. روما وباريس تنفيان. وافتتاحية إيطالية تجعل منه دليلاً على مؤامرة حليفة. المعيار نفسه يُطبَّق على الاثنتين.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ar/nd-anatomy-of-a-drone-alarm.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>كالاس وستارك لوجستيكس: بوصلة أخلاقية للآخرين</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-kallas-stark.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-kallas-stark.html</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>أحداث جارية</category>
+<description>في 2022 دعت رئيسة الوزراء الإستونية كايا كالاس الشركات إلى اختيار موقفها. وحتى صيف 2023 ظلّت الشركة التي يملك زوجها حصة فيها تنقل البضائع إلى روسيا.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-kallas-stark.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>بريكس في نيودلهي: القانون الدولي في النص، ومن لا يُسمّى</title>

@@ -6,7 +6,7 @@
 <description>Fünf Manifeste auf Grundlage des Völkerrechts: Israel, Russland, Sudan, USA, Flotilla. Rechtsanalysen, Petitionen, Nicht-Anerkennung.</description>
 <language>de-DE</language>
 <atom:link href="https://iwillnotlookaway.org/s/de/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:39:19 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 20:42:43 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>ANALYSE</category>
 <description>Eine spanische Zeitung meldet einen russischen Drohnenangriff auf Italien, Frankreich oder Spanien. Rom und Paris dementieren. Ein italienischer Leitartikel macht daraus den Beweis einer Verschwörung von Verbündeten. Derselbe Maßstab, auf beide angewandt.</description>
 <enclosure url="https://iwillnotlookaway.org/s/de/nd-anatomie-drohnenalarm.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Kallas und Stark Logistics: der moralische Kompass der anderen</title>
+<link>https://iwillnotlookaway.org/s/de/nd-kallas-stark.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-kallas-stark.html</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>AKTUELLES</category>
+<description>2022 forderte die estnische Regierungschefin Kaja Kallas Unternehmen auf, Stellung zu beziehen. Bis zum Sommer 2023 lieferte die Firma, an der ihr Mann beteiligt war, noch nach Russland.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-kallas-stark.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Äthiopien: der in Südafrika unterzeichnete Frieden, den niemand verteidigt hat</title>

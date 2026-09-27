@@ -6,7 +6,7 @@
 <description>基于国际法的五份宣言：以色列、俄罗斯、苏丹、美国、船队。法律分析、请愿与不承认原则。</description>
 <language>zh-CN</language>
 <atom:link href="https://iwillnotlookaway.org/s/zh/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:39:21 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 20:42:45 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>分析</category>
 <description>一家西班牙报纸报道俄罗斯将用无人机袭击意大利、法国或西班牙。罗马和巴黎予以否认。一篇意大利社论又把它当作盟友阴谋的证据。同一把尺子，用于两者。</description>
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-anatomy-of-a-drone-alarm.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>卡拉斯与Stark物流：留给别人的道德罗盘</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-kallas-stark.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-kallas-stark.html</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>时事</category>
+<description>2022年，爱沙尼亚总理卡娅·卡拉斯呼吁企业选边站队。直到2023年夏天，她丈夫参股的公司仍在向俄罗斯运货。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-kallas-stark.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>金砖国家在新德里：文本中的国际法，以及未被点名者</title>

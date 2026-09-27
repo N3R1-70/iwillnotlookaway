@@ -6,7 +6,7 @@
 <description>חמישה מניפסטים המבוססים על המשפט הבינלאומי: ישראל, רוסיה, סודאן, ארצות הברית, המשט. ניתוחים משפטיים ועצומות.</description>
 <language>he</language>
 <atom:link href="https://iwillnotlookaway.org/s/he/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:39:23 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 20:42:46 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>ניתוח</category>
 <description>עיתון ספרדי מדווח על מתקפת רחפנים רוסית נגד איטליה, צרפת או ספרד. רומא ופריז מכחישות. מאמר מערכת איטלקי הופך זאת להוכחה לקנוניה של בעלות ברית. אותה אמת מידה, מוחלת על שניהם.</description>
 <enclosure url="https://iwillnotlookaway.org/s/he/nd-anatomy-of-a-drone-alarm.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>קאלאס וסטארק לוגיסטיקס: מצפן מוסרי לאחרים</title>
+<link>https://iwillnotlookaway.org/s/he/nd-kallas-stark.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-kallas-stark.html</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>אקטואליה</category>
+<description>ב-2022 קראה ראש ממשלת אסטוניה קאיה קאלאס לחברות לבחור צד. עד קיץ 2023 המשיכה החברה שבעלה החזיק בה מניות להוביל סחורות לרוסיה.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-kallas-stark.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>בריקס בניו דלהי: המשפט הבינלאומי בנוסח, ומי שלא נזכר</title>

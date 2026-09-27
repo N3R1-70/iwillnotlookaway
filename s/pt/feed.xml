@@ -6,7 +6,7 @@
 <description>Cinco manifestos fundados no direito internacional: Israel, Rússia, Sudão, Estados Unidos, Flotilha. Análises jurídicas e petições.</description>
 <language>pt-PT</language>
 <atom:link href="https://iwillnotlookaway.org/s/pt/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:19 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:27 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>Iémen: a guerra intensifica-se novamente e relança o recrutamento de menores, enquanto a ONU alerta para o risco de fome</title>
 <link>https://iwillnotlookaway.org/s/pt/nd-yemen-guerra-reacendida.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-yemen-guerra-reacendida.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>ATUALIDADE</category>
 <description>Mais de 100 mortos desde a semana passada entre Taiz e Hodeidah, 62 novos casos de recrutamento infantil documentados apenas no segundo trimestre de 2026, 6 milhões de pessoas à beira da fome.</description>
 <enclosure url="https://iwillnotlookaway.org/s/pt/nd-yemen-guerra-reacendida.jpg" type="image/jpeg"/>
@@ -334,6 +334,15 @@
 <enclosure url="https://iwillnotlookaway.org/s/pt/nd-black-sites.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>Irão: o governo admite "milhares" de mortos nos protestos, depois executa os sobreviventes</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-iran-repressione.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-iran-repressione.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<description>O governo iraniano admite milhares de mortos nos protestos de janeiro de 2026, depois executa os sobreviventes: 141 execuções só em junho, um apagão de internet de 88 dias, um memorando interno que vazou e revela a manipulação narrativa do regime.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-iran.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Mali: o exército e os mercenários russos do Africa Corps compõem um cadáver em forma de suástica após matar quatro civis</title>
 <link>https://iwillnotlookaway.org/s/pt/nd-mali.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-mali.html</guid>
@@ -575,15 +584,6 @@
 <category>ANÁLISE</category>
 <description>Nurit Peled-Elhanan, professora emérita de Educação Linguística na Universidade Hebraica de Jerusalém e autora de Palestine in Israeli School Books (I.B. T</description>
 <enclosure url="https://iwillnotlookaway.org/s/pt/nd-edu.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>Irão: o governo admite "milhares" de mortos nos protestos, depois executa os sobreviventes</title>
-<link>https://iwillnotlookaway.org/s/pt/nd-iran-repressione.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-iran-repressione.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANÁLISE</category>
-<description>O governo iraniano admite milhares de mortos nos protestos de janeiro de 2026, depois executa os sobreviventes: 141 execuções só em junho, um apagão de internet de 88 dias, um memorando interno que vazou e revela a manipulação narrativa do regime.</description>
-<enclosure url="https://iwillnotlookaway.org/s/pt/nd-iran.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Líbano: Mona Khalil morta na própria casa em Mansouri, sob uma ordem de evacuação</title>

@@ -6,7 +6,7 @@
 <description>基于国际法的五份宣言：以色列、俄罗斯、苏丹、美国、船队。法律分析、请愿与不承认原则。</description>
 <language>zh-CN</language>
 <atom:link href="https://iwillnotlookaway.org/s/zh/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:23 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:28 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>也门:战争再度加剧,推动新一轮儿童征募,联合国警告饥荒风险</title>
 <link>https://iwillnotlookaway.org/s/zh/nd-yemen-renewed-war.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-yemen-renewed-war.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>时事</category>
 <description>自上周以来,塔伊兹与荷台达之间已有100多人死亡;仅2026年第二季度就记录了62起新的儿童征募案例;600万人处于饥荒边缘。</description>
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-yemen-renewed-war.jpg" type="image/jpeg"/>
@@ -307,6 +307,15 @@
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-axis-of-resistance.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>流动的悖论：当同一只手武装了自己的敌人</title>
+<link>https://iwillnotlookaway.org/s/zh/op-paradox-of-flows.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-paradox-of-flows.html</guid>
+<pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+<category>观点</category>
+<description>本网站已核实的六篇报道——卡塔尔资助哈马斯、</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-paradox-of-flows.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>土耳其与中国无人机现身哈夫塔尔阵营：利比亚仍是联合国武器禁运的违反现场，如今冲突双方皆涉入其中</title>
 <link>https://iwillnotlookaway.org/s/zh/nd-libya-drones.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-libya-drones.html</guid>
@@ -325,6 +334,15 @@
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-black-sites.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>伊朗：政府承认抗议活动中有"数千人"死亡，随后处决幸存者</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-iran-repressione.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-iran-repressione.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<description>伊朗政府承认2026年1月抗议活动中有数千人死亡，随后处决幸存者：仅6月就有141人被处决，长达88天的互联网断网，一份泄露的内部备忘录揭示了政权的叙事操纵。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-iran.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>马里：军队与俄罗斯非洲军团雇佣兵杀害四名平民后将一具尸体摆成纳粹卐字标志</title>
 <link>https://iwillnotlookaway.org/s/zh/nd-mali.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-mali.html</guid>
@@ -341,6 +359,15 @@
 <category>分析</category>
 <description>从2018年到2023年10月7日，以色列批准并鼓励卡塔尔向哈马斯转移数亿美元资金，这遵循的是内塔尼亚胡本人所宣称的、旨在阻止巴勒斯坦民族团结的战略。在袭击发生前一个月，以色列还要求增加资助。</description>
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-qatar-hamas.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>美国武装叙利亚反对派长达五年，随后将该计划作为送给普京的"礼物"而终止</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-timber-sycamore.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-timber-sycamore.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<description>从2013年到2017年，中央情报局运行了一项耗资超过10亿美元的秘密计划来武装叙利亚反对派。这些武器部分最终流入了伊斯兰国的军火库。该计划之所以终止，并非因为这些后果，而是作为对俄缓和姿态的一部分。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-timber-sycamore.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>抹去一个女人的三种方式：法律、身体、死亡</title>
@@ -539,33 +566,6 @@
 <category>分析</category>
 <description>努里特·佩莱德-埃尔哈南，耶路撒冷希伯来大学语言教育荣誉教授，《以色列教科书中的巴勒斯坦》作者（I.B. Tauris，2012年），系统记录了以色列国立学校体系如何将巴勒斯坦人呈现为需要消灭的问题。历史上对巴勒斯坦人的屠杀被框架为"对犹太人有积极结果的事件"。研究者认为，大屠杀教育的设计不是为了培养普遍同理</description>
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-edu.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>伊朗：政府承认抗议活动中有"数千人"死亡，随后处决幸存者</title>
-<link>https://iwillnotlookaway.org/s/zh/nd-iran-repressione.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-iran-repressione.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>分析</category>
-<description>伊朗政府承认2026年1月抗议活动中有数千人死亡，随后处决幸存者：仅6月就有141人被处决，长达88天的互联网断网，一份泄露的内部备忘录揭示了政权的叙事操纵。</description>
-<enclosure url="https://iwillnotlookaway.org/s/zh/nd-iran.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>美国武装叙利亚反对派长达五年，随后将该计划作为送给普京的"礼物"而终止</title>
-<link>https://iwillnotlookaway.org/s/zh/nd-timber-sycamore.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-timber-sycamore.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>分析</category>
-<description>从2013年到2017年，中央情报局运行了一项耗资超过10亿美元的秘密计划来武装叙利亚反对派。这些武器部分最终流入了伊斯兰国的军火库。该计划之所以终止，并非因为这些后果，而是作为对俄缓和姿态的一部分。</description>
-<enclosure url="https://iwillnotlookaway.org/s/zh/nd-timber-sycamore.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>流动的悖论：当同一只手武装了自己的敌人</title>
-<link>https://iwillnotlookaway.org/s/zh/op-paradox-of-flows.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-paradox-of-flows.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>观点</category>
-<description>本网站已核实的六篇报道——卡塔尔资助哈马斯、</description>
-<enclosure url="https://iwillnotlookaway.org/s/zh/op-paradox-of-flows.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>黎巴嫩：蒙娜·哈利尔在曼苏里自家中遇难，处于疏散令之下</title>

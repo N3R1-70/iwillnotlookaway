@@ -6,7 +6,7 @@
 <description>خمسة بيانات مؤسسة على القانون الدولي: إسرائيل، روسيا، السودان، الولايات المتحدة، الأسطول. تحليلات قانونية وعرائض.</description>
 <language>ar</language>
 <atom:link href="https://iwillnotlookaway.org/s/ar/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:24 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:29 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>اليمن: الحرب تشتد من جديد وتغذي تجنيد الأطفال، بينما تحذر الأمم المتحدة من خطر المجاعة</title>
 <link>https://iwillnotlookaway.org/s/ar/nd-yemen-renewed-war.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-yemen-renewed-war.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>أحداث جارية</category>
 <description>أكثر من 100 قتيل منذ الأسبوع الماضي بين تعز والحديدة، و62 حالة تجنيد أطفال جديدة موثقة في الربع الثاني من 2026 وحده، و6 ملايين شخص على حافة المجاعة.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ar/nd-yemen-renewed-war.jpg" type="image/jpeg"/>
@@ -343,6 +343,15 @@
 <enclosure url="https://iwillnotlookaway.org/s/ar/nd-black-sites.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>إيران: الحكومة تعترف بـ"آلاف" القتلى في الاحتجاجات، ثم تعدم الناجين</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-iran-repressione.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-iran-repressione.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<description>تعترف الحكومة الإيرانية بآلاف القتلى في احتجاجات يناير 2026، ثم تعدم الناجين: 141 إعدامًا في يونيو وحده، وانقطاع للإنترنت دام 88 يومًا، ومذكرة داخلية مسرَّبة تكشف تلاعب النظام بالسردية.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-iran.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>مالي: الجيش ومرتزقة فيلق أفريقيا الروسي ينظمون جثة على شكل صليب معقوف بعد قتل أربعة مدنيين</title>
 <link>https://iwillnotlookaway.org/s/ar/nd-mali.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-mali.html</guid>
@@ -512,15 +521,6 @@
 <category>بيان</category>
 <description>266 مليون إنسان لا يجدون ما يكفي من الطعام. العالم يعلم، والعالم يصمت. · 2026</description>
 <enclosure url="https://iwillnotlookaway.org/s/ar/m-fame.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>إيران: الحكومة تعترف بـ"آلاف" القتلى في الاحتجاجات، ثم تعدم الناجين</title>
-<link>https://iwillnotlookaway.org/s/ar/nd-iran-repressione.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-iran-repressione.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>تحليل</category>
-<description>تعترف الحكومة الإيرانية بآلاف القتلى في احتجاجات يناير 2026، ثم تعدم الناجين: 141 إعدامًا في يونيو وحده، وانقطاع للإنترنت دام 88 يومًا، ومذكرة داخلية مسرَّبة تكشف تلاعب النظام بالسردية.</description>
-<enclosure url="https://iwillnotlookaway.org/s/ar/nd-iran.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>لبنان: مقتل منى خليل في منزلها بالمنصوري تحت أمر إخلاء</title>

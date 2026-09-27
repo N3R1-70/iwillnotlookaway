@@ -6,7 +6,7 @@
 <description>Uluslararası hukuka dayanan beş manifesto: İsrail, Rusya, Sudan, ABD, Filo. Hukuki analizler, dilekçeler, tanımama ilkesi.</description>
 <language>tr-TR</language>
 <atom:link href="https://iwillnotlookaway.org/s/tr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:20 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:28 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>Yemen: savaş yeniden şiddetleniyor ve çocuk askere alımını körüklüyor, BM ise kıtlık riskine karşı uyarıyor</title>
 <link>https://iwillnotlookaway.org/s/tr/nd-yemen-yeniden-alevlenen-savas.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yemen-yeniden-alevlenen-savas.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>GÜNCEL</category>
 <description>Geçen haftadan bu yana Taiz ve Hudeyde arasında 100'den fazla ölü, yalnızca 2026'nın ikinci çeyreğinde belgelenen 62 yeni çocuk askere alma vakası, kıtlığın eşiğinde 6 milyon kişi.</description>
 <enclosure url="https://iwillnotlookaway.org/s/tr/nd-yemen-yeniden-alevlenen-savas.jpg" type="image/jpeg"/>
@@ -334,6 +334,15 @@
 <enclosure url="https://iwillnotlookaway.org/s/tr/nd-black-sites.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>İran: Hükümet protestolarda "binlerce" ölümü kabul ediyor, ardından hayatta kalanları idam ediyor</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-iran-repressione.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-iran-repressione.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<description>İran hükümeti Ocak 2026 protestolarında binlerce ölümü kabul ediyor, ardından hayatta kalanları idam ediyor: sadece Haziran'da 141 idam, 88 günlük internet karartması, rejimin anlatı manipülasyonunu ortaya koyan sızdırılmış bir iç yazışma.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-iran.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Mali: Ordu ve Rus Africa Corps paralı askerleri dört sivili öldürdükten sonra bir cesedi gamalı haç şeklinde diziyor</title>
 <link>https://iwillnotlookaway.org/s/tr/nd-mali.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-mali.html</guid>
@@ -575,15 +584,6 @@
 <category>ANALİZ</category>
 <description>Kudüs İbrani Üniversitesi'nde Dil Eğitimi Profesörü Emeritus ve Palestine in Israeli School Books (I.B. Tauris, 2012) kitabının yazarı Nurit Peled-Elhanan,</description>
 <enclosure url="https://iwillnotlookaway.org/s/tr/nd-edu.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>İran: Hükümet protestolarda "binlerce" ölümü kabul ediyor, ardından hayatta kalanları idam ediyor</title>
-<link>https://iwillnotlookaway.org/s/tr/nd-iran-repressione.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-iran-repressione.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALİZ</category>
-<description>İran hükümeti Ocak 2026 protestolarında binlerce ölümü kabul ediyor, ardından hayatta kalanları idam ediyor: sadece Haziran'da 141 idam, 88 günlük internet karartması, rejimin anlatı manipülasyonunu ortaya koyan sızdırılmış bir iç yazışma.</description>
-<enclosure url="https://iwillnotlookaway.org/s/tr/nd-iran.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Lübnan: Mona Khalil, Mansouri’deki evinde, bir tahliye emri altında öldürüldü</title>

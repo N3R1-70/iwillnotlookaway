@@ -6,7 +6,7 @@
 <description>Fünf Manifeste auf Grundlage des Völkerrechts: Israel, Russland, Sudan, USA, Flotilla. Rechtsanalysen, Petitionen, Nicht-Anerkennung.</description>
 <language>de-DE</language>
 <atom:link href="https://iwillnotlookaway.org/s/de/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:16 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:26 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>Jemen: Der Krieg flammt erneut auf und befeuert die Rekrutierung von Kindersoldaten, während die UN vor Hungersnot warnt</title>
 <link>https://iwillnotlookaway.org/s/de/nd-yemen-wiederaufgeflammter-krieg.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-yemen-wiederaufgeflammter-krieg.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>AKTUELLES</category>
 <description>Über 100 Tote seit letzter Woche zwischen Taiz und Hodeidah, 62 neu dokumentierte Fälle von Kinderrekrutierung allein im zweiten Quartal 2026, 6 Millionen Menschen am Rand einer Hungersnot.</description>
 <enclosure url="https://iwillnotlookaway.org/s/de/nd-yemen-wiederaufgeflammter-krieg.jpg" type="image/jpeg"/>
@@ -334,6 +334,15 @@
 <enclosure url="https://iwillnotlookaway.org/s/de/nd-black-sites.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>Iran: Regierung räumt "Tausende" Tote bei Protesten ein, dann hinrichtet sie die Überlebenden</title>
+<link>https://iwillnotlookaway.org/s/de/nd-iran-repressione.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-iran-repressione.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>Die iranische Regierung räumt Tausende Tote bei den Protesten im Januar 2026 ein und hinrichtet dann die Überlebenden: allein im Juni 141 Hinrichtungen, eine 88-tägige Internet-Blockade und ein durchgesickertes internes Memo, das die Narrativ-Manipulation des Regimes offenlegt.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-iran.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Mali: Armee und russische Africa-Corps-Söldner legen nach der Tötung von vier Zivilisten eine Leiche als Hakenkreuz an</title>
 <link>https://iwillnotlookaway.org/s/de/nd-mali.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-mali.html</guid>
@@ -512,15 +521,6 @@
 <category>MANIFEST</category>
 <description>266 Millionen Menschen haben nicht genug zu essen. Die Welt weiß es. Die Welt schweigt. · 2026</description>
 <enclosure url="https://iwillnotlookaway.org/s/de/m-fame.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>Iran: Regierung räumt "Tausende" Tote bei Protesten ein, dann hinrichtet sie die Überlebenden</title>
-<link>https://iwillnotlookaway.org/s/de/nd-iran-repressione.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-iran-repressione.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALYSE</category>
-<description>Die iranische Regierung räumt Tausende Tote bei den Protesten im Januar 2026 ein und hinrichtet dann die Überlebenden: allein im Juni 141 Hinrichtungen, eine 88-tägige Internet-Blockade und ein durchgesickertes internes Memo, das die Narrativ-Manipulation des Regimes offenlegt.</description>
-<enclosure url="https://iwillnotlookaway.org/s/de/nd-iran.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Libanon: Mona Khalil im eigenen Haus in Mansouri getötet, unter einem Räumungsbefehl</title>

@@ -6,7 +6,7 @@
 <description>Five manifestos grounded in international law: Israel, Russia, Sudan, the United States, the Flotilla. Legal analysis, petitions, non-recognition.</description>
 <language>en-US</language>
 <atom:link href="https://iwillnotlookaway.org/s/en/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:14 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:25 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>Yemen: war intensifies again and fuels child recruitment, as the UN warns of famine risk</title>
 <link>https://iwillnotlookaway.org/s/en/nd-yemen-renewed-war.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-yemen-renewed-war.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>CURRENT AFFAIRS</category>
 <description>Over 100 killed since last week between Taiz and Hodeidah, 62 new child-recruitment cases documented in the second quarter of 2026 alone, 6 million people on the edge of famine.</description>
 <enclosure url="https://iwillnotlookaway.org/s/en/nd-yemen-renewed-war.jpg" type="image/jpeg"/>
@@ -271,6 +271,24 @@
 <enclosure url="https://iwillnotlookaway.org/s/en/op-stomach-for-war.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>Colombia: a 2016 peace deal, and children recruited at gunpoint in 2025</title>
+<link>https://iwillnotlookaway.org/s/en/nd-colombia-catatumbo.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-colombia-catatumbo.html</guid>
+<pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>In Colombia's Catatumbo region, the ELN forced over 64,000 people to flee; child recruitment rose 81% in a year.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-colombia-catatumbo.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Ethiopia: the war the government still calls a “security problem”</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ethiopia-amhara.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ethiopia-amhara.html</guid>
+<pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>In Amhara, since 2023, the Ethiopian army and the Fano militia have fought with the same methods: summary executions, drone strikes on civilians, forced disappearances.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ethiopia-amhara.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>A Mayor, an Arrest Warrant, and a Question No One Really Wants to Ask</title>
 <link>https://iwillnotlookaway.org/s/en/nd-mamdani-netanyahu.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-mamdani-netanyahu.html</guid>
@@ -314,6 +332,15 @@
 <category>ANALYSIS</category>
 <description>Between 2012 and 2018, the European Court of Human Rights condemned four countries for hosting secret CIA prisons. The woman who ran one of the harshest sites, where waterboarding was practiced, later became CIA Director. No American official has ever answered for that torture.</description>
 <enclosure url="https://iwillnotlookaway.org/s/en/nd-black-sites.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Iran: government admits "thousands" dead in protests, then executes the survivors</title>
+<link>https://iwillnotlookaway.org/s/en/nd-iran-repressione.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-iran-repressione.html</guid>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>The Iranian government admits thousands of deaths in the January 2026 protests, then executes the survivors: 141 executions in June alone, an 88-day internet blackout, and a leaked internal memo revealing the regime's narrative manipulation.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-iran.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Mali: army and Russian Africa Corps mercenaries arrange a corpse into a swastika after killing four civilians</title>
@@ -550,15 +577,6 @@
 <enclosure url="https://iwillnotlookaway.org/s/en/m1.jpg" type="image/jpeg"/>
 </item>
 <item>
-<title>Colombia: a 2016 peace deal, and children recruited at gunpoint in 2025</title>
-<link>https://iwillnotlookaway.org/s/en/nd-colombia-catatumbo.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-colombia-catatumbo.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALYSIS</category>
-<description>In Colombia's Catatumbo region, the ELN forced over 64,000 people to flee; child recruitment rose 81% in a year.</description>
-<enclosure url="https://iwillnotlookaway.org/s/en/nd-colombia-catatumbo.jpg" type="image/jpeg"/>
-</item>
-<item>
 <title>The Israeli school system: a factory of the enemy</title>
 <link>https://iwillnotlookaway.org/s/en/nd-edu.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-edu.html</guid>
@@ -566,24 +584,6 @@
 <category>ANALYSIS</category>
 <description>Nurit Peled-Elhanan, Professor Emerita of Language Education at the Hebrew University of Jerusalem and author of Palestine in Israeli School Books (I.B. Ta</description>
 <enclosure url="https://iwillnotlookaway.org/s/en/nd-edu.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>Ethiopia: the war the government still calls a “security problem”</title>
-<link>https://iwillnotlookaway.org/s/en/nd-ethiopia-amhara.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ethiopia-amhara.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALYSIS</category>
-<description>In Amhara, since 2023, the Ethiopian army and the Fano militia have fought with the same methods: summary executions, drone strikes on civilians, forced disappearances.</description>
-<enclosure url="https://iwillnotlookaway.org/s/en/nd-ethiopia-amhara.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>Iran: government admits "thousands" dead in protests, then executes the survivors</title>
-<link>https://iwillnotlookaway.org/s/en/nd-iran-repressione.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-iran-repressione.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALYSIS</category>
-<description>The Iranian government admits thousands of deaths in the January 2026 protests, then executes the survivors: 141 executions in June alone, an 88-day internet blackout, and a leaked internal memo revealing the regime's narrative manipulation.</description>
-<enclosure url="https://iwillnotlookaway.org/s/en/nd-iran.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Lebanon: Mona Khalil killed in her own home in Mansouri, under an evacuation order</title>

@@ -6,7 +6,7 @@
 <description>Cinq manifestes fondés sur le droit international : Israël, Russie, Soudan, États-Unis, Flottille. Analyses juridiques, pétitions, non-reconnaissance.</description>
 <language>fr-FR</language>
 <atom:link href="https://iwillnotlookaway.org/s/fr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 13:20:15 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 13:33:25 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -58,7 +58,7 @@
 <title>Yémen : la guerre s'intensifie de nouveau et relance le recrutement d'enfants, tandis que l'ONU alerte sur le risque de famine</title>
 <link>https://iwillnotlookaway.org/s/fr/nd-yemen-guerre-ravivee.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-yemen-guerre-ravivee.html</guid>
-<pubDate>Thu, 10 Sep 2026 14:51:48 GMT</pubDate>
+<pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
 <category>ACTUALITÉ</category>
 <description>Plus de 100 morts depuis la semaine dernière entre Taïz et Hodeïda, 62 nouveaux cas de recrutement d'enfants documentés au seul deuxième trimestre 2026, 6 millions de personnes au bord de la famine.</description>
 <enclosure url="https://iwillnotlookaway.org/s/fr/nd-yemen-guerre-ravivee.jpg" type="image/jpeg"/>
@@ -269,6 +269,24 @@
 <category>OPINION</category>
 <description>Une opinion à partir d'un article de Nathalie Tocci dans The Economist : l'envoi de troupes européennes en Ukraine comme mesure post-cessez-le-feu, le déficit de mandat démocratique de l'accord intergouvernemental, et la comparaison avec l'opinion publique ukrainienne consultée sur les mêmes garanties.</description>
 <enclosure url="https://iwillnotlookaway.org/s/fr/op-estomac-pour-la-guerre.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Colombie : un accord de paix de 2016, et des enfants enrôlés de force en 2025</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-colombie-catatumbo.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-colombie-catatumbo.html</guid>
+<pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>Dans la région colombienne du Catatumbo, l'ELN a contraint plus de 64 000 personnes à fuir ; le recrutement d'enfants a augmenté de 81 % en un an.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-colombie-catatumbo.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Éthiopie : la guerre que le gouvernement appelle encore « problème de sécurité »</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-ethiopie-amhara.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-ethiopie-amhara.html</guid>
+<pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>Depuis 2023, en Amhara, l'armée éthiopienne et la milice Fano se combattent avec les mêmes méthodes : exécutions sommaires, frappes de drones sur des civils, disparitions forcées.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-ethiopie-amhara.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Un maire, un mandat d’arrêt, une question que personne ne veut vraiment se poser</title>
@@ -559,15 +577,6 @@
 <enclosure url="https://iwillnotlookaway.org/s/fr/m1.jpg" type="image/jpeg"/>
 </item>
 <item>
-<title>Colombie : un accord de paix de 2016, et des enfants enrôlés de force en 2025</title>
-<link>https://iwillnotlookaway.org/s/fr/nd-colombie-catatumbo.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-colombie-catatumbo.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALYSE</category>
-<description>Dans la région colombienne du Catatumbo, l'ELN a contraint plus de 64 000 personnes à fuir ; le recrutement d'enfants a augmenté de 81 % en un an.</description>
-<enclosure url="https://iwillnotlookaway.org/s/fr/nd-colombie-catatumbo.jpg" type="image/jpeg"/>
-</item>
-<item>
 <title>L'école israélienne : une fabrique de l'ennemi</title>
 <link>https://iwillnotlookaway.org/s/fr/nd-edu.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-edu.html</guid>
@@ -575,15 +584,6 @@
 <category>ANALYSE</category>
 <description>Nurit Peled-Elhanan, professeure émérite d'éducation linguistique à l'Université hébraïque de Jérusalem et auteure de Palestine in Israeli School Books (I.</description>
 <enclosure url="https://iwillnotlookaway.org/s/fr/nd-edu.jpg" type="image/jpeg"/>
-</item>
-<item>
-<title>Éthiopie : la guerre que le gouvernement appelle encore « problème de sécurité »</title>
-<link>https://iwillnotlookaway.org/s/fr/nd-ethiopie-amhara.html</link>
-<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-ethiopie-amhara.html</guid>
-<pubDate>Sat, 20 Jun 2026 09:39:01 GMT</pubDate>
-<category>ANALYSE</category>
-<description>Depuis 2023, en Amhara, l'armée éthiopienne et la milice Fano se combattent avec les mêmes méthodes : exécutions sommaires, frappes de drones sur des civils, disparitions forcées.</description>
-<enclosure url="https://iwillnotlookaway.org/s/fr/nd-ethiopie-amhara.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Liban : Mona Khalil tuée dans sa propre maison à Mansouri, sous un ordre d’évacuation</title>

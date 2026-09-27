@@ -103,10 +103,21 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p class="back"><a href="/zh/">← 全部动态与宣言</a></p>
 </article>
 <script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Link copied");});}else{window.prompt("Link copied",u);}}</script>
+<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
+<p class="section-header">保持关注</p>
+<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">只有当事实值得时，才发送一份精要摘要。没有垃圾邮件，没有算法：你的邮箱仍属于你。</p>
+<form data-ok="你的邮件应用已打开——发送该邮件以确认订阅。" onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+<input type="email" required placeholder="你的@邮箱.com" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
+<button type="submit" class="btn-primary">订阅</button>
+</form>
+<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">订阅即表示你同意接收 I Will Not Look Away 的更新。可随时取消。</p>
+</section>
 <footer>
 <p>I Will Not Look Away · iwillnotlookaway.org · 2026</p><p class="ftr-ia-nota" style="margin:10px auto 0;max-width:640px;line-height:1.6">草稿由人工智能辅助完成;来源核实、编辑方向和最终责任完全由人承担 — <a href="/s/zh/method.html">方法说明</a>.</p>
 <p style="margin-top:10px;font-size:13px;letter-spacing:.04em"><a href="/s/zh/topics.html">主题</a> · <a href="/s/zh/sources.html">来源</a> · <a href="/s/zh/method.html">方法</a> · <a href="/s/zh/legal-references.html">法律依据</a> · <a href="/s/zh/glossary.html">词汇表</a> · <a href="/s/zh/languages.html">语言</a></p>
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </footer>
+<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}
+</script>
 </body>
 </html>

@@ -78,37 +78,53 @@ fbq('consent', 'revoke');
 <link rel="alternate" hreflang="ar" href="https://iwillnotlookaway.org/s/ar/nd-yemen-renewed-war.html"/>
 <link rel="alternate" hreflang="he" href="https://iwillnotlookaway.org/s/he/nd-yemen-renewed-war.html"/>
 <link rel="alternate" hreflang="ru" href="https://iwillnotlookaway.org/s/ru/nd-yemen-renewed-war.html"/>
-<link rel="alternate" hreflang="x-default" href="https://iwillnotlookaway.org/s/en/nd-yemen-renewed-war.html"/>
+<link rel="alternate" hreflang="x-default" href="https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html"/>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
 <style>
 :root{--void:#080808;--deep:#0e0e0e;--surface:#141414;--line:#2a2a2a;--ash:#5a5a5a;--dust:#8a8a8a;--pale:#b8b4ac;--ghost:#d8d4cc;--bone:#ece8e0;--blood:#6b1414;--ember:#8b2020;--glow:#a83030}
 *{box-sizing:border-box}
 body{margin:0;background:var(--void);color:var(--pale);font-family:'Source Serif 4',Georgia,serif;line-height:1.75;font-size:18px}
 a{color:var(--glow)}
+#main-nav{position:sticky;top:0;z-index:100;background:rgba(8,8,8,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+#nav-logo-wrap{display:flex;justify-content:center;padding:10px 0 6px;border-bottom:1px solid var(--line)}
+#nav-logo{width:280px;max-width:80%;height:auto;display:block}
+#nav-links{display:flex;justify-content:center;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.nav-link{font-family:'Source Serif 4',serif;font-size:.7rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--ash);padding:10px 18px;text-decoration:none;transition:color .3s}
+.nav-link:hover,.nav-link.active{color:var(--glow)}
+#lang-bar{display:flex;justify-content:center;flex-wrap:wrap}
+.lang-btn{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ash);padding:8px 12px;text-decoration:none;display:inline-block}
+.lang-btn:hover{color:var(--ghost)}
+.lang-btn.active{color:var(--glow)}
+.section-inner{max-width:800px;margin:0 auto;padding:50px 48px 90px}
+.section-header{font-size:.62rem;letter-spacing:.4em;text-transform:uppercase;color:var(--glow);margin-bottom:32px;display:flex;align-items:center;gap:20px}
+.section-header::after{content:'';flex:1;height:1px;background:linear-gradient(to right,var(--blood),transparent)}
+.btn-primary{display:inline-block;text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--bone);background:var(--blood);border:1px solid var(--ember);padding:16px 40px;cursor:pointer;font-family:inherit}
+.btn-primary:hover{background:var(--ember)}
+@media(max-width:640px){.nav-link{padding:8px 12px;font-size:.62rem}.lang-btn{padding:7px 8px;font-size:.62rem}.section-inner{padding:36px 24px 70px}}
 .wrap{max-width:720px;margin:0 auto;padding:54px 24px 30px}
 .cat{color:var(--glow);font-size:12px;letter-spacing:.3em;text-transform:uppercase;margin:0 0 18px}
 h1{font-family:'EB Garamond',serif;font-weight:700;font-size:38px;line-height:1.18;color:var(--bone);margin:0 0 16px}
 .date{color:var(--dust);font-size:15px;margin:0 0 30px}
 .quote{border-left:2px solid var(--ember);padding:6px 0 6px 22px;margin:0 0 36px;font-style:italic;font-size:22px;color:var(--ghost);line-height:1.5}
 .lab,h2{color:var(--glow);font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin:38px 0 10px;font-weight:600;font-family:'Source Serif 4',Georgia,serif}
+h3.mt{font-family:'EB Garamond',serif;font-weight:700;font-size:30px;color:var(--bone);margin:0 0 14px;line-height:1.2}
+h4{color:var(--glow);font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin:34px 0 10px;font-weight:600}
 p{margin:0 0 18px}
 .src{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;color:var(--ash);font-size:14px}
 .src a{color:var(--dust)}
+.cta{border:1px solid var(--line);background:var(--deep);padding:26px;margin:46px 0 0;text-align:center}
+.cta a.btn{display:inline-block;border:1px solid var(--glow);color:var(--bone);text-decoration:none;padding:11px 22px;letter-spacing:.04em;margin-top:6px}
 .back{margin:34px 0 0}
+.back a{color:var(--dust);text-decoration:none;letter-spacing:.04em}
 footer{border-top:1px solid var(--line);margin-top:50px;padding:26px 24px 40px;text-align:center;color:var(--ash);font-size:13px}
-a.ref{color:inherit;text-decoration:underline;text-decoration-color:var(--ash);text-underline-offset:3px;text-decoration-thickness:1px}
-a.ref:hover{color:var(--bone);text-decoration-color:var(--glow)}
-.chips{max-width:720px;margin:30px auto 0;padding:0 24px;display:flex;flex-wrap:wrap}
-.chip{display:inline-block;text-decoration:none;border:1px solid var(--line);color:var(--dust);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;margin:0 8px 8px 0}
-.draftflag{background:#3a1a00;border:1px solid #a86a20;color:#ffcf8a;font-size:13px;padding:14px 18px;margin-bottom:30px;line-height:1.6}
-@media(max-width:600px){h1{font-size:30px}.quote{font-size:19px}body{font-size:17px}}
-
-</style>
+footer a{color:var(--dust);text-decoration:none;letter-spacing:.05em}
+[dir=rtl] .quote{border-left:0;border-right:2px solid var(--ember);padding:6px 22px 6px 0}
+@media(max-width:600px){h1{font-size:30px}h3.mt{font-size:25px}.quote{font-size:19px}body{font-size:17px}}
+a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;display:flex;flex-wrap:wrap}.chip{display:inline-block;text-decoration:none;border:1px solid var(--line);color:var(--dust);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;margin:0 8px 8px 0}.chip:hover{border-color:var(--ember);color:var(--bone)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:34px 0 6px}.btn-share,.btn-pdf{font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--dust);background:none;border:1px solid var(--line);padding:9px 16px;border-radius:2px;cursor:pointer;text-decoration:none;font-family:inherit;display:inline-flex;align-items:center;gap:7px}.btn-share:hover,.btn-pdf:hover{color:var(--glow);border-color:var(--glow)}#consent-banner{position:fixed;bottom:0;left:0;right:0;z-index:300;background:rgba(8,8,8,.98);backdrop-filter:blur(8px);border-top:1px solid var(--blood);padding:18px 24px;display:none;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}#consent-text{font-size:.85rem;color:var(--dust);max-width:560px;margin:0;line-height:1.6}.consent-btn{font-family:'Source Serif 4',serif;font-size:.72rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;padding:10px 26px;transition:all .3s}#consent-accept{color:var(--bone);background:var(--blood);border:1px solid var(--ember)}#consent-accept:hover{background:var(--ember)}#consent-decline{color:var(--ash);background:none;border:1px solid var(--line)}#consent-decline:hover{color:var(--ghost);border-color:var(--ash)}p.cat.tc-an{color:#7a8b96}p.cat.tc-ca{color:#a8823c}p.cat.tc-op{color:#8b7a96}p.cat.tc-ma{color:#a83030}</style>
 </head>
 <body>
-<div class="wrap">
-
-
+<nav id="main-nav"><div id="nav-logo-wrap"><a href="/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/s/he/manifestos.html">מניפסטים</a><a class="nav-link" href="/s/he/news.html">ניתוחים</a><a class="nav-link active" href="/s/he/current-affairs.html">אקטואליה</a><a class="nav-link" href="/s/he/opinions.html">דעות</a><a class="nav-link" href="/s/he/petitions.html">עצומות</a><a class="nav-link" href="/s/he/topics.html">נושאים</a><a class="nav-link" href="/s/he/legal-references.html">מקורות משפטיים</a><a class="nav-link" href="/s/he/glossary.html">מילון מונחים</a><a class="nav-link" href="/s/he/about.html">אודות</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/nd-yemen-guerra-riaccesa.html">IT</a><a class="lang-btn" href="/s/en/nd-yemen-renewed-war.html">EN</a><a class="lang-btn" href="/s/fr/nd-yemen-guerre-ravivee.html">FR</a><a class="lang-btn" href="/s/de/nd-yemen-wiederaufgeflammter-krieg.html">DE</a><a class="lang-btn" href="/s/zh/nd-yemen-renewed-war.html">中文</a><a class="lang-btn" href="/s/ar/nd-yemen-renewed-war.html">AR</a><a class="lang-btn" href="/s/es/nd-yemen-guerra-reactivada.html">ES</a><a class="lang-btn" href="/s/pt/nd-yemen-guerra-reacendida.html">PT</a><a class="lang-btn" href="/s/tr/nd-yemen-yeniden-alevlenen-savas.html">TR</a><a class="lang-btn active" href="/s/he/nd-yemen-renewed-war.html">עב</a><a class="lang-btn" href="/s/ru/nd-yemen-renewed-war.html">RU</a></div></nav>
+<article class="wrap">
 <p class="cat tc-ca">אקטואליה</p>
 <h1>תימן: המלחמה מתלקחת שוב ומזינה את גיוס הילדים, בעוד האו״ם מזהיר מפני סכנת רעב</h1>
 <p class="date">ספטמבר 2026</p>
@@ -132,14 +148,21 @@ a.ref:hover{color:var(--bone);text-decoration-color:var(--glow)}
 <p class="rel-link" style="border-top:1px solid var(--line);margin-top:24px;padding-top:16px;color:var(--ash);font-size:14px">כתבה קשורה: <a class="ref" href="/s/he/nd-yemen.html">תימן: 73 עובדי האו״ם עדיין עצורים באופן שרירותי בידי החות'ים, בעוד אל-חודיידה מדממת שוב</a> — אותו אזור סכסוך (אל-חודיידה); המתקפה בתחילת ספטמבר המתוארת כאן היא המשך ההסלמה שכבר דווחה ביולי.</p>
 
 <p class="src">מקורות: <a href="https://www.aljazeera.com/news/2026/9/8/yemens-reignited-war-fuels-a-new-wave-in-child-recruitment" target="_blank" rel="noopener noreferrer">אל-ג׳זירה — גיוס ילדים ומתקפת תעז/אל-חודיידה</a> · <a href="https://www.aljazeera.com/news/2026/8/14/yemen-faces-highest-risk-of-returning-to-war-since-2022-truce-un-warns" target="_blank" rel="noopener noreferrer">אל-ג׳זירה — דבריו של טום פלטשר במועצת הביטחון</a> · <a href="https://reliefweb.int/report/yemen/yemen-humanitarian-crisis-deepens-aid-agencies-appeal-us216-billion-assist-millions-2026-enar" target="_blank" rel="noopener noreferrer">OCHA/ReliefWeb — תוכנית התגובה ההומניטרית לתימן 2026 (18/3/2026)</a> · <a href="https://samrl.org" target="_blank" rel="noopener noreferrer">ארגון SAM לזכויות וחירויות</a> · <a href="https://www.crisisgroup.org" target="_blank" rel="noopener noreferrer">קבוצת המשבר הבינלאומית — אחמד נאג'י, אנליסט בכיר לתימן</a> · <a href="https://www.rescue.org" target="_blank" rel="noopener noreferrer">הוועדה הבינלאומית להצלה — רשימת המעקב לשעת חירום 2026</a> · <a href="https://www.acaps.org" target="_blank" rel="noopener noreferrer">ACAPS/ארגון המזון והחקלאות/יוניצף/הבנק העולמי/תוכנית המזון העולמית/ארגון הבריאות העולמי — דוח ניטור משותף לתימן</a> · <a href="https://www.cfr.org/global-conflict-tracker/conflict/war-yemen" target="_blank" rel="noopener noreferrer">CFR — מעקב הסכסוכים העולמי</a> · <a href="https://english.ahram.org.eg/News/573168.aspx" target="_blank" rel="noopener noreferrer">אל-אהראם (AP) — הכרזת ההסגר הימי החות'י, 20/7/2026</a> · <a href="https://www.arabnews.com/node/2651670/saudi-arabia" target="_blank" rel="noopener noreferrer">ערב ניוז — התגובה הסעודית, 21/7/2026</a></p>
-<p style="color:var(--ash);font-size:13px;margin-top:-10px">הערת אימות: ההסגר הימי שוחזר כעת כראוי ותוארך (הכרזה חות'ית מ-20/7/2026, שנדחתה בידי ריאד ב-21/7/2026) — אין אימות בלתי תלוי זמין לגבי האכיפה בפועל, ודווח כטענות מנוגדות. הנתון «21.6 מיליון» שכבר שימש ב-nd-yemen.html (יולי 2026) לא נעשה בו שימוש חוזר כאן, מכיוון שהוא מיושן לעומת נתון ה-OCHA העדכני יותר (22.3 מיליון, מרץ 2026).</p>
-
-<h2 class="lab">מקורות הממתינים לפרופיל (FONTI-70, סטטוס «לא פרופיל»)</h2>
-<p style="font-size:15px;color:var(--dust)">acaps.org · samrl.org (ארגון SAM לזכויות וחירויות, אושר) · crisisgroup.org (קבוצת המשבר הבינלאומית, אושר) · reliefweb.int (הפורטל של OCHA עצמו, הדומיין אומת בסשן זה).</p>
-
+<p style="color:var(--ash);font-size:13px;margin-top:-10px">הערת אימות: המצור הימי מובא כהצהרות סותרות (הוכרז על ידי החות׳ים ב־20/7/2026 ונדחה על ידי ריאד ב־21/7/2026); אין אימות עצמאי לאכיפתו בפועל. למספר הזקוקים לסיוע אנו משתמשים בנתון העדכני ביותר של OCHA (22.3 מיליון, מרץ 2026), המחליף את 21.6 המיליון שצוטטו בכתבה מיולי.</p>
+<div class="actions"><button class="btn-share" type="button" onclick="shareThis()"><span>שיתוף</span></button></div>
 <div class="chips"><a class="chip" href="/s/he/tag/yemen.html">תימן</a><a class="chip" href="/s/he/tag/children.html">ילדים</a><a class="chip" href="/s/he/tag/hunger-and-famine.html">רעב ומחסור</a></div>
-<p class="back">← תגיות שנעשה בהן שימוש חוזר, אין תגית חדשה ליצור</p>
-</div>
+<p class="back"><a href="/he/">כל החדשות והמניפסטים →</a></p>
+</article>
+<script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("הקישור הועתק");});}else{window.prompt("הקישור הועתק",u);}}</script>
+<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
+<p class="section-header">הישארו מעודכנים</p>
+<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">תקציר תמציתי, רק כשעובדה ראויה לכך. בלי ספאם, בלי אלגוריתם: הדוא״ל שלכם נשאר שלכם.</p>
+<form data-ok="תוכנת הדוא״ל שלכם נפתחה — שלחו את ההודעה כדי לאשר את ההרשמה." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+<input type="email" required placeholder="your@email.com" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
+<button type="submit" class="btn-primary">הרשמה</button>
+</form>
+<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">בהרשמה אתם מסכימים לקבל עדכונים מ-I Will Not Look Away. ניתן לבטל בכל עת.</p>
+</section>
 <div id="consent-banner">
 <p id="consent-text">אתר זה משתמש ב-Google Analytics וב-Meta Pixel כדי למדוד ביקורים, כולל כאלה המגיעים מקמפיינים ברשתות חברתיות. הנתונים אינם נמכרים; הם משותפים רק עם Google ו-Meta למטרות אלה.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">מסכים</button>
@@ -159,6 +182,11 @@ function consentChoice(ok){
   }
 })();
 </script>
-<footer><p>טיוטת עבודה — I Will Not Look Away · לא פורסם</p></footer>
+<footer>
+<p>I Will Not Look Away · iwillnotlookaway.org · 2026</p><p class="ftr-ia-nota" style="margin:10px auto 0;max-width:640px;line-height:1.6">הטיוטות מוכנות בסיוע בינה מלאכותית; אימות המקורות, הכיוון העריכתי והאחריות הסופית נותרים אנושיים לחלוטין — <a href="/s/he/method.html">הערת שיטה</a>.</p>
+<p style="margin-top:10px;font-size:13px;letter-spacing:.04em"><a href="/s/he/topics.html">נושאים</a> · <a href="/s/he/sources.html">מקורות</a> · <a href="/s/he/method.html">שיטה</a> · <a href="/s/he/legal-references.html">מקורות משפטיים</a> · <a href="/s/he/glossary.html">מילון מונחים</a> · <a href="/s/he/languages.html">שפות</a></p>
+<p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+</footer>
+<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Ok.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
 </body>
 </html>

@@ -143,6 +143,15 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p class="back"><a href="/">← All news and manifestos</a></p>
 </article>
 <script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Link copied");});}else{window.prompt("Link copied",u);}}</script>
+<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
+<p class="section-header">Stay informed</p>
+<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">A concise digest, only when a fact deserves it. No spam, no algorithm: your email stays yours.</p>
+<form data-ok="Your email app just opened — send the message to confirm your subscription." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+<input type="email" required placeholder="your@email.com" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
+<button type="submit" class="btn-primary">Subscribe</button>
+</form>
+<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">By subscribing you agree to receive updates from I Will Not Look Away. Unsubscribe anytime.</p>
+</section>
 <div id="consent-banner">
 <p id="consent-text">This site uses Google Analytics and Meta Pixel to measure visits, including from social media campaigns. Data is not sold; it is shared only with Google and Meta for these purposes.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accept</button>
@@ -167,5 +176,7 @@ function consentChoice(ok){
 <p style="margin-top:10px;font-size:13px;letter-spacing:.04em"><a href="/s/en/topics.html">Topics</a> · <a href="/s/en/sources.html">Sources</a> · <a href="/s/en/method.html">Method</a> · <a href="/s/en/legal-references.html">Legal references</a> · <a href="/s/en/glossary.html">Glossary</a> · <a href="/s/en/languages.html">Languages</a></p>
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </footer>
+<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}
+</script>
 </body>
 </html>

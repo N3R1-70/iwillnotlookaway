@@ -5,9 +5,19 @@
 <link>https://iwillnotlookaway.org/</link>
 <description>Tutti gli aggiornamenti di I Will Not Look Away, in tutte le 11 lingue del sito.</description>
 <atom:link href="https://iwillnotlookaway.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 22:29:47 GMT</lastBuildDate>
+<lastBuildDate>Mon, 28 Sep 2026 12:53:10 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Chi paga la guerra? Il debito dell'Ucraina, i beni russi congelati e una regola che l'Europa dovrà piegare [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-chi-paga-la-guerra.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-chi-paga-la-guerra.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Kiev ha un buco di bilancio che nessuno aveva previsto e l'Europa presta miliardi che torneranno solo se Mosca pagherà i danni. Quanto tocca a ogni europeo, cosa è documentato sulla corruzione, e la regola che protegge i beni russi congelati.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-chi-paga-la-guerra.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Prima gli interessi, poi l'ordine. E nessuna potenza nucleare fa da contrappeso [IT]</title>
 <link>https://iwillnotlookaway.org/s/it/nd-interessi-prima-ordine.html</link>
@@ -29,6 +39,16 @@
 <enclosure url="https://iwillnotlookaway.org/s/en/nd-interests-before-order.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>Who pays for the war? Ukraine's debt, Russia's frozen assets and a rule Europe will have to bend [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-who-pays-for-the-war.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-who-pays-for-the-war.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>Kyiv has a budget hole no one had foreseen, and Europe is lending billions that will come back only if Moscow pays for the damage. How much falls on each European, what is documented about corruption, and the rule that protects Russia's frozen assets.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-who-pays-for-the-war.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Les intérêts d'abord, l'ordre ensuite. Et aucune puissance nucléaire ne fait contrepoids [FR]</title>
 <link>https://iwillnotlookaway.org/s/fr/nd-interets-avant-ordre.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-interets-avant-ordre.html</guid>
@@ -37,6 +57,16 @@
 <category>FR</category>
 <description>Rubio à l'ONU : les États-Unis ne placeront jamais l'ordre international au-dessus de leurs intérêts. Venezuela, Groenland, Argentine et Ormuz le montrent ; la Chine, la Russie, l'Inde et le Pakistan ne le contestent pas vraiment.</description>
 <enclosure url="https://iwillnotlookaway.org/s/fr/nd-interets-avant-ordre.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Qui paie la guerre ? La dette de l'Ukraine, les avoirs russes gelés et une règle que l'Europe devra plier [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-qui-paie-la-guerre.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-qui-paie-la-guerre.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Kyiv a un trou budgétaire que personne n'avait prévu, et l'Europe prête des milliards qui ne reviendront que si Moscou paie les dégâts. Combien pour chaque Européen, ce qui est documenté sur la corruption, et la règle qui protège les avoirs russes gelés.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-qui-paie-la-guerre.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Erst die Interessen, dann die Ordnung. Und keine Atommacht hält dagegen [DE]</title>
@@ -49,6 +79,16 @@
 <enclosure url="https://iwillnotlookaway.org/s/de/nd-interessen-vor-ordnung.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>Wer bezahlt den Krieg? Die Schulden der Ukraine, die eingefrorenen russischen Vermögen und eine Regel, die Europa beugen muss [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-wer-bezahlt-den-krieg.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-wer-bezahlt-den-krieg.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Kyjiw hat ein Haushaltsloch, das niemand vorhergesehen hatte, und Europa verleiht Milliarden, die nur zurückkommen, wenn Moskau für die Schäden zahlt. Wie viel auf jeden Europäer entfällt, was über Korruption belegt ist, und die Regel, die die eingefrorenen russischen Vermögen schützt.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-wer-bezahlt-den-krieg.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Primero los intereses, después el orden. Y ninguna potencia nuclear hace de contrapeso [ES]</title>
 <link>https://iwillnotlookaway.org/s/es/nd-intereses-antes-del-orden.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-intereses-antes-del-orden.html</guid>
@@ -57,6 +97,16 @@
 <category>ES</category>
 <description>Rubio en la ONU: Estados Unidos nunca pondrá el orden internacional por encima de sus propios intereses. Venezuela, Groenlandia, Argentina y Ormuz lo muestran; China, Rusia, India y Pakistán no lo discuten de verdad.</description>
 <enclosure url="https://iwillnotlookaway.org/s/es/nd-intereses-antes-del-orden.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>¿Quién paga la guerra? La deuda de Ucrania, los activos rusos congelados y una regla que Europa tendrá que doblar [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-quien-paga-la-guerra.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-quien-paga-la-guerra.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>Kyiv tiene un agujero presupuestario que nadie había previsto y Europa presta miles de millones que solo volverán si Moscú paga los daños. Cuánto le toca a cada europeo, qué está documentado sobre la corrupción y la regla que protege los activos rusos congelados.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-quien-paga-la-guerra.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Primeiro os interesses, depois a ordem. E nenhuma potência nuclear faz contrapeso [PT]</title>
@@ -69,6 +119,16 @@
 <enclosure url="https://iwillnotlookaway.org/s/pt/nd-interesses-antes-da-ordem.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>Quem paga a guerra? A dívida da Ucrânia, os ativos russos congelados e uma regra que a Europa terá de dobrar [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-quem-paga-a-guerra.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-quem-paga-a-guerra.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>Kyiv tem um buraco orçamental que ninguém previra e a Europa empresta milhares de milhões que só voltarão se Moscovo pagar os danos. Quanto cabe a cada europeu, o que está documentado sobre a corrupção e a regra que protege os ativos russos congelados.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-quem-paga-a-guerra.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Önce çıkarlar, sonra düzen. Ve hiçbir nükleer güç karşı ağırlık oluşturmuyor [TR]</title>
 <link>https://iwillnotlookaway.org/s/tr/nd-cikarlar-duzenden-once.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-cikarlar-duzenden-once.html</guid>
@@ -77,6 +137,16 @@
 <category>TR</category>
 <description>Rubio BM'de: ABD uluslararası düzeni asla kendi çıkarlarının üstünde tutmayacak. Venezuela, Grönland, Arjantin ve Hürmüz bunu gösteriyor; Çin, Rusya, Hindistan ve Pakistan buna gerçekten karşı çıkmıyor.</description>
 <enclosure url="https://iwillnotlookaway.org/s/tr/nd-cikarlar-duzenden-once.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Savaşın bedelini kim ödüyor? Ukrayna'nın borcu, dondurulmuş Rus varlıkları ve Avrupa'nın esnetmek zorunda kalacağı bir kural [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-savasin-bedelini-kim-oduyor.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-savasin-bedelini-kim-oduyor.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>Kyiv'in kimsenin öngörmediği bir bütçe açığı var ve Avrupa, ancak Moskova zararı öderse geri dönecek milyarlar borç veriyor. Her Avrupalıya düşen pay, yolsuzluk hakkında belgelenenler ve dondurulmuş Rus varlıklarını koruyan kural.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-savasin-bedelini-kim-oduyor.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>先利益，后秩序。没有一个核大国在制衡 [ZH]</title>
@@ -89,6 +159,16 @@
 <enclosure url="https://iwillnotlookaway.org/s/zh/nd-interests-before-order.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>谁为战争买单？乌克兰的债务、被冻结的俄罗斯资产，以及欧洲不得不变通的一条规则 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-who-pays-for-the-war.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-who-pays-for-the-war.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>基辅出现了无人预料的预算缺口，欧洲借出的数十亿只有在莫斯科赔偿损失时才能收回。每个欧洲人要分摊多少，腐败问题哪些有据可查，以及保护被冻结俄罗斯资产的那条规则。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-who-pays-for-the-war.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>المصالح أولاً ثم النظام. ولا قوة نووية تشكّل ثقلاً موازناً [AR]</title>
 <link>https://iwillnotlookaway.org/s/ar/nd-interests-before-order.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-interests-before-order.html</guid>
@@ -97,6 +177,16 @@
 <category>AR</category>
 <description>روبيو في الأمم المتحدة: لن تضع الولايات المتحدة النظام الدولي فوق مصالحها أبداً. فنزويلا وغرينلاند والأرجنتين وهرمز تُظهر ذلك، والصين وروسيا والهند وباكستان لا تعترض عليه فعلاً.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ar/nd-interests-before-order.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>من يدفع ثمن الحرب؟ ديون أوكرانيا، والأصول الروسية المجمّدة، وقاعدة سيتعيّن على أوروبا ليّها [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-who-pays-for-the-war.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-who-pays-for-the-war.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>لدى كييف فجوة في الموازنة لم يتوقعها أحد، وأوروبا تُقرض مليارات لن تعود إلا إذا دفعت موسكو ثمن الأضرار. كم يقع على كل أوروبي، وما الموثّق بشأن الفساد، والقاعدة التي تحمي الأصول الروسية المجمّدة.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-who-pays-for-the-war.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>קודם האינטרסים, אחר כך הסדר. ואף מעצמה גרעינית אינה מאזנת [HE]</title>
@@ -109,6 +199,16 @@
 <enclosure url="https://iwillnotlookaway.org/s/he/nd-interests-before-order.jpg" type="image/jpeg"/>
 </item>
 <item>
+<title>מי משלם על המלחמה? החוב של אוקראינה, הנכסים הרוסיים המוקפאים וכלל שאירופה תיאלץ לכופף [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-who-pays-for-the-war.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-who-pays-for-the-war.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>לקייב יש בור תקציבי שאיש לא צפה, ואירופה מלווה מיליארדים שיחזרו רק אם מוסקבה תשלם על הנזקים. כמה מוטל על כל אירופי, מה מתועד על השחיתות, והכלל שמגן על הנכסים הרוסיים המוקפאים.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-who-pays-for-the-war.jpg" type="image/jpeg"/>
+</item>
+<item>
 <title>Сначала интересы, потом порядок. И ни одна ядерная держава не служит противовесом [RU]</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-interests-before-order.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-interests-before-order.html</guid>
@@ -117,6 +217,16 @@
 <category>RU</category>
 <description>Рубио в ООН: США никогда не поставят международный порядок выше собственных интересов. Венесуэла, Гренландия, Аргентина и Ормуз это показывают; Китай, Россия, Индия и Пакистан по-настоящему этого не оспаривают.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ru/nd-interests-before-order.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Кто платит за войну? Долг Украины, замороженные российские активы и правило, которое Европе придётся нарушить [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-who-pays-for-the-war.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-who-pays-for-the-war.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>У Киева бюджетная дыра, которую никто не предвидел, а Европа выдаёт миллиарды в кредит, которые вернутся, только если Москва заплатит за ущерб. Сколько приходится на каждого европейца, что задокументировано о коррупции и правило, защищающее замороженные российские активы.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-who-pays-for-the-war.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Anatomia di un allarme: droni russi, una fonte anonima e due racconti senza prove [IT]</title>

@@ -6,7 +6,7 @@
 <description>Cinco manifestos fundados no direito internacional: Israel, Rússia, Sudão, Estados Unidos, Flotilha. Análises jurídicas e petições.</description>
 <language>pt-PT</language>
 <atom:link href="https://iwillnotlookaway.org/s/pt/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 27 Sep 2026 22:29:44 GMT</lastBuildDate>
+<lastBuildDate>Mon, 28 Sep 2026 12:53:07 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
 <item>
@@ -17,6 +17,15 @@
 <category>ANÁLISE</category>
 <description>Rubio na ONU: os Estados Unidos nunca colocarão a ordem internacional acima dos seus próprios interesses. Venezuela, Gronelândia, Argentina e Ormuz mostram-no; China, Rússia, Índia e Paquistão não o contestam de facto.</description>
 <enclosure url="https://iwillnotlookaway.org/s/pt/nd-interesses-antes-da-ordem.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Quem paga a guerra? A dívida da Ucrânia, os ativos russos congelados e uma regra que a Europa terá de dobrar</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-quem-paga-a-guerra.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-quem-paga-a-guerra.html</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<description>Kyiv tem um buraco orçamental que ninguém previra e a Europa empresta milhares de milhões que só voltarão se Moscovo pagar os danos. Quanto cabe a cada europeu, o que está documentado sobre a corrupção e a regra que protege os ativos russos congelados.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-quem-paga-a-guerra.jpg" type="image/jpeg"/>
 </item>
 <item>
 <title>Anatomia de um alarme: drones russos, uma fonte anónima e duas narrativas sem provas</title>

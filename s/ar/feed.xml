@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — بيانات القانون الدولي</title>
+<title>I Will Not Look Away — القانون الدولي، مطبَّقاً على الجميع</title>
 <link>https://iwillnotlookaway.org/ar/</link>
-<description>خمسة بيانات مؤسسة على القانون الدولي: إسرائيل، روسيا، السودان، الولايات المتحدة، الأسطول. تحليلات قانونية وعرائض.</description>
+<description>انتهاكات القانون الدولي من غزة إلى أوكرانيا والسودان: تحليلات ومستجدات وبيانات، مع ذكر القاعدة القانونية ومصدر مؤرَّخ والمعيار نفسه للجميع.</description>
 <language>ar</language>
 <atom:link href="https://iwillnotlookaway.org/s/ar/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:20 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:33 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>هايتي: الأمم المتحدة تمدّد لستة أشهر القوة المناهضة للعصابات. لكن من يراقب من يطلق النار؟</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-haiti-who-controls-the-force.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-haiti-who-controls-the-force.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>أحداث جارية</category>
+<description>مدّد مجلس الأمن حتى مارس 2027 ولاية القوة الدولية لمكافحة العصابات في هايتي. يطالب القرار بالتحقيق في الانتهاكات والإبلاغ عنها علنًا، لكن بعد عام لا يوجد أي تقرير علني.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-haiti-who-controls-the-force.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>تشريح مقابلة: الخطة الأمريكية وزيلينسكي وهزيمة تُقدَّم على أنها حتمية</title>
 <link>https://iwillnotlookaway.org/s/ar/nd-anatomy-of-an-inevitable-defeat.html</link>

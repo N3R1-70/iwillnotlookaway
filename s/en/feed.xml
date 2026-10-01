@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — International Law Manifestos</title>
+<title>I Will Not Look Away — International law, applied to everyone</title>
 <link>https://iwillnotlookaway.org/en/</link>
-<description>Five manifestos grounded in international law: Israel, Russia, Sudan, the United States, the Flotilla. Legal analysis, petitions, non-recognition.</description>
+<description>Violations of international law, from Gaza to Ukraine to Sudan: analysis, current affairs and manifestos with the rule cited, a dated source and the same standard for all.</description>
 <language>en-US</language>
 <atom:link href="https://iwillnotlookaway.org/s/en/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:14 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:29 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Haiti: the UN renews the anti-gang force for six months. But who controls those who shoot?</title>
+<link>https://iwillnotlookaway.org/s/en/nd-haiti-who-controls-the-force.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-haiti-who-controls-the-force.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>CURRENT AFFAIRS</category>
+<description>The Security Council has renewed the international force against Haiti's gangs until March 2027. The resolution requires abuses to be investigated and publicly reported, but after a year no public report can be found.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-haiti-who-controls-the-force.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Anatomy of an interview: the American plan, Zelensky and a defeat presented as inevitable</title>
 <link>https://iwillnotlookaway.org/s/en/nd-anatomy-of-an-inevitable-defeat.html</link>

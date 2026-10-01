@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — Manifestos de direito internacional</title>
+<title>I Will Not Look Away — O direito internacional, aplicado a todos</title>
 <link>https://iwillnotlookaway.org/pt/</link>
-<description>Cinco manifestos fundados no direito internacional: Israel, Rússia, Sudão, Estados Unidos, Flotilha. Análises jurídicas e petições.</description>
+<description>Violações do direito internacional, de Gaza à Ucrânia e ao Sudão: análises, atualidade e manifestos com a norma citada, fonte datada e o mesmo critério para todos.</description>
 <language>pt-PT</language>
 <atom:link href="https://iwillnotlookaway.org/s/pt/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:18 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:31 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Haiti: a ONU renova por seis meses a força contra os gangues. Mas quem controla quem dispara?</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-haiti-quem-controla-a-forca.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-haiti-quem-controla-a-forca.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>ATUALIDADE</category>
+<description>O Conselho de Segurança renovou até março de 2027 a força internacional contra os gangues no Haiti. A resolução exige que os abusos sejam investigados e tornados públicos, mas um ano depois não existe qualquer relatório público.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-haiti-quem-controla-a-forca.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Anatomia de uma entrevista: o plano americano, Zelensky e uma derrota apresentada como inevitável</title>
 <link>https://iwillnotlookaway.org/s/pt/nd-anatomia-derrota-inevitavel.html</link>

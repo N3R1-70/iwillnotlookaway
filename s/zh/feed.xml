@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — 国际法宣言平台</title>
+<title>I Will Not Look Away — 国际法，适用于所有人</title>
 <link>https://iwillnotlookaway.org/zh/</link>
-<description>基于国际法的五份宣言：以色列、俄罗斯、苏丹、美国、船队。法律分析、请愿与不承认原则。</description>
+<description>从加沙到乌克兰再到苏丹的国际法违反行为：分析、时事与宣言，引用具体规范、注明来源日期，对所有国家采用同一标准。</description>
 <language>zh-CN</language>
 <atom:link href="https://iwillnotlookaway.org/s/zh/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:19 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:33 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>海地：联合国将打击帮派部队延期六个月。但谁来监督开枪的人？</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-haiti-who-controls-the-force.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-haiti-who-controls-the-force.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>时事</category>
+<description>安理会将海地打击帮派的国际部队授权延长至2027年3月。决议要求调查并公开报告侵权行为，但一年过去了，仍找不到任何公开报告。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-haiti-who-controls-the-force.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>一次采访的解剖：美国方案、泽连斯基和一场被说成不可避免的失败</title>
 <link>https://iwillnotlookaway.org/s/zh/nd-anatomy-of-an-inevitable-defeat.html</link>

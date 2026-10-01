@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — מניפסטים של משפט בינלאומי</title>
+<title>I Will Not Look Away — משפט בין-לאומי, שחל על כולם</title>
 <link>https://iwillnotlookaway.org/he/</link>
-<description>חמישה מניפסטים המבוססים על המשפט הבינלאומי: ישראל, רוסיה, סודאן, ארצות הברית, המשט. ניתוחים משפטיים ועצומות.</description>
+<description>הפרות של המשפט הבין-לאומי, מעזה ועד אוקראינה וסודאן: ניתוחים, אקטואליה ומניפסטים, עם הנורמה המצוטטת, מקור מתוארך ואותה אמת מידה לכולם.</description>
 <language>he</language>
 <atom:link href="https://iwillnotlookaway.org/s/he/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:21 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:34 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>האיטי: האו״ם מאריך בשישה חודשים את הכוח נגד הכנופיות. אבל מי מפקח על מי שיורה?</title>
+<link>https://iwillnotlookaway.org/s/he/nd-haiti-who-controls-the-force.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-haiti-who-controls-the-force.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>אקטואליה</category>
+<description>מועצת הביטחון האריכה עד מרץ 2027 את המנדט של הכוח הבינלאומי נגד הכנופיות בהאיטי. ההחלטה דורשת לחקור הפרות ולדווח עליהן בפומבי, אך כעבור שנה לא נמצא שום דוח פומבי.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-haiti-who-controls-the-force.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>אנטומיה של ראיון: התוכנית האמריקאית, זלנסקי ותבוסה שמוצגת כבלתי נמנעת</title>
 <link>https://iwillnotlookaway.org/s/he/nd-anatomy-of-an-inevitable-defeat.html</link>

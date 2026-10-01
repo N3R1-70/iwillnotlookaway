@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — Manifiestos de derecho internacional</title>
+<title>I Will Not Look Away — El derecho internacional, aplicado a todos</title>
 <link>https://iwillnotlookaway.org/es/</link>
-<description>Cinco manifiestos fundados en el derecho internacional: Israel, Rusia, Sudán, Estados Unidos, la Flotilla. Análisis jurídicos y peticiones.</description>
+<description>Violaciones del derecho internacional, de Gaza a Ucrania y Sudán: análisis, actualidad y manifiestos con la norma citada, fuente fechada y la misma vara de medir para todos.</description>
 <language>es-ES</language>
 <atom:link href="https://iwillnotlookaway.org/s/es/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:17 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:31 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Haití: la ONU renueva por seis meses la fuerza contra las bandas. Pero ¿quién controla a quien dispara?</title>
+<link>https://iwillnotlookaway.org/s/es/nd-haiti-quien-controla-la-fuerza.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-haiti-quien-controla-la-fuerza.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>ACTUALIDAD</category>
+<description>El Consejo de Seguridad ha renovado hasta marzo de 2027 la fuerza internacional contra las bandas en Haití. La resolución exige investigar los abusos y hacerlos públicos, pero un año después no consta ningún informe público.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-haiti-quien-controla-la-fuerza.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Anatomía de una entrevista: el plan estadounidense, Zelensky y una derrota presentada como inevitable</title>
 <link>https://iwillnotlookaway.org/s/es/nd-anatomia-derrota-inevitable.html</link>

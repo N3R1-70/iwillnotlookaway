@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>I Will Not Look Away — Манифесты по международному праву</title>
+<title>I Will Not Look Away — Международное право, единое для всех</title>
 <link>https://iwillnotlookaway.org/ru/</link>
-<description>Five manifestos grounded in international law: Israel, Russia, Sudan, the United States, the Flotilla. Legal analysis, petitions, non-recognition.</description>
+<description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:44:22 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 10:27:36 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Гаити: ООН продлила на полгода силы по борьбе с бандами. Но кто контролирует тех, кто стреляет?</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-haiti-who-controls-the-force.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-haiti-who-controls-the-force.html</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>АКТУАЛЬНОЕ</category>
+<description>Совет Безопасности продлил до марта 2027 года мандат международных сил по борьбе с бандами на Гаити. Резолюция требует расследовать нарушения и публично о них сообщать, но спустя год ни одного публичного доклада нет.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-haiti-who-controls-the-force.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Анатомия интервью: американский план, Зеленский и поражение, которое выдают за неизбежное</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-anatomy-of-an-inevitable-defeat.html</link>

@@ -1,5 +1,5 @@
 {
- "versione": "2026-10-03",
+ "versione": "2026-10-04",
  "protocollo": "MAPPE-70 v0.2",
  "cartografia": {
   "base": "Natural Earth 1:110m (world-atlas 2.0.2), adattata",
@@ -7,14 +7,14 @@
   "nota": "Crimea attribuita all'Ucraina e tratteggiata; Somaliland unito alla Somalia; Cipro Nord unito a Cipro; Sahara Occidentale, Palestina, Kosovo tratteggiati. Limiti: Golan non separabile a 1:110m; Kashmir senza linea di controllo. UN Geodata BNDA non raggiungibile da questa sessione."
  },
  "copertura": {
-  "commit": "bdf7a8f",
-  "data": "2026-10-03",
+  "commit": "9a9f6cd",
+  "data": "2026-10-04",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-03",
+    "data": "2026-10-04",
     "pezzi": 20,
-    "totale": 73,
+    "totale": 75,
     "pct": 27
    },
    "prima": {
@@ -94,7 +94,7 @@
    "popolazione": {
     "valore": 14665512,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~ISR~PSE"
    },
    "valori": {
@@ -117,7 +117,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 767,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~ISR~PSE"
       }
      }
@@ -167,7 +167,7 @@
    "popolazione": {
     "valore": 5773494,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~LBN"
    },
    "valori": {
@@ -190,7 +190,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 4365,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~LBN"
       }
      }
@@ -240,7 +240,7 @@
    "popolazione": {
     "valore": 23594623,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~SYR"
    },
    "valori": {
@@ -263,7 +263,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 83,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~SYR"
       }
      }
@@ -313,7 +313,7 @@
    "popolazione": {
     "valore": 39390800,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~YEM"
    },
    "valori": {
@@ -336,7 +336,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 177,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~YEM"
       }
      }
@@ -386,7 +386,7 @@
    "popolazione": {
     "valore": 90608708,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~IRN"
    },
    "valori": {
@@ -409,7 +409,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 3559,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~IRN"
       }
      }
@@ -460,7 +460,7 @@
    "popolazione": {
     "valore": 183173335,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~UKR~RUS"
    },
    "valori": {
@@ -483,7 +483,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 47261,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~UKR~RUS"
       }
      }
@@ -516,7 +516,7 @@
     "he": "/s/he/tag/sudan.html",
     "ru": "/s/ru/tag/sudan.html"
    },
-   "copertura": 2,
+   "copertura": 3,
    "nomi": {
     "it": "Sudan",
     "en": "Sudan",
@@ -533,7 +533,7 @@
    "popolazione": {
     "valore": 50042800,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~SDN"
    },
    "valori": {
@@ -556,7 +556,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 3086,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~SDN"
       }
      }
@@ -606,7 +606,7 @@
    "popolazione": {
     "valore": 11483370,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~SSD"
    },
    "valori": {
@@ -629,7 +629,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 123,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~SSD"
       }
      }
@@ -679,7 +679,7 @@
    "popolazione": {
     "valore": 128691695,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~ETH"
    },
    "valori": {
@@ -702,7 +702,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 2054,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~ETH"
       }
      }
@@ -752,7 +752,7 @@
    "popolazione": {
     "valore": 105789733,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~COD"
    },
    "valori": {
@@ -775,7 +775,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 1767,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~COD"
       }
      }
@@ -828,7 +828,7 @@
    "popolazione": {
     "valore": 72954770,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~MLI~BFA~NER"
    },
    "valori": {
@@ -851,7 +851,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 3045,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~MLI~BFA~NER"
       }
      }
@@ -901,7 +901,7 @@
    "popolazione": {
     "valore": 227882949,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~NGA"
    },
    "valori": {
@@ -924,7 +924,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 2291,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~NGA"
       }
      }
@@ -974,7 +974,7 @@
    "popolazione": {
     "valore": 28372690,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~CMR"
    },
    "valori": {
@@ -997,7 +997,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 191,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~CMR"
       }
      }
@@ -1030,7 +1030,7 @@
     "he": "/s/he/tag/libya.html",
     "ru": "/s/ru/tag/libya.html"
    },
-   "copertura": 1,
+   "copertura": 2,
    "nomi": {
     "it": "Libia",
     "en": "Libya",
@@ -1047,7 +1047,7 @@
    "popolazione": {
     "valore": 7305659,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~LBY"
    },
    "valori": {
@@ -1070,7 +1070,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 0,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~LBY"
       }
      }
@@ -1120,7 +1120,7 @@
    "popolazione": {
     "valore": 11637402,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~HTI"
    },
    "valori": {
@@ -1143,7 +1143,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 164,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~HTI"
       }
      }
@@ -1176,7 +1176,7 @@
     "he": "/s/he/tag/colombia.html",
     "ru": "/s/ru/tag/colombia.html"
    },
-   "copertura": 1,
+   "copertura": 3,
    "nomi": {
     "it": "Colombia",
     "en": "Colombia",
@@ -1193,7 +1193,7 @@
    "popolazione": {
     "valore": 52321152,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~COL"
    },
    "valori": {
@@ -1216,7 +1216,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 495,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~COL"
       }
      }
@@ -1266,7 +1266,7 @@
    "popolazione": {
     "valore": 28300861,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~VEN"
    },
    "valori": {
@@ -1289,7 +1289,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 0,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~VEN"
       }
      }
@@ -1339,7 +1339,7 @@
    "popolazione": {
     "valore": 41454762,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~AFG"
    },
    "valori": {
@@ -1362,7 +1362,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 674,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~AFG"
       }
      }
@@ -1412,7 +1412,7 @@
    "popolazione": {
     "valore": 247504505,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~PAK"
    },
    "valori": {
@@ -1435,7 +1435,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 1774,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~PAK"
       }
      }
@@ -1486,7 +1486,7 @@
    "popolazione": {
     "valore": 54133800,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~MMR"
    },
    "valori": {
@@ -1509,7 +1509,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 960,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~MMR"
       }
      }
@@ -1559,7 +1559,7 @@
    "popolazione": {
     "valore": 23317145,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~TWN"
    },
    "valori": {
@@ -1582,7 +1582,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 0,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~TWN"
       }
      }
@@ -1599,9 +1599,23 @@
    "aree": [
     "ECU"
    ],
-   "tag_it": [],
-   "tag": {},
-   "copertura": 0,
+   "tag_it": [
+    "ecuador"
+   ],
+   "tag": {
+    "it": "/s/it/tag/ecuador.html",
+    "en": "/s/en/tag/ecuador.html",
+    "fr": "/s/fr/tag/equateur.html",
+    "de": "/s/de/tag/ecuador.html",
+    "es": "/s/es/tag/ecuador.html",
+    "pt": "/s/pt/tag/equador.html",
+    "tr": "/s/tr/tag/ekvador.html",
+    "zh": "/s/zh/tag/ecuador.html",
+    "ar": "/s/ar/tag/ecuador.html",
+    "he": "/s/he/tag/ecuador.html",
+    "ru": "/s/ru/tag/ecuador.html"
+   },
+   "copertura": 1,
    "nomi": {
     "it": "Ecuador",
     "en": "Ecuador",
@@ -1618,7 +1632,7 @@
    "popolazione": {
     "valore": 17980079,
     "anno": 2023,
-    "fonte": "UN WPP (2024) via Our World in Data",
+    "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~ECU"
    },
    "valori": {
@@ -1641,7 +1655,7 @@
       "consultato": "2026-10-04",
       "ucdp": {
        "valore": 49,
-       "periodo": "primo semestre (provvisorio)",
+       "periodo": "parziale (provvisorio)",
        "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~ECU"
       }
      }

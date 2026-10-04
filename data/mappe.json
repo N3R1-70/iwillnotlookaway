@@ -1,0 +1,1653 @@
+{
+ "versione": "2026-10-03",
+ "protocollo": "MAPPE-70 v0.2",
+ "cartografia": {
+  "base": "Natural Earth 1:110m (world-atlas 2.0.2), adattata",
+  "onu": true,
+  "nota": "Crimea attribuita all'Ucraina e tratteggiata; Somaliland unito alla Somalia; Cipro Nord unito a Cipro; Sahara Occidentale, Palestina, Kosovo tratteggiati. Limiti: Golan non separabile a 1:110m; Kashmir senza linea di controllo. UN Geodata BNDA non raggiungibile da questa sessione."
+ },
+ "copertura": {
+  "commit": "bdf7a8f",
+  "data": "2026-10-03",
+  "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
+  "quota_israele_palestina": {
+   "oggi": {
+    "data": "2026-10-03",
+    "pezzi": 20,
+    "totale": 73,
+    "pct": 27
+   },
+   "prima": {
+    "data": "2026-09-09",
+    "pct": 32,
+    "pezzi": 19,
+    "totale": 60
+   },
+   "base": "nd-* e manifesti IT, Opinioni escluse (stessa base del conteggio 9/9)"
+  }
+ },
+ "schede": {
+  "morti": {
+   "fonte": "ACLED",
+   "fonte_estesa": "Armed Conflict Location & Event Data (ACLED)",
+   "url_fonte": "https://acleddata.com",
+   "url_dati": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+   "file": "number_of_reported_fatalities_by_country-year_as-of-25Sep2026.xlsx",
+   "periodi": [
+    "2025",
+    "2026"
+   ],
+   "periodo_default": "2025",
+   "aggiornato": "2026-09-25",
+   "verifica": {
+    "fonte": "UCDP via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country",
+    "citazione": "Uppsala Conflict Data Program (2026); geoBoundaries (2023) – processed by Our World in Data"
+   },
+   "unita": "persone",
+   "per_abitante": true
+  }
+ },
+ "teatri": [
+  {
+   "id": "isr-pal",
+   "coord": [
+    35.1,
+    31.7
+   ],
+   "aree": [
+    "ISR",
+    "PSE"
+   ],
+   "tag_it": [
+    "israele",
+    "gaza",
+    "ben-gvir"
+   ],
+   "tag": {
+    "it": "/s/it/tag/israele.html",
+    "en": "/s/en/tag/israel.html",
+    "fr": "/s/fr/tag/israel.html",
+    "de": "/s/de/tag/israel.html",
+    "es": "/s/es/tag/israel.html",
+    "pt": "/s/pt/tag/israel.html",
+    "tr": "/s/tr/tag/israil.html",
+    "zh": "/s/zh/tag/israel.html",
+    "ar": "/s/ar/tag/israel.html",
+    "he": "/s/he/tag/israel.html",
+    "ru": "/s/ru/tag/israel.html"
+   },
+   "copertura": 22,
+   "nomi": {
+    "it": "Israele–Palestina",
+    "en": "Israel–Palestine",
+    "fr": "Israël–Palestine",
+    "de": "Israel–Palästina",
+    "es": "Israel–Palestina",
+    "pt": "Israel–Palestina",
+    "tr": "İsrail–Filistin",
+    "zh": "以色列—巴勒斯坦",
+    "ar": "إسرائيل وفلسطين",
+    "he": "ישראל–פלסטין",
+    "ru": "Израиль — Палестина"
+   },
+   "popolazione": {
+    "valore": 14665512,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~ISR~PSE"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 16955,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 14541,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~ISR~PSE"
+      }
+     },
+     "2026": {
+      "valore": 1472,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 767,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~ISR~PSE"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "libano",
+   "coord": [
+    35.9,
+    33.9
+   ],
+   "aree": [
+    "LBN"
+   ],
+   "tag_it": [
+    "libano"
+   ],
+   "tag": {
+    "it": "/s/it/tag/libano.html",
+    "en": "/s/en/tag/lebanon.html",
+    "fr": "/s/fr/tag/liban.html",
+    "de": "/s/de/tag/libanon.html",
+    "es": "/s/es/tag/libano.html",
+    "pt": "/s/pt/tag/libano.html",
+    "tr": "/s/tr/tag/lubnan.html",
+    "zh": "/s/zh/tag/lebanon.html",
+    "ar": "/s/ar/tag/lebanon.html",
+    "he": "/s/he/tag/lebanon.html",
+    "ru": "/s/ru/tag/lebanon.html"
+   },
+   "copertura": 5,
+   "nomi": {
+    "it": "Libano",
+    "en": "Lebanon",
+    "fr": "Liban",
+    "de": "Libanon",
+    "es": "Líbano",
+    "pt": "Líbano",
+    "tr": "Lübnan",
+    "zh": "黎巴嫩",
+    "ar": "لبنان",
+    "he": "לבנון",
+    "ru": "Ливан"
+   },
+   "popolazione": {
+    "valore": 5773494,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~LBN"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 414,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 347,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~LBN"
+      }
+     },
+     "2026": {
+      "valore": 3044,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 4365,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~LBN"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "siria",
+   "coord": [
+    38.5,
+    35.0
+   ],
+   "aree": [
+    "SYR"
+   ],
+   "tag_it": [
+    "siria"
+   ],
+   "tag": {
+    "it": "/s/it/tag/siria.html",
+    "en": "/s/en/tag/syria.html",
+    "fr": "/s/fr/tag/syrie.html",
+    "de": "/s/de/tag/syrien.html",
+    "es": "/s/es/tag/siria.html",
+    "pt": "/s/pt/tag/siria.html",
+    "tr": "/s/tr/tag/suriye.html",
+    "zh": "/s/zh/tag/syria.html",
+    "ar": "/s/ar/tag/syria.html",
+    "he": "/s/he/tag/syria.html",
+    "ru": "/s/ru/tag/syria.html"
+   },
+   "copertura": 3,
+   "nomi": {
+    "it": "Siria",
+    "en": "Syria",
+    "fr": "Syrie",
+    "de": "Syrien",
+    "es": "Siria",
+    "pt": "Síria",
+    "tr": "Suriye",
+    "zh": "叙利亚",
+    "ar": "سوريا",
+    "he": "סוריה",
+    "ru": "Сирия"
+   },
+   "popolazione": {
+    "valore": 23594623,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~SYR"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 8837,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 3444,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~SYR"
+      }
+     },
+     "2026": {
+      "valore": 1613,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 83,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~SYR"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "yemen",
+   "coord": [
+    47.5,
+    15.6
+   ],
+   "aree": [
+    "YEM"
+   ],
+   "tag_it": [
+    "yemen"
+   ],
+   "tag": {
+    "it": "/s/it/tag/yemen.html",
+    "en": "/s/en/tag/yemen.html",
+    "fr": "/s/fr/tag/yemen.html",
+    "de": "/s/de/tag/jemen.html",
+    "es": "/s/es/tag/yemen.html",
+    "pt": "/s/pt/tag/iemen.html",
+    "tr": "/s/tr/tag/yemen.html",
+    "zh": "/s/zh/tag/yemen.html",
+    "ar": "/s/ar/tag/yemen.html",
+    "he": "/s/he/tag/yemen.html",
+    "ru": "/s/ru/tag/yemen.html"
+   },
+   "copertura": 3,
+   "nomi": {
+    "it": "Yemen",
+    "en": "Yemen",
+    "fr": "Yémen",
+    "de": "Jemen",
+    "es": "Yemen",
+    "pt": "Iémen",
+    "tr": "Yemen",
+    "zh": "也门",
+    "ar": "اليمن",
+    "he": "תימן",
+    "ru": "Йемен"
+   },
+   "popolazione": {
+    "valore": 39390800,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~YEM"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 2940,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 1717,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~YEM"
+      }
+     },
+     "2026": {
+      "valore": 4689,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 177,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~YEM"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "iran",
+   "coord": [
+    53.7,
+    32.4
+   ],
+   "aree": [
+    "IRN"
+   ],
+   "tag_it": [
+    "iran"
+   ],
+   "tag": {
+    "it": "/s/it/tag/iran.html",
+    "en": "/s/en/tag/iran.html",
+    "fr": "/s/fr/tag/iran.html",
+    "de": "/s/de/tag/iran.html",
+    "es": "/s/es/tag/iran.html",
+    "pt": "/s/pt/tag/irao.html",
+    "tr": "/s/tr/tag/iran.html",
+    "zh": "/s/zh/tag/iran.html",
+    "ar": "/s/ar/tag/iran.html",
+    "he": "/s/he/tag/iran.html",
+    "ru": "/s/ru/tag/iran.html"
+   },
+   "copertura": 15,
+   "nomi": {
+    "it": "Iran",
+    "en": "Iran",
+    "fr": "Iran",
+    "de": "Iran",
+    "es": "Irán",
+    "pt": "Irão",
+    "tr": "İran",
+    "zh": "伊朗",
+    "ar": "إيران",
+    "he": "איראן",
+    "ru": "Иран"
+   },
+   "popolazione": {
+    "valore": 90608708,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~IRN"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 1268,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 1243,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~IRN"
+      }
+     },
+     "2026": {
+      "valore": 29611,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 3559,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~IRN"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "rus-ucr",
+   "coord": [
+    37.8,
+    48.0
+   ],
+   "aree": [
+    "UKR",
+    "RUS"
+   ],
+   "tag_it": [
+    "russia-ucraina"
+   ],
+   "tag": {
+    "it": "/s/it/tag/russia-ucraina.html",
+    "en": "/s/en/tag/russia-ukraine.html",
+    "fr": "/s/fr/tag/russie-ukraine.html",
+    "de": "/s/de/tag/russland-ukraine.html",
+    "es": "/s/es/tag/rusia-ucrania.html",
+    "pt": "/s/pt/tag/russia-ucrania.html",
+    "tr": "/s/tr/tag/rusya-ukrayna.html",
+    "zh": "/s/zh/tag/russia-ukraine.html",
+    "ar": "/s/ar/tag/russia-ukraine.html",
+    "he": "/s/he/tag/russia-ukraine.html",
+    "ru": "/s/ru/tag/russia-ukraine.html"
+   },
+   "copertura": 15,
+   "nomi": {
+    "it": "Russia–Ucraina",
+    "en": "Russia–Ukraine",
+    "fr": "Russie–Ukraine",
+    "de": "Russland–Ukraine",
+    "es": "Rusia–Ucrania",
+    "pt": "Rússia–Ucrânia",
+    "tr": "Rusya–Ukrayna",
+    "zh": "俄罗斯—乌克兰",
+    "ar": "روسيا وأوكرانيا",
+    "he": "רוסיה–אוקראינה",
+    "ru": "Россия — Украина"
+   },
+   "popolazione": {
+    "valore": 183173335,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~UKR~RUS"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 80250,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 94765,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~UKR~RUS"
+      }
+     },
+     "2026": {
+      "valore": 42278,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 47261,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~UKR~RUS"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "sudan",
+   "coord": [
+    30.0,
+    14.0
+   ],
+   "aree": [
+    "SDN"
+   ],
+   "tag_it": [
+    "sudan"
+   ],
+   "tag": {
+    "it": "/s/it/tag/sudan.html",
+    "en": "/s/en/tag/sudan.html",
+    "fr": "/s/fr/tag/soudan.html",
+    "de": "/s/de/tag/sudan.html",
+    "es": "/s/es/tag/sudan.html",
+    "pt": "/s/pt/tag/sudao.html",
+    "tr": "/s/tr/tag/sudan.html",
+    "zh": "/s/zh/tag/sudan.html",
+    "ar": "/s/ar/tag/sudan.html",
+    "he": "/s/he/tag/sudan.html",
+    "ru": "/s/ru/tag/sudan.html"
+   },
+   "copertura": 2,
+   "nomi": {
+    "it": "Sudan",
+    "en": "Sudan",
+    "fr": "Soudan",
+    "de": "Sudan",
+    "es": "Sudán",
+    "pt": "Sudão",
+    "tr": "Sudan",
+    "zh": "苏丹",
+    "ar": "السودان",
+    "he": "סודאן",
+    "ru": "Судан"
+   },
+   "popolazione": {
+    "valore": 50042800,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~SDN"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 18793,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 75164,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~SDN"
+      }
+     },
+     "2026": {
+      "valore": 7468,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 3086,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~SDN"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "sud-sudan",
+   "coord": [
+    31.3,
+    7.3
+   ],
+   "aree": [
+    "SSD"
+   ],
+   "tag_it": [
+    "sud-sudan"
+   ],
+   "tag": {
+    "it": "/s/it/tag/sud-sudan.html",
+    "en": "/s/en/tag/south-sudan.html",
+    "fr": "/s/fr/tag/soudan-du-sud.html",
+    "de": "/s/de/tag/suedsudan.html",
+    "es": "/s/es/tag/sudan-del-sur.html",
+    "pt": "/s/pt/tag/sudao-do-sul.html",
+    "tr": "/s/tr/tag/guney-sudan.html",
+    "zh": "/s/zh/tag/south-sudan.html",
+    "ar": "/s/ar/tag/south-sudan.html",
+    "he": "/s/he/tag/south-sudan.html",
+    "ru": "/s/ru/tag/south-sudan.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Sud Sudan",
+    "en": "South Sudan",
+    "fr": "Soudan du Sud",
+    "de": "Südsudan",
+    "es": "Sudán del Sur",
+    "pt": "Sudão do Sul",
+    "tr": "Güney Sudan",
+    "zh": "南苏丹",
+    "ar": "جنوب السودان",
+    "he": "דרום סודאן",
+    "ru": "Южный Судан"
+   },
+   "popolazione": {
+    "valore": 11483370,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~SSD"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 3201,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 607,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~SSD"
+      }
+     },
+     "2026": {
+      "valore": 2895,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 123,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~SSD"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "etiopia",
+   "coord": [
+    39.3,
+    12.0
+   ],
+   "aree": [
+    "ETH"
+   ],
+   "tag_it": [
+    "etiopia"
+   ],
+   "tag": {
+    "it": "/s/it/tag/etiopia.html",
+    "en": "/s/en/tag/ethiopia.html",
+    "fr": "/s/fr/tag/ethiopie.html",
+    "de": "/s/de/tag/aethiopien.html",
+    "es": "/s/es/tag/etiopia.html",
+    "pt": "/s/pt/tag/etiopia.html",
+    "tr": "/s/tr/tag/etiyopya.html",
+    "zh": "/s/zh/tag/ethiopia.html",
+    "ar": "/s/ar/tag/ethiopia.html",
+    "he": "/s/he/tag/ethiopia.html",
+    "ru": "/s/ru/tag/ethiopia.html"
+   },
+   "copertura": 2,
+   "nomi": {
+    "it": "Etiopia",
+    "en": "Ethiopia",
+    "fr": "Éthiopie",
+    "de": "Äthiopien",
+    "es": "Etiopía",
+    "pt": "Etiópia",
+    "tr": "Etiyopya",
+    "zh": "埃塞俄比亚",
+    "ar": "إثيوبيا",
+    "he": "אתיופיה",
+    "ru": "Эфиопия"
+   },
+   "popolazione": {
+    "valore": 128691695,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~ETH"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 6322,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 5419,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~ETH"
+      }
+     },
+     "2026": {
+      "valore": 5385,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 2054,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~ETH"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "rdc",
+   "coord": [
+    28.5,
+    -1.5
+   ],
+   "aree": [
+    "COD"
+   ],
+   "tag_it": [
+    "rd-congo"
+   ],
+   "tag": {
+    "it": "/s/it/tag/rd-congo.html",
+    "en": "/s/en/tag/dr-congo.html",
+    "fr": "/s/fr/tag/rd-congo.html",
+    "de": "/s/de/tag/dr-kongo.html",
+    "es": "/s/es/tag/rd-congo.html",
+    "pt": "/s/pt/tag/rd-congo.html",
+    "tr": "/s/tr/tag/dr-kongo.html",
+    "zh": "/s/zh/tag/dr-congo.html",
+    "ar": "/s/ar/tag/dr-congo.html",
+    "he": "/s/he/tag/dr-congo.html",
+    "ru": "/s/ru/tag/dr-congo.html"
+   },
+   "copertura": 3,
+   "nomi": {
+    "it": "RD Congo",
+    "en": "DR Congo",
+    "fr": "RD Congo",
+    "de": "DR Kongo",
+    "es": "RD del Congo",
+    "pt": "RD Congo",
+    "tr": "KDC",
+    "zh": "刚果（金）",
+    "ar": "الكونغو الديمقراطية",
+    "he": "קונגו הדמוקרטית",
+    "ru": "ДР Конго"
+   },
+   "popolazione": {
+    "valore": 105789733,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~COD"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 7363,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 8860,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~COD"
+      }
+     },
+     "2026": {
+      "valore": 3289,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 1767,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~COD"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "sahel",
+   "coord": [
+    1.0,
+    14.5
+   ],
+   "aree": [
+    "MLI",
+    "BFA",
+    "NER"
+   ],
+   "tag_it": [
+    "sahel",
+    "mali"
+   ],
+   "tag": {
+    "it": "/s/it/tag/sahel.html",
+    "en": "/s/en/tag/sahel.html",
+    "fr": "/s/fr/tag/sahel.html",
+    "de": "/s/de/tag/sahel.html",
+    "es": "/s/es/tag/sahel.html",
+    "pt": "/s/pt/tag/sahel.html",
+    "tr": "/s/tr/tag/sahel.html",
+    "zh": "/s/zh/tag/sahel.html",
+    "ar": "/s/ar/tag/sahel.html",
+    "he": "/s/he/tag/sahel.html",
+    "ru": "/s/ru/tag/sahel.html"
+   },
+   "copertura": 3,
+   "nomi": {
+    "it": "Sahel centrale",
+    "en": "Central Sahel",
+    "fr": "Sahel central",
+    "de": "Zentraler Sahel",
+    "es": "Sahel central",
+    "pt": "Sahel central",
+    "tr": "Orta Sahel",
+    "zh": "萨赫勒中部",
+    "ar": "وسط الساحل",
+    "he": "הסאהל המרכזי",
+    "ru": "Центральный Сахель"
+   },
+   "popolazione": {
+    "valore": 72954770,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~MLI~BFA~NER"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 11167,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 7738,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~MLI~BFA~NER"
+      }
+     },
+     "2026": {
+      "valore": 9130,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 3045,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~MLI~BFA~NER"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "nigeria",
+   "coord": [
+    10.5,
+    11.0
+   ],
+   "aree": [
+    "NGA"
+   ],
+   "tag_it": [
+    "nigeria"
+   ],
+   "tag": {
+    "it": "/s/it/tag/nigeria.html",
+    "en": "/s/en/tag/nigeria.html",
+    "fr": "/s/fr/tag/nigeria.html",
+    "de": "/s/de/tag/nigeria.html",
+    "es": "/s/es/tag/nigeria.html",
+    "pt": "/s/pt/tag/nigeria.html",
+    "tr": "/s/tr/tag/nijerya.html",
+    "zh": "/s/zh/tag/nigeria.html",
+    "ar": "/s/ar/tag/nigeria.html",
+    "he": "/s/he/tag/nigeria.html",
+    "ru": "/s/ru/tag/nigeria.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Nigeria",
+    "en": "Nigeria",
+    "fr": "Nigeria",
+    "de": "Nigeria",
+    "es": "Nigeria",
+    "pt": "Nigéria",
+    "tr": "Nijerya",
+    "zh": "尼日利亚",
+    "ar": "نيجيريا",
+    "he": "ניגריה",
+    "ru": "Нигерия"
+   },
+   "popolazione": {
+    "valore": 227882949,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~NGA"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 15816,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 4021,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~NGA"
+      }
+     },
+     "2026": {
+      "valore": 12106,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 2291,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~NGA"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "camerun",
+   "coord": [
+    10.0,
+    5.9
+   ],
+   "aree": [
+    "CMR"
+   ],
+   "tag_it": [
+    "camerun"
+   ],
+   "tag": {
+    "it": "/s/it/tag/camerun.html",
+    "en": "/s/en/tag/cameroon.html",
+    "fr": "/s/fr/tag/cameroun.html",
+    "de": "/s/de/tag/kamerun.html",
+    "es": "/s/es/tag/camerun.html",
+    "pt": "/s/pt/tag/camaroes.html",
+    "tr": "/s/tr/tag/kamerun.html",
+    "zh": "/s/zh/tag/cameroon.html",
+    "ar": "/s/ar/tag/cameroon.html",
+    "he": "/s/he/tag/cameroon.html",
+    "ru": "/s/ru/tag/cameroon.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Camerun",
+    "en": "Cameroon",
+    "fr": "Cameroun",
+    "de": "Kamerun",
+    "es": "Camerún",
+    "pt": "Camarões",
+    "tr": "Kamerun",
+    "zh": "喀麦隆",
+    "ar": "الكاميرون",
+    "he": "קמרון",
+    "ru": "Камерун"
+   },
+   "popolazione": {
+    "valore": 28372690,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~CMR"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 1966,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 367,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~CMR"
+      }
+     },
+     "2026": {
+      "valore": 1454,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 191,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~CMR"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "libia",
+   "coord": [
+    17.0,
+    27.0
+   ],
+   "aree": [
+    "LBY"
+   ],
+   "tag_it": [
+    "libia"
+   ],
+   "tag": {
+    "it": "/s/it/tag/libia.html",
+    "en": "/s/en/tag/libya.html",
+    "fr": "/s/fr/tag/libye.html",
+    "de": "/s/de/tag/libyen.html",
+    "es": "/s/es/tag/libia.html",
+    "pt": "/s/pt/tag/libia.html",
+    "tr": "/s/tr/tag/libya.html",
+    "zh": "/s/zh/tag/libya.html",
+    "ar": "/s/ar/tag/libya.html",
+    "he": "/s/he/tag/libya.html",
+    "ru": "/s/ru/tag/libya.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Libia",
+    "en": "Libya",
+    "fr": "Libye",
+    "de": "Libyen",
+    "es": "Libia",
+    "pt": "Líbia",
+    "tr": "Libya",
+    "zh": "利比亚",
+    "ar": "ليبيا",
+    "he": "לוב",
+    "ru": "Ливия"
+   },
+   "popolazione": {
+    "valore": 7305659,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~LBY"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 282,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 0,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~LBY"
+      }
+     },
+     "2026": {
+      "valore": 186,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 0,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~LBY"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "haiti",
+   "coord": [
+    -72.3,
+    18.9
+   ],
+   "aree": [
+    "HTI"
+   ],
+   "tag_it": [
+    "haiti"
+   ],
+   "tag": {
+    "it": "/s/it/tag/haiti.html",
+    "en": "/s/en/tag/haiti.html",
+    "fr": "/s/fr/tag/haiti.html",
+    "de": "/s/de/tag/haiti.html",
+    "es": "/s/es/tag/haiti.html",
+    "pt": "/s/pt/tag/haiti.html",
+    "tr": "/s/tr/tag/haiti.html",
+    "zh": "/s/zh/tag/haiti.html",
+    "ar": "/s/ar/tag/haiti.html",
+    "he": "/s/he/tag/haiti.html",
+    "ru": "/s/ru/tag/haiti.html"
+   },
+   "copertura": 2,
+   "nomi": {
+    "it": "Haiti",
+    "en": "Haiti",
+    "fr": "Haïti",
+    "de": "Haiti",
+    "es": "Haití",
+    "pt": "Haiti",
+    "tr": "Haiti",
+    "zh": "海地",
+    "ar": "هايتي",
+    "he": "האיטי",
+    "ru": "Гаити"
+   },
+   "popolazione": {
+    "valore": 11637402,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~HTI"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 4826,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 2428,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~HTI"
+      }
+     },
+     "2026": {
+      "valore": 2428,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 164,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~HTI"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "colombia",
+   "coord": [
+    -73.0,
+    8.0
+   ],
+   "aree": [
+    "COL"
+   ],
+   "tag_it": [
+    "colombia"
+   ],
+   "tag": {
+    "it": "/s/it/tag/colombia.html",
+    "en": "/s/en/tag/colombia.html",
+    "fr": "/s/fr/tag/colombie.html",
+    "de": "/s/de/tag/kolumbien.html",
+    "es": "/s/es/tag/colombia.html",
+    "pt": "/s/pt/tag/colombia.html",
+    "tr": "/s/tr/tag/kolombiya.html",
+    "zh": "/s/zh/tag/colombia.html",
+    "ar": "/s/ar/tag/colombia.html",
+    "he": "/s/he/tag/colombia.html",
+    "ru": "/s/ru/tag/colombia.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Colombia",
+    "en": "Colombia",
+    "fr": "Colombie",
+    "de": "Kolumbien",
+    "es": "Colombia",
+    "pt": "Colômbia",
+    "tr": "Kolombiya",
+    "zh": "哥伦比亚",
+    "ar": "كولومبيا",
+    "he": "קולומביה",
+    "ru": "Колумбия"
+   },
+   "popolazione": {
+    "valore": 52321152,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~COL"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 2293,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 942,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~COL"
+      }
+     },
+     "2026": {
+      "valore": 1525,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 495,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~COL"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "venezuela",
+   "coord": [
+    -66.6,
+    7.0
+   ],
+   "aree": [
+    "VEN"
+   ],
+   "tag_it": [
+    "venezuela"
+   ],
+   "tag": {
+    "it": "/s/it/tag/venezuela.html",
+    "en": "/s/en/tag/venezuela.html",
+    "fr": "/s/fr/tag/venezuela.html",
+    "de": "/s/de/tag/venezuela.html",
+    "es": "/s/es/tag/venezuela.html",
+    "pt": "/s/pt/tag/venezuela.html",
+    "tr": "/s/tr/tag/venezuela.html",
+    "zh": "/s/zh/tag/venezuela.html",
+    "ar": "/s/ar/tag/venezuela.html",
+    "he": "/s/he/tag/venezuela.html",
+    "ru": "/s/ru/tag/venezuela.html"
+   },
+   "copertura": 4,
+   "nomi": {
+    "it": "Venezuela",
+    "en": "Venezuela",
+    "fr": "Venezuela",
+    "de": "Venezuela",
+    "es": "Venezuela",
+    "pt": "Venezuela",
+    "tr": "Venezuela",
+    "zh": "委内瑞拉",
+    "ar": "فنزويلا",
+    "he": "ונצואלה",
+    "ru": "Венесуэла"
+   },
+   "popolazione": {
+    "valore": 28300861,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~VEN"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 400,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 4,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~VEN"
+      }
+     },
+     "2026": {
+      "valore": 341,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 0,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~VEN"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "afghanistan",
+   "coord": [
+    66.0,
+    34.0
+   ],
+   "aree": [
+    "AFG"
+   ],
+   "tag_it": [
+    "afghanistan"
+   ],
+   "tag": {
+    "it": "/s/it/tag/afghanistan.html",
+    "en": "/s/en/tag/afghanistan.html",
+    "fr": "/s/fr/tag/afghanistan.html",
+    "de": "/s/de/tag/afghanistan.html",
+    "es": "/s/es/tag/afganistan.html",
+    "pt": "/s/pt/tag/afeganistao.html",
+    "tr": "/s/tr/tag/afganistan.html",
+    "zh": "/s/zh/tag/afghanistan.html",
+    "ar": "/s/ar/tag/afghanistan.html",
+    "he": "/s/he/tag/afghanistan.html",
+    "ru": "/s/ru/tag/afghanistan.html"
+   },
+   "copertura": 4,
+   "nomi": {
+    "it": "Afghanistan",
+    "en": "Afghanistan",
+    "fr": "Afghanistan",
+    "de": "Afghanistan",
+    "es": "Afganistán",
+    "pt": "Afeganistão",
+    "tr": "Afganistan",
+    "zh": "阿富汗",
+    "ar": "أفغانستان",
+    "he": "אפגניסטן",
+    "ru": "Афганистан"
+   },
+   "popolazione": {
+    "valore": 41454762,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~AFG"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 997,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 330,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~AFG"
+      }
+     },
+     "2026": {
+      "valore": 1139,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 674,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~AFG"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "pakistan",
+   "coord": [
+    69.3,
+    30.0
+   ],
+   "aree": [
+    "PAK"
+   ],
+   "tag_it": [
+    "pakistan"
+   ],
+   "tag": {
+    "it": "/s/it/tag/pakistan.html",
+    "en": "/s/en/tag/pakistan.html",
+    "fr": "/s/fr/tag/pakistan.html",
+    "de": "/s/de/tag/pakistan.html",
+    "es": "/s/es/tag/pakistan.html",
+    "pt": "/s/pt/tag/paquistao.html",
+    "tr": "/s/tr/tag/pakistan.html",
+    "zh": "/s/zh/tag/pakistan.html",
+    "ar": "/s/ar/tag/pakistan.html",
+    "he": "/s/he/tag/pakistan.html",
+    "ru": "/s/ru/tag/pakistan.html"
+   },
+   "copertura": 2,
+   "nomi": {
+    "it": "Pakistan",
+    "en": "Pakistan",
+    "fr": "Pakistan",
+    "de": "Pakistan",
+    "es": "Pakistán",
+    "pt": "Paquistão",
+    "tr": "Pakistan",
+    "zh": "巴基斯坦",
+    "ar": "باكستان",
+    "he": "פקיסטן",
+    "ru": "Пакистан"
+   },
+   "popolazione": {
+    "valore": 247504505,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~PAK"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 5357,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 3308,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~PAK"
+      }
+     },
+     "2026": {
+      "valore": 5509,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 1774,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~PAK"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "myanmar",
+   "coord": [
+    96.0,
+    21.0
+   ],
+   "aree": [
+    "MMR"
+   ],
+   "tag_it": [
+    "myanmar",
+    "rohingya"
+   ],
+   "tag": {
+    "it": "/s/it/tag/myanmar.html",
+    "en": "/s/en/tag/myanmar.html",
+    "fr": "/s/fr/tag/myanmar.html",
+    "de": "/s/de/tag/myanmar.html",
+    "es": "/s/es/tag/myanmar.html",
+    "pt": "/s/pt/tag/myanmar.html",
+    "tr": "/s/tr/tag/myanmar.html",
+    "zh": "/s/zh/tag/myanmar.html",
+    "ar": "/s/ar/tag/myanmar.html",
+    "he": "/s/he/tag/myanmar.html",
+    "ru": "/s/ru/tag/myanmar.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Myanmar",
+    "en": "Myanmar",
+    "fr": "Myanmar",
+    "de": "Myanmar",
+    "es": "Myanmar",
+    "pt": "Myanmar",
+    "tr": "Myanmar",
+    "zh": "缅甸",
+    "ar": "ميانمار",
+    "he": "מיאנמר",
+    "ru": "Мьянма"
+   },
+   "popolazione": {
+    "valore": 54133800,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~MMR"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 15824,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 2309,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~MMR"
+      }
+     },
+     "2026": {
+      "valore": 8438,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 960,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~MMR"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "taiwan",
+   "coord": [
+    121.0,
+    23.7
+   ],
+   "aree": [
+    "TWN"
+   ],
+   "tag_it": [
+    "taiwan"
+   ],
+   "tag": {
+    "it": "/s/it/tag/taiwan.html",
+    "en": "/s/en/tag/taiwan.html",
+    "fr": "/s/fr/tag/taiwan.html",
+    "de": "/s/de/tag/taiwan.html",
+    "es": "/s/es/tag/taiwan.html",
+    "pt": "/s/pt/tag/taiwan.html",
+    "tr": "/s/tr/tag/tayvan.html",
+    "zh": "/s/zh/tag/taiwan.html",
+    "ar": "/s/ar/tag/taiwan.html",
+    "he": "/s/he/tag/taiwan.html",
+    "ru": "/s/ru/tag/taiwan.html"
+   },
+   "copertura": 2,
+   "nomi": {
+    "it": "Taiwan",
+    "en": "Taiwan",
+    "fr": "Taïwan",
+    "de": "Taiwan",
+    "es": "Taiwán",
+    "pt": "Taiwan",
+    "tr": "Tayvan",
+    "zh": "台湾",
+    "ar": "تايوان",
+    "he": "טייוואן",
+    "ru": "Тайвань"
+   },
+   "popolazione": {
+    "valore": 23317145,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~TWN"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 0,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 0,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~TWN"
+      }
+     },
+     "2026": {
+      "valore": 0,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 0,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~TWN"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  },
+  {
+   "id": "ecuador",
+   "coord": [
+    -78.2,
+    -1.5
+   ],
+   "aree": [
+    "ECU"
+   ],
+   "tag_it": [],
+   "tag": {},
+   "copertura": 0,
+   "nomi": {
+    "it": "Ecuador",
+    "en": "Ecuador",
+    "fr": "Équateur",
+    "de": "Ecuador",
+    "es": "Ecuador",
+    "pt": "Equador",
+    "tr": "Ekvador",
+    "zh": "厄瓜多尔",
+    "ar": "الإكوادور",
+    "he": "אקוודור",
+    "ru": "Эквадор"
+   },
+   "popolazione": {
+    "valore": 17980079,
+    "anno": 2023,
+    "fonte": "UN WPP (2024) via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~ECU"
+   },
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 4070,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 353,
+       "periodo": "anno",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2025&country=~ECU"
+      }
+     },
+     "2026": {
+      "valore": 2939,
+      "data": "2026-09-25",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-10-04",
+      "ucdp": {
+       "valore": 49,
+       "periodo": "primo semestre (provvisorio)",
+       "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country?tab=table&time=2026&country=~ECU"
+      }
+     }
+    }
+   },
+   "qualificazione": []
+  }
+ ]
+}

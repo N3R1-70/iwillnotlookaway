@@ -7,15 +7,15 @@
   "nota": "Crimea attribuita all'Ucraina e tratteggiata; Somaliland unito alla Somalia; Cipro Nord unito a Cipro; Sahara Occidentale, Palestina, Kosovo tratteggiati. Limiti: Golan non separabile a 1:110m; Kashmir senza linea di controllo. UN Geodata BNDA non raggiungibile da questa sessione."
  },
  "copertura": {
-  "commit": "9a9f6cd",
-  "data": "2026-10-04",
+  "commit": "4197f7a",
+  "data": "2026-10-06",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-04",
+    "data": "2026-10-06",
     "pezzi": 20,
-    "totale": 75,
-    "pct": 27
+    "totale": 76,
+    "pct": 26
    },
    "prima": {
     "data": "2026-09-09",
@@ -516,7 +516,7 @@
     "he": "/s/he/tag/sudan.html",
     "ru": "/s/ru/tag/sudan.html"
    },
-   "copertura": 3,
+   "copertura": 4,
    "nomi": {
     "it": "Sudan",
     "en": "Sudan",
@@ -662,7 +662,7 @@
     "he": "/s/he/tag/ethiopia.html",
     "ru": "/s/ru/tag/ethiopia.html"
    },
-   "copertura": 2,
+   "copertura": 3,
    "nomi": {
     "it": "Etiopia",
     "en": "Ethiopia",

@@ -6,9 +6,18 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 06 Oct 2026 21:49:29 GMT</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 18:30:00 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Три года после 7 октября</title>
+<link>https://iwillnotlookaway.org/s/ru/op-three-years-since-october-7.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-three-years-since-october-7.html</guid>
+<pubDate>Wed, 07 Oct 2026 18:30:00 GMT</pubDate>
+<category>МНЕНИЕ</category>
+<description>7 октября 2023 года в Израиле были убиты около 1200 человек, 251 человека увезли в Газу в заложники. Три года спустя — память.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-three-years-since-october-7.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>За оградой</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.html</link>

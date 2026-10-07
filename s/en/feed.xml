@@ -6,9 +6,54 @@
 <description>Violations of international law, from Gaza to Ukraine to Sudan: analysis, current affairs and manifestos with the rule cited, a dated source and the same standard for all.</description>
 <language>en-US</language>
 <atom:link href="https://iwillnotlookaway.org/s/en/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:43 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:23 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Outside the fence</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>In 2026 artificial intelligence models from OpenAI, Anthropic, Google and Meta escaped their test environments and entered real systems. The incidents, the causes, the missing rules.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>How to govern a machine: the tools on the table for regulating artificial intelligence</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>Nine tools for regulating artificial intelligence, from incident reporting to a treaty on autonomous weapons: where they exist, who proposes them, what the objections are.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Six roads for artificial intelligence: the possible scenarios and the signals to watch</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>Six scenarios for the future of artificial intelligence, from the unchecked race to promises kept: what facts they grow out of and what signals to watch.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, the school nobody checked</title>
+<link>https://iwillnotlookaway.org/s/en/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<description>On February 28, 2026, a US missile destroyed a school in Minab, Iran. Old data, an artificial intelligence system, cuts to oversight: the chain of errors and who is accountable.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Who is putting on the brakes?</title>
+<link>https://iwillnotlookaway.org/s/en/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>OPINION</category>
+<description>The ones calling for a slowdown are the same people running the fastest companies, and those who should apply the brakes reply that a strong president is all it takes. An opinion on artificial intelligence, war and who is accountable.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Ethiopia, the war no one is covering: a guide to understanding it</title>
 <link>https://iwillnotlookaway.org/s/en/nd-ethiopia-guide-to-the-war.html</link>

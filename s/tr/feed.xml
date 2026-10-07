@@ -6,9 +6,54 @@
 <description>Gazze'den Ukrayna'ya ve Sudan'a uluslararası hukuk ihlalleri: atıf yapılan norm, tarihli kaynak ve herkes için aynı ölçütle analizler, güncel yazılar ve manifestolar.</description>
 <language>tr-TR</language>
 <atom:link href="https://iwillnotlookaway.org/s/tr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:45 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:26 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Minab, kimsenin kontrol etmediği okul</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<description>28 Şubat 2026'da bir Amerikan füzesi İran'ın Minab kentinde bir okulu yerle bir etti. Eski veriler, bir yapay zekâ sistemi, kısılan denetimler: hatalar zinciri ve bundan kimin hesap vereceği.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Çitin dışında</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-yz-citin-disinda.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yz-citin-disinda.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<description>2026'da OpenAI, Anthropic, Google ve Meta'nın yapay zekâ modelleri test ortamlarından çıkıp gerçek sistemlere girdi. Olaylar, nedenleri, eksik kurallar.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-yz-citin-disinda.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bir makine nasıl yönetilir: yapay zekâyı düzenlemek için masadaki araçlar</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-yz-kurallar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yz-kurallar.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<description>Olayların bildirilmesinden otonom silahlara ilişkin antlaşmaya, yapay zekâyı düzenlemek için dokuz araç: nerede varlar, kim öneriyor, itirazlar neler.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-yz-kurallar.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Yapay zekâ için altı yol: olası senaryolar ve izlenmesi gereken işaretler</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-yz-senaryolar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yz-senaryolar.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<description>Frensiz yarıştan tutulan vaatlere, yapay zekânın geleceğine ilişkin altı senaryo: hangi olgulardan doğuyorlar ve hangi işaretlere bakmalı.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-yz-senaryolar.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Kim fren yapıyor?</title>
+<link>https://iwillnotlookaway.org/s/tr/op-kim-fren-yapar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-kim-fren-yapar.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>GÖRÜŞ</category>
+<description>Yavaşlama çağrısı yapanlar en hızlı şirketleri yönetenlerin ta kendileri, fren yapması gerekenler ise güçlü bir başkanın yeteceğini söylüyor. Yapay zekâ, savaş ve bunlardan kimin hesap vereceği üzerine bir görüş.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-kim-fren-yapar.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Etiyopya, kimsenin anlatmadığı savaş: anlamak için bir rehber</title>
 <link>https://iwillnotlookaway.org/s/tr/nd-etiyopya-savas-rehberi.html</link>

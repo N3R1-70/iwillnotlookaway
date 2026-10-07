@@ -6,9 +6,54 @@
 <description>从加沙到乌克兰再到苏丹的国际法违反行为：分析、时事与宣言，引用具体规范、注明来源日期，对所有国家采用同一标准。</description>
 <language>zh-CN</language>
 <atom:link href="https://iwillnotlookaway.org/s/zh/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:46 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:26 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>越出围栏</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<description>2026年，OpenAI、Anthropic、谷歌和Meta的人工智能模型走出测试环境，进入了真实系统。事故、原因，以及缺失的规则。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>如何治理一台机器：监管人工智能的各种工具</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<description>监管人工智能的九种工具，从事故报告到自主武器条约：它们在哪里存在，由谁提出，反对意见有哪些。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>人工智能的六条道路：可能的情景与值得关注的信号</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<description>人工智能未来的六种情景，从不踩刹车的竞赛到兑现的承诺：它们源于哪些事实，又应关注哪些信号。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>米纳卜：无人核查的学校</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<description>2026年2月28日，一枚美国导弹摧毁了伊朗米纳卜的一所学校。过时的数据、一套人工智能系统、被削减的核查：错误链条与责任归属。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>谁来踩刹车？</title>
+<link>https://iwillnotlookaway.org/s/zh/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>观点</category>
+<description>呼吁放慢脚步的，正是那些领导着跑得最快的公司的人；而本应踩刹车的人却回答说，有一位强有力的总统就够了。一篇关于人工智能、战争以及由谁负责的观点文章。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>埃塞俄比亚，无人讲述的战争：读懂它的指南</title>
 <link>https://iwillnotlookaway.org/s/zh/nd-ethiopia-guide-to-the-war.html</link>

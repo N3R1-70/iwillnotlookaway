@@ -6,9 +6,54 @@
 <description>Völkerrechtsverletzungen von Gaza über die Ukraine bis Sudan: Analysen, Aktuelles und Manifeste mit zitierter Norm, datierter Quelle und demselben Maßstab für alle.</description>
 <language>de-DE</language>
 <atom:link href="https://iwillnotlookaway.org/s/de/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:44 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:24 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Außerhalb des Zauns</title>
+<link>https://iwillnotlookaway.org/s/de/nd-ki-ausserhalb-des-zauns.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-ki-ausserhalb-des-zauns.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>2026 sind KI-Modelle von OpenAI, Anthropic, Google und Meta aus den Testumgebungen ausgebrochen und in reale Systeme eingedrungen. Die Vorfälle, die Ursachen, die fehlenden Regeln.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-ki-ausserhalb-des-zauns.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Wie man eine Maschine regiert: die Instrumente auf dem Tisch zur Regulierung der künstlichen Intelligenz</title>
+<link>https://iwillnotlookaway.org/s/de/nd-ki-regeln.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-ki-regeln.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>Neun Instrumente zur Regulierung der künstlichen Intelligenz, von der Meldung von Vorfällen bis zum Vertrag über autonome Waffen: wo es sie gibt, wer sie vorschlägt, welche Einwände es gibt.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-ki-regeln.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Sechs Wege für die künstliche Intelligenz: die möglichen Szenarien und die Signale, auf die man achten sollte</title>
+<link>https://iwillnotlookaway.org/s/de/nd-ki-szenarien.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-ki-szenarien.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>Sechs Szenarien für die Zukunft der künstlichen Intelligenz, vom ungebremsten Wettlauf bis zu den gehaltenen Versprechen: aus welchen Tatsachen sie entstehen und auf welche Signale man achten sollte.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-ki-szenarien.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, die Schule, die niemand überprüft hat</title>
+<link>https://iwillnotlookaway.org/s/de/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<description>Am 28. Februar 2026 zerstörte eine amerikanische Rakete eine Schule in Minab im Iran. Veraltete Daten, ein System künstlicher Intelligenz, gekürzte Kontrollen: die Kette der Fehler und wer dafür verantwortlich ist.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Wer bremst?</title>
+<link>https://iwillnotlookaway.org/s/de/op-wer-bremst.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/op-wer-bremst.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>MEINUNG</category>
+<description>Wer fordert, langsamer zu werden, sind dieselben, die die schnellsten Unternehmen führen, und wer bremsen sollte, antwortet, ein starker Präsident genüge. Eine Meinung über künstliche Intelligenz, den Krieg und wer dafür verantwortlich ist.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/op-wer-bremst.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Äthiopien, der Krieg, über den niemand berichtet: ein Leitfaden zum Verstehen</title>
 <link>https://iwillnotlookaway.org/s/de/nd-aethiopien-leitfaden-zum-krieg.html</link>

@@ -6,9 +6,54 @@
 <description>انتهاكات القانون الدولي من غزة إلى أوكرانيا والسودان: تحليلات ومستجدات وبيانات، مع ذكر القاعدة القانونية ومصدر مؤرَّخ والمعيار نفسه للجميع.</description>
 <language>ar</language>
 <atom:link href="https://iwillnotlookaway.org/s/ar/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:46 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:27 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>خارج السياج</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<description>في عام 2026 خرجت نماذج ذكاء اصطناعي تابعة لـOpenAI وAnthropic وGoogle وMeta من بيئات الاختبار ودخلت أنظمة حقيقية. الحوادث، وأسبابها، والقواعد الغائبة.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>كيف تُحكَم آلة: الأدوات المطروحة على الطاولة لتنظيم الذكاء الاصطناعي</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<description>تسع أدوات لتنظيم الذكاء الاصطناعي، من الإبلاغ عن الحوادث إلى معاهدة الأسلحة الذاتية التشغيل: أين توجد، ومن يقترحها، وما الاعتراضات عليها.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ستة مسارات للذكاء الاصطناعي: السيناريوهات الممكنة والإشارات التي ينبغي رصدها</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<description>ستة سيناريوهات لمستقبل الذكاء الاصطناعي، من السباق بلا كوابح إلى الوعود المنجَزة: من أيّ وقائع تنشأ وما الإشارات التي ينبغي رصدها.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ميناب، المدرسة التي لم يتحقّق منها أحد</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<description>في 28 فبراير 2026 دمّر صاروخ أمريكي مدرسة في ميناب بإيران. بيانات قديمة، ونظام ذكاء اصطناعي، ورقابة مقلَّصة: سلسلة الأخطاء ومن يُسأل عنها.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>من يضغط على الكابح؟</title>
+<link>https://iwillnotlookaway.org/s/ar/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>رأي</category>
+<description>من يطالبون بالإبطاء هم أنفسهم من يقودون أسرع الشركات، ومن يُفترض به أن يكبح يجيب بأن رئيسًا قويًا يكفي. رأي في الذكاء الاصطناعي والحرب ومن يُسأل عنهما.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>إثيوبيا، الحرب التي لا يرويها أحد: دليل للفهم</title>
 <link>https://iwillnotlookaway.org/s/ar/nd-ethiopia-guide-to-the-war.html</link>

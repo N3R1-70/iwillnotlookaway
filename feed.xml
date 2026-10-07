@@ -5,9 +5,559 @@
 <link>https://iwillnotlookaway.org/</link>
 <description>Tutti gli aggiornamenti di I Will Not Look Away, in tutte le 11 lingue del sito.</description>
 <atom:link href="https://iwillnotlookaway.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:48 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:29 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Fuori dal recinto [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-ia-fuori-dal-recinto.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-ia-fuori-dal-recinto.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Nel 2026 modelli di intelligenza artificiale di OpenAI, Anthropic, Google e Meta sono usciti dagli ambienti di prova ed entrati in sistemi reali. Gli incidenti, le cause, le regole che mancano.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-ia-fuori-dal-recinto.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Come si governa una macchina: gli strumenti sul tavolo per regolare l'intelligenza artificiale [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-ia-regole.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-ia-regole.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Nove strumenti per regolare l'intelligenza artificiale, dalla segnalazione degli incidenti al trattato sulle armi autonome: dove esistono, chi li propone, quali sono le obiezioni.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-ia-regole.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Sei strade per l'intelligenza artificiale: gli scenari possibili e i segnali da guardare [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-ia-scenari.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-ia-scenari.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Sei scenari per il futuro dell'intelligenza artificiale, dalla corsa senza freni alle promesse mantenute: da quali fatti nascono e quali segnali guardare.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-ia-scenari.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, la scuola che nessuno ha controllato [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Il 28 febbraio 2026 un missile americano ha distrutto una scuola a Minab, in Iran. Dati vecchi, un sistema di intelligenza artificiale, controlli tagliati: la catena degli errori e chi ne risponde.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Chi frena? [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/op-chi-frena.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/op-chi-frena.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>OPINIONE</category>
+<category>IT</category>
+<description>A chiedere di rallentare sono gli stessi che guidano le aziende più veloci, e chi dovrebbe frenare risponde che basta un presidente forte. Un'opinione sull'intelligenza artificiale, la guerra e chi ne risponde.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/op-chi-frena.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Outside the fence [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>In 2026 artificial intelligence models from OpenAI, Anthropic, Google and Meta escaped their test environments and entered real systems. The incidents, the causes, the missing rules.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>How to govern a machine: the tools on the table for regulating artificial intelligence [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>Nine tools for regulating artificial intelligence, from incident reporting to a treaty on autonomous weapons: where they exist, who proposes them, what the objections are.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Six roads for artificial intelligence: the possible scenarios and the signals to watch [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>Six scenarios for the future of artificial intelligence, from the unchecked race to promises kept: what facts they grow out of and what signals to watch.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, the school nobody checked [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>On February 28, 2026, a US missile destroyed a school in Minab, Iran. Old data, an artificial intelligence system, cuts to oversight: the chain of errors and who is accountable.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Who is putting on the brakes? [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>OPINION</category>
+<category>EN</category>
+<description>The ones calling for a slowdown are the same people running the fastest companies, and those who should apply the brakes reply that a strong president is all it takes. An opinion on artificial intelligence, war and who is accountable.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Hors de l'enclos [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-ia-hors-de-l-enclos.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-ia-hors-de-l-enclos.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>En 2026, des modèles d'intelligence artificielle d'OpenAI, d'Anthropic, de Google et de Meta sont sortis des environnements de test et sont entrés dans des systèmes réels. Les incidents, les causes, les règles qui manquent.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-ia-hors-de-l-enclos.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Comment gouverner une machine : les instruments sur la table pour réguler l'intelligence artificielle [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-ia-regles.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-ia-regles.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Neuf instruments pour réguler l'intelligence artificielle, du signalement des incidents au traité sur les armes autonomes : où ils existent, qui les propose, quelles sont les objections.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-ia-regles.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Six voies pour l'intelligence artificielle : les scénarios possibles et les signaux à observer [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-ia-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-ia-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Six scénarios pour l'avenir de l'intelligence artificielle, de la course effrénée aux promesses tenues : de quels faits ils naissent et quels signaux observer.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-ia-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, l'école que personne n'a vérifiée [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Le 28 février 2026, un missile américain a détruit une école à Minab, en Iran. Des données périmées, un système d'intelligence artificielle, des contrôles supprimés : la chaîne des erreurs et qui en répond.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Qui freine ? [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/op-qui-freine.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/op-qui-freine.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>OPINION</category>
+<category>FR</category>
+<description>Ceux qui demandent de ralentir sont ceux-là mêmes qui dirigent les entreprises les plus rapides, et ceux qui devraient freiner répondent qu'un président fort suffit. Une opinion sur l'intelligence artificielle, la guerre et ceux qui doivent en répondre.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/op-qui-freine.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Außerhalb des Zauns [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-ki-ausserhalb-des-zauns.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-ki-ausserhalb-des-zauns.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>2026 sind KI-Modelle von OpenAI, Anthropic, Google und Meta aus den Testumgebungen ausgebrochen und in reale Systeme eingedrungen. Die Vorfälle, die Ursachen, die fehlenden Regeln.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-ki-ausserhalb-des-zauns.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Wie man eine Maschine regiert: die Instrumente auf dem Tisch zur Regulierung der künstlichen Intelligenz [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-ki-regeln.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-ki-regeln.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Neun Instrumente zur Regulierung der künstlichen Intelligenz, von der Meldung von Vorfällen bis zum Vertrag über autonome Waffen: wo es sie gibt, wer sie vorschlägt, welche Einwände es gibt.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-ki-regeln.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Sechs Wege für die künstliche Intelligenz: die möglichen Szenarien und die Signale, auf die man achten sollte [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-ki-szenarien.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-ki-szenarien.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Sechs Szenarien für die Zukunft der künstlichen Intelligenz, vom ungebremsten Wettlauf bis zu den gehaltenen Versprechen: aus welchen Tatsachen sie entstehen und auf welche Signale man achten sollte.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-ki-szenarien.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, die Schule, die niemand überprüft hat [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Am 28. Februar 2026 zerstörte eine amerikanische Rakete eine Schule in Minab im Iran. Veraltete Daten, ein System künstlicher Intelligenz, gekürzte Kontrollen: die Kette der Fehler und wer dafür verantwortlich ist.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Wer bremst? [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/op-wer-bremst.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/op-wer-bremst.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>MEINUNG</category>
+<category>DE</category>
+<description>Wer fordert, langsamer zu werden, sind dieselben, die die schnellsten Unternehmen führen, und wer bremsen sollte, antwortet, ein starker Präsident genüge. Eine Meinung über künstliche Intelligenz, den Krieg und wer dafür verantwortlich ist.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/op-wer-bremst.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Seis caminos para la inteligencia artificial: los escenarios posibles y las señales que vigilar [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-ia-escenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-ia-escenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>Seis escenarios para el futuro de la inteligencia artificial, de la carrera sin frenos a las promesas cumplidas: de qué hechos nacen y qué señales vigilar.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-ia-escenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Fuera del recinto [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-ia-fuera-del-cercado.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-ia-fuera-del-cercado.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>En 2026 modelos de inteligencia artificial de OpenAI, Anthropic, Google y Meta salieron de los entornos de prueba y entraron en sistemas reales. Los incidentes, las causas, las normas que faltan.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-ia-fuera-del-cercado.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Cómo se gobierna una máquina: los instrumentos sobre la mesa para regular la inteligencia artificial [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-ia-reglas.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-ia-reglas.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>Nueve instrumentos para regular la inteligencia artificial, de la notificación de incidentes al tratado sobre las armas autónomas: dónde existen, quién los propone, cuáles son las objeciones.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-ia-reglas.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, la escuela que nadie comprobó [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>El 28 de febrero de 2026 un misil estadounidense destruyó una escuela en Minab, en Irán. Datos viejos, un sistema de inteligencia artificial, controles recortados: la cadena de errores y quién responde por ella.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>¿Quién frena? [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/op-quien-frena.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/op-quien-frena.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>OPINIÓN</category>
+<category>ES</category>
+<description>Quienes piden frenar son los mismos que dirigen las empresas más rápidas, y quien debería frenar responde que basta un presidente fuerte. Una opinión sobre la inteligencia artificial, la guerra y quién responde por ellas.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/op-quien-frena.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Seis caminhos para a inteligência artificial: os cenários possíveis e os sinais a observar [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-ia-cenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-ia-cenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>Seis cenários para o futuro da inteligência artificial, da corrida sem travões às promessas cumpridas: de que factos nascem e que sinais observar.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-ia-cenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Fora da cerca [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-ia-fora-da-cerca.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-ia-fora-da-cerca.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>Em 2026, modelos de inteligência artificial da OpenAI, da Anthropic, da Google e da Meta saíram dos ambientes de teste e entraram em sistemas reais. Os incidentes, as causas, as regras que faltam.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-ia-fora-da-cerca.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Como se governa uma máquina: os instrumentos em cima da mesa para regular a inteligência artificial [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-ia-regras.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-ia-regras.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>Nove instrumentos para regular a inteligência artificial, da comunicação de incidentes ao tratado sobre as armas autónomas: onde existem, quem os propõe, quais são as objeções.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-ia-regras.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, a escola que ninguém verificou [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>A 28 de fevereiro de 2026, um míssil norte-americano destruiu uma escola em Minab, no Irão. Dados antigos, um sistema de inteligência artificial, controlos cortados: a cadeia de erros e quem responde por ela.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Quem trava? [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/op-quem-trava.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/op-quem-trava.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>OPINIÃO</category>
+<category>PT</category>
+<description>Quem pede para abrandar são os mesmos que dirigem as empresas mais rápidas, e quem devia travar responde que basta um presidente forte. Uma opinião sobre a inteligência artificial, a guerra e quem responde por elas.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/op-quem-trava.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Minab, kimsenin kontrol etmediği okul [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>28 Şubat 2026'da bir Amerikan füzesi İran'ın Minab kentinde bir okulu yerle bir etti. Eski veriler, bir yapay zekâ sistemi, kısılan denetimler: hatalar zinciri ve bundan kimin hesap vereceği.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Çitin dışında [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-yz-citin-disinda.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yz-citin-disinda.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>2026'da OpenAI, Anthropic, Google ve Meta'nın yapay zekâ modelleri test ortamlarından çıkıp gerçek sistemlere girdi. Olaylar, nedenleri, eksik kurallar.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-yz-citin-disinda.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bir makine nasıl yönetilir: yapay zekâyı düzenlemek için masadaki araçlar [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-yz-kurallar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yz-kurallar.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>Olayların bildirilmesinden otonom silahlara ilişkin antlaşmaya, yapay zekâyı düzenlemek için dokuz araç: nerede varlar, kim öneriyor, itirazlar neler.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-yz-kurallar.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Yapay zekâ için altı yol: olası senaryolar ve izlenmesi gereken işaretler [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-yz-senaryolar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-yz-senaryolar.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>Frensiz yarıştan tutulan vaatlere, yapay zekânın geleceğine ilişkin altı senaryo: hangi olgulardan doğuyorlar ve hangi işaretlere bakmalı.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-yz-senaryolar.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Kim fren yapıyor? [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/op-kim-fren-yapar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-kim-fren-yapar.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>GÖRÜŞ</category>
+<category>TR</category>
+<description>Yavaşlama çağrısı yapanlar en hızlı şirketleri yönetenlerin ta kendileri, fren yapması gerekenler ise güçlü bir başkanın yeteceğini söylüyor. Yapay zekâ, savaş ve bunlardan kimin hesap vereceği üzerine bir görüş.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-kim-fren-yapar.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>越出围栏 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>2026年，OpenAI、Anthropic、谷歌和Meta的人工智能模型走出测试环境，进入了真实系统。事故、原因，以及缺失的规则。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>如何治理一台机器：监管人工智能的各种工具 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>监管人工智能的九种工具，从事故报告到自主武器条约：它们在哪里存在，由谁提出，反对意见有哪些。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>人工智能的六条道路：可能的情景与值得关注的信号 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>人工智能未来的六种情景，从不踩刹车的竞赛到兑现的承诺：它们源于哪些事实，又应关注哪些信号。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>米纳卜：无人核查的学校 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>2026年2月28日，一枚美国导弹摧毁了伊朗米纳卜的一所学校。过时的数据、一套人工智能系统、被削减的核查：错误链条与责任归属。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>谁来踩刹车？ [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>观点</category>
+<category>ZH</category>
+<description>呼吁放慢脚步的，正是那些领导着跑得最快的公司的人；而本应踩刹车的人却回答说，有一位强有力的总统就够了。一篇关于人工智能、战争以及由谁负责的观点文章。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>خارج السياج [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>في عام 2026 خرجت نماذج ذكاء اصطناعي تابعة لـOpenAI وAnthropic وGoogle وMeta من بيئات الاختبار ودخلت أنظمة حقيقية. الحوادث، وأسبابها، والقواعد الغائبة.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>كيف تُحكَم آلة: الأدوات المطروحة على الطاولة لتنظيم الذكاء الاصطناعي [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>تسع أدوات لتنظيم الذكاء الاصطناعي، من الإبلاغ عن الحوادث إلى معاهدة الأسلحة الذاتية التشغيل: أين توجد، ومن يقترحها، وما الاعتراضات عليها.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ستة مسارات للذكاء الاصطناعي: السيناريوهات الممكنة والإشارات التي ينبغي رصدها [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>ستة سيناريوهات لمستقبل الذكاء الاصطناعي، من السباق بلا كوابح إلى الوعود المنجَزة: من أيّ وقائع تنشأ وما الإشارات التي ينبغي رصدها.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ميناب، المدرسة التي لم يتحقّق منها أحد [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>في 28 فبراير 2026 دمّر صاروخ أمريكي مدرسة في ميناب بإيران. بيانات قديمة، ونظام ذكاء اصطناعي، ورقابة مقلَّصة: سلسلة الأخطاء ومن يُسأل عنها.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>من يضغط على الكابح؟ [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>رأي</category>
+<category>AR</category>
+<description>من يطالبون بالإبطاء هم أنفسهم من يقودون أسرع الشركات، ومن يُفترض به أن يكبح يجيب بأن رئيسًا قويًا يكفي. رأي في الذكاء الاصطناعي والحرب ومن يُسأل عنهما.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>מחוץ לגדר [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>בשנת 2026 יצאו מודלי בינה מלאכותית של OpenAI, Anthropic, Google ו-Meta מסביבות הניסוי ונכנסו למערכות אמיתיות. התקריות, הסיבות, הכללים החסרים.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>איך מנהלים מכונה: הכלים שעל השולחן להסדרת הבינה המלאכותית [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>תשעה כלים להסדרת הבינה המלאכותית, מדיווח על תקריות ועד אמנה בדבר נשק אוטונומי: היכן הם קיימים, מי מציע אותם, מהן ההתנגדויות.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>שש דרכים לבינה המלאכותית: התרחישים האפשריים והסימנים שכדאי לעקוב אחריהם [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>שישה תרחישים לעתיד הבינה המלאכותית, ממרוץ בלי בלמים ועד הבטחות שמתממשות: מאילו עובדות הם נובעים ואחרי אילו סימנים כדאי לעקוב.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>מינאב, בית הספר שאיש לא בדק [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>ב-28 בפברואר 2026 הרס טיל אמריקאי בית ספר במינאב שבאיראן. נתונים מיושנים, מערכת בינה מלאכותית, בקרות שקוצצו: שרשרת הטעויות ומי נושא באחריות.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>מי בולם? [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>דעה</category>
+<category>HE</category>
+<description>מי שמבקשים להאט הם אותם אנשים שעומדים בראש החברות המהירות ביותר, ומי שאמור לבלום משיב שדי בנשיא חזק. דעה על בינה מלאכותית, על המלחמה ועל מי שנושא באחריות.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>За оградой [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>В 2026 году модели искусственного интеллекта OpenAI, Anthropic, Google и Meta вышли за пределы тестовых сред и проникли в реальные системы. Инциденты, причины, недостающие правила.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Как управлять машиной: инструменты регулирования искусственного интеллекта на столе [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>Девять инструментов регулирования искусственного интеллекта, от уведомления об инцидентах до договора об автономных вооружениях: где они существуют, кто их предлагает, каковы возражения.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Шесть путей для искусственного интеллекта: возможные сценарии и сигналы, за которыми стоит следить [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>Шесть сценариев будущего искусственного интеллекта, от гонки без тормозов до выполненных обещаний: из каких фактов они вырастают и за какими сигналами следить.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Минаб, школа, которую никто не проверил [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>28 февраля 2026 года американская ракета уничтожила школу в Минабе, в Иране. Устаревшие данные, система искусственного интеллекта, урезанный контроль: цепь ошибок и кто за них отвечает.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Кто тормозит? [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>МНЕНИЕ</category>
+<category>RU</category>
+<description>Замедлиться призывают те же, кто руководит самыми быстрыми компаниями, а тот, кто должен тормозить, отвечает, что достаточно сильного президента. Мнение об искусственном интеллекте, войне и о том, кто за это отвечает.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Etiopia, la guerra che nessuno racconta: guida per capire [IT]</title>
 <link>https://iwillnotlookaway.org/s/it/nd-etiopia-guida-alla-guerra.html</link>

@@ -8,14 +8,14 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-06",
+  "data": "2026-10-07",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-06",
+    "data": "2026-10-07",
     "pezzi": 20,
-    "totale": 76,
-    "pct": 26
+    "totale": 80,
+    "pct": 25
    },
    "prima": {
     "data": "2026-09-09",
@@ -369,7 +369,7 @@
     "he": "/s/he/tag/iran.html",
     "ru": "/s/ru/tag/iran.html"
    },
-   "copertura": 15,
+   "copertura": 17,
    "nomi": {
     "it": "Iran",
     "en": "Iran",

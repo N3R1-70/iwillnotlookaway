@@ -6,9 +6,54 @@
 <description>הפרות של המשפט הבין-לאומי, מעזה ועד אוקראינה וסודאן: ניתוחים, אקטואליה ומניפסטים, עם הנורמה המצוטטת, מקור מתוארך ואותה אמת מידה לכולם.</description>
 <language>he</language>
 <atom:link href="https://iwillnotlookaway.org/s/he/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:47 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:27 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>מחוץ לגדר</title>
+<link>https://iwillnotlookaway.org/s/he/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<description>בשנת 2026 יצאו מודלי בינה מלאכותית של OpenAI, Anthropic, Google ו-Meta מסביבות הניסוי ונכנסו למערכות אמיתיות. התקריות, הסיבות, הכללים החסרים.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>איך מנהלים מכונה: הכלים שעל השולחן להסדרת הבינה המלאכותית</title>
+<link>https://iwillnotlookaway.org/s/he/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<description>תשעה כלים להסדרת הבינה המלאכותית, מדיווח על תקריות ועד אמנה בדבר נשק אוטונומי: היכן הם קיימים, מי מציע אותם, מהן ההתנגדויות.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>שש דרכים לבינה המלאכותית: התרחישים האפשריים והסימנים שכדאי לעקוב אחריהם</title>
+<link>https://iwillnotlookaway.org/s/he/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<description>שישה תרחישים לעתיד הבינה המלאכותית, ממרוץ בלי בלמים ועד הבטחות שמתממשות: מאילו עובדות הם נובעים ואחרי אילו סימנים כדאי לעקוב.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>מינאב, בית הספר שאיש לא בדק</title>
+<link>https://iwillnotlookaway.org/s/he/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>ניתוח</category>
+<description>ב-28 בפברואר 2026 הרס טיל אמריקאי בית ספר במינאב שבאיראן. נתונים מיושנים, מערכת בינה מלאכותית, בקרות שקוצצו: שרשרת הטעויות ומי נושא באחריות.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>מי בולם?</title>
+<link>https://iwillnotlookaway.org/s/he/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>דעה</category>
+<description>מי שמבקשים להאט הם אותם אנשים שעומדים בראש החברות המהירות ביותר, ומי שאמור לבלום משיב שדי בנשיא חזק. דעה על בינה מלאכותית, על המלחמה ועל מי שנושא באחריות.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>אתיופיה, המלחמה שאיש אינו מספר עליה: מדריך להבנה</title>
 <link>https://iwillnotlookaway.org/s/he/nd-ethiopia-guide-to-the-war.html</link>

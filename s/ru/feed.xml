@@ -6,9 +6,54 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 05 Oct 2026 22:19:48 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 21:49:29 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>За оградой</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<description>В 2026 году модели искусственного интеллекта OpenAI, Anthropic, Google и Meta вышли за пределы тестовых сред и проникли в реальные системы. Инциденты, причины, недостающие правила.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ai-outside-the-fence.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Как управлять машиной: инструменты регулирования искусственного интеллекта на столе</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ai-rules.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ai-rules.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<description>Девять инструментов регулирования искусственного интеллекта, от уведомления об инцидентах до договора об автономных вооружениях: где они существуют, кто их предлагает, каковы возражения.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ai-rules.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Шесть путей для искусственного интеллекта: возможные сценарии и сигналы, за которыми стоит следить</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-ai-scenarios.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-ai-scenarios.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<description>Шесть сценариев будущего искусственного интеллекта, от гонки без тормозов до выполненных обещаний: из каких фактов они вырастают и за какими сигналами следить.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-ai-scenarios.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Минаб, школа, которую никто не проверил</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-minab.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-minab.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>АНАЛИЗ</category>
+<description>28 февраля 2026 года американская ракета уничтожила школу в Минабе, в Иране. Устаревшие данные, система искусственного интеллекта, урезанный контроль: цепь ошибок и кто за них отвечает.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-minab.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Кто тормозит?</title>
+<link>https://iwillnotlookaway.org/s/ru/op-who-brakes.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-who-brakes.html</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>МНЕНИЕ</category>
+<description>Замедлиться призывают те же, кто руководит самыми быстрыми компаниями, а тот, кто должен тормозить, отвечает, что достаточно сильного президента. Мнение об искусственном интеллекте, войне и о том, кто за это отвечает.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-who-brakes.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Эфиопия, война, о которой никто не рассказывает: путеводитель для понимания</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-ethiopia-guide-to-the-war.html</link>

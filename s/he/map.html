@@ -120,7 +120,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 .mappa .box.cov{border:1px solid var(--line);background:var(--deep);padding:18px 22px;margin:0 0 30px}
 .mappa .box.cov .lab{margin-top:0}
 .mappa .box.cov p:last-child{margin-bottom:0}
-.mtabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:0 0 12px;scrollbar-width:thin}
+.mtabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.soonlist{color:var(--ash);font:13px/1.5 system-ui,sans-serif;margin:-4px 0 14px}
 .mtab,.mtabs.regions button{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--pale);padding:7px 12px;font:13px/1.3 system-ui,sans-serif;cursor:pointer;white-space:nowrap}
 .mtab[aria-selected=true],.mtabs.regions button[aria-selected=true]{border-color:var(--glow);color:var(--bone);background:#1e0c0c}
 .mtab:disabled{opacity:.4;cursor:not-allowed}
@@ -178,7 +178,8 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <h1 class="page-title">לאן אנחנו מסתכלים, ולאן לא</h1>
 <p class="page-desc">מפה לכל מדד, מקור אחד לכל מפה. אין מדד מצרפי: את ההשוואה אתם עושים.</p>
 <div class="box cov"><p class="lab">הכיסוי שלנו</p><p id="cov-text"></p><p>הכיסוי שלנו עדיין אינו מאוזן, כפי שאנחנו כותבים בעמוד <a href="/s/he/about.html">אודות</a>: אנחנו מתקנים זאת לפי הפרוטוקול המוסבר בעמוד <a href="/s/he/method.html">השיטה</a>.</p></div>
-<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">מקרי מוות אלימים</button><button class="mtab" role="tab" data-k="sfollati" aria-selected="false" disabled>עקורים ופליטים · בקרוב</button><button class="mtab" role="tab" data-k="fame" aria-selected="false" disabled>רעב חריף (IPC 4–5) · בקרוב</button><button class="mtab" role="tab" data-k="gravita" aria-selected="false" disabled>חומרה הומניטרית · בקרוב</button><button class="mtab" role="tab" data-k="minori" aria-selected="false" disabled>הפרות נגד ילדים · בקרוב</button><button class="mtab" role="tab" data-k="sanita" aria-selected="false" disabled>התקפות על מערכת הבריאות · בקרוב</button><button class="mtab" role="tab" data-k="operatori" aria-selected="false" disabled>עובדי סיוע שנהרגו · בקרוב</button><button class="mtab" role="tab" data-k="giornalisti" aria-selected="false" disabled>עיתונאים שנהרגו · בקרוב</button><button class="mtab" role="tab" data-k="aiuti" aria-selected="false" disabled>סיוע חסר (דולר) · בקרוב</button><button class="mtab" role="tab" data-k="giuridica" aria-selected="false" disabled>סיווג משפטי · בקרוב</button></div>
+<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">מקרי מוות אלימים</button></div>
+<p class="soonlist">בקרוב: עקורים ופליטים · רעב חריף (IPC 4–5) · חומרה הומניטרית · הפרות נגד ילדים · התקפות על מערכת הבריאות · עובדי סיוע שנהרגו · עיתונאים שנהרגו · סיוע חסר (דולר) · סיווג משפטי</p>
 <div class="bar"><span class="seg" role="group"><button id="mAbs" aria-pressed="true">ערכים מוחלטים</button><button id="mCap" aria-pressed="false">ל־100,000 תושבים</button></span>
 <span class="seg" role="group" id="years"></span>
 <span class="mode">מוצג: <b id="modeLbl"></b></span></div>

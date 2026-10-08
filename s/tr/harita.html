@@ -120,7 +120,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 .mappa .box.cov{border:1px solid var(--line);background:var(--deep);padding:18px 22px;margin:0 0 30px}
 .mappa .box.cov .lab{margin-top:0}
 .mappa .box.cov p:last-child{margin-bottom:0}
-.mtabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:0 0 12px;scrollbar-width:thin}
+.mtabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.soonlist{color:var(--ash);font:13px/1.5 system-ui,sans-serif;margin:-4px 0 14px}
 .mtab,.mtabs.regions button{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--pale);padding:7px 12px;font:13px/1.3 system-ui,sans-serif;cursor:pointer;white-space:nowrap}
 .mtab[aria-selected=true],.mtabs.regions button[aria-selected=true]{border-color:var(--glow);color:var(--bone);background:#1e0c0c}
 .mtab:disabled{opacity:.4;cursor:not-allowed}
@@ -178,7 +178,8 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <h1 class="page-title">Nereye bakıyoruz, nereye bakmıyoruz</h1>
 <p class="page-desc">Her ölçü için bir harita, her harita için bir kaynak. Birleşik endeks yok: karşılaştırmayı siz yaparsınız.</p>
 <div class="box cov"><p class="lab">Kapsamımız</p><p id="cov-text"></p><p>Kapsamımız hâlâ dengesiz; bunu <a href="/s/tr/hakkimda.html">Hakkımda</a> sayfasında da yazıyoruz. <a href="/s/tr/yontem.html">Yöntem</a> sayfasında açıklanan protokolle bunu düzeltiyoruz.</p></div>
-<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Şiddet kaynaklı ölümler</button><button class="mtab" role="tab" data-k="sfollati" aria-selected="false" disabled>Yerinden edilenler ve mülteciler · yakında</button><button class="mtab" role="tab" data-k="fame" aria-selected="false" disabled>Akut açlık (IPC 4–5) · yakında</button><button class="mtab" role="tab" data-k="gravita" aria-selected="false" disabled>İnsani durumun ağırlığı · yakında</button><button class="mtab" role="tab" data-k="minori" aria-selected="false" disabled>Çocuklara yönelik ihlaller · yakında</button><button class="mtab" role="tab" data-k="sanita" aria-selected="false" disabled>Sağlık hizmetlerine saldırılar · yakında</button><button class="mtab" role="tab" data-k="operatori" aria-selected="false" disabled>Öldürülen yardım çalışanları · yakında</button><button class="mtab" role="tab" data-k="giornalisti" aria-selected="false" disabled>Öldürülen gazeteciler · yakında</button><button class="mtab" role="tab" data-k="aiuti" aria-selected="false" disabled>Karşılanmayan yardım (USD) · yakında</button><button class="mtab" role="tab" data-k="giuridica" aria-selected="false" disabled>Hukuki nitelendirme · yakında</button></div>
+<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Şiddet kaynaklı ölümler</button></div>
+<p class="soonlist">Yakında: Yerinden edilenler ve mülteciler · Akut açlık (IPC 4–5) · İnsani durumun ağırlığı · Çocuklara yönelik ihlaller · Sağlık hizmetlerine saldırılar · Öldürülen yardım çalışanları · Öldürülen gazeteciler · Karşılanmayan yardım (USD) · Hukuki nitelendirme</p>
 <div class="bar"><span class="seg" role="group"><button id="mAbs" aria-pressed="true">Mutlak değerler</button><button id="mCap" aria-pressed="false">100.000 kişi başına</button></span>
 <span class="seg" role="group" id="years"></span>
 <span class="mode">Gösterilen: <b id="modeLbl"></b></span></div>

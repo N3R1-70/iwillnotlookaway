@@ -120,7 +120,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 .mappa .box.cov{border:1px solid var(--line);background:var(--deep);padding:18px 22px;margin:0 0 30px}
 .mappa .box.cov .lab{margin-top:0}
 .mappa .box.cov p:last-child{margin-bottom:0}
-.mtabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:0 0 12px;scrollbar-width:thin}
+.mtabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.soonlist{color:var(--ash);font:13px/1.5 system-ui,sans-serif;margin:-4px 0 14px}
 .mtab,.mtabs.regions button{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--pale);padding:7px 12px;font:13px/1.3 system-ui,sans-serif;cursor:pointer;white-space:nowrap}
 .mtab[aria-selected=true],.mtabs.regions button[aria-selected=true]{border-color:var(--glow);color:var(--bone);background:#1e0c0c}
 .mtab:disabled{opacity:.4;cursor:not-allowed}
@@ -178,7 +178,8 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <h1 class="page-title">Wo wir hinsehen, wo nicht</h1>
 <p class="page-desc">Eine Karte pro Messgröße, eine Quelle pro Karte. Kein Gesamtindex: den Vergleich ziehen Sie selbst.</p>
 <div class="box cov"><p class="lab">Unsere Berichterstattung</p><p id="cov-text"></p><p>Unsere Berichterstattung ist noch unausgewogen, wie wir auf <a href="/s/de/ueber-mich.html">Über mich</a> schreiben: Wir korrigieren das mit dem in der <a href="/s/de/methode.html">Methode</a> erklärten Protokoll.</p></div>
-<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Gewaltsame Todesfälle</button><button class="mtab" role="tab" data-k="sfollati" aria-selected="false" disabled>Vertriebene und Geflüchtete · folgt</button><button class="mtab" role="tab" data-k="fame" aria-selected="false" disabled>Akuter Hunger (IPC 4–5) · folgt</button><button class="mtab" role="tab" data-k="gravita" aria-selected="false" disabled>Humanitärer Schweregrad · folgt</button><button class="mtab" role="tab" data-k="minori" aria-selected="false" disabled>Verletzungen gegen Kinder · folgt</button><button class="mtab" role="tab" data-k="sanita" aria-selected="false" disabled>Angriffe auf das Gesundheitswesen · folgt</button><button class="mtab" role="tab" data-k="operatori" aria-selected="false" disabled>Getötete humanitäre Helfer · folgt</button><button class="mtab" role="tab" data-k="giornalisti" aria-selected="false" disabled>Getötete Journalisten · folgt</button><button class="mtab" role="tab" data-k="aiuti" aria-selected="false" disabled>Fehlende Hilfe (USD) · folgt</button><button class="mtab" role="tab" data-k="giuridica" aria-selected="false" disabled>Rechtliche Einstufung · folgt</button></div>
+<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Gewaltsame Todesfälle</button></div>
+<p class="soonlist">Demnächst: Vertriebene und Geflüchtete · Akuter Hunger (IPC 4–5) · Humanitärer Schweregrad · Verletzungen gegen Kinder · Angriffe auf das Gesundheitswesen · Getötete humanitäre Helfer · Getötete Journalisten · Fehlende Hilfe (USD) · Rechtliche Einstufung</p>
 <div class="bar"><span class="seg" role="group"><button id="mAbs" aria-pressed="true">Absolute Werte</button><button id="mCap" aria-pressed="false">Pro 100.000 Einwohner</button></span>
 <span class="seg" role="group" id="years"></span>
 <span class="mode">Anzeige: <b id="modeLbl"></b></span></div>

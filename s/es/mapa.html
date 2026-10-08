@@ -120,7 +120,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 .mappa .box.cov{border:1px solid var(--line);background:var(--deep);padding:18px 22px;margin:0 0 30px}
 .mappa .box.cov .lab{margin-top:0}
 .mappa .box.cov p:last-child{margin-bottom:0}
-.mtabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:0 0 12px;scrollbar-width:thin}
+.mtabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.soonlist{color:var(--ash);font:13px/1.5 system-ui,sans-serif;margin:-4px 0 14px}
 .mtab,.mtabs.regions button{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--pale);padding:7px 12px;font:13px/1.3 system-ui,sans-serif;cursor:pointer;white-space:nowrap}
 .mtab[aria-selected=true],.mtabs.regions button[aria-selected=true]{border-color:var(--glow);color:var(--bone);background:#1e0c0c}
 .mtab:disabled{opacity:.4;cursor:not-allowed}
@@ -178,7 +178,8 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <h1 class="page-title">Dónde miramos, dónde no</h1>
 <p class="page-desc">Un mapa por cada medida, una fuente por cada mapa. Ningún índice agregado: la comparación la haces tú.</p>
 <div class="box cov"><p class="lab">Nuestra cobertura</p><p id="cov-text"></p><p>Nuestra cobertura sigue desequilibrada, como escribimos en <a href="/s/es/sobre-mi.html">Sobre mí</a>: la estamos corrigiendo con el protocolo explicado en el <a href="/s/es/metodo.html">Método</a>.</p></div>
-<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Muertes violentas</button><button class="mtab" role="tab" data-k="sfollati" aria-selected="false" disabled>Desplazados y refugiados · próximamente</button><button class="mtab" role="tab" data-k="fame" aria-selected="false" disabled>Hambre aguda (CIF 4–5) · próximamente</button><button class="mtab" role="tab" data-k="gravita" aria-selected="false" disabled>Gravedad humanitaria · próximamente</button><button class="mtab" role="tab" data-k="minori" aria-selected="false" disabled>Violaciones contra la infancia · próximamente</button><button class="mtab" role="tab" data-k="sanita" aria-selected="false" disabled>Ataques a la atención sanitaria · próximamente</button><button class="mtab" role="tab" data-k="operatori" aria-selected="false" disabled>Trabajadores humanitarios asesinados · próximamente</button><button class="mtab" role="tab" data-k="giornalisti" aria-selected="false" disabled>Periodistas asesinados · próximamente</button><button class="mtab" role="tab" data-k="aiuti" aria-selected="false" disabled>Ayuda no cubierta (USD) · próximamente</button><button class="mtab" role="tab" data-k="giuridica" aria-selected="false" disabled>Calificación jurídica · próximamente</button></div>
+<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Muertes violentas</button></div>
+<p class="soonlist">Próximos mapas: Desplazados y refugiados · Hambre aguda (CIF 4–5) · Gravedad humanitaria · Violaciones contra la infancia · Ataques a la atención sanitaria · Trabajadores humanitarios asesinados · Periodistas asesinados · Ayuda no cubierta (USD) · Calificación jurídica</p>
 <div class="bar"><span class="seg" role="group"><button id="mAbs" aria-pressed="true">Valores absolutos</button><button id="mCap" aria-pressed="false">Por 100.000 habitantes</button></span>
 <span class="seg" role="group" id="years"></span>
 <span class="mode">Ahora: <b id="modeLbl"></b></span></div>

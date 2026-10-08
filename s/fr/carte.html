@@ -120,7 +120,7 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 .mappa .box.cov{border:1px solid var(--line);background:var(--deep);padding:18px 22px;margin:0 0 30px}
 .mappa .box.cov .lab{margin-top:0}
 .mappa .box.cov p:last-child{margin-bottom:0}
-.mtabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:0 0 12px;scrollbar-width:thin}
+.mtabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.soonlist{color:var(--ash);font:13px/1.5 system-ui,sans-serif;margin:-4px 0 14px}
 .mtab,.mtabs.regions button{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--pale);padding:7px 12px;font:13px/1.3 system-ui,sans-serif;cursor:pointer;white-space:nowrap}
 .mtab[aria-selected=true],.mtabs.regions button[aria-selected=true]{border-color:var(--glow);color:var(--bone);background:#1e0c0c}
 .mtab:disabled{opacity:.4;cursor:not-allowed}
@@ -178,7 +178,8 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <h1 class="page-title">Où nous regardons, où nous ne regardons pas</h1>
 <p class="page-desc">Une carte par mesure, une source par carte. Aucun indice agrégé : la comparaison, c&#x27;est à vous de la faire.</p>
 <div class="box cov"><p class="lab">Notre couverture</p><p id="cov-text"></p><p>Notre couverture reste déséquilibrée, comme nous l'écrivons dans <a href="/s/fr/a-propos.html">À propos</a> : nous la corrigeons avec le protocole expliqué dans la <a href="/s/fr/methode.html">Méthode</a>.</p></div>
-<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Morts violentes</button><button class="mtab" role="tab" data-k="sfollati" aria-selected="false" disabled>Déplacés et réfugiés · à venir</button><button class="mtab" role="tab" data-k="fame" aria-selected="false" disabled>Faim aiguë (IPC 4–5) · à venir</button><button class="mtab" role="tab" data-k="gravita" aria-selected="false" disabled>Gravité humanitaire · à venir</button><button class="mtab" role="tab" data-k="minori" aria-selected="false" disabled>Violations contre les enfants · à venir</button><button class="mtab" role="tab" data-k="sanita" aria-selected="false" disabled>Attaques contre les soins · à venir</button><button class="mtab" role="tab" data-k="operatori" aria-selected="false" disabled>Humanitaires tués · à venir</button><button class="mtab" role="tab" data-k="giornalisti" aria-selected="false" disabled>Journalistes tués · à venir</button><button class="mtab" role="tab" data-k="aiuti" aria-selected="false" disabled>Aide manquante (USD) · à venir</button><button class="mtab" role="tab" data-k="giuridica" aria-selected="false" disabled>Qualification juridique · à venir</button></div>
+<div class="mtabs" role="tablist" id="tabs"><button class="mtab" role="tab" data-k="morti" aria-selected="true">Morts violentes</button></div>
+<p class="soonlist">Prochaines cartes : Déplacés et réfugiés · Faim aiguë (IPC 4–5) · Gravité humanitaire · Violations contre les enfants · Attaques contre les soins · Humanitaires tués · Journalistes tués · Aide manquante (USD) · Qualification juridique</p>
 <div class="bar"><span class="seg" role="group"><button id="mAbs" aria-pressed="true">Valeurs absolues</button><button id="mCap" aria-pressed="false">Pour 100 000 habitants</button></span>
 <span class="seg" role="group" id="years"></span>
 <span class="mode">Affichage : <b id="modeLbl"></b></span></div>

@@ -6,9 +6,18 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 10 Oct 2026 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 10 Oct 2026 22:30:00 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Маяк</title>
+<link>https://iwillnotlookaway.org/s/ru/op-the-lighthouse.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-the-lighthouse.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>МНЕНИЕ</category>
+<description>У Международного уголовного суда нет полиции, и его ордера часто остаются на бумаге. Почему же тогда США вводят против него санкции? Потому что то, что остаётся в протоколе, имеет вес.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-the-lighthouse.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Полгода для суда: Вашингтон ввёл санкции против всего МУС и открыл торг о его независимости</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-icc-sanctions-six-months.html</link>

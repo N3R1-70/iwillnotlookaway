@@ -5,9 +5,119 @@
 <link>https://iwillnotlookaway.org/</link>
 <description>Tutti gli aggiornamenti di I Will Not Look Away, in tutte le 11 lingue del sito.</description>
 <atom:link href="https://iwillnotlookaway.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 10 Oct 2026 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 10 Oct 2026 22:30:00 GMT</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Il faro [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/op-il-faro.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/op-il-faro.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>OPINIONE</category>
+<category>IT</category>
+<description>La Corte penale internazionale non ha una polizia, e i suoi mandati restano spesso sulla carta. Perché allora gli Stati Uniti la sanzionano? Perché ciò che resta agli atti pesa.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/op-il-faro.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>The lighthouse [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/op-the-lighthouse.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/op-the-lighthouse.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>OPINION</category>
+<category>EN</category>
+<description>The International Criminal Court has no police force, and its warrants often stay on paper. So why is the United States sanctioning it? Because what stays on the record carries weight.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/op-the-lighthouse.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Le phare [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/op-le-phare.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/op-le-phare.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>OPINION</category>
+<category>FR</category>
+<description>La Cour pénale internationale n'a pas de police, et ses mandats restent souvent lettre morte. Pourquoi les États-Unis la sanctionnent-ils alors ? Parce que ce qui reste consigné pèse.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/op-le-phare.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Der Leuchtturm [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/op-der-leuchtturm.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/op-der-leuchtturm.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>MEINUNG</category>
+<category>DE</category>
+<description>Der Internationale Strafgerichtshof hat keine Polizei, und seine Haftbefehle bleiben oft auf dem Papier. Warum sanktionieren ihn die USA dann? Weil das, was aktenkundig bleibt, Gewicht hat.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/op-der-leuchtturm.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>El faro [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/op-el-faro.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/op-el-faro.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>OPINIÓN</category>
+<category>ES</category>
+<description>La Corte Penal Internacional no tiene policía, y sus órdenes de detención a menudo se quedan en papel. ¿Por qué la sanciona entonces Estados Unidos? Porque lo que queda en las actas pesa.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/op-el-faro.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>O farol [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/op-o-farol.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/op-o-farol.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>OPINIÃO</category>
+<category>PT</category>
+<description>O Tribunal Penal Internacional não tem polícia, e os seus mandados ficam muitas vezes no papel. Então porque é que os Estados Unidos o sancionam? Porque o que fica nos autos tem peso.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/op-o-farol.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Deniz feneri [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/op-deniz-feneri.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-deniz-feneri.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>GÖRÜŞ</category>
+<category>TR</category>
+<description>Uluslararası Ceza Mahkemesi'nin polisi yok ve yakalama kararları çoğu zaman kâğıt üzerinde kalıyor. O hâlde ABD neden ona yaptırım uyguluyor? Çünkü kayda geçen şeyin ağırlığı var.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-deniz-feneri.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>灯塔 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/op-the-lighthouse.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-the-lighthouse.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>观点</category>
+<category>ZH</category>
+<description>国际刑事法院没有警察，它的逮捕令常常只停留在纸面上。那么美国为什么还要制裁它？因为留在记录里的东西有分量。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-the-lighthouse.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>المنارة [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/op-the-lighthouse.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/op-the-lighthouse.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>رأي</category>
+<category>AR</category>
+<description>ليست للمحكمة الجنائية الدولية شرطة، وكثيرًا ما تبقى مذكرات توقيفها حبرًا على ورق. فلماذا تفرض عليها الولايات المتحدة عقوبات إذن؟ لأن ما يبقى في السجلات له وزن.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/op-the-lighthouse.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>המגדלור [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/op-the-lighthouse.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-the-lighthouse.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>דעה</category>
+<category>HE</category>
+<description>לבית הדין הפלילי הבינלאומי אין משטרה, וצווי המעצר שלו נשארים לעתים קרובות על הנייר. אז למה ארצות הברית מטילה עליו סנקציות? כי למה שנשאר בפרוטוקול יש משקל.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-the-lighthouse.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Маяк [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/op-the-lighthouse.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-the-lighthouse.html</guid>
+<pubDate>Sat, 10 Oct 2026 22:30:00 GMT</pubDate>
+<category>МНЕНИЕ</category>
+<category>RU</category>
+<description>У Международного уголовного суда нет полиции, и его ордера часто остаются на бумаге. Почему же тогда США вводят против него санкции? Потому что то, что остаётся в протоколе, имеет вес.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-the-lighthouse.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Sei mesi alla Corte: Washington sanziona la CPI intera e apre una trattativa sulla sua indipendenza [IT]</title>
 <link>https://iwillnotlookaway.org/s/it/nd-cpi-sanzioni-sei-mesi.html</link>

@@ -8,13 +8,13 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-10",
+  "data": "2026-10-11",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-10",
+    "data": "2026-10-11",
     "pezzi": 20,
-    "totale": 82,
+    "totale": 83,
     "pct": 24
    },
    "prima": {
@@ -296,7 +296,7 @@
     "he": "/s/he/tag/yemen.html",
     "ru": "/s/ru/tag/yemen.html"
    },
-   "copertura": 3,
+   "copertura": 4,
    "nomi": {
     "it": "Yemen",
     "en": "Yemen",
@@ -369,7 +369,7 @@
     "he": "/s/he/tag/iran.html",
     "ru": "/s/ru/tag/iran.html"
    },
-   "copertura": 18,
+   "copertura": 19,
    "nomi": {
     "it": "Iran",
     "en": "Iran",

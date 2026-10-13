@@ -8,13 +8,13 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-11",
+  "data": "2026-10-13",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-11",
+    "data": "2026-10-13",
     "pezzi": 20,
-    "totale": 83,
+    "totale": 84,
     "pct": 24
    },
    "prima": {
@@ -589,7 +589,7 @@
     "he": "/s/he/tag/south-sudan.html",
     "ru": "/s/ru/tag/south-sudan.html"
    },
-   "copertura": 1,
+   "copertura": 2,
    "nomi": {
     "it": "Sud Sudan",
     "en": "South Sudan",

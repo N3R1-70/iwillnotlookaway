@@ -8,13 +8,13 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-13",
+  "data": "2026-10-14",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-13",
+    "data": "2026-10-14",
     "pezzi": 20,
-    "totale": 84,
+    "totale": 85,
     "pct": 24
    },
    "prima": {
@@ -1030,7 +1030,7 @@
     "he": "/s/he/tag/libya.html",
     "ru": "/s/ru/tag/libya.html"
    },
-   "copertura": 2,
+   "copertura": 3,
    "nomi": {
     "it": "Libia",
     "en": "Libya",

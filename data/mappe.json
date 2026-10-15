@@ -8,13 +8,13 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-14",
+  "data": "2026-10-15",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-14",
+    "data": "2026-10-15",
     "pezzi": 20,
-    "totale": 86,
+    "totale": 88,
     "pct": 23
    },
    "prima": {
@@ -443,7 +443,7 @@
     "he": "/s/he/tag/russia-ukraine.html",
     "ru": "/s/ru/tag/russia-ukraine.html"
    },
-   "copertura": 16,
+   "copertura": 17,
    "nomi": {
     "it": "Russia–Ucraina",
     "en": "Russia–Ukraine",

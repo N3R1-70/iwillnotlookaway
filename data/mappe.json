@@ -8,14 +8,14 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-15",
+  "data": "2026-10-16",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-15",
+    "data": "2026-10-16",
     "pezzi": 20,
-    "totale": 88,
-    "pct": 23
+    "totale": 89,
+    "pct": 22
    },
    "prima": {
     "data": "2026-09-09",

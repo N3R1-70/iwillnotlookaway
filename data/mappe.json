@@ -8,13 +8,13 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-19",
+  "data": "2026-10-20",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-19",
+    "data": "2026-10-20",
     "pezzi": 20,
-    "totale": 96,
+    "totale": 97,
     "pct": 21
    },
    "prima": {
@@ -957,7 +957,7 @@
     "he": "/s/he/tag/cameroon.html",
     "ru": "/s/ru/tag/cameroon.html"
    },
-   "copertura": 1,
+   "copertura": 2,
    "nomi": {
     "it": "Camerun",
     "en": "Cameroon",

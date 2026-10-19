@@ -8,13 +8,13 @@
  },
  "copertura": {
   "commit": "4197f7a",
-  "data": "2026-10-18",
+  "data": "2026-10-19",
   "base": "pagine tag IT, unione dei tag del teatro, Opinioni incluse",
   "quota_israele_palestina": {
    "oggi": {
-    "data": "2026-10-18",
+    "data": "2026-10-19",
     "pezzi": 20,
-    "totale": 95,
+    "totale": 96,
     "pct": 21
    },
    "prima": {
@@ -1469,7 +1469,7 @@
     "he": "/s/he/tag/myanmar.html",
     "ru": "/s/ru/tag/myanmar.html"
    },
-   "copertura": 1,
+   "copertura": 2,
    "nomi": {
     "it": "Myanmar",
     "en": "Myanmar",

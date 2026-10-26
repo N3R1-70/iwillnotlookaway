@@ -1,0 +1,3400 @@
+{
+ "version": 1,
+ "updated": "2026-10-26",
+ "docs": [
+  {
+   "id": "corfu",
+   "type": "icj",
+   "theater": "general",
+   "date": "1949-04-09",
+   "url": "https://www.icj-cij.org/case/1",
+   "pieces": [
+    "nd-anatomia-allarme-droni"
+   ],
+   "text": {
+    "it": {
+     "t": "Canale di Corfù (Regno Unito c. Albania)",
+     "o": "Corte internazionale di giustizia",
+     "w": "L'Albania è responsabile per le mine nelle sue acque che colpirono due navi britanniche: sapeva e non avvertì. Ma anche il Regno Unito ha violato la sovranità albanese, sminando quelle acque senza consenso.",
+     "g": "Sentenza, vincolante per le parti.",
+     "r": ""
+    },
+    "en": {
+     "t": "Corfu Channel (United Kingdom v. Albania)",
+     "o": "International Court of Justice",
+     "w": "Albania is responsible for the mines in its waters that struck two British ships: it knew and gave no warning. But the United Kingdom also violated Albanian sovereignty by sweeping those waters without consent.",
+     "g": "Judgment, binding on the parties.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Détroit de Corfou (Royaume-Uni c. Albanie)",
+     "o": "Cour internationale de justice",
+     "w": "L'Albanie est responsable des mines posées dans ses eaux qui ont touché deux navires britanniques : elle savait et n'a pas averti. Mais le Royaume-Uni a lui aussi violé la souveraineté albanaise en déminant ces eaux sans consentement.",
+     "g": "Arrêt, obligatoire pour les parties.",
+     "r": ""
+    },
+    "de": {
+     "t": "Korfu-Kanal (Vereinigtes Königreich gegen Albanien)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Albanien ist für die Minen in seinen Gewässern verantwortlich, die zwei britische Schiffe trafen: Es wusste davon und warnte nicht. Aber auch das Vereinigte Königreich hat die albanische Souveränität verletzt, als es diese Gewässer ohne Zustimmung räumte.",
+     "g": "Urteil, bindend für die Parteien.",
+     "r": ""
+    },
+    "es": {
+     "t": "Canal de Corfú (Reino Unido c. Albania)",
+     "o": "Corte Internacional de Justicia",
+     "w": "Albania es responsable de las minas en sus aguas que alcanzaron a dos buques británicos: lo sabía y no avisó. Pero también el Reino Unido violó la soberanía albanesa al desminar esas aguas sin consentimiento.",
+     "g": "Sentencia, vinculante para las partes.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Canal de Corfu (Reino Unido c. Albânia)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "A Albânia é responsável pelas minas nas suas águas que atingiram dois navios britânicos: sabia e não avisou. Mas também o Reino Unido violou a soberania albanesa ao desminar essas águas sem consentimento.",
+     "g": "Acórdão, vinculativo para as partes.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Korfu Boğazı (Birleşik Krallık - Arnavutluk)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "Arnavutluk, sularında iki İngiliz gemisini vuran mayınlardan sorumludur: biliyordu ve uyarmadı. Ancak Birleşik Krallık da bu suları rıza olmadan mayından temizleyerek Arnavutluk'un egemenliğini ihlal etti.",
+     "g": "Karar, taraflar için bağlayıcı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "科孚海峡案（英国诉阿尔巴尼亚）",
+     "o": "国际法院",
+     "w": "阿尔巴尼亚对其水域中击中两艘英国军舰的水雷负有责任：它知情却没有发出警告。但英国未经同意在这些水域扫雷，同样侵犯了阿尔巴尼亚的主权。",
+     "g": "判决，对当事方具有约束力。",
+     "r": ""
+    },
+    "ar": {
+     "t": "قناة كورفو (المملكة المتحدة ضد ألبانيا)",
+     "o": "محكمة العدل الدولية",
+     "w": "ألبانيا مسؤولة عن الألغام في مياهها التي أصابت سفينتين بريطانيتين: كانت تعلم ولم تحذّر. لكن المملكة المتحدة انتهكت أيضًا السيادة الألبانية عندما أزالت الألغام من تلك المياه دون موافقة.",
+     "g": "حكم ملزم للطرفين.",
+     "r": ""
+    },
+    "he": {
+     "t": "מיצר קורפו (בריטניה נגד אלבניה)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "אלבניה אחראית למוקשים במימיה שפגעו בשתי ספינות בריטיות: היא ידעה ולא הזהירה. אך גם בריטניה הפרה את הריבונות האלבנית כשפינתה מוקשים מהמים האלה בלי הסכמה.",
+     "g": "פסק דין, מחייב את הצדדים.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Пролив Корфу (Великобритания против Албании)",
+     "o": "Международный суд ООН",
+     "w": "Албания несёт ответственность за мины в своих водах, на которых подорвались два британских корабля: она знала об этом и не предупредила. Но и Великобритания нарушила суверенитет Албании, разминировав эти воды без её согласия.",
+     "g": "Решение, обязательное для сторон.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "nicaragua",
+   "type": "icj",
+   "theater": "usa",
+   "date": "1986-06-27",
+   "url": "https://www.icj-cij.org/case/70",
+   "pieces": [
+    "glo-uso-della-forza",
+    "nd-anatomia-allarme-droni"
+   ],
+   "text": {
+    "it": {
+     "t": "Attività militari e paramilitari in Nicaragua (Nicaragua c. Stati Uniti)",
+     "o": "Corte internazionale di giustizia",
+     "w": "Gli Stati Uniti hanno violato il divieto dell'uso della forza e di ingerenza, armando i contras e minando i porti del Nicaragua. Fornire armi a ribelli non è un «attacco armato» che giustifichi la legittima difesa di un altro Stato.",
+     "g": "Sentenza, vincolante per le parti.",
+     "r": "Gli Stati Uniti si sono ritirati dal procedimento e non hanno eseguito la sentenza."
+    },
+    "en": {
+     "t": "Military and Paramilitary Activities in and against Nicaragua (Nicaragua v. United States)",
+     "o": "International Court of Justice",
+     "w": "The United States violated the prohibition on the use of force and on intervention by arming the contras and mining Nicaragua's ports. Supplying weapons to rebels is not an “armed attack” that would justify another State's self-defence.",
+     "g": "Judgment, binding on the parties.",
+     "r": "The United States withdrew from the proceedings and did not comply with the judgment."
+    },
+    "fr": {
+     "t": "Activités militaires et paramilitaires au Nicaragua et contre celui-ci (Nicaragua c. États-Unis)",
+     "o": "Cour internationale de justice",
+     "w": "Les États-Unis ont violé l'interdiction du recours à la force et de l'ingérence en armant les contras et en minant les ports du Nicaragua. Fournir des armes à des rebelles n'est pas une « agression armée » justifiant la légitime défense d'un autre État.",
+     "g": "Arrêt, obligatoire pour les parties.",
+     "r": "Les États-Unis se sont retirés de la procédure et n'ont pas exécuté l'arrêt."
+    },
+    "de": {
+     "t": "Militärische und paramilitärische Aktivitäten in und gegen Nicaragua (Nicaragua gegen Vereinigte Staaten)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Die Vereinigten Staaten haben das Gewaltverbot und das Interventionsverbot verletzt, indem sie die Contras bewaffneten und die Häfen Nicaraguas verminten. Waffenlieferungen an Rebellen sind kein „bewaffneter Angriff“, der die Selbstverteidigung eines anderen Staates rechtfertigt.",
+     "g": "Urteil, bindend für die Parteien.",
+     "r": "Die Vereinigten Staaten zogen sich aus dem Verfahren zurück und befolgten das Urteil nicht."
+    },
+    "es": {
+     "t": "Actividades militares y paramilitares en y contra Nicaragua (Nicaragua c. Estados Unidos)",
+     "o": "Corte Internacional de Justicia",
+     "w": "Estados Unidos violó la prohibición del uso de la fuerza y de la injerencia al armar a la contra y minar los puertos de Nicaragua. Suministrar armas a rebeldes no es un «ataque armado» que justifique la legítima defensa de otro Estado.",
+     "g": "Sentencia, vinculante para las partes.",
+     "r": "Estados Unidos se retiró del procedimiento y no cumplió la sentencia."
+    },
+    "pt": {
+     "t": "Atividades militares e paramilitares na Nicarágua e contra esta (Nicarágua c. Estados Unidos)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "Os Estados Unidos violaram a proibição do uso da força e de ingerência ao armar os contras e minar os portos da Nicarágua. Fornecer armas a rebeldes não é um «ataque armado» que justifique a legítima defesa de outro Estado.",
+     "g": "Acórdão, vinculativo para as partes.",
+     "r": "Os Estados Unidos retiraram-se do processo e não cumpriram o acórdão."
+    },
+    "tr": {
+     "t": "Nikaragua'da ve Nikaragua'ya karşı askeri ve paramiliter faaliyetler (Nikaragua - ABD)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "ABD, Kontraları silahlandırarak ve Nikaragua limanlarını mayınlayarak kuvvet kullanma ve müdahale yasağını ihlal etti. İsyancılara silah sağlamak, başka bir devletin meşru müdafaasını haklı kılacak bir «silahlı saldırı» değildir.",
+     "g": "Karar, taraflar için bağlayıcı.",
+     "r": "ABD davadan çekildi ve karara uymadı."
+    },
+    "zh": {
+     "t": "在尼加拉瓜境内和针对尼加拉瓜的军事和准军事活动案（尼加拉瓜诉美国）",
+     "o": "国际法院",
+     "w": "美国武装反政府武装并在尼加拉瓜港口布雷，违反了禁止使用武力和不干涉原则。向叛乱分子提供武器不构成可使另一国行使自卫权的“武力攻击”。",
+     "g": "判决，对当事方具有约束力。",
+     "r": "美国退出了诉讼，也没有执行判决。"
+    },
+    "ar": {
+     "t": "الأنشطة العسكرية وشبه العسكرية في نيكاراغوا وضدها (نيكاراغوا ضد الولايات المتحدة)",
+     "o": "محكمة العدل الدولية",
+     "w": "انتهكت الولايات المتحدة حظر استخدام القوة وعدم التدخل بتسليح متمردي الكونترا وتلغيم موانئ نيكاراغوا. وتزويد المتمردين بالسلاح ليس «هجومًا مسلحًا» يبرر دفاع دولة أخرى عن النفس.",
+     "g": "حكم ملزم للطرفين.",
+     "r": "انسحبت الولايات المتحدة من الإجراءات ولم تنفذ الحكم."
+    },
+    "he": {
+     "t": "פעילות צבאית וחצי-צבאית בניקרגואה ונגדה (ניקרגואה נגד ארצות הברית)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "ארצות הברית הפרה את האיסור על שימוש בכוח ועל התערבות כשחימשה את הקונטראס ומיקשה את נמלי ניקרגואה. אספקת נשק למורדים אינה «מתקפה מזוינת» המצדיקה הגנה עצמית של מדינה אחרת.",
+     "g": "פסק דין, מחייב את הצדדים.",
+     "r": "ארצות הברית פרשה מההליך ולא קיימה את פסק הדין."
+    },
+    "ru": {
+     "t": "Военная и военизированная деятельность в Никарагуа и против неё (Никарагуа против США)",
+     "o": "Международный суд ООН",
+     "w": "США нарушили запрет на применение силы и вмешательство, вооружая контрас и минируя порты Никарагуа. Поставки оружия повстанцам не являются «вооружённым нападением», оправдывающим самооборону другого государства.",
+     "g": "Решение, обязательное для сторон.",
+     "r": "США вышли из процесса и не исполнили решение."
+    }
+   }
+  },
+  {
+   "id": "wall",
+   "type": "icj",
+   "theater": "isrpal",
+   "date": "2004-07-09",
+   "url": "https://www.icj-cij.org/case/131",
+   "pieces": [
+    "glo-uso-della-forza"
+   ],
+   "text": {
+    "it": {
+     "t": "Il muro nei Territori palestinesi occupati (parere consultivo)",
+     "o": "Corte internazionale di giustizia",
+     "w": "Il muro costruito da Israele dentro i Territori occupati è contrario al diritto internazionale. Israele deve smettere di costruirlo e risarcire i danni. Il diritto alla legittima difesa non si applica contro un territorio che lo Stato stesso occupa.",
+     "g": "Parere consultivo: non vincolante in sé, autorevole sul diritto.",
+     "r": "Israele ha respinto il parere."
+    },
+    "en": {
+     "t": "The Wall in the Occupied Palestinian Territory (advisory opinion)",
+     "o": "International Court of Justice",
+     "w": "The wall built by Israel inside the occupied territory is contrary to international law. Israel must stop building it and make reparation for the damage. The right of self-defence does not apply against a territory the State itself occupies.",
+     "g": "Advisory opinion: not binding in itself, authoritative on the law.",
+     "r": "Israel rejected the opinion."
+    },
+    "fr": {
+     "t": "Le mur dans le Territoire palestinien occupé (avis consultatif)",
+     "o": "Cour internationale de justice",
+     "w": "Le mur construit par Israël à l'intérieur du territoire occupé est contraire au droit international. Israël doit cesser de le construire et réparer les dommages. Le droit de légitime défense ne s'applique pas contre un territoire que l'État occupe lui-même.",
+     "g": "Avis consultatif : non obligatoire en soi, faisant autorité sur le droit.",
+     "r": "Israël a rejeté l'avis."
+    },
+    "de": {
+     "t": "Die Mauer im besetzten palästinensischen Gebiet (Gutachten)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Die von Israel innerhalb des besetzten Gebiets errichtete Mauer verstößt gegen das Völkerrecht. Israel muss den Bau einstellen und die Schäden wiedergutmachen. Das Recht auf Selbstverteidigung gilt nicht gegenüber einem Gebiet, das der Staat selbst besetzt hält.",
+     "g": "Gutachten: an sich nicht bindend, maßgeblich für das Recht.",
+     "r": "Israel hat das Gutachten zurückgewiesen."
+    },
+    "es": {
+     "t": "El muro en el Territorio Palestino Ocupado (opinión consultiva)",
+     "o": "Corte Internacional de Justicia",
+     "w": "El muro construido por Israel dentro del territorio ocupado es contrario al derecho internacional. Israel debe dejar de construirlo y reparar los daños. El derecho de legítima defensa no se aplica contra un territorio que el propio Estado ocupa.",
+     "g": "Opinión consultiva: no vinculante en sí, autorizada sobre el derecho.",
+     "r": "Israel rechazó la opinión."
+    },
+    "pt": {
+     "t": "O muro no Território Palestiniano Ocupado (parecer consultivo)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "O muro construído por Israel dentro do território ocupado é contrário ao direito internacional. Israel deve parar de o construir e reparar os danos. O direito de legítima defesa não se aplica contra um território que o próprio Estado ocupa.",
+     "g": "Parecer consultivo: não vinculativo em si, com autoridade sobre o direito.",
+     "r": "Israel rejeitou o parecer."
+    },
+    "tr": {
+     "t": "İşgal altındaki Filistin topraklarındaki duvar (danışma görüşü)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "İsrail'in işgal altındaki toprakların içine inşa ettiği duvar uluslararası hukuka aykırıdır. İsrail inşaatı durdurmalı ve zararları tazmin etmelidir. Meşru müdafaa hakkı, devletin kendisinin işgal ettiği bir topraklara karşı uygulanmaz.",
+     "g": "Danışma görüşü: kendi başına bağlayıcı değil, hukuk bakımından yetkili.",
+     "r": "İsrail görüşü reddetti."
+    },
+    "zh": {
+     "t": "在被占领巴勒斯坦领土修建隔离墙的法律后果（咨询意见）",
+     "o": "国际法院",
+     "w": "以色列在被占领土内修建的隔离墙违反国际法。以色列必须停止修建并赔偿损失。自卫权不适用于针对国家自己所占领的领土。",
+     "g": "咨询意见：本身不具约束力，但在法律上具有权威性。",
+     "r": "以色列拒绝接受该咨询意见。"
+    },
+    "ar": {
+     "t": "الجدار في الأرض الفلسطينية المحتلة (رأي استشاري)",
+     "o": "محكمة العدل الدولية",
+     "w": "الجدار الذي بنته إسرائيل داخل الأرض المحتلة مخالف للقانون الدولي. على إسرائيل أن توقف بناءه وأن تجبر الأضرار. ولا ينطبق حق الدفاع عن النفس على أرض تحتلها الدولة نفسها.",
+     "g": "رأي استشاري: غير ملزم بذاته، لكنه مرجعي في القانون.",
+     "r": "رفضت إسرائيل الرأي."
+    },
+    "he": {
+     "t": "החומה בשטח הפלסטיני הכבוש (חוות דעת מייעצת)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "החומה שבנתה ישראל בתוך השטח הכבוש מנוגדת למשפט הבינלאומי. על ישראל להפסיק לבנות אותה ולפצות על הנזקים. הזכות להגנה עצמית אינה חלה כלפי שטח שהמדינה עצמה מחזיקה בו בכיבוש.",
+     "g": "חוות דעת מייעצת: אינה מחייבת כשלעצמה, סמכותית לגבי הדין.",
+     "r": "ישראל דחתה את חוות הדעת."
+    },
+    "ru": {
+     "t": "Стена на оккупированной палестинской территории (консультативное заключение)",
+     "o": "Международный суд ООН",
+     "w": "Стена, построенная Израилем на оккупированной территории, противоречит международному праву. Израиль должен прекратить строительство и возместить ущерб. Право на самооборону не применяется против территории, которую государство само оккупирует.",
+     "g": "Консультативное заключение: само по себе не обязательно, но авторитетно в вопросах права.",
+     "r": "Израиль отверг заключение."
+    }
+   }
+  },
+  {
+   "id": "drc",
+   "type": "icj",
+   "theater": "rdc",
+   "date": "2005-12-19",
+   "url": "https://www.icj-cij.org/case/116",
+   "pieces": [
+    "nd-rdc",
+    "glo-rd-congo"
+   ],
+   "text": {
+    "it": {
+     "t": "Attività armate sul territorio del Congo (RD Congo c. Uganda)",
+     "o": "Corte internazionale di giustizia",
+     "w": "L'Uganda ha violato il divieto dell'uso della forza occupando l'Ituri, e ha violato i diritti umani e il diritto umanitario. Il 9 febbraio 2022 la Corte ha fissato il risarcimento in 325 milioni di dollari.",
+     "g": "Sentenza, vincolante per le parti.",
+     "r": ""
+    },
+    "en": {
+     "t": "Armed Activities on the Territory of the Congo (DR Congo v. Uganda)",
+     "o": "International Court of Justice",
+     "w": "Uganda violated the prohibition on the use of force by occupying Ituri, and violated human rights and humanitarian law. On 9 February 2022 the Court set reparations at 325 million dollars.",
+     "g": "Judgment, binding on the parties.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Activités armées sur le territoire du Congo (RD Congo c. Ouganda)",
+     "o": "Cour internationale de justice",
+     "w": "L'Ouganda a violé l'interdiction du recours à la force en occupant l'Ituri, ainsi que les droits de l'homme et le droit humanitaire. Le 9 février 2022, la Cour a fixé la réparation à 325 millions de dollars.",
+     "g": "Arrêt, obligatoire pour les parties.",
+     "r": ""
+    },
+    "de": {
+     "t": "Bewaffnete Aktivitäten auf dem Gebiet des Kongo (DR Kongo gegen Uganda)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Uganda hat durch die Besetzung von Ituri das Gewaltverbot verletzt sowie die Menschenrechte und das humanitäre Völkerrecht. Am 9. Februar 2022 legte das Gericht die Wiedergutmachung auf 325 Millionen Dollar fest.",
+     "g": "Urteil, bindend für die Parteien.",
+     "r": ""
+    },
+    "es": {
+     "t": "Actividades armadas en el territorio del Congo (RD del Congo c. Uganda)",
+     "o": "Corte Internacional de Justicia",
+     "w": "Uganda violó la prohibición del uso de la fuerza al ocupar Ituri, y violó los derechos humanos y el derecho humanitario. El 9 de febrero de 2022 la Corte fijó la reparación en 325 millones de dólares.",
+     "g": "Sentencia, vinculante para las partes.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Atividades armadas no território do Congo (RD Congo c. Uganda)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "O Uganda violou a proibição do uso da força ao ocupar Ituri, e violou os direitos humanos e o direito humanitário. A 9 de fevereiro de 2022 o Tribunal fixou a reparação em 325 milhões de dólares.",
+     "g": "Acórdão, vinculativo para as partes.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Kongo topraklarındaki silahlı faaliyetler (KD Kongo - Uganda)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "Uganda, Ituri'yi işgal ederek kuvvet kullanma yasağını ihlal etti; insan haklarını ve insancıl hukuku da çiğnedi. Divan 9 Şubat 2022'de tazminatı 325 milyon dolar olarak belirledi.",
+     "g": "Karar, taraflar için bağlayıcı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "刚果境内的武装活动案（刚果（金）诉乌干达）",
+     "o": "国际法院",
+     "w": "乌干达占领伊图里，违反了禁止使用武力原则，并违反了人权法和人道法。2022年2月9日，法院将赔偿额定为3.25亿美元。",
+     "g": "判决，对当事方具有约束力。",
+     "r": ""
+    },
+    "ar": {
+     "t": "الأنشطة المسلحة على أراضي الكونغو (جمهورية الكونغو الديمقراطية ضد أوغندا)",
+     "o": "محكمة العدل الدولية",
+     "w": "انتهكت أوغندا حظر استخدام القوة باحتلالها إيتوري، وانتهكت حقوق الإنسان والقانون الإنساني. وفي 9 فبراير 2022 حددت المحكمة التعويض بـ325 مليون دولار.",
+     "g": "حكم ملزم للطرفين.",
+     "r": ""
+    },
+    "he": {
+     "t": "פעילות מזוינת בשטח קונגו (הרפובליקה הדמוקרטית של קונגו נגד אוגנדה)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "אוגנדה הפרה את האיסור על שימוש בכוח כשכבשה את איטורי, והפרה את זכויות האדם ואת המשפט ההומניטרי. ב-9 בפברואר 2022 קבע בית הדין פיצויים של 325 מיליון דולר.",
+     "g": "פסק דין, מחייב את הצדדים.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Вооружённая деятельность на территории Конго (ДР Конго против Уганды)",
+     "o": "Международный суд ООН",
+     "w": "Уганда нарушила запрет на применение силы, оккупировав Итури, а также нарушила права человека и гуманитарное право. 9 февраля 2022 года суд определил размер возмещения в 325 млн долларов.",
+     "g": "Решение, обязательное для сторон.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "bosnia",
+   "type": "icj",
+   "theater": "balkans",
+   "date": "2007-02-26",
+   "url": "https://www.icj-cij.org/case/91",
+   "pieces": [
+    "nd-nigeria-chi-viene-ucciso",
+    "nd-anatomia-allarme-droni"
+   ],
+   "text": {
+    "it": {
+     "t": "Genocidio in Bosnia (Bosnia-Erzegovina c. Serbia e Montenegro)",
+     "o": "Corte internazionale di giustizia",
+     "w": "A Srebrenica nel 1995 fu commesso un genocidio. La Serbia non l'ha commesso né diretto, ma ha violato l'obbligo di prevenirlo e di consegnare i responsabili. Quando l'intenzione di distruggere un gruppo si ricava dai fatti, deve essere l'unica conclusione ragionevole.",
+     "g": "Sentenza, vincolante per le parti.",
+     "r": ""
+    },
+    "en": {
+     "t": "Genocide in Bosnia (Bosnia and Herzegovina v. Serbia and Montenegro)",
+     "o": "International Court of Justice",
+     "w": "Genocide was committed at Srebrenica in 1995. Serbia did not commit or direct it, but violated its obligation to prevent it and to hand over those responsible. When the intent to destroy a group is inferred from the facts, it must be the only reasonable inference.",
+     "g": "Judgment, binding on the parties.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Génocide en Bosnie (Bosnie-Herzégovine c. Serbie-et-Monténégro)",
+     "o": "Cour internationale de justice",
+     "w": "Un génocide a été commis à Srebrenica en 1995. La Serbie ne l'a ni commis ni dirigé, mais elle a manqué à son obligation de le prévenir et de livrer les responsables. Lorsque l'intention de détruire un groupe se déduit des faits, elle doit être la seule conclusion raisonnable.",
+     "g": "Arrêt, obligatoire pour les parties.",
+     "r": ""
+    },
+    "de": {
+     "t": "Völkermord in Bosnien (Bosnien und Herzegowina gegen Serbien und Montenegro)",
+     "o": "Internationaler Gerichtshof",
+     "w": "In Srebrenica wurde 1995 ein Völkermord begangen. Serbien hat ihn weder begangen noch gelenkt, aber seine Pflicht verletzt, ihn zu verhindern und die Verantwortlichen auszuliefern. Wird die Absicht, eine Gruppe zu zerstören, aus den Tatsachen abgeleitet, muss sie der einzig vernünftige Schluss sein.",
+     "g": "Urteil, bindend für die Parteien.",
+     "r": ""
+    },
+    "es": {
+     "t": "Genocidio en Bosnia (Bosnia y Herzegovina c. Serbia y Montenegro)",
+     "o": "Corte Internacional de Justicia",
+     "w": "En Srebrenica, en 1995, se cometió un genocidio. Serbia no lo cometió ni lo dirigió, pero incumplió su obligación de prevenirlo y de entregar a los responsables. Cuando la intención de destruir a un grupo se deduce de los hechos, debe ser la única conclusión razonable.",
+     "g": "Sentencia, vinculante para las partes.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Genocídio na Bósnia (Bósnia-Herzegovina c. Sérvia e Montenegro)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "Em Srebrenica, em 1995, foi cometido um genocídio. A Sérvia não o cometeu nem o dirigiu, mas violou a obrigação de o prevenir e de entregar os responsáveis. Quando a intenção de destruir um grupo se deduz dos factos, tem de ser a única conclusão razoável.",
+     "g": "Acórdão, vinculativo para as partes.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Bosna'da soykırım (Bosna-Hersek - Sırbistan ve Karadağ)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "1995'te Srebrenitsa'da soykırım işlendi. Sırbistan soykırımı işlemedi ve yönetmedi, ancak onu önleme ve sorumluları teslim etme yükümlülüğünü ihlal etti. Bir grubu yok etme niyeti olgulardan çıkarılıyorsa, tek makul sonuç olmalıdır.",
+     "g": "Karar, taraflar için bağlayıcı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "波斯尼亚灭绝种族案（波斯尼亚和黑塞哥维那诉塞尔维亚和黑山）",
+     "o": "国际法院",
+     "w": "1995年在斯雷布雷尼察发生了灭绝种族罪。塞尔维亚既没有实施也没有指挥，但违反了防止灭绝种族和移交责任人的义务。当灭绝某一群体的意图是从事实中推断出来时，它必须是唯一合理的结论。",
+     "g": "判决，对当事方具有约束力。",
+     "r": ""
+    },
+    "ar": {
+     "t": "الإبادة الجماعية في البوسنة (البوسنة والهرسك ضد صربيا والجبل الأسود)",
+     "o": "محكمة العدل الدولية",
+     "w": "ارتُكبت إبادة جماعية في سريبرينيتسا عام 1995. لم ترتكبها صربيا ولم توجّهها، لكنها أخلّت بواجب منعها وتسليم المسؤولين عنها. وعندما تُستنتج نية تدمير جماعة من الوقائع، يجب أن تكون الاستنتاج المعقول الوحيد.",
+     "g": "حكم ملزم للطرفين.",
+     "r": ""
+    },
+    "he": {
+     "t": "רצח עם בבוסניה (בוסניה והרצגובינה נגד סרביה ומונטנגרו)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "בסרברניצה בוצע ב-1995 רצח עם. סרביה לא ביצעה אותו ולא הכווינה אותו, אך הפרה את חובתה למנוע אותו ולהסגיר את האחראים. כשהכוונה להשמיד קבוצה נלמדת מהעובדות, עליה להיות המסקנה הסבירה היחידה.",
+     "g": "פסק דין, מחייב את הצדדים.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Геноцид в Боснии (Босния и Герцеговина против Сербии и Черногории)",
+     "o": "Международный суд ООН",
+     "w": "В 1995 году в Сребренице был совершён геноцид. Сербия не совершала его и не руководила им, но нарушила обязанность его предотвратить и выдать виновных. Если намерение уничтожить группу выводится из фактов, оно должно быть единственным разумным выводом.",
+     "g": "Решение, обязательное для сторон.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "elmasri",
+   "type": "echr",
+   "theater": "usa",
+   "date": "2012-12-13",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-115621",
+   "pieces": [
+    "nd-black-sites"
+   ],
+   "text": {
+    "it": {
+     "t": "El-Masri c. Macedonia del Nord",
+     "o": "Corte europea dei diritti dell'uomo, Grande Camera",
+     "w": "Un cittadino tedesco fu arrestato a Skopje, consegnato alla CIA e portato in Afghanistan. Lo Stato macedone è responsabile di tortura, detenzione illegale e sparizione forzata.",
+     "g": "Sentenza, vincolante per lo Stato condannato.",
+     "r": ""
+    },
+    "en": {
+     "t": "El-Masri v. North Macedonia",
+     "o": "European Court of Human Rights, Grand Chamber",
+     "w": "A German citizen was arrested in Skopje, handed over to the CIA and taken to Afghanistan. The Macedonian State is responsible for torture, unlawful detention and enforced disappearance.",
+     "g": "Judgment, binding on the respondent State.",
+     "r": ""
+    },
+    "fr": {
+     "t": "El-Masri c. Macédoine du Nord",
+     "o": "Cour européenne des droits de l'homme, Grande Chambre",
+     "w": "Un citoyen allemand a été arrêté à Skopje, remis à la CIA et emmené en Afghanistan. L'État macédonien est responsable de torture, de détention illégale et de disparition forcée.",
+     "g": "Arrêt, obligatoire pour l'État condamné.",
+     "r": ""
+    },
+    "de": {
+     "t": "El-Masri gegen Nordmazedonien",
+     "o": "Europäischer Gerichtshof für Menschenrechte, Große Kammer",
+     "w": "Ein deutscher Staatsbürger wurde in Skopje festgenommen, der CIA übergeben und nach Afghanistan gebracht. Der mazedonische Staat ist für Folter, rechtswidrige Haft und gewaltsames Verschwindenlassen verantwortlich.",
+     "g": "Urteil, bindend für den verurteilten Staat.",
+     "r": ""
+    },
+    "es": {
+     "t": "El-Masri c. Macedonia del Norte",
+     "o": "Tribunal Europeo de Derechos Humanos, Gran Sala",
+     "w": "Un ciudadano alemán fue detenido en Skopie, entregado a la CIA y trasladado a Afganistán. El Estado macedonio es responsable de tortura, detención ilegal y desaparición forzada.",
+     "g": "Sentencia, vinculante para el Estado condenado.",
+     "r": ""
+    },
+    "pt": {
+     "t": "El-Masri c. Macedónia do Norte",
+     "o": "Tribunal Europeu dos Direitos Humanos, Tribunal Pleno",
+     "w": "Um cidadão alemão foi detido em Skopje, entregue à CIA e levado para o Afeganistão. O Estado macedónio é responsável por tortura, detenção ilegal e desaparecimento forçado.",
+     "g": "Acórdão, vinculativo para o Estado condenado.",
+     "r": ""
+    },
+    "tr": {
+     "t": "El-Masri - Kuzey Makedonya",
+     "o": "Avrupa İnsan Hakları Mahkemesi, Büyük Daire",
+     "w": "Bir Alman vatandaşı Üsküp'te gözaltına alındı, CIA'ya teslim edildi ve Afganistan'a götürüldü. Makedonya devleti işkence, hukuka aykırı gözaltı ve zorla kaybetmeden sorumludur.",
+     "g": "Karar, mahkûm edilen devlet için bağlayıcı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "El-Masri诉北马其顿案",
+     "o": "欧洲人权法院大审判庭",
+     "w": "一名德国公民在斯科普里被捕，被移交给中央情报局并被带往阿富汗。马其顿国家对酷刑、非法拘留和强迫失踪负有责任。",
+     "g": "判决，对被判国家具有约束力。",
+     "r": ""
+    },
+    "ar": {
+     "t": "المصري ضد مقدونيا الشمالية",
+     "o": "المحكمة الأوروبية لحقوق الإنسان، الدائرة الكبرى",
+     "w": "اعتُقل مواطن ألماني في سكوبيه، وسُلّم إلى وكالة المخابرات المركزية الأميركية ونُقل إلى أفغانستان. الدولة المقدونية مسؤولة عن التعذيب والاحتجاز غير القانوني والإخفاء القسري.",
+     "g": "حكم ملزم للدولة المدانة.",
+     "r": ""
+    },
+    "he": {
+     "t": "אל-מסרי נגד מקדוניה הצפונית",
+     "o": "בית הדין האירופי לזכויות אדם, הלשכה הגדולה",
+     "w": "אזרח גרמני נעצר בסקופיה, הועבר ל-CIA ונלקח לאפגניסטן. המדינה המקדונית אחראית לעינויים, למעצר בלתי חוקי ולהעלמה כפויה.",
+     "g": "פסק דין, מחייב את המדינה שהורשעה.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Эль-Масри против Северной Македонии",
+     "o": "Европейский суд по правам человека, Большая палата",
+     "w": "Гражданин Германии был задержан в Скопье, передан ЦРУ и вывезен в Афганистан. Македонское государство несёт ответственность за пытки, незаконное задержание и насильственное исчезновение.",
+     "g": "Решение, обязательное для государства-ответчика.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "croatia",
+   "type": "icj",
+   "theater": "balkans",
+   "date": "2015-02-03",
+   "url": "https://www.icj-cij.org/case/118",
+   "pieces": [
+    "nd-nigeria-chi-viene-ucciso"
+   ],
+   "text": {
+    "it": {
+     "t": "Genocidio in Croazia (Croazia c. Serbia)",
+     "o": "Corte internazionale di giustizia",
+     "w": "La Corte respinge sia l'accusa della Croazia sia quella della Serbia. Ci furono uccisioni e crimini gravi da entrambe le parti, ma non è provata l'intenzione di distruggere un gruppo.",
+     "g": "Sentenza, vincolante per le parti.",
+     "r": ""
+    },
+    "en": {
+     "t": "Genocide in Croatia (Croatia v. Serbia)",
+     "o": "International Court of Justice",
+     "w": "The Court rejects both Croatia's claim and Serbia's counter-claim. There were killings and serious crimes on both sides, but intent to destroy a group was not proven.",
+     "g": "Judgment, binding on the parties.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Génocide en Croatie (Croatie c. Serbie)",
+     "o": "Cour internationale de justice",
+     "w": "La Cour rejette à la fois la demande de la Croatie et la demande reconventionnelle de la Serbie. Il y a eu des meurtres et des crimes graves des deux côtés, mais l'intention de détruire un groupe n'est pas prouvée.",
+     "g": "Arrêt, obligatoire pour les parties.",
+     "r": ""
+    },
+    "de": {
+     "t": "Völkermord in Kroatien (Kroatien gegen Serbien)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Das Gericht weist sowohl die Klage Kroatiens als auch die Widerklage Serbiens ab. Es gab Tötungen und schwere Verbrechen auf beiden Seiten, aber die Absicht, eine Gruppe zu zerstören, ist nicht bewiesen.",
+     "g": "Urteil, bindend für die Parteien.",
+     "r": ""
+    },
+    "es": {
+     "t": "Genocidio en Croacia (Croacia c. Serbia)",
+     "o": "Corte Internacional de Justicia",
+     "w": "La Corte rechaza tanto la demanda de Croacia como la reconvención de Serbia. Hubo asesinatos y crímenes graves por ambas partes, pero no está probada la intención de destruir a un grupo.",
+     "g": "Sentencia, vinculante para las partes.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Genocídio na Croácia (Croácia c. Sérvia)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "O Tribunal rejeita tanto o pedido da Croácia como o pedido reconvencional da Sérvia. Houve mortes e crimes graves de ambos os lados, mas a intenção de destruir um grupo não está provada.",
+     "g": "Acórdão, vinculativo para as partes.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Hırvatistan'da soykırım (Hırvatistan - Sırbistan)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "Divan hem Hırvatistan'ın davasını hem de Sırbistan'ın karşı davasını reddediyor. İki taraf da öldürmeler ve ağır suçlar işledi, ancak bir grubu yok etme niyeti kanıtlanmadı.",
+     "g": "Karar, taraflar için bağlayıcı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "克罗地亚灭绝种族案（克罗地亚诉塞尔维亚）",
+     "o": "国际法院",
+     "w": "法院既驳回了克罗地亚的诉求，也驳回了塞尔维亚的反诉。双方都发生了杀戮和严重罪行，但灭绝某一群体的意图没有得到证明。",
+     "g": "判决，对当事方具有约束力。",
+     "r": ""
+    },
+    "ar": {
+     "t": "الإبادة الجماعية في كرواتيا (كرواتيا ضد صربيا)",
+     "o": "محكمة العدل الدولية",
+     "w": "ترفض المحكمة دعوى كرواتيا ودعوى صربيا المقابلة معًا. وقعت عمليات قتل وجرائم خطيرة من الجانبين، لكن نية تدمير جماعة لم تثبت.",
+     "g": "حكم ملزم للطرفين.",
+     "r": ""
+    },
+    "he": {
+     "t": "רצח עם בקרואטיה (קרואטיה נגד סרביה)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "בית הדין דוחה הן את תביעת קרואטיה והן את התביעה שכנגד של סרביה. היו הרג ופשעים חמורים משני הצדדים, אך הכוונה להשמיד קבוצה לא הוכחה.",
+     "g": "פסק דין, מחייב את הצדדים.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Геноцид в Хорватии (Хорватия против Сербии)",
+     "o": "Международный суд ООН",
+     "w": "Суд отклоняет как иск Хорватии, так и встречный иск Сербии. Убийства и тяжкие преступления совершали обе стороны, но намерение уничтожить группу не доказано.",
+     "g": "Решение, обязательное для сторон.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "gambia",
+   "type": "icj",
+   "theater": "myanmar",
+   "date": "2020-01-23",
+   "url": "https://www.icj-cij.org/case/178",
+   "pieces": [
+    "nd-rohingya-attesa-sentenza",
+    "glo-myanmar",
+    "nd-mya"
+   ],
+   "text": {
+    "it": {
+     "t": "Genocidio dei rohingya (Gambia c. Myanmar)",
+     "o": "Corte internazionale di giustizia",
+     "w": "All'unanimità, la Corte ordina al Myanmar di prevenire atti di genocidio contro i rohingya e di conservare le prove. Il 22 luglio 2022 respinge le obiezioni del Myanmar e si dichiara competente. Le udienze sul merito si sono chiuse a gennaio 2026: la sentenza è attesa.",
+     "g": "Le misure provvisorie sono vincolanti; sul genocidio la Corte non si è ancora pronunciata.",
+     "r": "Il Myanmar nega il genocidio."
+    },
+    "en": {
+     "t": "Genocide of the Rohingya (The Gambia v. Myanmar)",
+     "o": "International Court of Justice",
+     "w": "Unanimously, the Court orders Myanmar to prevent acts of genocide against the Rohingya and to preserve evidence. On 22 July 2022 it rejects Myanmar's objections and finds it has jurisdiction. Hearings on the merits closed in January 2026: the judgment is pending.",
+     "g": "The provisional measures are binding; the Court has not yet ruled on genocide.",
+     "r": "Myanmar denies genocide."
+    },
+    "fr": {
+     "t": "Génocide des Rohingyas (Gambie c. Myanmar)",
+     "o": "Cour internationale de justice",
+     "w": "À l'unanimité, la Cour ordonne au Myanmar de prévenir les actes de génocide contre les Rohingyas et de conserver les preuves. Le 22 juillet 2022, elle rejette les exceptions du Myanmar et se déclare compétente. Les audiences sur le fond se sont achevées en janvier 2026 : l'arrêt est attendu.",
+     "g": "Les mesures conservatoires sont obligatoires ; sur le génocide, la Cour ne s'est pas encore prononcée.",
+     "r": "Le Myanmar nie le génocide."
+    },
+    "de": {
+     "t": "Völkermord an den Rohingya (Gambia gegen Myanmar)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Einstimmig ordnet das Gericht an, dass Myanmar Völkermordhandlungen an den Rohingya verhindern und Beweise sichern muss. Am 22. Juli 2022 weist es die Einreden Myanmars zurück und erklärt sich für zuständig. Die Anhörungen in der Sache endeten im Januar 2026: Das Urteil steht aus.",
+     "g": "Die vorläufigen Maßnahmen sind bindend; über den Völkermord hat das Gericht noch nicht entschieden.",
+     "r": "Myanmar bestreitet den Völkermord."
+    },
+    "es": {
+     "t": "Genocidio de los rohinyás (Gambia c. Myanmar)",
+     "o": "Corte Internacional de Justicia",
+     "w": "Por unanimidad, la Corte ordena a Myanmar prevenir actos de genocidio contra los rohinyás y conservar las pruebas. El 22 de julio de 2022 rechaza las excepciones de Myanmar y se declara competente. Las audiencias sobre el fondo terminaron en enero de 2026: la sentencia está pendiente.",
+     "g": "Las medidas provisionales son vinculantes; sobre el genocidio la Corte aún no se ha pronunciado.",
+     "r": "Myanmar niega el genocidio."
+    },
+    "pt": {
+     "t": "Genocídio dos Rohingya (Gâmbia c. Myanmar)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "Por unanimidade, o Tribunal ordena a Myanmar que previna atos de genocídio contra os Rohingya e conserve as provas. A 22 de julho de 2022 rejeita as exceções de Myanmar e declara-se competente. As audiências sobre o mérito terminaram em janeiro de 2026: o acórdão está pendente.",
+     "g": "As medidas provisórias são vinculativas; sobre o genocídio o Tribunal ainda não se pronunciou.",
+     "r": "Myanmar nega o genocídio."
+    },
+    "tr": {
+     "t": "Rohingyalara karşı soykırım (Gambiya - Myanmar)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "Divan oybirliğiyle Myanmar'a Rohingyalara karşı soykırım eylemlerini önlemesini ve delilleri korumasını emrediyor. 22 Temmuz 2022'de Myanmar'ın itirazlarını reddediyor ve kendini yetkili ilan ediyor. Esasa ilişkin duruşmalar Ocak 2026'da sona erdi: karar bekleniyor.",
+     "g": "Geçici tedbirler bağlayıcı; Divan soykırım konusunda henüz karar vermedi.",
+     "r": "Myanmar soykırımı reddediyor."
+    },
+    "zh": {
+     "t": "罗兴亚人灭绝种族案（冈比亚诉缅甸）",
+     "o": "国际法院",
+     "w": "法院一致命令缅甸防止针对罗兴亚人的灭绝种族行为并保全证据。2022年7月22日，法院驳回缅甸的反对意见，裁定自己具有管辖权。实体问题的庭审已于2026年1月结束，判决尚待作出。",
+     "g": "临时措施具有约束力；关于是否构成灭绝种族，法院尚未裁决。",
+     "r": "缅甸否认灭绝种族。"
+    },
+    "ar": {
+     "t": "الإبادة الجماعية للروهينغا (غامبيا ضد ميانمار)",
+     "o": "محكمة العدل الدولية",
+     "w": "بالإجماع، تأمر المحكمة ميانمار بمنع أعمال الإبادة الجماعية ضد الروهينغا والحفاظ على الأدلة. وفي 22 يوليو 2022 ترفض اعتراضات ميانمار وتعلن اختصاصها. انتهت جلسات النظر في الموضوع في يناير 2026: الحكم منتظر.",
+     "g": "التدابير المؤقتة ملزمة؛ ولم تفصل المحكمة بعد في مسألة الإبادة الجماعية.",
+     "r": "تنفي ميانمار الإبادة الجماعية."
+    },
+    "he": {
+     "t": "רצח העם ברוהינגה (גמביה נגד מיאנמר)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "פה אחד, בית הדין מורה למיאנמר למנוע מעשי רצח עם נגד הרוהינגה ולשמור על הראיות. ב-22 ביולי 2022 הוא דוחה את התנגדויות מיאנמר וקובע שהוא מוסמך. הדיונים לגופו של עניין הסתיימו בינואר 2026: פסק הדין צפוי.",
+     "g": "הצעדים הזמניים מחייבים; בשאלת רצח העם בית הדין טרם הכריע.",
+     "r": "מיאנמר מכחישה רצח עם."
+    },
+    "ru": {
+     "t": "Геноцид рохинджа (Гамбия против Мьянмы)",
+     "o": "Международный суд ООН",
+     "w": "Суд единогласно обязывает Мьянму предотвращать акты геноцида против рохинджа и сохранять доказательства. 22 июля 2022 года он отклоняет возражения Мьянмы и признаёт свою юрисдикцию. Слушания по существу завершились в январе 2026 года: решение ожидается.",
+     "g": "Временные меры обязательны; по вопросу геноцида суд ещё не высказался.",
+     "r": "Мьянма отрицает геноцид."
+    }
+   }
+  },
+  {
+   "id": "ukricj",
+   "type": "icj",
+   "theater": "ruua",
+   "date": "2022-03-16",
+   "url": "https://www.icj-cij.org/case/182",
+   "pieces": [
+    "nd-mercato-euro-russo",
+    "nd-dal-1990-al-2022"
+   ],
+   "text": {
+    "it": {
+     "t": "Accuse di genocidio (Ucraina c. Russia), ordinanza",
+     "o": "Corte internazionale di giustizia",
+     "w": "La Corte ordina alla Russia di sospendere le operazioni militari iniziate il 24 febbraio. Dice di non avere prove del «genocidio» nel Donbas con cui Mosca aveva giustificato l'invasione.",
+     "g": "Misura provvisoria, vincolante; non è la sentenza finale.",
+     "r": "La Russia non ha eseguito l'ordinanza."
+    },
+    "en": {
+     "t": "Allegations of Genocide (Ukraine v. Russia), order",
+     "o": "International Court of Justice",
+     "w": "The Court orders Russia to suspend the military operations it began on 24 February. It says it has no evidence of the “genocide” in Donbas that Moscow had used to justify the invasion.",
+     "g": "Provisional measure, binding; not the final judgment.",
+     "r": "Russia has not complied with the order."
+    },
+    "fr": {
+     "t": "Allégations de génocide (Ukraine c. Russie), ordonnance",
+     "o": "Cour internationale de justice",
+     "w": "La Cour ordonne à la Russie de suspendre les opérations militaires commencées le 24 février. Elle dit ne disposer d'aucune preuve du « génocide » dans le Donbass invoqué par Moscou pour justifier l'invasion.",
+     "g": "Mesure conservatoire, obligatoire ; ce n'est pas l'arrêt final.",
+     "r": "La Russie n'a pas exécuté l'ordonnance."
+    },
+    "de": {
+     "t": "Vorwürfe des Völkermords (Ukraine gegen Russland), Anordnung",
+     "o": "Internationaler Gerichtshof",
+     "w": "Das Gericht ordnet an, dass Russland die am 24. Februar begonnenen Militäroperationen aussetzt. Es erklärt, keine Beweise für den „Völkermord“ im Donbass zu haben, mit dem Moskau die Invasion begründet hatte.",
+     "g": "Vorläufige Maßnahme, bindend; nicht das Endurteil.",
+     "r": "Russland hat die Anordnung nicht befolgt."
+    },
+    "es": {
+     "t": "Alegaciones de genocidio (Ucrania c. Rusia), providencia",
+     "o": "Corte Internacional de Justicia",
+     "w": "La Corte ordena a Rusia suspender las operaciones militares iniciadas el 24 de febrero. Dice no tener pruebas del «genocidio» en el Donbás con el que Moscú había justificado la invasión.",
+     "g": "Medida provisional, vinculante; no es la sentencia final.",
+     "r": "Rusia no ha cumplido la providencia."
+    },
+    "pt": {
+     "t": "Alegações de genocídio (Ucrânia c. Rússia), despacho",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "O Tribunal ordena à Rússia que suspenda as operações militares iniciadas a 24 de fevereiro. Diz não ter provas do «genocídio» no Donbass com que Moscovo tinha justificado a invasão.",
+     "g": "Medida provisória, vinculativa; não é o acórdão final.",
+     "r": "A Rússia não cumpriu o despacho."
+    },
+    "tr": {
+     "t": "Soykırım iddiaları (Ukrayna - Rusya), ara karar",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "Divan, Rusya'ya 24 Şubat'ta başlattığı askeri operasyonları askıya almasını emrediyor. Moskova'nın işgali gerekçelendirmek için ileri sürdüğü Donbas'taki «soykırım»a dair kanıtı olmadığını belirtiyor.",
+     "g": "Geçici tedbir, bağlayıcı; nihai karar değil.",
+     "r": "Rusya ara karara uymadı."
+    },
+    "zh": {
+     "t": "关于灭绝种族的指控案（乌克兰诉俄罗斯）命令",
+     "o": "国际法院",
+     "w": "法院命令俄罗斯暂停2月24日开始的军事行动。法院表示，没有证据证明莫斯科用来为入侵辩护的顿巴斯“灭绝种族”。",
+     "g": "临时措施，具有约束力；并非最终判决。",
+     "r": "俄罗斯没有执行该命令。"
+    },
+    "ar": {
+     "t": "ادعاءات الإبادة الجماعية (أوكرانيا ضد روسيا)، أمر",
+     "o": "محكمة العدل الدولية",
+     "w": "تأمر المحكمة روسيا بتعليق العمليات العسكرية التي بدأتها في 24 فبراير. وتقول إنه لا توجد لديها أدلة على «الإبادة الجماعية» في دونباس التي بررت بها موسكو الغزو.",
+     "g": "تدبير مؤقت ملزم؛ وليس الحكم النهائي.",
+     "r": "لم تنفذ روسيا الأمر."
+    },
+    "he": {
+     "t": "טענות לרצח עם (אוקראינה נגד רוסיה), צו",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "בית הדין מורה לרוסיה להשעות את המבצעים הצבאיים שהחלה ב-24 בפברואר. הוא אומר שאין בידיו ראיות ל«רצח העם» בדונבאס שבו הצדיקה מוסקבה את הפלישה.",
+     "g": "צעד זמני, מחייב; אינו פסק הדין הסופי.",
+     "r": "רוסיה לא קיימה את הצו."
+    },
+    "ru": {
+     "t": "Обвинения в геноциде (Украина против России), постановление",
+     "o": "Международный суд ООН",
+     "w": "Суд обязывает Россию приостановить военные операции, начатые 24 февраля. Он заявляет, что не располагает доказательствами «геноцида» в Донбассе, которым Москва оправдывала вторжение.",
+     "g": "Временная мера, обязательная; не окончательное решение.",
+     "r": "Россия не исполнила постановление."
+    }
+   }
+  },
+  {
+   "id": "safisr",
+   "type": "icj",
+   "theater": "isrpal",
+   "date": "2024-01-26",
+   "url": "https://www.icj-cij.org/case/192",
+   "pieces": [
+    "nd-coi"
+   ],
+   "text": {
+    "it": {
+     "t": "Genocidio a Gaza (Sudafrica c. Israele), ordinanze",
+     "o": "Corte internazionale di giustizia",
+     "w": "Con tre ordinanze (26 gennaio, 28 marzo e 24 maggio 2024) la Corte ordina a Israele di prevenire atti di genocidio a Gaza, di far entrare gli aiuti e, a maggio, di fermare l'offensiva su Rafah. Non ha ancora deciso se un genocidio sia stato commesso: la causa è pendente.",
+     "g": "Misure provvisorie, vincolanti; sul genocidio nessuna decisione.",
+     "r": "Israele respinge l'accusa di genocidio."
+    },
+    "en": {
+     "t": "Genocide in Gaza (South Africa v. Israel), orders",
+     "o": "International Court of Justice",
+     "w": "In three orders (26 January, 28 March and 24 May 2024) the Court orders Israel to prevent acts of genocide in Gaza, to let aid in and, in May, to halt its offensive on Rafah. It has not yet decided whether genocide has been committed: the case is pending.",
+     "g": "Provisional measures, binding; no decision on genocide.",
+     "r": "Israel rejects the accusation of genocide."
+    },
+    "fr": {
+     "t": "Génocide à Gaza (Afrique du Sud c. Israël), ordonnances",
+     "o": "Cour internationale de justice",
+     "w": "Par trois ordonnances (26 janvier, 28 mars et 24 mai 2024), la Cour ordonne à Israël de prévenir les actes de génocide à Gaza, de laisser entrer l'aide et, en mai, d'arrêter son offensive sur Rafah. Elle n'a pas encore décidé si un génocide a été commis : l'affaire est pendante.",
+     "g": "Mesures conservatoires, obligatoires ; aucune décision sur le génocide.",
+     "r": "Israël rejette l'accusation de génocide."
+    },
+    "de": {
+     "t": "Völkermord in Gaza (Südafrika gegen Israel), Anordnungen",
+     "o": "Internationaler Gerichtshof",
+     "w": "Mit drei Anordnungen (26. Januar, 28. März und 24. Mai 2024) verpflichtet das Gericht Israel, Völkermordhandlungen in Gaza zu verhindern, Hilfe hereinzulassen und im Mai die Offensive auf Rafah zu stoppen. Ob ein Völkermord begangen wurde, hat es noch nicht entschieden: Das Verfahren ist anhängig.",
+     "g": "Vorläufige Maßnahmen, bindend; keine Entscheidung über den Völkermord.",
+     "r": "Israel weist den Vorwurf des Völkermords zurück."
+    },
+    "es": {
+     "t": "Genocidio en Gaza (Sudáfrica c. Israel), providencias",
+     "o": "Corte Internacional de Justicia",
+     "w": "Con tres providencias (26 de enero, 28 de marzo y 24 de mayo de 2024) la Corte ordena a Israel prevenir actos de genocidio en Gaza, dejar entrar la ayuda y, en mayo, detener la ofensiva sobre Rafah. Aún no ha decidido si se ha cometido un genocidio: el caso está pendiente.",
+     "g": "Medidas provisionales, vinculantes; ninguna decisión sobre el genocidio.",
+     "r": "Israel rechaza la acusación de genocidio."
+    },
+    "pt": {
+     "t": "Genocídio em Gaza (África do Sul c. Israel), despachos",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "Com três despachos (26 de janeiro, 28 de março e 24 de maio de 2024) o Tribunal ordena a Israel que previna atos de genocídio em Gaza, que deixe entrar a ajuda e, em maio, que pare a ofensiva sobre Rafah. Ainda não decidiu se foi cometido um genocídio: o processo está pendente.",
+     "g": "Medidas provisórias, vinculativas; nenhuma decisão sobre o genocídio.",
+     "r": "Israel rejeita a acusação de genocídio."
+    },
+    "tr": {
+     "t": "Gazze'de soykırım (Güney Afrika - İsrail), ara kararlar",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "Divan üç ara kararla (26 Ocak, 28 Mart ve 24 Mayıs 2024) İsrail'e Gazze'de soykırım eylemlerini önlemesini, yardımların girişine izin vermesini ve Mayıs'ta Refah'a yönelik saldırıyı durdurmasını emrediyor. Soykırım işlenip işlenmediğine henüz karar vermedi: dava sürüyor.",
+     "g": "Geçici tedbirler, bağlayıcı; soykırım hakkında karar yok.",
+     "r": "İsrail soykırım suçlamasını reddediyor."
+    },
+    "zh": {
+     "t": "加沙灭绝种族案（南非诉以色列）命令",
+     "o": "国际法院",
+     "w": "法院通过三项命令（2024年1月26日、3月28日和5月24日）要求以色列防止在加沙实施灭绝种族行为、允许援助进入，并在5月停止对拉法的攻势。法院尚未裁定是否发生了灭绝种族：案件仍在审理中。",
+     "g": "临时措施，具有约束力；尚无关于灭绝种族的裁决。",
+     "r": "以色列否认灭绝种族的指控。"
+    },
+    "ar": {
+     "t": "الإبادة الجماعية في غزة (جنوب أفريقيا ضد إسرائيل)، أوامر",
+     "o": "محكمة العدل الدولية",
+     "w": "بثلاثة أوامر (26 يناير و28 مارس و24 مايو 2024) تأمر المحكمة إسرائيل بمنع أعمال الإبادة الجماعية في غزة، وبالسماح بدخول المساعدات، وفي مايو بوقف هجومها على رفح. لم تقرر بعد ما إذا كانت إبادة جماعية قد ارتُكبت: القضية لا تزال منظورة.",
+     "g": "تدابير مؤقتة ملزمة؛ ولا قرار بشأن الإبادة الجماعية.",
+     "r": "ترفض إسرائيل تهمة الإبادة الجماعية."
+    },
+    "he": {
+     "t": "רצח עם בעזה (דרום אפריקה נגד ישראל), צווים",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "בשלושה צווים (26 בינואר, 28 במרץ ו-24 במאי 2024) בית הדין מורה לישראל למנוע מעשי רצח עם בעזה, לאפשר כניסת סיוע ובמאי לעצור את המתקפה על רפיח. הוא טרם הכריע אם בוצע רצח עם: התיק תלוי ועומד.",
+     "g": "צעדים זמניים, מחייבים; אין הכרעה בשאלת רצח העם.",
+     "r": "ישראל דוחה את ההאשמה ברצח עם."
+    },
+    "ru": {
+     "t": "Геноцид в Газе (ЮАР против Израиля), постановления",
+     "o": "Международный суд ООН",
+     "w": "Тремя постановлениями (26 января, 28 марта и 24 мая 2024 года) суд обязывает Израиль предотвращать акты геноцида в Газе, пропускать помощь, а в мае — остановить наступление на Рафах. Был ли совершён геноцид, суд ещё не решил: дело находится на рассмотрении.",
+     "g": "Временные меры, обязательные; решения по геноциду нет.",
+     "r": "Израиль отвергает обвинение в геноциде."
+    }
+   }
+  },
+  {
+   "id": "opt2024",
+   "type": "icj",
+   "theater": "isrpal",
+   "date": "2024-07-19",
+   "url": "https://www.icj-cij.org/case/186",
+   "pieces": [
+    "glo-apartheid",
+    "nd-coi"
+   ],
+   "text": {
+    "it": {
+     "t": "Le politiche di Israele nei Territori occupati (parere consultivo)",
+     "o": "Corte internazionale di giustizia",
+     "w": "La presenza di Israele nei Territori occupati è illegale e deve finire il prima possibile. Israele deve fermare i nuovi insediamenti ed evacuare i coloni. Gli altri Stati non devono riconoscere né aiutare questa situazione.",
+     "g": "Parere consultivo: non vincolante in sé, autorevole sul diritto.",
+     "r": "Israele ha respinto il parere."
+    },
+    "en": {
+     "t": "Israel's policies in the Occupied Palestinian Territory (advisory opinion)",
+     "o": "International Court of Justice",
+     "w": "Israel's presence in the occupied territory is unlawful and must end as rapidly as possible. Israel must stop new settlement and evacuate the settlers. Other States must not recognise or assist this situation.",
+     "g": "Advisory opinion: not binding in itself, authoritative on the law.",
+     "r": "Israel rejected the opinion."
+    },
+    "fr": {
+     "t": "Les politiques d'Israël dans le Territoire palestinien occupé (avis consultatif)",
+     "o": "Cour internationale de justice",
+     "w": "La présence d'Israël dans le territoire occupé est illicite et doit cesser dans les plus brefs délais. Israël doit cesser toute nouvelle colonisation et évacuer les colons. Les autres États ne doivent ni reconnaître ni aider cette situation.",
+     "g": "Avis consultatif : non obligatoire en soi, faisant autorité sur le droit.",
+     "r": "Israël a rejeté l'avis."
+    },
+    "de": {
+     "t": "Die Politik Israels im besetzten palästinensischen Gebiet (Gutachten)",
+     "o": "Internationaler Gerichtshof",
+     "w": "Die Anwesenheit Israels im besetzten Gebiet ist rechtswidrig und muss so schnell wie möglich enden. Israel muss den Siedlungsbau einstellen und die Siedler evakuieren. Andere Staaten dürfen diese Lage weder anerkennen noch unterstützen.",
+     "g": "Gutachten: an sich nicht bindend, maßgeblich für das Recht.",
+     "r": "Israel hat das Gutachten zurückgewiesen."
+    },
+    "es": {
+     "t": "Las políticas de Israel en el Territorio Palestino Ocupado (opinión consultiva)",
+     "o": "Corte Internacional de Justicia",
+     "w": "La presencia de Israel en el territorio ocupado es ilegal y debe terminar lo antes posible. Israel debe detener los nuevos asentamientos y evacuar a los colonos. Los demás Estados no deben reconocer ni ayudar a esta situación.",
+     "g": "Opinión consultiva: no vinculante en sí, autorizada sobre el derecho.",
+     "r": "Israel rechazó la opinión."
+    },
+    "pt": {
+     "t": "As políticas de Israel no Território Palestiniano Ocupado (parecer consultivo)",
+     "o": "Tribunal Internacional de Justiça",
+     "w": "A presença de Israel no território ocupado é ilegal e deve terminar o mais depressa possível. Israel deve parar os novos colonatos e retirar os colonos. Os outros Estados não devem reconhecer nem ajudar esta situação.",
+     "g": "Parecer consultivo: não vinculativo em si, com autoridade sobre o direito.",
+     "r": "Israel rejeitou o parecer."
+    },
+    "tr": {
+     "t": "İsrail'in işgal altındaki Filistin topraklarındaki politikaları (danışma görüşü)",
+     "o": "Uluslararası Adalet Divanı",
+     "w": "İsrail'in işgal altındaki topraklardaki varlığı hukuka aykırıdır ve mümkün olan en kısa sürede sona ermelidir. İsrail yeni yerleşimleri durdurmalı ve yerleşimcileri tahliye etmelidir. Diğer devletler bu durumu tanımamalı ve desteklememelidir.",
+     "g": "Danışma görüşü: kendi başına bağlayıcı değil, hukuk bakımından yetkili.",
+     "r": "İsrail görüşü reddetti."
+    },
+    "zh": {
+     "t": "以色列在被占领巴勒斯坦领土的政策（咨询意见）",
+     "o": "国际法院",
+     "w": "以色列在被占领土的存在是非法的，必须尽快结束。以色列必须停止新的定居活动并撤离定居者。其他国家不得承认或协助这种状况。",
+     "g": "咨询意见：本身不具约束力，但在法律上具有权威性。",
+     "r": "以色列拒绝接受该咨询意见。"
+    },
+    "ar": {
+     "t": "سياسات إسرائيل في الأرض الفلسطينية المحتلة (رأي استشاري)",
+     "o": "محكمة العدل الدولية",
+     "w": "وجود إسرائيل في الأرض المحتلة غير قانوني ويجب أن ينتهي في أسرع وقت ممكن. على إسرائيل أن توقف الاستيطان الجديد وأن تُجلي المستوطنين. وعلى الدول الأخرى ألا تعترف بهذا الوضع ولا تساعد عليه.",
+     "g": "رأي استشاري: غير ملزم بذاته، لكنه مرجعي في القانون.",
+     "r": "رفضت إسرائيل الرأي."
+    },
+    "he": {
+     "t": "מדיניות ישראל בשטח הפלסטיני הכבוש (חוות דעת מייעצת)",
+     "o": "בית הדין הבינלאומי לצדק",
+     "w": "נוכחות ישראל בשטח הכבוש אינה חוקית ועליה להסתיים במהירות האפשרית. על ישראל להפסיק התנחלות חדשה ולפנות את המתנחלים. מדינות אחרות אינן רשאיות להכיר במצב הזה או לסייע לו.",
+     "g": "חוות דעת מייעצת: אינה מחייבת כשלעצמה, סמכותית לגבי הדין.",
+     "r": "ישראל דחתה את חוות הדעת."
+    },
+    "ru": {
+     "t": "Политика Израиля на оккупированной палестинской территории (консультативное заключение)",
+     "o": "Международный суд ООН",
+     "w": "Присутствие Израиля на оккупированной территории незаконно и должно прекратиться как можно скорее. Израиль должен остановить новые поселения и эвакуировать поселенцев. Другие государства не должны признавать эту ситуацию или содействовать ей.",
+     "g": "Консультативное заключение: само по себе не обязательно, но авторитетно в вопросах права.",
+     "r": "Израиль отверг заключение."
+    }
+   }
+  },
+  {
+   "id": "odessa",
+   "type": "echr",
+   "theater": "ruua",
+   "date": "2025-03-13",
+   "url": "https://www.echr.coe.int/w/judgment-concerning-ukraine-2",
+   "pieces": [
+    "nd-dal-1990-al-2022"
+   ],
+   "text": {
+    "it": {
+     "t": "Vyacheslavova e altri c. Ucraina (Odessa, 2 maggio 2014)",
+     "o": "Corte europea dei diritti dell'uomo",
+     "w": "L'Ucraina non ha prevenuto le violenze di Odessa, non ha soccorso in tempo le vittime dell'incendio e non ha indagato a dovere.",
+     "g": "Sentenza, vincolante per lo Stato condannato.",
+     "r": ""
+    },
+    "en": {
+     "t": "Vyacheslavova and Others v. Ukraine (Odesa, 2 May 2014)",
+     "o": "European Court of Human Rights",
+     "w": "Ukraine failed to prevent the violence in Odesa, to rescue the victims of the fire in time and to investigate properly.",
+     "g": "Judgment, binding on the respondent State.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Viatcheslavova et autres c. Ukraine (Odessa, 2 mai 2014)",
+     "o": "Cour européenne des droits de l'homme",
+     "w": "L'Ukraine n'a pas empêché les violences d'Odessa, n'a pas secouru à temps les victimes de l'incendie et n'a pas enquêté correctement.",
+     "g": "Arrêt, obligatoire pour l'État condamné.",
+     "r": ""
+    },
+    "de": {
+     "t": "Wjatscheslawowa und andere gegen Ukraine (Odessa, 2. Mai 2014)",
+     "o": "Europäischer Gerichtshof für Menschenrechte",
+     "w": "Die Ukraine hat die Gewalt in Odessa nicht verhindert, den Opfern des Brandes nicht rechtzeitig geholfen und nicht ordnungsgemäß ermittelt.",
+     "g": "Urteil, bindend für den verurteilten Staat.",
+     "r": ""
+    },
+    "es": {
+     "t": "Vyacheslavova y otros c. Ucrania (Odesa, 2 de mayo de 2014)",
+     "o": "Tribunal Europeo de Derechos Humanos",
+     "w": "Ucrania no impidió la violencia de Odesa, no socorrió a tiempo a las víctimas del incendio y no investigó como debía.",
+     "g": "Sentencia, vinculante para el Estado condenado.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Vyacheslavova e outros c. Ucrânia (Odessa, 2 de maio de 2014)",
+     "o": "Tribunal Europeu dos Direitos Humanos",
+     "w": "A Ucrânia não impediu a violência de Odessa, não socorreu a tempo as vítimas do incêndio e não investigou como devia.",
+     "g": "Acórdão, vinculativo para o Estado condenado.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Vyacheslavova ve diğerleri - Ukrayna (Odessa, 2 Mayıs 2014)",
+     "o": "Avrupa İnsan Hakları Mahkemesi",
+     "w": "Ukrayna, Odessa'daki şiddeti önlemedi, yangının kurbanlarına zamanında yardım etmedi ve gereği gibi soruşturma yapmadı.",
+     "g": "Karar, mahkûm edilen devlet için bağlayıcı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "Vyacheslavova等人诉乌克兰案（敖德萨，2014年5月2日）",
+     "o": "欧洲人权法院",
+     "w": "乌克兰没有防止敖德萨的暴力，没有及时救助火灾的受害者，也没有进行适当调查。",
+     "g": "判决，对被判国家具有约束力。",
+     "r": ""
+    },
+    "ar": {
+     "t": "فياتشيسلافوفا وآخرون ضد أوكرانيا (أوديسا، 2 مايو 2014)",
+     "o": "المحكمة الأوروبية لحقوق الإنسان",
+     "w": "لم تمنع أوكرانيا أعمال العنف في أوديسا، ولم تسعف ضحايا الحريق في الوقت المناسب، ولم تحقق كما يجب.",
+     "g": "حكم ملزم للدولة المدانة.",
+     "r": ""
+    },
+    "he": {
+     "t": "ויאצ׳סלבובה ואחרים נגד אוקראינה (אודסה, 2 במאי 2014)",
+     "o": "בית הדין האירופי לזכויות אדם",
+     "w": "אוקראינה לא מנעה את האלימות באודסה, לא חילצה בזמן את קורבנות השריפה ולא חקרה כראוי.",
+     "g": "פסק דין, מחייב את המדינה שהורשעה.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Вячеславова и другие против Украины (Одесса, 2 мая 2014 года)",
+     "o": "Европейский суд по правам человека",
+     "w": "Украина не предотвратила насилие в Одессе, не оказала вовремя помощь жертвам пожара и не провела надлежащего расследования.",
+     "g": "Решение, обязательное для государства-ответчика.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "ukrned",
+   "type": "echr",
+   "theater": "ruua",
+   "date": "2025-07-09",
+   "url": "https://hudoc.echr.coe.int/eng#{\"appno\":[\"8019/16\"]}",
+   "pieces": [
+    "nd-dal-1990-al-2022"
+   ],
+   "text": {
+    "it": {
+     "t": "Ucraina e Paesi Bassi c. Russia",
+     "o": "Corte europea dei diritti dell'uomo, Grande Camera",
+     "w": "La Russia controllava le repubbliche separatiste dal 2014 ed è responsabile dell'abbattimento del volo MH17, con 298 morti. Ha commesso violazioni sistematiche: torture, violenze sessuali, detenzioni illegali, trasferimento di bambini ucraini.",
+     "g": "Sentenza, vincolante.",
+     "r": "La Russia non ha partecipato al processo e il Cremlino ha definito le decisioni «nulle»."
+    },
+    "en": {
+     "t": "Ukraine and the Netherlands v. Russia",
+     "o": "European Court of Human Rights, Grand Chamber",
+     "w": "Russia controlled the separatist republics from 2014 and is responsible for the downing of flight MH17, which killed 298 people. It committed systematic violations: torture, sexual violence, unlawful detention, the transfer of Ukrainian children.",
+     "g": "Judgment, binding.",
+     "r": "Russia did not take part in the proceedings and the Kremlin called the decisions “null and void”."
+    },
+    "fr": {
+     "t": "Ukraine et Pays-Bas c. Russie",
+     "o": "Cour européenne des droits de l'homme, Grande Chambre",
+     "w": "La Russie contrôlait les républiques séparatistes depuis 2014 et est responsable de la destruction du vol MH17, qui a fait 298 morts. Elle a commis des violations systématiques : tortures, violences sexuelles, détentions illégales, transfert d'enfants ukrainiens.",
+     "g": "Arrêt, obligatoire.",
+     "r": "La Russie n'a pas participé à la procédure et le Kremlin a qualifié les décisions de « nulles et non avenues »."
+    },
+    "de": {
+     "t": "Ukraine und Niederlande gegen Russland",
+     "o": "Europäischer Gerichtshof für Menschenrechte, Große Kammer",
+     "w": "Russland kontrollierte die Separatistenrepubliken ab 2014 und ist für den Abschuss von Flug MH17 mit 298 Toten verantwortlich. Es hat systematische Verletzungen begangen: Folter, sexuelle Gewalt, rechtswidrige Haft, Verschleppung ukrainischer Kinder.",
+     "g": "Urteil, bindend.",
+     "r": "Russland hat sich nicht am Verfahren beteiligt, und der Kreml nannte die Entscheidungen „null und nichtig“."
+    },
+    "es": {
+     "t": "Ucrania y Países Bajos c. Rusia",
+     "o": "Tribunal Europeo de Derechos Humanos, Gran Sala",
+     "w": "Rusia controlaba las repúblicas separatistas desde 2014 y es responsable del derribo del vuelo MH17, con 298 muertos. Cometió violaciones sistemáticas: torturas, violencia sexual, detenciones ilegales, traslado de niños ucranianos.",
+     "g": "Sentencia, vinculante.",
+     "r": "Rusia no participó en el proceso y el Kremlin calificó las decisiones de «nulas»."
+    },
+    "pt": {
+     "t": "Ucrânia e Países Baixos c. Rússia",
+     "o": "Tribunal Europeu dos Direitos Humanos, Tribunal Pleno",
+     "w": "A Rússia controlava as repúblicas separatistas desde 2014 e é responsável pelo abate do voo MH17, com 298 mortos. Cometeu violações sistemáticas: tortura, violência sexual, detenções ilegais, transferência de crianças ucranianas.",
+     "g": "Acórdão, vinculativo.",
+     "r": "A Rússia não participou no processo e o Kremlin classificou as decisões como «nulas»."
+    },
+    "tr": {
+     "t": "Ukrayna ve Hollanda - Rusya",
+     "o": "Avrupa İnsan Hakları Mahkemesi, Büyük Daire",
+     "w": "Rusya ayrılıkçı cumhuriyetleri 2014'ten itibaren kontrol ediyordu ve 298 kişinin öldüğü MH17 uçağının düşürülmesinden sorumludur. Sistematik ihlaller gerçekleştirdi: işkence, cinsel şiddet, hukuka aykırı gözaltılar, Ukraynalı çocukların nakli.",
+     "g": "Karar, bağlayıcı.",
+     "r": "Rusya davaya katılmadı ve Kremlin kararları «hükümsüz» olarak nitelendirdi."
+    },
+    "zh": {
+     "t": "乌克兰和荷兰诉俄罗斯案",
+     "o": "欧洲人权法院大审判庭",
+     "w": "俄罗斯自2014年起控制分离主义共和国，并对造成298人死亡的MH17航班被击落负有责任。俄罗斯实施了系统性侵权：酷刑、性暴力、非法拘留、转移乌克兰儿童。",
+     "g": "判决，具有约束力。",
+     "r": "俄罗斯没有参加诉讼，克里姆林宫称这些裁决“无效”。"
+    },
+    "ar": {
+     "t": "أوكرانيا وهولندا ضد روسيا",
+     "o": "المحكمة الأوروبية لحقوق الإنسان، الدائرة الكبرى",
+     "w": "كانت روسيا تسيطر على الجمهوريتين الانفصاليتين منذ عام 2014، وهي مسؤولة عن إسقاط الرحلة MH17 التي قُتل فيها 298 شخصًا. ارتكبت انتهاكات منهجية: التعذيب، والعنف الجنسي، والاحتجاز غير القانوني، ونقل أطفال أوكرانيين.",
+     "g": "حكم ملزم.",
+     "r": "لم تشارك روسيا في الإجراءات، ووصف الكرملين القرارات بأنها «باطلة»."
+    },
+    "he": {
+     "t": "אוקראינה והולנד נגד רוסיה",
+     "o": "בית הדין האירופי לזכויות אדם, הלשכה הגדולה",
+     "w": "רוסיה שלטה ברפובליקות הבדלניות מאז 2014 והיא אחראית להפלת טיסה MH17, שבה נהרגו 298 בני אדם. היא ביצעה הפרות שיטתיות: עינויים, אלימות מינית, מעצרים בלתי חוקיים, העברת ילדים אוקראינים.",
+     "g": "פסק דין, מחייב.",
+     "r": "רוסיה לא השתתפה בהליך והקרמלין כינה את ההחלטות «בטלות»."
+    },
+    "ru": {
+     "t": "Украина и Нидерланды против России",
+     "o": "Европейский суд по правам человека, Большая палата",
+     "w": "Россия контролировала сепаратистские республики с 2014 года и несёт ответственность за уничтожение рейса MH17, в результате которого погибли 298 человек. Она совершала систематические нарушения: пытки, сексуальное насилие, незаконные задержания, перемещение украинских детей.",
+     "g": "Решение, обязательное.",
+     "r": "Россия не участвовала в процессе, а Кремль назвал решения «ничтожными»."
+    }
+   }
+  },
+  {
+   "id": "iccnigeria",
+   "type": "icc",
+   "theater": "nigeria",
+   "date": "2020-12-11",
+   "url": "https://www.icc-cpi.int/news/statement-prosecutor-fatou-bensouda-conclusion-preliminary-examination-situation-nigeria",
+   "pieces": [
+    "nd-nigeria-chi-viene-ucciso"
+   ],
+   "text": {
+    "it": {
+     "t": "Nigeria, conclusione dell'esame preliminare",
+     "o": "Corte penale internazionale, Procura",
+     "w": "C'è una base ragionevole per ritenere che crimini contro l'umanità e crimini di guerra siano stati commessi sia da Boko Haram e dai gruppi nati da Boko Haram, sia dalle forze di sicurezza nigeriane. La richiesta ai giudici di aprire un'indagine non è mai arrivata.",
+     "g": "«Base ragionevole»: la soglia per chiedere un'indagine.",
+     "r": ""
+    },
+    "en": {
+     "t": "Nigeria, conclusion of the preliminary examination",
+     "o": "International Criminal Court, Office of the Prosecutor",
+     "w": "There is a reasonable basis to believe that crimes against humanity and war crimes were committed both by Boko Haram and the groups that grew out of it, and by the Nigerian security forces. The request to the judges to open an investigation never came.",
+     "g": "“Reasonable basis”: the threshold for requesting an investigation.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Nigeria, conclusion de l'examen préliminaire",
+     "o": "Cour pénale internationale, Bureau du Procureur",
+     "w": "Il existe une base raisonnable pour croire que des crimes contre l'humanité et des crimes de guerre ont été commis à la fois par Boko Haram et les groupes qui en sont issus, et par les forces de sécurité nigérianes. La demande aux juges d'ouvrir une enquête n'est jamais arrivée.",
+     "g": "« Base raisonnable » : le seuil pour demander une enquête.",
+     "r": ""
+    },
+    "de": {
+     "t": "Nigeria, Abschluss der Vorprüfung",
+     "o": "Internationaler Strafgerichtshof, Anklagebehörde",
+     "w": "Es gibt eine hinreichende Grundlage für die Annahme, dass Verbrechen gegen die Menschlichkeit und Kriegsverbrechen sowohl von Boko Haram und den daraus hervorgegangenen Gruppen als auch von den nigerianischen Sicherheitskräften begangen wurden. Der Antrag an die Richter, eine Ermittlung zu eröffnen, wurde nie gestellt.",
+     "g": "„Hinreichende Grundlage“: die Schwelle, um eine Ermittlung zu beantragen.",
+     "r": ""
+    },
+    "es": {
+     "t": "Nigeria, conclusión del examen preliminar",
+     "o": "Corte Penal Internacional, Fiscalía",
+     "w": "Hay una base razonable para creer que se cometieron crímenes de lesa humanidad y crímenes de guerra tanto por Boko Haram y los grupos surgidos de él como por las fuerzas de seguridad nigerianas. La solicitud a los jueces para abrir una investigación nunca llegó.",
+     "g": "«Base razonable»: el umbral para solicitar una investigación.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Nigéria, conclusão do exame preliminar",
+     "o": "Tribunal Penal Internacional, Gabinete do Procurador",
+     "w": "Há uma base razoável para crer que foram cometidos crimes contra a humanidade e crimes de guerra tanto pelo Boko Haram e pelos grupos dele nascidos como pelas forças de segurança nigerianas. O pedido aos juízes para abrir uma investigação nunca chegou.",
+     "g": "«Base razoável»: o limiar para pedir uma investigação.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Nijerya, ön incelemenin sonucu",
+     "o": "Uluslararası Ceza Mahkemesi, Savcılık",
+     "w": "Hem Boko Haram ve ondan doğan gruplar hem de Nijerya güvenlik güçleri tarafından insanlığa karşı suçlar ve savaş suçları işlendiğine inanmak için makul bir temel vardır. Hâkimlerden soruşturma açılmasına izin istenmedi.",
+     "g": "«Makul temel»: soruşturma talep etmenin eşiği.",
+     "r": ""
+    },
+    "zh": {
+     "t": "尼日利亚初步审查的结论",
+     "o": "国际刑事法院检察官办公室",
+     "w": "有合理依据相信，博科圣地及其衍生团体以及尼日利亚安全部队都实施了危害人类罪和战争罪。请求法官授权展开调查的申请始终没有提出。",
+     "g": "“合理依据”：申请展开调查的门槛。",
+     "r": ""
+    },
+    "ar": {
+     "t": "نيجيريا، اختتام الدراسة الأولية",
+     "o": "المحكمة الجنائية الدولية، مكتب المدعي العام",
+     "w": "هناك أساس معقول للاعتقاد بأن جرائم ضد الإنسانية وجرائم حرب ارتكبتها بوكو حرام والجماعات المنبثقة عنها، وكذلك قوات الأمن النيجيرية. ولم يُقدَّم قط طلب إلى القضاة لفتح تحقيق.",
+     "g": "«أساس معقول»: العتبة اللازمة لطلب فتح تحقيق.",
+     "r": ""
+    },
+    "he": {
+     "t": "ניגריה, סיום הבדיקה המקדמית",
+     "o": "בית הדין הפלילי הבינלאומי, משרד התובע",
+     "w": "יש בסיס סביר להניח שפשעים נגד האנושות ופשעי מלחמה בוצעו הן על ידי בוקו חראם והקבוצות שצמחו ממנה והן על ידי כוחות הביטחון של ניגריה. הבקשה לשופטים לפתוח בחקירה לא הוגשה מעולם.",
+     "g": "«בסיס סביר»: הסף לבקשת חקירה.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Нигерия, завершение предварительного изучения",
+     "o": "Международный уголовный суд, Канцелярия Прокурора",
+     "w": "Есть разумные основания полагать, что преступления против человечности и военные преступления совершали как «Боко харам» и выросшие из неё группировки, так и нигерийские силы безопасности. Запрос к судьям о начале расследования так и не был подан.",
+     "g": "«Разумные основания»: порог для запроса о расследовании.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "kushayb",
+   "type": "icc",
+   "theater": "sudan",
+   "date": "2025-10-06",
+   "url": "https://www.icc-cpi.int/darfur/abd-al-rahman",
+   "pieces": [
+    "glo-sudan"
+   ],
+   "text": {
+    "it": {
+     "t": "Ali Kushayb, sentenza e pena",
+     "o": "Corte penale internazionale, Camera di primo grado I",
+     "w": "L'ex capo janjawid è colpevole di 27 dei 31 capi d'accusa: crimini di guerra e contro l'umanità, tra cui omicidi, torture, stupri e persecuzione, commessi nel Darfur occidentale tra il 2003 e il 2004. Il 9 dicembre 2025 è stato condannato a 20 anni. È la prima condanna per il Darfur.",
+     "g": "Sentenza di primo grado.",
+     "r": ""
+    },
+    "en": {
+     "t": "Ali Kushayb, judgment and sentence",
+     "o": "International Criminal Court, Trial Chamber I",
+     "w": "The former Janjaweed leader is guilty on 27 of 31 counts: war crimes and crimes against humanity, including murder, torture, rape and persecution, committed in West Darfur in 2003 and 2004. On 9 December 2025 he was sentenced to 20 years. It is the first conviction for Darfur.",
+     "g": "First-instance judgment.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Ali Kushayb, jugement et peine",
+     "o": "Cour pénale internationale, Chambre de première instance I",
+     "w": "L'ancien chef janjawid est coupable de 27 des 31 chefs d'accusation : crimes de guerre et crimes contre l'humanité, dont meurtres, tortures, viols et persécution, commis au Darfour occidental en 2003 et 2004. Le 9 décembre 2025, il a été condamné à 20 ans. C'est la première condamnation pour le Darfour.",
+     "g": "Jugement de première instance.",
+     "r": ""
+    },
+    "de": {
+     "t": "Ali Kushayb, Urteil und Strafe",
+     "o": "Internationaler Strafgerichtshof, Hauptverfahrenskammer I",
+     "w": "Der frühere Dschandschawid-Anführer ist in 27 von 31 Anklagepunkten schuldig: Kriegsverbrechen und Verbrechen gegen die Menschlichkeit, darunter Mord, Folter, Vergewaltigung und Verfolgung, begangen in West-Darfur 2003 und 2004. Am 9. Dezember 2025 wurde er zu 20 Jahren verurteilt. Es ist die erste Verurteilung zu Darfur.",
+     "g": "Urteil erster Instanz.",
+     "r": ""
+    },
+    "es": {
+     "t": "Ali Kushayb, sentencia y pena",
+     "o": "Corte Penal Internacional, Sala de Primera Instancia I",
+     "w": "El exjefe yanyauid es culpable de 27 de los 31 cargos: crímenes de guerra y de lesa humanidad, entre ellos asesinatos, torturas, violaciones y persecución, cometidos en Darfur Occidental en 2003 y 2004. El 9 de diciembre de 2025 fue condenado a 20 años. Es la primera condena por Darfur.",
+     "g": "Sentencia de primera instancia.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Ali Kushayb, sentença e pena",
+     "o": "Tribunal Penal Internacional, Câmara de Julgamento I",
+     "w": "O antigo chefe janjawid é culpado de 27 das 31 acusações: crimes de guerra e contra a humanidade, entre os quais homicídios, tortura, violações e perseguição, cometidos no Darfur Ocidental em 2003 e 2004. A 9 de dezembro de 2025 foi condenado a 20 anos. É a primeira condenação pelo Darfur.",
+     "g": "Sentença de primeira instância.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Ali Kushayb, karar ve ceza",
+     "o": "Uluslararası Ceza Mahkemesi, I No'lu Yargılama Dairesi",
+     "w": "Eski Cancavid lideri 31 suçlamanın 27'sinden suçlu bulundu: 2003 ve 2004'te Batı Darfur'da işlenen, aralarında öldürme, işkence, tecavüz ve zulmün bulunduğu savaş suçları ve insanlığa karşı suçlar. 9 Aralık 2025'te 20 yıl hapse mahkûm edildi. Darfur için ilk mahkûmiyettir.",
+     "g": "İlk derece kararı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "阿里·库沙卜案：判决与量刑",
+     "o": "国际刑事法院第一审判分庭",
+     "w": "这名前金戈威德领导人在31项罪名中有27项被判有罪：2003年和2004年在西达尔富尔犯下的战争罪和危害人类罪，包括谋杀、酷刑、强奸和迫害。2025年12月9日，他被判处20年徒刑。这是有关达尔富尔的首次定罪。",
+     "g": "一审判决。",
+     "r": ""
+    },
+    "ar": {
+     "t": "علي كوشيب، الحكم والعقوبة",
+     "o": "المحكمة الجنائية الدولية، الدائرة الابتدائية الأولى",
+     "w": "القائد السابق في الجنجويد مذنب في 27 من أصل 31 تهمة: جرائم حرب وجرائم ضد الإنسانية، منها القتل والتعذيب والاغتصاب والاضطهاد، ارتُكبت في غرب دارفور عامي 2003 و2004. وفي 9 ديسمبر 2025 حُكم عليه بالسجن 20 عامًا. إنها الإدانة الأولى المتعلقة بدارفور.",
+     "g": "حكم ابتدائي.",
+     "r": ""
+    },
+    "he": {
+     "t": "עלי כושייב, פסק דין ועונש",
+     "o": "בית הדין הפלילי הבינלאומי, לשכת המשפט הראשונה",
+     "w": "המפקד לשעבר בג׳נג׳וויד הורשע ב-27 מתוך 31 אישומים: פשעי מלחמה ופשעים נגד האנושות, ובהם רצח, עינויים, אונס ורדיפה, שבוצעו במערב דארפור ב-2003 וב-2004. ב-9 בדצמבר 2025 נגזרו עליו 20 שנות מאסר. זו ההרשעה הראשונה בעניין דארפור.",
+     "g": "פסק דין בערכאה ראשונה.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Али Кушайб, приговор и наказание",
+     "o": "Международный уголовный суд, Судебная палата I",
+     "w": "Бывший командир джанджавид признан виновным по 27 из 31 пункта обвинения: военные преступления и преступления против человечности, в том числе убийства, пытки, изнасилования и преследования, совершённые в Западном Дарфуре в 2003 и 2004 годах. 9 декабря 2025 года он приговорён к 20 годам. Это первый приговор по Дарфуру.",
+     "g": "Приговор первой инстанции.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "tajik",
+   "type": "icc",
+   "theater": "ruua",
+   "date": "2026-03-19",
+   "url": "https://www.icc-cpi.int/sites/default/files/CourtRecords/0902ebd180e05738.pdf",
+   "pieces": [
+    "nd-cpi-mandati-ineseguiti"
+   ],
+   "text": {
+    "it": {
+     "t": "Il Tagikistan non ha arrestato Putin",
+     "o": "Corte penale internazionale, Camera preliminare II",
+     "w": "Il Tagikistan, Stato parte della Corte, ha violato i suoi obblighi non arrestando Putin durante la visita dell'ottobre 2025. Un accordo di sicurezza della CSI del 2008 non prevale sullo Statuto. Il 7 maggio 2026 la questione è passata all'Assemblea degli Stati parte.",
+     "g": "Decisione dei giudici.",
+     "r": ""
+    },
+    "en": {
+     "t": "Tajikistan did not arrest Putin",
+     "o": "International Criminal Court, Pre-Trial Chamber II",
+     "w": "Tajikistan, a State party to the Court, breached its obligations by not arresting Putin during his visit in October 2025. A 2008 CIS security agreement does not override the Statute. On 7 May 2026 the matter was referred to the Assembly of States Parties.",
+     "g": "Decision of the judges.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Le Tadjikistan n'a pas arrêté Poutine",
+     "o": "Cour pénale internationale, Chambre préliminaire II",
+     "w": "Le Tadjikistan, État partie à la Cour, a manqué à ses obligations en n'arrêtant pas Poutine lors de sa visite d'octobre 2025. Un accord de sécurité de la CEI de 2008 ne prime pas sur le Statut. Le 7 mai 2026, la question a été renvoyée à l'Assemblée des États parties.",
+     "g": "Décision des juges.",
+     "r": ""
+    },
+    "de": {
+     "t": "Tadschikistan hat Putin nicht festgenommen",
+     "o": "Internationaler Strafgerichtshof, Vorverfahrenskammer II",
+     "w": "Tadschikistan, Vertragsstaat des Gerichtshofs, hat seine Pflichten verletzt, indem es Putin bei seinem Besuch im Oktober 2025 nicht festnahm. Ein Sicherheitsabkommen der GUS von 2008 hat keinen Vorrang vor dem Statut. Am 7. Mai 2026 wurde die Sache an die Versammlung der Vertragsstaaten überwiesen.",
+     "g": "Entscheidung der Richter.",
+     "r": ""
+    },
+    "es": {
+     "t": "Tayikistán no detuvo a Putin",
+     "o": "Corte Penal Internacional, Sala de Cuestiones Preliminares II",
+     "w": "Tayikistán, Estado parte de la Corte, incumplió sus obligaciones al no detener a Putin durante su visita de octubre de 2025. Un acuerdo de seguridad de la CEI de 2008 no prevalece sobre el Estatuto. El 7 de mayo de 2026 la cuestión pasó a la Asamblea de los Estados Partes.",
+     "g": "Decisión de los jueces.",
+     "r": ""
+    },
+    "pt": {
+     "t": "O Tajiquistão não deteve Putin",
+     "o": "Tribunal Penal Internacional, Câmara de Instrução II",
+     "w": "O Tajiquistão, Estado Parte do Tribunal, violou as suas obrigações ao não deter Putin durante a visita de outubro de 2025. Um acordo de segurança da CEI de 2008 não prevalece sobre o Estatuto. A 7 de maio de 2026 a questão passou para a Assembleia dos Estados Partes.",
+     "g": "Decisão dos juízes.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Tacikistan Putin'i tutuklamadı",
+     "o": "Uluslararası Ceza Mahkemesi, II No'lu Ön Yargılama Dairesi",
+     "w": "Mahkemeye taraf bir devlet olan Tacikistan, Ekim 2025'teki ziyareti sırasında Putin'i tutuklamayarak yükümlülüklerini ihlal etti. BDT'nin 2008 tarihli bir güvenlik anlaşması Statü'nün önüne geçemez. 7 Mayıs 2026'da konu Taraf Devletler Asamblesi'ne havale edildi.",
+     "g": "Hâkimlerin kararı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "塔吉克斯坦没有逮捕普京",
+     "o": "国际刑事法院第二预审分庭",
+     "w": "作为法院缔约国，塔吉克斯坦在普京2025年10月访问期间没有将其逮捕，违反了自身义务。独联体2008年的一项安全协定不能凌驾于《规约》之上。2026年5月7日，此事被提交缔约国大会。",
+     "g": "法官的裁定。",
+     "r": ""
+    },
+    "ar": {
+     "t": "طاجيكستان لم تعتقل بوتين",
+     "o": "المحكمة الجنائية الدولية، الدائرة التمهيدية الثانية",
+     "w": "أخلّت طاجيكستان، وهي دولة طرف في المحكمة، بالتزاماتها بعدم اعتقال بوتين خلال زيارته في أكتوبر 2025. ولا يعلو اتفاق أمني لرابطة الدول المستقلة يعود إلى عام 2008 على النظام الأساسي. وفي 7 مايو 2026 أُحيلت المسألة إلى جمعية الدول الأطراف.",
+     "g": "قرار القضاة.",
+     "r": ""
+    },
+    "he": {
+     "t": "טג׳יקיסטן לא עצרה את פוטין",
+     "o": "בית הדין הפלילי הבינלאומי, הלשכה המקדמית השנייה",
+     "w": "טג׳יקיסטן, מדינה החברה בבית הדין, הפרה את התחייבויותיה כשלא עצרה את פוטין בביקורו באוקטובר 2025. הסכם ביטחוני של חבר המדינות העצמאיות מ-2008 אינו גובר על חוקת רומא. ב-7 במאי 2026 הועבר העניין לאספת המדינות החברות.",
+     "g": "החלטת השופטים.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Таджикистан не арестовал Путина",
+     "o": "Международный уголовный суд, Палата предварительного производства II",
+     "w": "Таджикистан, государство — участник суда, нарушил свои обязательства, не арестовав Путина во время его визита в октябре 2025 года. Соглашение СНГ о безопасности 2008 года не имеет приоритета над Римским статутом. 7 мая 2026 года вопрос передан Ассамблее государств-участников.",
+     "g": "Решение судей.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "warrants",
+   "type": "icc",
+   "theater": "general",
+   "date": null,
+   "url": null,
+   "internal": "latitanti",
+   "pieces": [],
+   "text": {
+    "it": {
+     "t": "I mandati d'arresto",
+     "o": "Corte penale internazionale",
+     "w": "I mandati per Putin, Netanyahu, i vertici talebani, al-Bashir, i comandanti libici e gli altri ricercati sono raccolti in una pagina dedicata, con lo stato aggiornato di ciascuno.",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "The arrest warrants",
+     "o": "International Criminal Court",
+     "w": "The warrants for Putin, Netanyahu, the Taliban leadership, al-Bashir, Libyan commanders and the other fugitives are gathered on a dedicated page, with the up-to-date status of each.",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Les mandats d'arrêt",
+     "o": "Cour pénale internationale",
+     "w": "Les mandats visant Poutine, Netanyahou, les dirigeants talibans, al-Bachir, des commandants libyens et les autres fugitifs sont réunis sur une page dédiée, avec la situation à jour de chacun.",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Die Haftbefehle",
+     "o": "Internationaler Strafgerichtshof",
+     "w": "Die Haftbefehle gegen Putin, Netanjahu, die Taliban-Führung, al-Baschir, libysche Kommandeure und die übrigen Flüchtigen sind auf einer eigenen Seite gesammelt, mit dem aktuellen Stand zu jedem Einzelnen.",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Las órdenes de detención",
+     "o": "Corte Penal Internacional",
+     "w": "Las órdenes contra Putin, Netanyahu, la cúpula talibán, al Bashir, comandantes libios y los demás prófugos están reunidas en una página propia, con la situación actualizada de cada uno.",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Os mandados de detenção",
+     "o": "Tribunal Penal Internacional",
+     "w": "Os mandados contra Putin, Netanyahu, a liderança talibã, al-Bashir, comandantes líbios e os restantes foragidos estão reunidos numa página própria, com a situação atualizada de cada um.",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Tutuklama müzekkereleri",
+     "o": "Uluslararası Ceza Mahkemesi",
+     "w": "Putin, Netanyahu, Taliban liderliği, el-Beşir, Libyalı komutanlar ve diğer firariler hakkındaki müzekkereler, her birinin güncel durumuyla birlikte ayrı bir sayfada toplanmıştır.",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "逮捕令",
+     "o": "国际刑事法院",
+     "w": "针对普京、内塔尼亚胡、塔利班领导层、巴希尔、利比亚指挥官及其他在逃人员的逮捕令集中在一个专门页面上，并列出每个人的最新状态。",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "مذكرات التوقيف",
+     "o": "المحكمة الجنائية الدولية",
+     "w": "مذكرات التوقيف بحق بوتين ونتنياهو وقيادة طالبان والبشير وقادة ليبيين وسائر الفارّين مجموعة في صفحة مخصصة، مع الوضع المحدّث لكل منهم.",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "צווי המעצר",
+     "o": "בית הדין הפלילי הבינלאומי",
+     "w": "צווי המעצר נגד פוטין, נתניהו, הנהגת הטליבאן, אל-באשיר, מפקדים לובים ושאר הנמלטים מרוכזים בדף ייעודי, עם המצב העדכני של כל אחד מהם.",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Ордера на арест",
+     "o": "Международный уголовный суд",
+     "w": "Ордера на арест Путина, Нетаньяху, руководства «Талибана», аль-Башира, ливийских командиров и других разыскиваемых собраны на отдельной странице с актуальным статусом каждого.",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "tigray",
+   "type": "inq",
+   "theater": "ethiopia",
+   "date": "2021-11-03",
+   "url": "https://digitallibrary.un.org/record/3947207",
+   "pieces": [
+    "nd-etiopia-guida-alla-guerra",
+    "glo-etiopia"
+   ],
+   "text": {
+    "it": {
+     "t": "Indagine congiunta sul Tigray",
+     "o": "Ufficio ONU per i diritti umani e Commissione etiopica per i diritti umani",
+     "w": "Tutte le parti in guerra hanno commesso violazioni, alcune delle quali possono costituire crimini di guerra e contro l'umanità. L'indagine attribuisce alle truppe eritree uccisioni illegali, torture e violenze sessuali contro i civili del Tigray.",
+     "g": "«Ragionevoli motivi per ritenere»; «possono costituire».",
+     "r": "Il governo etiopico lo ha accolto come «un documento importante», con «serie riserve» su alcune parti, sottolineando che il rapporto non trova un genocidio. Il TPLF lo ha respinto, contestando la partecipazione della Commissione etiopica. Nessuna reazione nota dell'Eritrea."
+    },
+    "en": {
+     "t": "Joint investigation on Tigray",
+     "o": "UN Human Rights Office and Ethiopian Human Rights Commission",
+     "w": "All parties to the war committed violations, some of which may amount to war crimes and crimes against humanity. The investigation attributes unlawful killings, torture and sexual violence against civilians in Tigray to Eritrean troops.",
+     "g": "“Reasonable grounds to believe”; “may amount to”.",
+     "r": "The Ethiopian government welcomed it as “an important document”, with “serious reservations” on some aspects, stressing that the report finds no genocide. The TPLF rejected it, objecting to the role of the Ethiopian Commission. No known reaction from Eritrea."
+    },
+    "fr": {
+     "t": "Enquête conjointe sur le Tigré",
+     "o": "Bureau des droits de l'homme de l'ONU et Commission éthiopienne des droits de l'homme",
+     "w": "Toutes les parties à la guerre ont commis des violations, dont certaines peuvent constituer des crimes de guerre et des crimes contre l'humanité. L'enquête attribue aux troupes érythréennes des meurtres illégaux, des tortures et des violences sexuelles contre les civils du Tigré.",
+     "g": "« Motifs raisonnables de croire » ; « peuvent constituer ».",
+     "r": "Le gouvernement éthiopien l'a accueillie comme « un document important », avec de « sérieuses réserves » sur certains aspects, en soulignant que le rapport ne conclut pas à un génocide. Le TPLF l'a rejetée, contestant la participation de la Commission éthiopienne. Aucune réaction connue de l'Érythrée."
+    },
+    "de": {
+     "t": "Gemeinsame Untersuchung zu Tigray",
+     "o": "UN-Menschenrechtsbüro und Äthiopische Menschenrechtskommission",
+     "w": "Alle Kriegsparteien haben Verletzungen begangen, von denen einige Kriegsverbrechen und Verbrechen gegen die Menschlichkeit darstellen können. Die Untersuchung schreibt eritreischen Truppen rechtswidrige Tötungen, Folter und sexuelle Gewalt gegen Zivilisten in Tigray zu.",
+     "g": "„Hinreichende Gründe zu der Annahme“; „können darstellen“.",
+     "r": "Die äthiopische Regierung nahm den Bericht als „wichtiges Dokument“ an, mit „ernsten Vorbehalten“ zu einigen Teilen, und betonte, dass er keinen Völkermord feststellt. Die TPLF wies ihn zurück und kritisierte die Beteiligung der äthiopischen Kommission. Eine Reaktion Eritreas ist nicht bekannt."
+    },
+    "es": {
+     "t": "Investigación conjunta sobre Tigray",
+     "o": "Oficina de Derechos Humanos de la ONU y Comisión Etíope de Derechos Humanos",
+     "w": "Todas las partes en la guerra cometieron violaciones, algunas de las cuales pueden constituir crímenes de guerra y de lesa humanidad. La investigación atribuye a las tropas eritreas asesinatos ilegales, torturas y violencia sexual contra los civiles de Tigray.",
+     "g": "«Motivos razonables para creer»; «pueden constituir».",
+     "r": "El Gobierno etíope la acogió como «un documento importante», con «serias reservas» sobre algunos aspectos, y subrayó que el informe no halla un genocidio. El TPLF la rechazó, cuestionando la participación de la Comisión etíope. No se conoce reacción de Eritrea."
+    },
+    "pt": {
+     "t": "Investigação conjunta sobre Tigré",
+     "o": "Gabinete de Direitos Humanos da ONU e Comissão Etíope de Direitos Humanos",
+     "w": "Todas as partes na guerra cometeram violações, algumas das quais podem constituir crimes de guerra e contra a humanidade. A investigação atribui às tropas eritreias homicídios ilegais, tortura e violência sexual contra os civis de Tigré.",
+     "g": "«Motivos razoáveis para crer»; «podem constituir».",
+     "r": "O Governo etíope acolheu-a como «um documento importante», com «sérias reservas» sobre alguns aspetos, sublinhando que o relatório não conclui por um genocídio. A TPLF rejeitou-a, contestando a participação da Comissão etíope. Não se conhece reação da Eritreia."
+    },
+    "tr": {
+     "t": "Tigray hakkında ortak soruşturma",
+     "o": "BM İnsan Hakları Ofisi ve Etiyopya İnsan Hakları Komisyonu",
+     "w": "Savaştaki tüm taraflar ihlaller gerçekleştirdi; bunların bazıları savaş suçu ve insanlığa karşı suç teşkil edebilir. Soruşturma, Tigray'daki sivillere yönelik hukuka aykırı öldürmeleri, işkenceyi ve cinsel şiddeti Eritre birliklerine atfediyor.",
+     "g": "«İnanmak için makul gerekçeler»; «teşkil edebilir».",
+     "r": "Etiyopya hükümeti raporu bazı kısımlarına dair «ciddi çekincelerle» birlikte «önemli bir belge» olarak kabul etti ve raporun soykırım tespit etmediğini vurguladı. TPLF, Etiyopya Komisyonu'nun katılımına itiraz ederek raporu reddetti. Eritre'nin bilinen bir tepkisi yok."
+    },
+    "zh": {
+     "t": "关于提格雷的联合调查",
+     "o": "联合国人权办公室和埃塞俄比亚人权委员会",
+     "w": "战争各方都有违法行为，其中一些可能构成战争罪和危害人类罪。调查将针对提格雷平民的非法杀戮、酷刑和性暴力归咎于厄立特里亚军队。",
+     "g": "“有合理理由相信”；“可能构成”。",
+     "r": "埃塞俄比亚政府称其为“一份重要文件”，但对部分内容有“严重保留”，并强调报告没有认定灭绝种族。提人阵拒绝接受该报告，对埃塞俄比亚委员会的参与提出异议。尚未知厄立特里亚有何反应。"
+    },
+    "ar": {
+     "t": "التحقيق المشترك بشأن تيغراي",
+     "o": "مكتب الأمم المتحدة لحقوق الإنسان واللجنة الإثيوبية لحقوق الإنسان",
+     "w": "ارتكبت جميع أطراف الحرب انتهاكات، قد يرقى بعضها إلى جرائم حرب وجرائم ضد الإنسانية. ويُسند التحقيق إلى القوات الإريترية عمليات قتل غير مشروع وتعذيبًا وعنفًا جنسيًا ضد مدنيي تيغراي.",
+     "g": "«أسباب معقولة للاعتقاد»؛ «قد يرقى إلى».",
+     "r": "رحّبت الحكومة الإثيوبية بالتقرير بوصفه «وثيقة مهمة»، مع «تحفظات جدية» على بعض جوانبه، مؤكدة أنه لا يثبت وقوع إبادة جماعية. ورفضته جبهة تحرير شعب تيغراي معترضة على مشاركة اللجنة الإثيوبية. ولا يُعرف رد فعل لإريتريا."
+    },
+    "he": {
+     "t": "חקירה משותפת על טיגראי",
+     "o": "משרד האו״ם לזכויות האדם והוועדה האתיופית לזכויות האדם",
+     "w": "כל הצדדים למלחמה ביצעו הפרות, שחלקן עשויות להגיע לכדי פשעי מלחמה ופשעים נגד האנושות. החקירה מייחסת לכוחות אריתראיים הרג בלתי חוקי, עינויים ואלימות מינית נגד אזרחי טיגראי.",
+     "g": "«יסוד סביר להניח»; «עשויות להגיע לכדי».",
+     "r": "ממשלת אתיופיה קיבלה את הדוח כ«מסמך חשוב», עם «הסתייגויות רציניות» מחלקים ממנו, והדגישה שהדוח אינו קובע רצח עם. ה-TPLF דחה אותו והתנגד להשתתפות הוועדה האתיופית. לא ידועה תגובה של אריתריאה."
+    },
+    "ru": {
+     "t": "Совместное расследование по Тыграю",
+     "o": "Управление ООН по правам человека и Эфиопская комиссия по правам человека",
+     "w": "Все стороны войны совершали нарушения, часть которых может представлять собой военные преступления и преступления против человечности. Расследование возлагает на эритрейские войска ответственность за незаконные убийства, пытки и сексуальное насилие против мирных жителей Тыграя.",
+     "g": "«Разумные основания полагать»; «может представлять собой».",
+     "r": "Правительство Эфиопии приняло доклад как «важный документ» с «серьёзными оговорками» к некоторым его частям, подчеркнув, что в нём не установлен геноцид. НФОТ отверг доклад, возражая против участия эфиопской комиссии. Реакция Эритреи неизвестна."
+    }
+   }
+  },
+  {
+   "id": "xinjiang",
+   "type": "inq",
+   "theater": "china",
+   "date": "2022-08-31",
+   "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+   "pieces": [
+    "nd-religione-e-guerre"
+   ],
+   "text": {
+    "it": {
+     "t": "Valutazione sui diritti umani nello Xinjiang",
+     "o": "Ufficio ONU per i diritti umani",
+     "w": "La detenzione arbitraria e discriminatoria di uiguri e altri musulmani può costituire crimini internazionali, in particolare crimini contro l'umanità.",
+     "g": "«Può costituire».",
+     "r": "La Cina respinge le accuse."
+    },
+    "en": {
+     "t": "Assessment of human rights concerns in Xinjiang",
+     "o": "UN Human Rights Office",
+     "w": "The arbitrary and discriminatory detention of Uyghurs and other Muslims may constitute international crimes, in particular crimes against humanity.",
+     "g": "“May constitute”.",
+     "r": "China rejects the accusations."
+    },
+    "fr": {
+     "t": "Évaluation des préoccupations relatives aux droits de l'homme au Xinjiang",
+     "o": "Bureau des droits de l'homme de l'ONU",
+     "w": "La détention arbitraire et discriminatoire d'Ouïghours et d'autres musulmans peut constituer des crimes internationaux, en particulier des crimes contre l'humanité.",
+     "g": "« Peut constituer ».",
+     "r": "La Chine rejette les accusations."
+    },
+    "de": {
+     "t": "Bewertung der Menschenrechtslage in Xinjiang",
+     "o": "UN-Menschenrechtsbüro",
+     "w": "Die willkürliche und diskriminierende Inhaftierung von Uiguren und anderen Muslimen kann internationale Verbrechen darstellen, insbesondere Verbrechen gegen die Menschlichkeit.",
+     "g": "„Kann darstellen“.",
+     "r": "China weist die Vorwürfe zurück."
+    },
+    "es": {
+     "t": "Evaluación sobre los derechos humanos en Xinjiang",
+     "o": "Oficina de Derechos Humanos de la ONU",
+     "w": "La detención arbitraria y discriminatoria de uigures y otros musulmanes puede constituir crímenes internacionales, en particular crímenes de lesa humanidad.",
+     "g": "«Puede constituir».",
+     "r": "China rechaza las acusaciones."
+    },
+    "pt": {
+     "t": "Avaliação dos direitos humanos em Xinjiang",
+     "o": "Gabinete de Direitos Humanos da ONU",
+     "w": "A detenção arbitrária e discriminatória de uigures e outros muçulmanos pode constituir crimes internacionais, em particular crimes contra a humanidade.",
+     "g": "«Pode constituir».",
+     "r": "A China rejeita as acusações."
+    },
+    "tr": {
+     "t": "Sincan'daki insan hakları durumuna ilişkin değerlendirme",
+     "o": "BM İnsan Hakları Ofisi",
+     "w": "Uygurların ve diğer Müslümanların keyfi ve ayrımcı biçimde gözaltında tutulması uluslararası suç, özellikle insanlığa karşı suç teşkil edebilir.",
+     "g": "«Teşkil edebilir».",
+     "r": "Çin suçlamaları reddediyor."
+    },
+    "zh": {
+     "t": "关于新疆人权状况的评估",
+     "o": "联合国人权办公室",
+     "w": "对维吾尔族和其他穆斯林的任意和歧视性拘押可能构成国际罪行，特别是危害人类罪。",
+     "g": "“可能构成”。",
+     "r": "中国拒绝这些指控。"
+    },
+    "ar": {
+     "t": "تقييم أوضاع حقوق الإنسان في شينجيانغ",
+     "o": "مكتب الأمم المتحدة لحقوق الإنسان",
+     "w": "قد يشكّل الاحتجاز التعسفي والتمييزي للأويغور وغيرهم من المسلمين جرائم دولية، ولا سيما جرائم ضد الإنسانية.",
+     "g": "«قد يشكّل».",
+     "r": "ترفض الصين الاتهامات."
+    },
+    "he": {
+     "t": "הערכת מצב זכויות האדם בשינג׳יאנג",
+     "o": "משרד האו״ם לזכויות האדם",
+     "w": "המעצר השרירותי והמפלה של אויגורים ומוסלמים אחרים עשוי להוות פשעים בינלאומיים, ובפרט פשעים נגד האנושות.",
+     "g": "«עשוי להוות».",
+     "r": "סין דוחה את ההאשמות."
+    },
+    "ru": {
+     "t": "Оценка положения с правами человека в Синьцзяне",
+     "o": "Управление ООН по правам человека",
+     "w": "Произвольное и дискриминационное содержание под стражей уйгуров и других мусульман может представлять собой международные преступления, в частности преступления против человечности.",
+     "g": "«Может представлять собой».",
+     "r": "Китай отвергает обвинения."
+    }
+   }
+  },
+  {
+   "id": "srsg",
+   "type": "inq",
+   "theater": "isrpal",
+   "date": "2024-03-04",
+   "url": "https://www.un.org/sexualviolenceinconflict/wp-content/uploads/2024/03/report/mission-report-official-visit-of-the-office-of-the-srsg-svc-to-israel-and-the-occupied-west-bank-29-january-14-february-2024/20240304-Israel-oWB-CRSV-report.pdf",
+   "pieces": [
+    "op-tre-anni-dal-7-ottobre"
+   ],
+   "text": {
+    "it": {
+     "t": "Violenza sessuale il 7 ottobre e sugli ostaggi (rapporto di missione)",
+     "o": "Ufficio della Rappresentante speciale ONU sulla violenza sessuale nei conflitti",
+     "w": "Ci sono ragionevoli motivi per ritenere che il 7 ottobre 2023 siano state commesse violenze sessuali, compresi stupri, in più luoghi intorno a Gaza, e informazioni chiare e convincenti di violenze sessuali su alcuni ostaggi. La missione ha ricevuto segnalazioni di violenze sessuali su palestinesi detenuti, che non ha verificato.",
+     "g": "«Ragionevoli motivi per ritenere»; «informazioni chiare e convincenti». La missione dichiara di non essere un'indagine.",
+     "r": ""
+    },
+    "en": {
+     "t": "Sexual violence on 7 October and against hostages (mission report)",
+     "o": "Office of the UN Special Representative on Sexual Violence in Conflict",
+     "w": "There are reasonable grounds to believe that sexual violence, including rape, was committed on 7 October 2023 at several locations around Gaza, and clear and convincing information of sexual violence against some hostages. The mission received reports of sexual violence against Palestinian detainees, which it did not verify.",
+     "g": "“Reasonable grounds to believe”; “clear and convincing information”. The mission states it is not an investigation.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Violences sexuelles le 7 octobre et contre les otages (rapport de mission)",
+     "o": "Bureau de la Représentante spéciale de l'ONU chargée de la question des violences sexuelles commises en période de conflit",
+     "w": "Il existe des motifs raisonnables de croire que des violences sexuelles, y compris des viols, ont été commises le 7 octobre 2023 en plusieurs lieux autour de Gaza, et des informations claires et convaincantes de violences sexuelles contre certains otages. La mission a reçu des signalements de violences sexuelles contre des détenus palestiniens, qu'elle n'a pas vérifiés.",
+     "g": "« Motifs raisonnables de croire » ; « informations claires et convaincantes ». La mission déclare ne pas être une enquête.",
+     "r": ""
+    },
+    "de": {
+     "t": "Sexuelle Gewalt am 7. Oktober und gegen Geiseln (Missionsbericht)",
+     "o": "Büro der UN-Sonderbeauftragten für sexuelle Gewalt in Konflikten",
+     "w": "Es gibt hinreichende Gründe zu der Annahme, dass am 7. Oktober 2023 an mehreren Orten um Gaza sexuelle Gewalt, einschließlich Vergewaltigungen, verübt wurde, sowie klare und überzeugende Informationen über sexuelle Gewalt gegen einige Geiseln. Die Mission erhielt Berichte über sexuelle Gewalt gegen palästinensische Häftlinge, die sie nicht überprüft hat.",
+     "g": "„Hinreichende Gründe zu der Annahme“; „klare und überzeugende Informationen“. Die Mission erklärt, keine Untersuchung zu sein.",
+     "r": ""
+    },
+    "es": {
+     "t": "Violencia sexual el 7 de octubre y contra los rehenes (informe de misión)",
+     "o": "Oficina de la Representante Especial de la ONU sobre la Violencia Sexual en los Conflictos",
+     "w": "Hay motivos razonables para creer que el 7 de octubre de 2023 se cometió violencia sexual, incluidas violaciones, en varios lugares alrededor de Gaza, e información clara y convincente de violencia sexual contra algunos rehenes. La misión recibió denuncias de violencia sexual contra detenidos palestinos, que no verificó.",
+     "g": "«Motivos razonables para creer»; «información clara y convincente». La misión declara que no es una investigación.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Violência sexual a 7 de outubro e contra os reféns (relatório de missão)",
+     "o": "Gabinete da Representante Especial da ONU para a Violência Sexual em Conflitos",
+     "w": "Há motivos razoáveis para crer que a 7 de outubro de 2023 foi cometida violência sexual, incluindo violações, em vários locais à volta de Gaza, e informação clara e convincente de violência sexual contra alguns reféns. A missão recebeu denúncias de violência sexual contra detidos palestinianos, que não verificou.",
+     "g": "«Motivos razoáveis para crer»; «informação clara e convincente». A missão declara não ser uma investigação.",
+     "r": ""
+    },
+    "tr": {
+     "t": "7 Ekim'de ve rehinelere yönelik cinsel şiddet (görev raporu)",
+     "o": "BM Çatışmalarda Cinsel Şiddet Özel Temsilcisi Ofisi",
+     "w": "7 Ekim 2023'te Gazze çevresindeki birçok yerde tecavüz dahil cinsel şiddet uygulandığına inanmak için makul gerekçeler ve bazı rehinelere yönelik cinsel şiddete dair açık ve ikna edici bilgiler vardır. Heyet, Filistinli tutuklulara yönelik cinsel şiddet iddiaları aldı ancak bunları doğrulamadı.",
+     "g": "«İnanmak için makul gerekçeler»; «açık ve ikna edici bilgiler». Heyet bir soruşturma olmadığını belirtiyor.",
+     "r": ""
+    },
+    "zh": {
+     "t": "10月7日的性暴力及针对人质的性暴力（访问报告）",
+     "o": "联合国秘书长冲突中性暴力问题特别代表办公室",
+     "w": "有合理理由相信，2023年10月7日在加沙周边多个地点发生了包括强奸在内的性暴力；并有明确且令人信服的信息表明部分人质遭受了性暴力。访问团收到了有关巴勒斯坦被拘留者遭受性暴力的报告，但没有核实。",
+     "g": "“有合理理由相信”；“明确且令人信服的信息”。访问团声明其并非调查。",
+     "r": ""
+    },
+    "ar": {
+     "t": "العنف الجنسي في 7 أكتوبر وضد الرهائن (تقرير بعثة)",
+     "o": "مكتب الممثلة الخاصة للأمم المتحدة المعنية بالعنف الجنسي في حالات النزاع",
+     "w": "هناك أسباب معقولة للاعتقاد بأن عنفًا جنسيًا، بما في ذلك الاغتصاب، ارتُكب في 7 أكتوبر 2023 في عدة مواقع حول غزة، وهناك معلومات واضحة ومقنعة عن عنف جنسي تعرّض له بعض الرهائن. وتلقت البعثة بلاغات عن عنف جنسي ضد معتقلين فلسطينيين، لم تتحقق منها.",
+     "g": "«أسباب معقولة للاعتقاد»؛ «معلومات واضحة ومقنعة». وتعلن البعثة أنها ليست تحقيقًا.",
+     "r": ""
+    },
+    "he": {
+     "t": "אלימות מינית ב-7 באוקטובר ונגד חטופים (דוח משלחת)",
+     "o": "משרד הנציגה המיוחדת של האו״ם לאלימות מינית בסכסוכים",
+     "w": "יש יסוד סביר להניח שב-7 באוקטובר 2023 בוצעה אלימות מינית, כולל אונס, בכמה מקומות סביב עזה, ויש מידע ברור ומשכנע על אלימות מינית נגד חלק מהחטופים. המשלחת קיבלה דיווחים על אלימות מינית נגד עצירים פלסטינים, שלא אימתה.",
+     "g": "«יסוד סביר להניח»; «מידע ברור ומשכנע». המשלחת מצהירה שאינה חקירה.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Сексуальное насилие 7 октября и в отношении заложников (доклад миссии)",
+     "o": "Канцелярия Специального представителя ООН по вопросу о сексуальном насилии в условиях конфликта",
+     "w": "Есть разумные основания полагать, что 7 октября 2023 года в нескольких местах вокруг Газы совершалось сексуальное насилие, включая изнасилования, и есть ясная и убедительная информация о сексуальном насилии в отношении некоторых заложников. Миссия получила сообщения о сексуальном насилии в отношении палестинских задержанных, которые не проверяла.",
+     "g": "«Разумные основания полагать»; «ясная и убедительная информация». Миссия заявляет, что не является расследованием.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "coigen",
+   "type": "inq",
+   "theater": "isrpal",
+   "date": "2025-09-16",
+   "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session60/advance-version/a-hrc-60-crp-3.pdf",
+   "pieces": [
+    "nd-coi",
+    "nd-religione-e-guerre"
+   ],
+   "text": {
+    "it": {
+     "t": "Analisi giuridica sul genocidio a Gaza (A/HRC/60/CRP.3)",
+     "o": "Commissione d'inchiesta ONU sui Territori palestinesi occupati e Israele",
+     "w": "Le autorità e le forze israeliane hanno commesso quattro dei cinque atti di genocidio previsti dalla Convenzione, e l'intenzione genocida è l'unica conclusione ragionevole.",
+     "g": "«Ragionevoli motivi»; organo d'inchiesta, non tribunale.",
+     "r": "Israele respinge la conclusione."
+    },
+    "en": {
+     "t": "Legal analysis on genocide in Gaza (A/HRC/60/CRP.3)",
+     "o": "UN Commission of Inquiry on the Occupied Palestinian Territory and Israel",
+     "w": "Israeli authorities and forces have committed four of the five acts of genocide set out in the Convention, and genocidal intent is the only reasonable inference.",
+     "g": "“Reasonable grounds”; a body of inquiry, not a court.",
+     "r": "Israel rejects the finding."
+    },
+    "fr": {
+     "t": "Analyse juridique sur le génocide à Gaza (A/HRC/60/CRP.3)",
+     "o": "Commission d'enquête de l'ONU sur le Territoire palestinien occupé et Israël",
+     "w": "Les autorités et les forces israéliennes ont commis quatre des cinq actes de génocide prévus par la Convention, et l'intention génocidaire est la seule conclusion raisonnable.",
+     "g": "« Motifs raisonnables » ; organe d'enquête, non tribunal.",
+     "r": "Israël rejette la conclusion."
+    },
+    "de": {
+     "t": "Rechtliche Analyse zum Völkermord in Gaza (A/HRC/60/CRP.3)",
+     "o": "UN-Untersuchungskommission zum besetzten palästinensischen Gebiet und Israel",
+     "w": "Israelische Behörden und Streitkräfte haben vier der fünf in der Konvention genannten Völkermordhandlungen begangen, und die Völkermordabsicht ist der einzig vernünftige Schluss.",
+     "g": "„Hinreichende Gründe“; ein Untersuchungsorgan, kein Gericht.",
+     "r": "Israel weist die Schlussfolgerung zurück."
+    },
+    "es": {
+     "t": "Análisis jurídico sobre el genocidio en Gaza (A/HRC/60/CRP.3)",
+     "o": "Comisión de Investigación de la ONU sobre el Territorio Palestino Ocupado e Israel",
+     "w": "Las autoridades y fuerzas israelíes han cometido cuatro de los cinco actos de genocidio previstos en la Convención, y la intención genocida es la única conclusión razonable.",
+     "g": "«Motivos razonables»; órgano de investigación, no tribunal.",
+     "r": "Israel rechaza la conclusión."
+    },
+    "pt": {
+     "t": "Análise jurídica sobre o genocídio em Gaza (A/HRC/60/CRP.3)",
+     "o": "Comissão de Inquérito da ONU sobre o Território Palestiniano Ocupado e Israel",
+     "w": "As autoridades e as forças israelitas cometeram quatro dos cinco atos de genocídio previstos na Convenção, e a intenção genocida é a única conclusão razoável.",
+     "g": "«Motivos razoáveis»; órgão de inquérito, não tribunal.",
+     "r": "Israel rejeita a conclusão."
+    },
+    "tr": {
+     "t": "Gazze'de soykırıma ilişkin hukuki analiz (A/HRC/60/CRP.3)",
+     "o": "BM İşgal Altındaki Filistin Toprakları ve İsrail Soruşturma Komisyonu",
+     "w": "İsrail makamları ve güçleri, Sözleşme'de öngörülen beş soykırım eyleminden dördünü işledi ve soykırım niyeti tek makul sonuçtur.",
+     "g": "«Makul gerekçeler»; bir soruşturma organı, mahkeme değil.",
+     "r": "İsrail bu sonucu reddediyor."
+    },
+    "zh": {
+     "t": "关于加沙灭绝种族问题的法律分析（A/HRC/60/CRP.3）",
+     "o": "联合国被占领巴勒斯坦领土和以色列问题调查委员会",
+     "w": "以色列当局和部队实施了《公约》所列五种灭绝种族行为中的四种，灭绝种族意图是唯一合理的结论。",
+     "g": "“合理理由”；调查机构，而非法院。",
+     "r": "以色列拒绝这一结论。"
+    },
+    "ar": {
+     "t": "تحليل قانوني بشأن الإبادة الجماعية في غزة (A/HRC/60/CRP.3)",
+     "o": "لجنة الأمم المتحدة للتحقيق بشأن الأرض الفلسطينية المحتلة وإسرائيل",
+     "w": "ارتكبت السلطات والقوات الإسرائيلية أربعة من أفعال الإبادة الجماعية الخمسة المنصوص عليها في الاتفاقية، ونية الإبادة هي الاستنتاج المعقول الوحيد.",
+     "g": "«أسباب معقولة»؛ هيئة تحقيق وليست محكمة.",
+     "r": "ترفض إسرائيل هذا الاستنتاج."
+    },
+    "he": {
+     "t": "ניתוח משפטי בשאלת רצח העם בעזה (A/HRC/60/CRP.3)",
+     "o": "ועדת החקירה של האו״ם על השטח הפלסטיני הכבוש וישראל",
+     "w": "רשויות ישראל וכוחותיה ביצעו ארבעה מתוך חמשת מעשי רצח העם המנויים באמנה, והכוונה לרצח עם היא המסקנה הסבירה היחידה.",
+     "g": "«יסוד סביר»; גוף חקירה, לא בית משפט.",
+     "r": "ישראל דוחה את המסקנה."
+    },
+    "ru": {
+     "t": "Правовой анализ вопроса о геноциде в Газе (A/HRC/60/CRP.3)",
+     "o": "Комиссия ООН по расследованию на оккупированной палестинской территории и в Израиле",
+     "w": "Израильские власти и силы совершили четыре из пяти актов геноцида, перечисленных в Конвенции, и намерение совершить геноцид — единственный разумный вывод.",
+     "g": "«Разумные основания»; орган расследования, а не суд.",
+     "r": "Израиль отвергает этот вывод."
+    }
+   }
+  },
+  {
+   "id": "elfasher",
+   "type": "inq",
+   "theater": "sudan",
+   "date": "2026-02-19",
+   "url": "https://undocs.org/A/HRC/61/77",
+   "pieces": [
+    "glo-sudan",
+    "op-el-fasher-un-anno"
+   ],
+   "text": {
+    "it": {
+     "t": "Sudan: i segni del genocidio a El Fasher (A/HRC/61/77)",
+     "o": "Missione internazionale indipendente d'inchiesta sul Sudan",
+     "w": "A El Fasher le RSF hanno commesso almeno tre degli atti previsti dalla Convenzione sul genocidio contro zaghawa e fur. Le violenze non sono state eccessi casuali ma un'operazione pianificata, e l'intenzione genocida è l'unica conclusione ragionevole.",
+     "g": "«Indizi che portano al genocidio», sullo standard dei «ragionevoli motivi per ritenere»; non è una sentenza.",
+     "r": "Le RSF negano uccisioni su larga scala."
+    },
+    "en": {
+     "t": "Sudan: hallmarks of genocide in El Fasher (A/HRC/61/77)",
+     "o": "Independent International Fact-Finding Mission for the Sudan",
+     "w": "In El Fasher the RSF committed at least three of the acts set out in the Genocide Convention against the Zaghawa and Fur. The violence was not random excess but a planned operation, and genocidal intent is the only reasonable inference.",
+     "g": "“Indications pointing to genocide”, on the “reasonable grounds to believe” standard; not a judgment.",
+     "r": "The RSF deny large-scale killings."
+    },
+    "fr": {
+     "t": "Soudan : les marques du génocide à El Fasher (A/HRC/61/77)",
+     "o": "Mission internationale indépendante d'établissement des faits pour le Soudan",
+     "w": "À El Fasher, les RSF ont commis au moins trois des actes prévus par la Convention sur le génocide contre les Zaghawa et les Four. Les violences n'ont pas été des excès aléatoires mais une opération planifiée, et l'intention génocidaire est la seule conclusion raisonnable.",
+     "g": "« Indices pointant vers un génocide », selon la norme des « motifs raisonnables de croire » ; ce n'est pas un jugement.",
+     "r": "Les RSF nient des tueries à grande échelle."
+    },
+    "de": {
+     "t": "Sudan: Merkmale eines Völkermords in El Fasher (A/HRC/61/77)",
+     "o": "Unabhängige internationale Erkundungsmission für Sudan",
+     "w": "In El Fasher hat die RSF mindestens drei der in der Völkermordkonvention genannten Handlungen gegen Zaghawa und Fur begangen. Die Gewalt war kein zufälliger Exzess, sondern eine geplante Operation, und die Völkermordabsicht ist der einzig vernünftige Schluss.",
+     "g": "„Hinweise, die auf einen Völkermord deuten“, nach dem Maßstab „hinreichender Gründe zu der Annahme“; kein Urteil.",
+     "r": "Die RSF bestreitet Tötungen in großem Ausmaß."
+    },
+    "es": {
+     "t": "Sudán: las señales del genocidio en El Fasher (A/HRC/61/77)",
+     "o": "Misión Internacional Independiente de Investigación para el Sudán",
+     "w": "En El Fasher las RSF cometieron al menos tres de los actos previstos en la Convención sobre el genocidio contra los zaghawa y los fur. La violencia no fue un exceso casual, sino una operación planificada, y la intención genocida es la única conclusión razonable.",
+     "g": "«Indicios que apuntan a un genocidio», según el estándar de los «motivos razonables para creer»; no es una sentencia.",
+     "r": "Las RSF niegan matanzas a gran escala."
+    },
+    "pt": {
+     "t": "Sudão: os sinais de genocídio em El Fasher (A/HRC/61/77)",
+     "o": "Missão Internacional Independente de Apuramento dos Factos para o Sudão",
+     "w": "Em El Fasher, as RSF cometeram pelo menos três dos atos previstos na Convenção sobre o genocídio contra os zaghawa e os fur. A violência não foi um excesso casual, mas uma operação planeada, e a intenção genocida é a única conclusão razoável.",
+     "g": "«Indícios que apontam para um genocídio», segundo o padrão dos «motivos razoáveis para crer»; não é uma sentença.",
+     "r": "As RSF negam matanças em larga escala."
+    },
+    "tr": {
+     "t": "Sudan: El Fasher'de soykırımın izleri (A/HRC/61/77)",
+     "o": "BM Sudan Bağımsız Uluslararası Olguları Tespit Heyeti",
+     "w": "El Fasher'de RSF, Zaghawa ve Fur halklarına karşı Soykırım Sözleşmesi'nde öngörülen eylemlerden en az üçünü işledi. Şiddet rastgele bir taşkınlık değil, planlı bir operasyondu ve soykırım niyeti tek makul sonuçtur.",
+     "g": "«Soykırıma işaret eden belirtiler», «inanmak için makul gerekçeler» standardına göre; bir mahkeme kararı değil.",
+     "r": "RSF büyük çaplı öldürmeleri reddediyor."
+    },
+    "zh": {
+     "t": "苏丹：法希尔的灭绝种族迹象（A/HRC/61/77）",
+     "o": "联合国苏丹问题独立国际实况调查团",
+     "w": "在法希尔，快速支援部队（RSF）对扎加瓦人和富尔人实施了《灭绝种族罪公约》所列行为中的至少三种。暴力并非偶然的过激行为，而是有计划的行动，灭绝种族意图是唯一合理的结论。",
+     "g": "“指向灭绝种族的迹象”，依据“有合理理由相信”的标准；并非判决。",
+     "r": "快速支援部队否认大规模杀戮。"
+    },
+    "ar": {
+     "t": "السودان: علامات الإبادة الجماعية في الفاشر (A/HRC/61/77)",
+     "o": "بعثة الأمم المتحدة الدولية المستقلة لتقصي الحقائق بشأن السودان",
+     "w": "في الفاشر ارتكبت قوات الدعم السريع ثلاثة على الأقل من الأفعال المنصوص عليها في اتفاقية الإبادة الجماعية ضد الزغاوة والفور. لم يكن العنف تجاوزات عشوائية بل عملية مخططًا لها، ونية الإبادة هي الاستنتاج المعقول الوحيد.",
+     "g": "«مؤشرات تدل على إبادة جماعية»، وفق معيار «الأسباب المعقولة للاعتقاد»؛ وليس حكمًا قضائيًا.",
+     "r": "تنفي قوات الدعم السريع وقوع عمليات قتل واسعة النطاق."
+    },
+    "he": {
+     "t": "סודאן: סימני רצח עם באל-פאשר (A/HRC/61/77)",
+     "o": "משלחת עובדות בינלאומית ועצמאית של האו״ם לסודאן",
+     "w": "באל-פאשר ביצעו ה-RSF לפחות שלושה מהמעשים המנויים באמנה נגד רצח עם, נגד הזע׳אווה והפור. האלימות לא הייתה חריגה מקרית אלא מבצע מתוכנן, והכוונה לרצח עם היא המסקנה הסבירה היחידה.",
+     "g": "«סימנים המצביעים על רצח עם», לפי אמת המידה של «יסוד סביר להניח»; אינו פסק דין.",
+     "r": "ה-RSF מכחישים הרג בהיקף רחב."
+    },
+    "ru": {
+     "t": "Судан: признаки геноцида в Эль-Фашере (A/HRC/61/77)",
+     "o": "Независимая международная миссия ООН по установлению фактов в Судане",
+     "w": "В Эль-Фашере СБР совершили не менее трёх актов, перечисленных в Конвенции о геноциде, против загава и фур. Насилие было не случайными эксцессами, а спланированной операцией, и намерение совершить геноцид — единственный разумный вывод.",
+     "g": "«Признаки, указывающие на геноцид», по стандарту «разумных оснований полагать»; это не приговор.",
+     "r": "СБР отрицают массовые убийства."
+    }
+   }
+  },
+  {
+   "id": "coinonstate",
+   "type": "inq",
+   "theater": "isrpal",
+   "date": "2026-06-09",
+   "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/coiopt/2606092E.pdf",
+   "pieces": [],
+   "text": {
+    "it": {
+     "t": "Uccisioni e violenze commesse da attori non statali (A/HRC/62/22)",
+     "o": "Commissione d'inchiesta ONU sui Territori palestinesi occupati e Israele",
+     "w": "Forze legate a Hamas hanno partecipato ad almeno 60 dei 249 casi di esecuzioni e violenze gravi a Gaza nel 2024-2025, che costituiscono crimini di guerra di omicidio e tortura. In Cisgiordania la violenza dei coloni è uno strumento della politica dello Stato israeliano, e Israele ne è il primo responsabile.",
+     "g": "Accertamento della Commissione.",
+     "r": "Né Israele né Hamas hanno risposto subito alle richieste di commento; Israele nega in generale che i suoi soldati proteggano i coloni durante gli attacchi."
+    },
+    "en": {
+     "t": "Killings and harm by non-State actors (A/HRC/62/22)",
+     "o": "UN Commission of Inquiry on the Occupied Palestinian Territory and Israel",
+     "w": "Hamas-affiliated forces took part in at least 60 of 249 cases of executions and severe violence in Gaza in 2024-2025, which amount to the war crimes of murder and torture. In the West Bank, settler violence is a tool of Israeli State policy, and Israel bears primary responsibility for it.",
+     "g": "Finding of the Commission.",
+     "r": "Neither Israel nor Hamas immediately responded to requests for comment; Israel generally denies that its soldiers shield settlers during attacks."
+    },
+    "fr": {
+     "t": "Meurtres et violences commis par des acteurs non étatiques (A/HRC/62/22)",
+     "o": "Commission d'enquête de l'ONU sur le Territoire palestinien occupé et Israël",
+     "w": "Des forces liées au Hamas ont participé à au moins 60 des 249 cas d'exécutions et de violences graves à Gaza en 2024-2025, qui constituent les crimes de guerre de meurtre et de torture. En Cisjordanie, la violence des colons est un instrument de la politique de l'État israélien, et Israël en porte la responsabilité première.",
+     "g": "Constat de la Commission.",
+     "r": "Ni Israël ni le Hamas n'ont répondu immédiatement aux demandes de commentaire ; Israël nie de manière générale que ses soldats protègent les colons lors des attaques."
+    },
+    "de": {
+     "t": "Tötungen und Gewalt durch nichtstaatliche Akteure (A/HRC/62/22)",
+     "o": "UN-Untersuchungskommission zum besetzten palästinensischen Gebiet und Israel",
+     "w": "Mit der Hamas verbundene Kräfte waren an mindestens 60 von 249 Fällen von Hinrichtungen und schwerer Gewalt in Gaza 2024–2025 beteiligt, die die Kriegsverbrechen Mord und Folter darstellen. Im Westjordanland ist die Gewalt der Siedler ein Instrument der israelischen Staatspolitik, und Israel trägt dafür die Hauptverantwortung.",
+     "g": "Feststellung der Kommission.",
+     "r": "Weder Israel noch die Hamas antworteten sofort auf Anfragen; Israel bestreitet allgemein, dass seine Soldaten Siedler bei Angriffen schützen."
+    },
+    "es": {
+     "t": "Asesinatos y violencia cometidos por actores no estatales (A/HRC/62/22)",
+     "o": "Comisión de Investigación de la ONU sobre el Territorio Palestino Ocupado e Israel",
+     "w": "Fuerzas vinculadas a Hamás participaron en al menos 60 de 249 casos de ejecuciones y violencia grave en Gaza en 2024-2025, que constituyen crímenes de guerra de asesinato y tortura. En Cisjordania, la violencia de los colonos es un instrumento de la política del Estado israelí, e Israel es su principal responsable.",
+     "g": "Conclusión de la Comisión.",
+     "r": "Ni Israel ni Hamás respondieron de inmediato a las solicitudes de comentarios; Israel niega en general que sus soldados protejan a los colonos durante los ataques."
+    },
+    "pt": {
+     "t": "Homicídios e violência cometidos por atores não estatais (A/HRC/62/22)",
+     "o": "Comissão de Inquérito da ONU sobre o Território Palestiniano Ocupado e Israel",
+     "w": "Forças ligadas ao Hamas participaram em pelo menos 60 de 249 casos de execuções e violência grave em Gaza em 2024-2025, que constituem crimes de guerra de homicídio e tortura. Na Cisjordânia, a violência dos colonos é um instrumento da política do Estado israelita, e Israel é o seu principal responsável.",
+     "g": "Conclusão da Comissão.",
+     "r": "Nem Israel nem o Hamas responderam de imediato aos pedidos de comentário; Israel nega em geral que os seus soldados protejam os colonos durante os ataques."
+    },
+    "tr": {
+     "t": "Devlet dışı aktörlerin işlediği öldürmeler ve şiddet (A/HRC/62/22)",
+     "o": "BM İşgal Altındaki Filistin Toprakları ve İsrail Soruşturma Komisyonu",
+     "w": "Hamas'a bağlı güçler, 2024-2025'te Gazze'deki 249 infaz ve ağır şiddet vakasının en az 60'ına katıldı; bunlar öldürme ve işkence savaş suçlarını oluşturuyor. Batı Şeria'da yerleşimci şiddeti İsrail devlet politikasının bir aracıdır ve bundan birinci derecede İsrail sorumludur.",
+     "g": "Komisyonun tespiti.",
+     "r": "Ne İsrail ne de Hamas yorum taleplerine hemen yanıt verdi; İsrail genel olarak askerlerinin saldırılar sırasında yerleşimcileri koruduğunu reddediyor."
+    },
+    "zh": {
+     "t": "非国家行为体实施的杀戮和暴力（A/HRC/62/22）",
+     "o": "联合国被占领巴勒斯坦领土和以色列问题调查委员会",
+     "w": "与哈马斯有关的武装人员参与了2024至2025年加沙249起处决和严重暴力事件中的至少60起，构成谋杀和酷刑的战争罪。在约旦河西岸，定居者暴力是以色列国家政策的工具，以色列对此负有首要责任。",
+     "g": "委员会的认定。",
+     "r": "以色列和哈马斯都没有立即回应置评请求；以色列总体上否认其士兵在袭击中保护定居者。"
+    },
+    "ar": {
+     "t": "عمليات القتل والعنف التي ارتكبتها جهات من غير الدول (A/HRC/62/22)",
+     "o": "لجنة الأمم المتحدة للتحقيق بشأن الأرض الفلسطينية المحتلة وإسرائيل",
+     "w": "شاركت قوات مرتبطة بحماس في 60 على الأقل من أصل 249 حالة إعدام وعنف خطير في غزة في 2024-2025، تشكّل جرائم حرب هي القتل والتعذيب. وفي الضفة الغربية، عنف المستوطنين أداة لسياسة الدولة الإسرائيلية، وإسرائيل هي المسؤولة الأولى عنه.",
+     "g": "استنتاج اللجنة.",
+     "r": "لم تردّ إسرائيل ولا حماس فورًا على طلبات التعليق؛ وتنفي إسرائيل عمومًا أن جنودها يحمون المستوطنين أثناء الهجمات."
+    },
+    "he": {
+     "t": "הרג ואלימות מצד גורמים שאינם מדינתיים (A/HRC/62/22)",
+     "o": "ועדת החקירה של האו״ם על השטח הפלסטיני הכבוש וישראל",
+     "w": "כוחות הקשורים לחמאס השתתפו בלפחות 60 מתוך 249 מקרי הוצאה להורג ואלימות חמורה בעזה ב-2024-2025, המהווים פשעי מלחמה של רצח ועינויים. בגדה המערבית אלימות המתנחלים היא כלי של מדיניות מדינת ישראל, וישראל היא האחראית העיקרית לה.",
+     "g": "ממצא של הוועדה.",
+     "r": "לא ישראל ולא חמאס הגיבו מיד לבקשות תגובה; ישראל מכחישה באופן כללי שחייליה מגינים על מתנחלים בזמן תקיפות."
+    },
+    "ru": {
+     "t": "Убийства и насилие со стороны негосударственных субъектов (A/HRC/62/22)",
+     "o": "Комиссия ООН по расследованию на оккупированной палестинской территории и в Израиле",
+     "w": "Силы, связанные с ХАМАС, участвовали как минимум в 60 из 249 случаев казней и тяжкого насилия в Газе в 2024–2025 годах, которые являются военными преступлениями в виде убийства и пыток. На Западном берегу насилие поселенцев — инструмент политики израильского государства, и главную ответственность за него несёт Израиль.",
+     "g": "Вывод комиссии.",
+     "r": "Ни Израиль, ни ХАМАС не ответили сразу на запросы о комментарии; Израиль в целом отрицает, что его военные защищают поселенцев во время нападений."
+    }
+   }
+  },
+  {
+   "id": "coichildren",
+   "type": "inq",
+   "theater": "isrpal",
+   "date": "2026-06-23",
+   "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session62/a-hrc-62-crp-2.pdf",
+   "pieces": [
+    "nd-coi"
+   ],
+   "text": {
+    "it": {
+     "t": "«L'essenza dell'infanzia è stata distrutta» (A/HRC/62/CRP.2)",
+     "o": "Commissione d'inchiesta ONU sui Territori palestinesi occupati e Israele",
+     "w": "Israele prende deliberatamente di mira i bambini palestinesi, con genocidio e altri crimini a Gaza e crimini di guerra in Cisgiordania.",
+     "g": "«Ragionevoli motivi per ritenere».",
+     "r": "Israele lo ha definito una «farsa diffamatoria» e respinge l'accusa di attacchi deliberati."
+    },
+    "en": {
+     "t": "“The essence of childhood has been destroyed” (A/HRC/62/CRP.2)",
+     "o": "UN Commission of Inquiry on the Occupied Palestinian Territory and Israel",
+     "w": "Israel deliberately targets Palestinian children, with genocide and other crimes in Gaza and war crimes in the West Bank.",
+     "g": "“Reasonable grounds to believe”.",
+     "r": "Israel called it a “defamatory farce” and rejects the accusation of deliberate targeting."
+    },
+    "fr": {
+     "t": "« L'essence de l'enfance a été détruite » (A/HRC/62/CRP.2)",
+     "o": "Commission d'enquête de l'ONU sur le Territoire palestinien occupé et Israël",
+     "w": "Israël prend délibérément pour cible les enfants palestiniens, avec un génocide et d'autres crimes à Gaza et des crimes de guerre en Cisjordanie.",
+     "g": "« Motifs raisonnables de croire ».",
+     "r": "Israël l'a qualifié de « farce diffamatoire » et rejette l'accusation d'attaques délibérées."
+    },
+    "de": {
+     "t": "„Das Wesen der Kindheit wurde zerstört“ (A/HRC/62/CRP.2)",
+     "o": "UN-Untersuchungskommission zum besetzten palästinensischen Gebiet und Israel",
+     "w": "Israel greift gezielt palästinensische Kinder an, mit Völkermord und anderen Verbrechen in Gaza und Kriegsverbrechen im Westjordanland.",
+     "g": "„Hinreichende Gründe zu der Annahme“.",
+     "r": "Israel nannte den Bericht eine „verleumderische Farce“ und weist den Vorwurf gezielter Angriffe zurück."
+    },
+    "es": {
+     "t": "«La esencia de la infancia ha sido destruida» (A/HRC/62/CRP.2)",
+     "o": "Comisión de Investigación de la ONU sobre el Territorio Palestino Ocupado e Israel",
+     "w": "Israel ataca deliberadamente a los niños palestinos, con genocidio y otros crímenes en Gaza y crímenes de guerra en Cisjordania.",
+     "g": "«Motivos razonables para creer».",
+     "r": "Israel lo calificó de «farsa difamatoria» y rechaza la acusación de ataques deliberados."
+    },
+    "pt": {
+     "t": "«A essência da infância foi destruída» (A/HRC/62/CRP.2)",
+     "o": "Comissão de Inquérito da ONU sobre o Território Palestiniano Ocupado e Israel",
+     "w": "Israel visa deliberadamente as crianças palestinianas, com genocídio e outros crimes em Gaza e crimes de guerra na Cisjordânia.",
+     "g": "«Motivos razoáveis para crer».",
+     "r": "Israel classificou-o como uma «farsa difamatória» e rejeita a acusação de ataques deliberados."
+    },
+    "tr": {
+     "t": "«Çocukluğun özü yok edildi» (A/HRC/62/CRP.2)",
+     "o": "BM İşgal Altındaki Filistin Toprakları ve İsrail Soruşturma Komisyonu",
+     "w": "İsrail, Filistinli çocukları kasıtlı olarak hedef alıyor; Gazze'de soykırım ve diğer suçlar, Batı Şeria'da savaş suçları söz konusu.",
+     "g": "«İnanmak için makul gerekçeler».",
+     "r": "İsrail raporu «karalayıcı bir maskaralık» olarak nitelendirdi ve kasıtlı hedef alma suçlamasını reddediyor."
+    },
+    "zh": {
+     "t": "“童年的本质已被摧毁”（A/HRC/62/CRP.2）",
+     "o": "联合国被占领巴勒斯坦领土和以色列问题调查委员会",
+     "w": "以色列蓄意以巴勒斯坦儿童为目标，在加沙构成灭绝种族及其他罪行，在约旦河西岸构成战争罪。",
+     "g": "“有合理理由相信”。",
+     "r": "以色列称其为“诽谤性闹剧”，并否认蓄意攻击的指控。"
+    },
+    "ar": {
+     "t": "«لقد دُمّر جوهر الطفولة» (A/HRC/62/CRP.2)",
+     "o": "لجنة الأمم المتحدة للتحقيق بشأن الأرض الفلسطينية المحتلة وإسرائيل",
+     "w": "تستهدف إسرائيل عمدًا الأطفال الفلسطينيين، بما يشكّل إبادة جماعية وجرائم أخرى في غزة وجرائم حرب في الضفة الغربية.",
+     "g": "«أسباب معقولة للاعتقاد».",
+     "r": "وصفت إسرائيل التقرير بأنه «مهزلة تشهيرية» وترفض تهمة الاستهداف المتعمد."
+    },
+    "he": {
+     "t": "«מהות הילדות הושמדה» (A/HRC/62/CRP.2)",
+     "o": "ועדת החקירה של האו״ם על השטח הפלסטיני הכבוש וישראל",
+     "w": "ישראל מכוונת במתכוון לילדים פלסטינים, ברצח עם ובפשעים אחרים בעזה ובפשעי מלחמה בגדה המערבית.",
+     "g": "«יסוד סביר להניח».",
+     "r": "ישראל כינתה את הדוח «פארסה משמיצה» ודוחה את ההאשמה בפגיעה מכוונת."
+    },
+    "ru": {
+     "t": "«Сама суть детства была уничтожена» (A/HRC/62/CRP.2)",
+     "o": "Комиссия ООН по расследованию на оккупированной палестинской территории и в Израиле",
+     "w": "Израиль намеренно наносит удары по палестинским детям: геноцид и другие преступления в Газе, военные преступления на Западном берегу.",
+     "g": "«Разумные основания полагать».",
+     "r": "Израиль назвал доклад «клеветническим фарсом» и отвергает обвинение в намеренных ударах."
+    }
+   }
+  },
+  {
+   "id": "sudandrones",
+   "type": "inq",
+   "theater": "sudan",
+   "date": "2026-09-01",
+   "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session63/advance-versions/a-hrc-63-23-auv.pdf",
+   "pieces": [
+    "nd-sudan-guerra-a-distanza"
+   ],
+   "text": {
+    "it": {
+     "t": "Sudan: la guerra dei droni e le reti esterne (A/HRC/63/23)",
+     "o": "Missione internazionale indipendente d'inchiesta sul Sudan",
+     "w": "Sia l'esercito sia le RSF usano droni contro ospedali, mercati e civili. Il rapporto documenta la rete che rifornisce le RSF di armi, droni, carburante e personale, tra Emirati, Ciad, Libia e Puntland.",
+     "g": "«Ragionevoli motivi per ritenere» per la rete che rifornisce le RSF; indagine «preliminare» sui fornitori dell'esercito, senza attribuzione a uno Stato.",
+     "r": "Gli Emirati negano di aver fornito armi a qualsiasi parte dall'aprile 2023."
+    },
+    "en": {
+     "t": "Sudan: the drone war and external networks (A/HRC/63/23)",
+     "o": "Independent International Fact-Finding Mission for the Sudan",
+     "w": "Both the army and the RSF use drones against hospitals, markets and civilians. The report documents the network supplying the RSF with weapons, drones, fuel and personnel, across the United Arab Emirates, Chad, Libya and Puntland.",
+     "g": "“Reasonable grounds to believe” for the network supplying the RSF; a “preliminary” inquiry into the army's suppliers, with no attribution to any State.",
+     "r": "The UAE denies supplying weapons to any party since April 2023."
+    },
+    "fr": {
+     "t": "Soudan : la guerre des drones et les réseaux extérieurs (A/HRC/63/23)",
+     "o": "Mission internationale indépendante d'établissement des faits pour le Soudan",
+     "w": "L'armée comme les RSF utilisent des drones contre des hôpitaux, des marchés et des civils. Le rapport documente le réseau qui approvisionne les RSF en armes, drones, carburant et personnel, entre les Émirats arabes unis, le Tchad, la Libye et le Puntland.",
+     "g": "« Motifs raisonnables de croire » pour le réseau qui approvisionne les RSF ; enquête « préliminaire » sur les fournisseurs de l'armée, sans attribution à un État.",
+     "r": "Les Émirats nient avoir fourni des armes à quelque partie que ce soit depuis avril 2023."
+    },
+    "de": {
+     "t": "Sudan: der Drohnenkrieg und die externen Netzwerke (A/HRC/63/23)",
+     "o": "Unabhängige internationale Erkundungsmission für Sudan",
+     "w": "Sowohl die Armee als auch die RSF setzen Drohnen gegen Krankenhäuser, Märkte und Zivilisten ein. Der Bericht dokumentiert das Netzwerk, das die RSF mit Waffen, Drohnen, Treibstoff und Personal versorgt, zwischen den Vereinigten Arabischen Emiraten, Tschad, Libyen und Puntland.",
+     "g": "„Hinreichende Gründe zu der Annahme“ für das Versorgungsnetz der RSF; eine „vorläufige“ Untersuchung zu den Lieferanten der Armee, ohne Zuordnung zu einem Staat.",
+     "r": "Die Emirate bestreiten, seit April 2023 irgendeiner Partei Waffen geliefert zu haben."
+    },
+    "es": {
+     "t": "Sudán: la guerra de los drones y las redes externas (A/HRC/63/23)",
+     "o": "Misión Internacional Independiente de Investigación para el Sudán",
+     "w": "Tanto el ejército como las RSF usan drones contra hospitales, mercados y civiles. El informe documenta la red que abastece a las RSF de armas, drones, combustible y personal, entre Emiratos Árabes Unidos, Chad, Libia y Puntland.",
+     "g": "«Motivos razonables para creer» respecto a la red que abastece a las RSF; investigación «preliminar» sobre los proveedores del ejército, sin atribución a ningún Estado.",
+     "r": "Emiratos niega haber suministrado armas a ninguna de las partes desde abril de 2023."
+    },
+    "pt": {
+     "t": "Sudão: a guerra dos drones e as redes externas (A/HRC/63/23)",
+     "o": "Missão Internacional Independente de Apuramento dos Factos para o Sudão",
+     "w": "Tanto o exército como as RSF usam drones contra hospitais, mercados e civis. O relatório documenta a rede que abastece as RSF de armas, drones, combustível e pessoal, entre os Emirados Árabes Unidos, o Chade, a Líbia e Puntland.",
+     "g": "«Motivos razoáveis para crer» quanto à rede que abastece as RSF; investigação «preliminar» sobre os fornecedores do exército, sem atribuição a nenhum Estado.",
+     "r": "Os Emirados negam ter fornecido armas a qualquer das partes desde abril de 2023."
+    },
+    "tr": {
+     "t": "Sudan: insansız hava aracı savaşı ve dış ağlar (A/HRC/63/23)",
+     "o": "BM Sudan Bağımsız Uluslararası Olguları Tespit Heyeti",
+     "w": "Hem ordu hem de RSF hastanelere, pazarlara ve sivillere karşı insansız hava araçları kullanıyor. Rapor, RSF'ye silah, insansız hava aracı, yakıt ve personel sağlayan, Birleşik Arap Emirlikleri, Çad, Libya ve Puntland arasında uzanan ağı belgeliyor.",
+     "g": "RSF'yi besleyen ağ için «inanmak için makul gerekçeler»; ordunun tedarikçileri hakkında «ön» soruşturma, hiçbir devlete atıf yapılmadan.",
+     "r": "BAE, Nisan 2023'ten bu yana hiçbir tarafa silah sağlamadığını söylüyor."
+    },
+    "zh": {
+     "t": "苏丹：无人机战争与外部网络（A/HRC/63/23）",
+     "o": "联合国苏丹问题独立国际实况调查团",
+     "w": "军队和快速支援部队都使用无人机攻击医院、市场和平民。报告记录了为快速支援部队提供武器、无人机、燃料和人员的网络，涉及阿联酋、乍得、利比亚和邦特兰。",
+     "g": "关于为快速支援部队供货的网络：“有合理理由相信”；关于军队的供应方：调查属于“初步”阶段，未归咎于任何国家。",
+     "r": "阿联酋否认自2023年4月以来向任何一方提供武器。"
+    },
+    "ar": {
+     "t": "السودان: حرب المسيّرات والشبكات الخارجية (A/HRC/63/23)",
+     "o": "بعثة الأمم المتحدة الدولية المستقلة لتقصي الحقائق بشأن السودان",
+     "w": "يستخدم الجيش وقوات الدعم السريع كلاهما المسيّرات ضد المستشفيات والأسواق والمدنيين. ويوثّق التقرير الشبكة التي تزوّد قوات الدعم السريع بالأسلحة والمسيّرات والوقود والأفراد، بين الإمارات العربية المتحدة وتشاد وليبيا وبونتلاند.",
+     "g": "«أسباب معقولة للاعتقاد» بشأن الشبكة التي تزوّد قوات الدعم السريع؛ وتحقيق «أولي» بشأن مورّدي الجيش، دون نسبة ذلك إلى أي دولة.",
+     "r": "تنفي الإمارات تزويد أي طرف بالأسلحة منذ أبريل 2023."
+    },
+    "he": {
+     "t": "סודאן: מלחמת הרחפנים והרשתות החיצוניות (A/HRC/63/23)",
+     "o": "משלחת עובדות בינלאומית ועצמאית של האו״ם לסודאן",
+     "w": "גם הצבא וגם ה-RSF משתמשים ברחפנים נגד בתי חולים, שווקים ואזרחים. הדוח מתעד את הרשת שמספקת ל-RSF נשק, רחפנים, דלק וכוח אדם, בין איחוד האמירויות, צ׳אד, לוב ופונטלנד.",
+     "g": "«יסוד סביר להניח» לגבי הרשת שמספקת ל-RSF; חקירה «מקדמית» לגבי ספקי הצבא, בלי ייחוס למדינה כלשהי.",
+     "r": "איחוד האמירויות מכחיש שסיפק נשק לצד כלשהו מאז אפריל 2023."
+    },
+    "ru": {
+     "t": "Судан: война дронов и внешние сети (A/HRC/63/23)",
+     "o": "Независимая международная миссия ООН по установлению фактов в Судане",
+     "w": "И армия, и СБР применяют дроны против больниц, рынков и мирных жителей. Доклад документирует сеть, снабжающую СБР оружием, дронами, топливом и персоналом, между ОАЭ, Чадом, Ливией и Пунтлендом.",
+     "g": "«Разумные основания полагать» в отношении сети снабжения СБР; «предварительное» расследование о поставщиках армии, без указания на какое-либо государство.",
+     "r": "ОАЭ отрицают поставки оружия какой-либо стороне с апреля 2023 года."
+    }
+   }
+  },
+  {
+   "id": "coiwb",
+   "type": "inq",
+   "theater": "isrpal",
+   "date": "2026-10-26",
+   "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+   "pieces": [],
+   "pressonly": true,
+   "text": {
+    "it": {
+     "t": "Cisgiordania: sterminio e altri crimini contro l'umanità",
+     "o": "Commissione d'inchiesta ONU sui Territori palestinesi occupati e Israele",
+     "w": "Le autorità e le forze israeliane hanno commesso in Cisgiordania i crimini contro l'umanità di sterminio, tortura, stupro e persecuzione, e continuano gli atti di genocidio a Gaza nonostante il cessate il fuoco.",
+     "g": "Accertamento della Commissione, presentato all'Assemblea generale.",
+     "r": "Israele respinge le conclusioni."
+    },
+    "en": {
+     "t": "West Bank: extermination and other crimes against humanity",
+     "o": "UN Commission of Inquiry on the Occupied Palestinian Territory and Israel",
+     "w": "Israeli authorities and forces have committed in the West Bank the crimes against humanity of extermination, torture, rape and persecution, and continue to commit acts of genocide in Gaza despite the ceasefire.",
+     "g": "Finding of the Commission, presented to the General Assembly.",
+     "r": "Israel rejects the findings."
+    },
+    "fr": {
+     "t": "Cisjordanie : extermination et autres crimes contre l'humanité",
+     "o": "Commission d'enquête de l'ONU sur le Territoire palestinien occupé et Israël",
+     "w": "Les autorités et les forces israéliennes ont commis en Cisjordanie les crimes contre l'humanité d'extermination, de torture, de viol et de persécution, et continuent de commettre des actes de génocide à Gaza malgré le cessez-le-feu.",
+     "g": "Constat de la Commission, présenté à l'Assemblée générale.",
+     "r": "Israël rejette les conclusions."
+    },
+    "de": {
+     "t": "Westjordanland: Ausrottung und andere Verbrechen gegen die Menschlichkeit",
+     "o": "UN-Untersuchungskommission zum besetzten palästinensischen Gebiet und Israel",
+     "w": "Israelische Behörden und Streitkräfte haben im Westjordanland die Verbrechen gegen die Menschlichkeit der Ausrottung, Folter, Vergewaltigung und Verfolgung begangen und setzen trotz Waffenruhe Völkermordhandlungen in Gaza fort.",
+     "g": "Feststellung der Kommission, der Generalversammlung vorgelegt.",
+     "r": "Israel weist die Schlussfolgerungen zurück."
+    },
+    "es": {
+     "t": "Cisjordania: exterminio y otros crímenes de lesa humanidad",
+     "o": "Comisión de Investigación de la ONU sobre el Territorio Palestino Ocupado e Israel",
+     "w": "Las autoridades y fuerzas israelíes han cometido en Cisjordania los crímenes de lesa humanidad de exterminio, tortura, violación y persecución, y siguen cometiendo actos de genocidio en Gaza pese al alto el fuego.",
+     "g": "Conclusión de la Comisión, presentada a la Asamblea General.",
+     "r": "Israel rechaza las conclusiones."
+    },
+    "pt": {
+     "t": "Cisjordânia: extermínio e outros crimes contra a humanidade",
+     "o": "Comissão de Inquérito da ONU sobre o Território Palestiniano Ocupado e Israel",
+     "w": "As autoridades e as forças israelitas cometeram na Cisjordânia os crimes contra a humanidade de extermínio, tortura, violação e perseguição, e continuam a cometer atos de genocídio em Gaza apesar do cessar-fogo.",
+     "g": "Conclusão da Comissão, apresentada à Assembleia Geral.",
+     "r": "Israel rejeita as conclusões."
+    },
+    "tr": {
+     "t": "Batı Şeria: imha ve insanlığa karşı diğer suçlar",
+     "o": "BM İşgal Altındaki Filistin Toprakları ve İsrail Soruşturma Komisyonu",
+     "w": "İsrail makamları ve güçleri Batı Şeria'da imha, işkence, tecavüz ve zulüm gibi insanlığa karşı suçlar işledi ve ateşkese rağmen Gazze'de soykırım eylemlerini sürdürüyor.",
+     "g": "Komisyonun tespiti, Genel Kurul'a sunuldu.",
+     "r": "İsrail bulguları reddediyor."
+    },
+    "zh": {
+     "t": "约旦河西岸：灭绝及其他危害人类罪",
+     "o": "联合国被占领巴勒斯坦领土和以色列问题调查委员会",
+     "w": "以色列当局和部队在约旦河西岸犯下了灭绝、酷刑、强奸和迫害等危害人类罪，并且尽管已经停火，仍在加沙继续实施灭绝种族行为。",
+     "g": "委员会的认定，已提交联合国大会。",
+     "r": "以色列拒绝这些结论。"
+    },
+    "ar": {
+     "t": "الضفة الغربية: الإبادة وجرائم أخرى ضد الإنسانية",
+     "o": "لجنة الأمم المتحدة للتحقيق بشأن الأرض الفلسطينية المحتلة وإسرائيل",
+     "w": "ارتكبت السلطات والقوات الإسرائيلية في الضفة الغربية جرائم ضد الإنسانية هي الإبادة والتعذيب والاغتصاب والاضطهاد، وتواصل ارتكاب أفعال الإبادة الجماعية في غزة رغم وقف إطلاق النار.",
+     "g": "استنتاج اللجنة، قُدّم إلى الجمعية العامة.",
+     "r": "ترفض إسرائيل الاستنتاجات."
+    },
+    "he": {
+     "t": "הגדה המערבית: השמדה ופשעים נוספים נגד האנושות",
+     "o": "ועדת החקירה של האו״ם על השטח הפלסטיני הכבוש וישראל",
+     "w": "רשויות ישראל וכוחותיה ביצעו בגדה המערבית את הפשעים נגד האנושות של השמדה, עינויים, אונס ורדיפה, וממשיכים לבצע מעשי רצח עם בעזה למרות הפסקת האש.",
+     "g": "ממצא של הוועדה, שהוצג לעצרת הכללית.",
+     "r": "ישראל דוחה את המסקנות."
+    },
+    "ru": {
+     "t": "Западный берег: истребление и другие преступления против человечности",
+     "o": "Комиссия ООН по расследованию на оккупированной палестинской территории и в Израиле",
+     "w": "Израильские власти и силы совершили на Западном берегу преступления против человечности — истребление, пытки, изнасилования и преследования — и продолжают совершать акты геноцида в Газе, несмотря на прекращение огня.",
+     "g": "Вывод комиссии, представленный Генеральной Ассамблее.",
+     "r": "Израиль отвергает выводы."
+    }
+   }
+  },
+  {
+   "id": "gc32",
+   "type": "interp",
+   "theater": "general",
+   "date": "2007-08-23",
+   "url": "https://undocs.org/CCPR/C/GC/32",
+   "pieces": [
+    "nd-libia-esecuzioni-bengasi",
+    "nd-camerun-un-anno-dopo"
+   ],
+   "text": {
+    "it": {
+     "t": "Commento generale n. 32: il processo equo",
+     "o": "Comitato ONU per i diritti umani",
+     "w": "I processi di civili davanti a tribunali militari devono essere un'eccezione, giustificata caso per caso.",
+     "g": "Interpretazione autorevole del Patto sui diritti civili e politici.",
+     "r": ""
+    },
+    "en": {
+     "t": "General Comment No. 32: the right to a fair trial",
+     "o": "UN Human Rights Committee",
+     "w": "Trials of civilians before military courts must be the exception, justified case by case.",
+     "g": "Authoritative interpretation of the Covenant on Civil and Political Rights.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Observation générale n° 32 : le procès équitable",
+     "o": "Comité des droits de l'homme de l'ONU",
+     "w": "Le jugement de civils par des tribunaux militaires doit être l'exception, justifiée au cas par cas.",
+     "g": "Interprétation faisant autorité du Pacte relatif aux droits civils et politiques.",
+     "r": ""
+    },
+    "de": {
+     "t": "Allgemeine Bemerkung Nr. 32: das faire Verfahren",
+     "o": "UN-Menschenrechtsausschuss",
+     "w": "Verfahren gegen Zivilpersonen vor Militärgerichten müssen die Ausnahme sein und im Einzelfall begründet werden.",
+     "g": "Maßgebliche Auslegung des Pakts über bürgerliche und politische Rechte.",
+     "r": ""
+    },
+    "es": {
+     "t": "Observación general n.º 32: el juicio justo",
+     "o": "Comité de Derechos Humanos de la ONU",
+     "w": "Los juicios de civiles ante tribunales militares deben ser la excepción, justificada caso por caso.",
+     "g": "Interpretación autorizada del Pacto de Derechos Civiles y Políticos.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Comentário geral n.º 32: o processo equitativo",
+     "o": "Comité dos Direitos Humanos da ONU",
+     "w": "Os julgamentos de civis por tribunais militares devem ser a exceção, justificada caso a caso.",
+     "g": "Interpretação autorizada do Pacto sobre os Direitos Civis e Políticos.",
+     "r": ""
+    },
+    "tr": {
+     "t": "32 No'lu Genel Yorum: adil yargılanma",
+     "o": "BM İnsan Hakları Komitesi",
+     "w": "Sivillerin askeri mahkemelerde yargılanması istisna olmalı ve her vakada ayrı ayrı gerekçelendirilmelidir.",
+     "g": "Medeni ve Siyasi Haklar Sözleşmesi'nin yetkili yorumu.",
+     "r": ""
+    },
+    "zh": {
+     "t": "第32号一般性意见：公正审判",
+     "o": "联合国人权事务委员会",
+     "w": "由军事法庭审判平民必须是例外，并且须逐案说明理由。",
+     "g": "对《公民权利和政治权利国际公约》的权威解释。",
+     "r": ""
+    },
+    "ar": {
+     "t": "التعليق العام رقم 32: المحاكمة العادلة",
+     "o": "لجنة الأمم المتحدة المعنية بحقوق الإنسان",
+     "w": "محاكمة المدنيين أمام محاكم عسكرية يجب أن تكون استثناءً يُبرَّر في كل حالة على حدة.",
+     "g": "تفسير مرجعي للعهد الدولي الخاص بالحقوق المدنية والسياسية.",
+     "r": ""
+    },
+    "he": {
+     "t": "הערה כללית מס׳ 32: הזכות להליך הוגן",
+     "o": "ועדת האו״ם לזכויות האדם",
+     "w": "משפטם של אזרחים בבתי דין צבאיים חייב להיות חריג, המוצדק בכל מקרה לגופו.",
+     "g": "פרשנות סמכותית של האמנה בדבר זכויות אזרחיות ומדיניות.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Замечание общего порядка № 32: справедливое судебное разбирательство",
+     "o": "Комитет ООН по правам человека",
+     "w": "Суды над гражданскими лицами в военных трибуналах должны быть исключением, обоснованным в каждом конкретном случае.",
+     "g": "Авторитетное толкование Пакта о гражданских и политических правах.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "gc34",
+   "type": "interp",
+   "theater": "general",
+   "date": "2011-09-12",
+   "url": "https://www.ohchr.org/en/documents/general-comments-and-recommendations/general-comment-no34-article-19-freedoms-opinion-and",
+   "pieces": [
+    "nd-nigeria-chi-viene-ucciso"
+   ],
+   "text": {
+    "it": {
+     "t": "Commento generale n. 34: libertà di opinione e di espressione",
+     "o": "Comitato ONU per i diritti umani",
+     "w": "I divieti di mancare di rispetto a una religione, comprese le leggi sulla blasfemia, sono incompatibili con il Patto, salvo il caso dell'incitamento all'odio previsto dall'articolo 20.",
+     "g": "Interpretazione autorevole del Patto sui diritti civili e politici.",
+     "r": ""
+    },
+    "en": {
+     "t": "General Comment No. 34: freedom of opinion and expression",
+     "o": "UN Human Rights Committee",
+     "w": "Prohibitions of displays of lack of respect for a religion, including blasphemy laws, are incompatible with the Covenant, except for incitement to hatred under Article 20.",
+     "g": "Authoritative interpretation of the Covenant on Civil and Political Rights.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Observation générale n° 34 : la liberté d'opinion et d'expression",
+     "o": "Comité des droits de l'homme de l'ONU",
+     "w": "Les interdictions de manifester un manque de respect envers une religion, y compris les lois sur le blasphème, sont incompatibles avec le Pacte, sauf l'incitation à la haine prévue par l'article 20.",
+     "g": "Interprétation faisant autorité du Pacte relatif aux droits civils et politiques.",
+     "r": ""
+    },
+    "de": {
+     "t": "Allgemeine Bemerkung Nr. 34: Meinungs- und Ausdrucksfreiheit",
+     "o": "UN-Menschenrechtsausschuss",
+     "w": "Verbote mangelnden Respekts gegenüber einer Religion, einschließlich Blasphemiegesetzen, sind mit dem Pakt unvereinbar, außer bei Aufstachelung zum Hass nach Artikel 20.",
+     "g": "Maßgebliche Auslegung des Pakts über bürgerliche und politische Rechte.",
+     "r": ""
+    },
+    "es": {
+     "t": "Observación general n.º 34: libertad de opinión y de expresión",
+     "o": "Comité de Derechos Humanos de la ONU",
+     "w": "Las prohibiciones de las demostraciones de falta de respeto por una religión, incluidas las leyes sobre la blasfemia, son incompatibles con el Pacto, salvo la incitación al odio prevista en el artículo 20.",
+     "g": "Interpretación autorizada del Pacto de Derechos Civiles y Políticos.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Comentário geral n.º 34: liberdade de opinião e de expressão",
+     "o": "Comité dos Direitos Humanos da ONU",
+     "w": "As proibições de manifestações de falta de respeito por uma religião, incluindo as leis sobre a blasfémia, são incompatíveis com o Pacto, salvo o incitamento ao ódio previsto no artigo 20.",
+     "g": "Interpretação autorizada do Pacto sobre os Direitos Civis e Políticos.",
+     "r": ""
+    },
+    "tr": {
+     "t": "34 No'lu Genel Yorum: düşünce ve ifade özgürlüğü",
+     "o": "BM İnsan Hakları Komitesi",
+     "w": "Küfür yasaları dahil bir dine saygısızlık gösterilmesine yönelik yasaklar, 20. madde kapsamındaki nefrete tahrik dışında Sözleşme ile bağdaşmaz.",
+     "g": "Medeni ve Siyasi Haklar Sözleşmesi'nin yetkili yorumu.",
+     "r": ""
+    },
+    "zh": {
+     "t": "第34号一般性意见：见解和言论自由",
+     "o": "联合国人权事务委员会",
+     "w": "禁止对宗教表示不敬的规定，包括亵渎法，都不符合《公约》，第20条所规定的煽动仇恨的情形除外。",
+     "g": "对《公民权利和政治权利国际公约》的权威解释。",
+     "r": ""
+    },
+    "ar": {
+     "t": "التعليق العام رقم 34: حرية الرأي والتعبير",
+     "o": "لجنة الأمم المتحدة المعنية بحقوق الإنسان",
+     "w": "حظر إظهار عدم الاحترام لدين ما، بما في ذلك قوانين التجديف، يتعارض مع العهد، إلا في حالة التحريض على الكراهية المنصوص عليها في المادة 20.",
+     "g": "تفسير مرجعي للعهد الدولي الخاص بالحقوق المدنية والسياسية.",
+     "r": ""
+    },
+    "he": {
+     "t": "הערה כללית מס׳ 34: חופש הדעה והביטוי",
+     "o": "ועדת האו״ם לזכויות האדם",
+     "w": "איסורים על הבעת חוסר כבוד כלפי דת, כולל חוקי חילול הקודש, אינם מתיישבים עם האמנה, למעט הסתה לשנאה לפי סעיף 20.",
+     "g": "פרשנות סמכותית של האמנה בדבר זכויות אזרחיות ומדיניות.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Замечание общего порядка № 34: свобода мнений и их выражения",
+     "o": "Комитет ООН по правам человека",
+     "w": "Запреты на проявление неуважения к религии, включая законы о богохульстве, несовместимы с Пактом, за исключением подстрекательства к ненависти по статье 20.",
+     "g": "Авторитетное толкование Пакта о гражданских и политических правах.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "minnesota",
+   "type": "interp",
+   "theater": "general",
+   "date": "2016-01-01",
+   "yearonly": true,
+   "url": "https://www.ohchr.org/en/publications/policy-and-methodological-publications/minnesota-protocol-investigation-potentially",
+   "pieces": [
+    "nd-nigeria-cella-di-minna"
+   ],
+   "text": {
+    "it": {
+     "t": "Protocollo del Minnesota: le indagini sulle morti sospette",
+     "o": "Ufficio ONU per i diritti umani",
+     "w": "L'indagine su una morte potenzialmente illegale deve essere indipendente dall'ente coinvolto, rapida, trasparente e aperta alle famiglie.",
+     "g": "Standard internazionale di riferimento.",
+     "r": ""
+    },
+    "en": {
+     "t": "The Minnesota Protocol: investigating potentially unlawful deaths",
+     "o": "UN Human Rights Office",
+     "w": "An investigation into a potentially unlawful death must be independent of the body involved, prompt, transparent and open to the families.",
+     "g": "International reference standard.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Le Protocole du Minnesota : enquêter sur les décès potentiellement illégaux",
+     "o": "Bureau des droits de l'homme de l'ONU",
+     "w": "L'enquête sur un décès potentiellement illégal doit être indépendante de l'entité impliquée, rapide, transparente et ouverte aux familles.",
+     "g": "Norme internationale de référence.",
+     "r": ""
+    },
+    "de": {
+     "t": "Das Minnesota-Protokoll: Untersuchung potenziell rechtswidriger Todesfälle",
+     "o": "UN-Menschenrechtsbüro",
+     "w": "Die Untersuchung eines potenziell rechtswidrigen Todesfalls muss von der beteiligten Stelle unabhängig, zügig, transparent und für die Familien offen sein.",
+     "g": "Internationaler Referenzstandard.",
+     "r": ""
+    },
+    "es": {
+     "t": "El Protocolo de Minnesota: investigar las muertes potencialmente ilícitas",
+     "o": "Oficina de Derechos Humanos de la ONU",
+     "w": "La investigación de una muerte potencialmente ilícita debe ser independiente del organismo implicado, rápida, transparente y abierta a las familias.",
+     "g": "Estándar internacional de referencia.",
+     "r": ""
+    },
+    "pt": {
+     "t": "O Protocolo de Minnesota: investigar mortes potencialmente ilícitas",
+     "o": "Gabinete de Direitos Humanos da ONU",
+     "w": "A investigação de uma morte potencialmente ilícita deve ser independente da entidade envolvida, rápida, transparente e aberta às famílias.",
+     "g": "Padrão internacional de referência.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Minnesota Protokolü: hukuka aykırı olabilecek ölümlerin soruşturulması",
+     "o": "BM İnsan Hakları Ofisi",
+     "w": "Hukuka aykırı olabilecek bir ölüme ilişkin soruşturma, olaya karışan kurumdan bağımsız, hızlı, şeffaf ve ailelere açık olmalıdır.",
+     "g": "Uluslararası referans standardı.",
+     "r": ""
+    },
+    "zh": {
+     "t": "《明尼苏达议定书》：调查潜在的非法死亡",
+     "o": "联合国人权办公室",
+     "w": "对潜在非法死亡的调查必须独立于涉事机构，并且迅速、透明、向家属开放。",
+     "g": "国际参照标准。",
+     "r": ""
+    },
+    "ar": {
+     "t": "بروتوكول مينيسوتا: التحقيق في الوفيات التي يُحتمل أن تكون غير مشروعة",
+     "o": "مكتب الأمم المتحدة لحقوق الإنسان",
+     "w": "يجب أن يكون التحقيق في وفاة يُحتمل أن تكون غير مشروعة مستقلًا عن الجهة المعنية، وسريعًا، وشفافًا، ومفتوحًا أمام الأسر.",
+     "g": "معيار دولي مرجعي.",
+     "r": ""
+    },
+    "he": {
+     "t": "פרוטוקול מינסוטה: חקירת מקרי מוות שעשויים להיות בלתי חוקיים",
+     "o": "משרד האו״ם לזכויות האדם",
+     "w": "חקירה של מקרה מוות שעשוי להיות בלתי חוקי צריכה להיות עצמאית מהגוף המעורב, מהירה, שקופה ופתוחה למשפחות.",
+     "g": "תקן בינלאומי מנחה.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Миннесотский протокол: расследование потенциально незаконной смерти",
+     "o": "Управление ООН по правам человека",
+     "w": "Расследование потенциально незаконной смерти должно быть независимым от причастного ведомства, оперативным, прозрачным и открытым для семей.",
+     "g": "Международный стандарт.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "gc36",
+   "type": "interp",
+   "theater": "general",
+   "date": "2018-10-30",
+   "url": "https://www.ohchr.org/en/documents/general-comments-and-recommendations/general-comment-no-36-article-6-right-life",
+   "pieces": [
+    "nd-pena-di-morte-chi-uccide-ancora",
+    "nd-libia-esecuzioni-bengasi",
+    "nd-nigeria-cella-di-minna",
+    "nd-nigeria-chi-viene-ucciso"
+   ],
+   "text": {
+    "it": {
+     "t": "Commento generale n. 36: il diritto alla vita",
+     "o": "Comitato ONU per i diritti umani",
+     "w": "Lo Stato deve proteggere la vita anche dai privati e dai gruppi armati. Una condanna a morte dopo un processo iniquo viola il diritto alla vita. Una morte in custodia fa presumere la responsabilità dello Stato.",
+     "g": "Interpretazione autorevole del Patto sui diritti civili e politici.",
+     "r": ""
+    },
+    "en": {
+     "t": "General Comment No. 36: the right to life",
+     "o": "UN Human Rights Committee",
+     "w": "The State must protect life also from private persons and armed groups. A death sentence after an unfair trial violates the right to life. A death in custody creates a presumption of State responsibility.",
+     "g": "Authoritative interpretation of the Covenant on Civil and Political Rights.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Observation générale n° 36 : le droit à la vie",
+     "o": "Comité des droits de l'homme de l'ONU",
+     "w": "L'État doit protéger la vie aussi contre les particuliers et les groupes armés. Une condamnation à mort après un procès inéquitable viole le droit à la vie. Un décès en détention fait présumer la responsabilité de l'État.",
+     "g": "Interprétation faisant autorité du Pacte relatif aux droits civils et politiques.",
+     "r": ""
+    },
+    "de": {
+     "t": "Allgemeine Bemerkung Nr. 36: das Recht auf Leben",
+     "o": "UN-Menschenrechtsausschuss",
+     "w": "Der Staat muss das Leben auch vor Privatpersonen und bewaffneten Gruppen schützen. Ein Todesurteil nach einem unfairen Verfahren verletzt das Recht auf Leben. Ein Tod in Gewahrsam begründet die Vermutung staatlicher Verantwortung.",
+     "g": "Maßgebliche Auslegung des Pakts über bürgerliche und politische Rechte.",
+     "r": ""
+    },
+    "es": {
+     "t": "Observación general n.º 36: el derecho a la vida",
+     "o": "Comité de Derechos Humanos de la ONU",
+     "w": "El Estado debe proteger la vida también frente a particulares y grupos armados. Una condena a muerte tras un juicio injusto viola el derecho a la vida. Una muerte bajo custodia hace presumir la responsabilidad del Estado.",
+     "g": "Interpretación autorizada del Pacto de Derechos Civiles y Políticos.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Comentário geral n.º 36: o direito à vida",
+     "o": "Comité dos Direitos Humanos da ONU",
+     "w": "O Estado deve proteger a vida também contra particulares e grupos armados. Uma condenação à morte após um julgamento injusto viola o direito à vida. Uma morte sob custódia faz presumir a responsabilidade do Estado.",
+     "g": "Interpretação autorizada do Pacto sobre os Direitos Civis e Políticos.",
+     "r": ""
+    },
+    "tr": {
+     "t": "36 No'lu Genel Yorum: yaşam hakkı",
+     "o": "BM İnsan Hakları Komitesi",
+     "w": "Devlet yaşamı özel kişilere ve silahlı gruplara karşı da korumalıdır. Adil olmayan bir yargılamanın ardından verilen ölüm cezası yaşam hakkını ihlal eder. Gözaltında ölüm, devletin sorumluluğu karinesini doğurur.",
+     "g": "Medeni ve Siyasi Haklar Sözleşmesi'nin yetkili yorumu.",
+     "r": ""
+    },
+    "zh": {
+     "t": "第36号一般性意见：生命权",
+     "o": "联合国人权事务委员会",
+     "w": "国家还必须保护生命免受私人和武装团体的侵害。不公正审判后作出的死刑判决侵犯生命权。羁押期间的死亡使国家被推定负有责任。",
+     "g": "对《公民权利和政治权利国际公约》的权威解释。",
+     "r": ""
+    },
+    "ar": {
+     "t": "التعليق العام رقم 36: الحق في الحياة",
+     "o": "لجنة الأمم المتحدة المعنية بحقوق الإنسان",
+     "w": "على الدولة أن تحمي الحياة أيضًا من الأفراد والجماعات المسلحة. وحكم الإعدام بعد محاكمة غير عادلة ينتهك الحق في الحياة. والوفاة في الاحتجاز تُنشئ قرينة على مسؤولية الدولة.",
+     "g": "تفسير مرجعي للعهد الدولي الخاص بالحقوق المدنية والسياسية.",
+     "r": ""
+    },
+    "he": {
+     "t": "הערה כללית מס׳ 36: הזכות לחיים",
+     "o": "ועדת האו״ם לזכויות האדם",
+     "w": "על המדינה להגן על החיים גם מפני אנשים פרטיים וקבוצות חמושות. גזר דין מוות לאחר משפט לא הוגן מפר את הזכות לחיים. מוות במשמורת יוצר חזקה של אחריות המדינה.",
+     "g": "פרשנות סמכותית של האמנה בדבר זכויות אזרחיות ומדיניות.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Замечание общего порядка № 36: право на жизнь",
+     "o": "Комитет ООН по правам человека",
+     "w": "Государство должно защищать жизнь и от частных лиц и вооружённых групп. Смертный приговор после несправедливого суда нарушает право на жизнь. Смерть под стражей порождает презумпцию ответственности государства.",
+     "g": "Авторитетное толкование Пакта о гражданских и политических правах.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "r1803",
+   "type": "res",
+   "theater": "general",
+   "date": "1962-12-14",
+   "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/general-assembly-resolution-1803-xvii-14-december-1962-permanent",
+   "pieces": [
+    "nd-interessi-prima-ordine"
+   ],
+   "text": {
+    "it": {
+     "t": "Sovranità permanente sulle risorse naturali (risoluzione 1803)",
+     "o": "Assemblea generale ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Permanent sovereignty over natural resources (resolution 1803)",
+     "o": "UN General Assembly",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Souveraineté permanente sur les ressources naturelles (résolution 1803)",
+     "o": "Assemblée générale de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Dauerhafte Souveränität über natürliche Ressourcen (Resolution 1803)",
+     "o": "UN-Generalversammlung",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Soberanía permanente sobre los recursos naturales (resolución 1803)",
+     "o": "Asamblea General de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Soberania permanente sobre os recursos naturais (resolução 1803)",
+     "o": "Assembleia Geral da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Doğal kaynaklar üzerinde kalıcı egemenlik (1803 sayılı karar)",
+     "o": "BM Genel Kurulu",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "对自然资源的永久主权（第1803号决议）",
+     "o": "联合国大会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "السيادة الدائمة على الموارد الطبيعية (القرار 1803)",
+     "o": "الجمعية العامة للأمم المتحدة",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "ריבונות קבועה על משאבי טבע (החלטה 1803)",
+     "o": "העצרת הכללית של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Неотъемлемый суверенитет над естественными ресурсами (резолюция 1803)",
+     "o": "Генеральная Ассамблея ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "r3314",
+   "type": "res",
+   "theater": "general",
+   "date": "1974-12-14",
+   "url": "https://undocs.org/A/RES/3314(XXIX)",
+   "pieces": [
+    "glo-uso-della-forza"
+   ],
+   "text": {
+    "it": {
+     "t": "Definizione dell'aggressione (risoluzione 3314)",
+     "o": "Assemblea generale ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Definition of aggression (resolution 3314)",
+     "o": "UN General Assembly",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Définition de l'agression (résolution 3314)",
+     "o": "Assemblée générale de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Definition der Aggression (Resolution 3314)",
+     "o": "UN-Generalversammlung",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Definición de la agresión (resolución 3314)",
+     "o": "Asamblea General de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Definição da agressão (resolução 3314)",
+     "o": "Assembleia Geral da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Saldırının tanımı (3314 sayılı karar)",
+     "o": "BM Genel Kurulu",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "侵略定义（第3314号决议）",
+     "o": "联合国大会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "تعريف العدوان (القرار 3314)",
+     "o": "الجمعية العامة للأمم المتحدة",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "הגדרת התוקפנות (החלטה 3314)",
+     "o": "העצרת הכללית של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Определение агрессии (резолюция 3314)",
+     "o": "Генеральная Ассамблея ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "r1593",
+   "type": "res",
+   "theater": "sudan",
+   "date": "2005-03-31",
+   "url": "https://undocs.org/S/RES/1593(2005)",
+   "pieces": [
+    "glo-sudan",
+    "nd-sudan-guerra-a-distanza"
+   ],
+   "text": {
+    "it": {
+     "t": "Il Darfur deferito alla Corte penale internazionale (risoluzione 1593)",
+     "o": "Consiglio di sicurezza ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Darfur referred to the International Criminal Court (resolution 1593)",
+     "o": "UN Security Council",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Le Darfour déféré à la Cour pénale internationale (résolution 1593)",
+     "o": "Conseil de sécurité de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Darfur wird an den Internationalen Strafgerichtshof überwiesen (Resolution 1593)",
+     "o": "UN-Sicherheitsrat",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Darfur remitido a la Corte Penal Internacional (resolución 1593)",
+     "o": "Consejo de Seguridad de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "O Darfur remetido ao Tribunal Penal Internacional (resolução 1593)",
+     "o": "Conselho de Segurança da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Darfur'un Uluslararası Ceza Mahkemesi'ne havalesi (1593 sayılı karar)",
+     "o": "BM Güvenlik Konseyi",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "将达尔富尔局势移交国际刑事法院（第1593号决议）",
+     "o": "联合国安理会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "إحالة دارفور إلى المحكمة الجنائية الدولية (القرار 1593)",
+     "o": "مجلس الأمن الدولي",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "העברת דארפור לבית הדין הפלילי הבינלאומי (החלטה 1593)",
+     "o": "מועצת הביטחון של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Передача ситуации в Дарфуре в Международный уголовный суд (резолюция 1593)",
+     "o": "Совет Безопасности ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "r1970",
+   "type": "res",
+   "theater": "libya",
+   "date": "2011-02-26",
+   "url": "https://main.un.org/securitycouncil/en/s/res/1970-(2011)",
+   "pieces": [
+    "nd-libia-droni"
+   ],
+   "text": {
+    "it": {
+     "t": "Libia: deferimento alla CPI ed embargo sulle armi (risoluzione 1970)",
+     "o": "Consiglio di sicurezza ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Libya: referral to the ICC and arms embargo (resolution 1970)",
+     "o": "UN Security Council",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Libye : saisine de la CPI et embargo sur les armes (résolution 1970)",
+     "o": "Conseil de sécurité de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Libyen: Überweisung an den IStGH und Waffenembargo (Resolution 1970)",
+     "o": "UN-Sicherheitsrat",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Libia: remisión a la CPI y embargo de armas (resolución 1970)",
+     "o": "Consejo de Seguridad de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Líbia: remessa ao TPI e embargo de armas (resolução 1970)",
+     "o": "Conselho de Segurança da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Libya: UCM'ye havale ve silah ambargosu (1970 sayılı karar)",
+     "o": "BM Güvenlik Konseyi",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "利比亚：移交国际刑事法院和武器禁运（第1970号决议）",
+     "o": "联合国安理会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "ليبيا: الإحالة إلى المحكمة الجنائية الدولية وحظر الأسلحة (القرار 1970)",
+     "o": "مجلس الأمن الدولي",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "לוב: העברה לבית הדין הפלילי הבינלאומי ואמברגו נשק (החלטה 1970)",
+     "o": "מועצת הביטחון של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Ливия: передача в МУС и оружейное эмбарго (резолюция 1970)",
+     "o": "Совет Безопасности ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "es111",
+   "type": "res",
+   "theater": "ruua",
+   "date": "2022-03-02",
+   "url": "https://digitallibrary.un.org/record/3965290",
+   "pieces": [
+    "nd-mercato-euro-russo"
+   ],
+   "text": {
+    "it": {
+     "t": "Aggressione contro l'Ucraina (risoluzione ES-11/1)",
+     "o": "Assemblea generale ONU",
+     "w": "Chiede alla Russia di ritirare subito le sue truppe dall'Ucraina.",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Aggression against Ukraine (resolution ES-11/1)",
+     "o": "UN General Assembly",
+     "w": "Demands that Russia immediately withdraw its troops from Ukraine.",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Agression contre l'Ukraine (résolution ES-11/1)",
+     "o": "Assemblée générale de l'ONU",
+     "w": "Exige que la Russie retire immédiatement ses troupes d'Ukraine.",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Aggression gegen die Ukraine (Resolution ES-11/1)",
+     "o": "UN-Generalversammlung",
+     "w": "Fordert Russland auf, seine Truppen sofort aus der Ukraine abzuziehen.",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Agresión contra Ucrania (resolución ES-11/1)",
+     "o": "Asamblea General de la ONU",
+     "w": "Exige que Rusia retire de inmediato sus tropas de Ucrania.",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Agressão contra a Ucrânia (resolução ES-11/1)",
+     "o": "Assembleia Geral da ONU",
+     "w": "Exige que a Rússia retire de imediato as suas tropas da Ucrânia.",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Ukrayna'ya karşı saldırı (ES-11/1 sayılı karar)",
+     "o": "BM Genel Kurulu",
+     "w": "Rusya'nın birliklerini Ukrayna'dan derhal çekmesini talep ediyor.",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "对乌克兰的侵略（ES-11/1号决议）",
+     "o": "联合国大会",
+     "w": "要求俄罗斯立即从乌克兰撤军。",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "العدوان على أوكرانيا (القرار ES-11/1)",
+     "o": "الجمعية العامة للأمم المتحدة",
+     "w": "يطالب روسيا بسحب قواتها من أوكرانيا فورًا.",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "התוקפנות נגד אוקראינה (החלטה ES-11/1)",
+     "o": "העצרת הכללית של האו״ם",
+     "w": "דורשת מרוסיה להוציא מיד את כוחותיה מאוקראינה.",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Агрессия против Украины (резолюция ES-11/1)",
+     "o": "Генеральная Ассамблея ООН",
+     "w": "Требует, чтобы Россия немедленно вывела войска из Украины.",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "es114",
+   "type": "res",
+   "theater": "ruua",
+   "date": "2022-10-12",
+   "url": "https://undocs.org/A/RES/ES-11/4",
+   "pieces": [
+    "nd-anatomia-sconfitta-inevitabile"
+   ],
+   "text": {
+    "it": {
+     "t": "Le annessioni di quattro regioni ucraine non sono valide (risoluzione ES-11/4)",
+     "o": "Assemblea generale ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "The annexation of four Ukrainian regions is invalid (resolution ES-11/4)",
+     "o": "UN General Assembly",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Les annexions de quatre régions ukrainiennes sont nulles (résolution ES-11/4)",
+     "o": "Assemblée générale de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Die Annexion von vier ukrainischen Regionen ist ungültig (Resolution ES-11/4)",
+     "o": "UN-Generalversammlung",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Las anexiones de cuatro regiones ucranianas no son válidas (resolución ES-11/4)",
+     "o": "Asamblea General de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "As anexações de quatro regiões ucranianas não são válidas (resolução ES-11/4)",
+     "o": "Assembleia Geral da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Dört Ukrayna bölgesinin ilhakı geçersizdir (ES-11/4 sayılı karar)",
+     "o": "BM Genel Kurulu",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "吞并乌克兰四个地区无效（ES-11/4号决议）",
+     "o": "联合国大会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "ضمّ أربع مناطق أوكرانية باطل (القرار ES-11/4)",
+     "o": "الجمعية العامة للأمم المتحدة",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "סיפוח ארבעה מחוזות אוקראיניים אינו תקף (החלטה ES-11/4)",
+     "o": "העצרת הכללית של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Аннексия четырёх украинских областей недействительна (резолюция ES-11/4)",
+     "o": "Генеральная Ассамблея ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "es115",
+   "type": "res",
+   "theater": "ruua",
+   "date": "2022-11-14",
+   "url": "https://undocs.org/A/RES/ES-11/5",
+   "pieces": [
+    "nd-chi-paga-la-guerra"
+   ],
+   "text": {
+    "it": {
+     "t": "Risarcimenti all'Ucraina (risoluzione ES-11/5)",
+     "o": "Assemblea generale ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Reparation for Ukraine (resolution ES-11/5)",
+     "o": "UN General Assembly",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Réparations pour l'Ukraine (résolution ES-11/5)",
+     "o": "Assemblée générale de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Wiedergutmachung für die Ukraine (Resolution ES-11/5)",
+     "o": "UN-Generalversammlung",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Reparaciones para Ucrania (resolución ES-11/5)",
+     "o": "Asamblea General de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Reparações à Ucrânia (resolução ES-11/5)",
+     "o": "Assembleia Geral da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Ukrayna için tazminat (ES-11/5 sayılı karar)",
+     "o": "BM Genel Kurulu",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "对乌克兰的赔偿（ES-11/5号决议）",
+     "o": "联合国大会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "جبر الضرر لأوكرانيا (القرار ES-11/5)",
+     "o": "الجمعية العامة للأمم المتحدة",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "פיצויים לאוקראינה (החלטה ES-11/5)",
+     "o": "העצרת הכללית של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Возмещение ущерба Украине (резолюция ES-11/5)",
+     "o": "Генеральная Ассамблея ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "r2793",
+   "type": "res",
+   "theater": "haiti",
+   "date": "2025-09-30",
+   "url": "https://digitallibrary.un.org/record/4089907",
+   "pieces": [
+    "nd-haiti-chi-controlla-la-forza"
+   ],
+   "text": {
+    "it": {
+     "t": "Haiti, la forza contro le bande (risoluzione 2793)",
+     "o": "Consiglio di sicurezza ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "en": {
+     "t": "Haiti, the force against the gangs (resolution 2793)",
+     "o": "UN Security Council",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "fr": {
+     "t": "Haïti, la force contre les gangs (résolution 2793)",
+     "o": "Conseil de sécurité de l'ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "de": {
+     "t": "Haiti, die Truppe gegen die Banden (Resolution 2793)",
+     "o": "UN-Sicherheitsrat",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "es": {
+     "t": "Haití, la fuerza contra las bandas (resolución 2793)",
+     "o": "Consejo de Seguridad de la ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "pt": {
+     "t": "Haiti, a força contra os gangues (resolução 2793)",
+     "o": "Conselho de Segurança da ONU",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "tr": {
+     "t": "Haiti, çetelere karşı güç (2793 sayılı karar)",
+     "o": "BM Güvenlik Konseyi",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "zh": {
+     "t": "海地：打击帮派的部队（第2793号决议）",
+     "o": "联合国安理会",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ar": {
+     "t": "هايتي: القوة لمواجهة العصابات (القرار 2793)",
+     "o": "مجلس الأمن الدولي",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "he": {
+     "t": "האיטי: הכוח נגד הכנופיות (החלטה 2793)",
+     "o": "מועצת הביטחון של האו״ם",
+     "w": "",
+     "g": "",
+     "r": ""
+    },
+    "ru": {
+     "t": "Гаити: силы против банд (резолюция 2793)",
+     "o": "Совет Безопасности ООН",
+     "w": "",
+     "g": "",
+     "r": ""
+    }
+   }
+  }
+ ]
+}

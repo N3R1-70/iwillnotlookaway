@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26",
+ "updated": "2026-10-29",
  "docs": [
   {
    "id": "corfu",
@@ -2238,87 +2238,86 @@
    "id": "coiwb",
    "type": "inq",
    "theater": "isrpal",
-   "date": "2026-10-26",
-   "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+   "date": "2026-10-14",
+   "url": "https://www.un.org/unispal/wp-content/uploads/2026/10/ga-81-430-auv.pdf",
    "pieces": [],
-   "pressonly": true,
    "text": {
     "it": {
-     "t": "Cisgiordania: sterminio e altri crimini contro l'umanità",
+     "t": "Cisgiordania: sterminio e altri crimini contro l'umanità (A/81/430)",
      "o": "Commissione d'inchiesta ONU sui Territori palestinesi occupati e Israele",
-     "w": "Le autorità e le forze israeliane hanno commesso in Cisgiordania i crimini contro l'umanità di sterminio, tortura, stupro e persecuzione, e continuano gli atti di genocidio a Gaza nonostante il cessate il fuoco.",
-     "g": "Accertamento della Commissione, presentato all'Assemblea generale.",
-     "r": "Israele respinge le conclusioni."
+     "w": "Le autorità e le forze israeliane hanno commesso in Cisgiordania i crimini contro l'umanità di sterminio, tortura, stupro e altre violenze sessuali e persecuzione, e continuano gli atti di genocidio a Gaza nonostante il cessate il fuoco. Dall'ottobre 2023 le forze israeliane sono responsabili di circa il 95% dei palestinesi uccisi in Cisgiordania. Il rapporto esamina anche le forze di sicurezza palestinesi: almeno 14 palestinesi uccisi tra ottobre 2023 e ottobre 2025, secondo l'Ufficio ONU per i diritti umani, e arresti arbitrari, torture e maltrattamenti contro giornalisti, attivisti e difensori dei diritti umani, con ordini di scarcerazione dei tribunali ignorati. Per l'Autorità palestinese la Commissione accerta violazioni del diritto alla vita e la mancanza di indagini rapide ed efficaci, non crimini internazionali.",
+     "g": "Accertamento della Commissione, presentato all'Assemblea generale. Versione anticipata, non ancora revisionata.",
+     "r": "Israele respinge le conclusioni: il ministero degli Esteri lo ha definito «un documento di propaganda staccato dalla realtà». Non abbiamo trovato una risposta dell'Autorità palestinese al rapporto."
     },
     "en": {
-     "t": "West Bank: extermination and other crimes against humanity",
+     "t": "West Bank: extermination and other crimes against humanity (A/81/430)",
      "o": "UN Commission of Inquiry on the Occupied Palestinian Territory and Israel",
-     "w": "Israeli authorities and forces have committed in the West Bank the crimes against humanity of extermination, torture, rape and persecution, and continue to commit acts of genocide in Gaza despite the ceasefire.",
-     "g": "Finding of the Commission, presented to the General Assembly.",
-     "r": "Israel rejects the findings."
+     "w": "Israeli authorities and forces have committed in the West Bank the crimes against humanity of extermination, torture, rape and other sexual violence, and persecution, and continue to commit acts of genocide in Gaza despite the ceasefire. Since October 2023 Israeli forces have been responsible for about 95% of the Palestinians killed in the West Bank. The report also examines the Palestinian security forces: at least 14 Palestinians killed between October 2023 and October 2025, according to the UN Human Rights Office, and arbitrary arrests, torture and ill-treatment of journalists, activists and human rights defenders, with court release orders ignored. For the Palestinian Authority the Commission finds violations of the right to life and a failure to conduct prompt and effective investigations, not international crimes.",
+     "g": "Finding of the Commission, presented to the General Assembly. Advance version, not yet edited.",
+     "r": "Israel rejects the findings: the Foreign Ministry called it “a propaganda document detached from reality”. We have not found a response by the Palestinian Authority to the report."
     },
     "fr": {
-     "t": "Cisjordanie : extermination et autres crimes contre l'humanité",
+     "t": "Cisjordanie : extermination et autres crimes contre l'humanité (A/81/430)",
      "o": "Commission d'enquête de l'ONU sur le Territoire palestinien occupé et Israël",
-     "w": "Les autorités et les forces israéliennes ont commis en Cisjordanie les crimes contre l'humanité d'extermination, de torture, de viol et de persécution, et continuent de commettre des actes de génocide à Gaza malgré le cessez-le-feu.",
-     "g": "Constat de la Commission, présenté à l'Assemblée générale.",
-     "r": "Israël rejette les conclusions."
+     "w": "Les autorités et les forces israéliennes ont commis en Cisjordanie les crimes contre l'humanité d'extermination, de torture, de viol et d'autres violences sexuelles, et de persécution, et continuent de commettre des actes de génocide à Gaza malgré le cessez-le-feu. Depuis octobre 2023, les forces israéliennes sont responsables d'environ 95 % des Palestiniens tués en Cisjordanie. Le rapport examine aussi les forces de sécurité palestiniennes : au moins 14 Palestiniens tués entre octobre 2023 et octobre 2025, selon le Bureau des droits de l'homme de l'ONU, ainsi que des arrestations arbitraires, des tortures et des mauvais traitements contre des journalistes, des militants et des défenseurs des droits humains, avec des ordres de libération des tribunaux ignorés. Pour l'Autorité palestinienne, la Commission établit des violations du droit à la vie et l'absence d'enquêtes rapides et efficaces, non des crimes internationaux.",
+     "g": "Constat de la Commission, présenté à l'Assemblée générale. Version préliminaire, non encore éditée.",
+     "r": "Israël rejette les conclusions : le ministère des Affaires étrangères l'a qualifié de « document de propagande déconnecté de la réalité ». Nous n'avons pas trouvé de réponse de l'Autorité palestinienne au rapport."
     },
     "de": {
-     "t": "Westjordanland: Ausrottung und andere Verbrechen gegen die Menschlichkeit",
+     "t": "Westjordanland: Ausrottung und andere Verbrechen gegen die Menschlichkeit (A/81/430)",
      "o": "UN-Untersuchungskommission zum besetzten palästinensischen Gebiet und Israel",
-     "w": "Israelische Behörden und Streitkräfte haben im Westjordanland die Verbrechen gegen die Menschlichkeit der Ausrottung, Folter, Vergewaltigung und Verfolgung begangen und setzen trotz Waffenruhe Völkermordhandlungen in Gaza fort.",
-     "g": "Feststellung der Kommission, der Generalversammlung vorgelegt.",
-     "r": "Israel weist die Schlussfolgerungen zurück."
+     "w": "Israelische Behörden und Streitkräfte haben im Westjordanland die Verbrechen gegen die Menschlichkeit der Ausrottung, Folter, Vergewaltigung und anderer sexueller Gewalt sowie Verfolgung begangen und setzen trotz Waffenruhe Völkermordhandlungen in Gaza fort. Seit Oktober 2023 sind israelische Streitkräfte für etwa 95 % der im Westjordanland getöteten Palästinenser verantwortlich. Der Bericht untersucht auch die palästinensischen Sicherheitskräfte: mindestens 14 getötete Palästinenser zwischen Oktober 2023 und Oktober 2025, laut UN-Menschenrechtsbüro, sowie willkürliche Festnahmen, Folter und Misshandlung von Journalisten, Aktivisten und Menschenrechtsverteidigern, wobei gerichtliche Freilassungsanordnungen missachtet wurden. Für die Palästinensische Autonomiebehörde stellt die Kommission Verletzungen des Rechts auf Leben und fehlende zügige und wirksame Ermittlungen fest, keine völkerrechtlichen Verbrechen.",
+     "g": "Feststellung der Kommission, der Generalversammlung vorgelegt. Vorabfassung, noch nicht redigiert.",
+     "r": "Israel weist die Schlussfolgerungen zurück: Das Außenministerium nannte ihn „ein von der Realität losgelöstes Propagandadokument“. Eine Antwort der Palästinensischen Autonomiebehörde auf den Bericht haben wir nicht gefunden."
     },
     "es": {
-     "t": "Cisjordania: exterminio y otros crímenes de lesa humanidad",
+     "t": "Cisjordania: exterminio y otros crímenes de lesa humanidad (A/81/430)",
      "o": "Comisión de Investigación de la ONU sobre el Territorio Palestino Ocupado e Israel",
-     "w": "Las autoridades y fuerzas israelíes han cometido en Cisjordania los crímenes de lesa humanidad de exterminio, tortura, violación y persecución, y siguen cometiendo actos de genocidio en Gaza pese al alto el fuego.",
-     "g": "Conclusión de la Comisión, presentada a la Asamblea General.",
-     "r": "Israel rechaza las conclusiones."
+     "w": "Las autoridades y fuerzas israelíes han cometido en Cisjordania los crímenes de lesa humanidad de exterminio, tortura, violación y otras formas de violencia sexual, y persecución, y siguen cometiendo actos de genocidio en Gaza pese al alto el fuego. Desde octubre de 2023 las fuerzas israelíes son responsables de cerca del 95 % de los palestinos muertos en Cisjordania. El informe examina también a las fuerzas de seguridad palestinas: al menos 14 palestinos muertos entre octubre de 2023 y octubre de 2025, según la Oficina de Derechos Humanos de la ONU, y detenciones arbitrarias, torturas y malos tratos contra periodistas, activistas y defensores de derechos humanos, con órdenes judiciales de puesta en libertad ignoradas. Respecto a la Autoridad Palestina, la Comisión constata violaciones del derecho a la vida y la falta de investigaciones rápidas y eficaces, no crímenes internacionales.",
+     "g": "Conclusión de la Comisión, presentada a la Asamblea General. Versión anticipada, aún no editada.",
+     "r": "Israel rechaza las conclusiones: el Ministerio de Asuntos Exteriores lo calificó de «documento de propaganda desconectado de la realidad». No hemos encontrado una respuesta de la Autoridad Palestina al informe."
     },
     "pt": {
-     "t": "Cisjordânia: extermínio e outros crimes contra a humanidade",
+     "t": "Cisjordânia: extermínio e outros crimes contra a humanidade (A/81/430)",
      "o": "Comissão de Inquérito da ONU sobre o Território Palestiniano Ocupado e Israel",
-     "w": "As autoridades e as forças israelitas cometeram na Cisjordânia os crimes contra a humanidade de extermínio, tortura, violação e perseguição, e continuam a cometer atos de genocídio em Gaza apesar do cessar-fogo.",
-     "g": "Conclusão da Comissão, apresentada à Assembleia Geral.",
-     "r": "Israel rejeita as conclusões."
+     "w": "As autoridades e forças israelitas cometeram na Cisjordânia os crimes contra a humanidade de extermínio, tortura, violação e outras formas de violência sexual, e perseguição, e continuam a cometer atos de genocídio em Gaza apesar do cessar-fogo. Desde outubro de 2023, as forças israelitas são responsáveis por cerca de 95 % dos palestinianos mortos na Cisjordânia. O relatório examina também as forças de segurança palestinianas: pelo menos 14 palestinianos mortos entre outubro de 2023 e outubro de 2025, segundo o Gabinete de Direitos Humanos da ONU, e detenções arbitrárias, torturas e maus-tratos contra jornalistas, ativistas e defensores dos direitos humanos, com ordens judiciais de libertação ignoradas. Quanto à Autoridade Palestiniana, a Comissão apura violações do direito à vida e a falta de investigações rápidas e eficazes, não crimes internacionais.",
+     "g": "Conclusão da Comissão, apresentada à Assembleia Geral. Versão antecipada, ainda não revista.",
+     "r": "Israel rejeita as conclusões: o Ministério dos Negócios Estrangeiros chamou-lhe «um documento de propaganda desligado da realidade». Não encontrámos uma resposta da Autoridade Palestiniana ao relatório."
     },
     "tr": {
-     "t": "Batı Şeria: imha ve insanlığa karşı diğer suçlar",
+     "t": "Batı Şeria: imha ve insanlığa karşı diğer suçlar (A/81/430)",
      "o": "BM İşgal Altındaki Filistin Toprakları ve İsrail Soruşturma Komisyonu",
-     "w": "İsrail makamları ve güçleri Batı Şeria'da imha, işkence, tecavüz ve zulüm gibi insanlığa karşı suçlar işledi ve ateşkese rağmen Gazze'de soykırım eylemlerini sürdürüyor.",
-     "g": "Komisyonun tespiti, Genel Kurul'a sunuldu.",
-     "r": "İsrail bulguları reddediyor."
+     "w": "İsrail makamları ve güçleri Batı Şeria'da imha, işkence, tecavüz ve diğer cinsel şiddet ile zulüm gibi insanlığa karşı suçlar işlemiştir ve ateşkese rağmen Gazze'de soykırım eylemlerini sürdürmektedir. Ekim 2023'ten bu yana Batı Şeria'da öldürülen Filistinlilerin yaklaşık yüzde 95'inden İsrail güçleri sorumludur. Rapor Filistin güvenlik güçlerini de inceliyor: BM İnsan Hakları Ofisi'ne göre Ekim 2023 ile Ekim 2025 arasında en az 14 Filistinli öldürüldü; gazetecilere, aktivistlere ve insan hakları savunucularına keyfi gözaltı, işkence ve kötü muamele uygulandı, mahkemelerin tahliye kararları yok sayıldı. Komisyon, Filistin Yönetimi açısından uluslararası suç değil, yaşam hakkının ihlalini ve hızlı ve etkili soruşturma yapılmadığını tespit ediyor.",
+     "g": "Komisyonun tespiti, Genel Kurul'a sunuldu. Ön sürüm, henüz redakte edilmedi.",
+     "r": "İsrail sonuçları reddediyor: Dışişleri Bakanlığı raporu «gerçeklikten kopuk bir propaganda belgesi» olarak nitelendirdi. Filistin Yönetimi'nin rapora bir yanıtını bulamadık."
     },
     "zh": {
-     "t": "约旦河西岸：灭绝及其他危害人类罪",
+     "t": "约旦河西岸：灭绝及其他危害人类罪（A/81/430）",
      "o": "联合国被占领巴勒斯坦领土和以色列问题调查委员会",
-     "w": "以色列当局和部队在约旦河西岸犯下了灭绝、酷刑、强奸和迫害等危害人类罪，并且尽管已经停火，仍在加沙继续实施灭绝种族行为。",
-     "g": "委员会的认定，已提交联合国大会。",
-     "r": "以色列拒绝这些结论。"
+     "w": "以色列当局和部队在约旦河西岸犯下了灭绝、酷刑、强奸和其他形式的性暴力以及迫害等危害人类罪，并且在停火后仍在加沙继续实施灭绝种族行为。自2023年10月以来，约旦河西岸遇害的巴勒斯坦人中约95%由以色列部队造成。报告还审查了巴勒斯坦安全部队：据联合国人权事务高级专员办事处统计，2023年10月至2025年10月间至少有14名巴勒斯坦人被打死；记者、活动人士和人权捍卫者遭到任意逮捕、酷刑和虐待，法院的释放令被无视。对于巴勒斯坦权力机构，委员会认定的是侵犯生命权以及未能开展迅速有效的调查，而非国际罪行。",
+     "g": "委员会的认定，已提交联合国大会。预发本，尚未编辑。",
+     "r": "以色列拒绝报告结论：外交部称其为“脱离现实的宣传文件”。我们未找到巴勒斯坦权力机构对该报告的回应。"
     },
     "ar": {
-     "t": "الضفة الغربية: الإبادة وجرائم أخرى ضد الإنسانية",
+     "t": "الضفة الغربية: الإبادة وجرائم أخرى ضد الإنسانية (A/81/430)",
      "o": "لجنة الأمم المتحدة للتحقيق بشأن الأرض الفلسطينية المحتلة وإسرائيل",
-     "w": "ارتكبت السلطات والقوات الإسرائيلية في الضفة الغربية جرائم ضد الإنسانية هي الإبادة والتعذيب والاغتصاب والاضطهاد، وتواصل ارتكاب أفعال الإبادة الجماعية في غزة رغم وقف إطلاق النار.",
-     "g": "استنتاج اللجنة، قُدّم إلى الجمعية العامة.",
-     "r": "ترفض إسرائيل الاستنتاجات."
+     "w": "ارتكبت السلطات والقوات الإسرائيلية في الضفة الغربية الجرائم ضد الإنسانية المتمثلة في الإبادة والتعذيب والاغتصاب وغيره من أشكال العنف الجنسي والاضطهاد، وتواصل ارتكاب أفعال الإبادة الجماعية في غزة رغم وقف إطلاق النار. ومنذ أكتوبر 2023 تتحمل القوات الإسرائيلية المسؤولية عن نحو 95% من الفلسطينيين الذين قُتلوا في الضفة الغربية. ويتناول التقرير أيضًا قوات الأمن الفلسطينية: مقتل ما لا يقل عن 14 فلسطينيًا بين أكتوبر 2023 وأكتوبر 2025، بحسب مكتب الأمم المتحدة لحقوق الإنسان، واعتقالات تعسفية وتعذيب وسوء معاملة بحق صحفيين وناشطين ومدافعين عن حقوق الإنسان، مع تجاهل أوامر المحاكم بالإفراج. وبالنسبة إلى السلطة الفلسطينية تثبت اللجنة انتهاكات للحق في الحياة وعدم إجراء تحقيقات سريعة وفعالة، لا جرائم دولية.",
+     "g": "استنتاج اللجنة، المقدَّم إلى الجمعية العامة. نسخة مسبقة لم تُحرَّر بعد.",
+     "r": "ترفض إسرائيل الاستنتاجات: وصفته وزارة الخارجية بأنه «وثيقة دعائية منفصلة عن الواقع». لم نعثر على رد من السلطة الفلسطينية على التقرير."
     },
     "he": {
-     "t": "הגדה המערבית: השמדה ופשעים נוספים נגד האנושות",
+     "t": "הגדה המערבית: השמדה ופשעים אחרים נגד האנושות (A/81/430)",
      "o": "ועדת החקירה של האו״ם על השטח הפלסטיני הכבוש וישראל",
-     "w": "רשויות ישראל וכוחותיה ביצעו בגדה המערבית את הפשעים נגד האנושות של השמדה, עינויים, אונס ורדיפה, וממשיכים לבצע מעשי רצח עם בעזה למרות הפסקת האש.",
-     "g": "ממצא של הוועדה, שהוצג לעצרת הכללית.",
-     "r": "ישראל דוחה את המסקנות."
+     "w": "הרשויות והכוחות הישראליים ביצעו בגדה המערבית את הפשעים נגד האנושות של השמדה, עינויים, אונס ואלימות מינית אחרת ורדיפה, וממשיכים במעשי רצח עם בעזה למרות הפסקת האש. מאז אוקטובר 2023 אחראים הכוחות הישראליים לכ־95% מהפלסטינים שנהרגו בגדה המערבית. הדוח בוחן גם את כוחות הביטחון הפלסטיניים: לפחות 14 פלסטינים נהרגו בין אוקטובר 2023 לאוקטובר 2025, לפי משרד האו״ם לזכויות האדם, ונעשו מעצרים שרירותיים, עינויים והתעללות בעיתונאים, פעילים ומגיני זכויות אדם, תוך התעלמות מצווי שחרור של בתי משפט. לגבי הרשות הפלסטינית קובעת הוועדה הפרות של הזכות לחיים והיעדר חקירות מהירות ויעילות, לא פשעים בינלאומיים.",
+     "g": "ממצא של הוועדה, שהוגש לעצרת הכללית. גרסה מוקדמת, טרם נערכה.",
+     "r": "ישראל דוחה את המסקנות: משרד החוץ כינה את הדוח «מסמך תעמולה מנותק מהמציאות». לא מצאנו תגובה של הרשות הפלסטינית לדוח."
     },
     "ru": {
-     "t": "Западный берег: истребление и другие преступления против человечности",
+     "t": "Западный берег: истребление и другие преступления против человечности (A/81/430)",
      "o": "Комиссия ООН по расследованию на оккупированной палестинской территории и в Израиле",
-     "w": "Израильские власти и силы совершили на Западном берегу преступления против человечности — истребление, пытки, изнасилования и преследования — и продолжают совершать акты геноцида в Газе, несмотря на прекращение огня.",
-     "g": "Вывод комиссии, представленный Генеральной Ассамблее.",
-     "r": "Израиль отвергает выводы."
+     "w": "Израильские власти и силы совершили на Западном берегу преступления против человечности — истребление, пытки, изнасилования и другие формы сексуального насилия, преследование — и продолжают совершать акты геноцида в Газе, несмотря на прекращение огня. С октября 2023 года израильские силы несут ответственность примерно за 95% палестинцев, убитых на Западном берегу. Доклад рассматривает и палестинские силы безопасности: по данным Управления ООН по правам человека, с октября 2023 по октябрь 2025 года ими убиты не менее 14 палестинцев; журналисты, активисты и правозащитники подвергались произвольным арестам, пыткам и жестокому обращению, а судебные решения об освобождении игнорировались. В отношении Палестинской администрации Комиссия устанавливает нарушения права на жизнь и отсутствие оперативных и эффективных расследований, а не международные преступления.",
+     "g": "Вывод Комиссии, представленный Генеральной Ассамблее. Предварительная, ещё не отредактированная версия.",
+     "r": "Израиль отвергает выводы: МИД назвал доклад «пропагандистским документом, оторванным от реальности». Ответа Палестинской администрации на доклад мы не нашли."
     }
    }
   },
@@ -3392,6 +3391,452 @@
      "o": "Совет Безопасности ООН",
      "w": "",
      "g": "",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "unama26q1",
+   "type": "inq",
+   "theater": "afghanistan",
+   "date": "2026-05-12",
+   "url": "https://unama.unmissions.org/sites/default/files/2026-05/English%20-%20UNAMA%20HRS%20paper%20on%20cross-border%20civilian%20casualties%20-%20Jan-Mar%202026_Updated_11.05.26.pdf",
+   "pieces": [
+    "nd-pakistan-afghanistan-legittima-difesa"
+   ],
+   "text": {
+    "it": {
+     "t": "Afghanistan: le vittime civili degli scontri con il Pakistan, gennaio–marzo 2026",
+     "o": "Missione ONU di assistenza in Afghanistan (UNAMA)",
+     "w": "Nei primi tre mesi del 2026 gli scontri tra le forze talebane e quelle pakistane hanno ucciso in Afghanistan 372 civili e ne hanno feriti 397. Il 64% delle vittime è dovuto ai raid aerei pakistani. Più della metà dei morti viene da un solo attacco, quello del 16 marzo al centro di cura per tossicodipendenti Omid di Kabul: 269 morti e 122 feriti.",
+     "g": "Dati verificati dalla missione.",
+     "r": "Nella risposta scritta inclusa nel rapporto, il Pakistan dice che nessun ospedale, centro di cura o struttura civile è stato preso di mira, e che dall'inizio dell'anno sono stati uccisi 130 civili e agenti pakistani. Le autorità talebane parlano di oltre 400 morti nel solo attacco al centro Omid."
+    },
+    "en": {
+     "t": "Afghanistan: civilian casualties of the clashes with Pakistan, January–March 2026",
+     "o": "UN Assistance Mission in Afghanistan (UNAMA)",
+     "w": "In the first three months of 2026 clashes between Taliban and Pakistani forces killed 372 civilians in Afghanistan and injured 397. Pakistani airstrikes caused 64% of the casualties. More than half of the deaths came from a single attack, the strike of 16 March on the Omid drug treatment centre in Kabul: 269 killed and 122 injured.",
+     "g": "Data verified by the mission.",
+     "r": "In its written response included in the report, Pakistan says no hospital, treatment centre or civilian facility was targeted, and that 130 Pakistani civilians and security personnel have been killed since the start of the year. The Taliban authorities speak of more than 400 dead in the Omid attack alone."
+    },
+    "fr": {
+     "t": "Afghanistan : les victimes civiles des affrontements avec le Pakistan, janvier–mars 2026",
+     "o": "Mission d'assistance des Nations unies en Afghanistan (MANUA)",
+     "w": "Au cours des trois premiers mois de 2026, les affrontements entre les forces talibanes et pakistanaises ont tué 372 civils en Afghanistan et en ont blessé 397. Les frappes aériennes pakistanaises sont à l'origine de 64 % des victimes. Plus de la moitié des morts proviennent d'une seule attaque, celle du 16 mars contre le centre de soins pour toxicomanes Omid à Kaboul : 269 morts et 122 blessés.",
+     "g": "Données vérifiées par la mission.",
+     "r": "Dans sa réponse écrite incluse dans le rapport, le Pakistan affirme qu'aucun hôpital, centre de soins ou installation civile n'a été visé, et que 130 civils et agents pakistanais ont été tués depuis le début de l'année. Les autorités talibanes parlent de plus de 400 morts dans la seule attaque contre le centre Omid."
+    },
+    "de": {
+     "t": "Afghanistan: zivile Opfer der Kämpfe mit Pakistan, Januar–März 2026",
+     "o": "UN-Unterstützungsmission in Afghanistan (UNAMA)",
+     "w": "In den ersten drei Monaten 2026 töteten Kämpfe zwischen Taliban- und pakistanischen Streitkräften in Afghanistan 372 Zivilisten und verletzten 397. Pakistanische Luftangriffe verursachten 64 % der Opfer. Mehr als die Hälfte der Toten geht auf einen einzigen Angriff zurück, den vom 16. März auf das Suchtbehandlungszentrum Omid in Kabul: 269 Tote und 122 Verletzte.",
+     "g": "Von der Mission überprüfte Daten.",
+     "r": "In seiner im Bericht enthaltenen schriftlichen Antwort erklärt Pakistan, kein Krankenhaus, Behandlungszentrum oder ziviles Objekt sei angegriffen worden, und seit Jahresbeginn seien 130 pakistanische Zivilisten und Sicherheitskräfte getötet worden. Die Taliban-Behörden sprechen von mehr als 400 Toten allein beim Angriff auf das Zentrum Omid."
+    },
+    "es": {
+     "t": "Afganistán: las víctimas civiles de los enfrentamientos con Pakistán, enero–marzo de 2026",
+     "o": "Misión de Asistencia de la ONU en Afganistán (UNAMA)",
+     "w": "En los tres primeros meses de 2026 los enfrentamientos entre las fuerzas talibanas y las paquistaníes mataron a 372 civiles en Afganistán e hirieron a 397. Los bombardeos aéreos paquistaníes causaron el 64 % de las víctimas. Más de la mitad de los muertos se deben a un solo ataque, el del 16 de marzo contra el centro de tratamiento de drogodependencias Omid de Kabul: 269 muertos y 122 heridos.",
+     "g": "Datos verificados por la misión.",
+     "r": "En su respuesta escrita incluida en el informe, Pakistán afirma que no atacó ningún hospital, centro de tratamiento ni instalación civil, y que desde principios de año han muerto 130 civiles y agentes paquistaníes. Las autoridades talibanas hablan de más de 400 muertos solo en el ataque contra el centro Omid."
+    },
+    "pt": {
+     "t": "Afeganistão: as vítimas civis dos confrontos com o Paquistão, janeiro–março de 2026",
+     "o": "Missão de Assistência da ONU no Afeganistão (UNAMA)",
+     "w": "Nos primeiros três meses de 2026, os confrontos entre as forças talibãs e paquistanesas mataram 372 civis no Afeganistão e feriram 397. Os ataques aéreos paquistaneses causaram 64 % das vítimas. Mais de metade dos mortos resulta de um único ataque, o de 16 de março contra o centro de tratamento de toxicodependentes Omid, em Cabul: 269 mortos e 122 feridos.",
+     "g": "Dados verificados pela missão.",
+     "r": "Na resposta escrita incluída no relatório, o Paquistão afirma que nenhum hospital, centro de tratamento ou instalação civil foi visado, e que desde o início do ano foram mortos 130 civis e agentes paquistaneses. As autoridades talibãs falam de mais de 400 mortos só no ataque ao centro Omid."
+    },
+    "tr": {
+     "t": "Afganistan: Pakistan'la çatışmaların sivil kayıpları, Ocak–Mart 2026",
+     "o": "BM Afganistan Yardım Misyonu (UNAMA)",
+     "w": "2026'nın ilk üç ayında Taliban ve Pakistan güçleri arasındaki çatışmalarda Afganistan'da 372 sivil öldü, 397 sivil yaralandı. Kayıpların yüzde 64'üne Pakistan hava saldırıları yol açtı. Ölümlerin yarısından fazlası tek bir saldırıdan kaynaklanıyor: 16 Mart'ta Kabil'deki Omid bağımlılık tedavi merkezine yapılan saldırı, 269 ölü ve 122 yaralı.",
+     "g": "Misyon tarafından doğrulanmış veriler.",
+     "r": "Rapora eklenen yazılı yanıtında Pakistan hiçbir hastanenin, tedavi merkezinin ya da sivil tesisin hedef alınmadığını ve yıl başından bu yana 130 Pakistanlı sivil ve güvenlik görevlisinin öldürüldüğünü söylüyor. Taliban yönetimi yalnızca Omid merkezine yapılan saldırıda 400'den fazla kişinin öldüğünü açıklıyor."
+    },
+    "zh": {
+     "t": "阿富汗：与巴基斯坦冲突造成的平民伤亡（2026年1月至3月）",
+     "o": "联合国阿富汗援助团（联阿援助团）",
+     "w": "2026年头三个月，塔利班部队与巴基斯坦部队之间的冲突在阿富汗造成372名平民死亡、397人受伤。64%的伤亡由巴基斯坦空袭造成。一半以上的死亡来自一次袭击，即3月16日对喀布尔奥米德戒毒治疗中心的空袭：269人死亡，122人受伤。",
+     "g": "经援助团核实的数据。",
+     "r": "巴基斯坦在报告所附书面答复中表示，没有以任何医院、治疗中心或民用设施为目标，并称自年初以来已有130名巴基斯坦平民和安全人员遇害。塔利班当局称仅奥米德中心一次袭击就造成400多人死亡。"
+    },
+    "ar": {
+     "t": "أفغانستان: الضحايا المدنيون للاشتباكات مع باكستان، يناير–مارس 2026",
+     "o": "بعثة الأمم المتحدة لتقديم المساعدة إلى أفغانستان (يوناما)",
+     "w": "في الأشهر الثلاثة الأولى من عام 2026 قتلت الاشتباكات بين قوات طالبان والقوات الباكستانية 372 مدنيًا في أفغانستان وأصابت 397. وتسببت الغارات الجوية الباكستانية في 64% من الضحايا. وأكثر من نصف القتلى سقطوا في هجوم واحد، هو غارة 16 مارس على مركز «أميد» لعلاج الإدمان في كابل: 269 قتيلًا و122 جريحًا.",
+     "g": "بيانات تحققت منها البعثة.",
+     "r": "في ردها المكتوب المرفق بالتقرير تقول باكستان إنها لم تستهدف أي مستشفى أو مركز علاج أو منشأة مدنية، وإن 130 مدنيًا وعنصر أمن باكستانيًا قُتلوا منذ بداية العام. وتتحدث سلطات طالبان عن أكثر من 400 قتيل في الهجوم على مركز «أميد» وحده."
+    },
+    "he": {
+     "t": "אפגניסטן: הנפגעים האזרחיים של העימותים עם פקיסטן, ינואר–מרץ 2026",
+     "o": "משלחת הסיוע של האו״ם באפגניסטן (UNAMA)",
+     "w": "בשלושת החודשים הראשונים של 2026 נהרגו באפגניסטן 372 אזרחים ו־397 נפצעו בעימותים בין כוחות הטליבאן לכוחות פקיסטן. התקיפות האוויריות של פקיסטן גרמו ל־64% מהנפגעים. יותר ממחצית ההרוגים נהרגו בתקיפה אחת, זו של 16 במרץ על מרכז הגמילה «אומיד» בקאבול: 269 הרוגים ו־122 פצועים.",
+     "g": "נתונים שאומתו בידי המשלחת.",
+     "r": "בתגובתה הכתובה שצורפה לדוח טוענת פקיסטן כי לא כוונה לשום בית חולים, מרכז טיפול או מתקן אזרחי, וכי מתחילת השנה נהרגו 130 אזרחים ואנשי ביטחון פקיסטנים. רשויות הטליבאן מדברות על יותר מ־400 הרוגים בתקיפה על מרכז «אומיד» לבדה."
+    },
+    "ru": {
+     "t": "Афганистан: жертвы среди мирного населения в столкновениях с Пакистаном, январь–март 2026 года",
+     "o": "Миссия ООН по содействию Афганистану (МООНСА)",
+     "w": "За первые три месяца 2026 года столкновения между силами талибов и Пакистана унесли в Афганистане жизни 372 мирных жителей, ещё 397 получили ранения. 64% жертв пришлись на пакистанские авиаудары. Больше половины погибших — результат одного удара: 16 марта по центру лечения наркозависимости «Омид» в Кабуле, 269 погибших и 122 раненых.",
+     "g": "Данные, проверенные миссией.",
+     "r": "В письменном ответе, включённом в доклад, Пакистан заявляет, что не наносил ударов ни по больницам, ни по лечебным центрам, ни по гражданским объектам, и что с начала года погибли 130 пакистанских мирных жителей и сотрудников сил безопасности. Власти талибов говорят о более чем 400 погибших только при ударе по центру «Омид»."
+    }
+   }
+  },
+  {
+   "id": "binuh26q2",
+   "type": "inq",
+   "theater": "haiti",
+   "date": "2026-08-25",
+   "url": "https://binuh.unmissions.org/sites/default/files/2026-08/Q2%202026%20-%20EN-V3.pdf",
+   "pieces": [
+    "nd-haiti-chi-controlla-la-forza"
+   ],
+   "text": {
+    "it": {
+     "t": "Haiti: rapporto trimestrale sui diritti umani, aprile–giugno 2026",
+     "o": "Ufficio integrato ONU ad Haiti (BINUH)",
+     "w": "Tra aprile e giugno 2026 almeno 1.408 persone sono state uccise e 656 ferite. Gli attacchi delle bande causano il 55% delle vittime. Oltre il 40% dei morti e dei feriti è avvenuto durante le operazioni delle forze di sicurezza contro le bande, a volte con una compagnia militare privata straniera.",
+     "g": "Dati documentati dalla missione.",
+     "r": ""
+    },
+    "en": {
+     "t": "Haiti: quarterly human rights report, April–June 2026",
+     "o": "UN Integrated Office in Haiti (BINUH)",
+     "w": "Between April and June 2026 at least 1,408 people were killed and 656 injured. Gang attacks caused 55% of the casualties. More than 40% of those killed and injured were documented during security force operations against gangs, sometimes involving a foreign private military company.",
+     "g": "Data documented by the mission.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Haïti : rapport trimestriel sur les droits humains, avril–juin 2026",
+     "o": "Bureau intégré des Nations unies en Haïti (BINUH)",
+     "w": "Entre avril et juin 2026, au moins 1 408 personnes ont été tuées et 656 blessées. Les attaques des gangs sont à l'origine de 55 % des victimes. Plus de 40 % des morts et des blessés ont été recensés lors d'opérations des forces de sécurité contre les gangs, parfois avec une société militaire privée étrangère.",
+     "g": "Données documentées par la mission.",
+     "r": ""
+    },
+    "de": {
+     "t": "Haiti: Quartalsbericht zur Menschenrechtslage, April–Juni 2026",
+     "o": "Integriertes UN-Büro in Haiti (BINUH)",
+     "w": "Zwischen April und Juni 2026 wurden mindestens 1.408 Menschen getötet und 656 verletzt. Angriffe der Banden verursachten 55 % der Opfer. Mehr als 40 % der Toten und Verletzten wurden bei Einsätzen der Sicherheitskräfte gegen die Banden dokumentiert, teils unter Beteiligung einer ausländischen privaten Militärfirma.",
+     "g": "Von der Mission dokumentierte Daten.",
+     "r": ""
+    },
+    "es": {
+     "t": "Haití: informe trimestral sobre derechos humanos, abril–junio de 2026",
+     "o": "Oficina Integrada de la ONU en Haití (BINUH)",
+     "w": "Entre abril y junio de 2026 al menos 1.408 personas fueron asesinadas y 656 heridas. Los ataques de las bandas causan el 55 % de las víctimas. Más del 40 % de los muertos y heridos se registró durante operaciones de las fuerzas de seguridad contra las bandas, a veces con una empresa militar privada extranjera.",
+     "g": "Datos documentados por la misión.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Haiti: relatório trimestral sobre direitos humanos, abril–junho de 2026",
+     "o": "Gabinete Integrado da ONU no Haiti (BINUH)",
+     "w": "Entre abril e junho de 2026, pelo menos 1408 pessoas foram mortas e 656 feridas. Os ataques dos gangues causaram 55 % das vítimas. Mais de 40 % dos mortos e feridos foram registados durante operações das forças de segurança contra os gangues, por vezes com uma empresa militar privada estrangeira.",
+     "g": "Dados documentados pela missão.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Haiti: üç aylık insan hakları raporu, Nisan–Haziran 2026",
+     "o": "BM Haiti Entegre Ofisi (BINUH)",
+     "w": "Nisan ile Haziran 2026 arasında en az 1.408 kişi öldürüldü, 656 kişi yaralandı. Kayıpların yüzde 55'i çete saldırılarından kaynaklanıyor. Ölü ve yaralıların yüzde 40'tan fazlası güvenlik güçlerinin çetelere karşı operasyonları sırasında kaydedildi; bunlara zaman zaman yabancı bir özel askeri şirket de katıldı.",
+     "g": "Misyon tarafından belgelenmiş veriler.",
+     "r": ""
+    },
+    "zh": {
+     "t": "海地：人权状况季度报告（2026年4月至6月）",
+     "o": "联合国海地综合办事处（联海综合办）",
+     "w": "2026年4月至6月，至少1408人被杀，656人受伤。帮派袭击造成55%的伤亡。超过40%的死伤发生在安全部队打击帮派的行动中，其中有时有一家外国私营军事公司参与。",
+     "g": "特派团记录的数据。",
+     "r": ""
+    },
+    "ar": {
+     "t": "هايتي: التقرير الفصلي عن حقوق الإنسان، أبريل–يونيو 2026",
+     "o": "مكتب الأمم المتحدة المتكامل في هايتي (BINUH)",
+     "w": "بين أبريل ويونيو 2026 قُتل ما لا يقل عن 1408 أشخاص وجُرح 656. وتتسبب هجمات العصابات في 55% من الضحايا. وسُجّل أكثر من 40% من القتلى والجرحى خلال عمليات قوات الأمن ضد العصابات، وأحيانًا بمشاركة شركة عسكرية خاصة أجنبية.",
+     "g": "بيانات وثّقتها البعثة.",
+     "r": ""
+    },
+    "he": {
+     "t": "האיטי: דוח רבעוני על זכויות האדם, אפריל–יוני 2026",
+     "o": "המשרד המשולב של האו״ם בהאיטי (BINUH)",
+     "w": "בין אפריל ליוני 2026 נהרגו לפחות 1,408 בני אדם ו־656 נפצעו. התקפות הכנופיות גרמו ל־55% מהנפגעים. יותר מ־40% מההרוגים והפצועים תועדו במהלך מבצעים של כוחות הביטחון נגד הכנופיות, לעיתים בהשתתפות חברה צבאית פרטית זרה.",
+     "g": "נתונים שתיעדה המשלחת.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Гаити: квартальный доклад о правах человека, апрель–июнь 2026 года",
+     "o": "Объединённое отделение ООН в Гаити (ОООНКГ)",
+     "w": "С апреля по июнь 2026 года были убиты не менее 1408 человек, 656 ранены. Нападения банд стали причиной 55% жертв. Более 40% убитых и раненых зафиксированы в ходе операций сил безопасности против банд, иногда с участием иностранной частной военной компании.",
+     "g": "Данные, задокументированные миссией.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "unmiss26q1",
+   "type": "inq",
+   "theater": "southsudan",
+   "date": "2026-06-30",
+   "url": "https://unmiss.unmissions.org/sites/default/files/2026-06/quarterly_brief_on_violence_affecting_civilians_january_-_march_2026.pdf",
+   "pieces": [
+    "nd-sud-sudan-voto-senza-pace",
+    "glo-sud-sudan"
+   ],
+   "text": {
+    "it": {
+     "t": "Sud Sudan: violenza contro i civili, gennaio–marzo 2026",
+     "o": "Missione ONU in Sud Sudan (UNMISS)",
+     "w": "Nel primo trimestre del 2026 la missione ha documentato 206 episodi di violenza legata al conflitto: 767 civili uccisi, 457 feriti, 93 rapiti, 71 vittime di violenza sessuale. Gli episodi sono un po' meno del trimestre prima, ma i morti sono aumentati dell'89%. La missione avverte che i numeri sottostimano la realtà, per i limiti di accesso e di risorse.",
+     "g": "Dati documentati dalla missione, dichiarati incompleti.",
+     "r": ""
+    },
+    "en": {
+     "t": "South Sudan: violence affecting civilians, January–March 2026",
+     "o": "UN Mission in South Sudan (UNMISS)",
+     "w": "In the first quarter of 2026 the mission documented 206 incidents of conflict-related violence: 767 civilians killed, 457 injured, 93 abducted, 71 survivors of sexual violence. Incidents fell slightly from the previous quarter, but deaths rose by 89%. The mission warns that the figures understate reality, because of limited access and resources.",
+     "g": "Data documented by the mission, declared incomplete.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Soudan du Sud : la violence contre les civils, janvier–mars 2026",
+     "o": "Mission des Nations unies au Soudan du Sud (MINUSS)",
+     "w": "Au premier trimestre 2026, la mission a documenté 206 épisodes de violence liée au conflit : 767 civils tués, 457 blessés, 93 enlevés, 71 victimes de violences sexuelles. Les épisodes sont un peu moins nombreux qu'au trimestre précédent, mais les morts ont augmenté de 89 %. La mission prévient que les chiffres sous-estiment la réalité, en raison des limites d'accès et de moyens.",
+     "g": "Données documentées par la mission, déclarées incomplètes.",
+     "r": ""
+    },
+    "de": {
+     "t": "Südsudan: Gewalt gegen Zivilisten, Januar–März 2026",
+     "o": "UN-Mission im Südsudan (UNMISS)",
+     "w": "Im ersten Quartal 2026 dokumentierte die Mission 206 Fälle konfliktbezogener Gewalt: 767 getötete Zivilisten, 457 Verletzte, 93 Entführte, 71 Opfer sexueller Gewalt. Die Zahl der Fälle sank leicht gegenüber dem Vorquartal, die der Toten stieg jedoch um 89 %. Die Mission warnt, dass die Zahlen die Wirklichkeit unterschätzen, wegen eingeschränkten Zugangs und begrenzter Mittel.",
+     "g": "Von der Mission dokumentierte Daten, als unvollständig ausgewiesen.",
+     "r": ""
+    },
+    "es": {
+     "t": "Sudán del Sur: violencia contra los civiles, enero–marzo de 2026",
+     "o": "Misión de la ONU en Sudán del Sur (UNMISS)",
+     "w": "En el primer trimestre de 2026 la misión documentó 206 episodios de violencia vinculada al conflicto: 767 civiles muertos, 457 heridos, 93 secuestrados, 71 víctimas de violencia sexual. Los episodios son algo menos que en el trimestre anterior, pero los muertos aumentaron un 89 %. La misión advierte que las cifras subestiman la realidad, por las limitaciones de acceso y de recursos.",
+     "g": "Datos documentados por la misión, declarados incompletos.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Sudão do Sul: violência contra civis, janeiro–março de 2026",
+     "o": "Missão da ONU no Sudão do Sul (UNMISS)",
+     "w": "No primeiro trimestre de 2026, a missão documentou 206 episódios de violência ligada ao conflito: 767 civis mortos, 457 feridos, 93 raptados, 71 vítimas de violência sexual. Os episódios diminuíram ligeiramente face ao trimestre anterior, mas os mortos aumentaram 89 %. A missão avisa que os números subestimam a realidade, devido às limitações de acesso e de recursos.",
+     "g": "Dados documentados pela missão, declarados incompletos.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Güney Sudan: sivillere yönelik şiddet, Ocak–Mart 2026",
+     "o": "BM Güney Sudan Misyonu (UNMISS)",
+     "w": "2026'nın ilk çeyreğinde misyon çatışmayla bağlantılı 206 şiddet olayı belgeledi: 767 sivil öldürüldü, 457 kişi yaralandı, 93 kişi kaçırıldı, 71 kişi cinsel şiddete maruz kaldı. Olay sayısı bir önceki çeyreğe göre biraz azaldı, ancak ölümler yüzde 89 arttı. Misyon, erişim ve kaynak kısıtları nedeniyle rakamların gerçeğin altında kaldığı uyarısında bulunuyor.",
+     "g": "Misyon tarafından belgelenmiş, eksik olduğu belirtilen veriler.",
+     "r": ""
+    },
+    "zh": {
+     "t": "南苏丹：针对平民的暴力（2026年1月至3月）",
+     "o": "联合国南苏丹特派团（南苏丹特派团）",
+     "w": "2026年第一季度，特派团记录了206起与冲突有关的暴力事件：767名平民被杀，457人受伤，93人被绑架，71人遭受性暴力。事件数量比上一季度略有减少，但死亡人数增加了89%。特派团提醒，由于准入和资源受限，这些数字低估了实际情况。",
+     "g": "特派团记录的数据，已声明不完整。",
+     "r": ""
+    },
+    "ar": {
+     "t": "جنوب السودان: العنف ضد المدنيين، يناير–مارس 2026",
+     "o": "بعثة الأمم المتحدة في جنوب السودان (أونميس)",
+     "w": "في الربع الأول من عام 2026 وثّقت البعثة 206 حوادث عنف مرتبطة بالنزاع: 767 قتيلًا مدنيًا و457 جريحًا و93 مختطفًا و71 ضحية للعنف الجنسي. تراجع عدد الحوادث قليلًا عن الربع السابق، لكن عدد القتلى ارتفع بنسبة 89%. وتنبّه البعثة إلى أن الأرقام أقل من الواقع بسبب القيود على الوصول والموارد.",
+     "g": "بيانات وثّقتها البعثة، وصرّحت بأنها غير مكتملة.",
+     "r": ""
+    },
+    "he": {
+     "t": "דרום סודאן: אלימות נגד אזרחים, ינואר–מרץ 2026",
+     "o": "משלחת האו״ם בדרום סודאן (UNMISS)",
+     "w": "ברבעון הראשון של 2026 תיעדה המשלחת 206 אירועי אלימות הקשורים לסכסוך: 767 אזרחים נהרגו, 457 נפצעו, 93 נחטפו ו־71 היו קורבנות לאלימות מינית. מספר האירועים ירד מעט לעומת הרבעון הקודם, אך מספר ההרוגים עלה ב־89%. המשלחת מזהירה כי המספרים מציגים תמונה חסרה, בשל מגבלות גישה ומשאבים.",
+     "g": "נתונים שתיעדה המשלחת, שהוצהרו כחלקיים.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Южный Судан: насилие в отношении мирных жителей, январь–март 2026 года",
+     "o": "Миссия ООН в Южном Судане (МООНЮС)",
+     "w": "В первом квартале 2026 года миссия задокументировала 206 случаев насилия, связанного с конфликтом: 767 убитых мирных жителей, 457 раненых, 93 похищенных, 71 жертва сексуального насилия. Число случаев немного снизилось по сравнению с предыдущим кварталом, но число погибших выросло на 89%. Миссия предупреждает, что цифры занижены из-за ограниченного доступа и ресурсов.",
+     "g": "Данные, задокументированные миссией и признанные ею неполными.",
+     "r": ""
+    }
+   }
+  },
+  {
+   "id": "iranffm63",
+   "type": "inq",
+   "theater": "iran",
+   "date": "2026-09-17",
+   "url": "https://undocs.org/A/HRC/63/61",
+   "pieces": [
+    "nd-minab"
+   ],
+   "text": {
+    "it": {
+     "t": "Iran: repressione delle proteste e guerra con Stati Uniti e Israele (A/HRC/63/61)",
+     "o": "Missione internazionale indipendente d'inchiesta sull'Iran",
+     "w": "Nella repressione delle proteste iniziate a dicembre 2025, le autorità iraniane hanno commesso crimini contro l'umanità. Per la guerra iniziata il 28 febbraio 2026, ci sono ragionevoli motivi per ritenere che gli Stati Uniti abbiano commesso crimini di guerra in due attacchi che hanno ucciso almeno 178 civili: i missili Tomahawk sulla scuola elementare di Minab, con oltre 150 morti di cui circa 120 bambini, e l'attacco su un complesso sportivo e un quartiere di Lamerd, con 22 morti.",
+     "g": "«Ragionevoli motivi per ritenere»; organo d'inchiesta, non tribunale. La missione non ha mai avuto accesso all'Iran.",
+     "r": "Il Dipartimento di Stato non considera il rapporto credibile; il Pentagono dice che la sua indagine è ancora in corso. Gli Stati Uniti negano di aver colpito nella zona di Lamerd."
+    },
+    "en": {
+     "t": "Iran: repression of the protests and war with the United States and Israel (A/HRC/63/61)",
+     "o": "Independent International Fact-Finding Mission on the Islamic Republic of Iran",
+     "w": "In repressing the protests that began in December 2025, the Iranian authorities committed crimes against humanity. For the war that began on 28 February 2026, there are reasonable grounds to believe that the United States committed war crimes in two strikes that killed at least 178 civilians: the Tomahawk missiles on the primary school in Minab, with more than 150 dead including about 120 children, and the strike on a sports complex and residential area in Lamerd, with 22 dead.",
+     "g": "“Reasonable grounds to believe”; a body of inquiry, not a court. The mission has never had access to Iran.",
+     "r": "The State Department does not consider the report credible; the Pentagon says its own investigation is still under way. The United States denies striking in the vicinity of Lamerd."
+    },
+    "fr": {
+     "t": "Iran : la répression des manifestations et la guerre avec les États-Unis et Israël (A/HRC/63/61)",
+     "o": "Mission internationale indépendante d'établissement des faits sur la République islamique d'Iran",
+     "w": "En réprimant les manifestations commencées en décembre 2025, les autorités iraniennes ont commis des crimes contre l'humanité. Pour la guerre commencée le 28 février 2026, il existe des motifs raisonnables de croire que les États-Unis ont commis des crimes de guerre lors de deux frappes qui ont tué au moins 178 civils : les missiles Tomahawk sur l'école primaire de Minab, avec plus de 150 morts dont environ 120 enfants, et la frappe sur un complexe sportif et un quartier résidentiel de Lamerd, avec 22 morts.",
+     "g": "« Motifs raisonnables de croire » ; organe d'enquête, non tribunal. La mission n'a jamais eu accès à l'Iran.",
+     "r": "Le Département d'État ne juge pas le rapport crédible ; le Pentagone affirme que sa propre enquête est toujours en cours. Les États-Unis nient avoir frappé dans la zone de Lamerd."
+    },
+    "de": {
+     "t": "Iran: Niederschlagung der Proteste und Krieg mit den USA und Israel (A/HRC/63/61)",
+     "o": "Unabhängige internationale Erkundungsmission zur Islamischen Republik Iran",
+     "w": "Bei der Niederschlagung der im Dezember 2025 begonnenen Proteste haben die iranischen Behörden Verbrechen gegen die Menschlichkeit begangen. Für den am 28. Februar 2026 begonnenen Krieg gibt es hinreichende Gründe zu der Annahme, dass die Vereinigten Staaten bei zwei Angriffen mit mindestens 178 zivilen Toten Kriegsverbrechen begangen haben: die Tomahawk-Raketen auf die Grundschule in Minab, mit mehr als 150 Toten, darunter etwa 120 Kinder, und der Angriff auf eine Sportanlage und ein Wohngebiet in Lamerd, mit 22 Toten.",
+     "g": "„Hinreichende Gründe zu der Annahme“; ein Untersuchungsorgan, kein Gericht. Die Mission hatte nie Zugang zu Iran.",
+     "r": "Das Außenministerium hält den Bericht nicht für glaubwürdig; das Pentagon erklärt, seine eigene Untersuchung laufe noch. Die USA bestreiten, in der Gegend von Lamerd angegriffen zu haben."
+    },
+    "es": {
+     "t": "Irán: la represión de las protestas y la guerra con Estados Unidos e Israel (A/HRC/63/61)",
+     "o": "Misión Internacional Independiente de Investigación sobre la República Islámica del Irán",
+     "w": "Al reprimir las protestas iniciadas en diciembre de 2025, las autoridades iraníes cometieron crímenes de lesa humanidad. En la guerra iniciada el 28 de febrero de 2026, hay motivos razonables para creer que Estados Unidos cometió crímenes de guerra en dos ataques que mataron al menos a 178 civiles: los misiles Tomahawk contra la escuela primaria de Minab, con más de 150 muertos, de ellos unos 120 niños, y el ataque contra un complejo deportivo y una zona residencial de Lamerd, con 22 muertos.",
+     "g": "«Motivos razonables para creer»; órgano de investigación, no tribunal. La misión nunca ha tenido acceso a Irán.",
+     "r": "El Departamento de Estado no considera creíble el informe; el Pentágono dice que su propia investigación sigue en curso. Estados Unidos niega haber atacado en la zona de Lamerd."
+    },
+    "pt": {
+     "t": "Irão: a repressão dos protestos e a guerra com os Estados Unidos e Israel (A/HRC/63/61)",
+     "o": "Missão Internacional Independente de Apuramento dos Factos sobre a República Islâmica do Irão",
+     "w": "Na repressão dos protestos iniciados em dezembro de 2025, as autoridades iranianas cometeram crimes contra a humanidade. Na guerra iniciada a 28 de fevereiro de 2026, há motivos razoáveis para crer que os Estados Unidos cometeram crimes de guerra em dois ataques que mataram pelo menos 178 civis: os mísseis Tomahawk contra a escola primária de Minab, com mais de 150 mortos, entre os quais cerca de 120 crianças, e o ataque a um complexo desportivo e uma zona residencial de Lamerd, com 22 mortos.",
+     "g": "«Motivos razoáveis para crer»; órgão de inquérito, não tribunal. A missão nunca teve acesso ao Irão.",
+     "r": "O Departamento de Estado não considera o relatório credível; o Pentágono diz que a sua própria investigação ainda está em curso. Os Estados Unidos negam ter atacado na zona de Lamerd."
+    },
+    "tr": {
+     "t": "İran: protestoların bastırılması ve ABD ve İsrail'le savaş (A/HRC/63/61)",
+     "o": "BM İran İslam Cumhuriyeti Bağımsız Uluslararası Gerçek Bulma Misyonu",
+     "w": "Aralık 2025'te başlayan protestoları bastırırken İran makamları insanlığa karşı suçlar işledi. 28 Şubat 2026'da başlayan savaşta ise ABD'nin en az 178 sivilin öldüğü iki saldırıda savaş suçu işlediğine inanmak için makul gerekçeler var: Minab'daki ilkokula atılan Tomahawk füzeleri (yaklaşık 120'si çocuk olmak üzere 150'den fazla ölü) ve Lamerd'de bir spor kompleksi ile yerleşim bölgesine yapılan saldırı (22 ölü).",
+     "g": "«İnanmak için makul gerekçeler»; mahkeme değil, soruşturma organı. Misyon İran'a hiçbir zaman erişim sağlayamadı.",
+     "r": "ABD Dışişleri Bakanlığı raporu güvenilir bulmuyor; Pentagon kendi soruşturmasının sürdüğünü söylüyor. ABD, Lamerd bölgesinde saldırı yaptığını reddediyor."
+    },
+    "zh": {
+     "t": "伊朗：镇压抗议活动以及与美国和以色列的战争（A/HRC/63/61）",
+     "o": "伊朗伊斯兰共和国问题独立国际实况调查团",
+     "w": "伊朗当局在镇压2025年12月开始的抗议活动时犯下了危害人类罪。在2026年2月28日开始的战争中，有合理理由相信美国在两次共造成至少178名平民死亡的袭击中犯下了战争罪：用战斧导弹袭击米纳卜的一所小学，造成150多人死亡，其中约120名儿童；以及袭击拉梅尔德的一处体育设施和居民区，造成22人死亡。",
+     "g": "“有合理理由相信”；调查机构，而非法院。调查团从未获准进入伊朗。",
+     "r": "美国国务院认为该报告不可信；五角大楼称其自身调查仍在进行。美国否认在拉梅尔德地区实施打击。"
+    },
+    "ar": {
+     "t": "إيران: قمع الاحتجاجات والحرب مع الولايات المتحدة وإسرائيل (A/HRC/63/61)",
+     "o": "بعثة الأمم المتحدة الدولية المستقلة لتقصي الحقائق بشأن جمهورية إيران الإسلامية",
+     "w": "ارتكبت السلطات الإيرانية جرائم ضد الإنسانية في قمع الاحتجاجات التي بدأت في ديسمبر 2025. وفي الحرب التي بدأت في 28 فبراير 2026 توجد أسباب معقولة للاعتقاد بأن الولايات المتحدة ارتكبت جرائم حرب في هجومين قتلا ما لا يقل عن 178 مدنيًا: صواريخ توماهوك على المدرسة الابتدائية في ميناب، وأكثر من 150 قتيلًا بينهم نحو 120 طفلًا، والهجوم على مجمع رياضي وحي سكني في لامرد، و22 قتيلًا.",
+     "g": "«أسباب معقولة للاعتقاد»؛ هيئة تحقيق لا محكمة. لم يُسمح للبعثة قط بدخول إيران.",
+     "r": "لا تعتبر وزارة الخارجية الأمريكية التقرير ذا مصداقية؛ ويقول البنتاغون إن تحقيقه الخاص لا يزال جاريًا. وتنفي الولايات المتحدة أنها نفذت ضربة في منطقة لامرد."
+    },
+    "he": {
+     "t": "איראן: דיכוי ההפגנות והמלחמה עם ארצות הברית וישראל (A/HRC/63/61)",
+     "o": "משלחת בירור העובדות הבינלאומית העצמאית בנוגע לרפובליקה האסלאמית של איראן",
+     "w": "בדיכוי ההפגנות שהחלו בדצמבר 2025 ביצעו הרשויות האיראניות פשעים נגד האנושות. במלחמה שהחלה ב־28 בפברואר 2026 יש יסוד סביר להניח שארצות הברית ביצעה פשעי מלחמה בשתי תקיפות שבהן נהרגו לפחות 178 אזרחים: טילי הטומהוק על בית הספר היסודי במינאב, עם יותר מ־150 הרוגים, מהם כ־120 ילדים, והתקיפה על מתחם ספורט ושכונת מגורים בלאמרד, עם 22 הרוגים.",
+     "g": "«יסוד סביר להניח»; גוף חקירה, לא בית משפט. המשלחת מעולם לא קיבלה גישה לאיראן.",
+     "r": "מחלקת המדינה האמריקאית אינה רואה בדוח אמין; הפנטגון אומר כי חקירתו שלו עדיין נמשכת. ארצות הברית מכחישה שתקפה באזור לאמרד."
+    },
+    "ru": {
+     "t": "Иран: подавление протестов и война с США и Израилем (A/HRC/63/61)",
+     "o": "Независимая международная миссия по установлению фактов по Исламской Республике Иран",
+     "w": "Подавляя протесты, начавшиеся в декабре 2025 года, иранские власти совершили преступления против человечности. В войне, начавшейся 28 февраля 2026 года, есть разумные основания полагать, что США совершили военные преступления при двух ударах, унёсших жизни не менее 178 мирных жителей: ракеты «Томагавк» по начальной школе в Минабе — более 150 погибших, из них около 120 детей, — и удар по спортивному комплексу и жилому кварталу в Ламерде — 22 погибших.",
+     "g": "«Разумные основания полагать»; следственный орган, а не суд. Миссия ни разу не получила доступа в Иран.",
+     "r": "Госдепартамент США не считает доклад достоверным; Пентагон заявляет, что его собственное расследование ещё продолжается. США отрицают, что наносили удар в районе Ламерда."
+    }
+   }
+  },
+  {
+   "id": "hrmmu26h1",
+   "type": "inq",
+   "theater": "ruua",
+   "date": "2026-07-14",
+   "url": "https://ukraine.un.org/sites/default/files/2026-07/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20June%20and%20the%20first%20six%20months%20of%202026_ENG.pdf",
+   "pieces": [
+    "nd-perche-ucraina-non-sudan"
+   ],
+   "text": {
+    "it": {
+     "t": "Ucraina: le vittime civili nel primo semestre del 2026",
+     "o": "Missione ONU di monitoraggio dei diritti umani in Ucraina (HRMMU)",
+     "w": "Tra gennaio e giugno 2026 sono stati uccisi 1.396 civili e 7.978 feriti, il 37% in più dello stesso periodo del 2025. Giugno è il mese con più morti civili da aprile 2022. Quasi tutte le vittime sono nelle zone controllate dal governo ucraino, e l'aumento è dovuto soprattutto agli attacchi russi a lungo raggio con missili e droni. Le autorità russe dichiarano 250 civili uccisi e 1.596 feriti sul proprio territorio: un dato che la missione riporta senza averlo verificato.",
+     "g": "Dati verificati dalla missione; i dati russi sono solo riportati.",
+     "r": ""
+    },
+    "en": {
+     "t": "Ukraine: civilian casualties in the first half of 2026",
+     "o": "UN Human Rights Monitoring Mission in Ukraine (HRMMU)",
+     "w": "Between January and June 2026, 1,396 civilians were killed and 7,978 injured, 37% more than in the same period of 2025. June was the month with the most civilian deaths since April 2022. Almost all casualties were in areas controlled by the Ukrainian government, and the increase was driven mainly by Russian long-range missile and drone attacks. The Russian authorities report 250 civilians killed and 1,596 injured on their own territory: a figure the mission reports without having verified it.",
+     "g": "Data verified by the mission; the Russian figures are only reported.",
+     "r": ""
+    },
+    "fr": {
+     "t": "Ukraine : les victimes civiles au premier semestre 2026",
+     "o": "Mission de surveillance des droits de l'homme des Nations unies en Ukraine (HRMMU)",
+     "w": "Entre janvier et juin 2026, 1 396 civils ont été tués et 7 978 blessés, 37 % de plus qu'à la même période de 2025. Juin est le mois le plus meurtrier pour les civils depuis avril 2022. Presque toutes les victimes se trouvent dans les zones contrôlées par le gouvernement ukrainien, et la hausse est due surtout aux attaques russes à longue portée par missiles et drones. Les autorités russes déclarent 250 civils tués et 1 596 blessés sur leur territoire : un chiffre que la mission rapporte sans l'avoir vérifié.",
+     "g": "Données vérifiées par la mission ; les chiffres russes sont seulement rapportés.",
+     "r": ""
+    },
+    "de": {
+     "t": "Ukraine: zivile Opfer im ersten Halbjahr 2026",
+     "o": "UN-Menschenrechtsbeobachtungsmission in der Ukraine (HRMMU)",
+     "w": "Zwischen Januar und Juni 2026 wurden 1.396 Zivilisten getötet und 7.978 verletzt, 37 % mehr als im gleichen Zeitraum 2025. Der Juni war der Monat mit den meisten zivilen Toten seit April 2022. Fast alle Opfer gab es in den von der ukrainischen Regierung kontrollierten Gebieten; der Anstieg geht vor allem auf russische Langstreckenangriffe mit Raketen und Drohnen zurück. Die russischen Behörden melden 250 getötete und 1.596 verletzte Zivilisten auf ihrem eigenen Gebiet: eine Zahl, die die Mission wiedergibt, ohne sie überprüft zu haben.",
+     "g": "Von der Mission überprüfte Daten; die russischen Zahlen werden nur wiedergegeben.",
+     "r": ""
+    },
+    "es": {
+     "t": "Ucrania: las víctimas civiles en el primer semestre de 2026",
+     "o": "Misión de Observación de los Derechos Humanos de la ONU en Ucrania (HRMMU)",
+     "w": "Entre enero y junio de 2026 murieron 1.396 civiles y 7.978 resultaron heridos, un 37 % más que en el mismo periodo de 2025. Junio fue el mes con más civiles muertos desde abril de 2022. Casi todas las víctimas se produjeron en zonas controladas por el Gobierno ucraniano, y el aumento se debe sobre todo a los ataques rusos de largo alcance con misiles y drones. Las autoridades rusas declaran 250 civiles muertos y 1.596 heridos en su propio territorio: una cifra que la misión recoge sin haberla verificado.",
+     "g": "Datos verificados por la misión; las cifras rusas solo se recogen.",
+     "r": ""
+    },
+    "pt": {
+     "t": "Ucrânia: as vítimas civis no primeiro semestre de 2026",
+     "o": "Missão de Monitorização dos Direitos Humanos da ONU na Ucrânia (HRMMU)",
+     "w": "Entre janeiro e junho de 2026, foram mortos 1396 civis e 7978 ficaram feridos, mais 37 % do que no mesmo período de 2025. Junho foi o mês com mais civis mortos desde abril de 2022. Quase todas as vítimas registaram-se em zonas controladas pelo governo ucraniano, e o aumento deve-se sobretudo aos ataques russos de longo alcance com mísseis e drones. As autoridades russas declaram 250 civis mortos e 1596 feridos no seu próprio território: um número que a missão refere sem o ter verificado.",
+     "g": "Dados verificados pela missão; os números russos são apenas referidos.",
+     "r": ""
+    },
+    "tr": {
+     "t": "Ukrayna: 2026'nın ilk yarısında sivil kayıplar",
+     "o": "BM Ukrayna İnsan Hakları İzleme Misyonu (HRMMU)",
+     "w": "Ocak ile Haziran 2026 arasında 1.396 sivil öldü, 7.978 sivil yaralandı; bu, 2025'in aynı dönemine göre yüzde 37 artış demek. Haziran, Nisan 2022'den bu yana en çok sivilin öldüğü ay oldu. Kayıpların neredeyse tamamı Ukrayna hükümetinin kontrolündeki bölgelerde; artışın başlıca nedeni Rusya'nın füze ve insansız hava araçlarıyla düzenlediği uzun menzilli saldırılar. Rus makamları kendi topraklarında 250 sivilin öldüğünü, 1.596'sının yaralandığını açıklıyor: misyon bu rakamı doğrulamadan aktarıyor.",
+     "g": "Misyon tarafından doğrulanmış veriler; Rus rakamları yalnızca aktarılıyor.",
+     "r": ""
+    },
+    "zh": {
+     "t": "乌克兰：2026年上半年的平民伤亡",
+     "o": "联合国乌克兰人权监测团",
+     "w": "2026年1月至6月，1396名平民死亡，7978人受伤，比2025年同期增加37%。6月是2022年4月以来平民死亡人数最多的月份。几乎所有伤亡都发生在乌克兰政府控制地区，增加主要是俄罗斯使用导弹和无人机的远程袭击所致。俄罗斯当局称其本国领土上有250名平民死亡、1596人受伤：监测团转述了这一数字，但未加核实。",
+     "g": "经监测团核实的数据；俄方数字仅为转述。",
+     "r": ""
+    },
+    "ar": {
+     "t": "أوكرانيا: الضحايا المدنيون في النصف الأول من 2026",
+     "o": "بعثة الأمم المتحدة لرصد حقوق الإنسان في أوكرانيا",
+     "w": "بين يناير ويونيو 2026 قُتل 1396 مدنيًا وجُرح 7978، أي بزيادة 37% عن الفترة نفسها من 2025. وكان يونيو الشهر الذي شهد أكبر عدد من القتلى المدنيين منذ أبريل 2022. ووقع معظم الضحايا تقريبًا في المناطق الخاضعة لسيطرة الحكومة الأوكرانية، وتعود الزيادة أساسًا إلى الهجمات الروسية بعيدة المدى بالصواريخ والمسيّرات. وتعلن السلطات الروسية مقتل 250 مدنيًا وإصابة 1596 على أراضيها: رقم تنقله البعثة دون أن تتحقق منه.",
+     "g": "بيانات تحققت منها البعثة؛ الأرقام الروسية منقولة فقط.",
+     "r": ""
+    },
+    "he": {
+     "t": "אוקראינה: הנפגעים האזרחיים במחצית הראשונה של 2026",
+     "o": "משלחת האו״ם לניטור זכויות האדם באוקראינה",
+     "w": "בין ינואר ליוני 2026 נהרגו 1,396 אזרחים ו־7,978 נפצעו, עלייה של 37% לעומת התקופה המקבילה ב־2025. יוני היה החודש עם מספר ההרוגים האזרחיים הגבוה ביותר מאז אפריל 2022. כמעט כל הנפגעים היו באזורים שבשליטת ממשלת אוקראינה, והעלייה נובעת בעיקר מתקיפות רוסיות ארוכות טווח בטילים ובכטב״מים. הרשויות הרוסיות מדווחות על 250 אזרחים הרוגים ו־1,596 פצועים בשטחן: נתון שהמשלחת מביאה בלי שאימתה אותו.",
+     "g": "נתונים שאומתו בידי המשלחת; הנתונים הרוסיים מובאים בלבד.",
+     "r": ""
+    },
+    "ru": {
+     "t": "Украина: жертвы среди мирного населения в первом полугодии 2026 года",
+     "o": "Мониторинговая миссия ООН по правам человека в Украине",
+     "w": "С января по июнь 2026 года погибли 1396 мирных жителей и 7978 получили ранения — на 37% больше, чем за тот же период 2025 года. Июнь стал месяцем с наибольшим числом погибших мирных жителей с апреля 2022 года. Почти все жертвы — на территории, контролируемой правительством Украины; рост вызван прежде всего российскими ударами большой дальности ракетами и беспилотниками. Российские власти сообщают о 250 погибших и 1596 раненых мирных жителях на своей территории: миссия приводит эти данные, не проверив их.",
+     "g": "Данные, проверенные миссией; российские данные лишь приводятся.",
      "r": ""
     }
    }

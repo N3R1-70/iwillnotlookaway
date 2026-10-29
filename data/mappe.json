@@ -784,6 +784,54 @@
    "qualificazione": []
   },
   {
+   "id": "mozambico",
+   "coord": [
+    40.0,
+    -11.8
+   ],
+   "aree": [
+    "MOZ"
+   ],
+   "tag_it": [
+    "mozambico"
+   ],
+   "tag": {
+    "it": "/s/it/tag/mozambico.html",
+    "en": "/s/en/tag/mozambique.html",
+    "fr": "/s/fr/tag/mozambique.html",
+    "de": "/s/de/tag/mosambik.html",
+    "es": "/s/es/tag/mozambique.html",
+    "pt": "/s/pt/tag/mocambique.html",
+    "tr": "/s/tr/tag/mozambik.html",
+    "zh": "/s/zh/tag/mozambique.html",
+    "ar": "/s/ar/tag/mozambique.html",
+    "he": "/s/he/tag/mozambique.html",
+    "ru": "/s/ru/tag/mozambique.html"
+   },
+   "copertura": 1,
+   "nomi": {
+    "it": "Mozambico",
+    "en": "Mozambique",
+    "fr": "Mozambique",
+    "de": "Mosambik",
+    "es": "Mozambique",
+    "pt": "Moçambique",
+    "tr": "Mozambik",
+    "zh": "莫桑比克",
+    "ar": "موزمبيق",
+    "he": "מוזמביק",
+    "ru": "Мозамбик"
+   },
+   "popolazione": {
+    "valore": 33635160,
+    "anno": 2023,
+    "fonte": "UN WPP via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~MOZ"
+   },
+   "valori": {},
+   "qualificazione": []
+  },
+  {
    "id": "sahel",
    "coord": [
     1.0,

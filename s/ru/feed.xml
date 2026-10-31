@@ -6,9 +6,18 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 29 Oct 2026 22:16:54 +0100</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 21:00:00 +0000</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Дверь</title>
+<link>https://iwillnotlookaway.org/s/ru/op-the-door.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-the-door.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>МНЕНИЕ</category>
+<description>Дверная ручка, которую держали часами 7 октября. Ключ 1948 года, который в Газе носят из палатки в палатку. Два страха, похожие друг на друга, и первая точка встречи: выслушать их.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-the-door.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Мозамбик, Кабу-Делгаду: газ вернулся, война — нет</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-mozambique-cabo-delgado.html</link>

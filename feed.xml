@@ -5,9 +5,119 @@
 <link>https://iwillnotlookaway.org/</link>
 <description>Tutti gli aggiornamenti di I Will Not Look Away, in tutte le 11 lingue del sito.</description>
 <atom:link href="https://iwillnotlookaway.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 29 Oct 2026 22:16:54 +0100</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 21:00:00 +0000</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>La porta [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/op-la-porta.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/op-la-porta.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>OPINIONE</category>
+<category>IT</category>
+<description>Una maniglia tenuta per ore il 7 ottobre, una chiave del 1948 portata di tenda in tenda a Gaza. Due paure che si somigliano, e un primo punto d'incontro: ascoltarle.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/op-la-porta.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>The door [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/op-the-door.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/op-the-door.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>OPINION</category>
+<category>EN</category>
+<description>A door handle held for hours on 7 October. A key from 1948 carried from tent to tent in Gaza. Two fears that look alike, and a first meeting point: listening to them.</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/op-the-door.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>La porte [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/op-la-porte.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/op-la-porte.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>OPINION</category>
+<category>FR</category>
+<description>Une poignée tenue pendant des heures le 7 octobre. Une clé de 1948 portée de tente en tente à Gaza. Deux peurs qui se ressemblent, et un premier point de rencontre : les écouter.</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/op-la-porte.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Die Tür [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/op-die-tuer.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/op-die-tuer.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>MEINUNG</category>
+<category>DE</category>
+<description>Eine Türklinke, stundenlang festgehalten am 7. Oktober. Ein Schlüssel von 1948, in Gaza von Zelt zu Zelt getragen. Zwei Ängste, die sich ähneln, und ein erster Treffpunkt: ihnen zuzuhören.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/op-die-tuer.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>La puerta [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/op-la-puerta.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/op-la-puerta.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>OPINIÓN</category>
+<category>ES</category>
+<description>Una manija sujetada durante horas el 7 de octubre. Una llave de 1948 llevada de tienda en tienda en Gaza. Dos miedos que se parecen, y un primer punto de encuentro: escucharlos.</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/op-la-puerta.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>A porta [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/op-a-porta.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/op-a-porta.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>OPINIÃO</category>
+<category>PT</category>
+<description>Uma maçaneta segurada durante horas a 7 de outubro. Uma chave de 1948 levada de tenda em tenda em Gaza. Dois medos que se parecem, e um primeiro ponto de encontro: ouvi-los.</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/op-a-porta.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Kapı [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/op-kapi.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-kapi.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>GÖRÜŞ</category>
+<category>TR</category>
+<description>7 Ekim'de saatlerce tutulan bir kapı kolu. Gazze'de çadırdan çadıra taşınan 1948'den kalma bir anahtar. Birbirine benzeyen iki korku ve ilk buluşma noktası: onları dinlemek.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-kapi.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>门 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/op-the-door.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-the-door.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>观点</category>
+<category>ZH</category>
+<description>10月7日被紧握了几个小时的门把手。在加沙从一顶帐篷带到另一顶帐篷的1948年的钥匙。两种彼此相似的恐惧，以及第一个交汇点：倾听它们。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-the-door.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>الباب [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/op-the-door.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/op-the-door.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>رأي</category>
+<category>AR</category>
+<description>مقبض باب أُمسك لساعات في 7 تشرين الأول/أكتوبر. ومفتاح من عام 1948 يُحمل من خيمة إلى خيمة في غزة. خوفان يتشابهان، ونقطة لقاء أولى: الإصغاء إليهما.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/op-the-door.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>הדלת [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/op-the-door.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-the-door.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>דעה</category>
+<category>HE</category>
+<description>ידית של דלת שהוחזקה שעות ב־7 באוקטובר. מפתח משנת 1948 שעובר בעזה מאוהל לאוהל. שני פחדים שדומים זה לזה, ונקודת מפגש ראשונה: להקשיב להם.</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-the-door.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Дверь [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/op-the-door.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-the-door.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>МНЕНИЕ</category>
+<category>RU</category>
+<description>Дверная ручка, которую держали часами 7 октября. Ключ 1948 года, который в Газе носят из палатки в палатку. Два страха, похожие друг на друга, и первая точка встречи: выслушать их.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-the-door.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Mozambico, Cabo Delgado: il gas è ripartito, la guerra no [IT]</title>
 <link>https://iwillnotlookaway.org/s/it/nd-mozambico-cabo-delgado.html</link>

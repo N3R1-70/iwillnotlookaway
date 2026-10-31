@@ -6,9 +6,18 @@
 <description>Violazioni del diritto internazionale, da Gaza all'Ucraina al Sudan: analisi, attualità e manifesti con norma citata, fonte datata e lo stesso metro per tutti.</description>
 <language>it-IT</language>
 <atom:link href="https://iwillnotlookaway.org/s/it/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 29 Oct 2026 22:16:54 +0100</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 21:00:00 +0000</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>La porta</title>
+<link>https://iwillnotlookaway.org/s/it/op-la-porta.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/op-la-porta.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>OPINIONE</category>
+<description>Una maniglia tenuta per ore il 7 ottobre, una chiave del 1948 portata di tenda in tenda a Gaza. Due paure che si somigliano, e un primo punto d'incontro: ascoltarle.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/op-la-porta.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Mozambico, Cabo Delgado: il gas è ripartito, la guerra no</title>
 <link>https://iwillnotlookaway.org/s/it/nd-mozambico-cabo-delgado.html</link>

@@ -6,9 +6,18 @@
 <description>Gazze'den Ukrayna'ya ve Sudan'a uluslararası hukuk ihlalleri: atıf yapılan norm, tarihli kaynak ve herkes için aynı ölçütle analizler, güncel yazılar ve manifestolar.</description>
 <language>tr-TR</language>
 <atom:link href="https://iwillnotlookaway.org/s/tr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 29 Oct 2026 22:16:54 +0100</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 21:00:00 +0000</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Kapı</title>
+<link>https://iwillnotlookaway.org/s/tr/op-kapi.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-kapi.html</guid>
+<pubDate>Sat, 31 Oct 2026 21:00:00 +0000</pubDate>
+<category>GÖRÜŞ</category>
+<description>7 Ekim'de saatlerce tutulan bir kapı kolu. Gazze'de çadırdan çadıra taşınan 1948'den kalma bir anahtar. Birbirine benzeyen iki korku ve ilk buluşma noktası: onları dinlemek.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-kapi.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Mozambik, Cabo Delgado: Gaz yeniden akıyor, savaş sürüyor</title>
 <link>https://iwillnotlookaway.org/s/tr/nd-mozambik-cabo-delgado.html</link>

@@ -32,13 +32,13 @@
    "fonte_estesa": "Armed Conflict Location & Event Data (ACLED)",
    "url_fonte": "https://acleddata.com",
    "url_dati": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-   "file": "number_of_reported_fatalities_by_country-year_as-of-25Sep2026.xlsx",
+   "file": "number_of_reported_fatalities_by_country-year_as-of-23Oct2026.xlsx",
    "periodi": [
     "2025",
     "2026"
    ],
    "periodo_default": "2025",
-   "aggiornato": "2026-09-25",
+   "aggiornato": "2026-10-23",
    "verifica": {
     "fonte": "UCDP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country",
@@ -100,10 +100,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 16955,
+      "valore": 16971,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 14541,
        "periodo": "anno",
@@ -111,10 +111,10 @@
       }
      },
      "2026": {
-      "valore": 1472,
-      "data": "2026-09-25",
+      "valore": 1634,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 767,
        "periodo": "parziale (provvisorio)",
@@ -176,7 +176,7 @@
       "valore": 414,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 347,
        "periodo": "anno",
@@ -184,10 +184,10 @@
       }
      },
      "2026": {
-      "valore": 3044,
-      "data": "2026-09-25",
+      "valore": 3050,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 4365,
        "periodo": "parziale (provvisorio)",
@@ -249,7 +249,7 @@
       "valore": 8837,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 3444,
        "periodo": "anno",
@@ -257,10 +257,10 @@
       }
      },
      "2026": {
-      "valore": 1613,
-      "data": "2026-09-25",
+      "valore": 1703,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 83,
        "periodo": "parziale (provvisorio)",
@@ -322,7 +322,7 @@
       "valore": 2940,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 1717,
        "periodo": "anno",
@@ -330,10 +330,10 @@
       }
      },
      "2026": {
-      "valore": 4689,
-      "data": "2026-09-25",
+      "valore": 8804,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 177,
        "periodo": "parziale (provvisorio)",
@@ -392,10 +392,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 1268,
+      "valore": 1275,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 1243,
        "periodo": "anno",
@@ -403,10 +403,10 @@
       }
      },
      "2026": {
-      "valore": 29611,
-      "data": "2026-09-25",
+      "valore": 29632,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 3559,
        "periodo": "parziale (provvisorio)",
@@ -466,10 +466,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 80250,
+      "valore": 80253,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 94765,
        "periodo": "anno",
@@ -477,10 +477,10 @@
       }
      },
      "2026": {
-      "valore": 42278,
-      "data": "2026-09-25",
+      "valore": 46880,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 47261,
        "periodo": "parziale (provvisorio)",
@@ -542,7 +542,7 @@
       "valore": 18793,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 75164,
        "periodo": "anno",
@@ -550,10 +550,10 @@
       }
      },
      "2026": {
-      "valore": 7468,
-      "data": "2026-09-25",
+      "valore": 8687,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 3086,
        "periodo": "parziale (provvisorio)",
@@ -615,7 +615,7 @@
       "valore": 3201,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 607,
        "periodo": "anno",
@@ -623,10 +623,10 @@
       }
      },
      "2026": {
-      "valore": 2895,
-      "data": "2026-09-25",
+      "valore": 3128,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 123,
        "periodo": "parziale (provvisorio)",
@@ -685,10 +685,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 6322,
+      "valore": 6332,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 5419,
        "periodo": "anno",
@@ -696,10 +696,10 @@
       }
      },
      "2026": {
-      "valore": 5385,
-      "data": "2026-09-25",
+      "valore": 6031,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 2054,
        "periodo": "parziale (provvisorio)",
@@ -758,10 +758,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 7363,
+      "valore": 7365,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 8860,
        "periodo": "anno",
@@ -769,10 +769,10 @@
       }
      },
      "2026": {
-      "valore": 3289,
-      "data": "2026-09-25",
+      "valore": 3590,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 1767,
        "periodo": "parziale (provvisorio)",
@@ -828,7 +828,22 @@
     "fonte": "UN WPP via Our World in Data",
     "url": "https://ourworldindata.org/grapher/population?tab=table&time=2023&country=~MOZ"
    },
-   "valori": {},
+   "valori": {
+    "morti": {
+     "2025": {
+      "valore": 699,
+      "data": "2025-12-31",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-11-01"
+     },
+     "2026": {
+      "valore": 449,
+      "data": "2026-10-23",
+      "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
+      "consultato": "2026-11-01"
+     }
+    }
+   },
    "qualificazione": []
   },
   {
@@ -882,10 +897,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 11167,
+      "valore": 11195,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 7738,
        "periodo": "anno",
@@ -893,10 +908,10 @@
       }
      },
      "2026": {
-      "valore": 9130,
-      "data": "2026-09-25",
+      "valore": 10040,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 3045,
        "periodo": "parziale (provvisorio)",
@@ -958,7 +973,7 @@
       "valore": 15816,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 4021,
        "periodo": "anno",
@@ -966,10 +981,10 @@
       }
      },
      "2026": {
-      "valore": 12106,
-      "data": "2026-09-25",
+      "valore": 13015,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 2291,
        "periodo": "parziale (provvisorio)",
@@ -1031,7 +1046,7 @@
       "valore": 1966,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 367,
        "periodo": "anno",
@@ -1039,10 +1054,10 @@
       }
      },
      "2026": {
-      "valore": 1454,
-      "data": "2026-09-25",
+      "valore": 1591,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 191,
        "periodo": "parziale (provvisorio)",
@@ -1104,7 +1119,7 @@
       "valore": 282,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 0,
        "periodo": "anno",
@@ -1112,10 +1127,10 @@
       }
      },
      "2026": {
-      "valore": 186,
-      "data": "2026-09-25",
+      "valore": 196,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 0,
        "periodo": "parziale (provvisorio)",
@@ -1174,10 +1189,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 4826,
+      "valore": 4828,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 2428,
        "periodo": "anno",
@@ -1185,10 +1200,10 @@
       }
      },
      "2026": {
-      "valore": 2428,
-      "data": "2026-09-25",
+      "valore": 2564,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 164,
        "periodo": "parziale (provvisorio)",
@@ -1250,7 +1265,7 @@
       "valore": 2293,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 942,
        "periodo": "anno",
@@ -1258,10 +1273,10 @@
       }
      },
      "2026": {
-      "valore": 1525,
-      "data": "2026-09-25",
+      "valore": 1698,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 495,
        "periodo": "parziale (provvisorio)",
@@ -1323,7 +1338,7 @@
       "valore": 400,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 4,
        "periodo": "anno",
@@ -1331,10 +1346,10 @@
       }
      },
      "2026": {
-      "valore": 341,
-      "data": "2026-09-25",
+      "valore": 373,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 0,
        "periodo": "parziale (provvisorio)",
@@ -1396,7 +1411,7 @@
       "valore": 997,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 330,
        "periodo": "anno",
@@ -1404,10 +1419,10 @@
       }
      },
      "2026": {
-      "valore": 1139,
-      "data": "2026-09-25",
+      "valore": 1287,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 674,
        "periodo": "parziale (provvisorio)",
@@ -1469,7 +1484,7 @@
       "valore": 5357,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 3308,
        "periodo": "anno",
@@ -1477,10 +1492,10 @@
       }
      },
      "2026": {
-      "valore": 5509,
-      "data": "2026-09-25",
+      "valore": 6196,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 1774,
        "periodo": "parziale (provvisorio)",
@@ -1540,10 +1555,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 15824,
+      "valore": 15917,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 2309,
        "periodo": "anno",
@@ -1551,10 +1566,10 @@
       }
      },
      "2026": {
-      "valore": 8438,
-      "data": "2026-09-25",
+      "valore": 9278,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 960,
        "periodo": "parziale (provvisorio)",
@@ -1616,7 +1631,7 @@
       "valore": 0,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 0,
        "periodo": "anno",
@@ -1625,9 +1640,9 @@
      },
      "2026": {
       "valore": 0,
-      "data": "2026-09-25",
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 0,
        "periodo": "parziale (provvisorio)",
@@ -1686,10 +1701,10 @@
    "valori": {
     "morti": {
      "2025": {
-      "valore": 4070,
+      "valore": 4071,
       "data": "2025-12-31",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 353,
        "periodo": "anno",
@@ -1697,10 +1712,10 @@
       }
      },
      "2026": {
-      "valore": 2939,
-      "data": "2026-09-25",
+      "valore": 3174,
+      "data": "2026-10-23",
       "url": "https://acleddata.com/conflict-data/download-data-files/aggregated-data",
-      "consultato": "2026-10-04",
+      "consultato": "2026-11-01",
       "ucdp": {
        "valore": 49,
        "periodo": "parziale (provvisorio)",

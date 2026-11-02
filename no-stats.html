@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex, nofollow"/>
+<title>Statistiche — esclusione di questo browser</title>
+<style>
+body{margin:0;background:#080808;color:#ece8e0;font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+main{max-width:520px;margin:0 auto;padding:56px 22px}
+h1{font-size:22px;font-weight:500;margin:0 0 18px}
+#stato{font-size:18px;border-inline-start:2px solid #8b2020;padding:6px 0 6px 14px;margin:0 0 22px}
+p{color:#b8b4ac;font-size:15px}
+button{background:#141414;color:#ece8e0;border:1px solid #2a2a2a;padding:12px 18px;font:inherit;font-size:15px;cursor:pointer;border-radius:2px}
+a{color:#8a8a8a}
+</style>
+</head>
+<body>
+<main>
+<h1>Statistiche di iwillnotlookaway.org</h1>
+<p id="stato">…</p>
+<button id="tasto" type="button"></button>
+<p>L'impostazione vale solo per questo browser su questo dispositivo. Se cancelli i dati di navigazione o usi la navigazione in incognito, riapri questa pagina.</p>
+<p><a href="/">← Torna al sito</a></p>
+</main>
+<script>
+(function(){
+var K='umami.disabled',s=document.getElementById('stato'),b=document.getElementById('tasto');
+function off(){try{return !!localStorage.getItem(K)}catch(e){return null}}
+function show(){var o=off();
+ if(o===null){s.textContent='Questo browser non permette di salvare l’impostazione (archiviazione bloccata).';b.style.display='none';return}
+ s.textContent=o?'Le tue visite non vengono più contate su questo browser.':'Le tue visite vengono contate su questo browser.';
+ b.textContent=o?'Riattiva il conteggio':'Escludi di nuovo questo browser'}
+b.onclick=function(){try{off()?localStorage.removeItem(K):localStorage.setItem(K,'1')}catch(e){}show()};
+try{localStorage.setItem(K,'1')}catch(e){}
+show();
+})();
+</script>
+</body>
+</html>

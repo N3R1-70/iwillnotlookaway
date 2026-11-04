@@ -6,9 +6,18 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 01 Nov 2026 10:36:00 +0100</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 23:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Йемен, война снова стала полномасштабной: четыре тысячи погибших за месяц и число, которое никто не может назвать</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-yemen-full-scale-war.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-yemen-full-scale-war.html</guid>
+<pubDate>Wed, 04 Nov 2026 23:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Хуситы захватили побережье Красного моря и отрезали Таиз; правительство хочет вернуть всю страну. Число погибших по данным ACLED за год выросло втрое, но на севере его никто не проверяет. И хуситы — не просто «проиранская» сила.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-yemen-full-scale-war.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Гаити: выборы сдвинулись на 2027 год. Тем временем прибывают две тысячи солдат Букеле</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-haiti-vote-postponed.html</link>

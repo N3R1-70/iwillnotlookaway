@@ -6,9 +6,45 @@
 <description>انتهاكات القانون الدولي من غزة إلى أوكرانيا والسودان: تحليلات ومستجدات وبيانات، مع ذكر القاعدة القانونية ومصدر مؤرَّخ والمعيار نفسه للجميع.</description>
 <language>ar</language>
 <atom:link href="https://iwillnotlookaway.org/s/ar/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 22:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>المفاتيح</title>
+<link>https://iwillnotlookaway.org/s/ar/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>رأي</category>
+<description>المؤسسات لا تخاف من البيتكوين: إنها تشتريه. إنها تخاف ممن يحفظ مفاتيحه بنفسه. مقال رأي حول سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>البيتكوين في المرآة: كيف يعمل، مقارنةً بالذهب وبالنقود</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>تحليل</category>
+<description>ما هو البيتكوين، ومن يُنشئه، ومن يملكه فعلاً، ومن يستطيع إيقافه: خاصية واحدة في كل مرة، في مرآة الذهب واليورو. الجزء الأول من سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>البيتكوين، من يجمّد ومن يهرب: الاحتياطيات الروسية والعقوبات ورسم عبور هرمز</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>تحليل</category>
+<description>المصارف المركزية تختار الذهب، والخاضعون للعقوبات يستخدمون العملات المستقرة، والدول تصادر المفاتيح. من يستخدم فعلاً الخاصية التي تجعل البيتكوين غير قابل للتجميد. الجزء الثاني من سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>البيتكوين، من يراقب ومن يفرض الضرائب: القواعد الجديدة في أوروبا والعالم</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>تحليل</category>
+<description>تراخيص للمنصات، وأسماء على كل تحويل، وبيانات لمصلحة الضرائب، وضرائب مختلفة في كل بلد: كيف تراقب الدول من يشتري العملات المشفرة ويبيعها، في مرآة الذهب والنقود. الجزء الثالث من سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>السودان وإثيوبيا وحرب القنصليات: المسيّرات التي تنطلق من أصوصا وخطر حرب بين دولتين</title>
 <link>https://iwillnotlookaway.org/s/ar/nd-sudan-ethiopia-consulates.html</link>

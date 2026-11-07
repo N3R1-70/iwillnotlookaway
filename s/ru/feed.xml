@@ -6,9 +6,45 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 22:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Ключи</title>
+<link>https://iwillnotlookaway.org/s/ru/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>МНЕНИЕ</category>
+<description>Институты не боятся биткоина: они его покупают. Они боятся тех, кто сам хранит свои ключи. Мнение о серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Биткоин в зеркале: как он работает в сравнении с золотом и деньгами</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Что такое биткоин, кто его создаёт, кому он на самом деле принадлежит и кто может его остановить: по одному свойству за раз, в зеркале золота и евро. Первая часть серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Биткоин: кто замораживает и кто бежит. Российские резервы, санкции и ормузская пошлина</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Центральные банки выбирают золото, те, кто под санкциями, пользуются стейблкоинами, государства изымают ключи. Кто на самом деле пользуется свойством, которое делает биткоин невозможным заморозить. Вторая часть серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Биткоин: кто контролирует и кто облагает налогом. Новые правила в Европе и в мире</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Лицензии для платформ, имена в каждом переводе, данные налоговой и разные налоги в каждой стране: как государства контролируют тех, кто покупает и продаёт криптовалюты, в зеркале золота и денег. Третья часть серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Судан и Эфиопия, война консульств: дроны, взлетающие из Асосы, и риск войны между государствами</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-sudan-ethiopia-consulates.html</link>

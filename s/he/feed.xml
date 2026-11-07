@@ -6,9 +6,45 @@
 <description>הפרות של המשפט הבין-לאומי, מעזה ועד אוקראינה וסודאן: ניתוחים, אקטואליה ומניפסטים, עם הנורמה המצוטטת, מקור מתוארך ואותה אמת מידה לכולם.</description>
 <language>he</language>
 <atom:link href="https://iwillnotlookaway.org/s/he/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 22:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>המפתחות</title>
+<link>https://iwillnotlookaway.org/s/he/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>דעה</category>
+<description>המוסדות אינם מפחדים מהביטקוין: הם קונים אותו. הם מפחדים ממי ששומר בעצמו את המפתחות שלו. מאמר דעה על הסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ביטקוין במראה: איך הוא עובד, בהשוואה לזהב ולכסף</title>
+<link>https://iwillnotlookaway.org/s/he/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ניתוח</category>
+<description>מהו ביטקוין, מי יוצר אותו, למי הוא שייך בפועל ומי יכול לעצור אותו: תכונה אחת בכל פעם, מול הזהב והאירו. החלק הראשון בסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ביטקוין, מי מקפיא ומי בורח: הרזרבות הרוסיות, הסנקציות ואגרת הורמוז</title>
+<link>https://iwillnotlookaway.org/s/he/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ניתוח</category>
+<description>הבנקים המרכזיים בוחרים בזהב, מי שנתון לסנקציות משתמש במטבעות יציבים, המדינות מחרימות את המפתחות. מי משתמש בפועל בתכונה שהופכת את הביטקוין לבלתי ניתן להקפאה. החלק השני בסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ביטקוין, מי מפקח ומי ממסה: הכללים החדשים באירופה ובעולם</title>
+<link>https://iwillnotlookaway.org/s/he/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ניתוח</category>
+<description>רישיונות לפלטפורמות, שמות בכל העברה, נתונים לרשות המסים ומסים שונים בכל מדינה: איך המדינות מפקחות על מי שקונה ומוכר מטבעות קריפטוגרפיים, מול הזהב והכסף. החלק השלישי בסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>סודאן ואתיופיה, מלחמת הקונסוליות: הרחפנים שממריאים מאסוסה והסכנה למלחמה בין מדינות</title>
 <link>https://iwillnotlookaway.org/s/he/nd-sudan-ethiopia-consulates.html</link>

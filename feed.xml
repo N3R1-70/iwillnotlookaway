@@ -5,9 +5,449 @@
 <link>https://iwillnotlookaway.org/</link>
 <description>Tutti gli aggiornamenti di I Will Not Look Away, in tutte le 11 lingue del sito.</description>
 <atom:link href="https://iwillnotlookaway.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 22:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Le chiavi [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/op-le-chiavi.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/op-le-chiavi.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>OPINIONE</category>
+<category>IT</category>
+<description>Le istituzioni non hanno paura di Bitcoin: lo comprano. Hanno paura di chi tiene da sé le proprie chiavi. Un'Opinione sulla serie «Bitcoin, rifugio da chi?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/op-le-chiavi.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>The keys [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>OPINION</category>
+<category>EN</category>
+<description>Institutions are not afraid of Bitcoin: they buy it. They are afraid of people who hold their own keys. An Opinion on the series "Bitcoin, a refuge from whom?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Les clés [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/op-les-cles.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/op-les-cles.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>OPINION</category>
+<category>FR</category>
+<description>Les institutions n'ont pas peur de Bitcoin : elles l'achètent. Elles ont peur de ceux qui gardent eux-mêmes leurs clés. Une Opinion sur la série « Bitcoin, refuge contre qui ? ».</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/op-les-cles.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Die Schlüssel [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/op-die-schluessel.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/op-die-schluessel.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>MEINUNG</category>
+<category>DE</category>
+<description>Die Institutionen haben keine Angst vor Bitcoin: Sie kaufen es. Sie haben Angst vor denen, die ihre Schlüssel selbst verwahren. Ein Meinungsbeitrag zur Serie „Bitcoin, Zuflucht vor wem?“.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/op-die-schluessel.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Las llaves [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/op-las-llaves.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/op-las-llaves.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>OPINIÓN</category>
+<category>ES</category>
+<description>Las instituciones no tienen miedo de Bitcoin: lo compran. Tienen miedo de quien guarda por sí mismo sus propias claves. Una Opinión sobre la serie «Bitcoin, ¿refugio frente a quién?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/op-las-llaves.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>As chaves [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/op-as-chaves.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/op-as-chaves.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>OPINIÃO</category>
+<category>PT</category>
+<description>As instituições não têm medo da Bitcoin: compram-na. Têm medo de quem guarda as suas próprias chaves. Uma Opinião sobre a série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/op-as-chaves.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Anahtarlar [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/op-anahtarlar.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-anahtarlar.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>GÖRÜŞ</category>
+<category>TR</category>
+<description>Kurumlar Bitcoin'den korkmuyor: onu satın alıyorlar. Kendi anahtarlarını kendisi tutandan korkuyorlar. "Bitcoin, kime karşı sığınak?" dizisi üzerine bir Görüş.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-anahtarlar.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>密钥 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>观点</category>
+<category>ZH</category>
+<description>机构并不害怕比特币：它们在买它。它们害怕的是自己掌握密钥的人。一篇关于“比特币，避谁的险？”系列的观点文章。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>المفاتيح [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>رأي</category>
+<category>AR</category>
+<description>المؤسسات لا تخاف من البيتكوين: إنها تشتريه. إنها تخاف ممن يحفظ مفاتيحه بنفسه. مقال رأي حول سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>המפתחות [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>דעה</category>
+<category>HE</category>
+<description>המוסדות אינם מפחדים מהביטקוין: הם קונים אותו. הם מפחדים ממי ששומר בעצמו את המפתחות שלו. מאמר דעה על הסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Ключи [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>МНЕНИЕ</category>
+<category>RU</category>
+<description>Институты не боятся биткоина: они его покупают. Они боятся тех, кто сам хранит свои ключи. Мнение о серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin allo specchio: come funziona, a confronto con l'oro e con la moneta [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Che cos'è Bitcoin, chi lo crea, chi lo possiede davvero e chi lo può fermare: una caratteristica alla volta, allo specchio con l'oro e con l'euro. Primo pezzo della serie «Bitcoin, rifugio da chi?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin in the mirror: how it works, compared with gold and with money [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>What Bitcoin is, who creates it, who really owns it and who can stop it: one feature at a time, set against gold and the euro. First piece in the series "Bitcoin, a refuge from whom?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin face au miroir : comment il fonctionne, comparé à l'or et à la monnaie [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Ce qu'est Bitcoin, qui le crée, qui le possède vraiment et qui peut l'arrêter : une caractéristique à la fois, face à l'or et à l'euro. Premier article de la série « Bitcoin, refuge contre qui ? ».</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin im Spiegel: wie es funktioniert, verglichen mit Gold und Geld [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Was Bitcoin ist, wer es schafft, wem es wirklich gehört und wer es stoppen kann: Merkmal für Merkmal, im Spiegel von Gold und Euro. Erster Beitrag der Serie „Bitcoin, Zuflucht vor wem?“.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin ante el espejo: cómo funciona, comparado con el oro y con el dinero [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>Qué es Bitcoin, quién lo crea, quién lo posee de verdad y quién puede detenerlo: una característica cada vez, frente al oro y al euro. Primera pieza de la serie «Bitcoin, ¿refugio frente a quién?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin ao espelho: como funciona, comparado com o ouro e com o dinheiro [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>O que é a Bitcoin, quem a cria, quem a possui de facto e quem a pode travar: uma característica de cada vez, ao espelho com o ouro e com o euro. Primeira peça da série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Aynadaki Bitcoin: nasıl çalışıyor, altın ve parayla karşılaştırıldığında [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>Bitcoin nedir, onu kim yaratır, gerçekte kime aittir ve kim durdurabilir: her seferinde tek bir özellik, altın ve avroyla karşılaştırmalı olarak. "Bitcoin, kime karşı sığınak?" dizisinin ilk yazısı.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>镜中的比特币：它如何运作，与黄金和货币相比又如何 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>比特币是什么、由谁创造、实际归谁所有、谁能阻止它：一次只看一个特性，与黄金和欧元对照。“比特币，避谁的险？”系列第一篇。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>البيتكوين في المرآة: كيف يعمل، مقارنةً بالذهب وبالنقود [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>ما هو البيتكوين، ومن يُنشئه، ومن يملكه فعلاً، ومن يستطيع إيقافه: خاصية واحدة في كل مرة، في مرآة الذهب واليورو. الجزء الأول من سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ביטקוין במראה: איך הוא עובד, בהשוואה לזהב ולכסף [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>מהו ביטקוין, מי יוצר אותו, למי הוא שייך בפועל ומי יכול לעצור אותו: תכונה אחת בכל פעם, מול הזהב והאירו. החלק הראשון בסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Биткоин в зеркале: как он работает в сравнении с золотом и деньгами [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>Что такое биткоин, кто его создаёт, кому он на самом деле принадлежит и кто может его остановить: по одному свойству за раз, в зеркале золота и евро. Первая часть серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, chi congela e chi scappa: le riserve russe, le sanzioni e il pedaggio di Hormuz [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Le banche centrali scelgono l'oro, chi è sotto sanzione usa le stablecoin, gli Stati sequestrano le chiavi. Chi usa davvero la proprietà che rende Bitcoin impossibile da congelare. Secondo pezzo della serie «Bitcoin, rifugio da chi?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, who freezes and who flees: Russia's reserves, sanctions and the Hormuz toll [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>Central banks choose gold, those under sanctions use stablecoins, states seize the keys. Who really uses the property that makes Bitcoin impossible to freeze. Second piece in the series "Bitcoin, a refuge from whom?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, qui gèle et qui fuit : les réserves russes, les sanctions et le péage d'Ormuz [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Les banques centrales choisissent l'or, ceux qui sont sous sanctions utilisent les stablecoins, les États saisissent les clés. Qui utilise vraiment la propriété qui rend Bitcoin impossible à geler. Deuxième article de la série « Bitcoin, refuge contre qui ? ».</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, wer einfriert und wer flieht: Russlands Reserven, die Sanktionen und der Hormus-Zoll [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Zentralbanken wählen Gold, Sanktionierte nutzen Stablecoins, Staaten beschlagnahmen die Schlüssel. Wer die Eigenschaft wirklich nutzt, die Bitcoin unmöglich einzufrieren macht. Zweiter Beitrag der Serie „Bitcoin, Zuflucht vor wem?“.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, quién congela y quién huye: las reservas rusas, las sanciones y el peaje de Ormuz [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>Los bancos centrales eligen el oro, quien está sancionado usa stablecoins, los Estados incautan las claves. Quién usa de verdad la propiedad que hace imposible congelar Bitcoin. Segunda pieza de la serie «Bitcoin, ¿refugio frente a quién?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, quem congela e quem foge: as reservas russas, as sanções e a portagem de Ormuz [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>Os bancos centrais escolhem o ouro, quem está sob sanções usa stablecoins, os Estados apreendem as chaves. Quem usa de facto a propriedade que torna a Bitcoin impossível de congelar. Segunda peça da série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, kim donduruyor, kim kaçıyor: Rus rezervleri, yaptırımlar ve Hürmüz geçiş ücreti [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>Merkez bankaları altını seçiyor, yaptırım altındakiler stablecoin kullanıyor, devletler anahtarlara el koyuyor. Bitcoin'i dondurulamaz kılan özelliği gerçekte kim kullanıyor. "Bitcoin, kime karşı sığınak?" dizisinin ikinci yazısı.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>比特币，谁在冻结，谁在出逃：俄罗斯储备、制裁与霍尔木兹通行费 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>中央银行选择黄金，受制裁者使用稳定币，国家扣押密钥。究竟是谁在利用比特币无法被冻结的特性。“比特币，避谁的险？”系列第二篇。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>البيتكوين، من يجمّد ومن يهرب: الاحتياطيات الروسية والعقوبات ورسم عبور هرمز [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>المصارف المركزية تختار الذهب، والخاضعون للعقوبات يستخدمون العملات المستقرة، والدول تصادر المفاتيح. من يستخدم فعلاً الخاصية التي تجعل البيتكوين غير قابل للتجميد. الجزء الثاني من سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ביטקוין, מי מקפיא ומי בורח: הרזרבות הרוסיות, הסנקציות ואגרת הורמוז [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>הבנקים המרכזיים בוחרים בזהב, מי שנתון לסנקציות משתמש במטבעות יציבים, המדינות מחרימות את המפתחות. מי משתמש בפועל בתכונה שהופכת את הביטקוין לבלתי ניתן להקפאה. החלק השני בסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Биткоин: кто замораживает и кто бежит. Российские резервы, санкции и ормузская пошлина [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>Центральные банки выбирают золото, те, кто под санкциями, пользуются стейблкоинами, государства изымают ключи. Кто на самом деле пользуется свойством, которое делает биткоин невозможным заморозить. Вторая часть серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, chi controlla e chi tassa: le nuove regole in Europa e nel mondo [IT]</title>
+<link>https://iwillnotlookaway.org/s/it/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALISI</category>
+<category>IT</category>
+<description>Licenze per le piattaforme, nomi su ogni trasferimento, dati al fisco e tasse diverse in ogni Paese: come gli Stati controllano chi compra e vende criptovalute, allo specchio con l'oro e con la moneta. Terzo pezzo della serie «Bitcoin, rifugio da chi?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, who controls and who taxes: the new rules in Europe and the world [EN]</title>
+<link>https://iwillnotlookaway.org/s/en/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/en/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSIS</category>
+<category>EN</category>
+<description>Licences for platforms, names on every transfer, data for the tax authorities and different taxes in every country: how states control those who buy and sell cryptocurrencies, set against gold and money. Third piece in the series "Bitcoin, a refuge from whom?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/en/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, qui contrôle et qui taxe : les nouvelles règles en Europe et dans le monde [FR]</title>
+<link>https://iwillnotlookaway.org/s/fr/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/fr/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSE</category>
+<category>FR</category>
+<description>Des licences pour les plateformes, des noms sur chaque transfert, des données pour le fisc et des impôts différents dans chaque pays : comment les États contrôlent ceux qui achètent et vendent des cryptomonnaies, face à l'or et à la monnaie. Troisième article de la série « Bitcoin, refuge contre qui ? ».</description>
+<enclosure url="https://iwillnotlookaway.org/s/fr/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, wer kontrolliert und wer besteuert: die neuen Regeln in Europa und der Welt [DE]</title>
+<link>https://iwillnotlookaway.org/s/de/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALYSE</category>
+<category>DE</category>
+<description>Lizenzen für Plattformen, Namen bei jeder Überweisung, Daten für das Finanzamt und Steuern, die in jedem Land anders sind: wie Staaten die kontrollieren, die Kryptowährungen kaufen und verkaufen, im Spiegel von Gold und Geld. Dritter Beitrag der Serie „Bitcoin, Zuflucht vor wem?“.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, quién controla y quién grava: las nuevas reglas en Europa y en el mundo [ES]</title>
+<link>https://iwillnotlookaway.org/s/es/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/es/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISIS</category>
+<category>ES</category>
+<description>Licencias para las plataformas, nombres en cada transferencia, datos para Hacienda e impuestos distintos en cada país: cómo controlan los Estados a quien compra y vende criptomonedas, frente al oro y al dinero. Tercera pieza de la serie «Bitcoin, ¿refugio frente a quién?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/es/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, quem controla e quem tributa: as novas regras na Europa e no mundo [PT]</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISE</category>
+<category>PT</category>
+<description>Licenças para as plataformas, nomes em cada transferência, dados ao fisco e impostos diferentes em cada país: como os Estados controlam quem compra e vende criptomoedas, ao espelho com o ouro e com o dinheiro. Terceira peça da série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, kim denetliyor, kim vergilendiriyor: Avrupa'da ve dünyada yeni kurallar [TR]</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANALİZ</category>
+<category>TR</category>
+<description>Platformlara lisans, her transferde isimler, vergi idaresine veriler ve her ülkede farklı vergiler: devletler kripto para alıp satanları nasıl denetliyor, altın ve parayla karşılaştırmalı olarak. "Bitcoin, kime karşı sığınak?" dizisinin üçüncü yazısı.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>比特币，谁来监管，谁来征税：欧洲和世界的新规则 [ZH]</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>分析</category>
+<category>ZH</category>
+<description>平台需要牌照，每笔转账都附姓名，数据交给税务机关，各国税率各不相同：国家如何监管买卖加密货币的人，与黄金和货币对照。“比特币，避谁的险？”系列第三篇。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>البيتكوين، من يراقب ومن يفرض الضرائب: القواعد الجديدة في أوروبا والعالم [AR]</title>
+<link>https://iwillnotlookaway.org/s/ar/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ar/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>تحليل</category>
+<category>AR</category>
+<description>تراخيص للمنصات، وأسماء على كل تحويل، وبيانات لمصلحة الضرائب، وضرائب مختلفة في كل بلد: كيف تراقب الدول من يشتري العملات المشفرة ويبيعها، في مرآة الذهب والنقود. الجزء الثالث من سلسلة «البيتكوين، ملاذٌ ممّن؟».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ar/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>ביטקוין, מי מפקח ומי ממסה: הכללים החדשים באירופה ובעולם [HE]</title>
+<link>https://iwillnotlookaway.org/s/he/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/he/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ניתוח</category>
+<category>HE</category>
+<description>רישיונות לפלטפורמות, שמות בכל העברה, נתונים לרשות המסים ומסים שונים בכל מדינה: איך המדינות מפקחות על מי שקונה ומוכר מטבעות קריפטוגרפיים, מול הזהב והכסף. החלק השלישי בסדרה "ביטקוין, מקלט מפני מי?".</description>
+<enclosure url="https://iwillnotlookaway.org/s/he/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Биткоин: кто контролирует и кто облагает налогом. Новые правила в Европе и в мире [RU]</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<category>RU</category>
+<description>Лицензии для платформ, имена в каждом переводе, данные налоговой и разные налоги в каждой стране: как государства контролируют тех, кто покупает и продаёт криптовалюты, в зеркале золота и денег. Третья часть серии «Биткоин: убежище от кого?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Sudan ed Etiopia, la guerra dei consolati: i droni che partono da Assosa e il rischio di una guerra tra Stati [IT]</title>
 <link>https://iwillnotlookaway.org/s/it/nd-sudan-etiopia-consolati.html</link>

@@ -6,9 +6,45 @@
 <description>Violações do direito internacional, de Gaza à Ucrânia e ao Sudão: análises, atualidade e manifestos com a norma citada, fonte datada e o mesmo critério para todos.</description>
 <language>pt-PT</language>
 <atom:link href="https://iwillnotlookaway.org/s/pt/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 22:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>As chaves</title>
+<link>https://iwillnotlookaway.org/s/pt/op-as-chaves.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/op-as-chaves.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>OPINIÃO</category>
+<description>As instituições não têm medo da Bitcoin: compram-na. Têm medo de quem guarda as suas próprias chaves. Uma Opinião sobre a série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/op-as-chaves.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin ao espelho: como funciona, comparado com o ouro e com o dinheiro</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISE</category>
+<description>O que é a Bitcoin, quem a cria, quem a possui de facto e quem a pode travar: uma característica de cada vez, ao espelho com o ouro e com o euro. Primeira peça da série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, quem congela e quem foge: as reservas russas, as sanções e a portagem de Ormuz</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISE</category>
+<description>Os bancos centrais escolhem o ouro, quem está sob sanções usa stablecoins, os Estados apreendem as chaves. Quem usa de facto a propriedade que torna a Bitcoin impossível de congelar. Segunda peça da série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Bitcoin, quem controla e quem tributa: as novas regras na Europa e no mundo</title>
+<link>https://iwillnotlookaway.org/s/pt/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/pt/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>ANÁLISE</category>
+<description>Licenças para as plataformas, nomes em cada transferência, dados ao fisco e impostos diferentes em cada país: como os Estados controlam quem compra e vende criptomoedas, ao espelho com o ouro e com o dinheiro. Terceira peça da série «Bitcoin, refúgio contra quem?».</description>
+<enclosure url="https://iwillnotlookaway.org/s/pt/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Sudão e Etiópia, a guerra dos consulados: os drones que partem de Assosa e o risco de uma guerra entre Estados</title>
 <link>https://iwillnotlookaway.org/s/pt/nd-sudao-etiopia-consulados.html</link>

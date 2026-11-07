@@ -6,9 +6,45 @@
 <description>从加沙到乌克兰再到苏丹的国际法违反行为：分析、时事与宣言，引用具体规范、注明来源日期，对所有国家采用同一标准。</description>
 <language>zh-CN</language>
 <atom:link href="https://iwillnotlookaway.org/s/zh/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 22:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>密钥</title>
+<link>https://iwillnotlookaway.org/s/zh/op-the-keys.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/op-the-keys.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>观点</category>
+<description>机构并不害怕比特币：它们在买它。它们害怕的是自己掌握密钥的人。一篇关于“比特币，避谁的险？”系列的观点文章。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/op-the-keys.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>镜中的比特币：它如何运作，与黄金和货币相比又如何</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-bitcoin.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-bitcoin.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>分析</category>
+<description>比特币是什么、由谁创造、实际归谁所有、谁能阻止它：一次只看一个特性，与黄金和欧元对照。“比特币，避谁的险？”系列第一篇。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-bitcoin.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>比特币，谁在冻结，谁在出逃：俄罗斯储备、制裁与霍尔木兹通行费</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-bitcoin-2.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-bitcoin-2.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>分析</category>
+<description>中央银行选择黄金，受制裁者使用稳定币，国家扣押密钥。究竟是谁在利用比特币无法被冻结的特性。“比特币，避谁的险？”系列第二篇。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-bitcoin-2.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>比特币，谁来监管，谁来征税：欧洲和世界的新规则</title>
+<link>https://iwillnotlookaway.org/s/zh/nd-bitcoin-3.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/zh/nd-bitcoin-3.html</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0100</pubDate>
+<category>分析</category>
+<description>平台需要牌照，每笔转账都附姓名，数据交给税务机关，各国税率各不相同：国家如何监管买卖加密货币的人，与黄金和货币对照。“比特币，避谁的险？”系列第三篇。</description>
+<enclosure url="https://iwillnotlookaway.org/s/zh/nd-bitcoin-3.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>苏丹与埃塞俄比亚的领事馆之战：从阿索萨起飞的无人机与国家间战争的风险</title>
 <link>https://iwillnotlookaway.org/s/zh/nd-sudan-ethiopia-consulates.html</link>

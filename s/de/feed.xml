@@ -6,14 +6,32 @@
 <description>Völkerrechtsverletzungen von Gaza über die Ukraine bis Sudan: Analysen, Aktuelles und Manifeste mit zitierter Norm, datierter Quelle und demselben Maßstab für alle.</description>
 <language>de-DE</language>
 <atom:link href="https://iwillnotlookaway.org/s/de/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 08 Nov 2026 21:00:00 +0100</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 18:58:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Die Rechnung der Aufrüstung: wer zahlt, und nach welchen Regeln</title>
+<link>https://iwillnotlookaway.org/s/de/nd-aufruestung-wer-zahlt.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-aufruestung-wer-zahlt.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>ANALYSE</category>
+<description>Europa hat beschlossen, die Verteidigungsausgaben bis 2035 auf 5 % des BIP zu erhöhen. Für Waffen lassen sich Haushaltsregeln aussetzen und Verfahren verkürzen; für Gesundheit, Schule und Diplomatie nicht. Was die Zahlen sagen, wer schon gezahlt hat und was noch zu entscheiden ist.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-aufruestung-wer-zahlt.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Wie weit Selbstverteidigung reicht: die ukrainischen Angriffe in Russland, einer nach dem anderen</title>
+<link>https://iwillnotlookaway.org/s/de/nd-selbstverteidigung-grenzen.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-selbstverteidigung-grenzen.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>ANALYSE</category>
+<description>Die Ukraine greift Luftwaffenstützpunkte, Raffinerien, Tanker und Generäle auf russischem Gebiet an. Ist es rechtmäßig, sich durch Angriff zu verteidigen? Es hängt vom Ziel und vom Mittel ab. Eine Übersicht nach Kategorien, mit demselben Maßstab, den wir an Russland anlegen.</description>
+<enclosure url="https://iwillnotlookaway.org/s/de/nd-selbstverteidigung-grenzen.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Aufrüstung wird kalt serviert</title>
 <link>https://iwillnotlookaway.org/s/de/op-aufruestung-kalt-serviert.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/de/op-aufruestung-kalt-serviert.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>MEINUNG</category>
 <description>Um sich zu bewaffnen, hat die Europäische Union in zehn Wochen ein Dringlichkeitsverfahren gefunden. Um mit denen zu sprechen, die sie bedrohen, hat sie nach mehr als anderthalb Jahren noch immer keinen Namen gefunden. Ein Meinungsbeitrag über die Asymmetrie zwischen Verteidigung und Diplomatie.</description>
 <enclosure url="https://iwillnotlookaway.org/s/de/op-aufruestung-kalt-serviert.jpg" type="image/jpeg"/>
@@ -22,7 +40,7 @@
 <title>Tiefkühler auf 50 Grad: Wer Europas Supermärkte angegriffen hat und was wir wirklich wissen</title>
 <link>https://iwillnotlookaway.org/s/de/nd-tiefkuehler-50-grad.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/de/nd-tiefkuehler-50-grad.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>AKTUELLES</category>
 <description>Am 2. November wurden die Kühlsysteme Hunderter Supermärkte in mindestens elf europäischen Ländern aus der Ferne manipuliert. Zwei prorussische Gruppen bekannten sich, ohne überprüfte Beweise. Was feststeht, was nicht und was das Recht sagt, wenn ein Angriff von einer Tastatur kommt.</description>
 <enclosure url="https://iwillnotlookaway.org/s/de/nd-tiefkuehler-50-grad.jpg" type="image/jpeg"/>

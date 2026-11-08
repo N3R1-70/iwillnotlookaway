@@ -6,14 +6,32 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 08 Nov 2026 21:00:00 +0100</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 18:58:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Счёт за перевооружение: кто платит и по каким правилам</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-rearmament-who-pays.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-rearmament-who-pays.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Европа решила довести оборонные расходы до 5% ВВП к 2035 году. Ради оружия бюджетные правила можно приостановить, а процедуры сократить; ради здравоохранения, школы и дипломатии — нельзя. Что говорят цифры, кто уже заплатил и что ещё предстоит решить.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-rearmament-who-pays.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Где кончается самооборона: украинские удары по России, случай за случаем</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-self-defence-limits.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-self-defence-limits.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Украина бьёт по авиабазам, НПЗ, танкерам и генералам внутри России. Можно ли защищаться, нападая? Это зависит от цели и средства. Мы разложили удары по категориям той же меркой, которой измеряем Россию.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-self-defence-limits.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Перевооружение подают холодным</title>
 <link>https://iwillnotlookaway.org/s/ru/op-rearmament-served-cold.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/op-rearmament-served-cold.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>МНЕНИЕ</category>
 <description>Чтобы вооружиться, Европейский союз за десять недель нашёл чрезвычайную процедуру. Чтобы говорить с тем, кто ему угрожает, он спустя больше полутора лет так и не нашёл имени. Мнение об асимметрии между обороной и дипломатией.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ru/op-rearmament-served-cold.jpg" type="image/jpeg"/>
@@ -22,7 +40,7 @@
 <title>Морозильники на 50 градусов: кто атаковал супермаркеты Европы и что мы знаем на самом деле</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-freezers-at-50-degrees.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-freezers-at-50-degrees.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>АКТУАЛЬНОЕ</category>
 <description>2 ноября системы охлаждения сотен супермаркетов как минимум в одиннадцати европейских странах были дистанционно взломаны. Две пророссийские группы взяли ответственность на себя, без проверенных доказательств. Что установлено, что нет и что говорит право, когда атака приходит с клавиатуры.</description>
 <enclosure url="https://iwillnotlookaway.org/s/ru/nd-freezers-at-50-degrees.jpg" type="image/jpeg"/>

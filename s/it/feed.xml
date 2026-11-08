@@ -6,14 +6,32 @@
 <description>Violazioni del diritto internazionale, da Gaza all'Ucraina al Sudan: analisi, attualità e manifesti con norma citata, fonte datata e lo stesso metro per tutti.</description>
 <language>it-IT</language>
 <atom:link href="https://iwillnotlookaway.org/s/it/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 08 Nov 2026 21:00:00 +0100</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 18:58:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Il conto del riarmo: chi paga, e con quali regole</title>
+<link>https://iwillnotlookaway.org/s/it/nd-riarmo-chi-paga.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-riarmo-chi-paga.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>ANALISI</category>
+<description>L'Europa ha deciso di portare la spesa per la difesa al 5% del PIL entro il 2035. Per le armi le regole di bilancio si possono sospendere e le procedure accorciare; per la sanità, la scuola e la diplomazia no. Che cosa dicono i numeri, chi ha già pagato, e che cosa resta da decidere.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-riarmo-chi-paga.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Fin dove arriva la legittima difesa: gli attacchi ucraini in Russia, uno per uno</title>
+<link>https://iwillnotlookaway.org/s/it/nd-legittima-difesa.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-legittima-difesa.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>ANALISI</category>
+<description>L'Ucraina colpisce basi aeree, raffinerie, petroliere e generali in territorio russo. Difendersi attaccando è lecito? Dipende dal bersaglio e dal mezzo. Una mappa per categorie, con lo stesso metro che usiamo per la Russia.</description>
+<enclosure url="https://iwillnotlookaway.org/s/it/nd-legittima-difesa.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Il riarmo si serve freddo</title>
 <link>https://iwillnotlookaway.org/s/it/op-riarmo-si-serve-freddo.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/it/op-riarmo-si-serve-freddo.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>OPINIONE</category>
 <description>Per armarsi, l'Unione europea ha trovato in dieci settimane una procedura d'urgenza. Per parlare con chi la minaccia, dopo più di un anno e mezzo, non ha ancora trovato un nome. Un'Opinione sull'asimmetria tra la difesa e la diplomazia.</description>
 <enclosure url="https://iwillnotlookaway.org/s/it/op-riarmo-si-serve-freddo.jpg" type="image/jpeg"/>
@@ -22,7 +40,7 @@
 <title>Freezer a 50 gradi: chi ha attaccato i supermercati d'Europa, e che cosa sappiamo davvero</title>
 <link>https://iwillnotlookaway.org/s/it/nd-freezer-50-gradi.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/it/nd-freezer-50-gradi.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>ATTUALITÀ</category>
 <description>Il 2 novembre i sistemi di refrigerazione di centinaia di supermercati in almeno undici Paesi europei sono stati manomessi a distanza. Due gruppi filorussi hanno rivendicato, senza prove verificate. Che cosa è accertato, che cosa no, e che cosa dice il diritto quando l'attacco arriva da una tastiera.</description>
 <enclosure url="https://iwillnotlookaway.org/s/it/nd-freezer-50-gradi.jpg" type="image/jpeg"/>

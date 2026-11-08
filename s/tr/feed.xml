@@ -6,14 +6,32 @@
 <description>Gazze'den Ukrayna'ya ve Sudan'a uluslararası hukuk ihlalleri: atıf yapılan norm, tarihli kaynak ve herkes için aynı ölçütle analizler, güncel yazılar ve manifestolar.</description>
 <language>tr-TR</language>
 <atom:link href="https://iwillnotlookaway.org/s/tr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 08 Nov 2026 21:00:00 +0100</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 18:58:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Silahlanmanın faturası: kim ödüyor, hangi kurallarla</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-silahlanma-kim-oduyor.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-silahlanma-kim-oduyor.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>ANALİZ</category>
+<description>Avrupa, savunma harcamalarını 2035'e kadar GSYH'nin yüzde 5'ine çıkarmaya karar verdi. Silahlar için bütçe kuralları askıya alınabiliyor ve prosedürler kısaltılabiliyor; sağlık, okul ve diplomasi için değil. Rakamlar ne söylüyor, kim şimdiden ödedi ve neye hâlâ karar verilmesi gerekiyor.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-silahlanma-kim-oduyor.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>Meşru müdafaa nereye kadar: Ukrayna'nın Rusya'daki saldırıları, tek tek</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-mesru-mudafaa.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-mesru-mudafaa.html</guid>
+<pubDate>Sun, 08 Nov 2026 18:58:00 +0100</pubDate>
+<category>ANALİZ</category>
+<description>Ukrayna Rus topraklarında hava üslerini, rafinerileri, tankerleri ve generalleri vuruyor. Saldırarak kendini savunmak hukuka uygun mu? Hedefe ve araca bağlı. Rusya için kullandığımız ölçütle, kategorilere ayrılmış bir harita.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-mesru-mudafaa.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Silahlanma soğuk yenir</title>
 <link>https://iwillnotlookaway.org/s/tr/op-silahlanma-soguk-yenir.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-silahlanma-soguk-yenir.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>GÖRÜŞ</category>
 <description>Avrupa Birliği silahlanmak için on haftada bir acil durum prosedürü buldu. Kendisini tehdit edenle konuşmak için ise bir buçuk yılı aşkın süredir hâlâ bir isim bulamadı. Savunma ile diplomasi arasındaki asimetri üzerine bir Görüş yazısı.</description>
 <enclosure url="https://iwillnotlookaway.org/s/tr/op-silahlanma-soguk-yenir.jpg" type="image/jpeg"/>
@@ -22,7 +40,7 @@
 <title>50 derecede dondurucular: Avrupa'nın süpermarketlerine kim saldırdı ve gerçekten ne biliyoruz</title>
 <link>https://iwillnotlookaway.org/s/tr/nd-50-derecede-dondurucular.html</link>
 <guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-50-derecede-dondurucular.html</guid>
-<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 <category>GÜNCEL</category>
 <description>2 Kasım'da en az on bir Avrupa ülkesinde yüzlerce süpermarketin soğutma sistemleri uzaktan manipüle edildi. İki Rusya yanlısı grup, doğrulanmış kanıt olmadan saldırıyı üstlendi. Neyin kesinleştiği, neyin kesinleşmediği ve saldırı bir klavyeden geldiğinde hukukun ne dediği.</description>
 <enclosure url="https://iwillnotlookaway.org/s/tr/nd-50-derecede-dondurucular.jpg" type="image/jpeg"/>

@@ -6,9 +6,27 @@
 <description>Gazze'den Ukrayna'ya ve Sudan'a uluslararası hukuk ihlalleri: atıf yapılan norm, tarihli kaynak ve herkes için aynı ölçütle analizler, güncel yazılar ve manifestolar.</description>
 <language>tr-TR</language>
 <atom:link href="https://iwillnotlookaway.org/s/tr/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0100</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 21:00:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Silahlanma soğuk yenir</title>
+<link>https://iwillnotlookaway.org/s/tr/op-silahlanma-soguk-yenir.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/op-silahlanma-soguk-yenir.html</guid>
+<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<category>GÖRÜŞ</category>
+<description>Avrupa Birliği silahlanmak için on haftada bir acil durum prosedürü buldu. Kendisini tehdit edenle konuşmak için ise bir buçuk yılı aşkın süredir hâlâ bir isim bulamadı. Savunma ile diplomasi arasındaki asimetri üzerine bir Görüş yazısı.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/op-silahlanma-soguk-yenir.jpg" type="image/jpeg"/>
+</item>
+<item>
+<title>50 derecede dondurucular: Avrupa'nın süpermarketlerine kim saldırdı ve gerçekten ne biliyoruz</title>
+<link>https://iwillnotlookaway.org/s/tr/nd-50-derecede-dondurucular.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/tr/nd-50-derecede-dondurucular.html</guid>
+<pubDate>Sun, 08 Nov 2026 21:00:00 +0100</pubDate>
+<category>GÜNCEL</category>
+<description>2 Kasım'da en az on bir Avrupa ülkesinde yüzlerce süpermarketin soğutma sistemleri uzaktan manipüle edildi. İki Rusya yanlısı grup, doğrulanmış kanıt olmadan saldırıyı üstlendi. Neyin kesinleştiği, neyin kesinleşmediği ve saldırı bir klavyeden geldiğinde hukukun ne dediği.</description>
+<enclosure url="https://iwillnotlookaway.org/s/tr/nd-50-derecede-dondurucular.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Anahtarlar</title>
 <link>https://iwillnotlookaway.org/s/tr/op-anahtarlar.html</link>

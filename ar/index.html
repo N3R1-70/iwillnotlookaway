@@ -924,7 +924,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 </div>
 <div id="consent-banner">
-<p id="consent-text">Questo sito usa Google Analytics per contare le visite in forma anonima. Nessun dato viene venduto o condiviso.</p>
+<p id="consent-text">Questo sito usa Google Analytics e Meta Pixel per misurare le visite, anche da campagne social. I dati non vengono venduti; sono condivisi solo con Google e Meta per queste finalità. Usa anche Umami, che conta le visite in forma anonima e senza cookie, anche se rifiuti.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
 </div>
@@ -1059,7 +1059,7 @@ function toggleNews(id){var el=document.getElementById(id);if(!el)return;var o=e
   var _p=(PAGEHASH_R[hash]||hash); if (hash && document.getElementById("page-"+_p)) showPage(_p);
 })();
 
-var CONSENT_T = {"ar": {"txt": "يستخدم هذا الموقع Google Analytics وMeta Pixel لقياس الزيارات، بما فيها الزيارات القادمة من حملات وسائل التواصل الاجتماعي. لا تُباع البيانات؛ وتُشارَك فقط مع Google وMeta لهذه الأغراض.", "ok": "أوافق", "no": "أرفض"}};
+var CONSENT_T = {"ar": {"txt": "يستخدم هذا الموقع Google Analytics وMeta Pixel لقياس الزيارات، بما فيها الزيارات القادمة من حملات وسائل التواصل الاجتماعي. لا تُباع البيانات؛ وتُشارَك فقط مع Google وMeta لهذه الأغراض. ويستخدم أيضًا Umami، الذي يحصي الزيارات بشكل مجهول ومن دون ملفات تعريف الارتباط، حتى لو رفضت.", "ok": "أوافق", "no": "أرفض"}};
 function updateConsentTexts(){
   var c = CONSENT_T[currentLang] || CONSENT_T.it;
   setText("consent-text", c.txt);

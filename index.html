@@ -914,7 +914,7 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 </div>
 <div id="consent-banner">
-<p id="consent-text">Questo sito usa Google Analytics e Meta Pixel per misurare le visite, anche da campagne social. I dati non vengono venduti; sono condivisi solo con Google e Meta per queste finalità.</p>
+<p id="consent-text">Questo sito usa Google Analytics e Meta Pixel per misurare le visite, anche da campagne social. I dati non vengono venduti; sono condivisi solo con Google e Meta per queste finalità. Usa anche Umami, che conta le visite in forma anonima e senza cookie, anche se rifiuti.</p>
 <button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
 <button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
 </div>
@@ -1048,7 +1048,7 @@ function toggleNews(id){var el=document.getElementById(id);if(!el)return;var o=e
   if (hash && document.getElementById("page-"+hash)) showPage(hash);
 })();
 
-var CONSENT_T = {"it": {"txt": "Questo sito usa Google Analytics e Meta Pixel per misurare le visite, anche da campagne social. I dati non vengono venduti; sono condivisi solo con Google e Meta per queste finalità.", "ok": "Accetto", "no": "Rifiuto"}};
+var CONSENT_T = {"it": {"txt": "Questo sito usa Google Analytics e Meta Pixel per misurare le visite, anche da campagne social. I dati non vengono venduti; sono condivisi solo con Google e Meta per queste finalità. Usa anche Umami, che conta le visite in forma anonima e senza cookie, anche se rifiuti.", "ok": "Accetto", "no": "Rifiuto"}};
 function updateConsentTexts(){
   var c = CONSENT_T[currentLang] || CONSENT_T.it;
   setText("consent-text", c.txt);

@@ -3,49 +3,7 @@
 <html lang="es">
 <head>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b2509e95-d74b-4969-993d-0af16b77907d" data-domains="iwillnotlookaway.org"></script>
-<!-- Google Analytics 4 + Consent Mode v2 -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HY29CH99B7"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', {
-  'analytics_storage': 'denied',
-  'ad_storage': 'denied',
-  'ad_user_data': 'denied',
-  'ad_personalization': 'denied'
-});
-(function(){
-  try{
-    if(localStorage.getItem("iwnla_consent") === "granted"){
-      gtag('consent','update',{'analytics_storage':'granted'});
-    }
-  }catch(e){}
-})();
-gtag('js', new Date());
-gtag('config', 'G-HY29CH99B7');
-</script>
-<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '924457534068346');
-fbq('consent', 'revoke');
-(function(){
-  try{
-    if(localStorage.getItem("iwnla_consent") === "granted"){
-      fbq('consent', 'grant');
-      fbq('track', 'PageView');
-    }
-  }catch(e){}
-})();
-</script>
-<!-- End Meta Pixel Code -->
+<script defer src="/js/consent.js"></script>
 <meta charset="utf-8"/>
 <link rel="preload" as="image" href="/mark.png"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -59,7 +17,7 @@ fbq('consent', 'revoke');
 <meta content="Violaciones del derecho internacional, de Gaza a Ucrania y Sudán: análisis, actualidad y manifiestos con la norma citada, fuente fechada y la misma vara de medir para todos." property="og:description"/>
 <meta content="https://iwillnotlookaway.org/og-cover.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="I Will Not Look Away — SEE. FEEL. ACT." property="og:image:alt"/><meta content="https://iwillnotlookaway.org/og-cover.jpg" name="twitter:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&amp;family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/assets/fonts/fonts.css"/>
 <style>
 :root{--void:#080808;--deep:#0e0e0e;--surface:#141414;--line:#2a2a2a;--ash:#5a5a5a;--dust:#8a8a8a;--pale:#b8b4ac;--ghost:#d8d4cc;--bone:#ece8e0;--blood:#6b1414;--ember:#8b2020;--glow:#a83030}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -86,7 +44,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .section-header{font-size:.62rem;letter-spacing:.4em;text-transform:uppercase;color:var(--glow);margin-bottom:56px;display:flex;align-items:center;gap:20px}
 .section-header::after{content:'';flex:1;height:1px;background:linear-gradient(to right,var(--blood),transparent)}
 #hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:140px 0 80px;position:relative;overflow:hidden}
-#hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1531778272849-d1dd22444c06?w=1600&q=80');background-size:cover;background-position:center 40%;filter:grayscale(100%) brightness(.22) contrast(1.2);transform:scale(1.05);animation:slowzoom 30s ease infinite alternate}
+#hero-bg{position:absolute;inset:0;background-image:url('/assets/img/hero-bg.jpg');background-size:cover;background-position:center 40%;filter:grayscale(100%) brightness(.22) contrast(1.2);transform:scale(1.05);animation:slowzoom 30s ease infinite alternate}
 @keyframes slowzoom{from{transform:scale(1.05)}to{transform:scale(1.12)}}
 #hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 100%,transparent 20%,rgba(8,8,8,.7) 70%,var(--void) 100%),linear-gradient(to bottom,var(--void) 0%,transparent 25%,transparent 60%,var(--void) 100%);pointer-events:none}
 .hero-content{position:relative;z-index:2;max-width:900px;margin:0 auto;padding:0 48px}
@@ -262,15 +220,6 @@ a.lang-btn{text-decoration:none;display:inline-block}
 <p>Esta plataforma alberga manifiestos fundados en el derecho internacional, noticias sobre declaraciones y hechos relevantes con su encuadre jurídico, y peticiones abiertas a la firma de quien comparta el principio de que <strong>ningún Estado está por encima del derecho.</strong></p>
 </div>
 </div>
-<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
-<p class="section-header">Mantente informado</p>
-<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Una síntesis esencial, solo cuando un hecho lo merece. Sin spam, sin algoritmo: tu correo sigue siendo tuyo.</p>
-<form data-ok="Se ha abierto tu aplicación de correo: envía el mensaje para confirmar la suscripción." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-<input type="email" required placeholder="tu@email.es" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
-<button type="submit" class="btn-primary">Suscribirse</button>
-</form>
-<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">Al suscribirte aceptas recibir actualizaciones de I Will Not Look Away. Cancela cuando quieras.</p>
-</section>
 </div>
 
 <div class="page" id="page-manifesti">
@@ -939,12 +888,8 @@ a.lang-btn{text-decoration:none;display:inline-block}
 </div>
 </div>
 </div>
-<div id="consent-banner">
-<p id="consent-text">Questo sito usa Google Analytics e Meta Pixel per misurare le visite, anche da campagne social. I dati non vengono venduti; sono condivisi solo con Google e Meta per queste finalità. Usa anche Umami, che conta le visite in forma anonima e senza cookie, anche se rifiuti.</p>
-<button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Accetto</button>
-<button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Rifiuto</button>
-</div>
-<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p><p class="ftr-ia-nota" style="margin-top:10px;font-size:13px;color:var(--dust);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6">Los borradores se elaboran con asistencia de IA; la verificación de fuentes, la dirección editorial y la responsabilidad final siguen siendo enteramente humanas — <a href="/s/es/metodo.html" style="color:var(--dust)">nota de método</a>.</p><p id="t-ftref" style="margin-top:10px;font-size:13px"><a href="/s/es/temas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Temas</a> · <a href="/s/es/fuentes.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Fuentes</a> · <a href="/s/es/referencias-normativas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Referencias jurídicas</a> · <a href="/s/es/documentos.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Documentos</a> · <a href="/s/es/profugos-cpi.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Prófugos de la CPI</a> · <a href="/s/es/idiomas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Idiomas</a> · <a href="/s/es/metodo.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Método</a></p><p style="margin-top:10px"><a href="mailto:iwillnotlookaway@gmail.com" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">LinkedIn</a></p></footer>
+<footer><p id="t-ft">I Will Not Look Away · iwillnotlookaway.org · 2026</p><p class="ftr-ia-nota" style="margin-top:10px;font-size:13px;color:var(--dust);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6">Los borradores se elaboran con asistencia de IA; la verificación de fuentes, la dirección editorial y la responsabilidad final siguen siendo enteramente humanas — <a href="/s/es/metodo.html" style="color:var(--dust)">nota de método</a>.</p><p id="t-ftref" style="margin-top:10px;font-size:13px"><a href="/s/es/temas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Temas</a> · <a href="/s/es/fuentes.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Fuentes</a> · <a href="/s/es/referencias-normativas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Referencias jurídicas</a> · <a href="/s/es/documentos.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Documentos</a> · <a href="/s/es/profugos-cpi.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Prófugos de la CPI</a> · <a href="/s/es/idiomas.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Idiomas</a> · <a href="/s/es/metodo.html" style="color:var(--dust);text-decoration:none;letter-spacing:.04em">Método</a></p><p style="margin-top:10px"><a href="mailto:iwillnotlookaway@gmail.com" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer" style="color:var(--dust);text-decoration:none;letter-spacing:.05em">LinkedIn</a></p><p class="ftr-cookie" style="margin-top:8px;font-size:13px"><a href="/s/es/privacidad.html">Privacidad y cookies</a> · <button type="button" class="iwnla-ck-manage" data-iwnla-cookie>Gestionar cookies</button></p>
+</footer>
 <script>
 var T = {"es": {"nav_scopo": "Propósito", "nav_chisono": "Quién soy", "nav_manifesti": "Manifiestos", "nav_notizie": "Noticias", "nav_petizioni": "Peticiones", "hl": "I Will Not Look Away · 2026", "ht": "SEE. FEEL. <em>ACT.</em>", "hs": "La ley se aplica a todos, o no se aplica a nadie.", "cs": "Los manifiestos", "cr": "Las peticiones", "c1": "Gaza · 2023–2024", "c2": "Consejo de Seguridad · Veto", "c3": "Derecho Internacional · En silencio", "sl": "Propósito", "al": "Quién soy", "ml": "Manifiestos", "nh": "Noticias", "ph": "Peticiones", "mct": "Por el No Reconocimiento de la Conducta del Estado de Israel", "mcs": "Fundamento jurídico, ético y político de una ruptura necesaria · 2026", "mcr": "Leer el texto íntegro", "mcc": "Cerrar", "mcp": "Descargar PDF", "pl": "Descargar el Manifiesto en PDF", "pdf": "manifesto_es.pdf", "pdf2": "manifesto_ru_es.pdf", "pdf3": "manifesto_sd_es.pdf", "pdf4": "manifesto_us_es.pdf", "pdf5": "manifesto_fl_es.pdf", "mct4": "Por el No Reconocimiento de la Conducta de los Estados Unidos de América", "mcs4": "Fundamento jurídico, ético y político de un principio que no admite excepciones · 2026", "mct5": "Por la Libertad de los Mares — El Secuestro de la Flotilla", "mcs5": "Fundamento jurídico, ético y político del derecho a no apartar la mirada · 2026", "mct2": "Por el No Reconocimiento de la Conducta de la Federación Rusa", "mcs2": "Fundamento jurídico, ético y político de una coherencia necesaria · 2026", "mct3": "Por Sudán — El Genocidio del que el Mundo Aparta la Mirada", "mcs3": "Fundamento jurídico, ético y político de una atención debida · 2026", "soon": "Petición en preparación", "ad": "Una sola persona. Ninguna organización, ningún movimiento — un ciudadano que eligió no callar.", "md": "Documentos fundados en el derecho internacional: hechos documentados, normas violadas, medidas concretas.", "nd": "Casos verificados en los que una norma de derecho internacional ha sido violada — o amenazada de violación — en contextos que la información internacional cubre poco o no cubre en absoluto. Cada caso se selecciona con el método SDR-70: no por gravedad aislada, sino por la brecha entre la gravedad del hecho y la atención que recibe. Cada pieza indica la norma de referencia, la fuente fechada y la prueba de simetría aplicada.", "cad": "Lecturas jurídicas de hechos que ya están en el centro de la cobertura mediática internacional en el momento en que ocurren. Mismo método de verificación que en Análisis — fuente fechada, norma citada, prueba de simetría — aplicado a eventos que el público ya está observando en otros lugares. Cada pieza indica una fecha de publicación precisa, para permanecer anclada al momento en que fue escrita.", "pd": "Cada manifiesto tiene su petición dedicada. Firmar significa dar peso colectivo a un principio.", "ft": "I Will Not Look Away · iwillnotlookaway.org · 2026", "title": "I Will Not Look Away — Manifiesto"}};
 
@@ -1037,7 +982,6 @@ function setLang(l) {
       history.replaceState(null, "", "/" + l + "/" + window.location.hash);
     }
   } catch(e) {}
-  if (typeof CONSENT_T !== "undefined") updateConsentTexts();
 }
 
 var PAGEHASH={"home": "inicio", "chisono": "quienes", "manifesti": "manifiestos", "notizie": "noticias", "petizioni": "peticiones"};var PAGEHASH_R={};for(var _k in PAGEHASH){PAGEHASH_R[PAGEHASH[_k]]=_k;}
@@ -1075,26 +1019,6 @@ function toggleNews(id){var el=document.getElementById(id);if(!el)return;var o=e
   var _p=(PAGEHASH_R[hash]||hash); if (hash && document.getElementById("page-"+_p)) showPage(_p);
 })();
 
-var CONSENT_T = {"es": {"txt": "Este sitio usa Google Analytics y Meta Pixel para medir las visitas, incluidas las procedentes de campañas en redes sociales. Los datos no se venden; se comparten solo con Google y Meta para estos fines. También usa Umami, que cuenta las visitas de forma anónima y sin cookies, aunque las rechaces.", "ok": "Acepto", "no": "Rechazo"}};
-function updateConsentTexts(){
-  var c = CONSENT_T[currentLang] || CONSENT_T.it;
-  setText("consent-text", c.txt);
-  setText("consent-accept", c.ok);
-  setText("consent-decline", c.no);
-}
-function consentChoice(ok){
-  try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
-  document.getElementById("consent-banner").style.display = "none";
-}
-(function(){
-  var v = null;
-  try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v !== "granted" && v !== "denied"){
-    document.getElementById("consent-banner").style.display = "flex";
-    updateConsentTexts();
-  }
-})();
 </script>
 <script>(function(){try{
 var ns=document.querySelectorAll('#page-attualita .news-card'),host=document.getElementById('home-attualita'),n=0;
@@ -1123,7 +1047,6 @@ if(box){if(!box.classList.contains('open'))fn();scroll(box.previousElementSiblin
 }catch(e){}}
 setTimeout(go,80);})();</script>
 <script>/*share*/(function(){function curLang(){var m=location.pathname.match(/^\/(en|fr|de|es|pt|tr|zh|ar|he)(\/|$)/);return m?m[1]:"it";}var DONE="Enlace copiado";function toast(t){var d=document.createElement("div");d.className="share-toast";d.textContent=t;document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add("show");});setTimeout(function(){d.classList.remove("show");setTimeout(function(){d.remove();},400);},1800);}function shareItem(key,title){var url=location.origin+"/s/"+curLang()+"/"+key+".html";if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){toast(DONE);},function(){window.prompt(DONE,url);});}else{window.prompt(DONE,url);}}document.addEventListener("click",function(e){var b=e.target.closest("[data-share-key]");if(!b)return;e.preventDefault();e.stopPropagation();var key=b.getAttribute("data-share-key");var card=b.closest(".manifesto-card")||b.closest(".news-card");var te=card?card.querySelector(".manifesto-card-title,.news-title"):null;var title=te?te.textContent.trim():"I Will Not Look Away";shareItem(key,title);});})();</script>
-<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
 <script>(function(){try{var p=new URLSearchParams(location.search).get("page")||(location.hash?location.hash.slice(1):"");if(p&&["home","chisono","manifesti","notizie","petizioni","opinioni"].indexOf(p)>-1&&typeof showPage==="function")showPage(p);}catch(e){}})();</script>
 <script>(function(){try{var q=function(s){return document.querySelectorAll(s).length};var set=function(id,v){var e=document.getElementById(id);if(e&&v)e.textContent=v};set('cnt-manifesti',q('#page-manifesti .manifesto-card'));set('cnt-notizie',q('#page-notizie .news-card'));}catch(e){}})();</script>
 <script>function toggleTags(b){var p=b.closest(".tagpanel");var bd=p.querySelector(".tagpanel-body");if(p.classList.toggle("open"))bd.removeAttribute("hidden");else bd.setAttribute("hidden","");}</script>

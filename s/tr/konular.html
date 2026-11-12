@@ -2,52 +2,10 @@
 <html lang="tr">
 <head>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b2509e95-d74b-4969-993d-0af16b77907d" data-domains="iwillnotlookaway.org"></script>
+<script defer src="/js/consent.js"></script>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="preload" as="image" href="/logo.png"/>
-<!-- Google Analytics 4 + Consent Mode v2 -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HY29CH99B7"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', {
-  'analytics_storage': 'denied',
-  'ad_storage': 'denied',
-  'ad_user_data': 'denied',
-  'ad_personalization': 'denied'
-});
-(function(){
-  try{
-    if(localStorage.getItem("iwnla_consent") === "granted"){
-      gtag('consent','update',{'analytics_storage':'granted'});
-    }
-  }catch(e){}
-})();
-gtag('js', new Date());
-gtag('config', 'G-HY29CH99B7');
-</script>
-<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '924457534068346');
-fbq('consent', 'revoke');
-(function(){
-  try{
-    if(localStorage.getItem("iwnla_consent") === "granted"){
-      fbq('consent', 'grant');
-      fbq('track', 'PageView');
-    }
-  }catch(e){}
-})();
-</script>
-<!-- End Meta Pixel Code -->
 <title>Konular — I Will Not Look Away</title>
 <meta name="description" content="Analiz edilen tüm konular"/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/tr/konular.html"/>
@@ -68,7 +26,7 @@ fbq('consent', 'revoke');
 <meta property="og:title" content="Konular — I Will Not Look Away"/>
 <meta property="og:description" content="Analiz edilen tüm konular"/>
 <meta property="og:url" content="https://iwillnotlookaway.org/s/tr/konular.html"/>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&amp;family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/assets/fonts/fonts.css"/>
 <style>
 :root{--void:#080808;--deep:#0e0e0e;--surface:#141414;--line:#2a2a2a;--ash:#5a5a5a;--dust:#8a8a8a;--pale:#b8b4ac;--ghost:#d8d4cc;--bone:#ece8e0;--blood:#6b1414;--ember:#8b2020;--glow:#a83030}
 *{box-sizing:border-box}
@@ -114,40 +72,12 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <body>
 <nav id="main-nav"><div id="nav-logo-wrap"><a href="/tr/"><img id="nav-logo" src="/logo.png" alt="I Will Not Look Away"/></a></div><div id="nav-links"><a class="nav-link" href="/s/tr/manifestolar.html">Manifestolar</a><a class="nav-link" href="/s/tr/haberler.html">Analiz</a><a class="nav-link" href="/s/tr/guncel.html">Güncel</a><a class="nav-link" href="/s/tr/gorusler.html">Görüşler</a><a class="nav-link" href="/s/tr/dilekceler.html">Dilekçeler</a><a class="nav-link active" href="/s/tr/konular.html">Konular</a><a class="nav-link" href="/s/tr/diziler.html">Diziler</a><a class="nav-link" href="/s/tr/harita.html">Harita</a><a class="nav-link" href="/s/tr/kutuphane.html">Kütüphane</a><a class="nav-link" href="/s/tr/hakkimda.html">Hakkımda</a></div><div id="lang-bar"><a class="lang-btn" href="/s/it/argomenti.html">IT</a><a class="lang-btn" href="/s/en/topics.html">EN</a><a class="lang-btn" href="/s/fr/sujets.html">FR</a><a class="lang-btn" href="/s/de/themen.html">DE</a><a class="lang-btn" href="/s/zh/topics.html">中文</a><a class="lang-btn" href="/s/ar/topics.html">AR</a><a class="lang-btn" href="/s/es/temas.html">ES</a><a class="lang-btn" href="/s/pt/temas.html">PT</a><a class="lang-btn active" href="/s/tr/konular.html">TR</a><a class="lang-btn" href="/s/he/topics.html">עב</a><a class="lang-btn" href="/s/ru/topics.html">RU</a></div></nav>
 <div class="phead"><p class="k">Konu</p><h1>Konular</h1><p class="count">Analiz edilen tüm konular</p></div><div class="tp-controls"><input type="text" class="tp-search" placeholder="Bir konu ara…" aria-label="Bir konu ara…"/><button type="button" class="tp-sortbtn active" data-sort="az">A-Z</button><button type="button" class="tp-sortbtn" data-sort="num">Sayıya göre</button></div><p class="tp-count" id="tp-count"></p><div class="idxlist" id="idxlist"></div>
-<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
-<p class="section-header">Bilgi sahibi olun</p>
-<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Yalnızca bir olgu hak ettiğinde, özlü bir özet. Spam yok, algoritma yok: e-postanız sizin kalır.</p>
-<form data-ok="E-posta uygulamanız açıldı — aboneliği onaylamak için mesajı gönderin." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-<input type="email" required placeholder="eposta@adresiniz.com" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
-<button type="submit" class="btn-primary">Abone ol</button>
-</form>
-<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">Abone olarak I Will Not Look Away güncellemelerini almayı kabul edersiniz. İstediğiniz zaman iptal edebilirsiniz.</p>
-</section>
-<div id="consent-banner">
-<p id="consent-text">Bu site, sosyal medya kampanyalarından gelenler dahil ziyaretleri ölçmek için Google Analytics ve Meta Pixel kullanır. Veriler satılmaz; yalnızca bu amaçlarla Google ve Meta ile paylaşılır. Ayrıca ziyaretleri anonim ve çerezsiz sayan Umami'yi de kullanır; reddetseniz bile.</p>
-<button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">Kabul</button>
-<button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Reddet</button>
-</div>
-<script>
-function consentChoice(ok){
-  try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
-  document.getElementById("consent-banner").style.display = "none";
-}
-(function(){
-  var v = null;
-  try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v !== "granted" && v !== "denied"){
-    document.getElementById("consent-banner").style.display = "flex";
-  }
-})();
-</script>
 <footer>
 <p>I Will Not Look Away · iwillnotlookaway.org · 2026</p><p class="ftr-ia-nota" style="margin:10px auto 0;max-width:640px;line-height:1.6">Taslaklar yapay zekâ desteğiyle hazırlanır; kaynak doğrulaması, editoryal yön ve nihai sorumluluk tamamen insana aittir — <a href="/s/tr/yontem.html">yöntem notu</a>.</p>
 <p style="margin-top:10px;font-size:13px;letter-spacing:.04em"><a href="/s/tr/konular.html">Konular</a> · <a href="/s/tr/kaynaklar.html">Kaynaklar</a> · <a href="/s/tr/yontem.html">Yöntem</a> · <a href="/s/tr/hukuki-kaynaklar.html">Hukuki kaynaklar</a> · <a href="/s/tr/belgeler.html">Belgeler</a> · <a href="/s/tr/sozluk.html">Sözlük</a> · <a href="/s/tr/ucm-firarileri.html">UCM'nin firarileri</a> · <a href="/s/tr/diller.html">Diller</a></p>
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+<p class="ftr-cookie" style="margin-top:8px;font-size:13px"><a href="/s/tr/gizlilik.html">Gizlilik ve çerezler</a> · <button type="button" class="iwnla-ck-manage" data-iwnla-cookie>Çerezleri yönet</button></p>
 </footer>
-<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Iscrizione newsletter - I Will Not Look Away');var b=encodeURIComponent('Desidero iscrivermi alla newsletter con questo indirizzo: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Grazie.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
 <script>
 var TAG_DATA=[{"h": "/s/tr/tag/abd.html", "n": "ABD", "c": 44}, {"h": "/s/tr/tag/aclik-ve-kitlik.html", "n": "Açlık ve kıtlık", "c": 6}, {"h": "/s/tr/tag/afganistan.html", "n": "Afganistan", "c": 5}, {"h": "/s/tr/tag/afrika-boynuzu.html", "n": "Afrika Boynuzu", "c": 9}, {"h": "/s/tr/tag/avrupa-birligi.html", "n": "Avrupa Birliği", "c": 35}, {"h": "/s/tr/tag/ben-gvir.html", "n": "Ben Gvir", "c": 6}, {"h": "/s/tr/tag/bm.html", "n": "BM", "c": 49}, {"h": "/s/tr/tag/brics.html", "n": "BRICS", "c": 1}, {"h": "/s/tr/tag/cia.html", "n": "CIA", "c": 5}, {"h": "/s/tr/tag/cin.html", "n": "Çin", "c": 10}, {"h": "/s/tr/tag/cocuklar.html", "n": "Çocuklar", "c": 12}, {"h": "/s/tr/tag/demokrasi.html", "n": "Demokrasi", "c": 5}, {"h": "/s/tr/tag/dijital-haklar-ve-gozetim.html", "n": "Dijital haklar ve gözetim", "c": 5}, {"h": "/s/tr/tag/dr-kongo.html", "n": "DR Kongo", "c": 3}, {"h": "/s/tr/tag/ekvador.html", "n": "Ekvador", "c": 1}, {"h": "/s/tr/tag/eritre.html", "n": "Eritre", "c": 1}, {"h": "/s/tr/tag/etiyopya.html", "n": "Etiyopya", "c": 4}, {"h": "/s/tr/tag/filo.html", "n": "Filo", "c": 3}, {"h": "/s/tr/tag/gazze.html", "n": "Gazze", "c": 7}, {"h": "/s/tr/tag/guney-sudan.html", "n": "Güney Sudan", "c": 2}, {"h": "/s/tr/tag/haiti.html", "n": "Haiti", "c": 3}, {"h": "/s/tr/tag/hamas.html", "n": "Hamas", "c": 4}, {"h": "/s/tr/tag/hibrit-savas.html", "n": "Hibrit savaş", "c": 5}, {"h": "/s/tr/tag/hizbullah.html", "n": "Hizbullah", "c": 1}, {"h": "/s/tr/tag/husiler.html", "n": "Husiler", "c": 3}, {"h": "/s/tr/tag/idam-cezasi.html", "n": "İdam cezası", "c": 5}, {"h": "/s/tr/tag/iltica-ve-goc.html", "n": "İltica ve göç", "c": 7}, {"h": "/s/tr/tag/iran.html", "n": "İran", "c": 19}, {"h": "/s/tr/tag/iskence.html", "n": "İşkence", "c": 6}, {"h": "/s/tr/tag/israil.html", "n": "İsrail", "c": 23}, {"h": "/s/tr/tag/kadinlar.html", "n": "Kadınlar", "c": 4}, {"h": "/s/tr/tag/kamerun.html", "n": "Kamerun", "c": 2}, {"h": "/s/tr/tag/katar.html", "n": "Katar", "c": 1}, {"h": "/s/tr/tag/kolombiya.html", "n": "Kolombiya", "c": 3}, {"h": "/s/tr/tag/kripto.html", "n": "Kripto", "c": 4}, {"h": "/s/tr/tag/kuba.html", "n": "Küba", "c": 1}, {"h": "/s/tr/tag/libya.html", "n": "Libya", "c": 4}, {"h": "/s/tr/tag/lubnan.html", "n": "Lübnan", "c": 5}, {"h": "/s/tr/tag/macaristan.html", "n": "Macaristan", "c": 1}, {"h": "/s/tr/tag/mali.html", "n": "Mali", "c": 1}, {"h": "/s/tr/tag/misir.html", "n": "Mısır", "c": 1}, {"h": "/s/tr/tag/mozambik.html", "n": "Mozambik", "c": 1}, {"h": "/s/tr/tag/myanmar.html", "n": "Myanmar", "c": 2}, {"h": "/s/tr/tag/nijerya.html", "n": "Nijerya", "c": 2}, {"h": "/s/tr/tag/otomotiv-sanayi.html", "n": "Otomotiv sanayi", "c": 3}, {"h": "/s/tr/tag/pakistan.html", "n": "Pakistan", "c": 3}, {"h": "/s/tr/tag/rohingya.html", "n": "Rohingya", "c": 2}, {"h": "/s/tr/tag/ruanda.html", "n": "Ruanda", "c": 4}, {"h": "/s/tr/tag/rusya.html", "n": "Rusya", "c": 17}, {"h": "/s/tr/tag/rusya-ukrayna.html", "n": "Rusya–Ukrayna", "c": 23}, {"h": "/s/tr/tag/sahel.html", "n": "Sahel", "c": 3}, {"h": "/s/tr/tag/somali.html", "n": "Somali", "c": 1}, {"h": "/s/tr/tag/soykirim.html", "n": "Soykırım", "c": 11}, {"h": "/s/tr/tag/spor.html", "n": "Spor", "c": 1}, {"h": "/s/tr/tag/sudan.html", "n": "Sudan", "c": 7}, {"h": "/s/tr/tag/suriye.html", "n": "Suriye", "c": 3}, {"h": "/s/tr/tag/tayvan.html", "n": "Tayvan", "c": 2}, {"h": "/s/tr/tag/trump.html", "n": "Trump", "c": 12}, {"h": "/s/tr/tag/turkiye.html", "n": "Türkiye", "c": 3}, {"h": "/s/tr/tag/uluslararasi-ceza-mahkemesi.html", "n": "Uluslararası Ceza Mahkemesi", "c": 22}, {"h": "/s/tr/tag/uluslararasi-hukuk.html", "n": "Uluslararası hukuk", "c": 103}, {"h": "/s/tr/tag/uluslararasi-yonetisim.html", "n": "Uluslararası yönetişim", "c": 5}, {"h": "/s/tr/tag/unutulan-krizler.html", "n": "Unutulan krizler", "c": 21}, {"h": "/s/tr/tag/venezuela.html", "n": "Venezuela", "c": 4}, {"h": "/s/tr/tag/yapay-zeka.html", "n": "Yapay zekâ", "c": 6}, {"h": "/s/tr/tag/yaptirimlar.html", "n": "Yaptırımlar", "c": 22}, {"h": "/s/tr/tag/yemen.html", "n": "Yemen", "c": 6}, {"h": "/s/tr/tag/yeniden-silahlanma.html", "n": "Yeniden silahlanma", "c": 11}];
 (function(){

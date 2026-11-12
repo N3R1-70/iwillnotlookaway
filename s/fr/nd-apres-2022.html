@@ -2,52 +2,10 @@
 <html lang="fr">
 <head>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b2509e95-d74b-4969-993d-0af16b77907d" data-domains="iwillnotlookaway.org"></script>
+<script defer src="/js/consent.js"></script>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="preload" as="image" href="/logo.png"/>
-<!-- Google Analytics 4 + Consent Mode v2 -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HY29CH99B7"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', {
-  'analytics_storage': 'denied',
-  'ad_storage': 'denied',
-  'ad_user_data': 'denied',
-  'ad_personalization': 'denied'
-});
-(function(){
-  try{
-    if(localStorage.getItem("iwnla_consent") === "granted"){
-      gtag('consent','update',{'analytics_storage':'granted'});
-    }
-  }catch(e){}
-})();
-gtag('js', new Date());
-gtag('config', 'G-HY29CH99B7');
-</script>
-<!-- Meta Pixel Code (gated by consent, matches Google Analytics behavior) -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '924457534068346');
-fbq('consent', 'revoke');
-(function(){
-  try{
-    if(localStorage.getItem("iwnla_consent") === "granted"){
-      fbq('consent', 'grant');
-      fbq('track', 'PageView');
-    }
-  }catch(e){}
-})();
-</script>
-<!-- End Meta Pixel Code -->
 <title>Après 2022 : ce que l'Europe a choisi et ce que cela lui a coûté — I Will Not Look Away</title>
 <meta name="description" content="Sanctions, prêts à Kyiv, réarmement, réfugiés, accord douanier avec Washington : les choix européens après l&#x27;invasion, leurs coûts et qui est assis à la table de la paix."/>
 <link rel="canonical" href="https://iwillnotlookaway.org/s/fr/nd-apres-2022.html"/>
@@ -80,7 +38,7 @@ fbq('consent', 'revoke');
 <meta property="article:tag" content="Russie–Ukraine"/>
 <meta property="article:tag" content="États-Unis"/>
 <meta property="article:tag" content="Sanctions"/>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&amp;family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/assets/fonts/fonts.css"/>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Après 2022 : ce que l'Europe a choisi et ce que cela lui a coûté", "inLanguage": "fr", "mainEntityOfPage": "https://iwillnotlookaway.org/s/fr/nd-apres-2022.html", "author": {"@type": "Organization", "name": "I Will Not Look Away"}, "publisher": {"@type": "Organization", "name": "I Will Not Look Away", "url": "https://iwillnotlookaway.org"}, "description": "Sanctions, prêts à Kyiv, réarmement, réfugiés, accord douanier avec Washington : les choix européens après l'invasion, leurs coûts et qui est assis à la table de la paix.", "datePublished": "2026-10-17", "dateModified": "2026-10-17"}</script>
 <style>
 :root{--void:#080808;--deep:#0e0e0e;--surface:#141414;--line:#2a2a2a;--ash:#5a5a5a;--dust:#8a8a8a;--pale:#b8b4ac;--ghost:#d8d4cc;--bone:#ece8e0;--blood:#6b1414;--ember:#8b2020;--glow:#a83030}
@@ -200,40 +158,12 @@ a{color:var(--glow)}.chips{max-width:720px;margin:30px auto 0;padding:0 24px;dis
 <p class="back"><a href="/fr/">← Toutes les actualités et manifestes</a></p>
 </article>
 <script>function shareThis(){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){alert("Link copied");});}else{window.prompt("Link copied",u);}}</script>
-<section class="section-inner newsletter" style="padding-top:10px;padding-bottom:90px;text-align:center;max-width:640px;margin:0 auto">
-<p class="section-header">Restez informé</p>
-<p style="color:var(--dust);max-width:520px;margin:0 auto 22px;line-height:1.6">Une synthèse essentielle, seulement quand un fait le mérite. Pas de spam, aucun algorithme : votre adresse reste la vôtre.</p>
-<form data-ok="Votre messagerie vient de s'ouvrir — envoyez le message pour confirmer votre inscription." onsubmit="return nlSub(event)" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-<input type="email" required placeholder="votre@email.fr" aria-label="email" style="background:var(--surface);border:1px solid var(--line);color:var(--bone);padding:13px 16px;border-radius:2px;font-size:15px;min-width:240px;font-family:inherit"/>
-<button type="submit" class="btn-primary">S'inscrire</button>
-</form>
-<p style="color:var(--ash);font-size:12px;margin-top:14px;line-height:1.5">En vous inscrivant, vous acceptez de recevoir les mises à jour de I Will Not Look Away. Désinscription à tout moment.</p>
-</section>
-<div id="consent-banner">
-<p id="consent-text">Ce site utilise Google Analytics et Meta Pixel pour mesurer les visites, y compris depuis les campagnes sur les réseaux sociaux. Les données ne sont pas vendues ; elles sont partagées uniquement avec Google et Meta à ces fins. Il utilise aussi Umami, qui compte les visites de façon anonyme et sans cookies, même si vous refusez.</p>
-<button class="consent-btn" id="consent-accept" onclick="consentChoice(true)">J'accepte</button>
-<button class="consent-btn" id="consent-decline" onclick="consentChoice(false)">Je refuse</button>
-</div>
-<script>
-function consentChoice(ok){
-  try{ localStorage.setItem("iwnla_consent", ok ? "granted" : "denied"); }catch(e){}
-  if(ok){ gtag('consent','update',{'analytics_storage':'granted'}); fbq('consent','grant'); fbq('track','PageView'); }
-  document.getElementById("consent-banner").style.display = "none";
-}
-(function(){
-  var v = null;
-  try{ v = localStorage.getItem("iwnla_consent"); }catch(e){}
-  if(v !== "granted" && v !== "denied"){
-    document.getElementById("consent-banner").style.display = "flex";
-  }
-})();
-</script>
 
 <footer>
 <p>I Will Not Look Away · iwillnotlookaway.org · 2026</p><p class="ftr-ia-nota" style="margin:10px auto 0;max-width:640px;line-height:1.6">Les brouillons sont élaborés avec l'assistance de l'IA ; la vérification des sources, la direction éditoriale et la responsabilité finale restent entièrement humaines — <a href="/s/fr/methode.html">note de méthode</a>.</p>
 <p style="margin-top:10px;font-size:13px;letter-spacing:.04em"><a href="/s/fr/sujets.html">Sujets</a> · <a href="/s/fr/sources.html">Sources</a> · <a href="/s/fr/methode.html">Méthode</a> · <a href="/s/fr/references-juridiques.html">Références juridiques</a> · <a href="/s/fr/documents.html">Documents</a> · <a href="/s/fr/glossaire.html">Glossaire</a> · <a href="/s/fr/fugitifs-cpi.html">Les fugitifs de la CPI</a> · <a href="/s/fr/langues.html">Langues</a></p>
 <p style="margin-top:8px"><a href="mailto:iwillnotlookaway@gmail.com">iwillnotlookaway@gmail.com</a> · <a href="https://www.facebook.com/iwillnotlookaway" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.linkedin.com/company/iwillnotlookaway" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+<p class="ftr-cookie" style="margin-top:8px;font-size:13px"><a href="/s/fr/confidentialite.html">Confidentialité et cookies</a> · <button type="button" class="iwnla-ck-manage" data-iwnla-cookie>Gérer les cookies</button></p>
 </footer>
-<script>function nlSub(e){e.preventDefault();var f=e.currentTarget;var i=f.querySelector('input[type=email]');var v=(i.value||'').trim();if(!v)return false;var s=encodeURIComponent('Newsletter signup - I Will Not Look Away');var b=encodeURIComponent('I would like to subscribe with this email: '+v);window.location.href='mailto:iwillnotlookaway@gmail.com?subject='+s+'&body='+b;var ok=f.getAttribute('data-ok')||'Thanks.';setTimeout(function(){f.innerHTML='<p style="color:var(--pale);margin:0;line-height:1.6">'+ok+'</p>';},300);return false;}</script>
 </body>
 </html>

@@ -4,7 +4,8 @@
  * Google Analytics 4 viene iniettato da loadTrackingScripts() SOLO se la scelta
  * salvata è 'accepted'. Prima del clic su «Accetto» non parte alcuna richiesta verso
  * googletagmanager.com o google-analytics.com.
- * v229 (13/11/2026): tolto Meta Pixel (nessuna campagna attiva); ID GA allineato alla proprietà attiva.
+ * v229 (13/11/2026): tolto Meta Pixel (nessuna campagna attiva).
+ * v229b (13/11/2026): ripristinato il tag Google G-HY29CH99B7 (destinazione: stream G-9XSMGGT00Y).
  * La pulizia di _fbp/_fbc resta, per chi aveva accettato prima della v229.
  *
  * Scelta salvata in localStorage, chiave "iwnla_consent", valore JSON:
@@ -19,7 +20,9 @@
   var KEY = 'iwnla_consent';
   var VER = 2;
   var TTL = 180 * 24 * 60 * 60 * 1000; // 180 giorni
-  var GA_IDS = ['G-9XSMGGT00Y'];
+  // G-HY29CH99B7 è il TAG Google del sito: inoltra i dati allo stream GA G-9XSMGGT00Y.
+  // Non caricare direttamente G-9XSMGGT00Y: gtag/js?id=G-9XSMGGT00Y non risponde (verificato il 13/11/2026).
+  var GA_IDS = ['G-HY29CH99B7'];
 
   // Pagina dell'informativa privacy e cookie (una per lingua). Da confermare quando la pagina è online.
   var PRIVACY_URL = {

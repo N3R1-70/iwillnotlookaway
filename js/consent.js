@@ -1,9 +1,11 @@
 /* iwillnotlookaway.org — gestione del consenso cookie (GDPR, Linee guida Garante 10/6/2021)
  *
  * Al caricamento parte SOLO Umami (anonimo, senza cookie), che resta nell'<head> delle pagine.
- * Google Analytics 4 e Meta Pixel vengono iniettati da loadTrackingScripts() SOLO se la scelta
+ * Google Analytics 4 viene iniettato da loadTrackingScripts() SOLO se la scelta
  * salvata è 'accepted'. Prima del clic su «Accetto» non parte alcuna richiesta verso
- * googletagmanager.com, google-analytics.com, connect.facebook.net o facebook.com.
+ * googletagmanager.com o google-analytics.com.
+ * v229 (13/11/2026): tolto Meta Pixel (nessuna campagna attiva); ID GA allineato alla proprietà attiva.
+ * La pulizia di _fbp/_fbc resta, per chi aveva accettato prima della v229.
  *
  * Scelta salvata in localStorage, chiave "iwnla_consent", valore JSON:
  *   {"v":"accepted"|"rejected","ts":<ms epoch scelta>,"exp":<ms epoch scadenza>,"ver":2}
@@ -17,8 +19,7 @@
   var KEY = 'iwnla_consent';
   var VER = 2;
   var TTL = 180 * 24 * 60 * 60 * 1000; // 180 giorni
-  var GA_IDS = ['G-HY29CH99B7'];
-  var PIXEL_ID = '924457534068346';
+  var GA_IDS = ['G-9XSMGGT00Y'];
 
   // Pagina dell'informativa privacy e cookie (una per lingua). Da confermare quando la pagina è online.
   var PRIVACY_URL = {
@@ -29,47 +30,47 @@
 
   var T = {
     it: {
-      txt: 'Questo sito usa solo strumenti tecnici e Umami, che conta le visite in forma anonima e senza cookie. Solo se clicchi «Accetto» attiviamo anche Google Analytics 4 e Meta Pixel, che usano cookie per misurare il traffico e i risultati delle campagne social: i dati non vengono venduti e vanno solo a Google e Meta per questo scopo. Se clicchi «Rifiuto» o chiudi con la X, resta tutto com’è: nessun cookie di analisi o di profilazione. Puoi cambiare scelta quando vuoi da «Gestisci cookie», in fondo a ogni pagina.',
+      txt: 'Questo sito usa solo strumenti tecnici e Umami, che conta le visite in forma anonima e senza cookie. Solo se clicchi «Accetto» attiviamo anche Google Analytics 4, che usa cookie per misurare il traffico: i dati non vengono venduti e vanno solo a Google per questo scopo. Se clicchi «Rifiuto» o chiudi con la X, resta tutto com’è: nessun cookie di analisi o di profilazione. Puoi cambiare scelta quando vuoi da «Gestisci cookie», in fondo a ogni pagina.',
       link: 'Informativa privacy e cookie', ok: 'Accetto', no: 'Rifiuto',
       close: 'Chiudi e rifiuta i cookie facoltativi', label: 'Scelta sui cookie', manage: 'Gestisci cookie'
     },
     en: {
-      txt: 'This site only uses technical tools and Umami, which counts visits anonymously and without cookies. Only if you click “Accept” do we also turn on Google Analytics 4 and Meta Pixel, which use cookies to measure traffic and the results of social media campaigns: data is not sold and goes only to Google and Meta for this purpose. If you click “Decline” or close with the X, nothing changes: no analytics or profiling cookies. You can change your choice at any time from “Manage cookies” at the bottom of every page.',
+      txt: 'This site only uses technical tools and Umami, which counts visits anonymously and without cookies. Only if you click “Accept” do we also turn on Google Analytics 4, which uses cookies to measure traffic: data is not sold and goes only to Google for this purpose. If you click “Decline” or close with the X, nothing changes: no analytics or profiling cookies. You can change your choice at any time from “Manage cookies” at the bottom of every page.',
       link: 'Privacy and cookie policy', ok: 'Accept', no: 'Decline',
       close: 'Close and decline optional cookies', label: 'Cookie choice', manage: 'Manage cookies'
     },
     fr: {
-      txt: 'Ce site n’utilise que des outils techniques et Umami, qui compte les visites de façon anonyme et sans cookies. C’est seulement si vous cliquez sur « J’accepte » que nous activons aussi Google Analytics 4 et Meta Pixel, qui utilisent des cookies pour mesurer le trafic et les résultats des campagnes sur les réseaux sociaux : les données ne sont pas vendues et vont uniquement à Google et à Meta à cette fin. Si vous cliquez sur « Je refuse » ou fermez avec le X, rien ne change : aucun cookie de mesure d’audience ni de profilage. Vous pouvez modifier votre choix à tout moment via « Gérer les cookies », en bas de chaque page.',
+      txt: 'Ce site n’utilise que des outils techniques et Umami, qui compte les visites de façon anonyme et sans cookies. C’est seulement si vous cliquez sur « J’accepte » que nous activons aussi Google Analytics 4, qui utilise des cookies pour mesurer le trafic : les données ne sont pas vendues et vont uniquement à Google à cette fin. Si vous cliquez sur « Je refuse » ou fermez avec le X, rien ne change : aucun cookie de mesure d’audience ni de profilage. Vous pouvez modifier votre choix à tout moment via « Gérer les cookies », en bas de chaque page.',
       link: 'Politique de confidentialité et cookies', ok: 'J’accepte', no: 'Je refuse',
       close: 'Fermer et refuser les cookies facultatifs', label: 'Choix des cookies', manage: 'Gérer les cookies'
     },
     de: {
-      txt: 'Diese Website nutzt nur technische Hilfsmittel und Umami, das Besuche anonym und ohne Cookies zählt. Nur wenn Sie auf „Akzeptieren“ klicken, aktivieren wir zusätzlich Google Analytics 4 und Meta Pixel, die Cookies verwenden, um den Datenverkehr und die Ergebnisse von Social-Media-Kampagnen zu messen: Daten werden nicht verkauft und gehen nur zu diesem Zweck an Google und Meta. Wenn Sie auf „Ablehnen“ klicken oder mit dem X schließen, bleibt alles, wie es ist: keine Analyse- oder Profiling-Cookies. Sie können Ihre Wahl jederzeit über „Cookies verwalten“ unten auf jeder Seite ändern.',
+      txt: 'Diese Website nutzt nur technische Hilfsmittel und Umami, das Besuche anonym und ohne Cookies zählt. Nur wenn Sie auf „Akzeptieren“ klicken, aktivieren wir zusätzlich Google Analytics 4, das Cookies verwendet, um den Datenverkehr zu messen: Daten werden nicht verkauft und gehen nur zu diesem Zweck an Google. Wenn Sie auf „Ablehnen“ klicken oder mit dem X schließen, bleibt alles, wie es ist: keine Analyse- oder Profiling-Cookies. Sie können Ihre Wahl jederzeit über „Cookies verwalten“ unten auf jeder Seite ändern.',
       link: 'Datenschutz- und Cookie-Hinweise', ok: 'Akzeptieren', no: 'Ablehnen',
       close: 'Schließen und optionale Cookies ablehnen', label: 'Cookie-Auswahl', manage: 'Cookies verwalten'
     },
     es: {
-      txt: 'Este sitio solo usa herramientas técnicas y Umami, que cuenta las visitas de forma anónima y sin cookies. Solo si haces clic en «Acepto» activamos también Google Analytics 4 y Meta Pixel, que usan cookies para medir el tráfico y los resultados de las campañas en redes sociales: los datos no se venden y van solo a Google y Meta para este fin. Si haces clic en «Rechazo» o cierras con la X, todo sigue igual: ninguna cookie de análisis ni de elaboración de perfiles. Puedes cambiar tu elección cuando quieras desde «Gestionar cookies», al final de cada página.',
+      txt: 'Este sitio solo usa herramientas técnicas y Umami, que cuenta las visitas de forma anónima y sin cookies. Solo si haces clic en «Acepto» activamos también Google Analytics 4, que usa cookies para medir el tráfico: los datos no se venden y van solo a Google para este fin. Si haces clic en «Rechazo» o cierras con la X, todo sigue igual: ninguna cookie de análisis ni de elaboración de perfiles. Puedes cambiar tu elección cuando quieras desde «Gestionar cookies», al final de cada página.',
       link: 'Política de privacidad y cookies', ok: 'Acepto', no: 'Rechazo',
       close: 'Cerrar y rechazar las cookies opcionales', label: 'Elección sobre cookies', manage: 'Gestionar cookies'
     },
     pt: {
-      txt: 'Este site usa apenas ferramentas técnicas e o Umami, que conta as visitas de forma anónima e sem cookies. Só se clicar em «Aceito» ativamos também o Google Analytics 4 e o Meta Pixel, que usam cookies para medir o tráfego e os resultados das campanhas nas redes sociais: os dados não são vendidos e vão apenas para a Google e a Meta para este fim. Se clicar em «Recuso» ou fechar com o X, fica tudo como está: nenhum cookie de análise ou de definição de perfis. Pode alterar a sua escolha a qualquer momento em «Gerir cookies», no fundo de cada página.',
+      txt: 'Este site usa apenas ferramentas técnicas e o Umami, que conta as visitas de forma anónima e sem cookies. Só se clicar em «Aceito» ativamos também o Google Analytics 4, que usa cookies para medir o tráfego: os dados não são vendidos e vão apenas para a Google para este fim. Se clicar em «Recuso» ou fechar com o X, fica tudo como está: nenhum cookie de análise ou de definição de perfis. Pode alterar a sua escolha a qualquer momento em «Gerir cookies», no fundo de cada página.',
       link: 'Política de privacidade e cookies', ok: 'Aceito', no: 'Recuso',
       close: 'Fechar e recusar os cookies opcionais', label: 'Escolha sobre cookies', manage: 'Gerir cookies'
     },
     tr: {
-      txt: 'Bu site yalnızca teknik araçları ve ziyaretleri anonim olarak, çerez kullanmadan sayan Umami’yi kullanır. Google Analytics 4 ve Meta Pixel’i yalnızca “Kabul” düğmesine tıklarsanız etkinleştiririz; bunlar trafiği ve sosyal medya kampanyalarının sonuçlarını ölçmek için çerez kullanır. Veriler satılmaz, yalnızca bu amaçla Google ve Meta’ya gider. “Reddet” düğmesine tıklarsanız ya da X ile kapatırsanız hiçbir şey değişmez: analiz veya profil oluşturma çerezi kullanılmaz. Seçiminizi istediğiniz zaman her sayfanın altındaki “Çerezleri yönet” bağlantısından değiştirebilirsiniz.',
+      txt: 'Bu site yalnızca teknik araçları ve ziyaretleri anonim olarak, çerez kullanmadan sayan Umami’yi kullanır. Google Analytics 4’ü yalnızca “Kabul” düğmesine tıklarsanız etkinleştiririz; trafiği ölçmek için çerez kullanır. Veriler satılmaz, yalnızca bu amaçla Google’a gider. “Reddet” düğmesine tıklarsanız ya da X ile kapatırsanız hiçbir şey değişmez: analiz veya profil oluşturma çerezi kullanılmaz. Seçiminizi istediğiniz zaman her sayfanın altındaki “Çerezleri yönet” bağlantısından değiştirebilirsiniz.',
       link: 'Gizlilik ve çerez politikası', ok: 'Kabul', no: 'Reddet',
       close: 'Kapat ve isteğe bağlı çerezleri reddet', label: 'Çerez seçimi', manage: 'Çerezleri yönet'
     },
     ar: {
-      txt: 'يستخدم هذا الموقع أدوات تقنية فقط، إضافة إلى Umami الذي يحصي الزيارات بشكل مجهول ومن دون ملفات تعريف الارتباط. ولا نفعّل Google Analytics 4 وMeta Pixel، اللذين يستخدمان ملفات تعريف الارتباط لقياس حركة الزيارات ونتائج حملات وسائل التواصل الاجتماعي، إلا إذا نقرت على «أوافق». لا تُباع البيانات، ولا تذهب إلا إلى Google وMeta لهذا الغرض. إذا نقرت على «أرفض» أو أغلقت الشريط بعلامة X، يبقى كل شيء كما هو: لا ملفات تعريف ارتباط للتحليل أو التنميط. يمكنك تغيير اختيارك في أي وقت من «إدارة ملفات تعريف الارتباط» أسفل كل صفحة.',
+      txt: 'يستخدم هذا الموقع أدوات تقنية فقط، إضافة إلى Umami الذي يحصي الزيارات بشكل مجهول ومن دون ملفات تعريف الارتباط. ولا نفعّل Google Analytics 4، الذي يستخدم ملفات تعريف الارتباط لقياس حركة الزيارات، إلا إذا نقرت على «أوافق». لا تُباع البيانات، ولا تذهب إلا إلى Google لهذا الغرض. إذا نقرت على «أرفض» أو أغلقت الشريط بعلامة X، يبقى كل شيء كما هو: لا ملفات تعريف ارتباط للتحليل أو التنميط. يمكنك تغيير اختيارك في أي وقت من «إدارة ملفات تعريف الارتباط» أسفل كل صفحة.',
       link: 'سياسة الخصوصية وملفات تعريف الارتباط', ok: 'أوافق', no: 'أرفض',
       close: 'إغلاق ورفض ملفات تعريف الارتباط الاختيارية', label: 'اختيار ملفات تعريف الارتباط', manage: 'إدارة ملفات تعريف الارتباط'
     },
     he: {
-      txt: 'האתר משתמש רק בכלים טכניים וב-Umami, שסופר ביקורים באופן אנונימי וללא עוגיות. רק אם תלחצו על „מסכים” נפעיל גם את Google Analytics 4 ואת Meta Pixel, שמשתמשים בעוגיות כדי למדוד את התנועה באתר ואת תוצאות הקמפיינים ברשתות החברתיות: הנתונים אינם נמכרים ומועברים רק ל-Google ול-Meta למטרה זו. אם תלחצו על „דוחה” או תסגרו עם ה-X, שום דבר לא משתנה: אין עוגיות ניתוח או פרופיילינג. אפשר לשנות את הבחירה בכל עת דרך „ניהול עוגיות” בתחתית כל עמוד.',
+      txt: 'האתר משתמש רק בכלים טכניים וב-Umami, שסופר ביקורים באופן אנונימי וללא עוגיות. רק אם תלחצו על „מסכים” נפעיל גם את Google Analytics 4, שמשתמש בעוגיות כדי למדוד את התנועה באתר: הנתונים אינם נמכרים ומועברים רק ל-Google למטרה זו. אם תלחצו על „דוחה” או תסגרו עם ה-X, שום דבר לא משתנה: אין עוגיות ניתוח או פרופיילינג. אפשר לשנות את הבחירה בכל עת דרך „ניהול עוגיות” בתחתית כל עמוד.',
       link: 'מדיניות פרטיות ועוגיות', ok: 'מסכים', no: 'דוחה',
       close: 'סגירה ודחיית עוגיות אופציונליות', label: 'בחירה לגבי עוגיות', manage: 'ניהול עוגיות'
     }
@@ -121,7 +122,7 @@
     return names.length;
   }
 
-  /* ---------- Google Analytics 4 + Meta Pixel: solo dopo «Accetto» ---------- */
+  /* ---------- Google Analytics 4: solo dopo «Accetto» ---------- */
   function loadTrackingScripts() {
     if (trackingLoaded || readChoice() !== 'accepted') return;
     trackingLoaded = true;
@@ -142,18 +143,6 @@
     g.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA_IDS[0]);
     document.head.appendChild(g);
 
-    // Meta Pixel (snippet ufficiale, eseguito qui invece che nell'HTML)
-    !function (f, b, e, v, n, t2, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t2 = b.createElement(e); t2.async = !0;
-      t2.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t2, s);
-    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    window.fbq('init', PIXEL_ID);
-    window.fbq('track', 'PageView');
   }
   window.loadTrackingScripts = loadTrackingScripts;
 
@@ -240,7 +229,7 @@
       loadTrackingScripts();
     } else {
       deleteThirdPartyCookies();
-      // GA/Meta erano già in memoria in questa pagina: si ricarica per toglierli davvero
+      // GA era già in memoria in questa pagina: si ricarica per toglierli davvero
       if (before === 'accepted' || trackingLoaded) location.reload();
     }
   }

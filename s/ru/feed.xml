@@ -6,9 +6,18 @@
 <description>Нарушения международного права — от Газы до Украины и Судана: аналитика, актуальные материалы и манифесты с указанием нормы, датированным источником и единой меркой для всех.</description>
 <language>ru-RU</language>
 <atom:link href="https://iwillnotlookaway.org/s/ru/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 12 Nov 2026 10:10:00 +0100</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 19:25:00 +0100</lastBuildDate>
 <generator>iwillnotlookaway.org gen_feeds.py</generator>
 <ttl>1440</ttl>
+<item>
+<title>Кому принадлежат машины? Проблемы: капитал, труд, энергия, вода</title>
+<link>https://iwillnotlookaway.org/s/ru/nd-who-owns-the-machines.html</link>
+<guid isPermaLink="true">https://iwillnotlookaway.org/s/ru/nd-who-owns-the-machines.html</guid>
+<pubDate>Tue, 17 Nov 2026 19:25:00 +0100</pubDate>
+<category>АНАЛИЗ</category>
+<description>Немногие группы инвестируют так, как никто до них, работа меняется быстрее, чем люди, которые её выполняют, а гонка искусственного интеллекта поглощает энергию и воду. Факты — и кто рискует заплатить дважды.</description>
+<enclosure url="https://iwillnotlookaway.org/s/ru/nd-who-owns-the-machines.jpg" type="image/jpeg"/>
+</item>
 <item>
 <title>Автономное оружие, женевская неделя: государства решают, будут ли у машин, которые выбирают, кого поразить, правила</title>
 <link>https://iwillnotlookaway.org/s/ru/nd-autonomous-weapons-geneva.html</link>

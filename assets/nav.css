@@ -1,0 +1,28 @@
+/* nav.css — barra di navigazione comune a tutte le pagine (v232).
+   Mobile (<=760px): logo + pulsante «Menu», voci e lingue in un pannello.
+   Desktop (>=761px): riga 1 logo + lingue, riga 2 voci. */
+#nav-toggle{display:none}
+@media(min-width:761px){
+#main-nav{display:grid;grid-template-columns:auto 1fr;align-items:center}
+#nav-logo-wrap{border:0;padding:8px 24px;justify-content:flex-start}
+#nav-logo{width:190px;max-width:none}
+#lang-bar{grid-row:1;grid-column:2;justify-content:flex-end;padding:0 18px}
+#nav-links{grid-column:1/-1;border-top:1px solid var(--line);border-bottom:0}
+}
+[dir=rtl] #lang-bar{justify-content:flex-start}
+@media(max-width:760px){
+#main-nav{display:flex;flex-wrap:wrap;align-items:center}
+#nav-logo-wrap{flex:1;justify-content:flex-start;border:0;padding:8px 16px}
+#nav-logo{width:170px;max-width:60vw}
+#nav-toggle{display:flex;align-items:center;gap:8px;margin:0 14px;background:none;border:1px solid var(--line);color:var(--pale);font:600 .62rem/1 "Source Serif 4",serif;letter-spacing:.2em;text-transform:uppercase;padding:10px 12px;cursor:pointer}
+#nav-toggle svg{width:14px;height:14px}
+#nav-toggle .ic-x{display:none}
+#main-nav.open #nav-toggle .ic-x{display:block}
+#main-nav.open #nav-toggle .ic-m{display:none}
+#main-nav.open #nav-toggle{border-color:var(--ember);color:var(--bone)}
+#nav-links,#lang-bar{display:none;flex-basis:100%}
+#main-nav.open #nav-links{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);padding:6px 0}
+#main-nav.open #nav-links .nav-link{padding:13px 20px;text-align:start}
+#main-nav.open #lang-bar{display:flex;border-top:1px solid var(--line);padding:6px 8px}
+#main-nav.open{max-height:100vh;overflow-y:auto}
+}

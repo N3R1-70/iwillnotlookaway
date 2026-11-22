@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-29",
+ "updated": "2026-11-22",
  "docs": [
   {
    "id": "corfu",
@@ -3838,6 +3838,184 @@
      "w": "С января по июнь 2026 года погибли 1396 мирных жителей и 7978 получили ранения — на 37% больше, чем за тот же период 2025 года. Июнь стал месяцем с наибольшим числом погибших мирных жителей с апреля 2022 года. Почти все жертвы — на территории, контролируемой правительством Украины; рост вызван прежде всего российскими ударами большой дальности ракетами и беспилотниками. Российские власти сообщают о 250 погибших и 1596 раненых мирных жителях на своей территории: миссия приводит эти данные, не проверив их.",
      "g": "Данные, проверенные миссией; российские данные лишь приводятся.",
      "r": ""
+    }
+   }
+  },
+  {
+   "id": "tagaeri",
+   "type": "iacthr",
+   "theater": "general",
+   "date": "2024-09-04",
+   "url": "https://corteidh.or.cr/docs/casos/articulos/seriec_537_esp.pdf",
+   "pieces": [
+    "nd-awa-arariboia"
+   ],
+   "text": {
+    "it": {
+     "o": "Corte interamericana dei diritti umani",
+     "r": "",
+     "t": "Popoli indigeni Tagaeri e Taromenane c. Ecuador",
+     "w": "Prima sentenza internazionale sui popoli in isolamento volontario. Il rispetto del non-contatto è la premessa di ogni azione dello Stato: deve prendere le precauzioni necessarie a evitare il contatto e proteggere questi popoli anche da terzi. L'Ecuador è condannato anche per non aver prevenuto un attacco del 2013 di cui conosceva il rischio.",
+     "g": "Sentenza, vincolante per l'Ecuador."
+    },
+    "en": {
+     "o": "Inter-American Court of Human Rights",
+     "r": "",
+     "t": "Tagaeri and Taromenane Indigenous Peoples v. Ecuador",
+     "w": "The first international judgment on peoples in voluntary isolation. Respect for no contact is the premise of every action of the State: it must take the precautions needed to avoid contact and protect these peoples from third parties too. Ecuador is also held responsible for failing to prevent a 2013 attack whose risk it knew.",
+     "g": "Judgment, binding on Ecuador."
+    },
+    "fr": {
+     "o": "Cour interaméricaine des droits de l'homme",
+     "r": "",
+     "t": "Peuples indigènes Tagaeri et Taromenane c. Équateur",
+     "w": "Premier arrêt international sur les peuples en isolement volontaire. Le respect du non-contact est la prémisse de toute action de l'État : il doit prendre les précautions nécessaires pour éviter le contact et protéger ces peuples aussi contre les tiers. L'Équateur est aussi condamné pour ne pas avoir prévenu une attaque de 2013 dont il connaissait le risque.",
+     "g": "Arrêt, obligatoire pour l'Équateur."
+    },
+    "de": {
+     "o": "Interamerikanischer Gerichtshof für Menschenrechte",
+     "r": "",
+     "t": "Indigene Völker Tagaeri und Taromenane gegen Ecuador",
+     "w": "Das erste internationale Urteil zu Völkern in freiwilliger Isolation. Die Achtung des Nicht-Kontakts ist die Voraussetzung jedes staatlichen Handelns: Der Staat muss die nötigen Vorkehrungen treffen, um Kontakt zu vermeiden, und diese Völker auch vor Dritten schützen. Ecuador wird auch verurteilt, weil es einen Angriff von 2013 nicht verhinderte, dessen Gefahr es kannte.",
+     "g": "Urteil, bindend für Ecuador."
+    },
+    "es": {
+     "o": "Corte Interamericana de Derechos Humanos",
+     "r": "",
+     "t": "Pueblos Indígenas Tagaeri y Taromenane vs. Ecuador",
+     "w": "Primera sentencia internacional sobre pueblos en aislamiento voluntario. El respeto del no contacto es la premisa de toda acción del Estado: debe adoptar las precauciones necesarias para evitar el contacto y proteger a estos pueblos también frente a terceros. Ecuador es condenado además por no haber prevenido un ataque de 2013 cuyo riesgo conocía.",
+     "g": "Sentencia, vinculante para Ecuador."
+    },
+    "pt": {
+     "o": "Tribunal Interamericano dos Direitos Humanos",
+     "r": "",
+     "t": "Povos Indígenas Tagaeri e Taromenane vs. Equador",
+     "w": "Primeira sentença internacional sobre povos em isolamento voluntário. O respeito pelo não contacto é a premissa de toda a ação do Estado: este deve tomar as precauções necessárias para evitar o contacto e proteger estes povos também face a terceiros. O Equador é também condenado por não ter prevenido um ataque de 2013 cujo risco conhecia.",
+     "g": "Sentença, vinculativa para o Equador."
+    },
+    "tr": {
+     "o": "Amerikalılararası İnsan Hakları Mahkemesi",
+     "r": "",
+     "t": "Tagaeri ve Taromenane Yerli Halkları - Ekvador",
+     "w": "Gönüllü yalıtım içinde yaşayan halklara ilişkin ilk uluslararası karar. Temassızlığa saygı, devletin her eyleminin ön koşuludur: devlet temastan kaçınmak için gerekli önlemleri almalı ve bu halkları üçüncü kişilere karşı da korumalıdır. Ekvador, riskini bildiği 2013'teki bir saldırıyı önlemediği için de sorumlu bulundu.",
+     "g": "Karar, Ekvador için bağlayıcı."
+    },
+    "zh": {
+     "o": "美洲人权法院",
+     "r": "",
+     "t": "塔加埃里人和塔罗梅纳内人原住民族诉厄瓜多尔案",
+     "w": "首个关于自愿隔离民族的国际判决。尊重不接触原则是国家一切行动的前提：国家必须采取必要的预防措施避免接触，并保护这些民族免受第三方侵害。厄瓜多尔还因未能防止一次其已知风险的2013年袭击而被判负有责任。",
+     "g": "判决，对厄瓜多尔具有约束力。"
+    },
+    "ar": {
+     "o": "محكمة البلدان الأمريكية لحقوق الإنسان",
+     "r": "",
+     "t": "الشعبان الأصليان تاغايري وتارومينان ضد الإكوادور",
+     "w": "أول حكم دولي بشأن الشعوب التي تعيش في عزلة طوعية. احترام عدم الاتصال هو منطلق كل عمل تقوم به الدولة: عليها أن تتخذ الاحتياطات اللازمة لتجنب الاتصال وأن تحمي هذه الشعوب من الغير أيضًا. وأُدينت الإكوادور كذلك لأنها لم تمنع هجومًا وقع عام 2013 وكانت تعلم بخطره.",
+     "g": "حكم ملزم للإكوادور."
+    },
+    "he": {
+     "o": "בית הדין הבין־אמריקאי לזכויות אדם",
+     "r": "",
+     "t": "העמים הילידים טגאאירי וטרומנאני נגד אקוודור",
+     "w": "פסק הדין הבינלאומי הראשון על עמים החיים בבידוד מרצון. כיבוד אי־המגע הוא נקודת המוצא לכל פעולה של המדינה: עליה לנקוט את אמצעי הזהירות הנחוצים כדי למנוע מגע ולהגן על עמים אלה גם מפני צדדים שלישיים. אקוודור חויבה גם משום שלא מנעה מתקפה ב־2013 שאת הסיכון לה הכירה.",
+     "g": "פסק דין, מחייב את אקוודור."
+    },
+    "ru": {
+     "o": "Межамериканский суд по правам человека",
+     "r": "",
+     "t": "Коренные народы тагаэри и тароменане против Эквадора",
+     "w": "Первое международное решение о народах в добровольной изоляции. Уважение принципа отсутствия контакта — исходная точка любых действий государства: оно должно принимать необходимые меры предосторожности, чтобы избежать контакта, и защищать эти народы также от третьих лиц. Эквадор признан ответственным и за то, что не предотвратил нападение 2013 года, о риске которого знал.",
+     "g": "Решение, обязательное для Эквадора."
+    }
+   }
+  },
+  {
+   "id": "xucuru",
+   "type": "iacthr",
+   "theater": "general",
+   "date": "2018-02-05",
+   "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_346_por.pdf",
+   "pieces": [
+    "nd-awa-arariboia"
+   ],
+   "text": {
+    "it": {
+     "o": "Corte interamericana dei diritti umani",
+     "r": "",
+     "t": "Popolo indigeno Xucuru e suoi membri c. Brasile",
+     "w": "Prima condanna del Brasile per i diritti di un popolo indigeno: violati la proprietà collettiva e il diritto a una giustizia in tempi ragionevoli, per i ritardi nella demarcazione e nella liberazione della terra dagli occupanti.",
+     "g": "Sentenza, vincolante per il Brasile."
+    },
+    "en": {
+     "o": "Inter-American Court of Human Rights",
+     "r": "",
+     "t": "Xucuru Indigenous People and its members v. Brazil",
+     "w": "Brazil's first conviction over the rights of an Indigenous people: violation of collective property and of the right to justice within a reasonable time, because of delays in demarcating the land and clearing it of occupants.",
+     "g": "Judgment, binding on Brazil."
+    },
+    "fr": {
+     "o": "Cour interaméricaine des droits de l'homme",
+     "r": "",
+     "t": "Peuple indigène Xucuru et ses membres c. Brésil",
+     "w": "Première condamnation du Brésil pour les droits d'un peuple indigène : violation de la propriété collective et du droit à une justice dans un délai raisonnable, en raison des retards dans la démarcation et dans l'expulsion des occupants de la terre.",
+     "g": "Arrêt, obligatoire pour le Brésil."
+    },
+    "de": {
+     "o": "Interamerikanischer Gerichtshof für Menschenrechte",
+     "r": "",
+     "t": "Indigenes Volk der Xucuru und seine Mitglieder gegen Brasilien",
+     "w": "Die erste Verurteilung Brasiliens wegen der Rechte eines indigenen Volkes: verletzt wurden das kollektive Eigentum und das Recht auf ein Verfahren in angemessener Frist, wegen der Verzögerungen bei der Demarkierung und bei der Räumung des Landes von Besetzern.",
+     "g": "Urteil, bindend für Brasilien."
+    },
+    "es": {
+     "o": "Corte Interamericana de Derechos Humanos",
+     "r": "",
+     "t": "Pueblo Indígena Xucuru y sus miembros vs. Brasil",
+     "w": "Primera condena de Brasil por los derechos de un pueblo indígena: violados la propiedad colectiva y el derecho a una justicia en un plazo razonable, por los retrasos en la demarcación y en el desalojo de los ocupantes de la tierra.",
+     "g": "Sentencia, vinculante para Brasil."
+    },
+    "pt": {
+     "o": "Tribunal Interamericano dos Direitos Humanos",
+     "r": "",
+     "t": "Povo Indígena Xucuru e seus membros vs. Brasil",
+     "w": "Primeira condenação do Brasil pelos direitos de um povo indígena: violados a propriedade coletiva e o direito a uma justiça em prazo razoável, devido aos atrasos na demarcação e na retirada dos ocupantes da terra.",
+     "g": "Sentença, vinculativa para o Brasil."
+    },
+    "tr": {
+     "o": "Amerikalılararası İnsan Hakları Mahkemesi",
+     "r": "",
+     "t": "Xucuru Yerli Halkı ve üyeleri - Brezilya",
+     "w": "Brezilya'nın bir yerli halkın haklarıyla ilgili ilk mahkûmiyeti: toprakların sınırlandırılmasındaki ve işgalcilerden arındırılmasındaki gecikmeler nedeniyle kolektif mülkiyet hakkı ile makul sürede yargılanma hakkı ihlal edildi.",
+     "g": "Karar, Brezilya için bağlayıcı."
+    },
+    "zh": {
+     "o": "美洲人权法院",
+     "r": "",
+     "t": "舒库鲁原住民族及其成员诉巴西案",
+     "w": "巴西首次因原住民族权利被判败诉：由于划界和清除土地上占用者的拖延，集体财产权和在合理期限内获得司法救济的权利遭到侵犯。",
+     "g": "判决，对巴西具有约束力。"
+    },
+    "ar": {
+     "o": "محكمة البلدان الأمريكية لحقوق الإنسان",
+     "r": "",
+     "t": "شعب شوكورو الأصلي وأفراده ضد البرازيل",
+     "w": "أول إدانة للبرازيل بشأن حقوق شعب أصلي: انتهاك الملكية الجماعية والحق في العدالة في أجل معقول، بسبب التأخير في ترسيم الأرض وإخلائها من شاغليها.",
+     "g": "حكم ملزم للبرازيل."
+    },
+    "he": {
+     "o": "בית הדין הבין־אמריקאי לזכויות אדם",
+     "r": "",
+     "t": "העם הילידי שוקורו וחבריו נגד ברזיל",
+     "w": "ההרשעה הראשונה של ברזיל בעניין זכויותיו של עם ילידי: הופרו הקניין הקולקטיבי והזכות להליך משפטי בזמן סביר, בשל העיכובים בתיחום האדמה ובפינוי הפולשים ממנה.",
+     "g": "פסק דין, מחייב את ברזיל."
+    },
+    "ru": {
+     "o": "Межамериканский суд по правам человека",
+     "r": "",
+     "t": "Коренной народ шукуру и его члены против Бразилии",
+     "w": "Первое осуждение Бразилии за нарушение прав коренного народа: нарушены право коллективной собственности и право на правосудие в разумный срок из-за затягивания демаркации земли и выселения с неё захватчиков.",
+     "g": "Решение, обязательное для Бразилии."
     }
    }
   }
